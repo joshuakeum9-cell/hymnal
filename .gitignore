@@ -5,3 +5,4 @@ public/hymns/
 src/generated/
 *.log
 .DS_Store
+__pycache__/

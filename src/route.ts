@@ -22,6 +22,25 @@ export function parseHash(hash: string): Route {
   return { name: 'notfound' }
 }
 
+// Each history entry carries its depth inside the app, so Back never leaves the site when a
+// shared link was opened directly (depth 0), and still behaves normally after in-app navigation.
+let depth: number = typeof history.state?.d === 'number' ? history.state.d : 0
+if (typeof history.state?.d !== 'number') history.replaceState({ d: depth }, '')
+window.addEventListener('hashchange', () => {
+  const d = history.state?.d
+  if (typeof d === 'number') {
+    depth = d // back, forward, or an in-place update
+  } else {
+    depth += 1 // a new page opened by a link
+    history.replaceState({ d: depth }, '')
+  }
+})
+
+export function goBack(fallback = '#/'): void {
+  if (depth > 0) history.back()
+  else go(fallback, true)
+}
+
 export function useRoute(): Route {
   const [route, setRoute] = useState(() => parseHash(location.hash))
   useEffect(() => {
@@ -35,7 +54,7 @@ export function useRoute(): Route {
 export function go(hash: string, replace = false): void {
   const target = hash.startsWith('#') ? hash : `#${hash}`
   if (replace) {
-    history.replaceState(null, '', target)
+    history.replaceState({ d: depth }, '', target)
     window.dispatchEvent(new HashChangeEvent('hashchange'))
   } else {
     location.hash = target

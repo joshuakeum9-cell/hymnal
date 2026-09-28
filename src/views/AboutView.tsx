@@ -57,7 +57,7 @@ export function AboutView() {
         </ul>
 
         <h2>Use it offline</h2>
-        <p>Save every available hymn on this device so the site works in the sanctuary without Wi-Fi. It uses a few megabytes.</p>
+        <p>Save every available hymn on this device so the site works in the sanctuary without Wi-Fi. It downloads about 2 MB and takes about 40 MB of space.</p>
         <button class="btn primary" onClick={downloadAll} disabled={!published.length || (progress != null && progress.done < progress.total)}>
           {progress == null ? `Save all ${published.length || ''} hymns` : progress.done < progress.total ? `Saving ${progress.done} of ${progress.total}…` : 'All hymns saved'}
         </button>

@@ -27,6 +27,7 @@ export type RenderRequest = {
   cacheKey: string
   xml: string
   mode: LyricMode
+  chords?: boolean
   delta: number        // semitones
   width: number        // CSS px of the score column
   zoom: number
@@ -39,7 +40,7 @@ export type SystemBox = { top: number; bottom: number }
 /** systems are in the SVG's viewBox units; viewWidth is the viewBox width */
 export type RenderResult = { svg: string; ms: number; cached: boolean; systems: SystemBox[]; viewWidth: number }
 
-const ENGINE_VERSION = 'osmd-2.1.3-r16'
+const ENGINE_VERSION = 'osmd-2.1.3-r20'
 const memory = new Map<string, string>()
 const MEMORY_MAX = 30
 const IDB_MAX = 80
@@ -80,6 +81,40 @@ export async function cachedSvg(key: string): Promise<string | null> {
   return null
 }
 
+/**
+ * OSMD sizes a measure by what is written in it, so a measure holding one whole note is drawn
+ * far narrower than a measure of four quarter notes and its word runs into the barline.
+ * Give every measure at least MIN_SHARE of the width per beat that the typical measure gets.
+ * Returns true when some measure was widened (the caller renders again).
+ */
+const MIN_SHARE = 0.8
+function evenMeasures(osmd: OpenSheetMusicDisplay): boolean {
+  type M = { minimumStaffEntriesWidth: number; parentSourceMeasure: { Duration: { RealValue: number }; WidthFactor?: number; ImplicitMeasure?: boolean } }
+  const list = (osmd.GraphicSheet as unknown as { MeasureList: (M | undefined)[][] }).MeasureList
+  const rows = list.map(ms => ms.find(Boolean)).filter((m): m is M => !!m && !m.parentSourceMeasure.ImplicitMeasure)
+  const perBeat = rows
+    .map(m => m.minimumStaffEntriesWidth / ((m.parentSourceMeasure.WidthFactor ?? 1) * m.parentSourceMeasure.Duration.RealValue))
+    .filter(x => Number.isFinite(x) && x > 0)
+    .sort((a, b) => a - b)
+  if (perBeat.length < 3) return false
+  const typical = perBeat[Math.floor(perBeat.length / 2)]
+  let changed = false
+  for (const m of rows) {
+    const src = m.parentSourceMeasure
+    const factor = src.WidthFactor ?? 1
+    const base = m.minimumStaffEntriesWidth / factor
+    const want = typical * MIN_SHARE * src.Duration.RealValue
+    if (base > 0 && base < want * 0.97) {
+      const next = want / base
+      if (Math.abs(next - factor) > 0.02) {
+        src.WidthFactor = next
+        changed = true
+      }
+    }
+  }
+  return changed
+}
+
 const SPACING_STEPS = [
   { elongation: 2.5, spread: 1 }, // OSMD defaults
   { elongation: 4, spread: 1 },
@@ -94,7 +129,10 @@ const SPACING_STEPS = [
  * heights for a short syllable) from where OSMD put it.
  */
 export function separateLyrics(host: Element): void {
-  type Item = { el: SVGTextElement; x: number; w: number; h: number; x0: number; word: boolean }
+  type Item = { el: SVGTextElement | null; x: number; w: number; h: number; x0: number; word: boolean; wall?: boolean }
+  // barlines (the tall connector lines of each system) are walls a word may not straddle
+  const walls = (Array.from(host.querySelectorAll('svg .vf-connector rect')) as SVGRectElement[])
+    .map(r => r.getBBox()).filter(b => b.width < 4 && b.height > 20)
   const rows = new Map<number, Item[]>()
   for (const t of Array.from(host.querySelectorAll('svg text')) as SVGTextElement[]) {
     const s = t.textContent?.trim() ?? ''
@@ -106,14 +144,23 @@ export function separateLyrics(host: Element): void {
     row.push({ el: t, x: b.x, w: b.width, h: b.height, x0: b.x, word: s !== '-' })
     rows.set(key, row)
   }
-  for (const row of rows.values()) {
+  for (const [y, row] of rows) {
+    if (!row.some(i => i.el?.closest('.lyrics, .dash') || i.el?.classList.contains('lyrics'))) {
+      // chord symbols and other text: only keep them apart, no walls
+    } else {
+      const mid = y + row[0].h / 2
+      for (const b of walls) {
+        if (b.y <= mid && mid <= b.y + b.height) row.push({ el: null, x: b.x, w: b.width, h: 0, x0: b.x, word: false, wall: true })
+      }
+    }
     if (row.length < 2) continue
-    row.sort((a, b) => a.x - b.x)
+    // order by centre, so a word under the first note of a measure stays right of its barline
+    row.sort((a, b) => (a.x + a.w / 2) - (b.x + b.w / 2))
     // OSMD sometimes draws two hyphens on top of each other; they read as one, so keep one
     for (let i = row.length - 1; i > 0; i--) {
       const a = row[i - 1], b = row[i]
-      if (!a.word && !b.word && b.x < a.x + a.w) {
-        b.el.remove()
+      if (!a.word && !b.word && !a.wall && !b.wall && b.x < a.x + a.w) {
+        b.el?.remove()
         row.splice(i, 1)
       }
     }
@@ -123,16 +170,22 @@ export function separateLyrics(host: Element): void {
       let moved = false
       for (let i = 1; i < row.length; i++) {
         const a = row[i - 1], b = row[i]
-        const need = a.x + a.w + (a.word && b.word ? gap : 1) - b.x
+        if (a.wall && b.wall) continue
+        const need = a.x + a.w + (a.word && b.word ? gap : a.wall || b.wall ? gap / 2 : 1) - b.x
         if (need > 0.5) {
-          a.x -= need / 2
-          b.x += need / 2
+          if (a.wall) b.x += need
+          else if (b.wall) a.x -= need
+          else {
+            a.x -= need / 2
+            b.x += need / 2
+          }
           moved = true
         }
       }
       if (!moved) break
     }
     for (const it of row) {
+      if (!it.el) continue
       const limit = Math.max(it.w, it.h * 1.5)
       const dx = Math.max(-limit, Math.min(limit, it.x - it.x0))
       if (Math.abs(dx) > 0.2) it.el.setAttribute('x', String(Number(it.el.getAttribute('x')) + dx))
@@ -222,6 +275,9 @@ class Renderer {
     r.LyricsXPaddingWidthThreshold = 1.1
     r.LyricsAlignmentStandard = m.TextAlignmentEnum.CenterBottom
     r.VerticalBetweenLyricsDistance = 0.4
+    // room between a barline and the first and last notes, so a word centred under them stays in its measure
+    r.MeasureLeftMargin = 1.8
+    r.MeasureRightMargin = 0.8
     r.MinSkyBottomDistBetweenSystems = 3
     this.osmd = osmd
     if (import.meta.env.DEV) (window as any)[`__osmd_${this.format}`] = osmd
@@ -236,7 +292,7 @@ class Renderer {
       const t0 = performance.now()
       const osmd = await this.engine()
       this.host.style.width = `${Math.max(280, Math.round(req.width))}px`
-      const doc = filterLyrics(req.xml, req.mode)
+      const doc = filterLyrics(req.xml, req.mode, req.chords ?? true)
       await osmd.load(doc as unknown as string)
       osmd.Sheet.Transpose = req.delta
       osmd.zoom = req.zoom
@@ -251,6 +307,7 @@ class Renderer {
         rules.VoiceSpacingMultiplierVexflow = this.spacing.mult * step.spread
         rules.VoiceSpacingAddendVexflow = this.spacing.add * step.spread
         osmd.render()
+        if (evenMeasures(osmd)) osmd.render()
         if (lyricCollisions(this.host) === 0) break
       }
       // OSMD only pads to the right of a long word, so a short word before a long one can

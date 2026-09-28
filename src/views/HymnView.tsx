@@ -129,11 +129,12 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
     window.addEventListener('resize', on)
     return () => window.removeEventListener('resize', on)
   }, [])
+  const chords = prefs.chords !== false
   const zoom = Math.round(baseZoom(width, vh > 0 ? vh : 0) * prefs.zoom * 100) / 100
   useEffect(() => {
     if (!hymn || !row?.f || width < 100) return
     const my = ++token.current
-    const cacheKey = `${n}|${row.f}|${delta}|${mode}|${width}|${zoom}|screen`
+    const cacheKey = `${n}|${row.f}|${delta}|${mode}|${chords}|${width}|${zoom}|screen`
     let cancelled = false
     setError(null)
     ;(async () => {
@@ -146,7 +147,7 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
       }
       setBusy(true)
       try {
-        const res = await screenRenderer().render({ cacheKey, xml: hymn.xml, mode, delta, width, zoom })
+        const res = await screenRenderer().render({ cacheKey, xml: hymn.xml, mode, chords, delta, width, zoom })
         if (my === token.current) {
           setSvg(res.svg)
           setError(null)
@@ -162,7 +163,7 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
       cancelled = true
       setBusy(false)
     }
-  }, [hymn, row?.f, delta, mode, width, zoom])
+  }, [hymn, row?.f, delta, mode, chords, width, zoom])
 
   // neighbours
   const setIdx = inSet ? prefs.setList.findIndex(i => i.n === n) : -1
@@ -247,7 +248,7 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
     if (!hymn || !row) return
     setPrinting(true)
     try {
-      const r = await printHymns([{ row, hymn, delta, mode, keyName: keyLabel(key, minor), origName: keyLabel(origTonic, minor) }], prefs.paper)
+      const r = await printHymns([{ row, hymn, delta, mode, chords, keyName: keyLabel(key, minor), origName: keyLabel(origTonic, minor) }], prefs.paper)
       setPrintReady(r === 'tap')
     } finally {
       setPrinting(false)
@@ -302,6 +303,10 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
                 {inSetList ? <IconCheck size={18} /> : <IconListAdd size={20} />}
                 <span class="set-btn-long">{inSetList ? 'In set list' : 'Add to set'}</span>
                 <span class="set-btn-short" aria-hidden="true">{inSetList ? 'In set' : 'Set'}</span>
+              </button>
+              <button class={`btn chords-btn ${chords ? 'on' : ''}`} aria-pressed={chords} onClick={() => setPrefs({ chords: !chords })}
+                title={chords ? 'Hide chord letters' : 'Show chord letters'}>
+                Chords
               </button>
               <button class="icon-btn" aria-label="Print" onClick={doPrint} disabled={!hymn || printing}><IconPrint /></button>
               <button class="icon-btn" aria-label={prefs.dark ? 'Light pages' : 'Dark pages for the stage'} onClick={() => setPrefs({ dark: !prefs.dark })}>

@@ -1,5 +1,5 @@
 # 634 All Things Come of Thee, O Lord: English words, one verse per block.
 # status: proposed
 
-All things come of Thee, O Lord,
-And of Thine own have we given Thee. Amen.
+All~things~come~of~Thee, O Lord,
+And~of~Thine~own have we given Thee. Amen.

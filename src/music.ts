@@ -93,8 +93,8 @@ function lyricLang(lyric: Element): string {
   return Number(lyric.getAttribute('number') ?? 1) % 2 === 1 ? 'ko' : 'en'
 }
 
-/** Parse the MusicXML and keep only the lyric lines for the chosen mode, renumbered 1..n. */
-export function filterLyrics(xml: string, mode: LyricMode): Document {
+/** Parse the MusicXML and keep only the lyric lines for the chosen mode, renumbered 1..n; drop chord letters when chords is false. */
+export function filterLyrics(xml: string, mode: LyricMode, chords = true): Document {
   const doc = new DOMParser().parseFromString(xml, 'application/xml')
   if (doc.getElementsByTagName('parsererror').length) throw new Error('Could not read this hymn file')
   const lyrics = Array.from(doc.getElementsByTagName('lyric'))
@@ -110,6 +110,7 @@ export function filterLyrics(xml: string, mode: LyricMode): Document {
   const map = new Map(numbers.map((n, i) => [n, String(i + 1)]))
   for (const l of kept) l.setAttribute('number', map.get(Number(l.getAttribute('number') ?? 1)) ?? '1')
   for (const ll of Array.from(doc.getElementsByTagName('lyric-language'))) ll.parentNode?.removeChild(ll)
+  if (!chords) for (const h of Array.from(doc.getElementsByTagName('harmony'))) h.parentNode?.removeChild(h)
   return doc
 }
 

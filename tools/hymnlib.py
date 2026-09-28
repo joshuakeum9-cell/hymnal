@@ -274,6 +274,9 @@ def english_syllables(text: str, use_dict: bool = True) -> list[str]:
     out: list[str] = []
     text = text.replace("—", "— ").replace("–", "– ")
     for word in text.split():
+        if "~" in word:
+            out.append(word)  # words joined with ~ share one note ("of~the")
+            continue
         if not re.search(r"[A-Za-z]", word):
             if out:
                 out[-1] = out[-1] + word if not out[-1].endswith("-") else out[-1]

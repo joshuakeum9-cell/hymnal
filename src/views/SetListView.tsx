@@ -89,7 +89,7 @@ export function SetListView({ params }: { params: URLSearchParams }) {
         const orig = chipFor(originalTonic(row.fi ?? 0, minor), minor)
         const key = it.key ?? orig
         const top = melodyTop(new DOMParser().parseFromString(hymn.xml, 'application/xml'))
-        items.push({ row, hymn, delta: semitoneDelta(orig, key, top), mode: it.mode ?? 'both', keyName: keyLabel(key, minor), origName: keyLabel(orig, minor) })
+        items.push({ row, hymn, delta: semitoneDelta(orig, key, top), mode: it.mode ?? 'both', chords: prefs.chords !== false, keyName: keyLabel(key, minor), origName: keyLabel(orig, minor) })
       }
       if (skipped.length) setMsg(`Not printed because the music is not on the site: ${skipped.join(', ')}.`)
       if (!items.length) setMsg(skipped.length ? 'None of these hymns have music on the site yet.' : 'Nothing to print yet.')

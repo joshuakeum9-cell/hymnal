@@ -2,11 +2,11 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: auto, rough, rough, rough, rough)
+# quality: auto (per verse: auto, auto, auto, auto, auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 v1: There were ninety and nine that safely lay In the shel- ter of the fold, But one was out on the hills away, Far off from the gates of gold; Away on the moun- tains wild and bare, A- way from the ten- der Shep- herd's care, A- way from the ten- der Shep- herd's care.
-v2: ! could not place 62 syllables on 56 notes
-v3: ! could not place 62 syllables on 56 notes
-v4: ! could not place 61 syllables on 56 notes
-v5: ! could not place 61 syllables on 56 notes
+v2: "Lord, Thou hast here~Thy nine- ty and~nine; Are they not e- nough for~Thee?" But~the Shep- herd made an- swer: "This of Mine Has wan- dered a- way from Me; And al- though the road be rough and steep, I go to~the des- ert to find My sheep, I go to~the des- ert to find My sheep."
+v3: But~none of~the ran- somed ev- er knew How deep were~the wa- ters crossed; Nor how dark was~the night that~the Lord passed through Ere He found His sheep that was lost. Out in~the des- ert He heard its cry, Sick and help- less, and read- y to die; Sick and help- less, and read- y to die.
+v4: "Lord, whence are those blood- drops all~the way That mark out~the moun- tain's track?" "They were shed~for one who had gone a- stray Ere~the Shep- herd could bring him back." "Lord, whence are~Thy hands so rent and torn?" "They're pierced to- night by man- y a thorn; They're pierced to- night by man- y a thorn."
+v5: But all through the moun- tains, thunder- riv'n, And up from~the rock- y steep, There a- rose a glad cry to~the gate of heav'n, "Re- joice! I have found My sheep!" And~the an- gels e- choed a- round the throne, "Re- joice, for~the Lord brings back His own! Re- joice, for~the Lord brings back His own!"

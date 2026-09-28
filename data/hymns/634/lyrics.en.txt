@@ -5,4 +5,4 @@
 # quality: rough (per verse: rough)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: ! could not place 18 syllables on 13 notes
+v1: All~things~come~of~Thee, O _ Lord, And~of~Thine~own have we _ giv- en Thee. A- men.

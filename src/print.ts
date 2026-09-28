@@ -4,7 +4,7 @@ import type { Hymn, Row } from './data'
 import type { LyricMode } from './music'
 import { printRenderer, type SystemBox } from './score'
 
-export type PrintItem = { row: Row; hymn: Hymn; delta: number; mode: LyricMode; keyName: string; origName: string }
+export type PrintItem = { row: Row; hymn: Hymn; delta: number; mode: LyricMode; keyName: string; origName: string; chords?: boolean }
 
 const PAPER = {
   // printable area at 96 CSS px per inch with 0.5 inch margins
@@ -68,8 +68,8 @@ export async function printHymns(items: PrintItem[], paper: 'letter' | 'a4'): Pr
   const renderer = printRenderer()
   for (const it of items) {
     const res = await renderer.render({
-      cacheKey: `print|${it.row.n}|${it.row.f}|${it.delta}|${it.mode}|${paper}`,
-      xml: it.hymn.xml, mode: it.mode, delta: it.delta, width: P.w, zoom: PRINT_ZOOM, noCache: true,
+      cacheKey: `print|${it.row.n}|${it.row.f}|${it.delta}|${it.mode}|${it.chords !== false}|${paper}`,
+      xml: it.hymn.xml, mode: it.mode, chords: it.chords !== false, delta: it.delta, width: P.w, zoom: PRINT_ZOOM, noCache: true,
     })
     const tpl = document.createElement('template')
     tpl.innerHTML = res.svg

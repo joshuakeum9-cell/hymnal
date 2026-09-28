@@ -180,6 +180,39 @@ def grade(cost: float, t: int) -> str:
     return "rough"
 
 
+SMALL = set("a an the of to in on at by for from with and but or as is was be his my thy our your her its i he we ye it so".split())
+
+
+def join_small(tokens: list[str], need: int) -> list[str]:
+    """Put pairs of short words on one note ("to~the", "of~His") when there are more syllables
+    than notes, the way hymnals set a quick pair of unstressed words under one note."""
+    toks = list(tokens)
+
+    def word(t: str) -> str:
+        return re.sub(r"[^a-z']", "", t.lower())
+    for _ in range(need):
+        best, score = None, 0
+        for i in range(len(toks) - 1):
+            a, b = toks[i], toks[i + 1]
+            if a.endswith("-") or "~" in a or "~" in b or (i and toks[i - 1].endswith("-")):
+                continue
+            if re.search(r"[,.;:!?]$", a):
+                continue  # never across a comma or a line end
+            sc = 0
+            if word(a) in SMALL:
+                sc += 2
+            if word(b) in SMALL and not b.endswith("-"):
+                sc += 2
+            if not b.endswith("-"):
+                sc += 1
+            if sc > score:
+                best, score = i, sc
+        if best is None or score < 3:
+            break
+        toks[best:best + 2] = [toks[best] + "~" + toks[best + 1]]
+    return toks
+
+
 _CHECKS = None
 _STOP = set("a an the of to and in on o my me i is are be for with his thy thee thou our we you your "
             "he him it at as by from all this that when who what whom".split())
@@ -320,6 +353,8 @@ def process(n: int, hymn_en: dict, force: bool) -> dict:
                 use = vt
                 if 0 < len(vt) - len(path) <= 4:
                     use = elide(vt, len(vt) - len(path))
+                if 0 < len(use) - len(path) <= 12:
+                    use = join_small(use, len(use) - len(path))
                 res, cost = align(path, use, k, korean_line_ends(path, k, groups))
                 if res is not None:
                     candidates.append((cost / max(len(vt), 1), cost, res, path))

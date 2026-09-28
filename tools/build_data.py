@@ -27,6 +27,7 @@ from lxml import etree
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from hymnlib import XML_LANG, VERSE_PREFIX, melody_slots  # noqa: E402
+from chords import add_chords  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CHO = "ㄱㄲㄴㄷㄸㄹㅁㅂㅃㅅㅆㅇㅈㅉㅊㅋㅌㅍㅎ"
@@ -64,7 +65,8 @@ def parse_en(path: str) -> tuple[dict, str]:
 
 
 def token_text(tok: str) -> tuple[str, bool]:
-    """'fel-' -> ('fel', True)."""
+    """'fel-' -> ('fel', True); 'of~the' -> ('of the', False) (two words on one note)."""
+    tok = tok.replace("~", " ")
     if tok.endswith("-") and len(tok) > 1:
         return tok[:-1], True
     return tok, False
@@ -238,7 +240,10 @@ def main(argv):
         kv = max((v for s in slots for v in s.ko), default=0)
         en, quality = parse_en(os.path.join(d, "lyrics.en.txt"))
         en_mode = 0
-        if en and (quality in ("exact", "auto", "reviewed") or english_all):
+        # every verse placed (even roughly) goes under the notes: a band wants English under each
+        # Korean syllable; a verse that could not be placed at all leaves the hymn as text
+        placed = bool(en) and all(v is not None for v in en.values())
+        if en and (quality in ("exact", "auto", "reviewed") or english_all or placed):
             try:
                 add_english(root, slots, en)
                 en_mode = 1
@@ -248,6 +253,7 @@ def main(argv):
         if en_mode == 0 and text_en:
             en_mode = 2
         drop_doubled_lyrics(root)
+        add_chords(root)  # chord letters for the band, read from the four-part harmony
         # declare lyric languages for other software
         defaults = root.find("defaults")
         for num in sorted({int(ly.get("number")) for ly in root.iter("lyric")}):

@@ -65,21 +65,23 @@ export function SearchView() {
 
       <form class="search-form" onSubmit={onSubmit} role="search">
         <label class="visually-hidden" for="q">{byTitle ? 'Search by title or first line' : 'Hymn number'}</label>
-        <input
-          id="q"
-          ref={input}
-          class={`search-input ${byTitle ? 'is-text' : 'is-number'}`}
-          type="text"
-          inputMode={byTitle ? 'text' : 'numeric'}
-          pattern={byTitle ? undefined : '[0-9]*'}
-          enterKeyHint="go"
-          autoComplete="off"
-          autoCorrect="off"
-          spellcheck={false}
-          placeholder={byTitle ? '제목 또는 가사 첫 줄, ㅈㅇㅊㅈ' : prefs.oldNumbers ? '통일찬송가 번호' : '장 번호'}
-          value={q}
-          onInput={onInput}
-        />
+        <div class={`search-field ${byTitle ? 'is-text' : 'is-number'}`}>
+          <input
+            id="q"
+            ref={input}
+            class={`search-input ${byTitle ? 'is-text' : 'is-number'}`}
+            type="text"
+            inputMode={byTitle ? 'text' : 'numeric'}
+            pattern={byTitle ? undefined : '[0-9]*'}
+            enterKeyHint="go"
+            autoComplete="off"
+            autoCorrect="off"
+            spellcheck={false}
+            value={q}
+            onInput={onInput}
+          />
+          {q ? null : <span class="search-hint" aria-hidden="true">{byTitle ? '제목 또는 가사 첫 줄, ㅈㅇㅊㅈ' : prefs.oldNumbers ? '통일찬송가 번호' : '장 번호'}</span>}
+        </div>
         <div class="search-modes" role="group" aria-label="Search by">
           <button type="button" class={!byTitle && !prefs.oldNumbers ? 'on' : ''} aria-pressed={!byTitle && !prefs.oldNumbers}
             onClick={() => { setByTitle(false); setPrefs({ oldNumbers: false }); setQ(''); input.current?.focus() }}>

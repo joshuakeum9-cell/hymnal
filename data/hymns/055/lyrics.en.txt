@@ -5,4 +5,4 @@
 # quality: auto (per verse: auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Lord, let us now de- part in peace, Who _ in Thy name are gath- _ ered here; _ Dis- close the bright- ness of Thy face, And _ be for- ev- er near.A- men.
+v1: Lord, let us now de- part in peace, Who _ in Thy name are gath- _ ered here; _ Dis- close the bright- ness of Thy face, And be for- ev- er near. A- men.

@@ -1,8 +1,0 @@
-# 5 From All that Dwell Below the Skies
-# English lyrics placed on the melody notes, one token per note, verse by verse.
-# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
-# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: exact (per verse: exact)
-# status: proposed
-# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Let earth and sky And all be- low _ _ Praise God, from whom all bless- ings flow, Al- might- y one, Lord God of Hosts, Fa- ther and Son _ _ and Ho- ly Ghost! A- men.

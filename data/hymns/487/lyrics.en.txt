@@ -2,10 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: auto, auto, auto, auto)
+# quality: rough (per verse: auto, auto, auto, rough)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 v1: Light af- ter dark- _ ness, Gain af- ter loss, Strength af- ter weak- _ ness, Crown af- ter cross Sweet af- ter bit- _ ter, Hope af- ter fears, Home af- ter wna- der- ing, Praise af- ter tears.
 v2: Sheaves af- ter sow- _ ing, Sun af- ter rain, Sight af- ter mys- te- ry, Peace af- ter pain Joy af- ter sor- _ row, Calm af- ter blast, Rest af- ter wea- ri- ness, Sweet rest at last.
-v3: Near af- ter dis- _ tant, Gleam af- ter gloom, Love af- ter lone- li- ness, Life af- ter tomb Af- ter long ag- _ o- ny,Rap- ture of bliss, Right was the path- _ way Lead- ing to this.
-v4: Bliss af- ter ag- _ o- ny,Gain af- ter loss, Home af- ter wan- der- ing, Grown af- ter cross. Af- ter breath's fail- _ ure, Life ev- er- more. Such _ ways are _ truth, Bless- ed and sure!
+v3: Near af- ter dis- _ tant, Gleam af- ter gloom, Love af- ter lone- li- ness, Life af- ter tomb Af- ter long ag- o- ny, Rap- ture of bliss, Right was the path- _ way Lead- ing to this.
+v4: Bliss af- ter ag- o- ny, Gain af- ter loss, Home af- ter wan- der- ing, Grown af- ter cross. Af- ter breath's fail- _ ure, Life ev- er- more. Such _ ways are _ truth, Bless- ed and sure!

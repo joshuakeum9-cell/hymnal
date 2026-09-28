@@ -217,6 +217,8 @@ def clean_english(text: str) -> str:
         _FIXES = [(re.compile(r"(?i)(?<![A-Za-z'-])" + re.escape(k) + r"(?![A-Za-z])"), v)
                   for k, v in sorted(raw.items(), key=lambda kv: -len(kv[0])) if not k.startswith("_")]
     text = _JOINED.sub(lambda m: m.group(1) + " ", text)
+    text = re.sub(r"([,;:!?])(?=[A-Za-z])", r"\1 ", text)  # "cross,I" -> "cross, I"
+    text = re.sub(r"(?<=[a-z])\.(?=[A-Z])", ". ", text)     # "arms.What" -> "arms. What"
     for rx, rep in _FIXES:
         def sub(m, rep=rep):
             w = m.group(0)

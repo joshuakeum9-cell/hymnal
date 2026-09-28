@@ -180,6 +180,41 @@ def grade(cost: float, t: int) -> str:
     return "rough"
 
 
+_CHECKS = None
+_STOP = set("a an the of to and in on o my me i is are be for with his thy thee thou our we you your "
+            "he him it at as by from all this that when who what whom".split())
+
+
+def _words(s: str) -> list[str]:
+    s = s.lower().replace("’", "'").replace("ev'ry", "every").replace("'", "").replace("-", "")
+    return re.sub(r"[^a-z ]", " ", s).split()
+
+
+def english_matches_title(n: int, meta: dict, hymn_en: dict) -> bool:
+    """True when the first English verse contains most words of the English title (either source).
+
+    Guards against the English source pairing a hymn with another hymn's words.
+    """
+    global _CHECKS
+    if _CHECKS is None:
+        p = os.path.join(ROOT, "data/english_checks.json")
+        _CHECKS = json.load(open(p, encoding="utf-8")) if os.path.exists(p) else {}
+    if n in _CHECKS.get("exclude", []):
+        return False
+    if n in _CHECKS.get("verified_ok", []):
+        return True
+    verses = [v for v in hymn_en.get("lyrics", []) if any(l.get("en") for l in v.get("lines", []))]
+    if not verses:
+        return True  # nothing to show anyway
+    first = set(_words(" ".join(clean_english(l["en"]) for l in verses[0]["lines"] if l.get("en"))))
+    best = 0.0
+    for title in (meta.get("title_en") or "", meta.get("original_title") or ""):
+        tw = [w for w in _words(title) if w not in _STOP]
+        if tw:
+            best = max(best, sum(w in first for w in tw) / len(tw))
+    return best >= 0.6
+
+
 def process(n: int, hymn_en: dict, force: bool) -> dict:
     d = os.path.join(ROOT, f"data/hymns/{n:03d}")
     meta = json.load(open(os.path.join(d, "meta.json"), encoding="utf-8"))
@@ -190,6 +225,11 @@ def process(n: int, hymn_en: dict, force: bool) -> dict:
             if os.path.exists(pth):
                 os.remove(pth)
         return {"n": n, "status": "not published"}
+    if not english_matches_title(n, meta, hymn_en):
+        for pth in (out_path, text_path):
+            if os.path.exists(pth) and "status: reviewed" not in open(pth, encoding="utf-8").read(400):
+                os.remove(pth)
+        return {"n": n, "status": "wrong English in source"}
     # plain verse text: shown under the score when the notes cannot carry it, and in print
     verses_txt = []
     for v in hymn_en.get("lyrics", []):
@@ -237,7 +277,7 @@ def process(n: int, hymn_en: dict, force: bool) -> dict:
             continue
         g = grade(cost, len(toks))
         grades.append(g)
-        costs.append(cost)
+        costs.append(round(cost / max(len(toks), 1), 3))
         by_slot = {s.idx: tok for s, tok in zip(path, res)}
         verse_toks = [by_slot[s.idx] for s in slots if s.region == "verse" and s.idx in by_slot]
         lines.append(f"v{k}: " + " ".join(verse_toks))
@@ -258,7 +298,7 @@ def process(n: int, hymn_en: dict, force: bool) -> dict:
     ]
     with open(out_path, "w", encoding="utf-8", newline="\n") as fh:
         fh.write("\n".join(header + lines) + "\n")
-    return {"n": n, "status": overall, "grades": grades, "korean_verses": kv, "english_verses": len(en_verses)}
+    return {"n": n, "status": overall, "grades": grades, "ratios": costs, "korean_verses": kv, "english_verses": len(en_verses)}
 
 
 def main(argv):

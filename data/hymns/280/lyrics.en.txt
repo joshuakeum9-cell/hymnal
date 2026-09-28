@@ -2,9 +2,9 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: auto, auto, auto)
+# quality: auto (per verse: exact, exact, auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Fa- ther, I stretch my hands _ to Thee _ No oth- er help I know If Thou with- draw Thy- self from me, _ Ah! whith- er shall I go I do be- lieve,I now be- lieve, That Je- sus died for me, And that He shed His pre- cious blood From _ sin to set me free. _ _
-v2: What did Thine on- ly Son en- dure, Be- _ fore I drew my breath! What pain, what la- bour, to se- cure My _ soul from end- less death! I do _ be- lieve,I now be- lieve, That Je- sus died for me, And that He shed His pre- cious blood From _ sin to set me free. _ _
-v3: O Je- sus, could I this be- lieve I now should feel Thy pow- er, And all my wants Thou wouldst re- lieve, In _ this ac- cept- ed hour. I do be- lieve,I now be- lieve, That Je- sus _ died for me, And that He shed His pre- cious blood From _ sin to set me free. A- men.
+v1: Fa- ther, I stretch my hands to Thee No _ oth- er help I know If Thou with- draw Thy- self from me, Ah! _ whith- er shall I go I do be- lieve, I now be- lieve, That Je- sus died for me, And that He shed His pre- cious blood From _ sin to set me free. _ _
+v2: What did Thine on- ly Son en- dure, Be- _ fore I drew my breath! What pain, what la- bour, to se- cure My _ soul from end- less death! I do be- lieve, I now be- lieve, That Je- sus died for me, And that He shed His pre- cious blood From _ sin to set me free. _ _
+v3: O Je- sus, could I this be- lieve I now should feel Thy pow- er, And all my wants Thou wouldst re- lieve, In _ this ac- cept- ed hour. I do be- lieve, I now be- lieve, That Je- sus died for me, And that He shed His pre- cious blood From _ sin to set me free. A- men.

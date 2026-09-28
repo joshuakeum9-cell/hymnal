@@ -5,4 +5,4 @@
 # quality: exact (per verse: exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Glo- ry be to the Fa- ther, and to the Son- ,and to the Ho- ly Ghost; As it was in the be- gin- ning, is now, and ever shall be World with- out end. A- men, A- men. A- men.
+v1: Glo- ry be to the Fa- ther, and to the Son, and to the Ho- ly Ghost; As it was in the be- gin- ning, is now, and ever shall be World with- out end. A- men, A- men. A- men.

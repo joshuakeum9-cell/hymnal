@@ -1,0 +1,5 @@
+{
+  "_about": "The English source pairs some hymns with the words of a different hymn (for example 149 'When I Survey' carried 'There is a green hill far away'). align_english.py drops the English for a hymn when the words of its English title do not appear in the first verse. 'verified_ok' overrides that check for hymns whose English is right; 'exclude' drops English that passes the check but is wrong.",
+  "verified_ok": [331, 421],
+  "exclude": [249, 453]
+}

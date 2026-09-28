@@ -1,9 +1,0 @@
-# 460 Not in Dumb Resignation
-# English lyrics placed on the melody notes, one token per note, verse by verse.
-# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
-# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: rough, rough)
-# status: proposed
-# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: My Je- _ _ _ sus, _ _ I love Thee, I know Thou art mine For Thee all the _ fol- lies of sin I re- sign. My gra- cious Re- deem- er, my Sav- iour art Thou If ev- er I loved Thee, _ _ my _ _ _ Je- _ sus, 'tis now. _ _
-v2: I love _ _ Thee be- _ cause Thou hast first lov- ed me, And pur- _ _ chased my _ par- don on Cal- va- ry's tree. I love _ _ Thee for wear- ing the thorns on Thy brow If ev- er I loved Thee, my _ _ _ Je- _ _ _ sus, 'tis now.

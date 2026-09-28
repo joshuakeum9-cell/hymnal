@@ -2,11 +2,11 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: auto, auto, auto, exact, exact)
+# quality: auto (per verse: exact, exact, exact, auto, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Once it was the bless- ing, Now it is the Lord Once it was the feel- ing, Now it is His Word Once His gifts I want- ed, Now the Giv- er own Once I sought for heal- ing, Now Him- self a- lone. All _ in all for- ev- er,Je- sus will _ I sing _ Ev- 'ry- thing in Je- _ sus, And Je- sus ev- 'ry- thing.
-v2: Once 'twas pain- ful try- ing, Now 'tis per- fect trust Once a half sal- va- tion, Now the ut- ter- most Once 'twas cease- less hold- ing, Now He holds me fast Once 'twas con- stant drift- ing, Now my an- chor's cast. All _ in all for- ev- er,Je- sus will _ I sing _ Ev- 'ry- thing in Je- _ sus, And Je- sus ev- 'ry- thing.
-v3: Once 'twas bu- sy plan- ning, Now 'tis trust- ful prayer Once 'twas anx- ious car- ing, Now He has the care Once 'twas what I want- ed, Now what Je- sus says Once 'twas con- stant ask- ing, Now 'tis cease- less praise. All _ in all for- ev- er,Je- sus will _ I sing _ Ev- 'ry- thing in Je- _ sus, And Je- sus ev- 'ry- thing.
-v4: Once it was my work- ing, His it hence shall be Once I tried to use Him, Now He us- es me Once the po- wer I want- ed, Now the Might- y One Once for self I labour- ed, Now for Him a- lone. All in all for- ev- er,Je- sus will _ I sing _ Ev- 'ry- thing in Je- _ sus, And Je- sus ev- 'ry- thing.
+v1: Once it was the bless- ing, Now it is the Lord Once it was the feel- ing, Now it is His Word Once His gifts I want- ed, Now the Giv- er own Once I sought for heal- ing, Now Him- self a- lone. All in all for- ev- er, Je- sus will _ I sing _ Ev- 'ry- thing in Je- _ sus, And Je- sus ev- 'ry- thing.
+v2: Once 'twas pain- ful try- ing, Now 'tis per- fect trust Once a half sal- va- tion, Now the ut- ter- most Once 'twas cease- less hold- ing, Now He holds me fast Once 'twas con- stant drift- ing, Now my an- chor's cast. All in all for- ev- er, Je- sus will _ I sing _ Ev- 'ry- thing in Je- _ sus, And Je- sus ev- 'ry- thing.
+v3: Once 'twas bu- sy plan- ning, Now 'tis trust- ful prayer Once 'twas anx- ious car- ing, Now He has the care Once 'twas what I want- ed, Now what Je- sus says Once 'twas con- stant ask- ing, Now 'tis cease- less praise. All in all for- ev- er, Je- sus will _ I sing _ Ev- 'ry- thing in Je- _ sus, And Je- sus ev- 'ry- thing.
+v4: Once it was my work- ing, His it hence shall be Once I tried to use Him, Now He us- es me Once the po- wer I want- ed, Now the Might- y One Once for self I labour- ed, Now for Him a- lone. All in all for- ev- er, Je- sus _ will I _ sing Ev- 'ry- thing in Je- sus, And Je- sus ev- 'ry- thing.
 v5: Once I hoped in Je- sus, Now I know He's mine Once my lamps were dy- ing, Now they bright- ly shine Once for death I wait- ed, Now His com- ing hail And my hopes are an- chored Safe with- in the vail. All in all for- ev- er, Je- sus will _ I sing _ Ev- 'ry- thing in Je- _ sus, And Je- sus ev- 'ry- thing.

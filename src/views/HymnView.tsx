@@ -6,7 +6,7 @@ import { getPrefs, pushRecent, setPrefs, subscribe } from '../store'
 import { go, hymnHash } from '../route'
 import { KeySheet } from './KeySheet'
 import { printHymns } from '../print'
-import { IconBack, IconCheck, IconListAdd, IconMoon, IconNext, IconPrint, IconSun, IconZoomIn, IconZoomOut } from '../icons'
+import { KeyName, IconBack, IconCheck, IconListAdd, IconMoon, IconNext, IconPrint, IconSun, IconZoomIn, IconZoomOut } from '../icons'
 
 const MODES: { id: LyricMode; label: string; title: string }[] = [
   { id: 'both', label: '한/영', title: 'Korean and English' },
@@ -233,8 +233,8 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
           <div class="toolbar" role="toolbar" aria-label="Hymn controls">
             <button class="btn key-btn" onClick={() => setSheetOpen(true)} disabled={!hymn} aria-haspopup="dialog">
               <span class="key-btn-label">Key</span>
-              <strong>{keyLabel(key, minor)}</strong>
-              {delta !== 0 ? <span class="key-btn-orig">from {keyLabel(origTonic, minor)}</span> : null}
+              <strong><KeyName tonic={key} minor={minor} /></strong>
+              {delta !== 0 ? <span class="key-btn-orig">from <KeyName tonic={origTonic} minor={minor} /></span> : null}
             </button>
             <div class="segmented" role="group" aria-label="Lyrics">
               {MODES.map(m => (
@@ -248,9 +248,11 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
               <button class="icon-btn" aria-label="Larger music" title="Larger" disabled={prefs.zoom >= 1.8} onClick={() => setPrefs({ zoom: Math.min(1.8, Math.round((prefs.zoom + 0.1) * 10) / 10) })}><IconZoomIn /></button>
             </div>
             <div class="tool-group tool-end">
-              <button class={`btn set-btn ${inSetList ? 'on' : ''}`} onClick={toggleSet} aria-pressed={inSetList}>
+              <button class={`btn set-btn ${inSetList ? 'on' : ''}`} onClick={toggleSet} aria-pressed={inSetList}
+                aria-label={inSetList ? 'In set list. Tap to remove' : 'Add to set list'} title={inSetList ? 'Remove from set list' : 'Add to set list'}>
                 {inSetList ? <IconCheck size={18} /> : <IconListAdd size={20} />}
-                <span>{inSetList ? 'In set list' : 'Add to set'}</span>
+                <span class="set-btn-long">{inSetList ? 'In set list' : 'Add to set'}</span>
+                <span class="set-btn-short" aria-hidden="true">{inSetList ? 'In set' : 'Set'}</span>
               </button>
               <button class="icon-btn" aria-label="Print" onClick={doPrint} disabled={!hymn || printing}><IconPrint /></button>
               <button class="icon-btn" aria-label={prefs.dark ? 'Light pages' : 'Dark pages for the stage'} onClick={() => setPrefs({ dark: !prefs.dark })}>
@@ -265,7 +267,7 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
             {error ? (
               <div class="notice"><p>Sorry, this hymn could not be drawn. {error}</p></div>
             ) : svg ? (
-              <div class="score-svg" dangerouslySetInnerHTML={{ __html: svg }} />
+              <div class="score-svg" role="img" aria-label={`Music for hymn ${n} in ${keyLabel(key, minor)}`} dangerouslySetInnerHTML={{ __html: svg }} />
             ) : (
               <div class="score-loading"><span class="spinner" aria-hidden="true" /> Loading music…</div>
             )}
@@ -294,7 +296,7 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
           <p>
             {row.o ? <>통일찬송가 {row.o}장. </> : null}
             {row.t ? <>{row.t}. </> : null}
-            Original key {keyLabel(origTonic, minor)}{row.ts ? `, ${row.ts}` : ''}.
+            Original key <KeyName tonic={origTonic} minor={minor} />{row.ts ? `, ${row.ts}` : ''}.
           </p>
           {hymn?.cr ? <p class="muted small">{hymn.cr}</p> : null}
           <p class="small">

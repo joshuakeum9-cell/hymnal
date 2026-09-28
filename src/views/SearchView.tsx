@@ -33,8 +33,12 @@ export function SearchView() {
   const onInput = (e: Event) => {
     const v = (e.target as HTMLInputElement).value
     setQ(v)
-    if (!byTitle && !prefs.oldNumbers && isFinalNumber(v.trim()) && rows?.some(r => r.n === Number(v))) {
-      go(`#/${Number(v)}`)
+    const t = v.trim()
+    if (byTitle || !rows) return
+    if (!prefs.oldNumbers && isFinalNumber(t) && rows.some(r => r.n === Number(t))) go(`#/${Number(t)}`)
+    if (prefs.oldNumbers && isFinalNumber(t, 558)) {
+      const r = rows.find(x => x.o === Number(t))
+      if (r) go(`#/${r.n}`)
     }
   }
 

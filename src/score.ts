@@ -38,7 +38,7 @@ export type RenderRequest = {
 export type SystemBox = { top: number; bottom: number }
 export type RenderResult = { svg: string; ms: number; cached: boolean; systems: SystemBox[]; height: number }
 
-const ENGINE_VERSION = 'osmd-2.1.3-r7'
+const ENGINE_VERSION = 'osmd-2.1.3-r9'
 const memory = new Map<string, string>()
 const MEMORY_MAX = 30
 const IDB_MAX = 80
@@ -133,6 +133,9 @@ class Renderer {
     r.RenderSingleHorizontalStaffline = false
     r.LyricOverlapAllowedIntoNextMeasure = 0
     r.HorizontalBetweenLyricsDistance = 0.8
+    r.LyricsXPaddingFactorForLongLyrics = 1.6
+    r.LyricsXPaddingWidthThreshold = 1.1
+    r.LyricsAlignmentStandard = m.TextAlignmentEnum.CenterBottom
     r.MaximumLyricsElongationFactor = 4
     r.VerticalBetweenLyricsDistance = 0.4
     r.MinSkyBottomDistBetweenSystems = 3

@@ -12,7 +12,7 @@ function usePrefs() {
   return p
 }
 
-const MODE_LABEL: Record<LyricMode, string> = { both: '한/영', ko: '한', en: '영' }
+const MODE_LABEL: Record<LyricMode, string> = { both: '한/영 both', ko: '한 Korean', en: '영 English' }
 
 export function SetListView({ params }: { params: URLSearchParams }) {
   const prefs = usePrefs()
@@ -119,33 +119,38 @@ export function SetListView({ params }: { params: URLSearchParams }) {
             const current = it.key ?? orig
             return (
               <li key={it.n} class="set-item">
-                <a class="set-item-main" href={hymnHash(it.n, { key: it.key, lyrics: it.mode && it.mode !== 'both' ? it.mode : undefined, s: '1' })}>
-                  <span class="result-num">{it.n}</span>
-                  <span class="result-titles">
-                    <span class="result-ko">{row?.k ?? ''}</span>
-                    {row?.e ? <span class="result-en">{row.e}</span> : null}
-                    {row && !row.f ? <span class="result-tag">No score yet</span> : null}
-                  </span>
-                </a>
+                <div class="set-item-top">
+                  <span class="set-pos" aria-hidden="true">{i + 1}</span>
+                  <a class="set-item-main" href={hymnHash(it.n, { key: it.key, lyrics: it.mode && it.mode !== 'both' ? it.mode : undefined, s: '1' })}>
+                    <span class="result-num">{it.n}</span>
+                    <span class="result-titles">
+                      <span class="result-ko">{row?.k ?? ''}</span>
+                      {row?.e ? <span class="result-en">{row.e}</span> : null}
+                      {row && !row.f ? <span class="result-tag">No score yet</span> : null}
+                    </span>
+                  </a>
+                  <button class="icon-btn" aria-label={`Remove ${it.n} from the list`} onClick={() => save(list.filter((_, j) => j !== i))}><IconTrash size={18} /></button>
+                </div>
                 <div class="set-item-controls">
                   <label class="select-wrap">
-                    <span class="visually-hidden">Key for {it.n}</span>
+                    <span class="select-label">Key</span>
                     <select value={chipFor(current, minor)} onChange={e => {
                       const k = (e.target as HTMLSelectElement).value
                       update(i, { key: pitchClass(k) === pitchClass(orig) ? undefined : k })
-                    }} disabled={!row?.f}>
+                    }} disabled={!row?.f} aria-label={`Key for ${it.n}`}>
                       {keys.map(k => <option key={k} value={k}>{keyLabel(k, minor)}{pitchClass(k) === pitchClass(orig) ? ' (original)' : ''}</option>)}
                     </select>
                   </label>
                   <label class="select-wrap">
-                    <span class="visually-hidden">Lyrics for {it.n}</span>
-                    <select value={it.mode ?? 'both'} onChange={e => update(i, { mode: (e.target as HTMLSelectElement).value as LyricMode })}>
+                    <span class="select-label">Words</span>
+                    <select value={it.mode ?? 'both'} onChange={e => update(i, { mode: (e.target as HTMLSelectElement).value as LyricMode })} aria-label={`Lyrics for ${it.n}`}>
                       {(['both', 'ko', 'en'] as LyricMode[]).map(m => <option key={m} value={m}>{MODE_LABEL[m]}</option>)}
                     </select>
                   </label>
-                  <button class="icon-btn" aria-label="Move up" disabled={i === 0} onClick={() => move(i, -1)}><IconUp size={18} /></button>
-                  <button class="icon-btn" aria-label="Move down" disabled={i === list.length - 1} onClick={() => move(i, 1)}><IconDown size={18} /></button>
-                  <button class="icon-btn" aria-label={`Remove ${it.n}`} onClick={() => save(list.filter((_, j) => j !== i))}><IconTrash size={18} /></button>
+                  <span class="set-move">
+                    <button class="icon-btn" aria-label={`Move ${it.n} up`} disabled={i === 0} onClick={() => move(i, -1)}><IconUp size={18} /></button>
+                    <button class="icon-btn" aria-label={`Move ${it.n} down`} disabled={i === list.length - 1} onClick={() => move(i, 1)}><IconDown size={18} /></button>
+                  </span>
                 </div>
               </li>
             )

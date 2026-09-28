@@ -23,3 +23,16 @@ export const IconTrash = ({ size }: P) => <svg {...base(size)}><path d="M5 7h14M
 export const IconZoomIn = ({ size }: P) => <svg {...base(size)}><circle cx="10.5" cy="10.5" r="6.5" /><path d="M15.5 15.5l5 5M10.5 7.5v6M7.5 10.5h6" /></svg>
 export const IconZoomOut = ({ size }: P) => <svg {...base(size)}><circle cx="10.5" cy="10.5" r="6.5" /><path d="M15.5 15.5l5 5M7.5 10.5h6" /></svg>
 export const IconListAdd = ({ size }: P) => <svg {...base(size)}><path d="M4 6h11M4 12h11M4 18h7M18 14v7M14.5 17.5h7" /></svg>
+
+/** A key name with a tight accidental: "Ab" -> A♭ without the wide gap of the CJK font's glyph. */
+export function KeyName({ tonic, minor = false }: { tonic: string; minor?: boolean }) {
+  const letter = tonic.charAt(0)
+  const acc = tonic.includes('b') ? '♭' : tonic.includes('#') ? '♯' : ''
+  return (
+    <span class="keyname">
+      {letter}
+      {acc ? <span class="acc">{acc}</span> : null}
+      {minor ? 'm' : null}
+    </span>
+  )
+}

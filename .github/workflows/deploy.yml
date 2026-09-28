@@ -45,16 +45,16 @@ jobs:
         with:
           node-version: '22'
           cache: npm
-      - run: npm ci --omit=optional
+      - run: npm ci --ignore-scripts
       - run: npm run build
 
       - uses: actions/upload-pages-artifact@v4
-        if: github.event_name != 'pull_request'
+        if: github.event_name != 'pull_request' && !github.event.repository.private
         with:
           path: dist
 
   deploy:
-    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main' && !github.event.repository.private
     needs: build
     runs-on: ubuntu-latest
     environment:

@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'preact/hooks'
-import { MAJOR_KEYS, MINOR_KEYS, keyLabel, midiName, pitchClass, type Direction } from '../music'
-import { IconClose, IconMinus, IconPlus } from '../icons'
+import { MAJOR_KEYS, MINOR_KEYS, midiName, pitchClass, type Direction } from '../music'
+import { IconClose, IconMinus, IconPlus, KeyName } from '../icons'
 
 type Props = {
   original: string          // original tonic, spelled from the chip list
@@ -52,7 +52,7 @@ export function KeySheet({ original, minor, current, delta, dir, top, onPick, on
                 class={`key-chip ${on ? 'on' : ''} ${isOrig ? 'orig' : ''}`}
                 onClick={() => onPick(k)}
               >
-                <span class="key-name">{keyLabel(k, minor)}</span>
+                <span class="key-name"><KeyName tonic={k} minor={minor} /></span>
                 {isOrig ? <span class="key-orig">Original</span> : null}
               </button>
             )
@@ -82,8 +82,8 @@ export function KeySheet({ original, minor, current, delta, dir, top, onPick, on
 
         <p class="key-summary">
           {moved
-            ? <>From {keyLabel(original, minor)} {delta > 0 ? 'up' : 'down'} {half} half step{half === 1 ? '' : 's'} to {keyLabel(current, minor)}.</>
-            : <>Original key, {keyLabel(original, minor)}.</>}
+            ? <>From <KeyName tonic={original} minor={minor} /> {delta > 0 ? 'up' : 'down'} {half} half step{half === 1 ? '' : 's'} to <KeyName tonic={current} minor={minor} />.</>
+            : <>Original key, <KeyName tonic={original} minor={minor} />.</>}
           {top != null ? <> Melody top note {midiName(top)}{moved ? <> → {midiName(top + delta)}</> : null}.</> : null}
         </p>
       </div>

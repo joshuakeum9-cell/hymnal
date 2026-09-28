@@ -39,7 +39,7 @@ export type SystemBox = { top: number; bottom: number }
 /** systems are in the SVG's viewBox units; viewWidth is the viewBox width */
 export type RenderResult = { svg: string; ms: number; cached: boolean; systems: SystemBox[]; viewWidth: number }
 
-const ENGINE_VERSION = 'osmd-2.1.3-r15'
+const ENGINE_VERSION = 'osmd-2.1.3-r16'
 const memory = new Map<string, string>()
 const MEMORY_MAX = 30
 const IDB_MAX = 80
@@ -109,6 +109,14 @@ export function separateLyrics(host: Element): void {
   for (const row of rows.values()) {
     if (row.length < 2) continue
     row.sort((a, b) => a.x - b.x)
+    // OSMD sometimes draws two hyphens on top of each other; they read as one, so keep one
+    for (let i = row.length - 1; i > 0; i--) {
+      const a = row[i - 1], b = row[i]
+      if (!a.word && !b.word && b.x < a.x + a.w) {
+        b.el.remove()
+        row.splice(i, 1)
+      }
+    }
     const words = row.filter(i => i.word)
     const gap = Math.max(3, (words[0]?.w ?? 20) * 0.08)
     for (let pass = 0; pass < 40; pass++) {

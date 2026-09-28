@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: auto, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: At Thy feet, our God and Fa- ther, Who hast blessed us all our days, We with grate- ful hearts would gath- er To be- gin the day with praise Praise for light so bright- ly shin- ing On our steps from hea- ven a- bove Praise for mer- cies dai- ly twin- ing _ Round _ us gold- en cords of _ love.
+v1: At Thy feet, our God and Fa- ther, Who hast blessed us all our days, We with grate- ful hearts would gath- er To be- gin the day with praise; Praise for light so bright- ly shin- ing On our steps from hea- ven a- bove; Praise for mer- cies dai- ly twin- ing _ Round _ us gold- en cords of _ love.
 v2: Je- sus for Thy love most ten- der On the cross for sin- ners shown, We would praise Thee and sur- ren- der All our hearts to be Thine own. With so blest a Friend pro- vid- ed, We up- on our way would go. Sure of be- ing safe- ly guid- ed, Guard- _ ed _ well from ev- ery foe. _ _
-v3: Ev- ery day will be the bright- er When thy gra- cious face we see Ev- -'ry bur- den will be light- er When we know it comes from Thee. Spread Thy love's broad ban- ner o'er us Give us strength to serve and wait, Till Thy glo- ry breaks be- fore us Thro' _ the _ cit- y's o- pen gate. A- men.
+v3: Ev- ery day will be the bright- er When thy gra- cious face we see; Ev- ery bur- den will be light- er When we know it comes from Thee. Spread Thy love's broad ban- ner over us; Give us strength to serve and wait, Till Thy glo- ry breaks be- fore us Through _ the _ cit- y's o- pen gate. A- men.

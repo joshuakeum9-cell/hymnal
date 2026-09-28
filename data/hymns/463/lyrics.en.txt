@@ -2,10 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: exact, exact, exact, auto)
+# quality: exact (per verse: exact, exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Lord, I want to be a Chris- tian In- a my heart, in- a my heart, _ Lord, I want to be a Chris- tian In- a my heart, In- a my heart, _ In- a my heart, _ Lord, I want to be a Chris- tian In- a my heart. _ _
-v2: Lord, I want to be more lov- ing In- a my heart, in- a my heart, _ Lord, I want to be more lov- ing In- a my heart, In- a my heart, _ In- a my heart, _ Lord, I want to be more lov- ing In- a my heart. _ _
-v3: Lord, I want to be mor ho- ly In- a my heart, in- a my heart, _ Lord, I want to be mor ho- ly In- a my heart, In- a my heart, _ In- a my heart, _ Lord, I want to be mor ho- ly In- a my heart. _ _
-v4: Lord, I want to be like Je- sus In- a my heart, in- a my heart, _ Lord, I want to be like Je- sus In- a my heart, In- a my heart, _ In- a my heart, _ Lord, I want _ to be like Je- sus _ In- a my heart.
+v1: Lord, I want to be a Chris- tian In- a my heart, in- a my heart, _ Lord, I want to be a Chris- tian In- a my heart. In- a my heart, _ In- a my heart, _ Lord, I want to be a Chris- tian In- a my heart. _ _
+v2: Lord, I want to be more lov- ing In- a my heart, in- a my heart, _ Lord, I want to be more lov- ing In- a my heart. In- a my heart, _ In- a my heart, _ Lord, I want to be more lov- ing In- a my heart. _ _
+v3: Lord, I want to be more ho- ly In- a my heart, in- a my heart, _ Lord, I want to be more ho- ly In- a my heart. In- a my heart, _ In- a my heart, _ Lord, I want to be more ho- ly In- a my heart. _ _
+v4: Lord, I want to be like Je- sus In- a my heart, in- a my heart, _ Lord, I want to be like Je- sus In- a my heart. In- a my heart, _ In- a my heart, _ Lord, I want to be like Je- sus In- a my heart. A- men.

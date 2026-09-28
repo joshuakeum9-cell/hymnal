@@ -1,5 +1,5 @@
 # 139 O Thou Eternal Christ of God: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 O Thou Eternal Christ of God,
 Ride on! Ride on! Ride on!
@@ -10,7 +10,7 @@ Is marching in Thy train:
 Thine is the Kingdom and the power,
 And Thou in love shalt reign.
 
-O Holy Saviour of mankind,
+O Holy Savior of mankind,
 Ride on! Ride on! Ride on!
 We bear with Thee the scourge and cross
 If so Thy will is done.
@@ -32,7 +32,8 @@ O Thou Who art the Life and
 Light, Exalted Lord and King,
 We hail Thine august majesty
 And loud hosanna sing.
-Until in ev'ry land and clime
+Until in every land and clime
 Thine ends of love are won,
 O Christ, Redeemer, Brother, Friend,
-Ride on! Ride on! Ride on! Amen.
+Ride on! Ride on! Ride on!
+Amen.

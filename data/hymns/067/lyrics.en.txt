@@ -2,11 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: exact, exact, exact, auto)
-# wording: Korean-English hymnal (prayertents.com)
+# quality: auto (per verse: exact, exact, auto, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: O wor- ship the King, all glo- rious a- bove, And grate- ful- ly sing His won- _ der- ful love: Our Shield and De- fend- er, the An- cient of Days, Pa- vil- ioned in splen- dor, and gird- _ ed with praise. _ _
-v2: O tell of His might, and sing of His grace, Whose rove is the light, whose can- _ o- py space. His char- iots of wrath the deep thun- der- clouds form, And dark is His path on the wings _ of the storm. _ _
-v3: The earth with its store of won- ders un- told, Al- might- y, Thy power hath found- _ ed of old; E- sta- blish'd it fast by a change- less de- cree, And round it hath cast, like a man- _ tle, the sea. _ _
-v4: Frail chil- dren of dust, and fee- ble as frail, In Thee do we trust, nor find _ Thee to fail. Thy mer- cies how ten- der! how firm to the end! Our Mak- _ _ er, De- fend- er, _ Re- deem- er, and Friend!
+v1: O wor- ship the King, all glo- rious a- bove, And grate- ful- ly sing His won- _ der- ful love: Our Shield and De- fen- der, the An- cient of Days, Pa- vi- lioned in splen- dor, and gir- _ ded with praise. _ _
+v2: O tell of His might, and sing of His grace, Whose rove is the light, whose can- _ o- py space. His cha- riots of wrath the deep thun- der- clouds form, And dark is His path on the wings _ of the storm. _ _
+v3: The earth with its store of won- ders un- told, Al- might- y, Thy pow- er hath found- ed of old; E- sta- blish'd it fast by a change- less de- cree, And round it hath cast, like a man- _ tle, the sea. _ _
+v4: Frail chil- dren of dust, and fee- ble as frail, In Thee do we trust, nor find _ Thee to fail. Thy mer- cies how ten- der! how firm to the end! Our Mak- er, De- fend- er, Re- deem- _ er, and Friend! A- men.

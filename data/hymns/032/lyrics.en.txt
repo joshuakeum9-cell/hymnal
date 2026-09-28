@@ -2,10 +2,9 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: rough, exact, auto)
-# wording: Korean-English hymnal (prayertents.com)
+# quality: auto (per verse: exact, exact, auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Fair- est Lord Je- _ sus, Rul- er of all na- _ ture, O Thou of God and _ man the Son Thee will I hon- _ or, Thou, my _ soul's _ _ _ glo- _ _ ry, joy, and crown. _ _
+v1: Fair- est Lord Je- _ sus, Rul- er of all na- _ ture, O Thou of God and _ man the Son Thee will I cher- _ ish, Thee will I hon- _ or, Thou, my soul's glo- ry, joy, and crown. _ _
 v2: Fair are the mead- _ ows, Fair- er still the wood- _ lands, Robed in the bloom- ing _ garb of spring; Je- sus is fair- _ er, Je- sus is pur- _ er, Who makes the woe- ful heart to sing. _ _
 v3: Fair is the sun- _ shine, Fair- er still the moon- _ light, And all the twinkl- ing, _ star- ry host; Je- sus shines bright- _ er, Je- sus shines pur- er, Than all the an- gels heav- en can boast. A- men.

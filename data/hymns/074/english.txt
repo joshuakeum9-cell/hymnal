@@ -1,10 +1,10 @@
 # 74 O God, the Rock of Ages: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 O God, the Rock of Ages,
 Who evermore hast been,
 What time the tempest rages,
-Our dwelling place serene:
+Our dwelling place serene;
 Before Thy first creations,
 O Lord, the same as now,
 To endless generations The
@@ -13,7 +13,7 @@ Everlasting Thou!
 Our years are like the shadows
 On sunny hills that lie,
 Or grasses in the meadows
-That blossom but to die
+That blossom but to die;
 A sleep, a dream, a story,
 By strangers quickly told,
 An unremaining glory
@@ -22,8 +22,9 @@ Of things that soon are old.
 O Thou, who dost not slumber,
 Whose light grows never pale,
 Teach us aright to number
-Our years before they fail
+Our years before they fail;
 On us Thy mercy lighten,
 On us Thy goodness rest,
 And let Thy Spirit brighten The hearts
-Thyself hast blessed. Amen.
+Thyself hast blessed.
+Amen.

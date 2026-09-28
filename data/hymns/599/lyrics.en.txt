@@ -2,6 +2,12 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: none)
+# quality: rough (per verse: rough, rough, rough, auto, rough, rough)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: On- ly Be- got- ten, Word _ of God e- ter- nal, Lord of Cre- a- tion, mer- _ _ ci- ful and might- y, List to thy ser- vants, when _ _ their tune- ful voic- es. Rise to Thy pres- ence. _ _
+v2: Thus in _ our sol- emn _ feast of de- di- ca- tion, Graced with re- turn- ing _ rites of due de- vo- tion, Ev- er thy chil- dren, year _ _ by year re- joic- ing, Chant in Thy tem- ple. _ _
+v3: This is Thy pal- ace: here _ Thy pres- ence cham- ber Here may Thy ser- vants, at _ _ the mys- tic ban- quet, Dai- ly a- dor- ing, take _ _ the Bod- y bro- ken, Drink of Thy cha- lice. _ _
+v4: Here in our sick- ness heal- _ ing grace a- boun- deth, Light in our blin- dness, in _ _ our toil re- fres- hment: Sin is for- giv- en, hope _ o- ver fear pre- vai- leth, Joy o- ver sor- row. _ _
+v5: Lord, we be- seech thee, as _ we throng thy tem- ple, By thy past bless- ings, by _ _ thy pre- sent boun- ty, Smile on thy chil- dren, and _ _ with ten- der mer- cy Hear our pe- ti- tions. _ _
+v6: God in Three Per- sons, Fa- _ _ ther ev- er- last- ing, Son coe- ter- nal, ev- _ _ er bless- ed Spir- it, Thine be the glo- ry, praise _ _ and ad- o- ra- tion, Now and for- ev- er. A- men.

@@ -9,3 +9,5 @@ starting with `#` are ignored. Hyphenate multi-syllable words the way a hymnal d
 Then run `python tools/align_english.py NNN` and check the result on the site.
 
 The files here replace English that the source had wrong (another hymn's words). Their wording follows the Korean-English (한영) hymnal as printed on prayertents.com, checked for public-domain status on hymnary.org; research notes are in each file's first line. Hymn 363 has no public-domain English (its Korean text is an original psalm setting), so it has no file.
+
+Most files here hold the English as printed in the Korean-English hymnal (first line names prayertents.com as the source), with obvious typos on that site corrected. tools/apply_hanyoung.py writes them when the book's wording cannot sit on the notes of the old English, and keeps one only when the placement is at least as good. A file here always wins: fix a word in it, then run `python tools/align_english.py NNN`.

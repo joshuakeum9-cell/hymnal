@@ -2,11 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: auto, auto, rough, auto)
-# wording: Korean-English hymnal (prayertents.com)
+# quality: auto (per verse: auto, auto, auto, auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 v1: The- re'll be showers of blessing from our Fa- ther's hand, On His word of prom- ise we may firm- ly stand: The- re'll be rains re- freshing on the thirst- y land, When the tithes are gath- ered in. Tithes of love and will- ing serv- ice, Tithes of sil- ver and of gold When the tithes are gath- ered in, When the tithes are gath- ered in, The- re'll be bless- ing more than we can con- tain, When the tithes are gath- ered in.
 v2: The- re'll be shouts of tri- umph from the con- quering host, The- re'll be per- fect free- dom in the Ho- ly Ghost Ev- ery on em- pow- ered as at Pen- te- cost. When the tithes are gath- ered in. Tithes of love and willing serv- ice, Tithes of sil- ver and of gold When the tithes are gath- ered in, When the tithes are gath- ered in, The- re'll be blessing more than we can con- tain, When the tithes are gath- ered in.
-v3: Then _ will _ _ _ _ _ come _ _ _ _ the _ _ _ _ _ dawn- _ _ _ _ ing _ _ _ _ _ of _ _ _ _ the reign _ of peace, When _ the _ wars and con- _ flicts _ _ shall for- ev- er cease, And _ for strug- gling _ saints shall _ come a sweet re- lease, When _ the _ _ _ _ tithes _ _ are _ gath- ered _ _ in.
+v3: Then will come the dawn- ing of the reign of peace, When the wars and con- flicts shall for- ev- er cease, And for strug- gling saints shall come a sweet re- lease, When the tithes are gath- ered in. Tithes of love and will- ing serv- ice, Tithes of sil- ver and of gold When the tithes are gath- ered in, When the tithes are gath- ered in, The- re'll be bless- ing more than we can con- tain, When the tithes are gath- ered in.
 v4: We will rob no long- er, then, our Lord and King, What to Him be- long- eth we will glad- ly bring, And we'll shout ho- san- na, while the glad harps ring, When the tithes are gath- ered in. Tithes of love and will- ing serv- ice, Tithes of sil- ver and of gold When the tithes are gath- ered in, When the tithes are gath- ered in, The- re'll be bless- ing more than we can con- tain, When the tithes are gath- ered in.

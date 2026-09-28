@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: When I fear my faith will fail, _ Christ will hold me fast When the tempt- er would pre- vail, _ He can hold me fast. _ He will hold me fast, He will hold me fast For my Sav- ior loves me so. _ He will hold me fast.
-v2: I could nev- er keep my hold, _ He will hold me fast For my love is of- ten cold, _ He must hold me fast. _ He will hold me fast, He will hold me fast For my Sav- ior loves me so. _ He will hold me fast.
-v3: I am pre- cious in His sight, _ He will hold me fast Those He saves are His de- light, _ He will hold me fast. _ He will hold me fast, He will hold me fast For my Sav- ior loves me so. _ He will hold me fast.
-v4: He'll not let my soul be lost, _ Christ will hold me fast Bought by Him at such a cost, _ He will hold me fast. _ He will hold me fast, He will hold me fast For my Sav- ior loves me so. _ He will hold me fast.
+v1: When I fear my faith will fail, _ Christ will hold me fast; When the tempt- er would pre- vail, _ He can hold me fast. _ He will hold me fast, He will hold me fast; For my Sav- ior loves me so _ He will hold me fast.
+v2: I could nev- er keep my hold, _ He will hold me fast; For my love is of- ten cold, _ He must hold me fast. _ He will hold me fast, He will hold me fast; For my Sav- ior loves me so _ He will hold me fast.
+v3: I am pre- cious in His sight, _ He will hold me fast; Those He saves are His de- light, _ He will hold me fast. _ He will hold me fast, He will hold me fast; For my Sav- ior loves me so _ He will hold me fast.
+v4: He'll not let my soul be lost, _ Christ will hold me fast; Bought by Him at such a cost, _ He will hold me fast. _ He will hold me fast, He will hold me fast; For my Sav- ior loves me so _ He will hold me fast.

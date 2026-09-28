@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: We shall be like Him O won- der- ful tho' t! Bless- ed the hope the as- sur- ance hath wrought Chang'd from the sor- row and trials of years, We Shall be like Him, When Je- sus ap- pears. We shall be like Him O how the prom- ise cheers! We shall be like Him, when Je- sus ap- pears.
-v2: Eye hath not seen, nor hath ear ev- er heard What we shall be, but a voice from His word Whis- pers a mes- sage that charms all our fears We Shall be like Him, When Je- sus ap- pears We shall be like Him O how the prom- ise cheers! We shall be like Him, when Je- sus ap- pears.
-v3: Why, then, re- pine when the road- way is rough Are not His word and the prom- ise e- nough Rain- bows of love span the val- ley of tears We Shall be like Him, When Je- sus ap- pears We shall be like Him O how the prom- ise cheers! We shall be like Him, when Je- sus ap- pears.
-v4: We shall be like Him, the Hope of the soul We shall be like Him, made per- fect- ly whole Caught up with saint, as the fir- ma- ment clears We Shall be like Him, When Je- sus ap- pears We shall be like Him O how the prom- ise cheers! We shall be like Him, when Je- sus ap- pears.
+v1: We shall be like Him: O won- der- ful tho' t! Bless- ed the hope the as- sur- ance hath wrought; Changed from the sor- row and trials of years, We Shall be like Him, When Je- sus ap- pears. We shall be like Him; O how the prom- ise cheers! We shall be like Him, when Je- sus ap- pears.
+v2: Eye hath not seen, nor hath ear ev- er heard What we shall be, but a voice from His word Whis- pers a mes- sage that charms all our fears: We Shall be like Him, When Je- sus ap- pears. We shall be like Him; O how the prom- ise cheers! We shall be like Him, when Je- sus ap- pears.
+v3: Why, then, re- pine when the road- way is rough? Are not His word and the prom- ise e- nough? Rain- bows of love span the val- ley of tears: We Shall be like Him, When Je- sus ap- pears. We shall be like Him; O how the prom- ise cheers! We shall be like Him, when Je- sus ap- pears.
+v4: We shall be like Him, the Hope of the soul; We shall be like Him, made per- fect- ly whole; Caught up with saint, as the fir- ma- ment clears: We Shall be like Him, When Je- sus ap- pears. We shall be like Him; O how the prom- ise cheers! We shall be like Him, when Je- sus ap- pears.

@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Je- sus, keep me near the cross There a pre- cious foun- tain, Free to all a heal- ing stream Flows from Cal- vary's moun- tain. In the cross, in the cross, Be my glo- ry ev- er Till my rap- tured soul shall find Rest be- yond the riv- er. _ _
-v2: Near the cross, a trem- bling soul, Love and mer- cy found me There the Bright and Morn- ing Star Shed its beams a- round me. In the cross, in the cross, Be my glo- ry ev- er Till my rap- tured soul shall find Rest be- yond the riv- er. _ _
-v3: Near the cross! O Lamb of God, Bring its scenes be- fore me Help me walk from day to day With its shad- ow o'er me. In the cross, in the cross, Be my glo- ry ev- er Till my rap- tured soul shall find Rest be- yond the riv- er. _ _
-v4: Near the cross I'll watch and wait, Hop- ing, trust- ing ev- er, Till I reach the gold- en strand Just be- yond the riv- er. In the cross, in the cross, Be my glo- ry ev- er Till my rap- tured soul shall find Rest be- yond the riv- er. A- men.
+v1: Je- sus, keep me near the cross; There a pre- cious foun- tain, Free to all a heal- ing stream Flows from Cal- vary's moun- tain. In the cross, in the cross Be my glo- ry ev- er; Till my rap- tured soul shall find Rest be- yond the riv- er. _ _
+v2: Near the cross, a trem- bling soul, Love and mer- cy found me; There the Bright and Morn- ing Star Shed its beams a- round me. In the cross, in the cross Be my glo- ry ev- er; Till my rap- tured soul shall find Rest be- yond the riv- er. _ _
+v3: Near the cross! O Lamb of God, Bring its scenes be- fore me; Help me walk from day to day With its shad- ow over me. In the cross, in the cross Be my glo- ry ev- er; Till my rap- tured soul shall find Rest be- yond the riv- er. _ _
+v4: Near the cross I'll watch and wait, Hop- ing, trust- ing ev- er, Till I reach the gold- en strand Just be- yond the riv- er. In the cross, in the cross Be my glo- ry ev- er; Till my rap- tured soul shall find Rest be- yond the riv- er. A- men.

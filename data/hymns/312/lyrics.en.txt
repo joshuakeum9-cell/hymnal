@@ -2,9 +2,9 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: exact, auto, rough)
+# quality: auto (per verse: auto, auto, auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: If thou but suf- fer God to guide thee And hope in Him through all thy ways, He'll give thee strength, what- e'er be- tide thee, And bear thee through the e- vil days. Who trust in God's un- chang- ing love Builds on the rock that naught can move. _ _
-v2: O- _ bey thou res- tless heart be still and wait in cheer- ful hope con- tent To take wha- te- 'er His gra- cious will His all di- scern- ing love hath sent Nor doubt our in most wants are known To him who chose us for him own _ _
-v3: Sing, _ _ pray, and swerve not from His ways, But do thine own part faith- ful- ly Trust His rich prom- is- es of grace, So _ _ shall they be ful- filled in thee God nev- er yet for sook in need The souls that tru- sted Him in- deed.
+v1: If thou but suf- fer God to guide thee, And hope in Him through all thy ways, He'll give thee strength, what- ev- er be- tide thee, And bear thee through the e- vil days; Who trust in God's un- chang- ing love Builds on the rock that naught can _ move.
+v2: O- _ bey thou rest- less heart be still And wait in cheer- ful hope, con- tent To take what- ev- er His gra- cious will, His _ _ all- discerning love hath sent; Nor doubt our in- most wants are known To him who chose us for Him own. _ _
+v3: Sing, _ pray, and swerve not from His ways; But do thine own part faith- ful- ly, Trust _ His rich prom- is- es of grace, So shall they be ful- filled in thee. God nev- er yet for- sook in need The souls that tru- sted Him in- deed. A- men.

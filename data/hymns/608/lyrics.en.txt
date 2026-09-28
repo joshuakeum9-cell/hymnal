@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Some day the sil- ver cord will break, And I no more as now shall sing But oh, the joy when I shall wake With- ing the pal- ace of the King! And I shall see Him face to face, And tell the sto- ry Saved by grace And I shall see Him face to face, And tell the sto- ry Saved by grace. _ _
-v2: Some day my earth- ly house will fall, I can- not tell how soon 'twill be But this I know my All in All Has now a place in heav'n for me. And I shall see Him face to face, And tell the sto- ry Saved by grace And I shall see Him face to face, And tell the sto- ry Saved by grace. _ _
-v3: Some day, when fades the gold- en sun Be- neath the ro- sy- tint- ed west, My bless- ed Lord will say, "Well done!" And I shall en- ter in- to rest. And I shall see Him face to face, And tell the sto- ry Saved by grace And I shall see Him face to face, And tell the sto- ry Saved by grace. _ _
-v4: Some day: till then I'll then I'll watch and wait, My lamp all trimmed and burning bright, That when my Saviour ope's the gate, My soul to Him may take its flight. And I shall see Him face to face, And tell the sto- ry Saved by grace And I shall see Him face to face, And tell the sto- ry Saved by grace. A- men.
+v1: Some day the sil- ver cord will break, And I no more as now shall sing; But oh, the joy when I shall wake With- in the pal- ace of the King! And I shall see Him face to face, And tell the sto- ry Saved by grace; And I shall see Him face to face, And tell the sto- ry Saved by grace. _ _
+v2: Some day my earth- ly house will fall, I can- not tell how soon 'twill be; But this I know my All in All Has now a place in heaven for me. And I shall see Him face to face, And tell the sto- ry Saved by grace; And I shall see Him face to face, And tell the sto- ry Saved by grace. _ _
+v3: Some day, when fades the gold- en sun Be- neath the ro- sy tin- ted west, My bless- ed Lord will say, "Well done!" And I shall en- ter in- to rest. And I shall see Him face to face, And tell the sto- ry Saved by grace; And I shall see Him face to face, And tell the sto- ry Saved by grace. _ _
+v4: Some day: till then I'll then I'll watch and wait, My lamp all trimmed and burning bright, That when my Savior open the gate, My soul to Him may take its flight. And I shall see Him face to face, And tell the sto- ry Saved by grace; And I shall see Him face to face, And tell the sto- ry Saved by grace. A- men.

@@ -2,6 +2,9 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: none)
+# quality: auto (per verse: auto, auto, auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: O _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ho- ly _ night! The stars are bright- ly shin- ing, It is the night of the dear Sav- ior's birth; Long lay the world in sin and er- ror pin- ing, Till he ap- peared and the soul felt its worth. A thrill of hope the wea- ry world re- joic- es, For yon- der breaks a new and glo- ri- ous morn; Fall _ on your knees, Oh, hear the an- gel voic- es! O night di- vine, O night when Christ was born! O night, O ho- _ ly _ night, O night di- vine!
+v2: Led _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ by the light of Faith se- re- ne- ly beam- ing, With glow- ing hearts by His cra- dle we stand; So led by light of a star sweet- ly gleam- ing, Here come the wise men from O- ri- ent land. The King of Kings lay thus in low- ly man- ger, In all our tri- als born to be our friend; He knows our need, To our weak- ness _ is no stran- ger. Be- hold your Kings, be- fore Him low- ly bend! Be- hold your King, _ be- _ fore Him low- ly bend!
+v3: Tru- _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ly He _ taught us to love one an- oth- er; His law is love and His gos- pel is peace; Chains shall He break, for the slave is our broth- er, And in His name all op- pres- sion shall cease. Sweet hymns of joy in grate- ful cho- rus raise we, Let all with- in us praise His ho- ly name; Christ if the Lord, Oh, praise His name for- ev- er! His pow- er and glo- ry ev- er- more pro- claim! His pow- er and glo- _ ry _ ev- er- more pro- claim.

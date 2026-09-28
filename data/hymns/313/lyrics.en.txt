@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Je- sus, my King, be- fore Thy face A sin- ner stands, re- deem'd by grace. And for that bound- less grace _ di- vine, To Thee I pledge this bo- dy of mine. Do Thou, O Lord, in mer- cy pour On me _ such grace for- ev- er more!
+v1: Je- sus, my King, be- fore Thy face A sin- ner stands, re- deemed by grace. And for that bound- less grace _ di- vine, To Thee I pledge this bo- dy of mine. Do Thou, O Lord, in mer- cy pour On me _ such grace for- ev- er more!
 v2: My King, my Lord, be- hold this heart, Thou who dost know it's deep- est part, Be- hold it's faith in Cal- _ va- ry, And in the blood my Lord shed for me. For- give, O Lord, my griev- ous sin, And grant _ my heart true peace with- in.
-v3: My King, my Lord, a- maz'd and stirr'd By that rich grace Thou hast con- ferr'd, Un- end- ing thanks and end- _ less praise To Thee, O Lord, this glad heart would raise, And all its pow'rs, hence- forth em- ploy To serve _ its Lord with end- less joy.
-v4: My King, my Lord, be- cause this flesh, So with- out worth or use- ful- ness, Is flesh re- deem'd and dear- _ ly bought By Thine own blood not giv- en for naught, In life or death for Thee to live, And Thee _ a- lone, my- self I give.
+v3: My King, my Lord, a- mazed and stirred By that rich grace Thou hast con- ferred, Un- end- ing thanks and end- _ less praise To Thee, O Lord, this glad heart would raise, And all its powers, hence- forth em- ploy To serve _ its Lord with end- less joy.
+v4: My King, my Lord, be- cause this flesh, So with- out worth or use- ful- ness, Is flesh re- deemed and dear- _ ly bought By Thine own blood not giv- en for naught, In life or death for Thee to live, And Thee _ a- lone, my- self I give.

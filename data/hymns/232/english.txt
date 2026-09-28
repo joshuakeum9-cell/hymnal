@@ -1,18 +1,18 @@
 # 232 Twas On That Night When Doomed To Know: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 'Twas on that night when doomed to know
-The eager spite of ev'ry foe,
+The eager spite of every foe,
 That night in which He was betrayed,
-The saviour of the world took bread.
+The savior of the world took bread.
 
-And, after thanks and glory giv'n
-To Him that rules in earth and heav'n,
+And, after thanks and glory given
+To Him that rules in earth and heaven,
 That Symbol of His flesh He broke,
 And thus to all his foll'wers spoke.
 
 "My broken body thus I give
-For you, for all, Take, eat, and live.
+For you, for all. Take, eat, and live.
 And oft the sacred rite renew
 That brings my saving love to view."
 
@@ -22,11 +22,12 @@ While kindness in His bosom glowed,
 And from His lips salvation flowed.
 
 "My blood I thus pour forth," He cries,
-"To cleanse the soul in sin that lies
+"To cleanse the soul in sin that lies;
 In this the covenant is sealed,
-And heav'n's eternal grace revealed."
+And heaven's eternal grace revealed."
 
-"With love to man this cup is fraught
-Let all partake the sacred draught
+"With love to man this cup is fraught;
+Let all partake the sacred draught;
 Through latest ages let it pour,
-In memory of my dying hour." Amen.
+In memory of my dying hour."
+Amen.

@@ -1,5 +1,5 @@
 # 177 I am Watching for the Coming: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 I am watching for the coming
 of the glad millennial day,
@@ -12,7 +12,7 @@ coming back to earth again.
 Oh, our Lord is coming back to earth again.
 Yes, our Lord is coming back to earth again.
 Satan will be bound a thousand
-years we'll have no tempter then,
+years; we'll have no tempter then,
 After Jesus
 shall come back to earth again.
 
@@ -27,7 +27,7 @@ shall come back to earth again.
 Oh, our Lord is coming back to earth again.
 Yes, our Lord is coming back to earth again.
 Satan will be bound a thousand
-years we'll have no tempter then,
+years; we'll have no tempter then,
 After Jesus
 shall come back to earth again.
 
@@ -35,14 +35,14 @@ Yes, the ransomed of the Lord shall
 come to Zion then with joy,
 And in all His holy mountain
 nothing hurts or shall destroy.
-Perfect peace shall reign in ev'ry
+Perfect peace shall reign in every
 heart, and love without alloy,
 After Jesus
 shall come back to earth again.
 Oh, our Lord is coming back to earth again.
 Yes, our Lord is coming back to earth again.
 Satan will be bound a thousand
-years we'll have no tempter then,
+years; we'll have no tempter then,
 After Jesus
 shall come back to earth again.
 
@@ -57,6 +57,7 @@ shall come back to earth again.
 Oh, our Lord is coming back to earth again.
 Yes, our Lord is coming back to earth again.
 Satan will be bound a thousand
-years we'll have no tempter then,
+years; we'll have no tempter then,
 After Jesus
-shall come back to earth again. Amen.
+shall come back to earth again.
+Amen.

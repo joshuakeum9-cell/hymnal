@@ -2,10 +2,9 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: exact, exact, auto)
-# wording: Korean-English hymnal (prayertents.com)
+# quality: exact (per verse: exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 v1: The Lord be with us as each day His bless- ings we re- ceive His gift of peace on all we pray, Be- fore His courts we leave. _ _
 v2: The Lord be with us as we walk A- long our home- ward road In si- lent thought or friend- ly talk, Our hearts be near to God. _ _
-v3: The _ _ Lord be with us till the night En- fold our day of rest Be He of ev- ery heart the Light, Of ev- ery home the Guest.
+v3: The Lord be with us till the night En- fold our day of rest Be He of ev- ery heart the Light, Of ev- ery home the Guest. A- men.

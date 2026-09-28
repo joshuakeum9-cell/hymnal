@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 v1: Bright- ly beams our Fa- ther's mer- cy From His light- house ev- er- more, But to us He gives the keep- ing Of the lights a- long the shore. Let the low- er lights be burn- ing! Send a gleam a- cross the wave! Some poor faint- ing, strug- gling sea- man You may res- cue, you may save.
-v2: Dark the night of sin has set- tled, Loud the an- gry bil- lows roar Ea- ger eyes are watch- ing, long- ing, For the lights a- long the shore. Let the low- er lights be burn- ing! Send a gleam a- cross the wave! Some poor faint- ing, strug- gling sea- man You may res- cue, you may save.
-v3: Trim your fee- ble lamp, my broth- er Some poor sail- or, tem- pest- tossed, Try- ing now to make the har- bor, In the dark- ness may be lost. Let the low- er lights be burn- ing! Send a gleam a- cross the wave! Some poor faint- ing, strug- gling sea- man You may res- cue, you may save.
+v2: Dark the night of sin has set- tled, Loud the an- gry bil- lows roar; Ea- ger eyes are watch- ing, long- ing, For the lights a- long the shore. Let the low- er lights be burn- ing! Send a gleam a- cross the wave! Some poor faint- ing, strug- gling sea- man You may res- cue, you may save.
+v3: Trim your fee- ble lamp, my broth- er; Some poor sail- or, tem- pest- tossed, Try- ing now to make the har- bor, In the dark- ness may be lost. Let the low- er lights be burn- ing! Send a gleam a- cross the wave! Some poor faint- ing, strug- gling sea- man You may res- cue, you may save.

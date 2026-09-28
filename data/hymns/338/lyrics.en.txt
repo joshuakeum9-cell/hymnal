@@ -2,11 +2,11 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: exact, auto, exact, exact)
+# quality: exact (per verse: exact, exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-# placement: verses 1, 3, 4 follow the Open Hymnal Project's engraving of this tune
-v1: Nearer, my God, to Thee, Near- er to Thee! E- 'en though it be a cross That _ rais- eth me Still all my song shall be, Near- er, my God, to Thee, Near- er, my God, to Thee, Near- _ er to Thee. _ _
-v2: Thn- der- _ er, _ The sun gone _ diwn, Dark- ness be o- ver me, My _ rest a stone Yet in my dreams I'd be Near- er, my God, to Thee, Near- er, my God, to Thee, Near- _ er to Thee. _ _
-v3: There let the way ap- pear Steps un- to heaven All that Thou send- est me In _ mer- cy given An- gels to beck- on me Near- er, my God, to Thee, Near- er, my God, to Thee, Near- _ er to Thee. _ _
-v4: Then, with my wak- ing thoughts Bring with Thy praise, Out of my ston- y griefs Beth- _ el I'll raise So by my woes to be Near- er, my God, to Thee, Near- er, my God, to Thee, Near- _ er to Thee. A- men.
+# placement: verses 1, 2, 3, 4 follow the Open Hymnal Project's engraving of this tune
+v1: Nearer, my God, to Thee, Near- er to Thee! E- 'en though it be a cross That _ rais- eth me; Still all my song shall be, Near- er, my God, to Thee, Near- er, my God, to Thee, Near- _ er to Thee. _ _
+v2: Though like the wan- der- er, The sun gone down, Dark- ness be o- ver me, My _ rest a stone; Yet in my dreams I'd be Near- er, my God, to Thee, Near- er, my God, to Thee, Near- _ er to Thee. _ _
+v3: There let the way ap- pear Steps un- to heaven; All that Thou send- est me In _ mer- cy given; An- gels to beck- on me Near- er, my God, to Thee, Near- er, my God, to Thee, Near- _ er to Thee. _ _
+v4: Then, with my wak- ing thoughts Bright with Thy praise, Out of my ston- y griefs Beth- _ el I'll raise; So by my woes to be Near- er, my God, to Thee, Near- er, my God, to Thee, Near- _ er to Thee. A- men.

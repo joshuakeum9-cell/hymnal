@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: I have a song _ I _ love to sing, Since I have been re- deemed, Of my Re- deem- _ er, _ Sav- iour, King, Since I have been re- deemed. Since _ I have been re- deemed, Since _ I have been re- deemed, I will glo- ry in His name Since _ I have been re- deemed, I will glo- ry in my Sav- iour's name.
-v2: I have a Christ _ that _ sat- is- fies, Since I have been re- deemed, To do His will _ my _ high- est prize, Since I have been re- deemed. Since _ I have been re- deemed, Since _ I have been re- deemed, I will glo- ry in His name Since _ I have been re- deemed, I will glo- ry in my Sav- iour's name.
-v3: I have a Wit- _ ness _ bright and clear, Since I have been re- deemed, Dis- pel- ling ev- _ -'ry _ doubt and fear, Since I have been re- deemed. Since _ I have been re- deemed, Since _ I have been re- deemed, I will glo- ry in His name Since _ I have been re- deemed, I will glo- ry in my Sav- iour's name.
-v4: I have a peac _ by _ Je- sus' blood, Since I have been re- deemed, The peace of heav'n, _ the _ gift of God, Since I have been re- deemed. Since _ I have been re- deemed, Since _ I have been re- deemed, I will glo- ry in His name Since _ I have been re- deemed, I will glo- ry in my Sav- iour's name.
+v1: I have a song _ I _ love to sing, Since I have been re- deemed, Of my Re- deem- _ er, _ Sav- ior, King, Since I have been re- deemed. Since _ I have been re- deemed, Since _ I have been re- deemed, I will glo- ry in His name, Since _ I have been re- deemed, I will glo- ry in my Sav- ior's name.
+v2: I have a Christ _ that _ sat- is- fies, Since I have been re- deemed, To do His will _ my _ high- est prize, Since I have been re- deemed. Since _ I have been re- deemed, Since _ I have been re- deemed, I will glo- ry in His name, Since _ I have been re- deemed, I will glo- ry in my Sav- ior's name.
+v3: I have a Wit- _ ness _ bright and clear, Since I have been re- deemed, Dis- pel- ling ev- _ ery _ doubt and fear, Since I have been re- deemed. Since _ I have been re- deemed, Since _ I have been re- deemed, I will glo- ry in His name, Since _ I have been re- deemed, I will glo- ry in my Sav- ior's name.
+v4: I have a peace _ by _ Je- sus' blood, Since I have been re- deemed, The peace of heaven, _ the _ gift of God, Since I have been re- deemed. Since _ I have been re- deemed, Since _ I have been re- deemed, I will glo- ry in His name, Since _ I have been re- deemed, I will glo- ry in my Sav- ior's name.

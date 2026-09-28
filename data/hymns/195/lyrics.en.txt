@@ -2,11 +2,11 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: exact, exact, auto, exact, exact)
+# quality: exact (per verse: exact, exact, exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Ho- ly Spir- it, hear us, Help us while we sing Breathe in- to the mu- sic Of the praise we bring. _ _
-v2: Ho- ly Spir- it, prompt us When we kneel to pray Near- er come, and teach us What we ought to say. _ _
-v3: Ho- _ ly Spir- it, Thou On the Book we read Gild its ho- ly pag- es With the light we need. _ _
-v4: Ho- ly Spir- it, bright- en Lit- tle deeds of toil And our play- ful pas- times Let no fol- ly spoil. _ _
-v5: Ho- ly Spir- it, give us Each a low- ly mind Make us more like Je- sus, Gent- le, pure, and kind. A- men.
+v1: Ho- ly Spir- it, hear us, Help us while we sing; Breathe in- to the mu- sic Of the praise we bring. _ _
+v2: Ho- ly Spir- it, prompt us When we kneel to pray; Near- er come, and teach us What we ought to say. _ _
+v3: Ho- ly Spir- it, shine Thou On the Book we read; Gild its ho- ly pag- es With the light we need. _ _
+v4: Ho- ly Spir- it, bright- en Lit- tle deeds of toil; And our play- ful pas- times Let no fol- ly spoil. _ _
+v5: Ho- ly Spir- it, give us Each a low- ly mind; Make us more like Je- sus, Gen- tle, pure, and kind. A- men.

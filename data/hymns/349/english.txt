@@ -1,5 +1,5 @@
 # 349 Am I a Soldier of The Cross: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 Am I a soldier of the cross,
 A follower of the Lamb,
@@ -22,8 +22,8 @@ Are there no foes for me to face?
 Must I not stem the flood?
 Is this vain world a friend to grace,
 To help me on to God?
-Sure I must fight, if I would reign
-Increase my courage, Lord
+Sure I must fight, if I would reign:
+Increase my courage, Lord;
 I'll bear the toil, endure the pain,
 Supported by Thy word.
 I'll be a soldier for Jesus
@@ -36,7 +36,7 @@ I'll be a soldier for Jesus
 Until the warfare is won.
 
 Thy saints, in all this glorious war,
-Shall conquer, though they die
+Shall conquer, though they die;
 They see the triumph from afar,
 By faith they bring it nigh.
 When that illustrious day shall rise

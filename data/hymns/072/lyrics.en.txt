@@ -2,6 +2,11 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: none)
+# quality: rough (per verse: auto, auto, rough, auto, auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Come _ _ _ _ now, and lift up your hearts and sing, En- ter the courts of the King of kings. Come and re- joice in his won- drous works; Thank _ _ _ _ him and praise him with joy- ous _ _ _ _ Psalm. _ _ Come you with joy- ful and thank- ful hearts, In- to the court of the King of kings.
+v2: Know _ _ _ that the Lord is a might- y God, Rul- _ er su- preme in the realms a- bove; He is the Lord of the depths be- low; He _ _ _ _ is the strength of the moun- tains _ _ _ _ high. _ _ Come you with joy- ful and thank- ful hearts, In- to the court of the King of kings.
+v3: He _ _ _ hath cre- a- ted the depths be- low; His _ own hands made the beau- teous land; Gen- tle and kind, the _ good shep- herd he; We _ _ _ _ are the sheep of his pas- ture _ _ _ _ land. _ _ Come you with joy- ful and thank- ful hearts, In- to the court of the King of kings.
+v4: Come, _ _ let _ us bow down and wor- ship him; kneel _ in the pres- ence of our great God. If you will hear- ken and heed his word, you _ _ _ _ shall be glad and your hearts re- _ _ _ _ joice. _ _ Come you with joy- ful and thank- ful hearts, In- to the court of the King of kings.
+v5: Glo- _ _ ry to Fa- ther and glo- ry to Son, Glo- _ ry to Spir- it and Three in one. Glo- ry to God when the worlds be- gan, Glo- _ _ _ _ ry to Him ev- er- more shall _ _ _ _ be. _ _ Come you with joy- ful and thank- ful hearts, In- to the court of the King of kings.

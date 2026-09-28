@@ -1,5 +1,5 @@
 # 507 From Greenland's Icy Mountains: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 From Greenland's icy mountains,
 From India's coral strand,
@@ -13,7 +13,7 @@ Their land from error's chain.
 Can we, whose souls are lighted
 With wisdom from on high,
 Can we to men benighted
-The lamp of life deny
+The lamp of life deny?
 Salvation! O salvation!
 The joyful sound proclaim,
 Till each remotest nation
@@ -22,8 +22,9 @@ Has learned Messiah's Name.
 Waft, waft, ye winds, His story,
 And you, ye waters, roll,
 Till like a sea of glory
-It spreads from pole to pole
-Till o'er our ransomed nature
+It spreads from pole to pole;
+Till over our ransomed nature
 The Lamb for sinners slain,
 Redeemer, King, Creator,
-In bliss returns to reign. Amen.
+In bliss returns to reign.
+Amen.

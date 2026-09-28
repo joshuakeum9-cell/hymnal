@@ -2,6 +2,9 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: none)
+# quality: exact (per verse: exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: "In His steps" I fol- low as I go. On my pil- grim jour- ney here be- low. "In His steps" I fol- low day by day, Trust- ing Him to lead the way. Glad- ly in His steps I fol- low, I fol- low, I fol- low. Glad- ly in His steps I fol- low, Glad- ly in His steps I go. _ _
+v2: "In His steps" what peace and joy I know. Ev- ery day my path doth bright- er grow. "In His steps" His spir- it dwells with- in. Cleans- ing me from ev- ery sin. Glad- ly in His steps I fol- low, I fol- low, I fol- low. Glad- ly in His steps I fol- low, Glad- ly in His steps I go. _ _
+v3: "In His steps" how sweet to walk with Him. E- 'en tho' clouds my path- way of- ten "dim, "In His steps" tho' pressed by Every foe. I shall con- quer all, I know. Glad- ly in His steps I fol- low, I fol- low, I fol- low. Glad- ly in His steps I fol- low, Glad- ly in His steps I go. A- men.

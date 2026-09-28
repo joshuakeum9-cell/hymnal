@@ -3,11 +3,12 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact, exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: O Thou, the _ Lamb _ of God, Spot- less and _ most ho- ly, Is slain, th'un- _ blem- ish'd Lamb, to _ bear Our sins at _ Cal- _ va- ry.
-v2: This is the _ brok- _ en bread, The bo- dy _ marr'd for me, The ve- ry _ bo- dy of the _ Lord, Nail- brok- en _ on _ the tree.
-v3: This is the _ blood _ out- pour'd In judg- ment, _ in my stead For you, for _ me, at Cal- va- _ ry In love and _ mer- _ cy shed.
+v1: O Thou, the _ Lamb _ of God, Spot- less and _ most ho- ly, Is slain, th'un- _ ble- mished Lamb, to _ bear Our sins at _ Cal- _ va- ry.
+v2: This is the _ brok- _ en bread, The bo- dy _ marred for me, The ve- ry _ bo- dy of the _ Lord, Nail- brok- en _ on _ the tree.
+v3: This is the _ blood _ out- poured In judg- ment, _ in my stead; For you, for _ me, at Cal- va- _ ry In love and _ mer- _ cy shed.
 v4: Here is the _ tab- _ le spread Which Je- sus _ doth pre- pare, Who gives us _ now this bread of _ life, This cup which _ now _ we share.
 v5: The Lord for _ Whom _ we yearn, As- cend- ed _ for a space, Comes soon, and _ we at His re- _ turn With joy shall _ see _ His face.
-v6: And we Un- _ til _ that hour, Let us, in _ ev- -'ry place Bear still our _ cross, still tell His _ pow'r, His mer- cy _ and _ His grace!
+v6: And we? Un- _ til _ that hour, Let us, in _ ev- ery place Bear still our _ cross, still tell His _ power, His mer- cy _ and _ His grace!

@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Tell me, my Sav- ior! Where Thou dost feed Thy flock, Rest- ing be- side the rock, Cool in the shade Why should I be as one Turn- ing a- side a- lone, Left, when Thy sheep have gone, Where I have strayed _ _
-v2: Seek me, my Sav- ior! For I have lost the way I will Thy voice o- bey Speak to me here! Help me to find the gate Where all Thy chos- en wait Ere it shall be too late, Oh, call me near! _ _
-v3: Show me, my Sav- ior! How I can grow like Thee Make me Thy child to be, Taught from a- bove Help me Thy smile to win Keep me safe fold- ed in, Lest I should rove in sin, Far from Thy love. A- men.
+v1: Tell me, my Sav- ior! Where Thou dost feed Thy flock, Rest- ing be- side the rock, Cool in the shade: Why should I be as one Turn- ing a- side a- lone, Left, when Thy sheep have gone, Where I have strayed? _ _
+v2: Seek me, my Sav- ior! For I have lost the way; I will Thy voice o- bey; Speak to me here! Help me to find the gate Where all Thy chos- en wait: Ere it shall be too late, Oh, call me near! _ _
+v3: Show me, my Sav- ior! How I can grow like Thee; Make me Thy child to be, Taught from a- bove: Help me Thy smile to win: Keep me safe fold- ed in, Lest I should rove in sin, Far from Thy love. A- men.

@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Come to the Sav- iour, make no de- lay Here in His Word He's shown us the way Here in our midst He's stand- ing to- day, Ten- der- ly say- ing, "Come!" Joy- ful, joy- ful, will the meet- ing be, When from sin our hearts are pure and free And we shall gath- er, Sav- iour, with Thee, In our e- ter- nal home.
-v2: "Suf- fer the chil- dren!" O hear His voice! Let ev- -'ry heart leap forth and re- joice And let us free- ly make Him our choice Do not de- lay, but come. Joy- ful, joy- ful, will the meet- ing be, When from sin our hearts are pure and free And we shall gath- er, Sav- iour, with Thee, In our e- ter- nal home.
-v3: Think once a- gain, He's with us to- day Heed now His blest com- mands, and o- bey Hear now His ac- cents ten- der- ly say. "Will you, my chil- dren, come?" Joy- ful, joy- ful, will the meet- ing be, When from sin our hearts are pure and free And we shall gath- er, Sav- iour, with Thee, In our e- ter- nal home.
+v1: Come to the Sav- ior, make no de- lay; Here in His Word He's shown us the way; Here in our midst He's stand- ing to- day, Ten- der- ly say- ing, "Come!" Joy- ful, joy- ful will the meet- ing be, When from sin our hearts are pure and free; And we shall gath- er, Sav- ior, with Thee, In our e- ter- nal home.
+v2: "Suf- fer the chil- dren!" O hear His voice! Let ev- ery heart leap forth and re- joice; And let us free- ly make Him our choice: Do not de- lay, but come. Joy- ful, joy- ful will the meet- ing be, When from sin our hearts are pure and free; And we shall gath- er, Sav- ior, with Thee, In our e- ter- nal home.
+v3: Think once a- gain, He's with us to- day; Heed now His blest com- mands, and o- bey; Hear now His ac- cents ten- der- ly say. "Will you, my chil- dren, come?" Joy- ful, joy- ful will the meet- ing be, When from sin our hearts are pure and free; And we shall gath- er, Sav- ior, with Thee, In our e- ter- nal home.

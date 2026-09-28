@@ -6,7 +6,7 @@
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 # placement: verses 1, 2, 3, 4 follow the Open Hymnal Project's engraving of this tune
-v1: I need Thee eve- ry hour, Most gra- _ cious _ Lord No ten- der voice like Thine Can peace _ af- _ ford With Thee what joy I cap- ture! Ev- ery hour is rap- ture! O bless me now, my Sav- iour, I come _ to Thee. _ _
-v2: I need Thee eve- ry hour, Stay Thou _ near _ by Temp- ta- tions lose their power When Thou _ art _ nigh. With Thee what joy I cap- ture! Ev- ery hour is rap- ture! O bless me now, my Sav- iour, I come _ to Thee. _ _
-v3: I need Thee eve- ry hour, In joy _ or _ pain Come quick- ly and a- bide, Or life _ is _ vain. With Thee what joy I cap- ture! Ev- ery hour is rap- ture! O bless me now, my Sav- iour, I come _ to Thee. _ _
-v4: I need Thee eve- ry hour, Teach me _ Thy _ will And Thy rich prom- is- es In me _ ful- _ fill. With Thee what joy I cap- ture! Ev- ery hour is rap- ture! O bless me now, my Sav- iour, I come _ to Thee. _ _
+v1: I need Thee ev- ery hour, Most gra- _ cious _ Lord; No ten- der voice like Thine Can peace _ af- _ ford I need Thee, O I need Thee; Ev- ery hour I need Thee! O bless me now, my Sav- ior, I come _ to Thee. _ _
+v2: I need Thee ev- ery hour, Stay Thou _ near _ by; Temp- ta- tions lose their power When Thou _ art _ nigh. I need Thee, O I need Thee; Ev- ery hour I need Thee! O bless me now, my Sav- ior, I come _ to Thee. _ _
+v3: I need Thee ev- ery hour, In joy _ or _ pain; Come quick- ly and a- bide, Or life _ is _ vain. I need Thee, O I need Thee; Ev- ery hour I need Thee! O bless me now, my Sav- ior, I come _ to Thee. _ _
+v4: I need Thee ev- ery hour, Teach me _ Thy _ will; Thy prom- is- es so rich In me _ ful- _ fill. I need Thee, O I need Thee; Ev- ery hour I need Thee! O bless me now, my Sav- ior, I come _ to Thee. A- men.

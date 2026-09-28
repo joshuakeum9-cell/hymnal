@@ -1,8 +1,8 @@
 # 257 I Can Sing Now the Song: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 I can sing now the song Of the bloodransomed throng
-In my soul There is peace, rest and calm
+In my soul There is peace, rest and calm;
 I am free from all doubt, And I join in the shout,
 I'm redeemed by the blood of the Lamb.
 I'm redeemed, I'm redeemed,
@@ -12,7 +12,7 @@ And I join with the throng round the throne In the song,
 I'm redeemed by the blood of the Lamb.
 
 Oh! I know I'm alive In the Lord, and I strive
-Unto blood with the sun that would damn
+Unto blood with the sun that would damn;
 As I walk in the light There is strength for the fight,
 I'm redeemed by the blood of the Lamb.
 I'm redeemed, I'm redeemed,
@@ -22,7 +22,7 @@ And I join with the throng round the throne In the song,
 I'm redeemed by the blood of the Lamb.
 
 I have grace for the day, I have help by the way
-There is healing and comforting balm
+There is healing and comforting balm;
 For my sickness there's health, For my poverty wealth,
 I'm redeemed by the blood of the Lamb.
 I'm redeemed, I'm redeemed,
@@ -32,7 +32,7 @@ And I join with the throng round the throne In the song,
 I'm redeemed by the blood of the Lamb.
 
 In the storm and the night, In the midst of the fight
-Jesus puts in my hand vict'ry's palm
+Jesus puts in my hand victory's palm;
 Overcoming all foes, In the Lord I repose,
 I'm redeemed by the blood of the Lamb.
 I'm redeemed, I'm redeemed,

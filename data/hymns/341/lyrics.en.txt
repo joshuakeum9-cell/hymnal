@@ -2,9 +2,9 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: auto, auto, exact)
+# quality: auto (per verse: auto, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Je- sus, I my cross have tak- _ en, All to leave, and flo- low Thee _ Des- ti- tute, de- spised, for- sak- _ en, Thou, from hence, _ my _ all shalt be. Per- ish eve- ry fond am- bi- _ tion, All I've sought, and hoped, or known _ Yet how rich is my con- do- _ tion, God and heav- _ en _ are still my _ own.
-v2: Let _ the world de- _ spise _ sand leave _ me, Sav- iour, too Hu- _ man hearts and look de- ceive me, _ Thou art not, like _ man, _ un- true And, while _ Thou shalt smile up- on _ me, God of wis- dom, love, and, might, _ Foes may hate, and friends may shun _ me: Show Thy face, _ and _ all is bright. _ _
-v3: Man may trou- ble and dis- tess _ me, 'Twill but drive me to Thy breast _ Life with tri- als hard may press _ me, Heav'n will bring _ me _ sweet- er rest O 'tis not in grief to harm _ me While Thy love is left to me _ O 'twere not in joy to charm _ me: Where that joy _ un- _ mixed with Thee. A- men.
+v1: Je- sus, I my cross have tak- _ en, All to leave, and fol- low Thee; _ Des- ti- tute, de- spised, for- sak- _ en, Thou, from hence, _ my _ all shalt be. Per- ish ev- ery fond am- bi- _ tion, All I've sought, and hoped, or known; _ Yet how rich is my con- di- _ tion, God and heav- _ en _ are still my _ own.
+v2: Let the world de- spise sand leave _ me, They have left my Sav- ior, too; _ Hu- man hearts and look de- ceive _ me, Thou art not, _ like _ man, un- true; And, while Thou shalt smile up- on _ me, God of wis- dom, love, and might, _ Foes may hate, and friends may shun _ me: Show Thy face, _ and _ all is bright. _ _
+v3: Man may trou- ble and dis- tress _ me, 'Twill but drive me to Thy breast; _ Life with trials hard may press me, _ hea- ven will bring _ me _ swee- ter rest; O 'tis not in grief to harm _ me While Thy love is left to me; _ O 'twere not in joy to charm _ me: Where that joy _ un- _ mixed with Thee. A- men.

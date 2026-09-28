@@ -2,9 +2,9 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: exact, exact, auto)
+# quality: exact (per verse: exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Hark, the voice of Je- sus call- ing "Who will go and work to- day Fields are White, and har- vest wait- ing Who will bear the sheaves a- way Loud and long the Mas- ter call- eth, Rich re- ward He of- fers _ thee Who will an- swer, glad- ly say- ing, "Here am I send me, send me!"
-v2: If you can- not cross the o- cean, And the hea- then lands ex- plore, You can find the need- y near- er, You can help those at your door. If you can- nan sing like an- gels, If you can- can preach like _ Paul, You can tell the love of Je- sus, You can say He died for all
-v3: Let none hear id- ly say- ing, "There is _ noth- ing I can do." While the souls of men are dy- ing, And the Mast- er calls for you. Take the task He gives you glad- ly, Let His work your plea- sure _ be An- swer quick- ly while He call- eth, "Here am I: end me, send me!"
+v1: Hark, the voice of Je- sus call- ing, "Who will go and work to- day? Fields are White, and har- vest wait- ing; Who will bear the sheaves a- way?" Loud and long the Mas- ter call- eth, Rich re- ward He of- fers _ thee Who will an- swer, glad- ly say- ing, "Here am I; send me, send me!"
+v2: If you can- not cross the o- cean, And the hea- then lands ex- plore, You can find the need- y near- er, You can help those at your door. If you can- not sing like an- gels, If you can- can preach like _ Paul, You can tell the love of Je- sus, You can say, He died for all.
+v3: Let none hear you id- ly say- ing, "There is noth- ing I can do." While the souls of men are dy- ing, And the Mas- ter calls for you. Take the task He gives you glad- ly, Let His work your pleas- ure _ be; An- swer quick- ly while He call- eth, "Here am I; end me, send me!"

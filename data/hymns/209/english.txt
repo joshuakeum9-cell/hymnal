@@ -1,5 +1,5 @@
 # 209 From Every Stormy Wind That Blows: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 From every stormy wind that blows,
 From every swelling tide of woes,
@@ -7,9 +7,9 @@ There is a calm, a sure retreat:
 'Tis found before the mercy seat.
 
 There is a place where Jesus sheds
-The oil of gladness on our heads
+The oil of gladness on our heads;
 A place than all besides more sweet:
-It is the bloodbo't mercy seat.
+It is the bloodbought mercy seat.
 
 There is a scene where spirits blend,
 Where friend holds fellow ship with friend,
@@ -19,4 +19,5 @@ Before one common mercy seat.
 Oh, let my hand forget her skill,
 My tongue be silent, cold and still,
 This bounding heart forget to beat,
-If I forget Thy mercy seat. Amen.
+If I forget Thy mercy seat.
+Amen.

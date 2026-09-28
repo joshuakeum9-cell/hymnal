@@ -1,12 +1,12 @@
 # 564 When He Cometh: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 When He cometh, when He cometh
 To make up His jewels,
 All His jewels, precious jewels,
 His loved and His own.
 Like the stars of the morning,
-His bright crown adroning,
+His bright crown adorning,
 They shall shine in their beauty,
 Bright gems for His crown.
 
@@ -15,7 +15,7 @@ The gems for His kingdom,
 All the pure ones, all the bright ones,
 His loved and His own.
 Like the stars of the morning,
-His bright crown adroning,
+His bright crown adorning,
 They shall shine in their beauty,
 Bright gems for His crown.
 
@@ -24,6 +24,6 @@ Who love their Redeemer,
 Are the Jewels, precious jewels,
 His loved and His own.
 Like the stars of the morning,
-His bright crown adroning,
+His bright crown adorning,
 They shall shine in their beauty,
 Bright gems for His crown.

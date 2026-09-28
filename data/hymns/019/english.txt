@@ -1,16 +1,16 @@
 # 19 Hark! Ten Thousand Harps and Voices: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 Hark! ten thousand harps and voices
 Sound the note of praise above
-Jesus reigns, and heav'n rejoices
+Jesus reigns, and heaven rejoices
 Jesus reigns, the God of love:
-See, He sits on yonder throne
+See, He sits on yonder throne;
 Jesus rules the world alone.
 Alleluia! Alleluia!
 Alleluia! Amen.
 
-King of glory, reign ever,
+King of glory, reign forever,
 Thine an everlasting crown
 Nothing from Thy love shall sever
 Those whom Thou hast made Thine own:
@@ -19,11 +19,12 @@ Destined to behold Thy face.
 Alleluia! Alleluia!
 Alleluia! Amen.
 
-Saviour, hasten Thine appearing,
+Savior, hasten Thine appearing,
 Bring, O bring the glorious day,
 When, the awful summons hearing,
-Heav'n and earth shall pass away:
+heaven and earth shall pass away:
 Then with golden harps we'll sing,
 "Glory, glory to our King!"
 Alleluia! Alleluia!
-Alleluia! Amen. Amen.
+Alleluia! Amen.
+Amen.

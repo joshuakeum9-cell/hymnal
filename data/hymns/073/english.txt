@@ -1,10 +1,10 @@
 # 73 Unto The Hills Around Do I Lift Up: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 Unto the hills around do I lift up
 My longing eyes
 O whence for me shall my salvation come,
-From whence arise
+From whence arise?
 From God the Lord doth come my certain aid,
 From God the Lord who heaven and earth hath made.
 
@@ -12,19 +12,20 @@ He will not suffer that thy foot be moved:
 Safe shalt thou be.
 No careless slumber shall His eyelids close,
 Who keepeth thee.
-Behold, He sleepeth not, He slumbereth ne'er
+Behold, He sleepeth not, He slumbereth never
 Who keepeth Israel in His holy care.
 
 Jehovah is Himself thy keeper true,
-Thy changeless shade
+Thy changeless shade;
 Jehovah thy defense on thy right hand
 Himself hath made.
-And thee no sun by day shall ever smite
+And thee no sun by day shall ever smite;
 No moon shall harm thee in the silent night.
 
 From every evil shall He keep thy soul,
-From every sin
+From every sin;
 Jehovah shall preserve thy going out,
 Thy coming in.
 Above thee watching, He whom we adore
-Shall keep thee henceforth, yea, forevermore. Amen.
+Shall keep thee henceforth, yea, forevermore.
+Amen.

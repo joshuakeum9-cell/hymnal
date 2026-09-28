@@ -2,11 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: rough, auto, exact, rough)
-# wording: Korean-English hymnal (prayertents.com)
+# quality: auto (per verse: auto, auto, auto, auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: ! could not place 52 syllables on 45 notes
-v2: The po- wers of death have done their worst, But Christ their le- gions hath di- spersed; Let shouts of ho- ly joy out- burst. Al- le- _ lu- ia! Al- le- lu- ia! Al- le- _ lu- ia! Al- le- lu- ia! _ _
-v3: The three sad days are quick- ly sped; He ris- es glo- rious from the dead; All glo- _ ry to our ris- en Head! Al- le- _ lu- ia! Al- le- lu- ia! Al- le- _ lu- ia! Al- le- lu- ia! _ _
-v4: He _ closed the _ _ yawn- ing _ _ gates of hell; _ _ The bars from _ _ heaven's high por- tals fell: Let hymns _ _ of praise _ _ His tri- umphs _ _ tell. Al- le- lu- ia! A- men.
+v1: Al- le- lu- ia! Al- le- lu- ia! Al- le- lu- ia! The strife is o- ver, the bat- tle done; The vic- to- ry of life _ is won; The song of tri- umph has _ be- gun. Al- le- lu- ia! _ _
+v2: Al- le- lu- ia! Al- le- lu- ia! Al- le- lu- ia! The po- wers of death have done their worst, But Christ their le- gions hath _ di- spersed; Let shouts of ho- ly joy _ out- burst. Al- le- lu- ia! _ _
+v3: Al- le- lu- ia! Al- le- lu- ia! Al- le- lu- ia! The three sad days are quick- _ ly sped; He ris- es glo- ri- ous from the dead; All glo- ry to our ris- _ en Head! Al- le- lu- ia! _ _
+v4: Al- le- lu- ia! Al- le- lu- ia! Al- le- lu- ia! He closed the yawn- ing gates _ of hell; The bars from heav- en's high por- tals fell: Let hymns of praise His tri- _ umphs tell. Al- le- lu- ia! A- men.

@@ -2,10 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: auto, exact, exact, auto)
+# quality: exact (per verse: exact, exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: All for Je- sus, all for Je- sus! All my be- ing's ran- somed pow'rs All my tho' ts and words and do- ings, All my days and all my hours. All for Je- sus! all for Je- sus! All my days and all my hours All for Je- sus! all for Je- sus! All my days and all my _ hours
-v2: Let my hands per- form His bid- ding, Let my feet run in His ways Let my eyes see Je- sus on- ly, Let my lips speak forth His praise. All for Je- sus! all for Je- sus! Let my lips speak forth His praise All for Je- sus! all for Je- sus! Let my lips speak forth His praise _ _
-v3: Since my eyes were fixed on Je- sus, I've lost sight of all be- side So en- chained my spir- it's vi- sion, Look- ing at the Cru- ci- fied. All for Je- sus! all for Je- sus! Look- ing at the Cru- ci- fied All for Je- sus! all for Je- sus! Look- ing at the Cru- ci- fied _ _
-v4: Oh, what won- der! how _ a- maz- ing! Je- sus, glo- rious King of kings, Deigns to call me His be- lov- ed, Lets me rest be- neath his wings. All for Je- sus! all for Je- sus! Rest- ing now be- neath His wings All for Je- sus! all for Je- sus! Rest- _ ing now be- neath His wings.
+v1: All for Je- sus, all for Je- sus! All my being's ran- somed po- wers: All my tho' ts and words and doings, All my days and all my hours. All for Je- sus! all for Je- sus! All my days and all my hours; All for Je- sus! all for Je- sus! All my days and all my hours. _ _
+v2: Let my hands per- form His bid- ding, Let my feet run in His ways; Let my eyes see Je- sus on- ly, Let my lips speak forth His praise. All for Je- sus! all for Je- sus! Let my lips speak forth His praise; All for Je- sus! all for Je- sus! Let my lips speak forth His praise. _ _
+v3: Since my eyes were fixed on Je- sus, I've lost sight of all be- side; So en- chained my spir- it's vi- sion, Look- ing at the Cru- ci- fied. All for Je- sus! all for Je- sus! Look- ing at the Cru- ci- fied; All for Je- sus! all for Je- sus! Look- ing at the Cru- ci- fied. _ _
+v4: Oh, what won- der! how a- maz- ing! Je- sus, glo- rious King of kings, Deigns to call me His be- lov- ed, Lets me rest be- neath his wings. All for Je- sus! all for Je- sus! Rest- ing now be- neath His wings; All for Je- sus! all for Je- sus! Rest- ing now be- neath His wings. A- men.

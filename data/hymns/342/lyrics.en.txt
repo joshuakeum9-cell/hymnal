@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Yield not to temp- ta- tion, for yielding is sin; Each vic- to- ry will help you some oth- er to win; Fight man- ful- ly on- ward, dark pas- sions sub- due, Look ev- er to Je- sus, He'll car- ry you through. Ask the Sav- ior to help you, Com- fort, strength- en and keep you; He is will- ing to aid you, He will car- ry you through.
+v1: Yield not to temp- ta- tion for yielding is sin, Each vic- to- ry will help you some oth- er to win; Fight man- ful- ly on- ward, dark pas- sions sub- due, Look ev- er to Je- sus, He'll car- ry you through. Ask the Sav- ior to help you, Com- fort, strength- en and keep you; He is will- ing to aid you, He will car- ry you through.
 v2: Shun e- vil com- pa- nions, bad lan- guage dis- dain, God's Name hold in re- ve- rence, nor take it in vain; Be thought- ful and ear- nest, kin- dhear- ted and true, Look ever to Je- sus, He'll car- ry you through. Ask the Sav- ior to help you, Com- fort, strength- en and keep you; He is will- ing to aid you, He will car- ry you through.
-v3: To him that o'er com- eth, God giv- eth a crown; Through faith we shall con- quer, though of- ten cast down; He Who is our Sav- ior our strength will re- new; Look ev- er to Je- sus, He'll car- ry you through. Ask the Sav- ior to help you, Com- fort, strength- en and keep you; He is will- ing to aid you, He will car- ry you through.
+v3: To him that over- co- meth God giv- eth a crown, Through faith we shall con- quer, though of- ten cast down; He, Who is our Sav- ior, our strength will re- new, Look ev- er to Je- sus, He'll car- ry you through. Ask the Sav- ior to help you, Com- fort, strength- en and keep you; He is will- ing to aid you, He will car- ry you through.

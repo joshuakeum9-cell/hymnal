@@ -2,6 +2,11 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: none)
+# quality: auto (per verse: exact, exact, auto, exact, auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: I greet thee, who my sure Re- deem- er art, my on- ly trust and Sav- iour of my heart, who pain didst un- der- go for my poor sake; I pray thee from our hearts all cares to take. _ _
+v2: Thou art the King of mer- cy and of grace, reign- ing om- nip- o- tent in ev- ery place: so come, O King, and our whole be- ing sway; shine on us with the light of thy pure day. _ _
+v3: Thou art the life, by which a- lone we live, and all our sub- stance and our strength re- ceive; su- stain us by thy faith and by thy pow- er, and give us strength in ev- ery try- ing _ hour.
+v4: Thou hast the true and per- fect gen- tle- ness; no har- shness hast thou and no bit- ter- ness: oh grant to us the grace we find in thee, that we may dwell in per- fect u- ni- ty. _ _
+v5: Our hope is in no oth- er save in thee; our faith is built up- on thy prom- ise free. Lord, give _ us peace, and make us calm and sure, that _ in thy strength we ev- er- more en- dure.

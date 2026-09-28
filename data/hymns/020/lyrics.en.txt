@@ -2,11 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: auto, exact, exact, exact)
-# wording: Korean-English hymnal (prayertents.com)
+# quality: auto (per verse: auto, auto, exact, auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Be- _ gin, my tongue, some heaven- ly theme, Speak _ some _ bound- less thing _ The might- y works, or might- ier name, _ Of our e- ter- nal King. _ _
-v2: Tell _ of His won- drous faith- ful- ness, And _ sound His power a- broad _ Sing the sweet prom- ise of His grace, _ The love and truth of God. _ _
+v1: Be- _ gin, my tongue, some heav- en- ly theme, _ And Speak some bound- less thing The might- y works, or might- ier name, _ Of our e- ter- nal King. _ _
+v2: Tell _ of His won- drous faith- ful- ness, And _ sound His pow- er a- _ broad Sing the sweet prom- ise of His _ grace, The love and truth of _ God.
 v3: His _ ver- y word of grace is strong As _ that which built the skies _ The voice that rolls the stars a- long _ Speaks all the prom- is- es. _ _
-v4: O _ might I hear Thy heaven- ly tongue But _ whis- per, "Thou art Mine," _ Those gen- tle words should raise my song _ To notes al- most di- vine. A- men.
+v4: O _ might I hear Thy heav- en- ly tongue _ But whis- per, "Thou art Mine," Those gen- tle words should raise my song _ To notes al- most di- vine. A- men.

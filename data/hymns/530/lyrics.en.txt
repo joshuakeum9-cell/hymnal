@@ -2,10 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: exact, exact, auto, auto)
+# quality: auto (per verse: exact, auto, auto, auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Be- hold! a Stran- ger at _ the _ door He gen- tly knocks, has knocked _ be- _ fore, Has wait- ed long, is _ wait- ing _ still You _ treat no oth- er friend _ so _ ill. _ _
-v2: Ad- mit Him, for the hu- _ man _ breast Ne'er en- ter- tained so kind _ a _ Guest The Man of Naz- a- _ reth, 'tis _ He, With _ gar- ments dyed at Cal- _ va- _ ry. _ _
-v3: Yet know, nor of the terms _ com- _ plain, If Je- sus comes, He comes _ to _ reign, To reign, and with no _ par- tial _ sway Tho' _ ts must be slain that _ dis- _ o- _ bey.
-v4: Oh, let the heav'n- ly Stran- _ ger _ in Let, in _ thy heart, His _ reign _ be- gin. Ad- mit Him, op- _ en wide _ the door, _ _ And He will bless _ thee _ ev- er- more.
+v1: Be- hold! a Stran- ger at _ the _ door He gen- tly knocks, has knocked _ be- _ fore, Has wait- ed long, is _ wait- ing _ still; You _ treat no oth- er friend _ so _ ill. _ _
+v2: Ad- mit Him, for the hu- _ man _ breast Nev- er en- ter- tained so _ kind _ a Guest; The Man of Naz- a- reth, 'tis _ He, With _ gar- ments dyed at Cal- _ va- _ ry. _ _
+v3: Yet know, nor of the terms _ com- _ plain, If Je- sus comes, He comes _ to _ reign, To reign, and with no _ par- tial _ sway; Tho' _ ts must be slain that _ dis- _ o- _ bey.
+v4: Oh, let the heav- en- ly _ Stran- _ ger in Let, in thy heart, His _ reign _ be- gin. Ad- mit Him, o- _ pen wide the door, And _ He will bless thee ev- _ er- _ more. A- men.

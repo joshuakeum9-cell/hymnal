@@ -19,11 +19,11 @@ Nothing to pay for: GitHub Pages hosts it, GitHub Actions builds it, everything 
 | Listed and searchable (new and old numbers, Korean and English titles) | 645 |
 | Music on the site | 464 |
 | Held back for copyright (Korean-authored, recent, or in a modern arrangement) | 181 |
-| English words under the notes | 414 |
-| English words shown as text below the music | 28 |
-| No English (original Korean texts such as 521 and 580, and hymns with none in the source) | 22 |
+| English words under the notes | 453 |
+| English words shown as text below the music | 8 |
+| No English (363, 521, 580 are original Korean texts with no public-domain English) | 3 |
 
-Known limits: English placement is automatic for most hymns and occasionally puts a syllable on the wrong note; the Report a mistake link on each hymn is the way to fix those. 44 hymns follow the Open Hymnal Project's hand-engraved placement instead, and a comparison against it found the automatic placement agrees on 96% of notes. When words would run into each other on a narrow screen, the page spaces the notes wider for that hymn, so phones in portrait show fewer measures per line when both languages are on.
+Known limits: English placement is automatic for most hymns and occasionally puts a syllable on the wrong note; the Report a mistake link on each hymn is the way to fix those. About 50 hymns follow the Open Hymnal Project's hand-engraved placement instead, and a comparison against it found the automatic placement agrees on 96% of notes. When words would run into each other on a narrow screen, the page spaces the notes wider for that hymn, so phones in portrait show fewer measures per line when both languages are on.
 
 ## How it works
 

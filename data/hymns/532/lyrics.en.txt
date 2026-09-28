@@ -2,10 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: rough, rough, rough, exact)
+# quality: exact (per verse: exact, exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: On- _ _ ly a step to Je- sus! Then _ Why not take _ _ _ it now Come, and thy sin con- fess- ing, To _ _ Him, thy _ Sav- iour, bow. Come _ and thy sin _ _ _ con- fess- ing, Thou shalt re- ceive a bless- ing Do not re- ject the mer- cy He free- ly of- fers thee.
-v2: On- _ _ ly a step to Je- sus! Be- lieve, and thou shalt _ _ _ live Lov- ing- ly now He's _ wait- ing, And _ _ _ read- _ _ _ y to _ for- give. Come and thy sin con- fess- ing, Thou shalt re- ceive a bless- ing Do not re- ject the mer- cy He free- ly of- fers thee.
-v3: On- _ _ ly a step to Je- sus! A _ step from sin _ _ _ to grace What has thy heart _ de- cid- ed _ _ _ The _ _ _ mo- ments fly a- pace Come and thy sin con- fess- ing, Thou shalt re- ceive a bless- ing Do not re- ject the mer- cy He free- ly of- fers thee.
-v4: On- ly a step to Je- sus! O why not come and say: "Glad- ly to Thee my Sav- iour, I give my- self a- way On- ly a step, on- ly a step Come, He waits for thee Come and thy sin con- fess- ing, Thou shalt re- ceive a bless- ing Do not re- ject the mer- cy He free- ly of- fers thee.
+v1: On- ly a step to Je- sus! Then Why not take it now? Come, and thy sin con- fess- ing, To Him, thy Sav- ior, bow. On- ly a step, on- ly a step; Come, He waits for thee; Come and thy sin con- fess- ing, Thou shalt re- ceive a bless- ing; Do not re- ject the mer- cy He free- ly of- fers thee.
+v2: On- ly a step to Je- sus! Be- lieve, and thou shalt live; Lov- ing- ly now He's wait- ing, And read- y to for- give. On- ly a step, on- ly a step; Come, He waits for thee; Come and thy sin con- fess- ing, Thou shalt re- ceive a bless- ing; Do not re- ject the mer- cy He free- ly of- fers thee.
+v3: On- ly a step to Je- sus! A step from sin to grace; What has thy heart de- cid- ed The mo- ments fly a- pace? On- ly a step, on- ly a step; Come, He waits for thee; Come and thy sin con- fess- ing, Thou shalt re- ceive a bless- ing; Do not re- ject the mer- cy He free- ly of- fers thee.
+v4: On- ly a step to Je- sus! O why not come and say: "Glad- ly to Thee my Sav- ior, I give my- self a- way?" On- ly a step, on- ly a step; Come, He waits for thee; Come and thy sin con- fess- ing, Thou shalt re- ceive a bless- ing; Do not re- ject the mer- cy He free- ly of- fers thee.

@@ -1,4 +1,4 @@
 # 643 Amen: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 Amen Amen Amen.

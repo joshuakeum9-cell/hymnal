@@ -2,10 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: exact, exact, exact, auto)
+# quality: exact (per verse: exact, exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: O Zi- on, haste, thy mis- sion high ful- fill- ing, To tell to all the world that God is Light That He who made all na- tions is not will- ing One soul should per- ish, lost in shades of night. Pub- lish glad tid- ings, ti- dings of peace, Ti- dings of Je- _ sus, re- demp- tion and re- lease. _ _
-v2: Be- hold how ma- ny thou- sands still are ly- ing Bound in the dark- some pris- on- house of sin, With none to tell them of the Sav- iour's dy- ing, Or of the life He died for them to win. Pub- lish glad tid- ings, ti- dings of peace, Ti- dings of Je- _ sus, re- demp- tion and re- lease. _ _
-v3: Pro- claim to eve- ry peo- ple, tongue, and na- tion That God, in whom they live and move, is Love: Tell how He stooped to save His lost cre- a- tion, And died on eath that man might live a- bove. Pub- lish glad tid- ings, ti- dings of peace, Ti- dings of Je- _ sus, re- demp- tion and re- lease. _ _
-v4: Give of thy sons to bear the mes- sage glo- rious Give of thy wealth to speed them on their way Pour out _ thy soul for them in prayer vic- to- rious And all thou spend- est Je- sus will re- pay. Pub- lish glad tid- ings, ti- dings of peace, Ti- dings of _ Je- sus, re- demp- tion _ and re- lease.
+v1: O Zi- on, haste, thy mis- sion high ful- fill- ing, To tell to all the world that God is Light; That He who made all na- tions is not will- ing One soul should per- ish, lost in shades of night. Pub- lish glad ti- dings, ti- dings of peace, Ti- dings of Je- _ sus, re- demp- tion and re- lease. _ _
+v2: Be- hold how man- y thou- sands still are ly- ing Bound in the dark- some pris- on- house of sin, With none to tell them of the Sav- ior's dy- ing, Or of the life He died for them to win. Pub- lish glad ti- dings, ti- dings of peace, Ti- dings of Je- _ sus, re- demp- tion and re- lease. _ _
+v3: Pro- claim to ev- ery peo- ple, tongue, and na- tion That God, in whom they live and move, is Love; Tell how He stooped to save His lost cre- a- tion, And died on earth that man might live a- bove. Pub- lish glad ti- dings, ti- dings of peace, Ti- dings of Je- _ sus, re- demp- tion and re- lease. _ _
+v4: Give of thy sons to bear the mes- sage glo- rious; Give of thy wealth to speed them on their way; Pour out thy soul for them in prayer vic- to- rious; And all thou spen- dest Je- sus will re- pay. Pu- blish glad ti- dings, ti- dings of peace, Ti- dings of Je- _ sus, re- dem- ption and re- lease. A- men.

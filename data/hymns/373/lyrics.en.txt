@@ -2,10 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: rough, exact, exact, rough)
+# quality: auto (per verse: auto, exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: If, on a _ qui- _ et sea, To- ward heav- _ en we calm- ly sail With _ grate- ful hearts, O _ God, to Thee, We'll _ own the fa- vor- ing gale.
+v1: If, on a _ quiet _ sea, To- ward hea- ven _ we cal- mly sail With grate- ful hearts, O God, to _ Thee, We'll own the _ fa- _ vor- ing _ gale.
 v2: But should the _ surg- _ es rise, And rest de- _ lay to come, Blest be the _ tem- pest, kind the _ storm, Which drives us _ near- _ er home. _ _
-v3: Soon shall our _ doubts _ and fears All yield to _ Thy com- trol Thy ten- der _ mer- cies shall il- _ lume The mid- night _ of _ the soul _ _
-v4: Teach us, in _ ev- _ ery state, To make Thy _ will our own And when the _ joys of sense de- _ part, To live by _ faith _ _ a- lone. _
+v3: Soon shall our _ doubts _ and fears All yield to _ Thy con- trol; Thy ten- der _ mer- cies shall il- _ lume The mid- night _ of _ the soul. _ _
+v4: Teach us, in _ ev- _ ery state, To make Thy _ will our own; And when the _ joys of sense de- _ part, To live by _ faith _ a- lone. A- men.

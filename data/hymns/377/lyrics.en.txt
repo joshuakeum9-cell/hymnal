@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Guide me, O Thou great _ Je- _ ho- vah, Pil- grim through this bra- ren land I am weak, but Thou _ art _ might- y Hold me with Thy _ pow'r- ful hand Bread of heav- en, Bread of heav- en, Feed me till I want no more, Feed me till _ I _ want no more. _ _
-v2: O- pen now the crys- _ tal _ foun- tain, Whence the heal- ing stream doth flow Let the fire and cloud- _ y _ pil- lar Lead me all my _ jour- ney through Strong De- liver- er, strong De- liver- er, Be Thou still my Strength and Shield, Be Thou still _ my _ Strength and Shield. _ _
-v3: When I tread the verge _ of _ Jor- dan, Bid my anx- iour fears sub- side Death of death, and hell's _ De- _ struc- tion, Land me safe on _ Ca- naan's side Songs of prais- es, songs of prais- es I will ev- er give to Thee. I will ev- _ er _ give to Thee. A- men.
+v1: Guide me, O Thou great _ Je- _ ho- vah, Pil- grim through this bar- ren land; I am weak, but Thou _ art _ might- y; Hold me with Thy _ power- ful hand; Bread of heav- en, Bread of heav- en, Feed me till I want no more, Feed me till _ I _ want no more. _ _
+v2: O- pen now the crys- _ tal _ foun- tain, Whence the heal- ing stream doth flow; Let the fire and cloud- _ y _ pil- lar Lead me all my _ jour- ney through; Strong De- liver- er, strong De- liver- er, Be Thou still my Strength and Shield, Be Thou still _ my _ Strength and Shield. _ _
+v3: When I tread the verge _ of _ Jor- dan, Bid my anx- ious fears sub- side; Death of death, and hell's _ De- _ struc- tion, Land me safe on _ Ca- naan's side; Songs of prais- es, songs of prais- es I will ev- er give to Thee, I will ev- _ er _ give to Thee. A- men.

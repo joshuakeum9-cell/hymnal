@@ -2,6 +2,9 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: none)
+# quality: auto (per verse: auto, auto, auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Chil- dren _ of _ Je- _ ru- sa- lem sang the _ praise _ of _ Je- sus' name: chil- dren _ now, in ev- ery place join to sing _ the _ Sav- ior's praise. Hark! hark! hark! the chil- dren's voic- es sing Hark! hark! hark! the chil- dren's voic- es sing loud _ ho- san- nas, loud ho- san- nas, loud ho- _ san- nas to our King.
+v2: Teach us _ how _ to _ love you, Lord; teach us _ how _ to _ read your word; teach us _ all the ways of heav- en. Joy- ful praise to God be giv- en. Hark! hark! hark! the chil- dren's voic- es sing Hark! hark! hark! the chil- dren's voic- es sing loud _ ho- san- nas, loud ho- san- nas, loud ho- _ san- nas to our King.
+v3: Par- ents, _ tea- _ chers, _ old and young, all u- _ nite _ to _ swell the song, high- er _ and yet high- er rise, till ho- san- _ nas _ fill the skies. Hark! hark! hark! the chil- dren's voic- es sing Hark! hark! hark! the chil- dren's voic- es sing loud _ ho- san- nas, loud ho- san- nas, loud ho- _ san- nas to our King.

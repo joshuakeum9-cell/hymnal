@@ -1,22 +1,22 @@
 # 118 Angels, from the Realms of Glory: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 Angels, from the realms of glory,
-Wing your flight o'er all the earth
+Wing your flight over all the earth;
 Ye who sang creation's story,
 Now proclaim Messiah's birth:
 Come and worship, come and worship,
 Worship Christ, the newborn King.
 
 Shepherds, in the fields abiding,
-Watching o'er your flocks by night,
+Watching over your flocks by night,
 God with man is now residing,
 Yonder shines the infant Light:
 Come and worship, come and worship,
 Worship Christ, the newborn King.
 
 Sages, leave your contemplation,
-Brighter visions beam afar
+Brighter visions beam afar;
 Seek the great Desire of nations,
 Ye have seen His natal star:
 Come and worship, come and worship,
@@ -32,6 +32,7 @@ Worship Christ, the newborn King.
 All creation, join in praising
 God, the Father, Spirit, Son,
 Evermore your voices raising
-To th'eternal Three in One.
+To the eternal Three in One.
 Come and worship, come and worship,
 Worship Christ, the newborn King.
+Amen.

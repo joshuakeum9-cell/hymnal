@@ -45,7 +45,8 @@ def main():
             continue
         # prefer a split whose syllable count the dictionary knows ("lov-ed" is a typo, "bless-ed" is sung)
         counts = {pronouncing.syllable_count(p) for p in pronouncing.phones_for_word(k.replace("'", ""))}
-        good = [(n, h) for h, n in c.items() if (not counts or h.count("-") + 1 in counts or k in SUNG_ED) and not silent_ending(k, h)]
+        good = [(n, h) for h, n in c.items() if (not counts or h.count("-") + 1 in counts or k in SUNG_ED)
+                and not silent_ending(k, h) and all(re.search(r"[aeiouy]", p) for p in h.split("-"))]
         if good:
             out[k] = max(good)[1]
         else:

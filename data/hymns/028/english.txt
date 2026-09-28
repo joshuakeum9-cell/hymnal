@@ -1,7 +1,7 @@
 # 28 Come, Thou Fount of Every Blessing: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
-Come, Thou Fount of ev'ry blessing,
+Come, Thou Fount of every blessing,
 tune my heart to sing Thy grace
 Streams of mercy, never ceasing,
 Call for songs of loudest praise.
@@ -15,15 +15,16 @@ Hither by Thy help I'm come
 And I hope, by Thy good pleasure,
 Safely to arrive at home.
 Jesus sought me when a stranger,
-Wand'ring from the fold of God
+Wandering from the fold of God
 He, to rescue me from danger,
 Interposed His precious blood.
 
 O to grace how great a debtor
 Daily I'm constrained to be
 Let that grace now, like a fetter,
-Bind my wand'ring heart to Thee.
+Bind my wandering heart to Thee.
 Prone to wander, Lord, I feel it,
 Prone to leave the God I love
 Here's my heart, O take and seal it,
 Seal it for Thy courts above.
+Amen.

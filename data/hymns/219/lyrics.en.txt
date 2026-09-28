@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Our Fa- ther, thy dear Name doth show The great- ness of thy love All are thy chil- dren here be- low As in thy heav'n a- bove. One fam- i- ly on earth are we Through- out its wi- dest span: _ O help us ev- 'ry- where to see The broth- er- hood of man.
-v2: A- like we share thy ten- der care We trust on heav'n- ly friend Be- fore one mer- cy- seat in prayer In con- fi- dence we bend A- like we hear thy lov- ing call One heav'n- ly vi- sion scan, _ One Lord, one faith, one hope for all, The broth- er- hood of man.
-v3: Bring in, we pray, the glo- rious day When bat- tle cries are stilled, When bit- ter strife is swept a- way, And hearts with love are filled. O help us ban- ish pride and wrong, Which since the world be- gan _ Have marred its peace help us make strong The broth- er- hood of man.
-v4: Close knit the warm fra- ter- nal tie That makes the whole world one Our dis- cords change to har- mo- ny Like an- gel- songs be- gun: At last, un- on that bright- er shore Com- plete thy glo- rious plan, _ And heav'n shall crown for ev- er- more The broth- er- hood of man.
+v1: Our Fa- ther, thy dear Name doth show The great- ness of thy love; All are thy chil- dren here be- low As in thy heaven a- bove. One fam- i- ly on earth are we Through- out its wi- dest span: _ O help us eve- ry- where to see The broth- er- hood of man.
+v2: A- like we share thy ten- der care; We trust on heaven- ly friend; Be- fore one mer- cy- seat in prayer In con- fi- dence we bend; A- like we hear thy lov- ing call; One heaven- ly vi- sion scan, _ One Lord, one faith, one hope for all, The broth- er- hood of man.
+v3: Bring in, we pray, the glo- rious day When bat- tle cries are stilled, When bit- ter strife is swept a- way, And hearts with love are filled. O help us ban- ish pride and wrong, Which since the world be- gan _ Have marred its peace; help us make strong The broth- er- hood of man.
+v4: Close knit the warm fra- ter- nal tie That makes the whole world one; Our dis- cords change to har- mo- ny Like an- gel- songs be- gun: At last, up- on that bright- er shore Com- plete thy glo- rious plan, _ And heaven shall crown for ev- er- more The broth- er- hood of man.

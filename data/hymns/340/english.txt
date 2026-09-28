@@ -1,10 +1,10 @@
 # 340 Jesus Calls Us, O'er the Tumult: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
-Jesus calls us, o'er the tumult
+Jesus calls us, over the tumult
 Of our life's wild, restless sea,
 Day by day His sweet voice soundeth,
-Saying "Christian, follow Me."
+Saying, "Christian, follow Me."
 
 Jesus calls us from the worship
 Of the vain world's golden store,
@@ -16,7 +16,7 @@ Days of toil and hours of ease,
 Still He calls, in cares and pleasures,
 "Christian, love Me more than these."
 
-Jesus calls us by Thy mercies,
-Saviour, may we hear Thy call,
+Jesus calls us: by Thy mercies,
+Savior, may we hear Thy call,
 Give our hearts to Thine obedience,
 Serve and love Thee best of all.

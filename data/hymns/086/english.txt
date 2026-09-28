@@ -1,10 +1,10 @@
 # 86 Oh, the Best Friend to Have is Jesus: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
-Oh, the best friend to have is Jesus
+Oh, the best friend to have is Jesus;
 When the cares of life upon you roll,
 He will heal the wounded heart,
-He will strength and grace impart
+He will strength and grace impart;
 Oh, the best friend to have is Jesus.
 The best friend to have is Jesus,
 The best friend to have is Jesus,
@@ -13,9 +13,9 @@ He will hear you when you call
 Oh, the best friend to have is Jesus.
 
 What a friend I have found in Jesus!
-Peace and comfort to my soul He brings
+Peace and comfort to my soul He brings;
 Leaning on His mighty arm,
-I will fear no ill nor harm
+I will fear no ill nor harm;
 Oh, the best friend to have is Jesus.
 The best friend to have is Jesus,
 The best friend to have is Jesus,
@@ -26,7 +26,7 @@ Oh, the best friend to have is Jesus.
 Though I pass through the night of sorrow,
 And the chilly waves of Jordan roll,
 Never need I shrink nor fear,
-For my Saviour is so near
+For my Savior is so near;
 Oh, the best friend to have is Jesus.
 The best friend to have is Jesus,
 The best friend to have is Jesus,
@@ -37,7 +37,7 @@ Oh, the best friend to have is Jesus.
 When at last to our home we gather,
 With the loved ones who have gone before,
 We will sing upon the shore,
-Praising Him forevermore
+Praising Him forevermore;
 Oh, the best friend to have is Jesus.
 The best friend to have is Jesus,
 The best friend to have is Jesus,

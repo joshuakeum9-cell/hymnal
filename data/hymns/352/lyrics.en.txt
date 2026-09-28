@@ -2,9 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: exact, exact, rough)
+# quality: auto (per verse: auto, exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Stand up, Stand up for Je- sus, Ye sol- diers of the cross Lift high His roy- al ban- ner, It must not suf- fer loss: From vic- t'ry un- to vic- t'ry His ar- my He shall lead, _ Till ev- -'ry foe is van- quished, And Christ is Lord in- deed. _ _
-v2: Stand up, stand up for Je- sus, The trum- pet call o- bey Forth to the might- y con- flict In this His glo- rious day: Ye that are men now serve Him A- gainst un- num- bered foes _ Let cour- age rise with dan- ger, And strength to strength op- pose. _ _
-v3: ! could not place 93 syllables on 55 notes
+v1: Stand up, Stand up for Je- sus, Ye sol- diers of the cross; Lift high His roy- al ban- ner, It must not suf- fer loss: From vic- to- ry un- to vic- to- ry His ar- my He _ shall lead, Till ev- ery foe is van- quished, And Christ is Lord in- deed.
+v2: Stand up, stand up for Je- sus, The trum- pet call o- bey; Forth to the might- y con- flict In this His glo- rious day: Ye that are men now serve Him A- gainst un- num- bered foes; _ Let cou- rage rise with dang- er, And strength to strength op- pose. _ _
+v3: Stand up, stand up for Je- sus, Stand in His strength a- lone; The arm of flesh will fail you, Ye dare not trust your own: Put on the gos- pel ar- mor, Each piece put on with pray'r; _ Where du- ty calls, or dan- ger, Be nev- er want- ing there. _ _
+v4: Stand up, stand up for Je- sus, The strife will not be long; This day the noise of bat- tle, The next the vic- tor's song: To Him that wins the bat- tle A crown of life shall be; _ He with the King of glo- ry Shall reign e- ter- nal- ly. A- men.

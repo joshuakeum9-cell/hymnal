@@ -2,9 +2,9 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: exact, exact, auto)
+# quality: exact (per verse: exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: More love to Thee, O Christ, More love to Thee! Hear Thou the prayer I make On bend- ed knee This is my ear- nest plea More love, O Christ, to Thee, More love to Thee, More love to Thee! _ _
-v2: Once earth- ly joy I craved, Sought peace and rest Now Thee a- lone I seek, Give what is best This all my prayer shall be More love, O Christ, to Thee, More love to Thee, More love to Thee! _ _
-v3: Then shall my lat- est breath Whis- per Thy praise This be the part- ing cry My heart shall raise This still its prayer shall be More love, O Christ, to Thee, More love to Thee, More _ _ love to Thee!
+v1: More love to Thee, O Christ, More love to Thee! Hear Thou the prayer I make On bend- ed knee. This is my ear- nest plea: More love, O Christ, to Thee, More love to Thee, More love to Thee! _ _
+v2: Once earth- ly joy I craved, Sought peace and rest; Now Thee a- lone I seek, Give what is best. This all my prayer shall be: More love, O Christ, to Thee, More love to Thee, More love to Thee! _ _
+v3: Then shall my lat- est breath Whis- per Thy praise; This be the part- ing cry My heart shall raise. This still its prayer shall be: More love, O Christ, to Thee, More love to Thee, More love to Thee! A- men.

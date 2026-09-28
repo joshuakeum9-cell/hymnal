@@ -1,8 +1,8 @@
 # 343 In The Hour Of Trial: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
-In the hour of trial, Jesus, plead for me
-Lest by base denial I depart from Thee
+In the hour of trial, Jesus, plead for me,
+Lest by base denial I depart from Thee,
 When Thou seest me waver, With a look recall,
 Nor for fear or favor Suffer me to fall.
 
@@ -12,11 +12,12 @@ Bring to my remembrance Sad Gethsemane,
 Or, in darker semblance, Crosscrowned Calvary.
 
 If with sore affliction Thou in love chastise,
-Pour Thy benediction On the sacrifice
+Pour Thy benediction On the sacrifice;
 Then, upon Thine altar Freely offered up,
 Though the flesh may falter, Faith shall drink the cup.
 
 When my last hour cometh, Fraught with strife and pain,
-When my dust returneth To the dust again
+When my dust returneth To the dust again,
 On Thy truth relying, Through that mortal strife,
-Jesus, take me, dying, To eternal life. Amen.
+Jesus, take me, dying, To eternal life.
+Amen.

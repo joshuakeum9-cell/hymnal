@@ -2,6 +2,11 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: none)
+# quality: auto (per verse: exact, exact, exact, auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+# placement: verses 1, 2, 3 follow the Open Hymnal Project's engraving of this tune
+v1: To- day Your mer- cy calls us To wash a- way our sin. How- ev- er great my tres- pass, What- ev- er we have been, How- ev- er long from mer- cy Our hearts have turned a- way, Your pre- cious blood can wash us And make us clean to- day.
+v2: To- day Your gate is o- pen, And all who en- ter in Shall find a Fa- ther's wel- come And par- don for their sin. The past shall be for- got- ten, A pre- sent joy be giv'n, A fu- ture grace be prom- ised, A glo- rious crown in heaven.
+v3: To- day our Fa- ther calls us; The Ho- ly Spir- it waits; His bless- ed an- gels gather A- round the heav- en- ly gates. No ques- tion will be asked us, How of- ten we have come; Al- though I oft have wan- dered, It is our Fa- ther's home.
+v4: O all em- brac- ing Mer- cy, O ever- _ open Door, What shall I do with- out You When heart and eye run o- ver? When all things seem a- gainst us, To drive us to de- spair, We know one gate is o- pen, One ear will hear our prayer.

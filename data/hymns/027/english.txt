@@ -1,17 +1,17 @@
 # 27 Majestic Sweetness Sits Enthroned: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 Majestic sweetness sits enthroned
-Upon the Saviour's brow
+Upon the Savior's brow
 His head with radiant glories crowned,
-His lips with grace o'erflow,
-His lips with grace o'erflow.
+His lips with grace overflow,
+His lips with grace overflow.
 
 No mortal can with Him compare
 Among the sons of men
 Fairer is He than all the fair
-Who fill the heav'nly train,
-Who fill the heav'nly train.
+Who fill the heavenly train,
+Who fill the heavenly train.
 
 He saw me plunged in deep distress,
 And flew to my relief
@@ -29,4 +29,5 @@ Since from His bounty I receive,
 Such proofs of love divine,
 Had I a thousand hearts to give,
 Lord, they should all be Thine,
-Lord, they should all be Thine. Amen.
+Lord, they should all be Thine.
+Amen.

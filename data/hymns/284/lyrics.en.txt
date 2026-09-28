@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 v1: The a- bun- dant love of Je- sus made us clean, who Long were sunk in sin, and Stain- ed be- yond be- lief. Now we are God's child- ren, Not by our de- serv- ing, But by sav- ing love, which Came to our re- lief. Such a- bun- dant love, Lim- it- less and free! Praise the grace of Je- sus, Dying in our place! Such a- bun- dant love, Love for you and me! Praise the love of Je- sus! Praise His sav- ing grace!
 v2: Now that we've been cleansed by Je- sus' pre- cious blood, and Taught to shun the sin in Which of old we trod, Earth- ly clouds of wor- ry Melt a- way to no- thing In the shin- ing glo- ry Of the light of God. Such a- bun- dant love, Lim- it- less and free! Praise the grace of Je- sus, Dy- ing in our place! Such a- bun- dant love, Love for you and me! Praise the love of Je- sus! Praise His sav- ing grace!
-v3: O, dear friends, a- wake from Sin's en- snar- ing sleep, and In- sub- stan- tial earth- ly Dreams that fade a- way! Now a- cross the earth, the Cry is sound- ing forth, “To- day's the day of grace! You can be saved to- day!" Such a- bun- dant love, Lim- it- less and free! Praise the grace of Je- sus, Dy- ing in our place! Such a- bun- dant love, Love for you and me! Praise the love of Je- sus! Praise His sav- ing grace!
+v3: O, dear friends, a- wake from Sin's en- snar- ing sleep, and In- sub- stan- tial earth- ly Dreams that fade a- way! Now a- cross the earth, the Cry is sound- ing forth, "To day's the day of grace! You can be saved to- day!" Such a- bun- dant love, Lim- it- less and free! Praise the grace of Je- sus, Dy- ing in our place! Such a- bun- dant love, Love for you and me! Praise the love of Je- sus! Praise His sav- ing grace!

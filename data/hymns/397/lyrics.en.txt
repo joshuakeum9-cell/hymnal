@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: exact, auto, auto)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: In heaven- ly love a- _ bid- ing, No change my heart shall fear, And safe is such con- _ fid- ing, For noth- ing _ chan- _ ges here. The storm may roar with- out _ me My heart may low be laid But God is round a- _ bout me, And can I _ be _ dis- mayed _ _
-v2: Where- ev- er He may guide me, No want shall turn me back My Shep- hered is be- side _ me, And noth- ing _ _ can _ I lack. His wis- dom ev- er wak- _ eth, His light is nev- er dim He knows the way He _ tak- eth, And I will _ walk _ with Him. _ _
-v3: Green pas- tures are be- fore me, Which yet I have not seen Bright skies will soon be o'er _ me, Where dark- est _ _ clouds _ have been. My hope I can- not meas- _ ure, The path to life is free, My Sav- iour has my _ treas- ure, And He will _ walk _ with me. A- men.
+v1: In heaven- ly love a- _ bid- ing, No change my heart shall fear; And safe is such con- _ fid- ing, For noth- ing _ chan- _ ges here. The storm may roar with- out _ me My heart may low be laid; But God is round a- _ bout me, And can I _ be _ dis- mayed? _ _
+v2: Wher- ev- er He may guide me, No want shall turn me back; My Shep- herd is be- side _ me, And noth- ing _ _ can _ I lack. His wis- dom ev- er wak- _ eth, His light is nev- er dim; He knows the way He _ tak- eth, And I will _ walk _ with Him. _ _
+v3: Green pas- tures are be- fore me, Which yet I have not seen; Bright skies will soon be over _ me, Where dark- est _ _ clouds _ have been. My hope I can- not meas- _ ure, The path to life is free; My Sav- ior has my _ treas- ure, And He will _ walk _ with me. A- men.

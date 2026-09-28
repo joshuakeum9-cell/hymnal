@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: auto, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 v1: From Green- land's i- cy moun- tains, From In- dia's co- ral strand, _ Where Af- ric's sun- ny foun- tains Roll down their gold- en sand, From man- y an an- cient riv- er, From man- y a palm- y plain, They call us to de- liv- er Their land from er- ror's chain. _ _
-v2: Can we, whose souls are light- ed With wis- dom from on high, _ Can we to men be- night- ed The lamp of life de- ny Sal- va- tion! O sal- va- tion! The joy- ful sound _ pro- claim, _ Till each re- mot- est na- tion Has learned Mes- si- ah's Name. _ _
-v3: Waft, waft, ye winds, His sto- ry, And you, ye wa- ters, roll, _ Till like a sea of glo- ry It spreads from pole to pole Till o'er our ran- somed na- ture The Lamb for sin- _ ners slain, _ Re- deem- er, King, Cre- a- tor, In bliss re- turns to reign. A- men.
+v2: Can we, whose souls are light- ed With wis- dom from on high, _ Can we to men be- night- ed The lamp of life de- ny? Sal- va- tion! O sal- va- tion! The joy- ful sound _ pro- claim, _ Till each re- mot- est na- tion Has learned Mes- si- ah's Name. _ _
+v3: Waft, waft, ye winds, His sto- ry, And you, ye wa- ters, roll, _ Till like a sea of glo- ry It spreads from pole to pole; Till over our ran- somed na- ture The Lamb for sin- _ ners slain, _ Re- deem- er, King, Cre- a- tor, In bliss re- turns to reign. A- men.

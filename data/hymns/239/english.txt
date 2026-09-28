@@ -1,8 +1,8 @@
 # 239 One Sweetly Solemn Thought: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 One sweetly solemn thought
-Comes to me o'er and o'er
+Comes to me over and over;
 I'm nearer home today, today,
 Than I have been before:
 Nearer my home,
@@ -11,7 +11,7 @@ Nearer my home today, today,
 Than I have been before.
 
 Nearer my Father's house,
-Where many mansions be
+Where many mansions be;
 Nearer the great white throne today,
 Nearer the crystal sea:
 Nearer my home,
@@ -20,7 +20,7 @@ Nearer my home today, today,
 Than I have been before.
 
 Nearer the bound of life,
-Where burdens are laid down
+Where burdens are laid down;
 Nearer to leave the cross today,
 And nearer to the crown.
 Nearer my home,
@@ -29,10 +29,11 @@ Nearer my home today, today,
 Than I have been before.
 
 Be near me when my feet
-Are slipping o'er the brink
+Are slipping over the brink;
 For I am nearer home today,
 Perhaps, than now I think.
 Nearer my home,
 Nearer my home,
 Nearer my home today, today,
-Than I have been before. Amen.
+Than I have been before.
+Amen.

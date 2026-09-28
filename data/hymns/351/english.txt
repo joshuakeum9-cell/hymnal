@@ -1,12 +1,12 @@
 # 351 Onward, Christian Soldiers: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 Onward, Christian soldiers,
 Marching as to war,
 With the cross of Jesus
 Going on before:
 Christ the royal Master
-Leads against the foe
+Leads against the foe;
 Forward into battle,
 See His banners go.
 Onward, Christian soldiers,
@@ -15,11 +15,11 @@ With the cross of Jesus
 Going on before.
 
 At the sound of triumph
-Satan's host doth flee
+Satan's host doth flee;
 On then, Christian soldiers,
 On to victory:
 Hell's foundations quiver
-At the shout of praise
+At the shout of praise;
 Brothers, lift your voices,
 Loud your anthems raise.
 Onward, Christian soldiers,
@@ -30,9 +30,9 @@ Going on before.
 Crowns and thrones may perish,
 Kingdoms wax and wane,
 But the Church of Jesus
-Constant will remain
+Constant will remain;
 Gates of hell can never
-'Gainst that Church prevail
+'Gainst that Church prevail;
 We have Christ's own promise,
 And that cannot fail.
 Onward, Christian soldiers,
@@ -43,12 +43,13 @@ Going on before.
 Onward, then, ye people,
 Join our happy throng,
 Blend with ours your voices
-In the triumph song
+In the triumph song;
 Glory, laud, and honor
-Unto Christ our King
-This thro' countless ages
-Men and angels sing
+Unto Christ our King;
+This through countless ages
+Men and angels sing.
 Onward, Christian soldiers,
 Marching as to war,
 With the cross of Jesus
-Going on before. Amen.
+Going on before.
+Amen.

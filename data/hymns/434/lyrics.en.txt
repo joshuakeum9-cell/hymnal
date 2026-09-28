@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: I have a friend whose life is sweet to me, _ I'm hap- py in Je- sus to- day, His blood doth keep me clean and make me free, _ I'm hap- py in Je- sus to- day. I'm hap- py in Je- sus to- day, I'm hap- py in Je- sus to- day For Je- sus goes with me all the way, I'm hap- py in Je- sus to- day.
-v2: He bore my bur- dens all up- on the tree, _ I'm hap- py in Je- sus to- day, His pre- cious life He gave to par- don me, _ I'm hap- py in Je- sus to- day. I'm hap- py in Je- sus to- day, I'm hap- py in Je- sus to- day For Je- sus goes with me all the way, I'm hap- py in Je- sus to- day.
-v3: His grace to me grows sweet- er ev- -'ry day, _ I'm hap- py in Je- sus to- day, It helps to keep me from the e- vil way, _ I'm hap- py in Je- sus to- day. I'm hap- py in Je- sus to- day, I'm hap- py in Je- sus to- day For Je- sus goes with me all the way, I'm hap- py in Je- sus to- day.
+v1: I have a friend whose life is sweet to me, _ I'm hap- py in Je- sus to- day, His blood doth keep me clean and make me free, _ I'm hap- py in Je- sus to- day. I'm hap- py in Je- sus to- day, I'm hap- py in Je- sus to- day; For Je- sus goes with me all the way, I'm hap- py in Je- sus to- day.
+v2: He bore my bur- dens all up- on the tree, _ I'm hap- py in Je- sus to- day, His pre- cious life He gave to par- don me, _ I'm hap- py in Je- sus to- day. I'm hap- py in Je- sus to- day, I'm hap- py in Je- sus to- day; For Je- sus goes with me all the way, I'm hap- py in Je- sus to- day.
+v3: His grace to me grows sweet- er ev- ery day, _ I'm hap- py in Je- sus to- day, It helps to keep me from the e- vil way, _ I'm hap- py in Je- sus to- day. I'm hap- py in Je- sus to- day, I'm hap- py in Je- sus to- day; For Je- sus goes with me all the way, I'm hap- py in Je- sus to- day.

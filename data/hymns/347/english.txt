@@ -1,5 +1,5 @@
 # 347 We Are Bound for Canaan Land: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 We are bound for Canaan land,
 So prepare your heart,
@@ -11,8 +11,8 @@ Understand, our Promised Land
 Is the heart of God.
 
 In temptation, grief or care,
-Howsoe'er distressed,
-Be not anxious, nor despair
+Howsoever distressed,
+Be not anxious, nor despair;
 Let us do our best.
 Forward then, like Joshua,
 With salvation shod!
@@ -29,7 +29,7 @@ Understand, our Promised Land
 Is the heart of God.
 
 Lands unconquered! Work undone!
-Dare His people shirk
+Dare His people shirk?
 Fighting ever bravely on,
 Let us do His work.
 Forward then, like Joshua,

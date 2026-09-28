@@ -1,10 +1,10 @@
 # 280 Father, I Stretch My Hands to Thee: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
-Father, I stretch my hands to Thee
-No other help I know
+Father, I stretch my hands to Thee,
+No other help I know;
 If Thou withdraw Thyself from me,
-Ah! whither shall I go
+Ah! whither shall I go?
 I do believe, I now believe,
 That Jesus died for me,
 And that He shed His precious blood
@@ -26,4 +26,5 @@ In this accepted hour.
 I do believe, I now believe,
 That Jesus died for me,
 And that He shed His precious blood
-From sin to set me free. Amen.
+From sin to set me free.
+Amen.

@@ -1,8 +1,8 @@
 # 44 Safely Through Another Week: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 Safely through another week
-God has brought us on our way
+God has brought us on our way;
 Let us now a blessing seek,
 Waiting in His courts today.
 Day of all the week the best,
@@ -11,7 +11,7 @@ Day of all the week the best,
 Emblem of eternal rest!
 
 While we pray for pard'ning grace,
-Thro' the dear Redeemer's name,
+Through the dear Redeemer's name,
 Show Thy reconciled face,
 Take away our sin and shame.
 From our worldly cares set free,
@@ -29,10 +29,11 @@ Here afford us, Lord, and taste
 Of our everlasting feast.
 
 May Thy Gospel's joyful sound
-Conquer sinners, comfort saints
+Conquer sinners, comfort saints;
 Make the fruits of grace abound,
-Bring relief for all complaints
+Bring relief for all complaints;
 Thus may all our sabbaths prove
 Till we join the Church above
 Thus may all our sabbaths prove
-Till we join the Church above. Amen.
+Till we join the Church above.
+Amen.

@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: exact, auto, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Once in _ roy- al Da- vid's _ cit- y Stood a low- ly cat- tle shed, Where a _ moth- er laid her _ ba- by In a man- ger for His bed: Ma- ry _ was that moth- er _ mild, Je- sus _ Christ her lit- tle child.
-v2: He came _ down to earth from _ heav- en Who is God and Lord of all, And His _ shel- ter was a _ sta- ble, And His cra- dle was a stall: With the poor, and mean, and low- ly Lived on earth, _ our Sav- iour ho- ly.
-v3: And, thro' _ all His won- drous _ child- hood, He would hon- or and o- bey, Love and _ watch the low- ly _ maid- en In whose gen- tle arms He lay: Chris- tian _ chil- dren all must _ be Mild, o- _ be- dient good as He.
-v4: And our _ eyes at last shall _ see Him, Thro' His own re- deem- ing love For that _ child so dear and _ gen- tle Is our Lord in heav'n a- bove, And He _ leads His chil- dren _ on To the _ place where He is gone.
+v1: Once in _ roy- al Da- vid's _ cit- y Stood a low- ly cat- tle shed, Where a _ moth- er laid her _ ba- by In a man- ger for His bed: Ma- ry _ was that moth- er _ mild, Je- sus _ Christ her lit- tle Child.
+v2: He came _ down to earth from _ heav- en, Who is God and Lord of all, And His _ shel- ter was a _ sta- ble, And His cra- dle was a stall: With the poor, and mean, and low- ly Lived on earth, _ our Sav- ior ho- ly.
+v3: And, through _ all His won- drous _ child- hood, He would hon- or and o- bey, Love and _ watch the low- ly _ maid- en In whose gen- tle arms He lay: Chris- tian _ chil- dren all must _ be Mild, o- _ be- dient good as He.
+v4: And our _ eyes at last shall _ see Him, Through His own re- deem- ing love; For that _ child so dear and _ gen- tle Is our Lord in heaven a- bove, And He _ leads His chil- dren _ on To the _ place where He is gone.

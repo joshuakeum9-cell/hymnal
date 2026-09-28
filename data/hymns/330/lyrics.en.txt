@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: auto, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Work, for the night is com- ing: Work through the morn- ing hours Work while the dew is spark- ling Work 'mid spring- ing flow- ers Work while the day grows bright- er, Un- der the glow- ing sun Work, for the night is com- ing, When man's work is done.
-v2: Work, for the night is com- ing: Work through the sun- ny noon Fill bright- est hours with la- bour, Rest comes sure and soon Give ev- -'ry fly- ing min- _ ute Some- thing to keep in store Work, for the night is com- ing, When man works no more.
-v3: Work, for the night is com- ing: Un- der the sun- set skies, While their bright tints are glow- ing, Work, for day- light flies Work till the last beam fad- _ eth, Fad- eth to shine no more Work while the night is dark'- ning, When man's work is o'er.
+v1: Work, for the night is com- ing: Work through the morn- ing hours; Work while the dew is spark- ling; Work 'mid spring- ing flow- ers. Work while the day grows bright- er, Un- der the glow- ing sun; Work, for the night is com- ing, When man's work is done.
+v2: Work, for the night is com- ing: Work through the sun- ny noon; Fill bright- est hours with la- bour, Rest comes sure and soon. Give ev- ery fly- ing min- _ ute Some- thing to keep in store; Work, for the night is com- ing, When man works no more.
+v3: Work, for the night is com- ing: Un- der the sun- set skies, While their bright tints are glow- ing, Work, for day- light flies. Work till the last beam fad- _ eth, Fad- eth to shine no more; Work, while the night is dark'- ning, When man's work is over.

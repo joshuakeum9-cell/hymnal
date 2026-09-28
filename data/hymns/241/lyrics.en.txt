@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: exact, auto, auto, auto)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: I will sing you a song of that beau- ti- ful land, The far- a- way home of the soul, Where no storms ev- er beat on the glit- ter- ing strand, While the years of e- ter- ni- ty roll, _ While _ the years of e- ter- ni- ty roll Where no storms ev- er beat on the glit- ter- ing strand, While the years of e- ter- ni- ty roll. _ _
-v2: O that home of the soul! In my vi- sions and dreams Its bright, jas- per Walls I can see Till I fan- cy but thin- ly the veil in- ter- venes Be- tween the fair cit- y and me, Be- _ tween _ _ the fair _ cit- y _ and me Till I fan- cy but thin- ly the veil in- ter- venes Be- tween the fair cit- y and me. _ _
-v3: That un- change- a- ble home is for you and for me, Where Je- sus of Naz- a- reth stands The King of all king- doms for ev- er is He, And He hold- eth our crowns in His hands, And _ He _ _ hold- eth _ our crowns in His hands The King of all king- doms for ev- er is He, And He hold- eth our crowns in His hands. _ _
-v4: O _ how sweet _ it will be in that beau- i- ful land, So free from all sor- row, and _ pain, With _ songs on our lips and with harps in our hands, To meet one an- oth- er _ a- _ gain To meet one an- oth- er a- gain With songs on our lips and with harps in our hands, To _ meet one an- oth- er a- gain. A- men.
+v1: I will sing you a song of that beau- ti- ful land, The far- a- way home of the soul, Where no storms ev- er beat on the glit- ter- ing strand, While the years of e- ter- ni- ty roll, _ While _ the years of e- ter- ni- ty roll; Where no storms ev- er beat on the glit- ter- ing strand, While the years of e- ter- ni- ty roll. _ _
+v2: O that home of the soul! In my vi- sions and dreams Its bright, jas- per Walls I can see; Till I fan- cy but thin- ly the veil in- ter- venes Be- tween the fair cit- y and me, Be- _ tween _ _ the fair _ cit- y _ and me; Till I fan- cy but thin- ly the veil in- ter- venes Be- tween the fair cit- y and me. _ _
+v3: That un- change- a- ble home is for you and for me, Where Je- sus of Naz- a- reth stands; The King of all king- doms for ev- er is He, And He hold- eth our crowns in His hands, And _ He _ _ hold- eth _ our crowns in His hands; The King of all king- doms for ev- er is He, And He hold- eth our crowns in His hands. _ _
+v4: O _ how sweet _ it will be in that beau- ti- ful land, So free from all sor- row, and _ pain, With _ songs on our lips and with harps in our hands, To meet one an- oth- er _ a- _ gain; To meet one an- oth- er a- gain; With songs on our lips and with harps in our hands, To _ meet one an- oth- er a- gain. A- men.

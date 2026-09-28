@@ -2,6 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: none)
+# quality: auto (per verse: exact, exact, auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+# placement: verses 1, 2 follow the Open Hymnal Project's engraving of this tune
+v1: 'Twas in the moon of win- ter- time, When all the birds had fled, That mighty Gitch- i Ma- ni- tou Sent an- gel _ choirs in- stead. Be- fore their light the stars grew dim And wan- dering hun- ters heard the hymn: _ Je- sus, your king, is born; Je- sus is born. In ex- cel- sis glo- ri- a.
+v2: Wi- thin a lodge of bro- ken bark The ten- der babe was found; A rag- ged robe of rab- bit skin En- wrapped _ his beau- ty round. The chiefs from far be- fore Him knelt With gifts of fox and bea- ver _ pelt: Je- sus, your king, is born; Je- sus is born. In ex- cel- sis glo- ria.
+v3: O chil- dren of the fo- rest free, O you of Ma- ni- tou, The Ho- ly Child of earth and hea- ven Is born to- day for you. Come kneel be- fore the ra- diant boy Who brings you beau- ty, peace, and joy. Je- sus, your king, is born; Je- sus is born. In ex- cel- sis glo- _ ria.

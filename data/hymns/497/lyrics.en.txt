@@ -2,9 +2,9 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: exact, auto, auto)
+# quality: auto (per verse: exact, exact, auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: I love to tell the sto- _ ry Of un- seen things _ a- bove, Of Je- sus and His glo- ry, Of _ Je- sus and _ His love: I love to tell the sto- ry Be- cause I know 'tis _ ture. It sat- is- fies my long- ings As noth- ing else can do. I love to tell the sto- ry! 'Twill be my theme in glo- ry To tell the old, _ old, sto- ry Of Je- sus and His love.
-v2: I love to tell the sto- _ ry 'Tis pleas- ant to _ re- peat What seems, each time tell it More won- _ der- _ ful- _ ly sweet: I love to tell the sto- ry, For some have nev- er _ heard The mes- sage of sal- va- tion From God's own Ho- ly Word. I love to tell the sto- ry! 'Twill be my theme in glo- ry To tell the old, _ old, sto- ry Of Je- sus and His love.
-v3: I love _ to tell the _ sto- ry For those who _ know it best Seem hun- ger- ing and thrist- ing _ To hear it, _ like rest: And when in scenes of glo- ry I sing the new, new _ song, 'Twill be the old, old, sto- ry That I have loved so long. I love to tell the sto- ry! 'Twill be my theme in glo- ry To tell the old, _ old, sto- ry Of Je- sus and His love.
+v1: I love to tell the sto- _ ry Of un- seen things _ a- bove, Of Je- sus and His glo- ry, Of _ Je- sus and _ His love: I love to tell the sto- ry Be- cause I know 'tis _ true. It sat- is- fies my long- ings As noth- ing else can do. I love to tell the sto- ry! 'Twill be my theme in glo- ry To tell the old, _ old sto- ry Of Je- sus and His love.
+v2: I love to tell the sto- _ ry; 'Tis pleas- ant to _ re- peat What seems, each time I tell it More _ won- der- ful- _ ly sweet: I love to tell the sto- ry, For some have nev- er _ heard The mes- sage of sal- va- tion From God's own Ho- ly Word. I love to tell the sto- ry! 'Twill be my theme in glo- ry To tell the old, _ old sto- ry Of Je- sus and His love.
+v3: I love to tell the sto- _ ry; For those _ who _ know it best Seem hun- ger- ing and thirst- ing _ To hear it, _ like rest: And when in scenes of glo- ry I sing the new, new _ song, 'Twill be the old, old sto- ry That I have loved so long. I love to tell the sto- ry! 'Twill be my theme in glo- ry To tell the old, _ old sto- ry Of Je- sus and His love.

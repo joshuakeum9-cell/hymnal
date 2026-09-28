@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: I would be true, for there are those who trust me. I would be pure, for there are those who care. I would be strong, for there is much to suf- fer. I would be brave, for there is much to dare. I would be brave, for there is much to dare. _ _
-v2: I would be friend of all the foe, the friend- less. I would be giv- ing, and for- get the gift. I would be hum- ble, for I know my weak- ness. I would look up, and laugh, and love, and lift. I would look up, and laugh, and love, and lift. _ _
-v3: I would be prayer- ful thro' each bus- y mo- ment. I would be con- stant- ly in touch with God. I would be tuned to hear his slight- est whis- per I would have faith to keep the path Christ trod. I would have faith to keep the path Christ trod. A- men.
+v1: I would be true, for there are those who trust me; I would be pure, for there are those who care. I would be strong, for there is much to suf- fer. I would be brave, for there is much to dare. I would be brave, for there is much to dare. _ _
+v2: I would be friend of all the foe, the friend- less; I would be giv- ing, and for- get the gift. I would be hum- ble, for I know my weak- ness. I would look up, and laugh, and love, and lift. I would look up, and laugh, and love, and lift. _ _
+v3: I would be prayer- ful through each bus- y mo- ment; I would be con- stant- ly in touch with God. I would be tuned to hear his slight- est whis- per I would have faith to keep the path Christ trod. I would have faith to keep the path Christ trod. A- men.

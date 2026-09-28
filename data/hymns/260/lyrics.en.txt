@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Glo- ry to Je- sus, Who died on the cross, Car- ried our bur- den and suf- fer'd our loss! Shout, "Hal- le- lu- jah!" the heav- ens a- cross! Je- sus has sav'd my soul! Praise we His name! Shout, and pro- claim, "Je- sus sav'd my soul, set me free!" _ Praise we His name! Sing it a- gain, "Je- sus has sav'd e- ven me!"
-v2: Je- sus has won our sal- va- tion at last! All of our falls, and the sins of the past, All of our guilt He has ful- ly out- cast! Je- sus has made me whole! Praise we His name! Shout, and pro- claim, "Je- sus sav'd my soul, set me free!" _ Praise we His name! Sing it a- gain, "Je- sus has sav'd e- ven me!"
-v3: All sin for- giv- en, I stand in Him here, One of His peo- ple, e- ter- nal- ly dear! Life has no men- ace and death has no fear! Je- sus for me has died! Praise we His name! Shout, and pro- claim, "Je- sus sav'd my soul, set me free!" _ Praise we His name! Sing it a- gain, "Je- sus has sav'd e- ven me!"
-v4: When we de- part from the earth here be- low, Then, hand in hand with the best Friend we know, Straight to our home up in heav- en we'll go, And with our Lord a- bide! Praise we His name! Shout, and pro- claim, "Je- sus sav'd my soul, set me free!" _ Praise we His name! Sing it a- gain, "Je- sus has sav'd e- ven me!"
+v1: Glo- ry to Je- sus, Who died on the cross, Car- ried our bur- den and suf- fered our loss! Shout, "Hal- le- lu- jah!" the heav- ens a- cross! Je- sus has saved my soul! Praise we His name! Shout, and pro- claim, "Je- sus saved my soul, set me free!" _ Praise we His name! Sing it a- gain, "Je- sus has saved e- ven me!"
+v2: Je- sus has won our sal- va- tion at last! All of our falls, and the sins of the past, All of our guilt He has ful- ly out- cast! Je- sus has made me whole! Praise we His name! Shout, and pro- claim, "Je- sus saved my soul, set me free!" _ Praise we His name! Sing it a- gain, "Je- sus has saved e- ven me!"
+v3: All sin for- giv- en, I stand in Him here, One of His peo- ple, e- ter- nal- ly dear! Life has no men- ace and death has no fear! Je- sus for me has died! Praise we His name! Shout, and pro- claim, "Je- sus saved my soul, set me free!" _ Praise we His name! Sing it a- gain, "Je- sus has saved e- ven me!"
+v4: When we de- part from the earth here be- low, Then, hand in hand with the best Friend we know, Straight to our home up in heav- en we'll go, And with our Lord a- bide! Praise we His name! Shout, and pro- claim, "Je- sus saved my soul, set me free!" _ Praise we His name! Sing it a- gain, "Je- sus has saved e- ven me!"

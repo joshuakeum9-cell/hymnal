@@ -2,10 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: exact, exact, auto, exact)
+# quality: auto (per verse: exact, exact, exact, auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Je- sus, my Lord to Thee I cry Un- less Thou help me I must die Oh, bring Thy free _ sal- va- tion nigh, And take me as I am. And take me as I am, And take me as I am, My on- ly plea- _ Christ died for me! Oh, take me as I am. _ _
-v2: Help- less I am, and full of guilt But yet for me Thy blood was spilt, And Thou canst make- _ me what Thou wilt, And take me as I am. And take me as I am, And take me as I am, My on- ly plea- _ Christ died for me! Oh, take me as I am. _ _
-v3: No prep- ar- _ ation can I make, My best re- solves I on- ly break, Yet save me for- _ Thine own name's sake, And take me as I am. And take me as I am, And take me as I am, My on- ly plea- _ Christ died for me! Oh, take me as I am. _ _
-v4: Be- hold me, Save- iours, at Thy feet, Deal with me as Thou see- est meet Thy work be- gin, _ Thy work com- plete, And take me as I am. And take me as I am, And take me as I am, My on- ly plea- _ Christ died for me! Oh, take me as I am, A- men.
+v1: Je- sus, my Lord to Thee I cry; Un- less Thou help me I must die: Oh, bring Thy free _ sal- va- tion nigh, And take me as I am. And take me as I am, And take me as I am, My on- ly plea: _ Christ died for me! Oh, take me as I am. _ _
+v2: Help- less I am, and full of guilt; But yet for me Thy blood was spilt, And Thou canst make _ me what Thou wilt, And take me as I am. And take me as I am, And take me as I am, My on- ly plea: _ Christ died for me! Oh, take me as I am. _ _
+v3: No prep- a- ra- tion can I make, My best re- solves I on- ly break, Yet save me for _ Thine own name's sake, And take me as I am. And take me as I am, And take me as I am, My on- ly plea: _ Christ died for me! Oh, take me as I am. _ _
+v4: Be- hold _ me, Sav- ior, at Thy feet, Deal with me as Thou seest meet; Thy work be- gin, _ Thy work com- plete, And take me as I am. And take me as I am, And take me as I am, My on- ly plea: _ Christ died for me! Oh, take me as I am. A- men.

@@ -2,6 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: none)
+# quality: exact (per verse: exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+# placement: verses 1, 2, 3 follow the Open Hymnal Project's engraving of this tune
+v1: Gen- tle Ma- ry laid her Child Low- ly in a man- ger; There He lay, the un- de- filed, To the world a stran- ger. Such a Babe in such a place, Can He be the Sav- ior? Ask the saved of all the race Who have found His fa- _ vor.
+v2: An- gels sang a- bout His birth, Wise men sought and found Him; Heav- en's star shone bright- ly forth, Glo- ry all a- round Him. Shep- herds saw the won- drous sight, Heard the an- gels sing- ing; All the plains were lit that night, All the hills were ring- _ ing.
+v3: Gen- tle Ma- ry laid her Child Low- ly in a man- ger; He is still the un- de- filed, But no more a stran- ger. Son of God, of hum- ble birth, Beau- ti- ful the sto- ry; Praise His name in all the earth, Hail the King of glo- _ ry!

@@ -2,11 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: exact, exact, exact, auto)
-# wording: Korean-English hymnal (prayertents.com)
+# quality: exact (per verse: exact, exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 v1: O, Lord my God! When I in awe- some won- der con- sid- er all the worlds Thy hands have made, I see the stars, I hear the roll- ing thun- der, Thy power through out the un- i- verse dis- played, Then sings my soul, my Sav- ior God to Thee How great Thou art, how great Thou art! Then sings my soul, my Sav- ior God to Thee How great Thou art, how great Thou art!
 v2: When through the woods and for- est glades I wan- der And hear the birds sing sweet- ly in the trees; When I look down from loft- y moun- tain gran- deur And hear the brook and feel the gen- tle breeze Then sings my soul, my Sav- ior God to Thee How great Thou art, how great Thou art! Then sings my soul, my Sav- ior God to Thee How great Thou art, how great Thou art!
 v3: And when I think that God, His Son not spar- ing, Sent Him to die, I scarce can take it in; That on the cross my bur- den glad- ly bear- ing, He bled and died to take a- way my sin; Then sings my soul, my Sav- ior God to Thee How great Thou art, how great Thou art! Then sings my soul, my Sav- ior God to Thee How great Thou art, how great Thou art!
-v4: When Christ shall come with shout of ac- cla- ma- tion And take me home, what joy shall fill my heart! Then _ shall bow in hum- ble ad- o- ra- tion And there pro- claim, my God, how great Thou art! Then sings my soul, my Sav- ior God to Thee How great Thou art, how great Thou art! Then sings my soul, my Sav- ior God to Thee How great Thou art, how great Thou art!
+v4: When Christ shall come with shout of ac- cla- ma- tion And take me home, what joy shall fill my heart! Then i shall bow in hum- ble ad- o- ra- tion And there pro- claim, my God, how great Thou art! Then sings my soul, my Sav- ior God to Thee How great Thou art, how great Thou art! Then sings my soul, my Sav- ior God to Thee How great Thou art, how great Thou art!

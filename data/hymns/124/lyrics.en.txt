@@ -2,6 +2,9 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: none)
+# quality: auto (per verse: auto, auto, auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Watch- man, _ tell _ us of the night, What its signs of pro- _ mise are. Tra- ve- ler, o- ver you moun- tain's height, See that _ glo- ry beam- ing star. Watch- man, does its beau- teous _ ray Aught of joy or hope fore- _ tell? Tra- ve- ler, yes; it brings the day, Pro- _ mised _ day of Is- rael.
+v2: Watch- man, _ tell _ us of the night; High- er yet that star _ a- scends. Tra- ve- _ ler, bless- ed- ness and light, Peace and _ truth its course por- tends. Watch- man, will its beams a- lone Gild the spot that gave them birth? _ Tra- ve- ler, a- ges are its own; See, it _ bursts o- ver all the earth.
+v3: Watch- man, _ tell _ us of the night, For the morn- ing seems _ to dawn. Tra- ve- _ ler, dar- kness take their flight; Doubt and _ ter- ror are with- drawn. Watch- man, let your wan- de- rings cease; Ha- sten to your quiet home. _ Tra- ve- ler, lo, the Prince of Peace. Lo, the _ Son _ of God is come!

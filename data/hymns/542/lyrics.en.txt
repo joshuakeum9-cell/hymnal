@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: 'Tis so sweet to trust in Je- sus, Just to take Him at His Word Just to rest up- on His prom- ise Just to know, "Thus saith the Lord" Je- sus, Je- sus, how I trust Him! How I've proved Him o'er and o'er! Je- sus, Je- sus, pre- cious Je- sus! O for grace to trust Him more! _ _
-v2: O how sweet to trust in Je- sus, Just to trust His cleans- ing blood Just in sim- ple faith to plunge me 'Neath the heal- ing, cleans- ing flood! Je- sus, Je- sus, how I trust Him! How I've proved Him o'er and o'er! Je- sus, Je- sus, pre- cious Je- sus! O for grace to trust Him more! _ _
-v3: Yes, 'tis sweet to trust in Je- sus, Just from sin and self to cease Just from Je- sus sim- ply tak- ing Lift and rest and joy and peace. Je- sus, Je- sus, how I trust Him! How I've proved Him o'er and o'er! Je- sus, Je- sus, pre- cious Je- sus! O for grace to trust Him more! _ _
-v4: I'm so glad I learned to trust Thee, Pre- cious Je- sus, Sav- iour Friend And I know that Thou art with me, Wilt be with me to the end. Je- sus, Je- sus, how I trust Him! How I've proved Him o'er and o'er! Je- sus, Je- sus, pre- cious Je- sus! O for grace to trust Him more! A- men.
+v1: 'Tis so sweet to trust in Je- sus, Just to take Him at His Word; Just to rest up- on His prom- ise; Just to know, "Thus saith the Lord." Je- sus, Je- sus, how I trust Him! How I've proved Him over and over! Je- sus, Je- sus, pre- cious Je- sus! O for grace to trust Him more! _ _
+v2: O how sweet to trust in Je- sus, Just to trust His cleans- ing blood; Just in sim- ple faith to plunge me Beneath the heal- ing, cleans- ing flood! Je- sus, Je- sus, how I trust Him! How I've proved Him over and over! Je- sus, Je- sus, pre- cious Je- sus! O for grace to trust Him more! _ _
+v3: Yes, 'tis sweet to trust in Je- sus, Just from sin and self to cease; Just from Je- sus sim- ply tak- ing Lift and rest and joy and peace. Je- sus, Je- sus, how I trust Him! How I've proved Him over and over! Je- sus, Je- sus, pre- cious Je- sus! O for grace to trust Him more! _ _
+v4: I'm so glad I learned to trust Thee, Pre- cious Je- sus, Sav- ior, Friend; And I know that Thou art with me, Wilt be with me to the end. Je- sus, Je- sus, how I trust Him! How I've proved Him over and over! Je- sus, Je- sus, pre- cious Je- sus! O for grace to trust Him more! A- men.

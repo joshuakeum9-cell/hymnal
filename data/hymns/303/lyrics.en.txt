@@ -2,9 +2,9 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: auto, exact, exact)
+# quality: exact (per verse: exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: My life _ flows rich in love and grace By Christ mer- cy of- fer'd, Who an- guish bore, and took my place, When on the cross He suf- fer'd. His pre- cious blood He Shed to free, From sin and all its sting- ing, Death- des- tin'd sin- ners such as we! How can I keep form sing- ing?
-v2: Who live in Christ are blest to know A joy be- yond all meas- ure, His Spir- it's gifts the heart o'er- flow Our com- fort, grace and treas- ure. His word of grace, through end- less years New bless- ed- ness still bring- ing, Is heav- en's mu- sic in my ears. How can I keep form sing- ing?
+v1: My life flows rich in love and grace By Christ in mer- cy of- fered, Who an- guish bore, and took my place, When on the cross He suf- fered. His pre- cious blood He Shed to free, From sin and all its sting- ing, Death des- tined sin- ners such as we! How can I keep form sing- ing?
+v2: Who live in Christ are blest to know A joy be- yond all mea- sure, His Spir- it's gifts the heart o- ver- flow Our com- fort, grace and treas- ure. His word of grace, through end- less years New bless- ed- ness still bringing, Is heav- en's mu- sic in my ears. How can I keep form sing- ing?
 v3: The storms of earth may rend and tear And nev- er cease dis- tress- ing, But we, safe kept in Je- sus' care, Know end- less peace and bless- ing. Then as we watch and wait and yearn, And pray'rs on high are wing- ing, While I a- wait our Lord's re- turn, How can I keep form sing- ing?

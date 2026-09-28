@@ -1,17 +1,17 @@
 # 15 Love Divine, All Loves Excelling: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 Love divine, all loves excelling,
-Joy of heav'n, to earth come down!
+Joy of heaven, to earth come down!
 Fix in us Thy humble dwelling
 All Thy faithful mercies crown.
 Jesus, Thou art all compassion
 Pure, unbounded love Thou art.
 Visit us with Thy salvation
-Enter ev'ry trembling heart.
+Enter every trembling heart.
 
 Breathe, oh, breathe Thy loving Spirit
-Into ev'ry troubled breast!
+Into every troubled breast!
 Let us all in Thee inherit
 Let us find that second rest.
 Take away our bent to sinning
@@ -33,6 +33,7 @@ Pure and spotless let us be.
 Let us sea Thy great salvation,
 Perfectly restored in Thee:
 Changed from glory into glory,
-Till in hea'n we take our place,
+Till in heaven we take our place,
 Till we cast our crowns before Thee,
-Lost in wonder, love, and praise. Amen.
+Lost in wonder, love, and praise.
+Amen.

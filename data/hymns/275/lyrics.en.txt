@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: I grieved my Lord from day to day, I scorned His love so full and free, And though I wan- dered far a- way, My moth- er's pray'rs have fol- lowed me. I'm com- ing home, the whole world thro' To live my wast- ed life a- new, For moth- er's pray'rs have fol- lowed me, Have fol- lowed me the whole world thro'.
-v2: O'er des- ert wild, o'er moun- tain high A wan- der- er I chose to be, A wretch- ed soul con- demned to die, Still moth- er's pray'rs have fol- lowed me. I'm com- ing home, the whole world thro' To live my wast- ed life a- new, For moth- er's pray'rs have fol- lowed me, Have fol- lowed me the whole world thro'.
-v3: He turned my dark- ness in- to light, This bless- ed Christ of Cal- va- ry, I'll praise His name both day and night, That moth- er's pray'rs have fol- lowed me. I'm com- ing home, the whole world thro' To live my wast- ed life a- new, For moth- er's pray'rs have fol- lowed me, Have fol- lowed me the whole world thro'.
+v1: I grieved my Lord from day to day, I scorned His love so full and free, And though I wan- dered far a- way, My moth- er's pray'rs have fol- lowed me. I'm com- ing home, the whole world through To live my wast- ed life a- new, For moth- er's pray'rs have fol- lowed me, Have fol- lowed me the whole world through.
+v2: Over des- ert wild, over moun- tain high A wan- der- er I chose to be, A wretch- ed soul con- demned to die, Still moth- er's pray'rs have fol- lowed me. I'm com- ing home, the whole world through To live my wast- ed life a- new, For moth- er's pray'rs have fol- lowed me, Have fol- lowed me the whole world through.
+v3: He turned my dark- ness in- to light, This bless- ed Christ of Cal- va- ry, I'll praise His name both day and night, That moth- er's pray'rs have fol- lowed me. I'm com- ing home, the whole world through To live my wast- ed life a- new, For moth- er's pray'rs have fol- lowed me, Have fol- lowed me the whole world through.

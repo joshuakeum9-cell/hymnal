@@ -2,11 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: exact, exact, exact, auto)
-# wording: Korean-English hymnal (prayertents.com)
+# quality: exact (per verse: exact, exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 v1: I know that _ my Re- deem- _ er lives, And ev- _ er _ prays _ for me; A to- ken _ of His love He gives, A pledge of lib- _ er- ty. _ _
 v2: He wills that _ I should ho- _ ly be; Who can _ with- _ stand _ His will? The coun- sel _ of His grace in me He sure- ly shall _ ful- fil. _ _
 v3: Je- sus, I _ hang up- on _ Thy word; I stead- _ fast- _ ly _ be- lieve Thou wilt re- _ turn and claim me, Lord, And to Thy- self _ re- ceive. _ _
-v4: When God is _ mine, and I _ am His, Of Par- _ _ _ a- _ _ dise pos- sessed I _ taste un- ut- ter- a- ble bliss, And ev- _ er- last- ing rest.
+v4: When God is _ mine, and I _ am His, Of Par- _ a- _ dise _ pos- sessed I taste un- _ ut- ter- a- ble bliss, And ev- er- last- _ ing rest. A- men.

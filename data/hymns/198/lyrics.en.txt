@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Break Thou the bread of life, Dear Lord, to me, As Thou didst break the loaves Be- side the sea. Be- yond the sa- cred page I seek Thee, Lord My spir- it pants for Thee, O liv- ing Word! _ _
-v2: Thou art the bread of life, O Lord, to me, Thy ho- ly Word the truth That sav- eth me. Give me to eat and live With Thee a- bove. Teach me to love Thy truth, For Thou art love. _ _
-v3: Bless Thou the truth, dear Lord, To me, to me, As Thou didst bless the bread By Gal- i- lee. Then shall all bon- dage cease, All fet- ters fall, And I shall find my peace, My All in All. _ _
-v4: O send Thy Spir- it, Lord, Now un- to me, That He may touch my eyes And make me see: Show me the truth con- cealed With- in Thy Word, And in Thy Book re- vealed I see the Lord. A- men.
+v1: Break Thou the bread of life, Dear Lord, to me; As Thou didst break the loaves Be- side the sea; Be- yond the sa- cred page I seek Thee, Lord; My spir- it pants for Thee, O liv- ing Word! _ _
+v2: Thou art the bread of life, O Lord, to me; Thy ho- ly Word the truth That sav- eth me; Give me to eat and live With Thee a- bove; Teach me to love Thy truth, For Thou art love. _ _
+v3: Bless Thou the truth, dear Lord, To me, to me; As Thou didst bless the bread By Gal- i- lee; Then shall all bon- dage cease, All fet- ters fall; And I shall find my peace, My All in All. _ _
+v4: O send Thy Spir- it, Lord, Now un- to me; That He may touch my eyes And make me see; Show me the truth con- cealed With- in Thy Word; And in Thy Book re- vealed I see the Lord. A- men.

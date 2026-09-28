@@ -3,10 +3,11 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Why not be- lieve, my _ broth- er? Tell! Why not to _ heav- en win Why die un- saved, for pains of hell, The dread- _ ful _ price of sin
-v2: Why not be- lieve, my _ broth- er? Think! Why fol- low _ Sa- tan's train When Sa- tan's hosts to judg- ment sink Why would _ you _ share their pain
-v3: Why not be- lieve, my _ broth- er? Say! Why live for _ wealth and state When things of earth are burn'd a- way, Why would _ you _ share that fate
-v4: Why not be- lieve, my _ broth- er? Friend! Why, snared in _ e- vil way. Would you choose trou- ble with- out end, And grief _ for _ all your days
+v1: Why not be- lieve, my _ broth- er? Tell! Why not to _ heav- en win? Why die un- saved, for pains of hell, The dread- _ ful _ price of sin?
+v2: Why not be- lieve, my _ broth- er? Think! Why fol- low _ Sa- tan's train? When Sa- tan's hosts to judg- ment sink Why would _ you _ share their pain?
+v3: Why not be- lieve, my _ broth- er? Say! Why live for _ wealth and state? When things of earth are burned a- way, Why would _ you _ share that fate?
+v4: Why not be- lieve, my _ broth- er? Friend! Why, snared in _ e- vil ways, Would you choose trou- ble with- out end, And grief _ for _ all your days?
 v5: In- deed, my com- rade! _ Life or loss Rests, friend, on _ what you do! Come to the Lord! He bore a cross And died _ for _ love of you!

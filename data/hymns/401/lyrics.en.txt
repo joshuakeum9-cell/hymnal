@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Sav- iour, lead me, lest I stray, Gen- tly lead me all the way I am safe when by Thy side, I would in Thy love a- bide. Lead me, lead me, Sav- iour, lead me, lest I stray _ _ Gen- tly down the stream of time, Lead me, Sa- viour, all the way. _ _
-v2: Thou the ref- uge of my soul, When life's storm- y bil- lows roll, I am safe when Thou art nigh, All my hopes on Thee re- ly. Lead me, lead me, Sav- iour, lead me, lest I stray _ _ Gen- tly down the stream of time, Lead me, Sa- viour, all the way. _ _
-v3: Sav- iour, lead me, then at last, When the storm of life is past, To the land of end- less day, Where all tears are wiped a- way. Lead me, lead me, Sav- iour, lead me, lest I stray _ _ Gen- tly down the stream of time, Lead me, Sa- viour, all the way. A- men
+v1: Sav- ior, lead me, lest I stray, Gen- tly lead me all the way; I am safe when by Thy side, I would in Thy love a- bide. Lead me, lead me, Sav- ior, lead me, lest I stray; _ _ Gen- tly down the stream of time, Lead me, Sav- ior, all the way. _ _
+v2: Thou the ref- uge of my soul, When life's storm- y bil- lows roll, I am safe when Thou art nigh, All my hopes on Thee re- ly. Lead me, lead me, Sav- ior, lead me, lest I stray; _ _ Gen- tly down the stream of time, Lead me, Sav- ior, all the way. _ _
+v3: Sav- ior, lead me, then at last, When the storm of life is past, To the land of end- less day, Where all tears are wiped a- way. Lead me, lead me, Sav- ior, lead me, lest I stray; _ _ Gen- tly down the stream of time, Lead me, Sav- ior, all the way. A- men.

@@ -1,22 +1,23 @@
 # 186 Holy Ghost, with Light Divine: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 Holy Ghost, with light divine,
-Shine upon this heart of mine
+Shine upon this heart of mine;
 Chase the shade of night away,
 Turn my darkness into day.
 
 Holy Ghost, with power divine,
-Cleanse this guilty heart of mine
+Cleanse this guilty heart of mine;
 Long has sin, without control,
-Held dominion o'er my soul.
+Held dominion over my soul.
 
 Holy Ghost, with joy divine,
-Cheer this saddened heart of mine
+Cheer this saddened heart of mine;
 Bid my many woes depart,
 Heal my wounded, bleeding heart.
 
 Holy Spirit, all divine,
-Dwell within this heart of mine
+Dwell within this heart of mine;
 Cast down every idol throne,
-Reign supreme, and reign alone. Amen.
+Reign supreme, and reign alone.
+Amen.

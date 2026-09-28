@@ -1,12 +1,12 @@
 # 549 My Jesus, as Thou Wilt: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 My Jesus, as Thou wilt!
-O may Thy will be mine
+O may Thy will be mine;
 Into Thy hand of love
 I would my all resign.
 Through sorrow, or through joy,
-Conduct me as Thine own
+Conduct me as Thine own;
 And help me still to say, My Lord,
 Thy will be done.
 
@@ -20,10 +20,10 @@ If I must weep with Thee,
 My Lord, Thy will be done.
 
 My Jesus, as Thou wilt!
-All shall be well for me
+All shall be well for me;
 Each changing future scene
 I gladly trust with Thee.
 Straight to my home above
-I travel calmly on
+I travel calmly on;
 And sing, in life or death,
 My Lord, Thy will be done. Amen.

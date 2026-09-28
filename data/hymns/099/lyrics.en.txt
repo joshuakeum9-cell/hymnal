@@ -2,6 +2,11 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: none)
+# quality: exact (per verse: exact, exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+# placement: verses 1, 2, 3, 4 follow the Open Hymnal Project's engraving of this tune
+v1: Let all mor- tal flesh keep _ si- lence. And with fear and trem- bling _ stand; Pon- der noth- ing earth- ly _ min- ded, For with bless- ing in His _ hand, Christ our God to earth de- scen- _ _ _ deth, Our full hom- age to de- _ mand.
+v2: King of kings, yet born of _ Ma- ry, As of old on earth He _ stood, Lord of lords, in hu- man _ ve- sture, In the body and the blood, _ He will give to all the faith- ful _ _ _ His own self for heav- en- ly _ food.
+v3: Rank on rank the host of _ heaven Spreads its vang- uard on the way, _ As the Light of Light de- scen- _ deth From the realms of end- less day, _ That the po- wers of hell my va- _ _ _ nish As the dark- ness clears a- _ way.
+v4: At His feet the six- winged _ se- raph; Cher- u- bim, with slee- pless _ eye, Veil their fa- ces to the _ pres- ence, As with cease- less voice they _ cry, Al- le- lu- _ ia, Al- le- _ lu- _ ia, Al- le- lu- ia, Lord Most _ High!

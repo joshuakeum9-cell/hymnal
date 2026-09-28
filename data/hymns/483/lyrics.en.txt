@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Lord, I care not for rich- es, Nei- ther sil- ver nor gold. I would make sure of heav- en I would en- ter the fold In the book of Thy king- dom, With its pa- ges so fair, Tell me, Je- sus, my Sav- iour, Is my name writ- ten there? Is my name writ- ten there, On the page white and fair, In the book of Thy king- dom, Is my name writ- ten there?
-v2: Lord, my sins they are man- y Like the sands of the sea But Thy blood, O my Sav- iour, Is suf- fi- cient for me. For Thy prom- ise is writ- ten, In bright let- ters that glow, "Tho' your sins be as scar- let, I will make them like snow." Is my name writ- ten there, On the page white and fair, In the book of Thy king- dom, Is my name writ- ten there?
-v3: Oh, that beau- ti- ful- cit- y, With its man- sions of light, With its glo- ri- fied be- ings In pure gar- ments of white, Where no e- vil thing com- eth To de- spoil what is fair, Where the an- gels are watch- ing Yes, my name's writ- ten there!" Is my name writ- ten there, On the page white and fair, In the book of Thy king- dom, Is my name writ- ten there?
+v1: Lord, I care not for rich- es, Nei- ther sil- ver nor gold. I would make sure of heav- en; I would en- ter the fold. In the book of Thy king- dom, With its pa- ges so fair, Tell me, Je- sus, my Sav- ior, Is my name writ- ten there? Is my name writ- ten there, On the page white and fair. In the book of Thy king- dom, Is my name writ- ten there?
+v2: Lord, my sins they are man- y Like the sands of the sea; But Thy blood, O my Sav- ior, Is suf- fi- cient for me. For Thy prom- ise is writ- ten, In bright let- ters that glow, "Tho' your sins be as scar- let, I will make them like snow." Is my name writ- ten there, On the page white and fair. In the book of Thy king- dom, Is my name writ- ten there?
+v3: Oh, that beau- ti- ful cit- y, With its man- sions of light, With its glo- ri- fied be- ings In pure gar- ments of white, Where no e- vil thing com- eth To de- spoil what is fair, Where the an- gels are watch- ing Yes, my name's writ- ten there! Is my name writ- ten there, On the page white and fair. In the book of Thy king- dom, Yes, my name's writ- ten there.

@@ -2,11 +2,11 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: exact, exact, exact, exact, rough)
+# quality: auto (per verse: exact, exact, auto, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Must _ Je- sus bear the cross a- lone, _ And all the world go free No, _ ther's a cross for ev- 'ry- one, _ And there's a cross for me. _ _
-v2: The _ con- se- crat- ed cross I'll bear _ Till death shall set me free, And _ then go home my crown to wear _ For there's a crown for me. _ _
-v3: Up- _ on the crys- tal pave- ment, down _ At Je- sus' pierc- ed feet, Joy- _ ful, I'll cast my gold- en crown, _ And His dear name re- peat. _ _
-v4: And _ palms shall wave and harps shall ring _ Be- neath heav'n's arch- es high! The _ Lord Who lives the ran- som'd sing, _ Who lives no more to die. _ _
-v5: oh, _ glor- ious crown! Oh, re- sur- rec- _ tion day! Ye _ an- gels, from _ the stars _ come down, And _ _ _ bear my soul a- way. A- men.
+v1: Must _ Je- sus bear the cross a- lone, _ And all the world go free? No, _ there's a cross for e- ve- ryone, _ And there's a cross for me. _ _
+v2: The _ con- se- crat- ed cross I'll bear _ Till death shall set me free, And _ then go home my crown to wear; _ For there's a crown for me. _ _
+v3: Up- on the crys- tal pave- ment, down At _ Je- sus' pierced feet, Joy- ful, I'll _ cast my gold- en crown, And _ _ _ His dear name re- peat. _ _
+v4: And _ palms shall wave and harps shall ring _ Be- neath hea- ven's arches high! The _ Lord Who lives the ran- somed sing, _ Who lives no more to die. _ _
+v5: Oh, _ pre- cious cross! oh, glo- rious crown! _ Oh, re- sur- rec- tion day! Ye _ ang- els, from the stars come down, _ And bear my soul a- way. A- men.

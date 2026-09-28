@@ -1,5 +1,5 @@
 # 66 Now Thank We All Our God: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 Now thank we all our God
 With heart and hands and voices,
@@ -26,4 +26,5 @@ With them in highest heaven,
 The one eternal God,
 Whom earth and heaven adore,
 For thus it was, is now,
-And shall be evermoer.
+And shall be evermore.
+Amen.

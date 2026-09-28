@@ -1,7 +1,7 @@
 # 282 Just as I am, Without One Plea: English words, one verse per block.
 # status: proposed
 
-Just as I am, without one plea,
+Just as I am, without one plea
 But that Thy blood was shed for me,
 And that Thou bid'st me come to Thee,
 O Lamb of God, I come, I come.
@@ -30,3 +30,4 @@ Just as I am, Thy love unknown
 Hath broken every barrier down;
 Now, to be Thine, yea, Thine alone,
 O Lamb of God, I come, I come.
+Amen.

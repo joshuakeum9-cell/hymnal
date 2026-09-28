@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Here am I, send me, my Lord, for I see none at work, And the har- vest rip-'n- ing so! Who will go now all is read- y Dare I sleep or shirk Let us rise with haste and go! Here am I, send me. Here am I, send me. From the al- tar's coal my lips still burn, And can I wait, the man- date spurn Oh, here am I, my Lord send me.
-v2: Je- sus comes to plead but those who heed are, oh, so few, Though he search- es high and deep. In the har- vest of His lov- ing there is work to do. Let us go with haste and reap! Here am I, send me. Here am I, send me. From the al- tar's coal my lips still burn, And can I wait, the man- date spurn Oh, here am I, my Lord send me.
-v3: Where the Sav- iour leads is glad- ness an- y place or hour. All your strength for Him em- ploy. He en- ab- les when He or- ders, so we rise with pow'r And bring in His sheaves with joy. Here am I, send me. Here am I, send me. From the al- tar's coal my lips still burn, And can I wait, the man- date spurn Oh, here am I, my Lord send me.
+v1: Here am I, send me, my Lord, for I see none at work, And the har- vest rip- 'ning so! Who will go now all is read- y? Dare I sleep or shirk? Let us rise with haste and go! Here am I, send me, Here am I, send me. From the al- tar's coal my lips still burn, And can I wait, the man- date spurn? Oh, here am I, my Lord send me.
+v2: Je- sus comes to plead but those who heed are, oh, so few, Though he search- es high and deep. In the har- vest of His lov- ing there is work to do. Let us go with haste and reap! Here am I, send me, Here am I, send me. From the al- tar's coal my lips still burn, And can I wait, the man- date spurn? Oh, here am I, my Lord send me.
+v3: Where the Sav- ior leads is glad- ness an- y place or hour. All your strength for Him em- ploy. He en- ab- les when He or- ders, so we rise with power And bring in His sheaves with joy. Here am I, send me, Here am I, send me. From the al- tar's coal my lips still burn, And can I wait, the man- date spurn? Oh, here am I, my Lord send me.

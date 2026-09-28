@@ -2,9 +2,9 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: rough, rough, exact)
+# quality: exact (per verse: exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: I _ have _ _ _ wan- der'd _ far in- _ _ deed! Now _ I'm wea- _ _ ry, _ _ weak, and _ _ lame, Lost _ in sad- _ _ ness, _ _ tears, and _ _ need, Drift- _ ing list- _ _ less, with- _ out _ _ _ aim! _ _
-v2: Je- _ sus, Je- _ _ sus, Lord and Friend, When _ _ I'm sad _ and deep _ in grief, Dry my tears, till _ _ tears shall _ end Be _ _ my com- _ fort and _ re- lief. _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
-v3: When my wan- d'rings pause to rest, Though my camp be bleak and cold, Leave me not a- lone, un- blest Guard and cheer me and up- hold! Je- sus, Je- sus! Lord and Friend, Oh, come quick- ly, I im- plore! Leave me not, though time should end Stay be- side me ev- er- more! A- men.
+v1: I have wan- dered far in- deed! Now I'm wea- ry, weak, and lame, Lost in sad- ness, tears, and need, Drift- ing list- less, with- out aim! Je- sus, Je- sus! Lord and Friend, Oh, come quick- ly, I im- plore! Leave me not, though time should end; Stay be- side me ev- er- more! _ _
+v2: Je- sus, Je- sus, Lord and Friend, When I'm sad and deep in grief, Dry my tears, till tears shall end Be my com- fort and re- lief. Je- sus, Je- sus! Lord and Friend, Oh, come quick- ly, I im- plore! Leave me not, though time should end; Stay be- side me ev- er- more! _ _
+v3: When my wan- de- rings pause to rest, Though my camp be bleak and cold, Leave me not a- lone, un- blest; Guard and cheer me and up- hold! Je- sus, Je- sus! Lord and Friend, Oh, come quick- ly, I im- plore! Leave me not, though time should end; Stay be- side me ever- more! A- men.

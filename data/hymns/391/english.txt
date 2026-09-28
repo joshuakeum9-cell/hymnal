@@ -1,8 +1,8 @@
 # 391 A wonderful Saviour is Jesus my Lord: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
-A wonderful Saviour is Jesus my Lord,
-A wonderful Saviour to me
+A wonderful Savior is Jesus my Lord,
+A wonderful Savior to me;
 He hideth my soul in the cleft of the rock,
 Where rivers of pleasure I see.
 He hideth my soul in the cleft of the rock
@@ -11,8 +11,8 @@ He hideth my life in the depths of His love,
 And covers me there with His hand,
 And covers me there with His hand.
 
-A wonderful Saviour is Jesus my Lord,
-He taketh my burden away
+A wonderful Savior is Jesus my Lord,
+He taketh my burden away;
 He holdeth me up, and I shall not be moved,
 He giveth me strength as my day.
 He hideth my soul in the cleft of the rock
@@ -22,7 +22,7 @@ And covers me there with His hand,
 And covers me there with His hand.
 
 With numberless blessings each moment, He crowns,
-And, filled with His fullness divine,
+And filled with His fullness divine,
 I sing in my rapture, oh, glory to God
 For such a Redeemer as mine!
 He hideth my soul in the cleft of the rock

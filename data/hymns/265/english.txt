@@ -1,7 +1,7 @@
 # 265 Christ, Our Redeemer: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
-Christ, our Redeemer, died on the Cross
+Christ, our Redeemer, died on the Cross;
 Died for the sinner, paid all his due.
 Sprinkled your soul with the blood of the Lamb,
 "And I will pass, will pass over you."
@@ -10,7 +10,7 @@ When I see the blood,
 When I see the blood,
 I will pass, I will pass over you"
 
-Chiefest of sinners, Jesus will save
+Chiefest of sinners, Jesus will save;
 All He has promised, that will He do.
 Wash in the fountain opened for sin,
 "And I will pass, will pass over you."

@@ -3,10 +3,11 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 # placement: verses 1, 2, 3, 4 follow the Open Hymnal Project's engraving of this tune
-v1: When peace, like a riv- er, at- tend- _ eth my way, when sor- rows like sea- bil- lows roll what- ev- er my lot, Thou hast taught me to say, "It is well, it is well with my soul" It is well with my soul It is well, it is well with my soul.
-v2: Tough Sa- tan should buf- fet, though tri- _ als should come, Let this bless as- sur- ance con- trol, That Christ has re- gard- ed my help- less es- tate, And hath shed His own blood for my soul. It is well with my soul It is well, it is well with my soul.
-v3: My sin O the bless of this glo- _ ri- ous thought! My sin, not in part, but the whole, Is nailed to the cross and I bear it no more Praise the Lord, praise the Lord, O my soul! It is well with my soul It is well, it is well with my soul.
-v4: And, Lord, haste the day when the faith _ shall be sight, The clouds be rolled back as a scroll, The trump shall re- sound and the Lord shall de- scend, "E- ven so" it is well with my soul. It is well with my soul It is well, it is well with my soul.
+v1: When peace, like a riv- er, at- tend- _ eth my way, When sor- rows like sea bil- lows roll; What- ev- er my lot, Thou hast taught me to say, "It is well, it is well with my soul." It is well with my soul; It is well, it is well with my soul.
+v2: Though Sa- tan should buf- fet, though tri- _ als should come, Let this bless as- sur- ance con- trol, That Christ has re- gard- ed my help- less es- tate, And hath shed His own blood for my soul. It is well with my soul; It is well, it is well with my soul.
+v3: My sin O the bless of this glo- _ ri- ous thought! My sin, not in part, but the whole, Is nailed to the cross and I bear it no more, Praise the Lord, praise the Lord, O my soul! It is well with my soul; It is well, it is well with my soul.
+v4: And, Lord, haste the day when the faith _ shall be sight, The clouds be rolled back as a scroll, The trump shall re- sound and the Lord shall de- scend, "E- ven so" it is well with my soul. It is well with my soul; It is well, it is well with my soul.

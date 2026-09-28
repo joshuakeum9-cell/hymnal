@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Thou, my ev- er- last- ing por- tion, More than friend or life to me All a long my pil- grim jour- ney, Sav- iour, let me walk with Thee. Close to Thee, close to Thee, Close to Thee, close to Thee All a long my pil- grim jour- ney, Sav- iour, let me walk with Thee. _ _
-v2: Not for ease or world- ly pleas- ure, Nor for fame my pray'r shall be Glad- ly will I toil and suf- fer, On- ly let me walk with Thee. Close to Thee, close to Thee, Close to Thee, close to Thee All a long my pil- grim jour- ney, Sav- iour, let me walk with Thee. _ _
-v3: Lead me thro' the vale of shad- ows, Bear me o'er life's fit- ful sea Then the gate of life e- ter- nal May I en- ter, Lord, with Thee. Close to Thee, close to Thee, Close to Thee, close to Thee All a long my pil- grim jour- ney, Sav- iour, let me walk with Thee. A- men.
+v1: Thou, my ev- er- last- ing por- tion, More than friend or life to me; All a long my pil- grim jour- ney, Sav- ior, let me walk with Thee. Close to Thee, close to Thee, Close to Thee, close to Thee; All a long my pil- grim jour- ney, Sav- ior, let me walk with Thee. _ _
+v2: Not for ease or world- ly pleas- ure, Nor for fame my prayer shall be; Glad- ly will I toil and suf- fer, On- ly let me walk with Thee. Close to Thee, close to Thee, Close to Thee, close to Thee; All a long my pil- grim jour- ney, Sav- ior, let me walk with Thee. _ _
+v3: Lead me through the vale of shad- ows, Bear me over life's fit- ful sea; Then the gate of life e- ter- nal May I en- ter, Lord, with Thee. Close to Thee, close to Thee, Close to Thee, close to Thee; All a long my pil- grim jour- ney, Sav- ior, let me walk with Thee. A- men.

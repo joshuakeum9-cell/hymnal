@@ -3,10 +3,11 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Lord take my all The gift is small For Thee for Thee _ What hast Thou done O bless- ed One For me for me _ What hast Thou done O bless- ed One For me for me _
-v2: Dare I re- fuse My life to use For Thee for Thee _ Who shed Thy blood A cleans- ing flood For me for me _ Who shed Thy blood A cleans- ing flood For me for me _
-v3: Would I had more Earth's ri- chest store For Thee for Thee _ Thy love has met A bound- less debt For me for me _ Thy love has met A bound- less debt For me for me _
-v4: By grace di- vine Seal what is mine For Thee for Thee _ who suf- fered loss And bore the cross For me for me _ who suf- fered loss And bore the cross For me for me _
-v5: Lord hear am I To live or die For Thee for Thee _ Thy sac- ri- fice Has paid the price For me for me _ Thy sac- ri- fice Has paid the price For me for me _
+v1: Lord take my all The gift is small For Thee for Thee; _ What hast Thou done O bless- ed One, For me, for me; _ What hast Thou done O bless- ed One, For me, for me. _
+v2: Dare I re- fuse My life to use For Thee for Thee; _ Who shed Thy blood A cleans- ing flood, For me, for me; _ Who shed Thy blood A cleans- ing flood, For me, for me. _
+v3: Would I had more Earth's ri- chest store, For Thee for Thee; _ Thy love has met A bound- less debt, For me, for me; _ Thy love has met A bound- less debt, For me, for me. _
+v4: By grace di- vine Seal what is mine For Thee for Thee; _ Who suf- fered loss And bore the cross, For me, for me; _ Who suf- fered loss And bore the cross, For me, for me. _
+v5: Lord hear am I To live or die For Thee for Thee; _ Thy sac- ri- fice Has paid the price For me, for me; _ Thy sac- ri- fice Has paid the price For me, for me. _

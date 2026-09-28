@@ -1,10 +1,10 @@
 # 141 Hosanna, Loud Hosanna: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 Hosanna, loud hosanna
-The little children sang
+The little children sang;
 Though pillared court and temple
-The lovely anthem rang
+The lovely anthem rang;
 To Jesus, who had blessed them
 Close folded to His breast,
 The children sang their praises,
@@ -13,7 +13,7 @@ The simplest and the best.
 From Olivet they followed
 Mid an exultant crowd,
 The victor palm branch waving,
-And chanting clear and loud
+And chanting clear and loud;
 The Lord of men and angels
 Rode on in lowly state,
 Nor scorned that little children
@@ -22,8 +22,9 @@ Should on His bidding wait.
 "Hosanna in the highest!"
 That ancient song we sing,
 For Christ is our Redeemer,
-The Lord of heav'n, our King
+The Lord of heaven, our King;
 O may we ever praise Him
 With heart and life and voice,
 And in His blissful presence
-Eternally rejoice! Amen.
+Eternally rejoice!
+Amen.

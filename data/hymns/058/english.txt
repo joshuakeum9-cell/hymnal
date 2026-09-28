@@ -1,5 +1,5 @@
 # 58 Morning Hymns: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 Morning hymns, O Lord, with praises
 For the past night's gentle rest
@@ -8,15 +8,16 @@ To Thy name, forever blest!
 
 Health of body, peace of spirit!
 Breath of life and hearts at ease!
-Illness heal'd by Jesus' merit!
+Illness healed by Jesus' merit!
 Praise we God for all of these.
 
-As Thy love has shin'd around us
+As Thy love has shined around us
 Through the watches of the night.
 So, through earth's dark night surround us
 With Thine own immortal light.
 
 Hear, O spirit, our petition:
-From this day our lives comtrol.
+From this day our lives control.
 Bring Thy work to full fruition,
-Make us perfect, make us whole! Amen.
+Make us perfect, make us whole!
+Amen.

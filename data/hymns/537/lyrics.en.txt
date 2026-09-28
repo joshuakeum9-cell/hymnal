@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Why do you wait, dear brth- er, O why do you tar- ry so long Your sav- iour is wait- ing to give you A place in His sanc- ti- fied throng. Why not why not Why not come to Him now _ Why not why not Why not come to Him now
-v2: What do you hope, dear broth- er, To gain by a fur- ther de- lay There's no one to save you but Je- sus, There's no oth- er way but His way. Why not why not Why not come to Him now _ Why not why not Why not come to Him now
-v3: Do you not feel, dear broth- er, His Spir- it now striv- ing with- in O why not ac- cept His sal- va- tion And throw off your bur- den of sin Why not why not Why not come to Him now _ Why not why not Why not come to Him now
-v4: Why do you wait, dear broth- er The har- vest is pass- ing a- way Your Sav- iour is long- ing to bless you, There's dan- ger and death in de- lay. Why not why not Why not come to Him now _ Why not why not Why not come to Him now
+v1: Why do you wait, dear broth- er, O why do you tar- ry so long? Your Sav- ior is wait- ing to give you A place in His sanc- ti- fied throng. Why not? why not? Why not come to Him now? _ Why not? why not? Why not come to Him now?
+v2: What do you hope, dear broth- er, To gain by a fur- ther de- lay? There's no one to save you but Je- sus, There's no oth- er way but His way. Why not? why not? Why not come to Him now? _ Why not? why not? Why not come to Him now?
+v3: Do you not feel, dear broth- er, His Spir- it now striv- ing with- in? O why not ac- cept His sal- va- tion And throw off your bur- den of sin? Why not? why not? Why not come to Him now? _ Why not? why not? Why not come to Him now?
+v4: Why do you wait, dear broth- er, The har- vest is pass- ing a- way; Your Sav- ior is long- ing to bless you, There's dan- ger and death in de- lay. Why not? why not? Why not come to Him now? _ Why not? why not? Why not come to Him now?

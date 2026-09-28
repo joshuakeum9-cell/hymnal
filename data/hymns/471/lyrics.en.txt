@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Heal me now, my Sav- iour, Je- sus! Touch and mend my ail- ing frame. "I will heal all thy dis- eas- es." That prom- ise, Lord, I claim. See me, Lord, ex- pect- ant kneel- ing, Con- fi- dent in faith ap- peal- ing. Now, Thy might- y pow'r re- veal- ing, Lord, Heal! in Je- sus' name! _ _
+v1: Heal me now, my Sav- ior, Je- sus! Touch and mend my ail- ing frame. "I will heal all thy dis- eas- es." That prom- ise, Lord, I claim. See me, Lord, ex- pect- ant kneel- ing, Con- fi- dent in faith ap- peal- ing. Now, Thy might- y power re- veal- ing, Lord, Heal! in Je- sus' name! _ _
 v2: If it be Thy will's ap- point- ing, Lay Thy hand up- on my brow. On my head is Thine a- noint- ing. That head in faith I bow. All I have I give Thee, plead- ing Not my giv- ing but my need- ing. Now, my bro- ken bod- y heed- ing, Lord, touch! and heal it now. _ _
-v3: As my life is Thine for- ev- er, O my Lord, my Heal- er be! All I own, all I en- deav- or, All, all be- longs to Thee. Ho- ly Spir- it, now des- cend- ing, Thy strong hand of pow'r ex- tend- ing. Touch this form be- fore Thee bend- ing. Lord, touch! and set it free. _ _
-v4: I be- lieve re- ceive Thy heal- ing. Now by faith I stand re- stor'd! Lord, for this, the Spir- it's seal- ing, My praise shall be out- pour'd. Far and wide I'll go, con- fess- ing How the Lord, my need ad- dress- ing. Heal'd and seal'd me with His bless- ing! Heal'd now, I thank Thee, Lord! A- men.
+v3: As my life is Thine for- ev- er, O my Lord, my Heal- er be! All I own, all I en- deav- or, All, all be- longs to Thee. Ho- ly Spir- it, now des- cend- ing, Thy strong hand of power ex- tend- ing. Touch this form be- fore Thee bend- ing. Lord, touch! and set it free. _ _
+v4: I be- lieve, re- ceive Thy heal- ing. Now by faith I stand re- stored! Lord, for this, the Spir- it's seal- ing, My praise shall be out- poured. Far and wide I'll go, con- fess- ing How the Lord, my need ad- dress- ing. Healed and sealed me with His bless- ing! Healed now, I thank Thee, Lord! A- men.

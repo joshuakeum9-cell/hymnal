@@ -3,10 +3,11 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 # placement: verses 1, 2, 3, 4 follow the Open Hymnal Project's engraving of this tune
-v1: I know not why- _ God's- _ won- drous grace To me He hath- _ made- _ Known, Nor why, un- won- _ thy, _ Christ in love Re- deemed me for- _ His- _ own. But "I know whom I have be- liev- ed, and am per- suad- ed that He is a- ble To keep that which I've com- mit- ted Un- to Him a- gainst that day."
-v2: I know not how _ this- _ sav- ing faith To me He did- _ im- _ part, Nor how be- lieve- _ ing _ in His Word Wrought peace with- in _ my- _ heart. But "I know whom I have be- liev- ed, and am per- suad- ed that He is a- ble To keep that which I've com- mit- ted Un- to Him a- gainst that day."
-v3: I know not how- _ the- _ Spir- it moves, Con- vic- ing men- _ of- _ sin, Re- veal- ing Je- _ sus _ through the Word, Cre- at- ing faith _ in _ Him. But "I know whom I have be- liev- ed, and am per- suad- ed that He is a- ble To keep that which I've com- mit- ted Un- to Him a- gainst that day."
-v4: I know not what- _ of- _ good or ill May be re- served _ for _ me, Of wea- ry ways- _ or- _ gold- en days, Be- fore His face- _ I- _ see. But "I know whom I have be- liev- ed, and am per- suad- ed that He is a- ble To keep that which I've com- mit- ted Un- to Him a- gainst that day."
+v1: I know not why _ God's _ won- drous grace To me He hath _ made _ Known, Nor why, un- worth- _ y, _ Christ in love Re- deemed me for _ His _ own. But "I know whom I have be- liev- ed, and am per- suad- ed that He is a- ble To keep that which I've com- mit- ted Un- to Him a- gainst that day."
+v2: I know not how _ this _ sav- ing faith To me He did _ im- _ part, Nor how be- liev- _ ing _ in His Word Wrought peace with- in _ my _ heart. But "I know whom I have be- liev- ed, and am per- suad- ed that He is a- ble To keep that which I've com- mit- ted Un- to Him a- gainst that day."
+v3: I know not how _ the _ Spir- it moves, Con- vinc- ing men _ of _ sin, Re- veal- ing Je- _ sus _ through the Word, Cre- at- ing faith _ in _ Him. But "I know whom I have be- liev- ed, and am per- suad- ed that He is a- ble To keep that which I've com- mit- ted Un- to Him a- gainst that day."
+v4: I know not what _ of _ good or ill May be re- served _ for _ me, Of wea- ry ways _ or _ gold- en days, Be- fore His face _ I _ see. But "I know whom I have be- liev- ed, and am per- suad- ed that He is a- ble To keep that which I've com- mit- ted Un- to Him a- gainst that day."

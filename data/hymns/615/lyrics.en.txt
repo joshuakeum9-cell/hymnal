@@ -2,8 +2,9 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: rough, rough)
+# quality: exact (per verse: exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: To God be _ the _ _ glo- _ _ ry great things _ _ He _ _ hath _ _ done! So loved He _ the _ _ world _ _ that He gave _ _ us _ _ His _ _ son, Who _ yield- ed _ His life _ an _ _ ato- ne- _ ment for _ sin and _ o- _ _ pened the Life gate _ that _ _ all _ _ may go _ _ _ _ _ _ _ _ _ _
-v2: O per- fect _ re- _ _ dem- _ _ ption, the pur- _ _ chase _ _ of _ _ blood! To e- ve- _ ry _ _ be- _ _ lie- ver the _ _ pro- _ _ mise _ of God; The _ vi- lest _ of- fen- _ der _ _ who tru- _ ly be- _ lieves, That _ mo- _ _ ment from Je- sus _ a _ _ par- don re- ceives. _ _ _ _ _ _ _ _ _ _ _
+# placement: verses 2 follow the Open Hymnal Project's engraving of this tune
+v1: To God be the glo- ry, great things He hath done! So loved He the world that He gave us His Son, Who yield- ed His life our ato- ne- ment for sin, And o- pened the life gate that all may go in. Praise the Lord, praise the Lord, Let the earth hear His voice! Praise the Lord, praise the Lord, Let the peo- ple re- joice! O come to the Fa- ther through Je- sus the Son, And give Him the glo- ry, great things He hath done!
+v2: Great things He hath taught us, great things He hath done, And great our re- joicing through Je- sus the Son; But pur- er, and high- er, and great- er will be Our won- der, our tran- sport, when Je- sus we see. Praise the Lord, praise the Lord, Let the earth hear His voice! Praise the Lord, praise the Lord, Let the _ peo- ple re- joice! O come to the Fa- ther through Je- sus the Son, And give Him the glo- ry, great things He hath done!

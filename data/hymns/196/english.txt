@@ -1,5 +1,5 @@
 # 196 Breathe on Me, Breath of God: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 Breathe on me, Breath of God,
 Fill me with life anew.
@@ -19,4 +19,5 @@ Glows with Thy fire divine.
 Breathe on me, Breath of God,
 So shall I never die,
 But live with Thee the perfect life
-Of Thine eternity. Amen.
+Of Thine eternity.
+Amen.

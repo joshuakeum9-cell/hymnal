@@ -1,22 +1,23 @@
 # 187 Come, Gracious Spirit, Heavenly Dove: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 Come, gracious Spirit, heavenly Dove,
 With light and comfort from above:
 Be Thou our guardian, Thou our guide!
-O'er every thought and step preside.
+Over every thought and step preside.
 
 The light of truth to us display,
-And make us know and choose Thy way
+And make us know and choose Thy way;
 Plant holy fear in every heart,
-That we from God may ne'er depart.
+That we from God may never depart.
 
 Lead us to holiness the road
-Which we must take to dwell with God
+Which we must take to dwell with God;
 Lead us to Christ, the living way,
 Nor let us from His presence stray.
 
 Lead us to God, our final rest,
-To be with Him forever blest
-Lead us to heav'n, that we may share
-Fullness of joy forever there Amen.
+To be with Him forever blest;
+Lead us to heaven, that we may share,
+Fullness of joy forever there.
+Amen.

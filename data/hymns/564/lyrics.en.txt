@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: When He com- eth, when He com- eth To make up His jew- els, All His jew- els, pre- cious jew- els, His loved and His own. Like the stars of the morn- ing, His _ bright crown a- dron- ing, They shall shine in their beau- ty, Bright gems for His crown.
-v2: He will gath- er, He will gath- er The gems for His king- dom, All the pure ones, all the bright ones, His loved and His own. Like the stars of the morn- ing, His _ bright crown a- dron- ing, They shall shine in their beau- ty, Bright gems for His crown.
-v3: Lit- tle chil- dren, lit- tle chil- dren Who love their Re- deem- er, Are the Jew- els, pre- cious jew- els, His loved and His own. Like the stars of the morn- ing, His _ bright crown a- dron- ing, They shall shine in their beau- ty, Bright gems for His crown.
+v1: When He com- eth, when He com- eth To make up His jew- els, All His jew- els, pre- cious jew- els, His loved and His own. Like the stars of the morn- ing, His _ bright crown a- dorn- ing, They shall shine in their beau- ty, Bright gems for His crown.
+v2: He will gath- er, He will gath- er The gems for His king- dom, All the pure ones, all the bright ones, His loved and His own. Like the stars of the morn- ing, His _ bright crown a- dorn- ing, They shall shine in their beau- ty, Bright gems for His crown.
+v3: Lit- tle chil- dren, lit- tle chil- dren Who love their Re- deem- er, Are the Jew- els, pre- cious jew- els, His loved and His own. Like the stars of the morn- ing, His _ bright crown a- dorn- ing, They shall shine in their beau- ty, Bright gems for His crown.

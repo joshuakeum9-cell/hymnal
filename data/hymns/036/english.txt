@@ -1,21 +1,21 @@
 # 36 All Hail the Pow'r of Jesus' Name!: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
-All hail the pow'r of Jesus' name!
+All hail the power of Jesus' name!
 Let angels prostrate fall.
 Bring forth the royal diadem,
 And crown Him Lord of all!
 Bring forth the royal diadem,
 And crown Him Lord of all!
 
-Sinners whose love can ne'er forget
+Sinners whose love can never forget
 The wormwood and the gall,
 Come, lay your trophies at His feet,
 And crown Him Lord of all!
 Come, lay your trophies at His feet,
 And crown Him Lord of all!
 
-Let ev'ry kindred, ev'ry tribe,
+Let every kindred, every tribe,
 On this terrestrial ball,
 To Him all majesty ascribe,
 And crown Him Lord of all!
@@ -27,4 +27,5 @@ We at His feet may fall!
 We'll join the everlasting song,
 And crown Him Lord of all!
 We'll join the everlasting song,
-And crown Him Lord of all! Amen
+And crown Him Lord of all!
+Amen.

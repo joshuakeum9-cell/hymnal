@@ -2,11 +2,11 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: exact, exact, exact, exact, rough)
+# quality: exact (per verse: exact, exact, exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 v1: When we walk with the Lord In the light of His Word, What a glo- ry He sheds on our way! While we do His good will He a- bides with us still, And with all who will trust and o- bey. Trust and o- bey, for there's no oth- er way To be hap- py in Je- sus, But to trust and o- bey.
-v2: Not a shad- ow can rise, Not a cloud in the skies, But His smile quick- ly drives it a- way Not a doubt nor a fear, Not a sigh nor a tear, Can a- bide while we trust and o- bey. Trust and o- bey, for there's no oth- er way To be hap- py in Je- sus, But to trust and o- bey.
-v3: Not a bur- den we bear, Not a sor- row we share, But our toil He doth rich- ly re- pay Not a grief nor a loss, Not a frown nor a cross, But is blest if we trust and o- bey. Trust and o- bey, for there's no oth- er way To be hap- py in Je- sus, But to trust and o- bey.
-v4: But we nev- er can prove The de- lights of His love, Un- til all on the al- tar we lay For the fa- vour He shows And the joy He be- stows Are for them who will trust and o- bey. Trust and o- bey, for there's no oth- er way To be hap- py in Je- sus, But to trust and o- bey.
-v5: Then in fel- low- ship sweet We will sit at His feet, What _ He _ _ says we will do, Where _ He _ sends we will _ go Nev- er fear, on- _ ly _ _ trust and o- bey. Trust and o- bey, for there's no oth- er way To be hap- py in Je- sus, But to trust and o- bey.
+v2: Not a shad- ow can rise, Not a cloud in the skies, But His smile quick- ly drives it a- way; Not a doubt nor a fear, Not a sigh nor a tear, Can a- bide while we trust and o- bey. Trust and o- bey, for there's no oth- er way To be hap- py in Je- sus, But to trust and o- bey.
+v3: Not a bur- den we bear, Not a sor- row we share, But our toil He doth rich- ly re- pay; Not a grief nor a loss, Not a frown nor a cross, But is blest if we trust and o- bey. Trust and o- bey, for there's no oth- er way To be hap- py in Je- sus, But to trust and o- bey.
+v4: But we nev- er can prove The de- lights of His love, Un- til all on the al- tar we lay; For the fa- vour He shows And the joy He be- stows Are for them who will trust and o- bey. Trust and o- bey, for there's no oth- er way To be hap- py in Je- sus, But to trust and o- bey.
+v5: Then in fel- low- ship sweet We will sit at His feet, Or we'll walk by His side in the way; What He says we will do, Where He sends we will go Nev- er fear, on- ly trust and o- bey. Trust and o- bey, for there's no oth- er way To be hap- py in Je- sus, But to trust and o- bey.

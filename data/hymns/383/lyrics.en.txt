@@ -3,7 +3,8 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: auto, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: To the hills I lift mine eyes. Oh, Whence shall mine as- sis- tance come God, who made the earth and hea- ven, Is my help, my help a- lone. He will _ keep your foot from slip- _ ping, Will not _ sleep, but guard your way Keep His peo- ple safe for- ev- er. Watch- _ ingal- ways, night and day. _ _
-v2: God our Help will be your shade, And While you rest be- neath His arm Sun by day or moon by night shall Have no pow'r to do you harm. Nei- ther _ will Je- ho- vah harm _ you, But will _ keep your soul se- cure. He will lead your go- ing out and Com- ing in, for- ev- er- more. A- men.
+v1: To the hills I lift mine eyes. Oh, Whence shall mine as- sis- tance come? God, who made the earth and hea- ven, Is my help, my help a- lone. He will _ keep your foot from slip- _ ping, Will not _ sleep, but guard your way; Keep His peo- ple safe for- ev- er. Watching _ al- ways, night and day. _ _
+v2: God our Help will be your shade, And While you rest be- neath His arm, Sun by day or moon by night shall Have no power to do you harm. Nei- ther _ will Je- ho- vah harm _ you, But will _ keep your soul se- cure. He will lead your go- ing out and Com- ing in, for- ev- er- more. A- men.

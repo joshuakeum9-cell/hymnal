@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: exact, exact, exact, auto)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Je- sus, where- e'er Thy _ peo- ple _ meet, There they be- hold Thy mer- cy- seat Where- e'er they seek _ Thee _ Thou _ art _ found, And ev- ery place in hal- lowed ground. _ _
-v2: For Thou, with- in no _ walls con- _ fined, Dost dwell with those of hum- ble mind Such ev- er bring _ Thee _ where _ they _ come, And, go- ing, take Thee to their home. _ _
-v3: Great Shep- herd of Thy _ cho- sen _ few, Thy for- mer mer- cies here re- new Here, to our wait- _ ing _ hearts, _ pro- _ claim The sweet- ness of Thy sav- ing Name. _ _
-v4: Here may we prove the _ pow- er _ of prayer To strength- en faith and sweet- en care To teach our _ faint _ de- _ sires to rise, And bring all heav'n be- fore our eyes. A- men.
+v1: Je- sus, where- ver Thy _ peo- ple _ meet, There they be- hold Thy mer- cy- seat; Where- ver they seek _ Thee _ Thou _ art _ found, And ev- ery place in hal- lowed ground. _ _
+v2: For Thou, with- in no _ walls con- _ fined, Dost dwell with those of hum- ble mind; Such ev- er bring _ Thee _ where _ they _ come, And, go- ing, take Thee to their home. _ _
+v3: Great Shep- herd of Thy _ cho- sen _ few, Thy for- mer mer- cies here re- new; Here, to our wait- _ ing _ hearts, _ pro- _ claim The sweet- ness of Thy sav- ing Name. _ _
+v4: Here may we prove the _ pow- er _ of prayer To strength- en faith and sweet- en care; To teach our _ faint _ de- _ sires to rise, And bring all heaven be- fore our eyes. A- men.

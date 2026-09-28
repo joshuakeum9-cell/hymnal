@@ -2,6 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: none)
+# quality: auto (per verse: auto, exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Lord, _ our _ Lord, Thy glo- rious name All _ Thy won- _ drous works pro- claim; In the _ hea- vens with ra- diant signs E- ver- more Thy glo- ry _ shines.
+v2: In- _ fant _ lips Thou dost or- dain Wrath _ and veng- _ eance to res- train; Wea- kest _ means ful- fill Thy will, Might- y e- ne- mies to still. _ _
+v3: Moon _ and _ stars in shin- ing height Night- _ ly tell _ their Mak- er's might; Hu- man _ strength can- not com- pare With the glo- ry pre- sent there. _ _
+v4: What _ are _ we that we should be Loved _ and vi- _ si- ted by Thee. Raised to _ an ex- alt- ed height, Crowned with hon- or in Thy sight? A- men.

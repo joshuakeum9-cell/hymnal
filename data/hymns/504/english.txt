@@ -1,5 +1,5 @@
 # 504 Heralds of Christ, Who Bear the King's Commands: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 Heralds of Christ, who bear the King's commands
 Immortal tidings in your mortal hands,
@@ -8,10 +8,11 @@ Make, straight, make straight the highway of the King.
 
 Through desert ways, dark fen, and deep morass,
 Through jungles, sluggish seas, and mountain pass,
-Build ye the road, and falter not, nor stay
+Build ye the road, and falter not, nor stay;
 Prepare across the earth the King's highway.
 
 Lord, give us faith and strength the road to build,
 To see the promise of the day fulfilled,
 When war shall be no more and strife shall cease
-Upon the highway of the Prince of peace. Amen.
+Upon the highway of the Prince of peace.
+Amen.

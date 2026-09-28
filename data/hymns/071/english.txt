@@ -1,5 +1,5 @@
 # 71 O God, Our Help in Ages Past: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 O God, our help in ages past,
 Our hope for years to come,
@@ -8,20 +8,21 @@ And our eternal home!
 
 Before the hills in order stood,
 Or earth received her frame,
-From evevlasting Thou art God,
+From everlasting Thou art God,
 To endless years the same.
 
 A thousand ages in Thy sight
-Are like an evening gone
+Are like an evening gone;
 Short as the watch that ends the night,
 Before the rising sun.
 
 Time, like and everrolling stream,
-Bears all its sons away
+Bears all its sons away;
 They fly, forgotten, as a dream
 Dies at the op'ning day.
 
 O God, our help in ages past,
 Our hope for years to come,
 Be Thou our guide while life shall last,
-And our eternal home! Amen.
+And our eternal home!
+Amen.

@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 v1: We are bound _ for _ Ca- naan land, So pre- pare your heart, If we wish _ there- _ in to stand Let us play our part. For- ward then, like Jo- shu- a, With sal- va- tion shod! Un- der- stand, our Prom- ised Land Is the heart of God.
-v2: In temp- ta- _ tion, _ grief or care, How- so- e'er dis- tressed, Be not anx- _ ious, _ nor des- pair Let us do our best. For- ward then, like Jo- shu- a, With sal- va- tion shod! Un- der- stand, our Prom- ised Land Is the heart of God.
+v2: In temp- ta- _ tion, _ grief or care, How- soe- ver dis- tressed, Be not anx- _ ious, _ nor de- spair; Let us do our best. For- ward then, like Jo- shu- a, With sal- va- tion shod! Un- der- stand, our Prom- ised Land Is the heart of God.
 v3: Push- ing on _ where _ Christ has gone, Fixed up- on Him still, Joined in hope _ and _ heart to one, Let us do His will. For- ward then, like Jo- shu- a, With sal- va- tion shod! Un- der- stand, our Prom- ised Land Is the heart of God.
-v4: Lands un- con- _ quered! _ Work un- done! Dare His peo- ple shirk Fight- ing ev- _ er _ brave- ly on, Let us do His work. For- ward then, like Jo- shu- a, With sal- va- tion shod! Un- der- stand, our Prom- ised Land Is the heart of God.
+v4: Lands un- con- _ quered! _ Work un- done! Dare His peo- ple shirk? Fight- ing ev- _ er _ brave- ly on, Let us do His work. For- ward then, like Jo- shu- a, With sal- va- tion shod! Un- der- stand, our Prom- ised Land Is the heart of God.

@@ -1,9 +1,9 @@
 # 25 Crown Him with Many Crowns: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 Crown Him with many crowns,
 The Lamb upon His throne
-Hark! How the heav'nly anthem drowns
+Hark! How the heavenly anthem drowns
 All music but its own:
 Awake, my soul, and sing
 Of Him who died for thee,
@@ -20,10 +20,11 @@ But downward bends His burning eye
 At mysteries so bright.
 
 Crown Him the Lord of peace
-Whose pow'r a scepter sways
+Whose power a scepter sways
 From pole to pole, that wars may cease,
 Absorbed in prayer and praise:
 His reign shall know no end
 And round His pieced feet
 Fair flowers of Paradise extend
-Their fragrance ever sweet, Amen.
+Their fragrance ever sweet.
+Amen.

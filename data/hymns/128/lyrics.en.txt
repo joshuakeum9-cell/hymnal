@@ -2,6 +2,8 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: none)
+# quality: auto (per verse: auto, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: In- fant ho- ly, in- fant low- ly, For His bed a cat- tle stall; O- xen low- ing, lit- tle know- ing Christ the babe is Lord of all. Swift are wing- ing an- gels sing- ing, Noels _ ring- ing, ti- dings bring- ing: Christ the babe is Lord of all.
+v2: Flocks were sleep- ing; shep- herds keep- ing Vig- il till the morn- ing new. Saw the glo- ry, heard the sto- ry, Ti- dings of the gos- pel true. Thus re- joic- ing, free from sor- row, Prais- es voic- ing greet the mor- row: Christ the babe was born for you.

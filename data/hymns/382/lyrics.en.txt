@@ -5,7 +5,7 @@
 # quality: auto (per verse: auto, auto, auto, auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Be not dis- mayed _ what- e'er be- tide, God will take care of you _ Be- neath His wings _ of love a- bide, God will take care of you. God will take care of you, Through ev- -'ry day, O'er all the way He will take care _ of you, God will take care _ of you (of you)
-v2: Through days of toil _ when heart doth fail, God will take care of you _ When dan- gers fierce _ your path as- sail, God will take care of you. God will take care of you, Through ev- -'ry day, O'er all the way He will take care _ of you, God will take care _ of you (of you)
-v3: All you may need _ He will pro- vide, God will take care of you _ Trust Him and you will be sat- is- fied, God will take care of you. God will take care of you, Through ev- -'ry day, O'er all the way He will take care _ of you, God will take care _ of you (of you)
-v4: No mat- ter what _ may be the test, God will take care of you _ Lean, wea- ry one, _ up- on His breast, God will take care of you. God will take care of you, Through ev- -'ry day, O'er all the way He will take care of you, God will take care of you (of you) A- men.
+v1: Be not dis- mayed what- ev- er be- tide, God will take care of you; _ Be- neath His wings _ of love a- bide, God will take care of you. God will take care of you, Through ev- ery day, O- ver all the way; He will take care of you, God will take care _ of you. _ _
+v2: Thro' days of toil _ when heart doth fail, God will take care of you; _ When dan- gers fierce _ your path as- sail, God will take care of you. God will take care of you, Through ev- ery day, O- ver all the way; He will take care of you, God will take care _ of you. _ _
+v3: All you may need _ He will pro- vide, God will take care of you; _ Trust Him and you will be sat- is- fied, God will take care of you. God will take care of you, Through ev- ery day, O- ver all the way; He will take care of you, God will take care _ of you. _ _
+v4: No mat- ter what _ may be the test, God will take care of you; _ Lean, wea- ry one, _ up- on His breast, God will take care of you. God will take care of you, Through ev- ery day, O- ver all the way; He will take care of you, God will take care _ of you. A- men.

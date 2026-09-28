@@ -6,9 +6,9 @@
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 # placement: verses 1, 2, 3, 4, 5, 6 follow the Open Hymnal Project's engraving of this tune
-v1: For the _ beau- ty of the earth, For the beau- ty of the skies, For the _ love which from our birth O- ver and a- round us lies, Lord of all, to Thee we raise This our hymn of grate- ful praise. _ _
-v2: For the _ beau- ty of each hour Of the day and of the night, Hill and _ vale, and tree and flower, Sun and moon, and stars of light, Lord of all, to Thee we raise This our hymn of grate- ful praise. _ _
-v3: For the _ joy of ear and eye For the heart and mind's de- light For the _ mys- tic har- mo- ny, Link- ing sense to sound and sight, Lord of all, to Thee we raise This our hymn of grate- ful praise. _ _
-v4: For the _ joy of hu- man love, Brother, sis- ter, par- ent, child, Friends on earth, _ and friends a- bove For all gen- tle tho' ts and mild, Lord of all, to Thee we raise This our hymn of grate- ful praise. _ _
-v5: For Thy _ church that ev- er- more Lift- eth ho- ly hands a- bove, Of- f'ring _ up on ev'- ry shore Its pure sac- ri- fice of love, Lord of all, to Thee we raise This our hymn of grate- ful praise. _ _
-v6: For Thy- _ self, blest Gift Di- vine! To our race so free- ly giv'n For that _ great, great love of Thine, Peace on earth, and joy in heav'n. Lord of all, to Thee we raise This our hymn of grate- ful praise. _ _
+v1: For the _ beau- ty of the earth, For the beau- ty of the skies, For the _ love which from our birth O- ver and a- round us lies, Lord of all, to Thee we raise, This our hymn of grate- ful praise. _ _
+v2: For the _ beau- ty of each hour Of the day and of the night, Hill and _ vale, and tree and flower, Sun and moon, and stars of light, Lord of all, to Thee we raise, This our hymn of grate- ful praise. _ _
+v3: For the _ joy of ear and eye; For the heart and mind's de- light; For the _ mys- tic har- mo- ny, Link- ing sense to sound and sight, Lord of all, to Thee we raise, This our hymn of grate- ful praise. _ _
+v4: For the _ joy of hu- man love, Broth- er, sis- ter, par- ent, child, Friends on _ earth, and friends a- bove; For all gen- tle thoughts and mild, Lord of all, to Thee we raise, This our hymn of grate- ful praise. _ _
+v5: For Thy _ church that ev- er- more Lift- eth ho- ly hands a- bove, Of- f'ring _ up on ev- ery shore Its pure sac- ri- fice of love, Lord of all, to Thee we raise, This our hymn of grate- ful praise. _ _
+v6: For Thy- _ self, blest Gift Di- vine! To our race so free- ly given; For that _ great, great love of Thine, Peace on earth, and joy in heaven, Lord of all, to Thee we raise, This our hymn of grate- ful praise. A- men.

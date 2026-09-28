@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Oh, to be like Thee! bless- ed Re- deem- er, This is my con- stant long- ing and prayer. Glad- ly I'll for- feit all of earth's treas- ures, Seek- ing Thy per- fect like- ness to wear. Oh, to be like Thee! Oh, to be like Thee, Bless- ed Re- deem- er, pure as Thou art! Come in Thy sweet- ness, come in Thy full- ness Stamp Thine own im- age deep on my heart.
-v2: Oh, to be like Thee! full of com- pas- sion, Lov- ing, for- giv- ing, ten- der and kind, Help- ing the help- less, cheer- ing the faint- ing, Seek- ing the wan- d'ring sin- ner to find! Oh, to be like Thee! Oh, to be like Thee, Bless- ed Re- deem- er, pure as Thou art! Come in Thy sweet- ness, come in Thy full- ness Stamp Thine own im- age deep on my heart.
-v3: Oh, to be like Thee! low- ly in spir- it, Ho- ly and harm- less, pa- tient and brave. Meek- ly en- dur- ing cru- el re- proach- es, Will- ing to suf- fer oth- ers to save. Oh, to be like Thee! Oh, to be like Thee, Bless- ed Re- deem- er, pure as Thou art! Come in Thy sweet- ness, come in Thy full- ness Stamp Thine own im- age deep on my heart.
+v1: Oh, to be like Thee! bless- ed Re- deem- er, This is my con- stant long- ing and prayer. Glad- ly I'll for- feit all of earth's treas- ures, Seek- ing Thy per- fect like- ness to wear. Oh, to be like Thee! Oh, to be like Thee, Bless- ed Re- deem- er, pure as Thou art! Come in Thy sweet- ness, come in Thy full- ness; Stamp Thine own im- age deep on my heart.
+v2: Oh, to be like Thee! full of com- pas- sion, Lov- ing, for- giv- ing, ten- der and kind, Help- ing the help- less, cheer- ing the faint- ing, Seek- ing the wan- dering sin- ner to find! Oh, to be like Thee! Oh, to be like Thee, Bless- ed Re- deem- er, pure as Thou art! Come in Thy sweet- ness, come in Thy full- ness; Stamp Thine own im- age deep on my heart.
+v3: Oh, to be like Thee! low- ly in spir- it, Ho- ly and harm- less, pa- tient and brave. Meek- ly en- dur- ing cru- el re- proach- es, Will- ing to suf- fer oth- ers to save. Oh, to be like Thee! Oh, to be like Thee, Bless- ed Re- deem- er, pure as Thou art! Come in Thy sweet- ness, come in Thy full- ness; Stamp Thine own im- age deep on my heart.

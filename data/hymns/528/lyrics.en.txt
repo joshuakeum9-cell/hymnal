@@ -2,10 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: auto, auto, auto, auto)
+# quality: exact (per verse: exact, exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Soft- ly and ten- der- ly Je- sus is call- ing Call- ing for you and for me See, on the por- tals He's wait- ing and watch- ing, Watch- ing for you and for me. Come home, come home, Ye _ who are wear- y, come ho- me(- Come home) Ear- nest- ly, ten- der- ly, Je- sus is call- ing, Call- ing, O sin- ner, come home!
-v2: Why should we tar- ry when Je- sus is plead- ing, Plead- ing for you and for me Why should we lin- ger and heed not His mer- cies, Mer- cies for you and for me Come home, come home, Ye who are wear- y, come ho- me(- Come _ home) Ear- nest- ly, ten- der- ly, Je- sus is call- ing, Call- ing, O sin- ner, come home!
-v3: Time is now fleet- ing, the mo- ments are pass- ing Pass- ing from you and from me Shad- ous are gath- er- ing, death- beds are com- ing, Com- ing for you and for me. Come home, come home, Ye _ who are wear- y, come ho- me(- Come home) Ear- nest- ly, ten- der- ly, Je- sus is call- ing, Call- ing, O sin- ner, come home!
-v4: O for the won- der- ful love He has prom- ised, Prom- ised for you and for me! Though we have sinned, He has mer- cy and par- don, Par- don for you and for me. Come home, come home, Ye _ who are wear- y, come ho- me(- Come home) Ear- nest- ly, ten- der- ly, Je- sus is call- ing, Call- ing, O sin- ner, come home!
+v1: Soft- ly and ten- der- ly Je- sus is call- ing Call- ing for you and for me; See, on the por- tals He's wait- ing and watch- ing, Watch- ing for you and for me. Come home, come home, _ _ Ye who are wea- ry, come home. _ _ Ear- nest- ly, ten- der- ly, Je- sus is call- ing, Call- ing, O sin- ner, come home!
+v2: Why should we tar- ry when Je- sus is plead- ing, Plead- ing for you and for me? Why should we lin- ger and heed not His mer- cies, Mer- cies for you and for me? Come home, come home, _ _ Ye who are wea- ry, come home. _ _ Ear- nest- ly, ten- der- ly, Je- sus is call- ing, Call- ing, O sin- ner, come home!
+v3: Time is now fleet- ing, the mo- ments are pass- ing Pass- ing from you and from me; Shad- ows are gath- er- ing, death- beds are com- ing, Com- ing for you and for me. Come home, come home, _ _ Ye who are wea- ry, come home. _ _ Ear- nest- ly, ten- der- ly, Je- sus is call- ing, Call- ing, O sin- ner, come home!
+v4: O for the won- der- ful love He has prom- ised, Prom- ised for you and for me! Though we have sinned, He has mer- cy and par- don, Par- don for you and for me. Come home, come home, _ _ Ye who are wea- ry, come home. _ _ Ear- nest- ly, ten- der- ly, Je- sus is call- ing, Call- ing, O sin- ner, come home!

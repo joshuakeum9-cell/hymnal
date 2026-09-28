@@ -1,10 +1,10 @@
 # 211 Master, No Offering Costly and Sweet: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 Master, no offering
 Costly and sweet,
 May we, like Magdalene,
-Lay at Thy feet
+Lay at Thy feet;
 Yet may love's incense rise,
 Sweeter than sacrifice,
 Dear Lord, to Thee,
@@ -13,7 +13,7 @@ Dear Lord, to Thee.
 Daily our lives would show
 Weakness made strong,
 Toilsome and gloomy ways
-Brightened with song
+Brightened with song;
 Some deeds of kindness done,
 Some souls by patience won,
 Dear Lord, to Thee,
@@ -22,7 +22,7 @@ Dear Lord, to Thee.
 Some word of hope for hearts
 Burdened with fears,
 Some balm of peace for eyes
-Blinded with tears
+Blinded with tears;
 Some dews of mercy shed,
 Some wayward footstep sled,
 Dear Lord, to Thee,
@@ -31,8 +31,9 @@ Dear Lord, to Thee.
 Thus, in Thy service,
 Lord Till eventide
 Closes the day of life,
-May we abide
-And when earth's labours cease,
+May we abide;
+And when earth's labors cease,
 Bid us depart in peace,
 Dear Lord, to Thee,
-Dear Lord, to Thee. Amen.
+Dear Lord, to Thee.
+Amen.

@@ -73,11 +73,20 @@ def words_of(tokens: list[str]):
     return out
 
 
+def cmu_known(word: str) -> bool:
+    import pronouncing
+    return bool(pronouncing.phones_for_word(word.replace("'", "")))
+
+
 def respell(tokens, idxs, new_word) -> bool:
     """Put new_word on the notes of an old word. True when it fits the same number of syllables."""
     n = len(idxs)
     if n == 1:
-        tokens[idxs[0]] = new_word
+        # the book prints hymnal hyphens ("ev-er"); on one note the word is written whole,
+        # but a real compound keeps its hyphen ("blood-washed")
+        joined = re.sub(r"(?<=[A-Za-z])-(?=[A-Za-z])", "", new_word)
+        core = re.sub(r"[^a-z']", "", joined.lower())
+        tokens[idxs[0]] = joined if "-" in new_word and cmu_known(core) else new_word
         return True
     parts = english_syllables(new_word)
     if len(parts) != n:
@@ -97,7 +106,7 @@ def apply_verse(tokens: list[str], book: list[str], allow_tail: bool, amen_notes
 
     amen_notes: token positions of the Korean 아멘 at the end of this verse, if any."""
     tokens = list(tokens)
-    if amen_notes and [norm(w) for w in book[-1:]] == ["amen"] and all(tokens[i] in ("_", ".") for i in amen_notes):
+    if amen_notes and [norm(w) for w in book[-1:]] == ["amen"] and all(i < len(tokens) and tokens[i] in ("_", ".") for i in amen_notes):
         # the book ends the verse with Amen and our placement left the 아멘 notes empty
         tokens[amen_notes[0]], tokens[amen_notes[1]] = "A-", book[-1][1:] if book[-1][:1] in "Aa" else "men."
     ours = words_of(tokens)
@@ -146,6 +155,9 @@ def process(n: int) -> dict:
     head = "\n".join(lines[:12])
     if "status: reviewed" in head:
         return {"n": n, "status": "kept reviewed file"}
+    if os.path.exists(os.path.join(ROOT, f"data/english_overrides/{n:03d}.txt")):
+        # the override already holds the wording to use (researched, or the book's text with typos fixed)
+        return {"n": n, "status": "has override"}
     verses = sorted((k for k in body if k.startswith("v")), key=lambda k: int(k[1:]))
     has_r = "r" in body
     slots = melody_slots(etree.parse(os.path.join(ROOT, f"data/hymns/{n:03d}/score.musicxml")).getroot())

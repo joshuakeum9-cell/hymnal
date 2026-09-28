@@ -1,10 +1,10 @@
 # 535 O Jesus, Thou Art Standing: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 O Jesus, Thou art standing
 Outside the fastclosed door,
 In lowly patience waiting
-To pass the threshold o'er:
+To pass the threshold over:
 Shame on us, Christian brothers,
 His Name and sign who bear,
 O shame, thrice shame upon us,
@@ -12,8 +12,8 @@ To keep Him standing there!
 
 O Jesus, Thou art knocking
 And lo! that hand is scarred,
-And throns Thy brow encircle,
-And tears Thy face have marred
+And thorns Thy brow encircle,
+And tears Thy face have marred:
 O love that passeth knowledge,
 So patiently to wait!
 O sin that hath no equal,
@@ -22,8 +22,9 @@ So fast to bar the gate!
 O Jesus, Thou art pleading
 In accents meek and low,
 "I died for you, My children,
-And will ye treat Me so
+And will ye treat Me so?"
 O Lord, with shame and sorrow
-We open now the door
-Dear Saviour, enter, enter,
-And leave us nevermore! Amen.
+We open now the door;
+Dear Savior, enter, enter,
+And leave us nevermore!
+Amen.

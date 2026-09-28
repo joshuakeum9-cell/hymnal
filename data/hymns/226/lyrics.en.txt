@@ -2,6 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: none)
+# quality: exact (per verse: exact, exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Child of bless- ing, child of prom- ise, Bap- tized with the Spir- it's sign; With this wa- ter God has sealed you Un- to love and grace di- vine.
+v2: Child of love, our love's ex- pres- sion, Love's cre- a- tion, loved in- deed! Fresh from God, re- fresh our spir- its, In- to joy and laught- er lead.
+v3: Child of joy, our dear- est treas- ure, God's you are, from God you came. Back to God we hum- bly give you; Live as one who bears Christ's name.
+v4: Child of God, your lov- ing Par- ent, Learn to know whose child you are. Grow to laugh and sing and wor- ship, Trust and love God more than all.

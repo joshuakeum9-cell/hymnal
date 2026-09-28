@@ -1,8 +1,8 @@
 # 242 We Shall See The Desert As The Rose: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 We shall see the desert as the rose,
-Walking in the King's highway
+Walking in the King's highway;
 There'll be singing where salvation goes,
 Walking in the King's highway.
 There's a highway there and away,
@@ -11,7 +11,7 @@ And the light shines bright as the day,
 Walking in the King's highway.
 
 We shall see the glory of the Lord,
-Walking in the King's highway
+Walking in the King's highway;
 And behold the beauty of His Word,
 Walking in the King's highway.
 There's a highway there and away,
@@ -20,7 +20,7 @@ And the light shines bright as the day,
 Walking in the King's highway.
 
 There the rain shall come upon the ground,
-Walking in the King's highway
+Walking in the King's highway;
 And the springs of water will be found,
 Walking in the King's highway.
 There's a highway there and away,
@@ -29,7 +29,7 @@ And the light shines bright as the day,
 Walking in the King's highway.
 
 There no rav'nous beast shall make afraid,
-Walking in the King's highway
+Walking in the King's highway;
 For the purified the way was made,
 Walking in the King's highway.
 There's a highway there and away,
@@ -37,9 +37,9 @@ Where sorrow shall flee away,
 And the light shines bright as the day,
 Walking in the King's highway.
 
-No unclean thing shall pass o'er here,
-Walking in the King's highway
-But the ransome dones without a fear,
+No unclean thing shall pass over here,
+Walking in the King's highway;
+But the ransomed ones without a fear,
 Walking in the King's highway.
 There's a highway there and away,
 Where sorrow shall flee away,

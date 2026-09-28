@@ -1,30 +1,30 @@
 # 439 Jesus, Keep Me Near the Cross: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
-Jesus, keep me near the cross
+Jesus, keep me near the cross;
 There a precious fountain,
 Free to all a healing stream
 Flows from Calvary's mountain.
-In the cross, in the cross,
-Be my glory ever
+In the cross, in the cross
+Be my glory ever;
 Till my raptured soul shall find
 Rest beyond the river.
 
 Near the cross, a trembling soul,
-Love and mercy found me
+Love and mercy found me;
 There the Bright and Morning Star
 Shed its beams around me.
-In the cross, in the cross,
-Be my glory ever
+In the cross, in the cross
+Be my glory ever;
 Till my raptured soul shall find
 Rest beyond the river.
 
 Near the cross! O Lamb of God,
-Bring its scenes before me
+Bring its scenes before me;
 Help me walk from day to day
-With its shadow o'er me.
-In the cross, in the cross,
-Be my glory ever
+With its shadow over me.
+In the cross, in the cross
+Be my glory ever;
 Till my raptured soul shall find
 Rest beyond the river.
 
@@ -32,7 +32,8 @@ Near the cross I'll watch and wait,
 Hoping, trusting ever,
 Till I reach the golden strand
 Just beyond the river.
-In the cross, in the cross,
-Be my glory ever
+In the cross, in the cross
+Be my glory ever;
 Till my raptured soul shall find
-Rest beyond the river. Amen.
+Rest beyond the river.
+Amen.

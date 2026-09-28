@@ -3,11 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: auto, exact, exact, exact)
-# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 # placement: verses 2, 3, 4 follow the Open Hymnal Project's engraving of this tune
-v1: Christ, the Lord, is ris- en to- _ day. _ _ _ _ Al- _ le- lu- ia! Sons of men and an- gels say: _ Al- _ _ _ _ le- _ lu- _ ia! Raise your joys and tri- umphs high. Al- _ _ _ _ le- _ lu- _ ia! Sing, _ ye _ heav- ens, and earth re- _ ply. _ _ _ _ _ Al- _ le- _ lu- _ ia!
-v2: Love's re- deem- ing work is done, _ Al- _ _ _ _ le- _ lu- _ ia! Dy- ing once, He all doth save. _ Al- _ _ _ _ le- _ lu- _ ia! Where thy vic- to- ry, O grave? Al- _ _ _ _ le- _ lu- _ ia! Christ _ has _ o- pened par- a- dise. _ Al- _ _ _ _ _ le- _ lu- _ ia! _ _
-v3: Love's re- deem- ing work is done. _ Al- _ _ _ _ le- _ lu- _ ia! Where, O Death is now thy sting? _ Al- _ _ _ _ le- _ lu- _ ia! Christ has o- pened par- a- dise. Al- _ _ _ _ le- _ lu- _ ia! Where _ thy _ vic- to- ry, O grave? _ Al- _ _ _ _ _ le- _ lu- _ ia! _ _
-v4: Soar we now where Christ has led. _ Al- _ _ _ _ le- _ lu- _ ia! Fol- lowing our ex- alt- ed Head. _ Al- _ _ _ _ le- _ lu- _ ia! Made like Him, like Him we rise. Al- _ _ _ _ le- _ lu- _ ia! Ours _ the _ cross, the grave, the skies. _ Al- _ _ _ _ _ le- _ lu- _ ia! A- men.
+v1: Christ, the Lord, is ris- en to- _ day, _ _ _ _ Al- _ le- lu- ia! Sons of men and an- gels say: _ Al- _ _ _ _ le- _ lu- _ ia! Raise your joys and tri- umphs high, Al- _ _ _ _ le- _ lu- _ ia! Sing, _ ye _ heav- ens, and earth, re- _ ply: _ _ _ _ _ Al- _ le- _ lu- _ ia!
+v2: Love's re- deem- ing work is done, _ Al- _ _ _ _ le- _ lu- _ ia! Fought the fight, the bat- tle won, _ Al- _ _ _ _ le- _ lu- _ ia! Death in vain for- bids Him rise, Al- _ _ _ _ le- _ lu- _ ia! Christ _ has _ o- pened par- a- dise. _ Al- _ _ _ _ _ le- _ lu- _ ia! _ _
+v3: Lives a- gain our glo- rious King, _ Al- _ _ _ _ le- _ lu- _ ia! Where, O death, is now thy sting? _ Al- _ _ _ _ le- _ lu- _ ia! Dy- ing once, He all doth save, Al- _ _ _ _ le- _ lu- _ ia! Where _ thy _ vic- to- ry, O grave? _ Al- _ _ _ _ _ le- _ lu- _ ia! _ _
+v4: Soar we now where Christ has led, _ Al- _ _ _ _ le- _ lu- _ ia! Fol- lowing our ex- alt- ed Head, _ Al- _ _ _ _ le- _ lu- _ ia! Made like Him, like Him we rise, Al- _ _ _ _ le- _ lu- _ ia! Ours _ the _ cross, the grave, the skies. _ Al- _ _ _ _ _ le- _ lu- _ ia! A- men.

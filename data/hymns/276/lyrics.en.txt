@@ -2,9 +2,9 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: rough, rough, rough)
+# quality: exact (per verse: exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Take me, oh, my Fa- ther, _ take me Take me, save me, through Thy Son That which Thou wouldst have me, make me Let Thy will in me be done. Long from Thee my foot- steps stray- ing, Thorn- y prov'd the way I trod. Wea- ry come I now, and pray- ing. T They bound _ me with the bands of love, They saved the wan- d'ring one.
-v2: Je- _ sus my Shep- _ _ herd is, 'Twas He that loved my _ _ soul, 'Twas He that washed me _ _ in His blood, 'Twas He that mede _ _ me whole 'Twas He that sought _ _ the lost, That found the wan- d'ring _ _ sheep, 'Twas He that brought me to _ the fold, 'Tis He that still doth _ _ keep. _ _
-v3: Je- _ sus my Shep- _ _ herd is, 'Twas He that loved my _ _ soul, 'Twas He that washed me _ _ in His blood, 'Twas He that mede _ _ me whole 'Twas He that sought _ _ the lost, That found the wan- d'ring _ _ sheep, 'Twas _ He that brought _ _ me to the fold, 'Tis He that _ _ still doth keep.
+v1: Take me, oh, my Fa- ther, _ take me Take me, save me, through Thy _ Son; That which Thou wouldst have me, _ make me; Let Thy will in me be _ done. Long from Thee my foot- steps _ stray- ing, Thorn- y proved the way I _ trod. Wea- ry come I now, and _ pray- ing. Take me to Thy love, my _ God. _ _
+v2: Fruit- less years with grief re- _ call- ing, Hum- bly I con- fess my _ sin; At Thy feet, O Fa- ther, _ fall- ing. To Thy house- hold take me _ in. Free- ly now to Thee I _ prof- fer This re- pent- ing heart of _ mine. Free- ly, life and soul I _ of- fer; Gifts un- worth- y love like _ Thine. _ _
+v3: Once the world's Re- deem- er, _ dy- ing, Bore our sins up- on the _ tree. On that sac- ri- fice re- _ ly- ing, Now I look in hope to _ Thee. Fa- ther, take me! all for- _ giv- ing, Fold me to Thy lov- ing _ breast. In Thy love for- ev- er _ liv- ing, I must be for- ev- er _ blest. A- men.

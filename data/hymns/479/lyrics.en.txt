@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: auto, auto, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: I'm but a stran- ger here, Heaven is my home Earth is a de- sert drear, Heaven is my home. Dan- ger and sor- row stand Round me on eve- ry hand Heav- en is my fa- ther- land, Heav- en is my home.
-v2: What though the tem- pests rage, Heaven is my home Short is my pil- grim- age, Heav- en is my home. Time's cold and win- try blast Soon will be o- ver- past I shall reach home at last, Heav- en is my home.
-v3: There at my Sav- iour's side, Heaven is my home I shall be gol- ri- fied, Heaven is my home. There are the good and blest, Those I love most and best, There too, I soon shall rest, Heaven is my home. A- men.
+v1: I'm but a stran- ger here, Heaven is my home; Earth is a de- sert drear, Heaven is my home. Dan- ger and sor- row stand Round me on eve- ry hand; Heav- en is my fa- ther- land, Heav- en is my home.
+v2: What though the tem- pests rage, Heaven is my home; Short is my pil- grim- age, Heav- en is my home. Time's cold and win- try blast Soon will be o- ver past; I shall reach home at last, Heav- en is my home.
+v3: There at my Sav- ior's side, Heaven is my home; I shall be glo- ri- fied, Heaven is my home. There are the good and blest, Those I love most and best, There, too, I soon shall rest, Heaven is my home. A- men.

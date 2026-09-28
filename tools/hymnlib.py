@@ -191,6 +191,12 @@ def split_word(word: str, use_dict: bool = True) -> list[str]:
         parts[0] = lead + parts[0]
         parts[-1] = parts[-1] + trail
         return parts
+    # a vowel dropped at the start of the second syllable is split the way hymnals print it:
+    # wan-d'ring, mur-m'ring, con-qu'ring
+    m = re.fullmatch(r"([a-z]*[aeiouy][a-z]*?)(qu|[bcdfghjklmnpqrstvwxz])'([bcdfghjklmnpqrstvwxz]?[aeiouy][a-z]*)", low)
+    if m and len(m.group(1)) >= 2 and len(nuclei(low.replace("'", "_"))) == 2:
+        k = len(m.group(1))
+        return [lead + core[:k], core[k:] + trail]
     target = cmu_count(low.replace("'", ""))
     groups = nuclei(low.replace("'", "_"))
     if target is None:

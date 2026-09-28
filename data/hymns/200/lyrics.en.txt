@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Sing them ov- er a- gain to me, Won- der- ful words of Life _ Let me more of their beau- ty see, Won- der- ful words of Life. Words of life _ and beau- ty, Teach me faith _ and du- ty Beau- ti- ful words, Won- der- ful words, Won- der- ful words of Life. _ _ Beau- ti- ful words, Won- der- ful words, Won- der- ful words of Life. _ _
-v2: Christ, the bless- ed One, gives to all, Won- der- ful words of Life _ Sin- ner, list to the lov- ing call, Won- der- ful words of Life. All so free- _ ly giv- en, Woo- ing us _ to Heav- en: Beau- ti- ful words, Won- der- ful words, Won- der- ful words of Life. _ _ Beau- ti- ful words, Won- der- ful words, Won- der- ful words of Life. _ _
-v3: Sweet- ly ech- o the gos- pel call, Won- der- ful words of Life _ Of- fer par- don and peace to all, Won- der- ful words of Life. Je- sus, on- _ ly Sav- iour, Sanc- ti- fy _ for- ev- er: Beau- ti- ful words, Won- der- ful words, Won- der- ful words of Life. _ _ Beau- ti- ful words, Won- der- ful words, Won- der- ful words of Life. A- men.
+v1: Sing them ov- er a- gain to me, Won- der- ful words of life; _ Let me more of their beau- ty see, Won- der- ful words of life; Words of life _ and beau- ty, Teach me faith _ and du- ty. Beau- ti- ful words, Won- der- ful words, Won- der- ful words of life. _ _ Beau- ti- ful words, Won- der- ful words, Won- der- ful words of life. _ _
+v2: Christ, the bless- ed One, gives to all, Won- der- ful words of life; _ Sin- ner, list to the lov- ing call, Won- der- ful words of life; All so free- _ ly giv- en, Woo- ing us _ to Heav- en. Beau- ti- ful words, Won- der- ful words, Won- der- ful words of life. _ _ Beau- ti- ful words, Won- der- ful words, Won- der- ful words of life. _ _
+v3: Sweet- ly ech- o the gos- pel call, Won- der- ful words of life; _ Of- fer par- don and peace to all, Won- der- ful words of life; Je- sus, on- _ ly Sav- ior, Sanc- ti- fy _ for- ev- er. Beau- ti- ful words, Won- der- ful words, Won- der- ful words of life. _ _ Beau- ti- ful words, Won- der- ful words, Won- der- ful words of life. A- men.

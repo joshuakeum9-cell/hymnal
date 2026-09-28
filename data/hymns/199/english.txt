@@ -1,9 +1,9 @@
 # 199 There is a Dear and Precious Book: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 There's a dear and precious Book,
 Tho' it's worn and faded now,
-Which recalls those happy days so long ago,
+Which recalls those happy days so long ago;
 When I stood at mother's knee,
 With her hand upon my brow,
 And I heard her voice in gentle tones and low.
@@ -13,9 +13,9 @@ Thou art sweeter day by day,
 As I walk the narrow way
 That leads at last to that bright home above.
 
-As she read the stories o'er,
+As she read the stories over,
 Of those mighty men of old,
-Of Jeseph and of Daniel and their trials,
+Of Joseph and of Daniel and their trials;
 Of little David bold,
 Who became a king at last
 Of Satan with his many wicked wiles.
@@ -27,7 +27,7 @@ That leads at last to that bright home above.
 
 Then she read of Jesus' love,
 As He blest the children dear,
-How He suffered, bled and died upon the tree,
+How He suffered, bled and died upon the tree;
 Of His heavy load of care,
 Then she dried my flowing tears
 With her kisses as she said it was for me.
@@ -39,7 +39,7 @@ That leads at last to that bright home above.
 
 Well, those days are past and gone,
 But their mem'ry lingers still,
-And the dear old Book each day has been my guide,
+And the dear old Book each day has been my guide;
 And I seek to do His will,
 As my mother taught me then,
 And ever in my heart His words abide.

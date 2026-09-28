@@ -1,9 +1,9 @@
 # 3 Glory Be to the Father: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 Glory be to the Father,
 and to the Son, and to the Holy Ghost;
 As it was in the beginning,
-is now, and ever shall be
+is now, and ev-er shall be
 World without end. Amen, Amen.
 Amen.

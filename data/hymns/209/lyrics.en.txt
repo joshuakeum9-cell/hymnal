@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 v1: From _ ev- ery storm- _ y wind that blows, From _ ev- ery swell- _ ing tide of woes, There is a calm, a sure re- treat: 'Tis _ found be- fore _ the mer- cy seat. _ _
-v2: There _ is a place _ where Je- sus sheds The _ oil of glad- _ ness on our heads A place than all be- sides more sweet: It _ is the blood- _ bo't mer- cy seat. _ _
+v2: There _ is a place _ where Je- sus sheds The _ oil of glad- _ ness on our heads; A place than all be- sides more sweet: It _ is the blood- _ bought mer- cy seat. _ _
 v3: There _ is a scene _ where spi- rits blend, Where _ friend holds fel- _ low ship with friend, Tho' sun- dered far, by faith they meet Be- _ fore one com- _ mon mer- cy seat. _ _
 v4: Oh, _ let my hand _ for- get her skill, My _ tongue be si- _ lent, cold and still, This bound- ing heart for- get to beat, If _ I for- get _ Thy mer- cy seat. A- men.

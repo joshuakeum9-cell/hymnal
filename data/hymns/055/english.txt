@@ -1,7 +1,8 @@
 # 55 Lord, Let Us Now Depart in Peace: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 Lord, let us now depart in peace,
 Who in Thy name are gathered here;
 Disclose the brightness of Thy face,
-And be forever near. Amen.
+And be forever near.
+Amen.

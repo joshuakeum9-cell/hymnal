@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Je- sus calls us, o'er the tu- mult Of our _ life's wild, rest- less sea, Day by _ day His sweet voice sound- eth, Say- _ ing "Chris- tian, fol- low Me."
+v1: Je- sus calls us, over the tu- mult Of our _ life's wild, rest- less sea, Day by _ day His sweet voice sound- eth, Say- _ ing, "Chris- tian, fol- low Me."
 v2: Je- sus calls us from the wor- ship Of the _ vain world's gold- en store, From each _ i- dol that would keep us, Say- _ ing, "Chris- tian, love Me more."
 v3: In our joys and in our sor- rows, Days of _ toil and hours of ease, Still He _ calls, in cares and pleas- ures, "Chris- _ tian, love Me more than these."
-v4: Je- sus calls us by Thy mer- cies, Sav- iour, _ may we hear Thy call, Give our _ hearts to Thine o- be- dience, Serve _ and love Thee best of all.
+v4: Je- sus calls us: by Thy mer- cies, Sav- ior, _ may we hear Thy call, Give our _ hearts to Thine o- be- dience, Serve _ and love Thee best of all.

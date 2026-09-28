@@ -2,6 +2,8 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: none)
+# quality: exact (per verse: exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Bread of the world in mer- _ cy bro- _ ken, Wine of the soul in mer- _ cy shed, By whom the words of life were spok- en, And in whose death our sins _ are dead.
+v2: Look on the heart by sor- _ row bro- _ ken, Look on the tears by sin- _ ners shed; And be thy feast to us the to- ken That by your grace our souls _ are fed.

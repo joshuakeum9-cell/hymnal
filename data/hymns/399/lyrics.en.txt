@@ -2,6 +2,9 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: none)
+# quality: auto (per verse: exact, exact, auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Fear not, lit- tle flock, from the cross to the throne, From death in to life He went for His own; All pow- er in earth, all pow- er a- bove, Is giv- en to Him for the flock of His love. On- ly be- lieve, on- ly be- lieve; All things are pos- si- ble, on- ly be- lieve; On- ly be- lieve, on- ly be- lieve; All things are pos- si- ble, on- ly be- lieve.
+v2: Fear not, lit- tle flock, He goeth a- head, Your Shep- herd se- lec- teth the path you must tread; The wa- ters of Ma- rah He'll sweet- en for thee, He drank all the bit- ter in Geth- sem- a- ne. On- ly be- lieve, on- ly be- lieve; All things are pos- si- ble, on- ly be- lieve; On- ly be- lieve, on- ly be- lieve; All things are pos- si- ble, on- ly be- lieve.
+v3: Fear not, lit- tle flock, what- _ ev- er your lot, He en- ters all rooms, "the doors be- ing shut;" He nev- er for- sakes, He nev- er is gone, So count on His pres- ence in dark- ness and dawn. On- ly be- lieve, on- ly be- lieve; All things are pos- si- ble, on- ly be- lieve; On- ly be- lieve, on- ly be- lieve; All things are pos- si- ble, on- ly be- lieve.

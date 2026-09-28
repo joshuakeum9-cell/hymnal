@@ -1,5 +1,5 @@
 # 65 Praise, My Soul, the King of Heaven: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 Praise, my soul, the King of heaven
 To his feet your tribute bring
@@ -28,3 +28,4 @@ Saints triumphant, bow before Him,
 Gathered in from every race
 Alleluia! Alleluia!
 Praise with us the God of grace.
+Amen.

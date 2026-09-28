@@ -2,6 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: none)
+# quality: exact (per verse: exact, exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Ah, ho- ly Je- sus, how hast thou of- fen- ded, That we to judge thee have in hate pre- ten- ded? By foes de- ri- ded, by thine own re- ject- ed, O most af- flict- ed! _ _
+v2: Who was the guilt- y? Who brought this up- on thee? A- las, my trea- son, Je- sus, hath un- done thee! 'Twas I, Lord Je- sus, I it was de- nied thee; I cru- ci- fied thee. _ _
+v3: For me, kind Je- sus, was thy in- car- na- tion, Thy mor- tal sor- row, and thy life's o- bla- tion; Thy death of an- guish and thy bit- ter pas- sion, For my sal- va- tion. _ _
+v4: There- fore, kind Je- sus, since I can- not pay thee, I do a- dore thee, and will ev- er pray thee, Think on thy pit- y and thy love un- swerv- ing, Not my de- serv- ing. A- men.

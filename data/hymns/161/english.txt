@@ -1,5 +1,5 @@
 # 161 Hallelujah, He is Risen!: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 Hallelujah, He is risen!
 Jesus is gone up on high!
@@ -11,10 +11,10 @@ He is risen, He is risen,
 Living now, no more to die.
 
 Hallelujah, He is risen!
-Our exalted Head to be
+Our exalted Head to be;
 Sends the witness of the Spirit
 That our Advocate is He.
-He is risen, He is risen,
+He is risen, He is risen;
 Justified in Him are we.
 He is risen, He is risen,
 Justified in Him are we.

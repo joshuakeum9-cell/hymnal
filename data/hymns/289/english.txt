@@ -1,5 +1,5 @@
 # 289 What a Wonderful Change: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 What a wonderful change in my life has been wrought
 Since Jesus came into my heart:
@@ -7,16 +7,16 @@ I have light in my soul for which long I had sought,
 Since Jesus came into my heart.
 Since Jesus came into my heart,
 Since Jesus came into my heart:
-Floods of joy o'er my soul like the seabillows roll,
+Floods of joy over my soul like the seabillows roll,
 Since Jesus came into my heart.
 
-I have ceased from my wand'ring and going astray,
+I have ceased from my wandering and going astray,
 Since Jesus came into my heart:
 And my sins which were many are all washed away,
 Since Jesus came into my heart.
 Since Jesus came into my heart,
 Since Jesus came into my heart:
-Floods of joy o'er my soul like the seabillows roll,
+Floods of joy over my soul like the seabillows roll,
 Since Jesus came into my heart.
 
 I'm possessed of a hope that is steadfast and sure,
@@ -25,7 +25,7 @@ And no dark clouds of doubt now my pathway obscure,
 Since Jesus came into my heart.
 Since Jesus came into my heart,
 Since Jesus came into my heart:
-Floods of joy o'er my soul like the seabillows roll,
+Floods of joy over my soul like the seabillows roll,
 Since Jesus came into my heart.
 
 There's a light in the valley of death now for me,
@@ -34,7 +34,7 @@ And the gates of the city beyond I can see,
 Since Jesus came into my heart.
 Since Jesus came into my heart,
 Since Jesus came into my heart:
-Floods of joy o'er my soul like the seabillows roll,
+Floods of joy over my soul like the seabillows roll,
 Since Jesus came into my heart.
 
 I shall go there to dwell in that city I know,
@@ -43,5 +43,5 @@ And I'm happy, so happy, as onward I go,
 Since Jesus came into my heart.
 Since Jesus came into my heart,
 Since Jesus came into my heart:
-Floods of joy o'er my soul like the seabillows roll,
+Floods of joy over my soul like the seabillows roll,
 Since Jesus came into my heart.

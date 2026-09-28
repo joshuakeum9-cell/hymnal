@@ -2,6 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: none)
+# quality: auto (per verse: auto, auto, auto, auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Tell out, my soul, the great- ness of the Lord! Un- num- bered bless- ings give my spir- it voice; ten- der to me the prom- ise of his word; in God _ my Sav- ior _ _ shall my heart re- joice. _ _
+v2: Tell out, my soul, the great- ness of his name! Make known his might, the deeds his arm has done; his mer- cy sure, from age to age the same; his ho- ly name the Lord, _ _ the _ Might- y One. _ _
+v3: Tell out, my soul, the great- ness of his might! Po- wers and do- mi- nions lay their glo- ry by. Proud hearts and stub- born wills are put to flight, the hun- gry fed, the _ _ hum- ble lift- ed high. _ _
+v4: Tell out, my soul, the glo- ries of his word! Firm is his prom- _ ise, and his mer- cy sure. Tell out, my soul, the great- ness of the Lord to chil- dren's chil- dren _ _ and for- ev- er- more! A- men.

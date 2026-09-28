@@ -1,12 +1,12 @@
 # 551 At Thy feet, our God and Father: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
 At Thy feet, our God and Father,
 Who hast blessed us all our days,
 We with grateful hearts would gather
-To begin the day with praise
+To begin the day with praise;
 Praise for light so brightly shining
-On our steps from heaven above
+On our steps from heaven above;
 Praise for mercies daily twining
 Round us golden cords of love.
 
@@ -20,10 +20,11 @@ Sure of being safely guided,
 Guarded well from every foe.
 
 Every day will be the brighter
-When thy gracious face we see
-Ev'ry burden will be lighter
+When thy gracious face we see;
+Every burden will be lighter
 When we know it comes from Thee.
-Spread Thy love's broad banner o'er us
+Spread Thy love's broad banner over us;
 Give us strength to serve and wait,
 Till Thy glory breaks before us
-Thro' the city's open gate. Amen.
+Through the city's open gate.
+Amen.

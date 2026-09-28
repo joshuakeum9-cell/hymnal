@@ -1,7 +1,7 @@
 # 26 Praise the Savior, Ye Who Know Him: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
-Praise the Saviour, ye who know Him!
+Praise the Savior, ye who know Him!
 Who can tell how much we owe Him?
 Gladly let us render to Him
 All we are and have.
@@ -9,7 +9,7 @@ All we are and have.
 Keep us, Lord, O keep us cleaving
 To Thyself and still believing,
 Till the hour of our receiving
-Promis'd joys with Thee.
+Promised joys with Thee.
 
 Jesus is the name that charms us
 He for conflict fits and arms us

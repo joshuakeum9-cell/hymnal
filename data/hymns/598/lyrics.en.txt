@@ -3,10 +3,11 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: exact, exact, auto, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Tem- ples God will make _ His sta- tion How can such be built by man. Heav'n and earth are His _ _ cre- _ a- tion All in- fin- i- ty His span. _ _
-v2: He whose throne is a- _ zure heav- en, He whose foot- stool is the earth, Can a house to Him _ _ be _ giv- en, Stone and mor- tar be of worth _ _
+v1: Tem- ples God will make _ His sta- tion How can such be built by man. Heaven and earth are His _ _ cre- _ a- tion All in- fin- i- ty His span. _ _
+v2: He whose throne is a- _ zure heav- en, He whose foot- stool is the earth, Can a house to Him _ _ be _ giv- en, Stone and mor- tar be of worth? _ _
 v3: But where two or three _ to- geth- er Meet, _ says, Je- sus, in His name, There's the dwell- ing _ _ of _ His plea- sure, There the tem- ple, He will _ claim.
-v4: On the Rock which is _ our Sav- iour, He the Cor- ner- stone a- lone, Each who trusts in Je- _ _ sus _ fa- vor Stands, this Tem- ple's liv- ing stone. _ _
-v5: His foun- da- tion chang- _ es nev- er. Bro- ther, sis- ter, on it build. So to stand in Him _ _ for- _ ev- er, That true Tem- ple He hath will'd! A- men.
+v4: On the Rock which is _ our Sav- ior, He the Cor- ner- stone a- lone, Each who trusts in Je- _ _ sus' _ fa- vor Stands, this Tem- ple's liv- ing stone. _ _
+v5: His foun- da- tion chang- _ es nev- er. Bro- ther, sis- ter, on it build, So to stand in Him _ _ for- _ ev- er That true Tem- ple He hath willed! A- men.

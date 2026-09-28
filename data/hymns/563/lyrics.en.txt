@@ -2,10 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: exact, exact, exact, auto)
+# quality: exact (per verse: exact, exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Je- sus loves me, this I know, For the Bi- ble tells me so Lit- tle ones to Him be- long, They are weak but He is strong. Yes, Je- sus loves me! Yes, Je- sus loves me! Yes, Je- sus loves me! The Bi- ble tells me so. _ _
-v2: Je- sus loves me, He who died Heav- en's gate to o- pen wide He will wash a- way my sin, Let His lit- tle child come in. Yes, Je- sus loves me! Yes, Je- sus loves me! Yes, Je- sus loves me! The Bi- ble tells me so. _ _
-v3: Je- sus loves me, loves me still, Though I'm ver- y weak and ill From His shin- ing throne on high Comes to watch me whence I lie. Yes, Je- sus loves me! Yes, Je- sus loves me! Yes, Je- sus loves me! The Bi- ble tells me so. _ _
-v4: Je- sus loves me, He will stay Close be- side me all the way I love him, and when I die He will take me home on high. Yes, Je- sus loves me! Yes, Je- sus loves me! Yes, Je- sus loves me! The Bi- _ ble _ tells me so.
+v1: Je- sus loves me, this I know, For the Bi- ble tells me so; Lit- tle ones to Him be- long, They are weak but He is strong. Yes, Je- sus loves me! Yes, Je- sus loves me! Yes, Je- sus loves me! The Bi- ble tells me so. _ _
+v2: Je- sus loves me, He who died Heav- en's gate to o- pen wide; He will wash a- way my sin, Let His lit- tle child come in. Yes, Je- sus loves me! Yes, Je- sus loves me! Yes, Je- sus loves me! The Bi- ble tells me so. _ _
+v3: Je- sus loves me, loves me still, Though I'm ver- y weak and ill; From His shin- ing throne on high Comes to watch me whence I lie. Yes, Je- sus loves me! Yes, Je- sus loves me! Yes, Je- sus loves me! The Bi- ble tells me so. _ _
+v4: Je- sus loves me, He will stay Close be- side me all the way; I love Him, and when I die He will take me home on high. Yes, Je- sus loves me! Yes, Je- sus loves me! Yes, Je- sus loves me! The Bi- ble tells me so. A- men.

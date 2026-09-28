@@ -2,7 +2,7 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: rough)
+# quality: auto (per verse: auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: All _ _ _ _ things _ _ _ come _ _ _ _ _ _ of _ Thee, O _ _ Lord, and _ _ _ of Thine _ _ _ _ _ _ _ own _ _ _ _ have _ _ _ we _ _ _ giv- _ _ en Thee. A- _ men. _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+v1: The Lord bless you and keep _ you, The Lord lift His coun- te- nance up- on _ you, and give you peace; and give you peace, The Lord _ make His face to shine up- on _ you, and be gra- cious un- to you, be gra- cious, The Lord be gra- cious, gra- cious un- to you, A- _ _ men. A- _ _ _ _ _ _ men. A- _ men. A- _ men. A- men. _ A- men.

@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from 'preact/hooks'
 import { isFinalNumber, loadIndex, search, type Row } from '../data'
 import { getPrefs, setPrefs, subscribe } from '../store'
-import { go } from '../route'
-import { IconList } from '../icons'
+import { go, hymnHash } from '../route'
+import { IconList, KeyName } from '../icons'
 
 function usePrefs() {
   const [p, set] = useState(getPrefs())
@@ -47,7 +47,8 @@ export function SearchView() {
     if (results[0]) open(results[0].row)
   }
 
-  const recent = rows ? prefs.recent.map(n => rows.find(r => r.n === n)).filter(Boolean) as Row[] : []
+  const recent = rows ? prefs.recent.slice(0, 8).map(n => rows.find(r => r.n === n)).filter(Boolean) as Row[] : []
+  const first = prefs.setList[0]
 
   return (
     <main class="search-page">
@@ -99,6 +100,31 @@ export function SearchView() {
         <ResultList items={results.map(r => r.row)} showOld={results[0]?.via === 'old'} empty={rows ? 'No hymn matches that.' : 'Loading…'} />
       ) : (
         <>
+          {prefs.setList.length > 0 && rows && (
+            <section class="home-section">
+              <div class="section-row">
+                <h2 class="section-title">Set list</h2>
+                <a class="small" href="#/set">Edit</a>
+              </div>
+              <div class="set-strip">
+                {prefs.setList.map(it => {
+                  const r = rows.find(x => x.n === it.n)
+                  return (
+                    <a key={it.n} class="set-chip" href={hymnHash(it.n, { key: it.key, lyrics: it.mode && it.mode !== 'both' ? it.mode : undefined, s: '1' })}>
+                      <strong>{it.n}</strong>
+                      <span>{r?.k ?? ''}</span>
+                      {it.key ? <em><KeyName tonic={it.key} minor={r?.m === 1} /></em> : null}
+                    </a>
+                  )
+                })}
+              </div>
+              {first ? (
+                <a class="btn primary start-btn" href={hymnHash(first.n, { key: first.key, lyrics: first.mode && first.mode !== 'both' ? first.mode : undefined, s: '1' })}>
+                  Start from {first.n}
+                </a>
+              ) : null}
+            </section>
+          )}
           {recent.length > 0 && (
             <section class="home-section">
               <h2 class="section-title">Recent</h2>

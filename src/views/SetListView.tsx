@@ -4,7 +4,7 @@ import { MAJOR_KEYS, MINOR_KEYS, chipFor, keyLabel, melodyTop, originalTonic, pi
 import { decodeSet, encodeSet, getPrefs, setPrefs, subscribe, type SetItem } from '../store'
 import { go, hymnHash } from '../route'
 import { printHymns, type PrintItem } from '../print'
-import { IconBack, IconDown, IconPrint, IconShare, IconTrash, IconUp } from '../icons'
+import { IconBack, IconDown, IconPrint, IconShare, IconTrash, IconUp, KeyName } from '../icons'
 
 function usePrefs() {
   const [p, set] = useState(getPrefs())
@@ -12,7 +12,7 @@ function usePrefs() {
   return p
 }
 
-const MODE_LABEL: Record<LyricMode, string> = { both: '한/영 both', ko: '한 Korean', en: '영 English' }
+const MODE_LABEL: Record<LyricMode, string> = { both: '한/영', ko: '한글', en: 'English' }
 
 export function SetListView({ params }: { params: URLSearchParams }) {
   const prefs = usePrefs()
@@ -100,6 +100,12 @@ export function SetListView({ params }: { params: URLSearchParams }) {
         </div>
       ) : null}
 
+      {list.length ? (
+        <a class="btn primary big start-btn" href={hymnHash(list[0].n, { key: list[0].key, lyrics: list[0].mode && list[0].mode !== 'both' ? list[0].mode : undefined, s: '1' })}>
+          Start playing from {list[0].n}
+        </a>
+      ) : null}
+
       <form class="set-add" onSubmit={addNumber}>
         <input class="set-add-input" type="text" inputMode="numeric" pattern="[0-9]*" enterKeyHint="done" placeholder="Add hymn number" value={add}
           onInput={e => setAdd((e.target as HTMLInputElement).value)} aria-label="Add hymn number" />
@@ -133,12 +139,12 @@ export function SetListView({ params }: { params: URLSearchParams }) {
                 </div>
                 <div class="set-item-controls">
                   <label class="select-wrap">
-                    <span class="select-label">Key</span>
+                    <span class="select-label">Key{pitchClass(current) === pitchClass(orig) ? ', original' : <>, from <KeyName tonic={orig} minor={minor} /></>}</span>
                     <select value={chipFor(current, minor)} onChange={e => {
                       const k = (e.target as HTMLSelectElement).value
                       update(i, { key: pitchClass(k) === pitchClass(orig) ? undefined : k })
                     }} disabled={!row?.f} aria-label={`Key for ${it.n}`}>
-                      {keys.map(k => <option key={k} value={k}>{keyLabel(k, minor)}{pitchClass(k) === pitchClass(orig) ? ' (original)' : ''}</option>)}
+                      {keys.map(k => <option key={k} value={k}>{keyLabel(k, minor)}{pitchClass(k) === pitchClass(orig) ? ' *' : ''}</option>)}
                     </select>
                   </label>
                   <label class="select-wrap">

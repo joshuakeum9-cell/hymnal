@@ -181,6 +181,30 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
     return () => window.removeEventListener('keydown', onKey)
   }, [prevHash, nextHash, sheetOpen])
 
+  // swipe left or right on the music to move through the set list (iPad on a music stand)
+  useEffect(() => {
+    const el = scoreRef.current
+    if (!el) return
+    let x0 = 0, y0 = 0, t0 = 0
+    const start = (e: TouchEvent) => {
+      if (e.touches.length !== 1) return
+      x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; t0 = Date.now()
+    }
+    const end = (e: TouchEvent) => {
+      const t = e.changedTouches[0]
+      const dx = t.clientX - x0, dy = t.clientY - y0
+      if (Date.now() - t0 > 600 || Math.abs(dx) < 90 || Math.abs(dy) > Math.abs(dx) * 0.5) return
+      if (dx < 0 && nextHash) go(nextHash)
+      if (dx > 0 && prevHash) go(prevHash)
+    }
+    el.addEventListener('touchstart', start, { passive: true })
+    el.addEventListener('touchend', end, { passive: true })
+    return () => {
+      el.removeEventListener('touchstart', start)
+      el.removeEventListener('touchend', end)
+    }
+  }, [prevHash, nextHash])
+
   // keep the screen awake while a hymn is open (iPad on a music stand)
   useEffect(() => {
     let lock: any = null

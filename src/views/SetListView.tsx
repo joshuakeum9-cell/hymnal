@@ -1,15 +1,27 @@
 import { useEffect, useState } from 'preact/hooks'
 import { loadHymn, loadIndex, rowFor, type Row } from '../data'
-import { MAJOR_KEYS, MINOR_KEYS, chipFor, keyLabel, melodyTop, originalTonic, pitchClass, semitoneDelta, type LyricMode } from '../music'
+import { MAJOR_KEYS, MINOR_KEYS, chipFor, isKeyName, keyLabel, melodyTop, originalTonic, pitchClass, semitoneDelta, type LyricMode } from '../music'
 import { decodeSet, encodeSet, getPrefs, setPrefs, subscribe, type SetItem } from '../store'
 import { go, hymnHash } from '../route'
-import { printHymns, type PrintItem } from '../print'
+import { printHymns, printNow, type PrintItem } from '../print'
 import { IconBack, IconDown, IconPrint, IconShare, IconTrash, IconUp, KeyName } from '../icons'
 
 function usePrefs() {
   const [p, set] = useState(getPrefs())
   useEffect(() => subscribe(() => set(getPrefs())), [])
   return p
+}
+
+/** Drop numbers that are not hymns, duplicates, and key names we do not know. */
+function cleanSet(items: SetItem[]): SetItem[] {
+  const seen = new Set<number>()
+  const out: SetItem[] = []
+  for (const it of items) {
+    if (!Number.isInteger(it.n) || !rowFor(it.n) || seen.has(it.n)) continue
+    seen.add(it.n)
+    out.push({ n: it.n, key: isKeyName(it.key) ? it.key : undefined, mode: it.mode })
+  }
+  return out
 }
 
 const MODE_LABEL: Record<LyricMode, string> = { both: '한/영', ko: '한글', en: 'English' }
@@ -20,12 +32,13 @@ export function SetListView({ params }: { params: URLSearchParams }) {
   const [add, setAdd] = useState('')
   const [busy, setBusy] = useState(false)
   const [msg, setMsg] = useState('')
+  const [printReady, setPrintReady] = useState(false)
   const shared = params.get('h')
 
   useEffect(() => { loadIndex().then(() => setReady(true)) }, [])
 
   // opening a shared link offers to replace the list
-  const incoming = shared ? decodeSet(shared) : null
+  const incoming = shared && ready ? cleanSet(decodeSet(shared)) : null
   const list = prefs.setList
 
   const save = (items: SetItem[]) => setPrefs({ setList: items })
@@ -62,10 +75,15 @@ export function SetListView({ params }: { params: URLSearchParams }) {
     setBusy(true)
     setMsg('')
     try {
+      await loadIndex()
       const items: PrintItem[] = []
+      const skipped: number[] = []
       for (const it of list) {
         const row = rowFor(it.n)
-        if (!row?.f) continue
+        if (!row?.f) {
+          skipped.push(it.n)
+          continue
+        }
         const hymn = await loadHymn(row)
         const minor = row.m === 1
         const orig = chipFor(originalTonic(row.fi ?? 0, minor), minor)
@@ -73,8 +91,9 @@ export function SetListView({ params }: { params: URLSearchParams }) {
         const top = melodyTop(new DOMParser().parseFromString(hymn.xml, 'application/xml'))
         items.push({ row, hymn, delta: semitoneDelta(orig, key, top), mode: it.mode ?? 'both', keyName: keyLabel(key, minor), origName: keyLabel(orig, minor) })
       }
-      if (!items.length) setMsg('Nothing to print yet.')
-      else await printHymns(items, prefs.paper)
+      if (skipped.length) setMsg(`Not printed because the music is not on the site: ${skipped.join(', ')}.`)
+      if (!items.length) setMsg(skipped.length ? 'None of these hymns have music on the site yet.' : 'Nothing to print yet.')
+      else setPrintReady((await printHymns(items, prefs.paper)) === 'tap')
     } catch (e) {
       setMsg(`Printing failed: ${(e as Error).message}`)
     } finally {
@@ -174,6 +193,12 @@ export function SetListView({ params }: { params: URLSearchParams }) {
             ))}
           </div>
           <button class="btn subtle" onClick={() => { if (confirm('Clear the whole set list?')) save([]) }}>Clear list</button>
+        </div>
+      ) : null}
+      {printReady && !busy ? (
+        <div class="toast" role="status">
+          <span>Pages are ready.</span>
+          <button class="btn primary" onClick={() => { setPrintReady(false); printNow() }}>Print</button>
         </div>
       ) : null}
     </main>

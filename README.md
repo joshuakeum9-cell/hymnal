@@ -12,6 +12,19 @@ A free website for a church band: type a hymn number and the music appears, in a
 
 Nothing to pay for: GitHub Pages hosts it, GitHub Actions builds it, everything runs in the browser.
 
+## What is in it today
+
+| | Hymns |
+|---|---|
+| Listed and searchable (new and old numbers, Korean and English titles) | 645 |
+| Music on the site | 457 |
+| Held back for copyright (133 Korean-authored, 55 recent or undated) | 188 |
+| English words under the notes | 380 |
+| English words shown as text below the music | 28 |
+| No usable English yet (26 of them because the English source had another hymn's words) | 49 |
+
+Known limits: English placement is automatic and occasionally puts a syllable on the wrong note; the Report a mistake link on each hymn is the way to fix those. Phones in portrait show about one measure per line when both languages are on; turn the phone sideways or pick 한 or 영 for more music per screen.
+
 ## How it works
 
 ```
@@ -36,6 +49,7 @@ Most fixes are one small text edit, and GitHub's web editor is enough.
 
 - **An English syllable on the wrong note:** edit `data/hymns/NNN/lyrics.en.txt`. Each line (`v1:`, `v2:`, `r:` for the refrain) has one token per melody note: a word, a syllable ending in `-` that continues on the next note, `_` to hold the previous syllable, or `.` for no word. Keep the token count the same. Change `# status: proposed` to `# status: reviewed` so the tool never overwrites your fix.
 - **A typo in the English text:** add it to `data/english_fixes.json`, then run `python tools/align_english.py NNN`.
+- **Wrong English for a hymn:** English is dropped automatically when its first verse does not contain the title's words. To force a decision, list the hymn under `verified_ok` or `exclude` in `data/english_checks.json`.
 - **A wrong note or Korean syllable:** edit `data/hymns/NNN/score.musicxml`, or fix the original in MuseScore and re-run the converter for that hymn.
 
 Every push runs `python tools/check_data.py`, which catches token counts that do not match, broken measures, and publishing mistakes, and explains the problem in plain words.

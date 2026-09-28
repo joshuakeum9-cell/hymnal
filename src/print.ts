@@ -35,21 +35,23 @@ function pageStyle(paper: 'letter' | 'a4'): void {
   st.textContent = `@page { size: ${PAPER[paper].css} portrait; margin: 0.5in; }`
 }
 
-function paginate(systems: SystemBox[], firstAvail: number, avail: number): [number, number][] {
+/** Group systems into pages; cuts fall halfway between systems so markings between them stay whole. */
+function paginate(systems: SystemBox[], firstAvail: number, avail: number, total: number): [number, number][] {
+  if (!systems.length) return [[0, total]]
+  const cutAfter = (i: number): number =>
+    i + 1 < systems.length ? Math.max(systems[i].bottom, (systems[i].bottom + systems[i + 1].top) / 2) : Math.min(total, systems[i].bottom + 12)
   const pages: [number, number][] = []
   let start = 0
   let cap = firstAvail
   let i = 0
-  const gap = 8
   while (i < systems.length) {
-    const top = Math.max(0, systems[i].top - gap)
     let end = i
-    while (end + 1 < systems.length && systems[end + 1].bottom + gap - top <= cap) end++
-    const bottom = systems[end].bottom + gap
-    pages.push([i === 0 ? Math.min(start, top) : top, bottom])
-    i = end + 1
-    start = bottom
+    while (end + 1 < systems.length && cutAfter(end + 1) - start <= cap) end++
+    const stop = cutAfter(end)
+    pages.push([start, stop])
+    start = stop
     cap = avail
+    i = end + 1
   }
   return pages
 }
@@ -58,7 +60,7 @@ function esc(s: string): string {
   return s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c] as string))
 }
 
-export async function printHymns(items: PrintItem[], paper: 'letter' | 'a4'): Promise<void> {
+export async function printHymns(items: PrintItem[], paper: 'letter' | 'a4'): Promise<'printed' | 'tap'> {
   const box = root()
   box.innerHTML = ''
   pageStyle(paper)
@@ -75,7 +77,9 @@ export async function printHymns(items: PrintItem[], paper: 'letter' | 'a4'): Pr
     if (!svg) continue
     const vbW = res.viewWidth || P.w
     const scale = P.w / vbW // CSS px per viewBox unit
-    const pages = paginate(res.systems, (P.h - HEADER_H - FOOTER_H) / scale, (P.h - FOOTER_H) / scale)
+    const vb = svg.getAttribute('viewBox')?.split(/[ ,]+/).map(Number)
+    const totalH = vb && vb.length === 4 ? vb[3] : (res.systems.at(-1)?.bottom ?? 0) + 20
+    const pages = paginate(res.systems, (P.h - HEADER_H - FOOTER_H) / scale, (P.h - FOOTER_H) / scale, totalH)
     const keyText = it.delta ? `Key ${it.keyName} (from ${it.origName})` : `Key ${it.keyName}`
     const modeText = it.mode === 'both' ? '' : it.mode === 'ko' ? ', Korean words' : ', English words'
     pages.forEach(([y0, y1], p) => {
@@ -94,7 +98,10 @@ export async function printHymns(items: PrintItem[], paper: 'letter' | 'a4'): Pr
       clone.setAttribute('width', String(P.w))
       clone.setAttribute('height', String(h * scale))
       clone.removeAttribute('id')
-      clone.style.cssText = `width:${P.w}px;height:${h * scale}px;display:block`
+      // a single line of music taller than the page is shrunk to fit rather than cut off
+      const room = P.h - FOOTER_H - (p === 0 ? HEADER_H : 0)
+      const fit = Math.min(1, room / (h * scale))
+      clone.style.cssText = `width:${P.w * fit}px;height:${h * scale * fit}px;display:block;margin:0 auto`
       page.appendChild(clone)
       const foot = document.createElement('footer')
       foot.className = 'print-foot'
@@ -114,10 +121,19 @@ export async function printHymns(items: PrintItem[], paper: 'letter' | 'a4'): Pr
     }
   }
   await document.fonts.ready
-  const cleanup = () => {
-    box.innerHTML = ''
-    window.removeEventListener('afterprint', cleanup)
-  }
-  window.addEventListener('afterprint', cleanup)
+  // The pages stay in the hidden print area until the next print, which clears them first.
+  // iPhone and iPad Safari may refuse a print that does not come straight from a tap, so there
+  // the caller shows a Print button that calls printNow().
+  if (needsTapToPrint()) return 'tap'
+  window.print()
+  return 'printed'
+}
+
+export function needsTapToPrint(): boolean {
+  const ua = navigator.userAgent
+  return /iPad|iPhone|iPod/.test(ua) || (ua.includes('Macintosh') && navigator.maxTouchPoints > 1)
+}
+
+export function printNow(): void {
   window.print()
 }

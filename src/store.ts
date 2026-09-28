@@ -12,7 +12,7 @@ export type Prefs = {
   paper: 'letter' | 'a4'
   recent: number[]
   setList: SetItem[]
-  keys: Record<string, string> // last key used per hymn
+  keys: Record<string, string> // unused since v1.1 (kept so old saved settings still load)
 }
 
 const DEFAULTS: Prefs = {
@@ -22,13 +22,13 @@ const DEFAULTS: Prefs = {
 
 const KEY = 'hymnal.prefs.v1'
 
-function read(): Prefs {
+function read(fallback: Prefs = DEFAULTS): Prefs {
   try {
     const raw = localStorage.getItem(KEY)
-    if (!raw) return { ...DEFAULTS }
+    if (!raw) return { ...fallback }
     return { ...DEFAULTS, ...JSON.parse(raw) }
   } catch {
-    return { ...DEFAULTS }
+    return { ...fallback } // storage blocked (private browsing): keep what is in memory
   }
 }
 
@@ -40,7 +40,7 @@ export function getPrefs(): Prefs {
 }
 
 export function setPrefs(patch: Partial<Prefs>): void {
-  prefs = { ...prefs, ...patch }
+  prefs = { ...read(prefs), ...patch } // re-read first so another open tab's changes are kept
   try {
     localStorage.setItem(KEY, JSON.stringify(prefs))
   } catch {
@@ -48,6 +48,13 @@ export function setPrefs(patch: Partial<Prefs>): void {
   }
   listeners.forEach(fn => fn())
 }
+
+// another tab changed the settings: pick them up here too
+window.addEventListener('storage', e => {
+  if (e.key !== KEY) return
+  prefs = read(prefs)
+  listeners.forEach(fn => fn())
+})
 
 export function subscribe(fn: () => void): () => void {
   listeners.add(fn)

@@ -31,6 +31,7 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,woff2,svg,png}'],
         maximumFileSizeToCacheInBytes: 3 * 1024 * 1024,
         navigateFallback: null,
+        clientsClaim: true, // control the first visit too, so offline saving works right away
         runtimeCaching: [
           {
             // hymn files are content-hashed, so a cached copy is always correct

@@ -19,10 +19,23 @@ export function KeySheet({ original, minor, current, delta, dir, top, onPick, on
   const panel = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose() }
+    const opener = document.activeElement as HTMLElement | null
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose()
+      if (e.key !== 'Tab' || !panel.current) return
+      // keep keyboard focus inside the dialog
+      const items = Array.from(panel.current.querySelectorAll<HTMLElement>('button:not([disabled])'))
+      if (!items.length) return
+      const first = items[0], last = items[items.length - 1]
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus() }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus() }
+    }
     window.addEventListener('keydown', onKey)
     panel.current?.querySelector<HTMLButtonElement>('.key-chip.on')?.focus()
-    return () => window.removeEventListener('keydown', onKey)
+    return () => {
+      window.removeEventListener('keydown', onKey)
+      opener?.focus?.() // back to the Key button
+    }
   }, [])
 
   const step = (s: number) => {

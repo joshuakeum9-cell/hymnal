@@ -12,7 +12,8 @@ const PC: Record<string, number> = {
 
 /** The 12 choices shown in the key picker, one per pitch class. */
 export const MAJOR_KEYS = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'F#', 'G', 'Ab', 'A', 'Bb', 'B']
-export const MINOR_KEYS = ['C', 'C#', 'D', 'Eb', 'E', 'F', 'F#', 'G', 'G#', 'A', 'Bb', 'B']
+// OSMD spells the minor key a tritone above C as D-sharp minor, so the chip says D# to match the page
+export const MINOR_KEYS = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'Bb', 'B']
 
 export function originalTonic(fifths: number, minor: boolean): string {
   const f = Math.max(-7, Math.min(7, fifths))
@@ -21,6 +22,10 @@ export function originalTonic(fifths: number, minor: boolean): string {
 
 export function pitchClass(name: string): number {
   return PC[name] ?? 0
+}
+
+export function isKeyName(name: string | undefined | null): name is string {
+  return !!name && name in PC
 }
 
 /** Pretty key label: "Ab" -> "A♭", minor adds "m". */

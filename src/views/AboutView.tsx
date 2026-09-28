@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'preact/hooks'
-import { loadHymn, loadIndex, type Row } from '../data'
+import { hymnUrl, loadIndex, type Row } from '../data'
 import { go } from '../route'
 import { IconBack } from '../icons'
 
@@ -16,26 +16,40 @@ export function AboutView() {
   const gatedOther = rows.filter(r => r.g === 2).length
 
   const downloadAll = async () => {
+    if (!('caches' in window)) {
+      setNote('This browser cannot save hymns for offline use.')
+      return
+    }
     const list = published
     setProgress({ done: 0, total: list.length })
+    setNote('')
     let done = 0
+    let failed = 0
+    const cache = await caches.open('hymns') // the same cache the service worker reads from
     const queue = [...list]
     const worker = async () => {
       while (queue.length) {
         const r = queue.shift()!
-        try { await loadHymn(r) } catch { /* retry next time */ }
+        try {
+          const url = new URL(hymnUrl(r), location.href).href
+          if (!(await cache.match(url))) {
+            const res = await fetch(url, { cache: 'no-cache' })
+            if (!res.ok) throw new Error(String(res.status))
+            await cache.put(url, res)
+          }
+        } catch {
+          failed++
+        }
         done++
         setProgress({ done, total: list.length })
       }
     }
     await Promise.all([worker(), worker(), worker(), worker()])
-    try {
-      await navigator.storage?.persist?.()
-      const est = await navigator.storage?.estimate?.()
-      setNote(est?.usage ? `Saved on this device (about ${Math.round(est.usage / 1024 / 1024)} MB in use).` : 'Saved on this device.')
-    } catch {
-      setNote('Saved on this device.')
-    }
+    try { await navigator.storage?.persist?.() } catch { /* optional */ }
+    setNote(failed
+      ? `${list.length - failed} saved, ${failed} could not be downloaded. Check the connection and tap again.`
+      : 'All hymns are saved on this device.')
+    if (failed) setProgress(null)
   }
 
   return (
@@ -53,7 +67,7 @@ export function AboutView() {
           <li><strong>Change the key.</strong> Tap Key and pick any of the 12 keys. Best fit keeps the melody in a comfortable range; Lower and Higher let you choose the octave.</li>
           <li><strong>Choose the words.</strong> 한/영 shows each Korean line with its English line under it, like the bilingual hymnal. 한 is Korean only, 영 is English only.</li>
           <li><strong>Print for the band.</strong> Print on a hymn prints that hymn in the key you chose. The set list prints the whole week in order.</li>
-          <li><strong>On an iPad or phone.</strong> In Safari tap Share, then Add to Home Screen. The app then opens full screen and keeps the music you have viewed for offline use.</li>
+          <li><strong>On an iPad or phone.</strong> In Safari tap Share, then Add to Home Screen. The app then opens full screen and keeps the music you have viewed for offline use. On an iPhone or iPad the Home Screen app keeps its own storage, so save hymns for offline use from inside that app.</li>
         </ul>
 
         <h2>Use it offline</h2>

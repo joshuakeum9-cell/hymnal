@@ -225,7 +225,13 @@ def process(n: int, hymn_en: dict, force: bool) -> dict:
             if os.path.exists(pth):
                 os.remove(pth)
         return {"n": n, "status": "not published"}
-    if not english_matches_title(n, meta, hymn_en):
+    override = os.path.join(ROOT, f"data/english_overrides/{n:03d}.txt")
+    if os.path.exists(override):
+        # hand-supplied English (one verse per block, lines as sung); used instead of the source
+        body = "".join(l for l in open(override, encoding="utf-8") if not l.startswith("#"))
+        blocks = [b for b in re.split(r"\n\s*\n", body) if b.strip()]
+        hymn_en = {"lyrics": [{"lines": [{"en": l.strip(), "ko": ""} for l in b.splitlines() if l.strip()]} for b in blocks]}
+    elif not english_matches_title(n, meta, hymn_en):
         for pth in (out_path, text_path):
             if os.path.exists(pth) and "status: reviewed" not in open(pth, encoding="utf-8").read(400):
                 os.remove(pth)

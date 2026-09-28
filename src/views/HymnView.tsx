@@ -1,12 +1,12 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'preact/hooks'
 import { loadHymn, loadIndex, prefetch, rowFor, type Hymn, type Row } from '../data'
-import { chipFor, keyLabel, melodyTop, originalTonic, pitchClass, semitoneDelta, type Direction, type LyricMode } from '../music'
+import { chipFor, isKeyName, keyLabel, melodyTop, originalTonic, pitchClass, semitoneDelta, type Direction, type LyricMode } from '../music'
 import { cachedSvg, screenRenderer } from '../score'
 import { getPrefs, pushRecent, setPrefs, subscribe } from '../store'
 import { go, goBack, hymnHash } from '../route'
 import { KeySheet } from './KeySheet'
-import { printHymns } from '../print'
-import { KeyName, IconBack, IconCheck, IconListAdd, IconMoon, IconNext, IconPrint, IconSun, IconZoomIn, IconZoomOut } from '../icons'
+import { printHymns, printNow } from '../print'
+import { KeyName, IconBack, IconCheck, IconClose, IconListAdd, IconMoon, IconNext, IconPrint, IconSun, IconZoomIn, IconZoomOut } from '../icons'
 
 const MODES: { id: LyricMode; label: string; title: string }[] = [
   { id: 'both', label: '한/영', title: 'Korean and English' },
@@ -57,12 +57,15 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
   const [busy, setBusy] = useState(false)
   const [sheetOpen, setSheetOpen] = useState(false)
   const [printing, setPrinting] = useState(false)
+  const [printReady, setPrintReady] = useState(false)
   const scoreRef = useRef<HTMLDivElement>(null)
   const width = useWidth(scoreRef)
   const token = useRef(0)
 
   const inSet = params.get('s') === '1'
-  const mode = (params.get('lyrics') as LyricMode) || prefs.mode
+  const setItem = inSet ? prefs.setList.find(i => i.n === n) : undefined
+  // In set mode the set list entry decides key and words, so screen, swipe and print agree.
+  const mode = (params.get('lyrics') as LyricMode) || (setItem ? setItem.mode ?? 'both' : prefs.mode)
   const dir = (params.get('dir') as Direction) || 'auto'
 
   useEffect(() => {
@@ -86,7 +89,7 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
 
   const minor = row?.m === 1
   const origTonic = row ? chipFor(originalTonic(row.fi ?? 0, minor), minor) : 'C'
-  const key = params.get('key') || (row ? prefs.keys[String(n)] : undefined) || origTonic
+  const key = (isKeyName(params.get('key')) ? params.get('key') : null) || setItem?.key || origTonic
   const top = useMemo(() => (hymn ? melodyTop(new DOMParser().parseFromString(hymn.xml, 'application/xml')) : null), [hymn])
   const delta = semitoneDelta(origTonic, key, top, dir)
 
@@ -103,17 +106,19 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
     go(hymnHash(n, next), true)
   }
 
+  const updateSetItem = (patch: Partial<{ key: string | undefined; mode: LyricMode }>) => {
+    setPrefs({ setList: prefs.setList.map(i => (i.n === n ? { ...i, ...patch } : i)) })
+  }
+
   const pickKey = (k: string) => {
     const same = pitchClass(k) === pitchClass(origTonic)
-    const keys = { ...prefs.keys }
-    if (same) delete keys[String(n)]
-    else keys[String(n)] = k
-    setPrefs({ keys })
+    if (setItem) updateSetItem({ key: same ? undefined : k })
     setParams({ key: same ? undefined : k, dir: undefined })
   }
 
   const setMode = (m: LyricMode) => {
-    setPrefs({ mode: m })
+    if (setItem) updateSetItem({ mode: m })
+    else setPrefs({ mode: m })
     setParams({ lyrics: m === 'both' ? undefined : m })
   }
 
@@ -130,11 +135,13 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
     const my = ++token.current
     const cacheKey = `${n}|${row.f}|${delta}|${mode}|${width}|${zoom}|screen`
     let cancelled = false
+    setError(null)
     ;(async () => {
       const hit = await cachedSvg(cacheKey)
       if (cancelled || my !== token.current) return
       if (hit) {
         setSvg(hit)
+        setBusy(false)
         return
       }
       setBusy(true)
@@ -142,6 +149,7 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
         const res = await screenRenderer().render({ cacheKey, xml: hymn.xml, mode, delta, width, zoom })
         if (my === token.current) {
           setSvg(res.svg)
+          setError(null)
           if (!res.cached) console.info(`[hymnal] ${n} rendered in ${res.ms} ms (key ${key}, ${mode}, ${width}px)`)
         }
       } catch (e) {
@@ -150,7 +158,10 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
         if (my === token.current) setBusy(false)
       }
     })()
-    return () => { cancelled = true }
+    return () => {
+      cancelled = true
+      setBusy(false)
+    }
   }, [hymn, row?.f, delta, mode, width, zoom])
 
   // neighbours
@@ -208,13 +219,19 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
   // keep the screen awake while a hymn is open (iPad on a music stand)
   useEffect(() => {
     let lock: any = null
+    let alive = true
     const request = async () => {
-      try { lock = await (navigator as any).wakeLock?.request('screen') } catch { /* not allowed */ }
+      try {
+        const l = await (navigator as any).wakeLock?.request('screen')
+        if (alive) lock = l
+        else l?.release?.().catch?.(() => {})
+      } catch { /* not allowed */ }
     }
     const onVis = () => { if (document.visibilityState === 'visible') request() }
     request()
     document.addEventListener('visibilitychange', onVis)
     return () => {
+      alive = false
       document.removeEventListener('visibilitychange', onVis)
       lock?.release?.().catch?.(() => {})
     }
@@ -230,7 +247,8 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
     if (!hymn || !row) return
     setPrinting(true)
     try {
-      await printHymns([{ row, hymn, delta, mode, keyName: keyLabel(key, minor), origName: keyLabel(origTonic, minor) }], prefs.paper)
+      const r = await printHymns([{ row, hymn, delta, mode, keyName: keyLabel(key, minor), origName: keyLabel(origTonic, minor) }], prefs.paper)
+      setPrintReady(r === 'tap')
     } finally {
       setPrinting(false)
     }
@@ -318,7 +336,7 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
 
       <nav class="pager" aria-label="Other hymns">
         {prevHash ? <a class="pager-link" href={prevHash}><IconBack size={18} /><span>{inSet ? prevItem!.n : n - 1}</span></a> : <span />}
-        {inSet ? <a class="pager-mid" href="#/set">Set list {setIdx + 1} of {prefs.setList.length}</a> : <span />}
+        {inSet ? <a class="pager-mid" href="#/set">{setIdx >= 0 ? `Set list ${setIdx + 1} of ${prefs.setList.length}` : 'Back to set list'}</a> : <span />}
         {nextHash ? <a class="pager-link next" href={nextHash}><span>{inSet ? nextItem!.n : n + 1}</span><IconNext size={18} /></a> : <span />}
       </nav>
 
@@ -352,6 +370,13 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
         />
       ) : null}
       {printing ? <div class="toast" role="status">Preparing pages for printing…</div> : null}
+      {printReady && !printing ? (
+        <div class="toast" role="status">
+          <span>Pages are ready.</span>
+          <button class="btn primary" onClick={() => { setPrintReady(false); printNow() }}>Print</button>
+          <button class="icon-btn" aria-label="Close" onClick={() => setPrintReady(false)}><IconClose size={18} /></button>
+        </div>
+      ) : null}
     </Shell>
   )
 }

@@ -42,19 +42,28 @@ export function rowForOld(o: number): Row | undefined {
 }
 
 const hymnCache = new Map<string, Promise<Hymn>>()
+const HYMN_CACHE_MAX = 24 // parsed hymns kept in memory; the service worker keeps the files
+
+export function hymnUrl(row: Row): string {
+  return `${import.meta.env.BASE_URL}hymns/${row.f}`
+}
 
 export function loadHymn(row: Row): Promise<Hymn> {
   if (!row.f) return Promise.reject(new Error('gated'))
-  const url = `${import.meta.env.BASE_URL}hymns/${row.f}`
+  const url = hymnUrl(row)
   let p = hymnCache.get(url)
-  if (!p) {
-    p = fetch(url).then(r => {
-      if (!r.ok) throw new Error(`Could not load hymn ${row.n} (${r.status})`)
-      return r.json() as Promise<Hymn>
-    })
-    p.catch(() => hymnCache.delete(url))
-    hymnCache.set(url, p)
+  if (p) {
+    hymnCache.delete(url)
+    hymnCache.set(url, p) // most recently used last
+    return p
   }
+  p = fetch(url).then(r => {
+    if (!r.ok) throw new Error(`Could not load hymn ${row.n} (${r.status})`)
+    return r.json() as Promise<Hymn>
+  })
+  p.catch(() => hymnCache.delete(url))
+  hymnCache.set(url, p)
+  while (hymnCache.size > HYMN_CACHE_MAX) hymnCache.delete(hymnCache.keys().next().value as string)
   return p
 }
 

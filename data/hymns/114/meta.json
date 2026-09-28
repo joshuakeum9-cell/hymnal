@@ -1,0 +1,46 @@
+{
+ "number": 114,
+ "old_number": 114,
+ "title_ko": "그 어린 주예수",
+ "title_en": "Away in a Manger",
+ "original_title": "Away in a Manger (MUELLER tune)",
+ "theme": "성탄",
+ "key_table": "F",
+ "time_table": "3/4",
+ "composer": "제임스 R. 머리 (James R. Murray)",
+ "lyricist": "미상 (Little Children's Book 1885) / 3절 J. T. 맥팔런드 (Anonymous (Little Children's Book, 1885); st. 3 J. T. McFarland) · 1851~1913",
+ "credit_line_in_file": {
+  "composer": "J.R.Murray",
+  "lyricist": "1-2.Anonymous/3.J.T.McFarland"
+ },
+ "year": 1887,
+ "meter": "11.11.11.11",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1905; work dated 1887"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 미상 (Little Children's Book 1885) / 3절 J. T. 맥팔런드 (Anonymous (Little Children's Book, 1885); st. 3 J. T. McFarland) · 1851~1913"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "114장 그 어린 주예수.mscz",
+   "sha256": "d972211eff86d51c9a40daf9b74a3acbafd0efc585c815f82a555de22df77aa5",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

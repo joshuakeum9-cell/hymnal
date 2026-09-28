@@ -1,0 +1,46 @@
+{
+ "number": 141,
+ "old_number": 132,
+ "title_ko": "호산나 호산나",
+ "title_en": "Hosanna, Loud Hosanna",
+ "original_title": "Hosanna, Loud Hosanna",
+ "theme": "종려주일",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "미상 (뷔르템부르크 1784) / 멍크 화성 (Anonymous (Württemburg, 1784), harm. W. H. Monk)",
+ "lyricist": "제넷 스렐폴 (Jeannette Threlfall) · 1821~1880",
+ "credit_line_in_file": {
+  "composer": "Anonymous",
+  "lyricist": "J.Threlfall"
+ },
+ "year": 1784,
+ "meter": "6.6.7.6.7.6.7.6",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 미상 (뷔르템부르크 1784) / 멍크 화성 (Anonymous (Württemburg, 1784), harm. W. H. Monk)"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1880; work dated 1784"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "141장 호산나 호산나.mscz",
+   "sha256": "0bfb51af45e75397802599dca26d9197438dade05d480447475e53db5e6f846b",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 125,
+ "old_number": 125,
+ "title_ko": "천사들의 노래가",
+ "title_en": "Angels We Have Heard On High",
+ "original_title": "Angels We Have Heard on High (Les anges dans nos campagnes)",
+ "theme": "성탄",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "프랑스 전통 / 에드워드 시픈 반스 편곡 (Traditional French Melody, arr. Edward Shippen Barnes)",
+ "lyricist": "프랑스 전통 / 제임스 채드윅 영역 (Traditional French Carol, tr. James Chadwick) · 1813~1882",
+ "credit_line_in_file": {
+  "composer": "French Melody/E.S.Bames",
+  "lyricist": "French Carol"
+ },
+ "year": 1937,
+ "meter": "7.7.7.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 프랑스 전통 / 에드워드 시픈 반스 편곡 (Traditional French Melody, arr. Edward Shippen Barnes)"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 프랑스 전통 / 제임스 채드윅 영역 (Traditional French Carol, tr. James Chadwick) · 1813~1882"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "125장 천사들의 노래가.mscz",
+   "sha256": "b71e6675fb31c38b5db686b2a30e23e9a2f881de290bb18395d27db4175e6f6f",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

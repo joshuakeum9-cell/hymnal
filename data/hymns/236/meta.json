@@ -1,0 +1,46 @@
+{
+ "number": 236,
+ "old_number": 223,
+ "title_ko": "우리 모든 수고 끝나",
+ "title_en": "When The Toils Of Life Are Over",
+ "original_title": "In the New Jerusalem",
+ "theme": "천국",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "찰스 B. 위드마이어 (Charles B. Widmeyer)",
+ "lyricist": "찰스 B. 위드마이어 (Charles B. Widmeyer) · 1884~1974",
+ "credit_line_in_file": {
+  "composer": "C.B.Widmeyer",
+  "lyricist": "C.B.Widmeyer"
+ },
+ "year": 1911,
+ "meter": "15.11.15.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "author died 1974, after 1962"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "author died 1974, after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "236장 우리 모든 수고 끝나.mscz",
+   "sha256": "bc86f869597352f809186d98547b362072254ada411259ec54e18945d9ae20ff",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

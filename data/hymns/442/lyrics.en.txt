@@ -1,0 +1,10 @@
+# 442 I Come to the Garden Alone
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: I come to the gar- den a- lone, While the dew is still on the ros- es, And the voice I hear, Fall- ing on my ear, The Son of God dis- clos- _ es. And He walks with me, and He talks with me, And He tells me I am His own And the joy we share as we tar- ry there, None oth- er has ev- er known.
+v2: He speaks, and the sound of His voice Is so sweet the birds hush their sing- ing, And the mel- o- dy That He gave to me, With- in my heart is ring- _ ing. And He walks with me, and He talks with me, And He tells me I am His own And the joy we share as we tar- ry there, None oth- er has ev- er known.
+v3: I'd stay in the gar- den with Him Though the night a- round me be fall- ing, But He bids me go Through the voice of woe His voice to me is call- _ ing. And He walks with me, and He talks with me, And He tells me I am His own And the joy we share as we tar- ry there, None oth- er has ev- er known.

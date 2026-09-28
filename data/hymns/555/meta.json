@@ -1,0 +1,46 @@
+{
+ "number": 555,
+ "old_number": "",
+ "title_ko": "우리 주님 모신 가정",
+ "title_en": "God Abides with Us Our Home",
+ "original_title": "God Abides with Us Our Home",
+ "theme": "가정",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "박정선 (박정선)",
+ "lyricist": "임찬호 (임찬호)",
+ "credit_line_in_file": {
+  "composer": "박정선",
+  "lyricist": "엄원용"
+ },
+ "year": 1997,
+ "meter": "8.8.8.8 D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "555장 우리 주님 모신 가정.mscz",
+   "sha256": "0e58c5941da3f830fa920a6e676905958e4da15cb6ae736b8cc4e6a8e76412a7",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

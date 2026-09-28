@@ -1,0 +1,10 @@
+# 225 By Cool Siloam's Shady Rill
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, exact, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: By _ cool Si- lo- am's shad- y _ rill How sweet _ the lil- _ y grows! How sweet _ the breath be- _ neath the hill Of _ Shar- -'on's dew- y rose! _ _
+v2: Lo, _ such the child whose ear- ly _ feet The paths _ of peace _ have trod Whose se- _ cret heart, with _ in- fluence sweet, Is _ up- ward drawn to God. _ _
+v3: O _ Thou, who giv- est life and _ breath, We ask _ Thy grace _ a- lone, In child- hood, man- hood, age and death, To keep us _ still Thine own. A- men. _ _

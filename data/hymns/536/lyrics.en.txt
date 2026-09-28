@@ -1,0 +1,11 @@
+# 536 Come, Every Soul by Sin Oppressed
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, exact, exact, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Come, ev- ery soul by sin op- pressed, The- re's mer- cy with the Lord, And He will sure- ly give you rest, By trust- ing in His word. On- ly _ trust Him, on- ly trust Him, On- ly trust Him now He will save you, He will save you, He will save you now.
+v2: For Je- sus shed His pre- cious blood Rich bless- ings to be- stow On- ly trust Him, on- ly trust Him, On- ly trust Him now He will save you, _ He will save you, He will save you now. Plunge now in- to _ the crim- son flood That wash- es white as snow.
+v3: Yes, Je- sus is the Truth, the Way, That leads you in- to rest Be- lieve in Him with- out de- lay, And you are ful- ly blest. On- ly trust _ Him, on- ly trust Him, On- ly trust Him now He will save _ you, He will save you, He will save you now.
+v4: Come, then, and join this ho- ly band, And on to glo- ry go, To dwell in that ce- les- tial land, Where joys im- mor- tal flow. On- _ ly _ trust Him, on- ly trust Him, On- ly trust Him now He will _ save you,He will save you He will save you now.

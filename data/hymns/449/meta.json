@@ -1,0 +1,46 @@
+{
+ "number": 449,
+ "old_number": 377,
+ "title_ko": "예수 따라가며",
+ "title_en": "When We Walk with the Lord",
+ "original_title": "Trust and Obey",
+ "theme": "제자의도리",
+ "key_table": "F",
+ "time_table": "3/4",
+ "composer": "대니얼 B. 타우너 (Daniel Brink Towner)",
+ "lyricist": "존 H. 새미스 (John Henry Sammis) · 1846~1919",
+ "credit_line_in_file": {
+  "composer": "W.H.Doane",
+  "lyricist": "J.H.Sammis"
+ },
+ "year": 1887,
+ "meter": "6.6.9.D with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1919; work dated 1887"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1919; work dated 1887"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "449장 예수 따라가며.mscz",
+   "sha256": "8f575aba43be88ebc15a1e39aa89a6cd4571d4bee49e6465766915ead3fd4da6",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

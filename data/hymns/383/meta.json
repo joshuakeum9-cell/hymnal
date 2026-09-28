@@ -1,0 +1,46 @@
+{
+ "number": 383,
+ "old_number": 433,
+ "title_ko": "눈을 들어 산을 보니",
+ "title_en": "To the Hills I Lift Mine Eyes",
+ "original_title": "I to the Hills Will Lift Mine Eyes (Psalm 121 paraphrase)",
+ "theme": "인도와보호",
+ "key_table": "D",
+ "time_table": "3/4",
+ "composer": "미국 전통 곡조 (Wyeth 1813 출처) (Traditional American Melody (Wyeth's Repository, 1813))",
+ "lyricist": "피득 (A. A. 피터스, 시편 121편 운문화) (Alexander A. Pieters (Psalm 121 paraphrase)) · 1872~1958",
+ "credit_line_in_file": {
+  "composer": "American melody",
+  "lyricist": "A.A.Pieters"
+ },
+ "year": 1813,
+ "meter": "8.7.8.7.D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 미국 전통 곡조 (Wyeth 1813 출처) (Traditional American Melody (Wyeth's Repository, 1813))"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1958; work dated 1813"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "383장 눈을 들어 산을 보니.mscz",
+   "sha256": "a3ee8d0644ede7e9fec23f499d0ffb22e28632bcbd96f929db57eec99f9e398f",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

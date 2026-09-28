@@ -1,0 +1,10 @@
+# 220 In One Fraternal Bond Of Love
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: In one fra- ter- nal bond of love To Christ the Lord of Love we sing, Think on that grace all grace a- bove, And praise with joy our Lord and Kind! As Je- sus did, so, Lord, may we Love as our- self all those in need, Com- fort who grieve, E- ven as He, And learn to love in heart and deed.
+v2: To Christ the Lord of Love, we give Soul, spir- it, strength, mind, hearts, and nerve, In grief or joy, for Him to live, And Him a- lone as Lord to serve. Lord, help us serve as love com- mands As tow- el girt our Sav- iour show'd, Wash- ing soil'd feet With ho- ly hands! Help us to walk that ser- vant road.
+v3: If Je- sus Christ be Lord in- deed, To you, as He is Lord to me, Then com- rade! friend! oh, be as- sur'd! One blood, one bo- dy all are we. Shall we not then draw clos- er still, Heart, hand and hope and ser- vice one Be- lov- ed, come! Our Fa- ther's will In and through us may yet be done!

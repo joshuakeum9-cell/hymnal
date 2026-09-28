@@ -1,0 +1,46 @@
+{
+ "number": 504,
+ "old_number": 266,
+ "title_ko": "주님의 명령 전할 사자여",
+ "title_en": "Heralds of Christ, Who Bear the King's Commands",
+ "original_title": "Heralds of Christ, Who Bear the King's Commands",
+ "theme": "세계선교",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "조지 W. 워런 (George William Warren)",
+ "lyricist": "로라 스케러 코펜하버 (Laura Lu Scherer Copenhaver) · 1868~1940",
+ "credit_line_in_file": {
+  "composer": "G.W.Warren",
+  "lyricist": "L.S.Copenhaver"
+ },
+ "year": 1892,
+ "meter": "10.10.10.10",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1902; work dated 1892"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1940; work dated 1892"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "504장 주님의 명령 전할 사자여.mscz",
+   "sha256": "8d2af8fccac5ef8c217d18b6a903a7cd6ea5bac0f7ab6a60db546173ff10aad7",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

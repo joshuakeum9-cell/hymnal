@@ -1,0 +1,46 @@
+{
+ "number": 349,
+ "old_number": 387,
+ "title_ko": "나는 예수 따라가는",
+ "title_en": "Am I a Soldier of The Cross",
+ "original_title": "Am I a Soldier of the Cross",
+ "theme": "분투와승리",
+ "key_table": "Bb",
+ "time_table": "6/4",
+ "composer": "L. N. 모리스 (Lelia N. Morris)",
+ "lyricist": "아이작 왓츠 (1·3절) · L. N. 모리스 (2절·후렴) (Isaac Watts (vv.1,3) & Lelia N. Morris (v.2 & refrain)) · 1674~1748",
+ "credit_line_in_file": {
+  "composer": "L.N.Morris",
+  "lyricist": "I.Watts"
+ },
+ "year": 1898,
+ "meter": "8.6.8.6.D with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1929; work dated 1898"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1748; work dated 1898"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "349장 나는 예수 따라가는.mscz",
+   "sha256": "8c53c8d56ab9ce0457f1be86e904f4a6c6ab49de9f153a10a4f43ebcba154a0c",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

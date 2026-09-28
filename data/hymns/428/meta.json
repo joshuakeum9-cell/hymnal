@@ -1,0 +1,46 @@
+{
+ "number": 428,
+ "old_number": 488,
+ "title_ko": "내 영혼에 햇빛 비치니",
+ "title_en": "There's Sunshine in My Soul Today",
+ "original_title": "Sunshine in My Soul",
+ "theme": "미래와소망",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "존 R. 스위니 (John Robson Sweney)",
+ "lyricist": "엘리자 휴잇 (Eliza Edmunds Hewitt) · 1851~1920",
+ "credit_line_in_file": {
+  "composer": "J.R.Sweney",
+  "lyricist": "E.E.Hewitt"
+ },
+ "year": 1887,
+ "meter": "9.6.8.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1899; work dated 1887"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1920; work dated 1887"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "428장 내 영혼에 햇빛 비치니.mscz",
+   "sha256": "92dbf7ae315338f50f5245007ac145dccebfb7694e29be0522c873658abd7a4e",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

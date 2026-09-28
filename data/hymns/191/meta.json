@@ -1,0 +1,46 @@
+{
+ "number": 191,
+ "old_number": 427,
+ "title_ko": "내가 매일 기쁘게",
+ "title_en": "I'm Rejoicing Night and Day",
+ "original_title": "He Abides",
+ "theme": "성령강림",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "독 M. 섕크스 (D. M. Shanks)",
+ "lyricist": "허버트 E. 버펌 (Herbert Emery Buffum) · 1879~1939",
+ "credit_line_in_file": {
+  "composer": "D.M.Shanks",
+  "lyricist": "H.Buffum"
+ },
+ "year": 1912,
+ "meter": "7.7.11.7.7.9 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1912, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1939; work dated 1912"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "191장 내가 매일 기쁘게.mscz",
+   "sha256": "dfa83cdd4d4af0bc650158a08d18e896fb9a7710bcec39d0d50e4aa2f39c67b8",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

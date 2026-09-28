@@ -1,0 +1,46 @@
+{
+ "number": 238,
+ "old_number": "",
+ "title_ko": "해 지는 저편",
+ "title_en": "Beyond the Sunset",
+ "original_title": "Beyond the Sunset",
+ "theme": "천국",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "블랑쉬 커 브록 (Blanche Kerr Brock)",
+ "lyricist": "버질 프렌티스 브록 (Virgil Prentiss Brock) · 1887~1978",
+ "credit_line_in_file": {
+  "composer": "B.K.Brock",
+  "lyricist": "V.T.Brock"
+ },
+ "year": 1936,
+ "meter": "10.9.10.9",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "author died 1978, after 1962"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "author died 1978, after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "238장 해 지는 저편.mscz",
+   "sha256": "aa9b68730626edb679630f77a635e1d309bbfb143f16d2f646be255ff4378968",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

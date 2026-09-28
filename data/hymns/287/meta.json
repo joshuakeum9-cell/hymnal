@@ -1,0 +1,46 @@
+{
+ "number": 287,
+ "old_number": 205,
+ "title_ko": "예수 앞에 나오면",
+ "title_en": "Tis for You and Me",
+ "original_title": "",
+ "theme": "거룩한생활",
+ "key_table": "Eb",
+ "time_table": "3/4",
+ "composer": "신편 찬송가 (1935) (신편 찬송가 (1935) 출처)",
+ "lyricist": "신편 찬송가 (1935) (신편 찬송가 (1935) 출처)",
+ "credit_line_in_file": {
+  "composer": "Anonymous",
+  "lyricist": "Anonymous"
+ },
+ "year": 1935,
+ "meter": "7.6.7.5 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "work dated 1935, may still be in copyright"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "work dated 1935, may still be in copyright"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "287장 예수 앞에 나오면.mscz",
+   "sha256": "c2ecb391a38ae462f7b72b935cbc09ea112e075ac9c1b4a2301dfbbbce690cfb",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

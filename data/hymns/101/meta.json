@@ -1,0 +1,46 @@
+{
+ "number": 101,
+ "old_number": 106,
+ "title_ko": "이새의 뿌리에서",
+ "title_en": "Lo, How a Rose E'er Blooming",
+ "original_title": "Lo, How a Rose E'er Blooming",
+ "theme": "구주강림",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "미하엘 프레토리우스 (Michael Praetorius (harmonization))",
+ "lyricist": "미상 (독일) (Anonymous (German))",
+ "credit_line_in_file": {
+  "composer": "Anonymous",
+  "lyricist": "German Carol"
+ },
+ "year": 1599,
+ "meter": "7.6.7.6.6.7.6",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1621; work dated 1599"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 미상 (독일) (Anonymous (German))"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "101장 이새의 뿌리에서.mscz",
+   "sha256": "f52b9442e7f4e9bea4a96a04851fe41d7460121ac20b166cbf73b22ea87f3acc",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

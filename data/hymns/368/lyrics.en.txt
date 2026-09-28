@@ -1,0 +1,12 @@
+# 368 Heart Longings
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: rough (per verse: exact, auto, exact, rough, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Heart long- ings, Lord Je- sus, I lift to the throne: For grace, and for full- ness of soul While, hun- gry and thirst- y, my heart asks a- lone Thy Spir- it, pour'd forth to make whole. Lord Je- sus, grant grace in its full- ness Brim- full in my heart to be pour'd Thou on- ly my strength and my whole- ness, Thou, Thou art my plen- ty, Lord!
+v2: Lord Je- _ sus, break from the bonds of my sin, That I may be pure, ev- -'ry part Let earth- ly de- ceits have no lodg- ing with- in, No crev- ice to hide in my heart. Lord Je- sus, grant grace in its full- ness Brim- full in my heart to be pour'd Thou on- ly my strength and my whole- ness, Thou, Thou art my plen- ty, Lord!
+v3: Lord Je- sus, grant faith such as Ja- cob's that night, To wres- tle in pray'r and not cease And though the world's bil- lows mount high in their might, Still grant me the gift of Thy peace. Lord Je- sus, grant grace in its full- ness Brim- full in my heart to be pour'd Thou on- ly my strength and my whole- ness, Thou, Thou art my plen- ty, Lord!
+v4: Lord _ _ _ _ _ _ Je- _ _ sus, let love _ _ _ _ _ like the love _ _ _ _ _ in _ _ _ Thy heart _ _ Be mine with- out let or _ al- loy Un- til I am fill'd to _ the ut- ter- most part, To live _ _ _ _ _ in Thy love and _ _ _ Thy joy.
+v5: Lord Je- sus, I know that Thy Spir- it, who came To live in my heart, there will dwell. Now grant the great gift in the strength of Thy name That I may but serve my Lord well. Lord Je- sus, grant grace in its full- ness Brim- full in my heart to be pour'd Thou on- ly my strength and my whole- ness, Thou, Thou art my plen- ty, Lord!

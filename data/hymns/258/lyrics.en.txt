@@ -1,0 +1,12 @@
+# 258 There is a Fountain Filled with Blood
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: There _ is a foun- tain filled with blood Drawn _ from Im- man- _ uel's _ veins And _ sin- ners, plunged be- neath that flood, Lose _ all their guilt- y stains: Lose _ all their guilt- y stains, _ _ Lose all their guilt- _ y _ stains And _ sin- ners, plunged be- neath that flood, Lose _ all their guilt- y stains. _ _
+v2: The _ dy- ing thief re- joiced to see That _ foun- tain in _ his _ day And _ there may I, though vile as he, Wash _ all my sins a- way: Wash _ all my sins a- way, _ _ Wash all my sins _ a- _ way And _ there may I, though vile as he, Wash _ all my sins a- way. _ _
+v3: Dear _ dy- ing Lamb, Thy pre- cious blood Shall _ nev- er lose _ its _ pow'r, Till _ all the ran- somed Church of God, Be _ saved, to sin no more: Be _ saved, to sin no more, _ _ Be saved, to sin _ no _ more Till _ all the ran- somed Church of God, Be _ saved, to sin no more: _ _
+v4: E'er _ since by faith I saw the stream Thy _ flow- ing wounds _ sup- _ ply, Re- _ deem- ing love has been my theme, And _ shall be till I die: And _ shall be till I die, _ _ And shall be till _ I _ die Re- _ deem- ing love has been my theme, And _ shall be till I die: _ _
+v5: When _ this poor lisp- ing, stamm'r- ing tongue Lies _ sin- lent in _ the _ grave, Then _ in a no- bler, sweet- er song, I'll _ sing Thy pow'r to save: I'll _ sing Thy pow'r to save, _ _ I'll sing Thy pow'r _ to _ save Then _ in a no- bler, sweet- er song, I'll _ sing Thy pow'r to save. A- men.

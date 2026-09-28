@@ -1,0 +1,46 @@
+{
+ "number": 110,
+ "old_number": "",
+ "title_ko": "고요하고 거룩한 밤",
+ "title_en": "Silent Night and Oh, Holy Night",
+ "original_title": "Silent and Holy Night (Korean original)",
+ "theme": "성탄",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "장수철 (Jang Su-chul)",
+ "lyricist": "임긍칠 (Im Geung-chil)",
+ "credit_line_in_file": {
+  "composer": "장수철",
+  "lyricist": "임성길"
+ },
+ "year": 1951,
+ "meter": "8.7.8.7 D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "110장 고요하고 거룩한 밤.mscz",
+   "sha256": "dd4d77bb8b3e04e1bb27620d6911693b6c0758a29ed18249e919b9e6ded48998",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

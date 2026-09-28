@@ -1,0 +1,11 @@
+# 228 Here, O My Lord, I See Thee Face To Face
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, exact, auto, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Here, O my Lord, I see Thee face to face, Here would I touch and han- dle things un- seen, Here grasp with firm- er hand e- ter- nal grace, And all my wea- ri- ness up- on Thee lean. _ _
+v2: Here would I feed up- on the bread of God, Here drink with Thee the roy- al wine of heav'n, Here would I lay a- side each ear- thly load, Here taste a- fresh the calm of sin for- giv'n. _ _
+v3: I have no help but Thine, nor do I need An- oth- er arm save Thine to lean up- on It is e- nough, my Lord, e- nough in- deed! My _ strength's in Thy might, Thy might a- lone. _ _
+v4: Feast af- ter feast thus comes and pass- es by, Yet, pass- ing, points to that glad feast a- bove, Giv- ing sweet fore- taste of the fes- tal joy, The Lamb's great brid- al feast of bliss and love. A- men.

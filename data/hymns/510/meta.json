@@ -1,0 +1,46 @@
+{
+ "number": 510,
+ "old_number": 276,
+ "title_ko": "하나님의 진리 등대",
+ "title_en": "Brightly Beams Our Father's Mercy",
+ "original_title": "Brightly Beams Our Father's Mercy (Let the Lower Lights Be Burning)",
+ "theme": "세계선교",
+ "key_table": "Ab",
+ "time_table": "3/4",
+ "composer": "필립 P. 블리스 (Philip Paul Bliss)",
+ "lyricist": "필립 P. 블리스 (Philip Paul Bliss) · 1838~1876",
+ "credit_line_in_file": {
+  "composer": "P.P.Bliss",
+  "lyricist": "P.P.Bliss"
+ },
+ "year": 1871,
+ "meter": "8.7.8.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1876; work dated 1871"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1876; work dated 1871"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "510장 하나님의 진리 등대.mscz",
+   "sha256": "8292972d041272e64e8623643eeaaa55c0fdb22a168e7aef018d34aab741e7da",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

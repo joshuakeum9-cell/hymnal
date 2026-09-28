@@ -1,0 +1,46 @@
+{
+ "number": 286,
+ "old_number": 218,
+ "title_ko": "주 예수님 내 맘에 오사",
+ "title_en": "Come into My Heart, Blessed Jesus",
+ "original_title": "Into My Heart (Come Into My Heart, Lord Jesus)",
+ "theme": "거룩한생활",
+ "key_table": "F",
+ "time_table": "6/4",
+ "composer": "해리 더들리 클라크 (Harry Dudley Clarke)",
+ "lyricist": "해리 더들리 클라크 (Harry Dudley Clarke) · 1888~1957",
+ "credit_line_in_file": {
+  "composer": "H.D.Clarke",
+  "lyricist": "H.D.Clarke"
+ },
+ "year": 1924,
+ "meter": "9.7.8.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1957; work dated 1924"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1957; work dated 1924"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "286장 주 예수님 내 맘에 오사.mscz",
+   "sha256": "2c887cdf8e342108346e285cdd53207df704f590c9614baf4051f043c162e0cb",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 291,
+ "old_number": 413,
+ "title_ko": "외롭게 사는 이 그 누군가",
+ "title_en": "Somebody Loves You",
+ "original_title": "Somebody Loves You",
+ "theme": "은혜와사랑",
+ "key_table": "Eb",
+ "time_table": "3/4",
+ "composer": "월터 스틸먼 마틴 (Walter Stillman Martin)",
+ "lyricist": "시빌라 더피 마틴 (Civilla Durfee Martin) · 1869~1948",
+ "credit_line_in_file": {
+  "composer": "W.S.Martin",
+  "lyricist": "C.D.Martin"
+ },
+ "year": 1929,
+ "meter": "10.10.10.12.10 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1948; work dated 1929"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1948; work dated 1929"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "291장 외롭게 사는 이 그 누군가.mscz",
+   "sha256": "40fba73777de328666c0e26695cbe5dc9dee6b914cbd008452f75b02e826b57a",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 382,
+ "old_number": 432,
+ "title_ko": "너 근심 걱정 말아라",
+ "title_en": "Be Not Dismayed Whate'er Betide",
+ "original_title": "God Will Take Care of You",
+ "theme": "인도와보호",
+ "key_table": "Bb",
+ "time_table": "6/8",
+ "composer": "W. S. 마틴 (Walter S. Martin)",
+ "lyricist": "C. D. 마틴 (Civilla D. Martin) · 1869~1948",
+ "credit_line_in_file": {
+  "composer": "W.S.Martin",
+  "lyricist": "C.D.Martin"
+ },
+ "year": 1904,
+ "meter": "8.6.8.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1948; work dated 1904"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1948; work dated 1904"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "382장 너 근심 걱정 말아라.mscz",
+   "sha256": "13525a68cc61e8a44bd825ad0fe29a5ccf964df5dd7bbd5e0fe0c163807e0ed4",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

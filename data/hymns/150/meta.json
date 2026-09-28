@@ -1,0 +1,46 @@
+{
+ "number": 150,
+ "old_number": 135,
+ "title_ko": "갈보리산 위에",
+ "title_en": "On a Hill Far Away",
+ "original_title": "The Old Rugged Cross",
+ "theme": "고난",
+ "key_table": "Bb",
+ "time_table": "6/8",
+ "composer": "조지 베나드 (George Bennard)",
+ "lyricist": "조지 베나드 (George Bennard) · 1873~1958",
+ "credit_line_in_file": {
+  "composer": "G.Bennard",
+  "lyricist": "G.Bennard"
+ },
+ "year": 1913,
+ "meter": "12.9.12.9 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1958; work dated 1913"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1958; work dated 1913"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "150장 갈보리산 위에.mscz",
+   "sha256": "d8d1f26382b29099bec613772ca7037fb9dce168d00d0ecd32e352fae93e9ebc",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

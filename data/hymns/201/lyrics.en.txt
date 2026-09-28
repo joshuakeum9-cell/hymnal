@@ -1,0 +1,11 @@
+# 201 O Word of God Incarnate
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, auto, auto, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: O _ Word of God In- car- nate, O Wis- dom _ from on high, O _ Truth un- changed, un- chang- ing, O Light of _ our dark sky: We praise Thee for the ra- diance That from the hal- lowed page, A Lan- tern to our foot- steps, Shines on from age to age. _ _
+v2: The _ Church from Thee her Mas- ter, Re- ceived the _ gift di- vine, And _ still that light she lift- eth O'er all _ _ earth to shine. It is the sa- cred cas- ket Where gems of truth are stored It is the heaven- drawn pic- ture Of Thee, the liv- ing Word. _ _
+v3: It _ float- eth like a ban- ner Be- fore God's _ host un- furled, It _ shin- eth like a bea- con A- bove the _ dark- ling world. It is the Chart and Com- pass That o'er li- fe's surg- ing sea, 'Mid mists and rocks and quick- sands, Still guides, O Christ, to _ Thee.
+v4: O _ make Thy Church, dear Sav- iour, A lamp of _ pur- est gold, To _ bear be- fore the na- tions Thy true light _ as of old. O teach Thy wan- d'ring pil- grims By this their path to trace, Till, clouds and dark- ness end- ed, They see Thee face to face. A- men.

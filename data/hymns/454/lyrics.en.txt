@@ -1,0 +1,10 @@
+# 454 More Like Jesus Would I Be
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, exact, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: More like Je- sus would I be, Let my sav- iour dwell in me Fill my soul with peace and love, Make me gen- tle as a dove More like Je- sus, while I go, Pil- grim in this world be- low Poor in spir- it would I be, Let my Sav- iour dwell in me. _ _
+v2: If He hears the rav- en's cry. If His ev- er watch- ful eye Marks the spar- rows when they fall, Sure- ly He will hear my call. He will teach me how to live, All my sin- ful thoughts for- give Pure in heart I still would be, Let my Sav- iour dwell in me. _ _
+v3: More like Je- sus when I pray, More like Je- sus day by day May I rest me by His side, Where the tran- quil wa- ters glide, Born of Him, through grace re- newed, By His love my will sub- dued, Rich in faith I still would be, Let _ my Sav- iour _ dwell in me.

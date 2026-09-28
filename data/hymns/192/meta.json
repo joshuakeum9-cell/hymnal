@@ -1,0 +1,46 @@
+{
+ "number": 192,
+ "old_number": "",
+ "title_ko": "임하소서 임하소서",
+ "title_en": "Come Upon Us, Come Upon Us",
+ "original_title": "Come, Come, Holy Spirit (Korean original)",
+ "theme": "성령강림",
+ "key_table": "D",
+ "time_table": "4/4",
+ "composer": "김은수 (Kim Eun-soo)",
+ "lyricist": "김성호 (김응조 목사의 제자, 악보 표기 김순호) (Kim Sung-ho (disciple of Rev. Kim Eung-jo))",
+ "credit_line_in_file": {
+  "composer": "임우상",
+  "lyricist": "김응조"
+ },
+ "year": 2000,
+ "meter": "8.8.8.8 D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "192장 임하소서 임하소서.mscz",
+   "sha256": "93b2c0e3e4bd5b4bda90c95d688282f0a819178928f1e44f508eb09e7de333a4",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

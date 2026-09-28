@@ -1,0 +1,46 @@
+{
+ "number": 522,
+ "old_number": 269,
+ "title_ko": "웬일인가 내 형제여",
+ "title_en": "Why Not Believe, My Brother?",
+ "original_title": "",
+ "theme": "부르심과영접",
+ "key_table": "Ab",
+ "time_table": "3/4",
+ "composer": "휴 윌슨 (Hugh Wilson)",
+ "lyricist": "찰스 웨슬리 (Charles Wesley) · 1707~1788",
+ "credit_line_in_file": {
+  "composer": "H.Wilson",
+  "lyricist": "C.Wesley"
+ },
+ "year": 1800,
+ "meter": "8.6.8.6 (CM)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1824; work dated 1800"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1788; work dated 1800"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "522장 웬일인가 내 형제여.mscz",
+   "sha256": "45d1c9050ab386aa3b0633e1510cfa22024f8109ca2c18c6f94ffe90574845bc",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

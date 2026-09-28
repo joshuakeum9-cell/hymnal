@@ -1,0 +1,46 @@
+{
+ "number": 348,
+ "old_number": 388,
+ "title_ko": "마귀들과 싸울지라",
+ "title_en": "Up, and Fight Against the Devil",
+ "original_title": "Up and Fight Against the Devil",
+ "theme": "분투와승리",
+ "key_table": "C",
+ "time_table": "4/4",
+ "composer": "W. 스테페 (미국 전통 곡조) (William Steffe (Traditional American Melody))",
+ "lyricist": "작자 미상 (미다니 다네키치 한국 도입) (Anonymous (intro. by Mitani Tanekichi))",
+ "credit_line_in_file": {
+  "composer": "W.Steffe",
+  "lyricist": "T.Mitani"
+ },
+ "year": 1856,
+ "meter": "15.15.15.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: W. 스테페 (미국 전통 곡조) (William Steffe (Traditional American Melody))"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 작자 미상 (미다니 다네키치 한국 도입) (Anonymous (intro. by Mitani Tanekichi))"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "348장 마귀들과 싸울지라.mscz",
+   "sha256": "9d80210de870a589a0dae104e1fcfe6ca9d0c93656359a63d5b8c9a381b530bb",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

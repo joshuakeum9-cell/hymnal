@@ -1,0 +1,46 @@
+{
+ "number": 327,
+ "old_number": 361,
+ "title_ko": "주님 주실 화평",
+ "title_en": "You Have Longed for Sweet Peace",
+ "original_title": "Is Your All on the Altar?",
+ "theme": "소명과충성",
+ "key_table": "Eb",
+ "time_table": "3/4",
+ "composer": "E. A. 호프만 (Elisha A. Hoffman)",
+ "lyricist": "E. A. 호프만 (Elisha A. Hoffman) · 1839~1929",
+ "credit_line_in_file": {
+  "composer": "E.A.Hoffman",
+  "lyricist": "E.A.Hoffman"
+ },
+ "year": 1900,
+ "meter": "12.9.12.9 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1929; work dated 1900"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1929; work dated 1900"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "327장 주님 주실 화평.mscz",
+   "sha256": "3bffd8cbe11dd96b52d22b6092d8cc3aad04db64ecfa843bcf302ab1ac6f12b8",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

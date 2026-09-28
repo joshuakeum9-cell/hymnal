@@ -1,0 +1,46 @@
+{
+ "number": 620,
+ "old_number": "",
+ "title_ko": "여기에 모인 우리",
+ "title_en": "Gathered Here, Within This Place",
+ "original_title": "We Will Keep Our Faith Alive!",
+ "theme": "경배와찬양",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "돈 베식 (Don Besig)",
+ "lyricist": "낸시 프라이스 (Nancy Price)",
+ "credit_line_in_file": {
+  "composer": "Don Besig",
+  "lyricist": "Nancy Price"
+ },
+ "year": 1990,
+ "meter": "7.6.7.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "work dated 1990, may still be in copyright"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "work dated 1990, may still be in copyright"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "620장 여기에 모인 우리.mscz",
+   "sha256": "710087eb078c824be8e0ac7a174aa6601aa18575146c8cc7f7f973c2feda014d",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

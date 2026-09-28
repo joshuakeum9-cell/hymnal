@@ -1,0 +1,46 @@
+{
+ "number": 438,
+ "old_number": 495,
+ "title_ko": "내 영혼이 은총 입어",
+ "title_en": "Since Christ My Soul from Sin Set Free",
+ "original_title": "Where Jesus Is 'Tis Heaven",
+ "theme": "주와동행",
+ "key_table": "Ab",
+ "time_table": "3/4",
+ "composer": "제임스 M. 블랙 (James Milton Black)",
+ "lyricist": "찰스 J. 버틀러 (Charles J. Butler)",
+ "credit_line_in_file": {
+  "composer": "J.M.Black",
+  "lyricist": "C.F.Butler"
+ },
+ "year": 1898,
+ "meter": "8.8.8.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1938; work dated 1898"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1898, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "438장 내 영혼이 은총 입어.mscz",
+   "sha256": "48bd45af58ededda0a892c0dd49ebe65180bedadba7193ea1e1bf455b64b58e9",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

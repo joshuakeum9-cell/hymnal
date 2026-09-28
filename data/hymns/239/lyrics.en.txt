@@ -1,0 +1,11 @@
+# 239 One Sweetly Solemn Thought
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: One sweet- ly sol- _ emn thought Comes to me o'er _ and o'er I'm near- er home _ to- day, to- day, Than I _ have been be- fore: Near- er my home, _ Near- er my home, Near- er my home _ to- day, to- day, Than I _ have been be- fore. _ _
+v2: Near- er my Fa- _ ther's house, Where man- y man- _ sions be Near- er the great _ white throne to- day, Near- er _ the crys- tal sea: Near- er my home, _ Near- er my home, Near- er my home _ to- day, to- day, Than I _ have been be- fore. _ _
+v3: Near- er the bound _ of life, Where bur- dens are _ laid down Near- er to leave _ the cross to- day, And near- _ er to the crown. Near- er my home, _ Near- er my home, Near- er my home _ to- day, to- day, Than I _ have been be- fore. _ _
+v4: Be near me when _ my feet Are slip- ping o'er _ the brink For I am near- _ er home to- day, Per- haps, _ than now I think. Near- er my home, _ Near- er my home, Near- er my home _ to- day, to- day, Than I _ have been be- fore. A- men.

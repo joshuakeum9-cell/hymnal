@@ -1,0 +1,46 @@
+{
+ "number": 465,
+ "old_number": 523,
+ "title_ko": "주 믿는 나 남 위해",
+ "title_en": "I Would be True",
+ "original_title": "I Would Be True",
+ "theme": "제자의도리",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "조지프 Y. 피크 (Joseph Yates Peek)",
+ "lyricist": "하워드 A. 월터 (Howard Arnold Walter) · 1883~1918",
+ "credit_line_in_file": {
+  "composer": "J.Y.Peek",
+  "lyricist": "H.A.Walter"
+ },
+ "year": 1909,
+ "meter": "11.10.11.10.10",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1911; work dated 1909"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1918; work dated 1909"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "465장 주 믿는 나 남 위해.mscz",
+   "sha256": "af9a423b5041823eb048c6d3c735b396a89ff3f85edcf6efcb81c549782c2251",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 630,
+ "old_number": "",
+ "title_ko": "진리와 생명 되신 주",
+ "title_en": "Spirit of Truth, of Life, of Power",
+ "original_title": "",
+ "theme": "기도송",
+ "key_table": "Ab",
+ "time_table": "3/4",
+ "composer": "호레이스 웨스트우드 (Horace Westwood)",
+ "lyricist": "호레이스 웨스트우드 (Horace Westwood) · 1884~?",
+ "credit_line_in_file": {
+  "composer": "H.Westwood",
+  "lyricist": "H.Westwood"
+ },
+ "year": null,
+ "meter": "8.8.8.8 (LM)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "credits marked ai-draft on the source page; check the book"
+  },
+  "text_en": {
+   "status": "unknown",
+   "basis": "no dates found; check the printed credit line"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "630장 진리와 생명 되신 주.mscz",
+   "sha256": "3088fdaa15f31cc98c491d637a63d5e5a8c56999de5c370731504ee80ef4c546",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

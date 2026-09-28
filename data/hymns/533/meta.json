@@ -1,0 +1,46 @@
+{
+ "number": 533,
+ "old_number": "",
+ "title_ko": "우리 주 십자가",
+ "title_en": "Have You Been to the Cross",
+ "original_title": "At the Cross",
+ "theme": "부르심과영접",
+ "key_table": "Eb",
+ "time_table": "3/4",
+ "composer": "B. B. 매키니 (Baylus Benjamin McKinney)",
+ "lyricist": "리처드 D. 베이커 (Richard D. Baker) · 1927~2011",
+ "credit_line_in_file": {
+  "composer": "R.D.Baker",
+  "lyricist": "R.D.Baker"
+ },
+ "year": null,
+ "meter": "IRREG.",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "unknown",
+   "basis": "no dates found; check the printed credit line"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "author died 2011, after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "533장 우리 주 십자가.mscz",
+   "sha256": "a90094099436edf54c1ede25d7a0fbd586305124b2cbd78490d36dc3ef49b762",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

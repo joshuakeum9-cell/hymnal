@@ -1,0 +1,46 @@
+{
+ "number": 515,
+ "old_number": 256,
+ "title_ko": "눈을 들어 하늘 보라",
+ "title_en": "Lift Your Eyes and Look to Heaven",
+ "original_title": "Lift Your Eyes and Look to Heaven",
+ "theme": "전도와교훈",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "박재훈 (박재훈)",
+ "lyricist": "석진영 (석진영)",
+ "credit_line_in_file": {
+  "composer": "박재훈",
+  "lyricist": "석진영"
+ },
+ "year": 1952,
+ "meter": "8.8.8.8 D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "515장 눈을 들어 하늘 보라.mscz",
+   "sha256": "860caa0abbcb5e33e73283d37d9083689016b9359b3fed6ba33530cc51fb0cbc",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

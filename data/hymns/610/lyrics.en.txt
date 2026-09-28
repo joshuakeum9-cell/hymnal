@@ -1,0 +1,10 @@
+# 610 When All My Labours and Trials are O'er
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, exact, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: When all my la- bours and tri- als are o'er And I am safe on that beau- ti- ful shore, Just to be near the dear Lord I a- dore, Will through the a- ges be glo- ry for me. O that will be glo- ry for me, Glo- ry for me, glo- ry for me When by His grace I shall look on His face, That will be glo- ry, be glo- ry for me. _ _
+v2: When, by the gift of His in- fi- nite grace, I am ac- cord- ed in heav- en a place, Just to be there and to look on His face, Will through the a- ges be glo- ry for me. O that will be glo- ry for me, Glo- ry for me, glo- ry for me When by His grace I shall look on His face, That will be glo- ry, be glo- ry for me. _ _
+v3: Friends will be there I have loved long a- go Joy like a riv- er a- round me will flow Yet, just a smile from my Sav- iour, I know, Will through the a- ges be glo- ry for me. O that will be glo- ry for me, Glo- ry for me, glo- ry for me When by His grace I shall look on His face, That will be glo- ry, be glo- _ ry _ for me.

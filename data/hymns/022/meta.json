@@ -1,0 +1,46 @@
+{
+ "number": 22,
+ "old_number": 26,
+ "title_ko": "만유의 주 앞에",
+ "title_en": "Rejoice, the Lord is King",
+ "original_title": "Rejoice, the Lord is King",
+ "theme": "찬양",
+ "key_table": "D",
+ "time_table": "4/4",
+ "composer": "존 다월 (John Darwall)",
+ "lyricist": "찰스 웨슬리 (Charles Wesley) · 1707~1788",
+ "credit_line_in_file": {
+  "composer": "J.Darwall",
+  "lyricist": "C.Wesley"
+ },
+ "year": 1770,
+ "meter": "6.6.6.6.8.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1789; work dated 1770"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1788; work dated 1770"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "22장 만유의 주 앞에.mscz",
+   "sha256": "5fb4cccca40830115832476b1b6dedec58db1ee8ef2e39fb211b360b8ba028bb",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

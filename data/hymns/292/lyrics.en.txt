@@ -1,0 +1,11 @@
+# 292 I Could Not Do Without Thee
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, exact, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: I _ could not do with- out Thee, O _ Sav- iour of the lost, Whose won- drous love re- deemed me, At such _ tre- men- dous cost Thy right- _ eous- ness, Thy par- don, _ Thy pre- cious blood must be My on- _ ly hope and com- fort, My _ _ glo- ry and my plea. _ _
+v2: I _ could not do with- out Thee, I _ can- not stand a- lone, I _ have no strength or good- ness, No _ wis- dom of my own But _ Thou be- love- d Sav- _ iour, Art all in all to me, And _ weak- ness will be pow- er If _ lean- ing hard on Thee. _ _
+v3: I _ could not do with- out Thee, No _ oth- er friend can read, The _ spir- it's strange deep long- ings, _ _ Inter- pret- ing its need No _ hu- man heart could en- _ ter, Each dim re- cess of mine, And _ soothe, an hush, and calm it, O _ bless- ed Lord, but Thine. _ _
+v4: I _ could not do with- out Thee, For _ years are fleet- ing fast, And _ soon in sol- emn lone- ness The _ ri- ver must be passed But _ Thou wilt ne- ver leave _ me, And though the waves roll high, I _ know _ Thou wilt be near _ _ me, And whis- per, “It is I."

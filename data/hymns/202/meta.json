@@ -1,0 +1,46 @@
+{
+ "number": 202,
+ "old_number": 241,
+ "title_ko": "하나님 아버지 주신 책은",
+ "title_en": "I am so Glad that Our Father in Heav'n",
+ "original_title": "Jesus Loves Even Me (I Am So Glad That Our Father in Heaven)",
+ "theme": "성경",
+ "key_table": "G",
+ "time_table": "6/8",
+ "composer": "필립 폴 블리스 (Philip Paul Bliss)",
+ "lyricist": "필립 폴 블리스 (Philip Paul Bliss) · 1838~1876",
+ "credit_line_in_file": {
+  "composer": "P.P.Bliss",
+  "lyricist": "P.P.Bliss"
+ },
+ "year": 1870,
+ "meter": "10.10.10.10 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1876; work dated 1870"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1876; work dated 1870"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "202장 하나님 아버지 주신 책은.mscz",
+   "sha256": "4b29fe8a2324a7f64604eba90a6f51a5aa0d1f2814072b5a787eabf36330a420",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

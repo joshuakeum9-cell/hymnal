@@ -1,0 +1,10 @@
+# 204 Those Who Hear and Do The Word
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Those who hear and do the word Of the Mas- ter ev- er, Build a house on sol- id rock, To be shak- en nev- er. When the rains, and floods ap- pall, All the tem- pests' fu- ry Can- not shake it, stand- ing tall, On the rock, se- cure- ly. Build we well, Build to last, Build our house to- geth- er On the Rock of A- ges, fast, _ Build to stand for- ev- er!
+v2: Those who hear and do not do, In the words de- light- ing, Build a house on shift- ing sand, Ru- in swift in- vit- ing. When the rains and floods ap- pall, As the blows fall fast- er, Built on sand, the house must fall. In com- plete dis- as- ter. Build we well, Build to last, Build our house to- geth- er On the Rock of A- ges, fast, _ Build to stand for- ev- er!
+v3: No one lives but builds a house, High or low our sta- tion, Builds on Christ the Rock, or else Sand, with- out found- a- tion. Christ will come and judge us each Af- ter our en- deav- or, Rock or sand, to fall or stand, Stand or fall for- ev- er. Build we well, Build to last, Build our house to- geth- er On the Rock of A- ges, fast, _ Build to stand for- ev- er!

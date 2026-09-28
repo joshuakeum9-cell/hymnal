@@ -1,0 +1,46 @@
+{
+ "number": 136,
+ "old_number": "",
+ "title_ko": "가나의 혼인 잔치",
+ "title_en": "Wedding Feast Jesus Went",
+ "original_title": "At Cana's Wedding Feast (Korean original)",
+ "theme": "생애",
+ "key_table": "D",
+ "time_table": "4/4",
+ "composer": "박정화 (또는 박종원) (Park Jung-hwa (or Park Jong-won))",
+ "lyricist": "이무경 (또는 이수경) (Lee Moo-kyung (or Lee Su-kyung))",
+ "credit_line_in_file": {
+  "composer": "박정화",
+  "lyricist": "이무경"
+ },
+ "year": 2000,
+ "meter": "7.8.7.7 D with refrain",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "136장 가나의 혼인 잔치.mscz",
+   "sha256": "b3dfea3d5723d218664bde71f85a7402fc8c6d2528a0ce45267a1d3435116b5a",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

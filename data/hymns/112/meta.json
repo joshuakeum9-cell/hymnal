@@ -1,0 +1,46 @@
+{
+ "number": 112,
+ "old_number": 112,
+ "title_ko": "그 맑고 환한 밤중에",
+ "title_en": "It Came Upon The Midnight Clear",
+ "original_title": "It Came Upon the Midnight Clear",
+ "theme": "성탄",
+ "key_table": "Bb",
+ "time_table": "6/8",
+ "composer": "리처드 윌리스 (Richard Storrs Willis)",
+ "lyricist": "에드먼드 시어스 (Edmund Hamilton Sears) · 1810~1876",
+ "credit_line_in_file": {
+  "composer": "R.S.Willis",
+  "lyricist": "E.H.Sears"
+ },
+ "year": 1850,
+ "meter": "8.6.8.6 D (CMD)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1900; work dated 1850"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1876; work dated 1850"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "112장 그 맑고 환한 밤중에.mscz",
+   "sha256": "22af84aa390846f88210769f94c80846e70b5bbccb73146169cbbbb6437523ac",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

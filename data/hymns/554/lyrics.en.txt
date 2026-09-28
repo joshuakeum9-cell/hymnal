@@ -1,0 +1,11 @@
+# 554 Ring Out the Old, Ring in the New
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Ring out the old, ring in the new, Ring, hap- py bells, a- cross the snow The year is go- ing, let him go Ring out the false, ring in the true. _ _
+v2: Ring out a slow- ly dy- ing cause, And an- cient forms of par- ty strife, Ring in the no- bler modes of life, With sweet- er man- ners, pur- er laws. _ _
+v3: Ring our old shapes of foul dis- ease Ring out the nar- rowing lust of gold, Ring out the thou- sand wars of old, Ring in the thou- sand years of peace. _ _
+v4: Ring in the val- iant man and free, The larg- er heart, the kind- lier hand Ring out the dark- ness of the land, Ring in the Christ that is to be. A- men.

@@ -1,0 +1,46 @@
+{
+ "number": 636,
+ "old_number": "",
+ "title_ko": "하늘에 계신(주기도문)",
+ "title_en": "Our Father Who Art in Heaven",
+ "original_title": "The Lord's Prayer (Downes)",
+ "theme": "기도송",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "L. T. 다운스 (L. T. Downes)",
+ "lyricist": "예수 그리스도 (마 6:9-13) (Jesus Christ (Matthew 6:9-13))",
+ "credit_line_in_file": {
+  "composer": "L.T.Downes",
+  "lyricist": "The Lord\\'s Prayer"
+ },
+ "year": null,
+ "meter": "IRREG.",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "credits marked ai-draft on the source page; check the book"
+  },
+  "text_en": {
+   "status": "unknown",
+   "basis": "no dates found; check the printed credit line"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "636장 하늘에 계신(주기도문).mscz",
+   "sha256": "a20b72d5d9be9500a3ece681814ca854b91e42b571320e50e7fd72d3f2a14d76",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

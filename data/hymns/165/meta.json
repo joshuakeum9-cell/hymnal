@@ -1,0 +1,46 @@
+{
+ "number": 165,
+ "old_number": 155,
+ "title_ko": "주님께 영광",
+ "title_en": "Thine is the Glory",
+ "original_title": "Thine Be the Glory (À toi la gloire)",
+ "theme": "부활",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "게오르크 프리드리히 헨델 (George Frideric Handel)",
+ "lyricist": "에드몽 부드리 / 호일 영역 (Edmond Louis Budry, tr. Richard B. Hoyle) · 1854~1932",
+ "credit_line_in_file": {
+  "composer": "G.F.Handel",
+  "lyricist": "E.L.Budry"
+ },
+ "year": 1747,
+ "meter": "10.11.11.11 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1759; work dated 1747"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1932; work dated 1747"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "165장 주님께 영광.mscz",
+   "sha256": "28a85085e7826611006c43a06d84bb8e454ff3bbc8154eef843033f1f6de911d",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

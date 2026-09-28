@@ -1,0 +1,46 @@
+{
+ "number": 207,
+ "old_number": 243,
+ "title_ko": "귀하신 주님 계신 곳",
+ "title_en": "Jesus, Where'er Thy People Meet",
+ "original_title": "Jesus, Where'er Thy People Meet",
+ "theme": "하나님나라",
+ "key_table": "Eb",
+ "time_table": "2/2",
+ "composer": "존 해튼 (John Hatton)",
+ "lyricist": "윌리엄 쿠퍼 (William Cowper) · 1731~1800",
+ "credit_line_in_file": {
+  "composer": "J.Hatton",
+  "lyricist": "W.Cowper"
+ },
+ "year": 1793,
+ "meter": "8.8.8.8 (L.M.)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1793, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1800; work dated 1793"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "207장 귀하신 주님 계신 곳.mscz",
+   "sha256": "c05aa8e612248b0a7d691689e712b568885c67488133c8fa1ab3f725a0f9637f",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

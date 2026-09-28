@@ -1,0 +1,46 @@
+{
+ "number": 254,
+ "old_number": 186,
+ "title_ko": "내 주의 보혈은",
+ "title_en": "I Hear Thy Welcome Voice",
+ "original_title": "I Hear Thy Welcome Voice",
+ "theme": "회개와용서",
+ "key_table": "Eb",
+ "time_table": "3/4",
+ "composer": "루이스 하트소우 (Lewis Hartsough)",
+ "lyricist": "루이스 하트소우 (Lewis Hartsough) · 1828~1919",
+ "credit_line_in_file": {
+  "composer": "L.Hartsough",
+  "lyricist": "L.Hartsough"
+ },
+ "year": 1872,
+ "meter": "6.6.8.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1919; work dated 1872"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1919; work dated 1872"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "254장 내 주의 보혈은.mscz",
+   "sha256": "83d062effacc56e1273ae7f61c9300dbd80107495e29bec4ae7bf75402f348d2",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

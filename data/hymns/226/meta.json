@@ -1,0 +1,46 @@
+{
+ "number": 226,
+ "old_number": "",
+ "title_ko": "성령으로 세례 받아",
+ "title_en": "Child of Blessings, Child of Promise",
+ "original_title": "Child of Blessing, Child of Promise",
+ "theme": "세례침례)",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "크리스티안 프리드리히 비트 (H. J. 곤틀릿 편곡) (Christian Friedrich Witt (adapt. H. J. Gauntlett 1861))",
+ "lyricist": "로널드 S. 콜-터너 (Ronald S. Cole-Turner) · 1948~?",
+ "credit_line_in_file": {
+  "composer": "C.F.Witt/H.J.Gauntlett",
+  "lyricist": "R.S.Cole-Turner"
+ },
+ "year": 1715,
+ "meter": "8.7.8.7",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1715, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1715, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "226장 성령으로 세례 받아.mscz",
+   "sha256": "dc115052bdb198e4ea457c0e0fc797081911bfb327780a2c3d2a6eb3b877f10d",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 416,
+ "old_number": "",
+ "title_ko": "너희 근심 걱정을",
+ "title_en": "All Your Cares and Worries, Too",
+ "original_title": "Cast Your Burdens on Me (Korean original)",
+ "theme": "평안과위로",
+ "key_table": "Eb",
+ "time_table": "6/8",
+ "composer": "김수정 (Kim Soo-jung)",
+ "lyricist": "최인호 (Choi In-ho)",
+ "credit_line_in_file": {
+  "composer": "김수정",
+  "lyricist": "최진호"
+ },
+ "year": 2005,
+ "meter": "7.7.7.7.D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "416장 너희 근심 걱정을.mscz",
+   "sha256": "60a7e92b86bd6c3f94b38c9b7902f4bf23db583bd0a05fbf4f0e024110c5b604",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

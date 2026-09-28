@@ -1,0 +1,46 @@
+{
+ "number": 102,
+ "old_number": 107,
+ "title_ko": "영원한 문아 열려라",
+ "title_en": "Lift Up Your Heads, Ye Mighty Gates",
+ "original_title": "Lift Up Your Heads, Ye Mighty Gates",
+ "theme": "구주강림",
+ "key_table": "D",
+ "time_table": "4/4",
+ "composer": "토머스 윌리엄스 (Thomas Williams (Psalmodia Evangelica))",
+ "lyricist": "게오르크 바이셀 (Georg Weissel) · 1590~1635",
+ "credit_line_in_file": {
+  "composer": "T.Williams",
+  "lyricist": "G.Weissel"
+ },
+ "year": 1789,
+ "meter": "8.8.8.8 (LM)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1789, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1635; work dated 1789"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "102장 영원한 문아 열려라.mscz",
+   "sha256": "749412e842248efce8afbcf89a98dfc6c96d57cf51d183bd02a67873bee09c1b",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

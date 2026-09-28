@@ -1,0 +1,11 @@
+# 309 My Soul Today is Thirsting
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: My soul to- day is thirst- ing for liv- ing streams di- vine, To sweep from high- est heav- en to this poor heart of mine I stand up on the prom- ise, in Je- _ sus'name I plead O send the gra- cious cur- rent to sat- is- fy my need. Like a might- y sea, like a might- y sea, Comes the love of Je- sus, sweep- ing o- ver me The waves of glo- ry roll, the Sav- iour to ex- tol, Comes the love of Je- sus, sweep- ing o'er my soul.
+v2: I see the clouds a- ris- ing the mer- cy clouds of love, That come to bring re- fresh- ing down from the throne a- bove, The ear- nest of the show- er, just now to us is giv'n, And now we wait, ex- pect- ing the floods of grace from heav'n. Like a might- y sea, like a might- y sea, Comes the love of Je- sus, sweep- ing o- ver me The waves of glo- ry roll, the Sav- iour to ex- tol, Comes the love of Je- sus, sweep- ing o'er my soul.
+v3: The show'rs of grace are fall- ing the tide is roll- ing in, The flood- tide of sal- va- tion, with pow'r to cleanse from sin It's surg- ing thro' my be- ing and takes my sin a- way, It keeps me shout- ing glo- ry! thro' all the hap- py day. Like a might- y sea, like a might- y sea, Comes the love of Je- sus, sweep- ing o- ver me The waves of glo- ry roll, the Sav- iour to ex- tol, Comes the love of Je- sus, sweep- ing o'er my soul.
+v4: It's com- ing, yes, it's com- ing, it's com- ing down this hour, A tor- rent of sal- va- tion in sav- ing, cleans- ing pow'r, I hear the bil- lows surg- ing, I see them mount and roll O glo- ry, hal- le- lu- jah! They're sweep- ing thro' my soul. Like a might- y sea, like a might- y sea, Comes the love of Je- sus, sweep- ing o- ver me The waves of glo- ry roll, the Sav- iour to ex- tol, Comes the love of Je- sus, sweep- ing o'er my soul.

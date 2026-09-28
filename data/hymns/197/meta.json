@@ -1,0 +1,46 @@
+{
+ "number": 197,
+ "old_number": 178,
+ "title_ko": "은혜가 풍성한 하나님은",
+ "title_en": "God Whose Grace Overflows",
+ "original_title": "God Rich in Grace (Japanese hymn, Nakada Ushishirō)",
+ "theme": "은사",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "J. M. 해리스 (J. M. Harris)",
+ "lyricist": "나카다 우시시로 (中田羽後, 일본) (Ushishirō Nakada (中田羽後)) · 1895~1974",
+ "credit_line_in_file": {
+  "composer": "J.M.Harris",
+  "lyricist": "U.Nakada"
+ },
+ "year": 1908,
+ "meter": "10.9.10.9 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1908, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "author died 1974, after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "197장 은혜가 풍성한 하나님은.mscz",
+   "sha256": "7729a7527e79a715311e063fa124b60e3f1d580046ea9fa174a025f055aa9783",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 222,
+ "old_number": 524,
+ "title_ko": "우리 다시 만날 때까지",
+ "title_en": "God Be With You Till We Meet Again",
+ "original_title": "God Be With You Till We Meet Again",
+ "theme": "성도의교제",
+ "key_table": "C",
+ "time_table": "4/4",
+ "composer": "윌리엄 굴드 토머 (William Gould Tomer)",
+ "lyricist": "제레마이아 임스 랭킨 (Jeremiah Eames Rankin) · 1828~1904",
+ "credit_line_in_file": {
+  "composer": "W.G.Tomer",
+  "lyricist": "J.E.Rankin"
+ },
+ "year": 1880,
+ "meter": "9.8.8.9 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1896; work dated 1880"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1904; work dated 1880"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "222장 우리 다시 만날 때까지.mscz",
+   "sha256": "f9e35071a3021a71a1c0145b2c9f9d86a36f6b08c3e4d7139ce5c8d57dc08215",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

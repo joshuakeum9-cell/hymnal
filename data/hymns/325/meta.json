@@ -1,0 +1,46 @@
+{
+ "number": 325,
+ "old_number": 359,
+ "title_ko": "예수가 함께 계시니",
+ "title_en": "Living for Jesus",
+ "original_title": "Living for Jesus",
+ "theme": "소명과충성",
+ "key_table": "Eb",
+ "time_table": "9/8",
+ "composer": "C. F. 와이글 (Charles F. Weigele)",
+ "lyricist": "C. F. 와이글 (Charles F. Weigele) · 1871~1966",
+ "credit_line_in_file": {
+  "composer": "C.F.Weigele",
+  "lyricist": "C.F.Weigele"
+ },
+ "year": 1917,
+ "meter": "8.8.8.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "author died 1966, after 1962"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "author died 1966, after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "325장 예수가 함께 계시니.mscz",
+   "sha256": "6d7189802aaad53402505196f26a9a2ae492ed1942db7e1a2e9ef896cbe09e26",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

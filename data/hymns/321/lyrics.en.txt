@@ -1,0 +1,10 @@
+# 321 My Life, My Love I Give to Thee
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: My life, my love I give to Thee, Thou Lamb of God, Who died for me O may I ev- er faith- ful be, My Sav- iour and my God! I'll live for Him who died for me How hap- oy then my soul shall be! I'll live for Him Who died for me, My Sav- iour and my God! _ _
+v2: I now be- lieve Thou dost re- ceive, For Thou hast died that I may live And now hence- forth I'll trust in Thee, My Sav- iour and my God! I'll live for Him who died for me How hap- oy then my soul shall be! I'll live for Him Who died for me, My Sav- iour and my God! _ _
+v3: O Thou, who died on Cal- va- ry To save my soul and make me free, I con- se- crate my life to Thee, My Sav- iour and my God! I'll live for Him who died for me How hap- oy then my soul shall be! I'll live for Him Who died for me, My Sav- iour and my God! A- men.

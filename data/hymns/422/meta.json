@@ -1,0 +1,46 @@
+{
+ "number": 422,
+ "old_number": "",
+ "title_ko": "거룩하게 하소서",
+ "title_en": "Make Me Holy in My Life",
+ "original_title": "Make Me Holy, Lord (Korean original)",
+ "theme": "성결한생활",
+ "key_table": "Eb",
+ "time_table": "6/8",
+ "composer": "이귀자 (Lee Gwi-ja)",
+ "lyricist": "박춘선 (Park Choon-sun)",
+ "credit_line_in_file": {
+  "composer": "이귀자",
+  "lyricist": "박윤선"
+ },
+ "year": 2005,
+ "meter": "7.7.7.7.6.7.7.7.7",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "422장 거룩하게 하소서.mscz",
+   "sha256": "5af4d4686a85af07fb9e43ea1b014d274d646e5bbf224b237c5cc85df0c65f23",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

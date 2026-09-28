@@ -1,0 +1,46 @@
+{
+ "number": 303,
+ "old_number": 403,
+ "title_ko": "날 위하여 십자가의",
+ "title_en": "How Can I Keep From Singing?",
+ "original_title": "In the Cross of Christ I Glory (Korean adaptation)",
+ "theme": "은혜와사랑",
+ "key_table": "G",
+ "time_table": "3/2",
+ "composer": "R. 로우리 (Robert Lowry)",
+ "lyricist": "사사오 데쓰사부로 (Tetsusaburo Sasao) · 1868~1914",
+ "credit_line_in_file": {
+  "composer": "R.Lowry",
+  "lyricist": "R.Lowry"
+ },
+ "year": 1869,
+ "meter": "8.7.8.7.D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1899; work dated 1869"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1914; work dated 1869"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "303장 날 위하여 십자가의.mscz",
+   "sha256": "d17eb069af61bf3b8535c434e8ffec816da8d146158e5722063eecd4014dcaf7",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

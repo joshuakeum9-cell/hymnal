@@ -1,0 +1,46 @@
+{
+ "number": 410,
+ "old_number": 468,
+ "title_ko": "내 맘에 한 노래 있어",
+ "title_en": "There Comes to My Heart",
+ "original_title": "Sweet Peace, the Gift of God's Love",
+ "theme": "평안과위로",
+ "key_table": "Ab",
+ "time_table": "6/8",
+ "composer": "피터 필립 빌혼 (Peter Philip Bilhorn)",
+ "lyricist": "피터 필립 빌혼 (Peter Philip Bilhorn) · 1865~1936",
+ "credit_line_in_file": {
+  "composer": "P.P.Bilhorn",
+  "lyricist": "P.P.Bilhorn"
+ },
+ "year": 1887,
+ "meter": "8.8.8.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1936; work dated 1887"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1936; work dated 1887"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "410장 내 맘에 한 노래 있어.mscz",
+   "sha256": "a9e7e1547a0060ba1a7f99844062a90dbdcd736108bd43db090b407681a20a6d",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

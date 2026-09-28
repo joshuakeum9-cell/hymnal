@@ -1,0 +1,46 @@
+{
+ "number": 74,
+ "old_number": 74,
+ "title_ko": "오 만세 반석이신",
+ "title_en": "O God, the Rock of Ages",
+ "original_title": "O Rock of Ages, One Foundation",
+ "theme": "창조주",
+ "key_table": "Bb",
+ "time_table": "6/4",
+ "composer": "조지프 P. 홀브룩 (Joseph Perry Holbrook)",
+ "lyricist": "에드워드 H. 비커스테스 (Edward Henry Bickersteth) · 1825~1906",
+ "credit_line_in_file": {
+  "composer": "J.P.Holbrook",
+  "lyricist": "E.H.Bickersteth"
+ },
+ "year": 1865,
+ "meter": "7.6.7.6 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1888; work dated 1865"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1906; work dated 1865"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "74장 오 만세 반석이신.mscz",
+   "sha256": "41504877b749b7e0267525741ed5b8bc1cf152953fc6548ca4e2b0b3b6c6c588",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

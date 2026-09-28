@@ -1,0 +1,46 @@
+{
+ "number": 237,
+ "old_number": 226,
+ "title_ko": "저 건너편 강 언덕에",
+ "title_en": "There's a Land Beyond The River",
+ "original_title": "When They Ring Those Golden Bells",
+ "theme": "천국",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "대니얼 드 마벨 (Daniel de Marbelle)",
+ "lyricist": "대니얼 드 마벨 (Daniel de Marbelle) · 1818~1903",
+ "credit_line_in_file": {
+  "composer": "D.A.DeMarbelle",
+  "lyricist": "D.A.DeMarbelle"
+ },
+ "year": 1887,
+ "meter": "8.8.11.D with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1903; work dated 1887"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1903; work dated 1887"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "237장 저 건너편 강 언덕에.mscz",
+   "sha256": "98ef7ec5a8e42d6921dca186bd3b51a3b2a4a09df60b70d6e7d309f7ed35d359",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

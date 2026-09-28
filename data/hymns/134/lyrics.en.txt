@@ -1,0 +1,11 @@
+# 134 In Fancy I Stood By The Shore, One Day
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, exact, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: In fan- cy I stood by the shore, one day, Of the beau- ti- ful murm'r- ing sea I saw the great crowds as they thronged the way Of the Strang- er of Gal- i- lee I saw how the man who was blind from birth, In a mo- ment was made to see The lame was made whole by the match- less skill Of the Strang- er of Gal- i- lee. And I felt I could love Him for- ev- er, So gra- cious and ten- der was He! I claimed Him that day as my Sav- ior, This Strang- er of Gal- i- lee.
+v2: His look of com- pas- sion, His words of love, They shall nev- er for- got- ten be When sin- sick and hel- pless He saw me there, This _ Strang- er of Gal- i- lee He show'd me His hand and His riv- en side, And He whi- spered "It was for thee!" My bur- den fell off at the pierc- ed feet Of the Strang- er of Gal- i- lee. And I felt I could love Him for- ev- er, So gra- cious and ten- der was He! I claimed Him that day as my Sav- ior, This Strang- er of Gal- i- lee.
+v3: I heard Him speak peace to the an- gry waves, Of that tur- _ bu- lent, rag- ing sea And lo! at His word are the wa- ters stilled, This Strang- er of Gal- i- lee A peace- ful, a qui- et, and ho- ly calm, Now and ev- er a- bides with me He hold- eth my life in His might- y hands, This _ Strang- er of Gal- i- lee. And I felt I could love Him for- ev- er, So gra- cious and ten- der was He! I claimed Him that day as my Sav- ior, This Strang- er of Gal- i- lee.
+v4: Come, ye who are driv- en and tem- pest toss'd, And His gra- cious sal- va- tion see He'll qui- et li- fe's storms with His "Peace, be still!" This Strang- er of Gal- i- lee He bids me to go and the sto- ry tell, What He ev- er to you will be, If on- ly you let Him with you a- bide, This _ Strang- er of Gal- i- lee. Oh my friend, won't you love Him for- ev- er, So gra- cious and ten- der is He! Ac- cept Him to- day as you Sav- ior, This Strang- er of Gal- i- lee.

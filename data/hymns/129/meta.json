@@ -1,0 +1,46 @@
+{
+ "number": 129,
+ "old_number": "",
+ "title_ko": "마리아는 아기를",
+ "title_en": "Gentle Mary Laid Her Child",
+ "original_title": "Gentle Mary Laid Her Child",
+ "theme": "성탄",
+ "key_table": "G",
+ "time_table": "2/2",
+ "composer": "Piae Cantiones (1582) · E. C. 맥밀런 편곡 (Piae Cantiones (1582), arr. E. C. MacMillan)",
+ "lyricist": "조지프 심슨 쿡 (Joseph Simpson Cook) · 1859~1933",
+ "credit_line_in_file": {
+  "composer": "Piae Cantiones/E.C.MaeMillan",
+  "lyricist": "J.S.Cook"
+ },
+ "year": 1582,
+ "meter": "7.6.7.6.7.6.7.7",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1582, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1933; work dated 1582"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "129장 마리아는 아기를.mscz",
+   "sha256": "10752c77d1e44cfba9bc0fc1e730b2e84efcb240af82307e0cf6ecf2e92ecc13",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

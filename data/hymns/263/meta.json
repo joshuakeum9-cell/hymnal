@@ -1,0 +1,46 @@
+{
+ "number": 263,
+ "old_number": 197,
+ "title_ko": "이 세상 험하고",
+ "title_en": "I Hear the Saviour Say",
+ "original_title": "Jesus Paid It All",
+ "theme": "회개와용서",
+ "key_table": "D",
+ "time_table": "3/4",
+ "composer": "존 토머스 그레이프 (John Thomas Grape)",
+ "lyricist": "엘비나 메이블 홀 (Elvina Mable Hall) · 1820~1889",
+ "credit_line_in_file": {
+  "composer": "J.T.Grape",
+  "lyricist": "E.M.Myers"
+ },
+ "year": 1868,
+ "meter": "6.6.6.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1868"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1889; work dated 1868"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "263장 이 세상 험하고.mscz",
+   "sha256": "0c4279e20f371346493f202554e3927960553974f5cfbf4ceb6f6fee16f70f77",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

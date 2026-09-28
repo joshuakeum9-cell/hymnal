@@ -1,0 +1,46 @@
+{
+ "number": 253,
+ "old_number": "",
+ "title_ko": "그 자비하신 주님",
+ "title_en": "Today Your Mercy Calls Us",
+ "original_title": "Today Thy Mercy Calls Us (또는 한국 의역)",
+ "theme": "회개와용서",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "프리드리히 콘라트 안테스 (Friedrich Konrad Anthes)",
+ "lyricist": "오스왈드 앨런 (Oswald Allen) · 1816~1878",
+ "credit_line_in_file": {
+  "composer": "F.K.Anthes",
+  "lyricist": "O.Allen"
+ },
+ "year": 1857,
+ "meter": "7.6.7.6.D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1857, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1878; work dated 1857"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "253장 그 자비하신 주님.mscz",
+   "sha256": "a8b67fb7667686743229aa9ec10b40bd713c5eeb8cd1d19d964343f1cf489999",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

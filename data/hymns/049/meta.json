@@ -1,0 +1,46 @@
+{
+ "number": 49,
+ "old_number": 72,
+ "title_ko": "하나님이 언약하신 그대로",
+ "title_en": "There'll be Show'rs of Blessing",
+ "original_title": "When the Tithes Are Gathered In",
+ "theme": "봉헌",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "레일리아 N. 모리스 (Lelia N. Morris)",
+ "lyricist": "레일리아 N. 모리스 (Lelia N. Morris) · 1862~1929",
+ "credit_line_in_file": {
+  "composer": "L.N.Morris",
+  "lyricist": "L.N.Morris"
+ },
+ "year": 1907,
+ "meter": "11.11.11.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1929; work dated 1907"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1929; work dated 1907"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "49장 하나님이 언약하신 그대로.mscz",
+   "sha256": "812c5c355be0a6e9fd988abbf5b0e4c915f82a3f0ed89453735735e39174b9f8",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

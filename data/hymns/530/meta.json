@@ -1,0 +1,46 @@
+{
+ "number": 530,
+ "old_number": 320,
+ "title_ko": "주께서 문에 오셔서",
+ "title_en": "Behold! A Stranger at the Door",
+ "original_title": "Behold a Stranger at the Door",
+ "theme": "부르심과영접",
+ "key_table": "Eb",
+ "time_table": "2/2",
+ "composer": "존 E. 굴드 (John Edgar Gould)",
+ "lyricist": "조셉 그릭 (Joseph Grigg) · 1720~1768",
+ "credit_line_in_file": {
+  "composer": "J.E.Gould",
+  "lyricist": "J.Grigg"
+ },
+ "year": 1849,
+ "meter": "8.8.8.8 (LM)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1875; work dated 1849"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1768; work dated 1849"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "530장 주께서 문에 오셔서.mscz",
+   "sha256": "b7e8f8fa47b8ab8a27b127c2fc09ecb3eb4e8131352a012cf97f25334cefc824",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 446,
+ "old_number": 500,
+ "title_ko": "주 음성 외에는",
+ "title_en": "I Need Thee Every Hour",
+ "original_title": "I Need Thee Every Hour",
+ "theme": "주와동행",
+ "key_table": "Ab",
+ "time_table": "3/4",
+ "composer": "로버트 라우리 (Robert Lowry)",
+ "lyricist": "애니 셔우드 호크스 (Annie Sherwood Hawks) · 1835~1918",
+ "credit_line_in_file": {
+  "composer": "R.Lowry",
+  "lyricist": "A.S.Hawks"
+ },
+ "year": 1872,
+ "meter": "6.6.6.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1899; work dated 1872"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1918; work dated 1872"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "446장 주 음성 외에는.mscz",
+   "sha256": "d97aed8eb5c17d290291af537dbd130e0e1c0d4897b9b81996b982cee8d2e468",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 130,
+ "old_number": 42,
+ "title_ko": "찬란한 주의 영광은",
+ "title_en": "O Splendor of God's Glory Bright",
+ "original_title": "O Splendor of God's Glory Bright (Splendor paternae gloriae)",
+ "theme": "주현",
+ "key_table": "Bb",
+ "time_table": "3/4",
+ "composer": "윌리엄 냅 (William Knapp)",
+ "lyricist": "밀라노의 암브로시우스 (Ambrose of Milan) · 340~397",
+ "credit_line_in_file": {
+  "composer": "W.Knapp",
+  "lyricist": "St.Ambrose of Milan"
+ },
+ "year": 1738,
+ "meter": "8.8.8.8 (LM)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1768; work dated 1738"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1738, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "130장 찬란한 주의 영광은.mscz",
+   "sha256": "78359620190f4219d96f5e8c8741f3465f9bdaa9f90842123d8ed84fb5ea34eb",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

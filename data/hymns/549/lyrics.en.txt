@@ -1,0 +1,10 @@
+# 549 My Jesus, as Thou Wilt
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, auto, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: My Je- sus, _ as Thou _ wilt! O may Thy _ will be mine In- to Thy _ hand of love I _ would _ my all _ re- sign. _ Through sor- row, _ or through _ joy, Con- duct me _ as Thine own And help me _ still to say, My _ Lord, Thy will be done. _ _
+v2: My Je- sus, _ as Thou _ wilt! Though seen through _ ma- ny a tear, Let not _ my star of hope _ Grow _ dim or _ dis- ap- _ pear. Since Thou _ on earth _ hast wept, And sor- _ rowed oft a- lone, If I _ must weep with Thee, _ My Lord, Thy will be _ done.
+v3: My Je- sus, _ as Thou _ wilt! All shall be _ well for me Each chang- ing _ fu- ture scene I _ glad- _ ly trust _ with Thee. _ Straight to my _ home a- _ bove I trav- el _ calm- ly on And sing, in _ life or death, My _ Lord, Thy will be done. A- men.

@@ -1,0 +1,46 @@
+{
+ "number": 538,
+ "old_number": 327,
+ "title_ko": "죄짐을 지고서 곤하거든",
+ "title_en": "If You Are Tired of the Load of Your Sin",
+ "original_title": "Let Jesus Come Into Your Heart",
+ "theme": "부르심과영접",
+ "key_table": "Ab",
+ "time_table": "6/8",
+ "composer": "레일라 N. 모리스 (Lelia Naylor Morris)",
+ "lyricist": "레일라 N. 모리스 (Lelia Naylor Morris) · 1862~1929",
+ "credit_line_in_file": {
+  "composer": "L.N.Morris",
+  "lyricist": "L.N.Morris"
+ },
+ "year": 1898,
+ "meter": "10.9.10.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1929; work dated 1898"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1929; work dated 1898"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "538장 죄짐을 지고서 곤하거든.mscz",
+   "sha256": "899f3a7078724b74b5a3c89a5b29bf4e610f6cea7fa4e2a8b61ca661e76b78b4",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 463,
+ "old_number": 518,
+ "title_ko": "신자 되기 원합니다",
+ "title_en": "Lord, I Want to be a Christian",
+ "original_title": "Lord, I Want to Be a Christian",
+ "theme": "제자의도리",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "미상 (아프리카계 미국 영가)",
+ "lyricist": "미상 (아프리카계 미국 영가)",
+ "credit_line_in_file": {
+  "composer": "Afro-American Spiritual",
+  "lyricist": "Afro-American Spiritual"
+ },
+ "year": 1754,
+ "meter": "Irregular",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 미상 (아프리카계 미국 영가)"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 미상 (아프리카계 미국 영가)"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "463장 신자 되기 원합니다.mscz",
+   "sha256": "baa606041996b1cd21c53f52daba05b799b2df54cee719acf5db520008d2f3ab",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

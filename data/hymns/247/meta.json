@@ -1,0 +1,46 @@
+{
+ "number": 247,
+ "old_number": "",
+ "title_ko": "보아라 저 하늘에",
+ "title_en": "Look at the Lord Jesus Christ",
+ "original_title": "",
+ "theme": "천국",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "하세은 (하세은)",
+ "lyricist": "송창근 (송창근) · 1898~1950",
+ "credit_line_in_file": {
+  "composer": "하재은",
+  "lyricist": "송창근"
+ },
+ "year": 2002,
+ "meter": "7.8.7.8.D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "247장 보아라 저 하늘에.mscz",
+   "sha256": "fdd267a9153246cca99f6cd86b824545cdcf4492ecfa110cc6e16ea9dfcd13cd",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 572,
+ "old_number": "",
+ "title_ko": "바다같이 넓은 은혜",
+ "title_en": "When the Ocean of His Mercy",
+ "original_title": "",
+ "theme": "청년",
+ "key_table": "Eb",
+ "time_table": "3/4",
+ "composer": "윤학원 (윤학원)",
+ "lyricist": "도양호 (도양호)",
+ "credit_line_in_file": {
+  "composer": "윤학원",
+  "lyricist": "도한호"
+ },
+ "year": 2005,
+ "meter": "8.7.8.5 with refrain",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "572장 바다같이 넓은 은혜.mscz",
+   "sha256": "7fa130ca09c76a58cf123f9ffc5d4fb7deb8756c2bf85150fd48ddaf673cd356",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

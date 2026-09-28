@@ -1,0 +1,11 @@
+# 44 Safely Through Another Week
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Safe- ly through an- oth- er week God has brought us on our way Let us now a bless- ing seek, Wait- ing in His courts to- day. Day of all the week the best, Em- blem of e- ter- nal rest! Day of all the week the best, Em- blem of _ e- _ ter- nal rest! _ _
+v2: While we pray for par- d'ning grace, Thro' the dear Re- deem- er's name, Show Thy rec- on- cil- ed face, Take a- way our sin and shame. From our world- ly cares set free, May we rest this day in Thee From our world- ly cares set free, May we rest _ this _ day in Thee. _ _
+v3: Here we come Thy name to praise May we feel Thy pres- ence near. May Thy glo- ry meet our eyes, While we in Thy house ap- pear. Here af- ford us, Lord, and taste Of our ev- er- last- ing feast Here af- ford us, Lord, and taste Of our ev- _ er- _ last- ing feast. _ _
+v4: May Thy Gos- pel's joy- ful sound Con- quer sin- ners, com- fort saints Make the fruits of grace a- bound, Bring re- lief for all com- plaints Thus may all our sab- baths prove Till we join the Church a- bove Thus may all our sab- baths prove Till we join _ the _ Church a- bove. A- men.

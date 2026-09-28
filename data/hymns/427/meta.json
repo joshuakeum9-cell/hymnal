@@ -1,0 +1,46 @@
+{
+ "number": 427,
+ "old_number": 516,
+ "title_ko": "맘 가난한 사람",
+ "title_en": "Blest are the Poor in Heart",
+ "original_title": "Blest Are the Poor in Heart (Beatitudes)",
+ "theme": "감사의생활",
+ "key_table": "Ab",
+ "time_table": "3/4",
+ "composer": "로웰 메이슨 (Lowell Mason)",
+ "lyricist": "민로아 (프레더릭 S. 밀러) (Frederick Scheibler Miller) · 1866~1937",
+ "credit_line_in_file": {
+  "composer": "L.Mason",
+  "lyricist": "F.S.Miller"
+ },
+ "year": 1830,
+ "meter": "11.10.11.10",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1872; work dated 1830"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1937; work dated 1830"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "427장 맘 가난한 사람.mscz",
+   "sha256": "2dbe646e10c06bc192b4788b29c945c02c63404e5cd1cc586c2bdf5e55591033",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

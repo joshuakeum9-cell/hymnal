@@ -1,0 +1,46 @@
+{
+ "number": 219,
+ "old_number": 279,
+ "title_ko": "주 하나님의 사랑은",
+ "title_en": "Our Father, Thy Dear Name Doth Show",
+ "original_title": "Our Father, Thy Dear Name Doth Show",
+ "theme": "성도의교제",
+ "key_table": "A",
+ "time_table": "4/4",
+ "composer": "고트프리트 빌헬름 핑크 (Gottfried Wilhelm Fink)",
+ "lyricist": "찰스 허버트 리처즈 (Charles Herbert Richards) · 1839~1925",
+ "credit_line_in_file": {
+  "composer": "G.W.Fink",
+  "lyricist": "C.H.Richards"
+ },
+ "year": 1842,
+ "meter": "8.6.8.6.D (C.M.D.)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1846; work dated 1842"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1925; work dated 1842"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "219장 주 하나님의 사랑은.mscz",
+   "sha256": "abd8a1e57bdbe9a14a9968f877ab13364f8ab3ecd72005e3bd3866bf6f37bf00",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

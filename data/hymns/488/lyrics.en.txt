@@ -1,0 +1,11 @@
+# 488 My Hope is Built on Nothing Less
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: My hope is built on noth- ing less Than Je- sus' blood and right- eous- ness I dare not trust the sweet- est frame, But whol- ly lean on Je- sus' name. On Christ, the sol- id Rock, I stand All oth- er ground is sink- ing sand, All oth- er ground is sink- ing sand.
+v2: When dark- ness veils His love- ly face, I rest on His un- chang- ing grace In ev- ery high and storm- y gale, My an- chor holds with- in the veil. On Christ, the sol- id Rock, I stand All oth- er ground is sink- ing sand, All oth- er ground is sink- ing sand.
+v3: His oath, His cov- e- nant, His blood, Sup- port me in the whelm- ing flood When all a- round my soul gives way He then is all my hope and stay. On Christ, the sol- id Rock, I stand All oth- er ground is sink- ing sand, All oth- er ground is sink- ing sand.
+v4: When He shall come with trum- pet sound, Oh, may I then in Him be found, Dressed in His right- eous- ness a- lone, Fault- less to stand be- fore the throne. On Christ, the sol- id Rock, I stand All oth- er ground is sink- ing sand, All oth- er ground is sink- ing sand.

@@ -1,0 +1,46 @@
+{
+ "number": 23,
+ "old_number": 23,
+ "title_ko": "만 입이 내게 있으면",
+ "title_en": "O for A Thousand Tongues",
+ "original_title": "O for a Thousand Tongues to Sing",
+ "theme": "찬양",
+ "key_table": "Ab",
+ "time_table": "3/2",
+ "composer": "카를 고트헬프 글래저 (Carl Gotthelf Gläser)",
+ "lyricist": "찰스 웨슬리 (Charles Wesley) · 1707~1788",
+ "credit_line_in_file": {
+  "composer": "C.G.Glaser/L.Mason",
+  "lyricist": "C.Wesley"
+ },
+ "year": 1828,
+ "meter": "8.6.8.6 (CM)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1828, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1788; work dated 1828"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "23장 만 입이 내게 있으면.mscz",
+   "sha256": "85a2767e326840d873c1154c7b13cce4e503eaa873ddc26caf27de84ebb8d1a3",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

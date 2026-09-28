@@ -1,0 +1,46 @@
+{
+ "number": 352,
+ "old_number": 390,
+ "title_ko": "십자가 군병들아",
+ "title_en": "Stand Up, Stand Up For Jesus",
+ "original_title": "Stand Up, Stand Up for Jesus",
+ "theme": "분투와승리",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "G. J. 웹 (George J. Webb)",
+ "lyricist": "G. 더필드 Jr. (George Duffield Jr.) · 1818~1888",
+ "credit_line_in_file": {
+  "composer": "G.J.Webb",
+  "lyricist": "G.Duffield"
+ },
+ "year": 1837,
+ "meter": "7.6.7.6.D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1887; work dated 1837"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1888; work dated 1837"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "352장 십자가 군병들아.mscz",
+   "sha256": "97450aec77c2de6c3777a0858d70d42812e25fa73bfda7e6f1476a4c04c908a7",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,10 @@
+# 31 Praise Him, Praise Him
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Praise Him! praise Him! Je- sus, our bless- ed Re- deem- er! Sing, O Earth, His won- der- ful love pro- claim! Hail Him! hail Him! high- est arch- an- gel sing glo- ry Strength and hon- or give to ho- ly _ name! Like a shep- _ herd, Je- sus will guard His chil- dren In His arms He car- ries them all day long. Praise Him! praise Him! tell of His ex- cel- lent great- ness. Praise Him! praise Him! ev- er in joy- ful song!
+v2: Praise Him! praise Him! Je- sus, our bless- ed Re- deem- er! For our sins He suff- ered, and bled, and died. He, our Rock, our Hope of e- ter- nal sal- va- tion, Hail Him! hail Him Je- sus, the Cru- ci- fied! Sound His prais- _ es! Je- sus, who bore our sor- rows! Love un- bound- ed, won- der- ful, deep, and strong! Praise Him! praise Him! tell of His ex- cel- lent great- ness. Praise Him! praise Him! ev- er in joy- ful song!
+v3: Praise Him! praise him! Je- sus, our bless- ed Re- deem- er! Heav'n- ly por- tals loud with ho- san- nas ring! Je- sus, Sav- iour, reign- eth for ev- er and ev- er Crown Him! crown Him! Proph- et, and Priest, and King! Christ is com- _ ing, o- ver the world vic- to- rious Pow'r and glo- ry un- to the Lord be- long. Praise Him! praise Him! tell of His ex- cel- lent great- ness. Praise Him! praise Him! ev- er in joy- ful song!

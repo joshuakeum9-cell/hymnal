@@ -1,0 +1,12 @@
+# 85 Jesus, the Very Thought of Thee
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Je- sus, the ver- y thought of Thee With sweet- ness fills my breast But swee- ter far Thy face to see, And in Thy pres- ence rest. _ _
+v2: Nor voice can sing, nor heart can frame, Nor can the mem- -'ry find A swee- ter sound than Thy blest name, O Sav- iour of man- kind! _ _
+v3: O Hope of ev- -'ry con- trite heart, O Joy of all the meek, To those who ask, how kind Thou art! How good to those who seek! _ _
+v4: But what to those who find? ah! this Nor tongue nor pen can show. The love of Je- sus, what it is, None but His loved ones know. _ _
+v5: Je- sus! our on- ly joy be Thou, As Thou our prize wilt be Je- sus! be Thou our glo- ry now, And thro e- ter- ni- ty. A- men.

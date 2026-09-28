@@ -1,0 +1,46 @@
+{
+ "number": 293,
+ "old_number": 414,
+ "title_ko": "주의 사랑 비칠 때에",
+ "title_en": "Jesus Comes With Pow'r to Gladden",
+ "original_title": "When Love Shines In",
+ "theme": "은혜와사랑",
+ "key_table": "Db",
+ "time_table": "6/8",
+ "composer": "윌리엄 제임스 커크패트릭 (William James Kirkpatrick)",
+ "lyricist": "캐리 엘리스 브렉 (Carrie Ellis Breck) · 1855~1934",
+ "credit_line_in_file": {
+  "composer": "W.J.Kirkpatrick",
+  "lyricist": "C.E.Breck"
+ },
+ "year": 1898,
+ "meter": "13.12.14.11 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1898, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1934; work dated 1898"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "293장 주의 사랑 비칠 때에.mscz",
+   "sha256": "77bebc8b33b362543363acb5331aa33c464e6f5c96657a741d1fec990334899c",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

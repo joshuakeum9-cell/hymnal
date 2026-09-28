@@ -1,0 +1,46 @@
+{
+ "number": 436,
+ "old_number": 493,
+ "title_ko": "나 이제 주님의 새 생명 얻은 몸",
+ "title_en": "Lately the Life of Christ Burst Out Alive in Me!",
+ "original_title": "Living with Christ (Korean original)",
+ "theme": "주와동행",
+ "key_table": "F",
+ "time_table": "3/4",
+ "composer": "박태준 (Park Tae-jun)",
+ "lyricist": "이호운 (Lee Ho-woon) · 1911~1969",
+ "credit_line_in_file": {
+  "composer": "박태준",
+  "lyricist": "이호운"
+ },
+ "year": 1967,
+ "meter": "6.6.6.6.D with refrain",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "436장 나 이제 주님의 새 생명 얻은 몸.mscz",
+   "sha256": "a2182e001f0b9c0a0f4b7454d1892c68c86b92fc78ceadf301ba6f59d093d5d7",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

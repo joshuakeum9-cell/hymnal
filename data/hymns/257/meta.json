@@ -1,0 +1,46 @@
+{
+ "number": 257,
+ "old_number": 189,
+ "title_ko": "마음에 가득한 의심을 깨치고",
+ "title_en": "I Can Sing Now the Song",
+ "original_title": "I'm Redeemed",
+ "theme": "회개와용서",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "러셀 켈소 카터 (Russell Kelso Carter)",
+ "lyricist": "러셀 켈소 카터 (Russell Kelso Carter) · 1849~1928",
+ "credit_line_in_file": {
+  "composer": "R.K.Carter",
+  "lyricist": "R.K.Carter"
+ },
+ "year": 1891,
+ "meter": "12.9.12.9 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1928; work dated 1891"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1928; work dated 1891"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "257장 마음에 가득한 의심을 깨치고.mscz",
+   "sha256": "e9c094b6dc6e93c4dfcb11deef8b2918bc666840bca52d2438d9ce5e15da7c7c",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 41,
+ "old_number": "",
+ "title_ko": "내 영혼아 주 찬양하여라",
+ "title_en": "Tell Out, My Soul",
+ "original_title": "Tell Out, My Soul, the Greatness of the Lord",
+ "theme": "찬양",
+ "key_table": "D",
+ "time_table": "4/4",
+ "composer": "와이어스 *성가 보감* (Wyeth's Repository of Sacred Music)",
+ "lyricist": "티모시 더들리-스미스 (Timothy Dudley-Smith) · 1926~?",
+ "credit_line_in_file": {
+  "composer": "Anonymous",
+  "lyricist": "T.Dudley-Smith"
+ },
+ "year": 1813,
+ "meter": "10.10.10.12",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1813, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1813, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "41장 내 영혼아 주 찬양하여라.mscz",
+   "sha256": "3334d3650c44fc9b176035e02087cff8e1dc4e04797498a5b8904d30820f16c3",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

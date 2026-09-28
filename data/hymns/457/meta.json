@@ -1,0 +1,46 @@
+{
+ "number": 457,
+ "old_number": 510,
+ "title_ko": "겟세마네 동산의",
+ "title_en": "Go to dark Gethsemane",
+ "original_title": "In Gethsemane (Korean text)",
+ "theme": "제자의도리",
+ "key_table": "Bb",
+ "time_table": "3/4",
+ "composer": "토머스 헤이스팅스 (Thomas Hastings)",
+ "lyricist": "미상 (신증 복음가, 1919)",
+ "credit_line_in_file": {
+  "composer": "T.Hastings",
+  "lyricist": "T.Sasao"
+ },
+ "year": 1830,
+ "meter": "7.7.7.7.7.7",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1872; work dated 1830"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 미상 (신증 복음가, 1919)"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "457장 겟세마네 동산의.mscz",
+   "sha256": "5c16797a30338502375ad8a21b1dcf64ad460a4a9af7504927754144a3b53548",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

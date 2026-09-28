@@ -1,0 +1,46 @@
+{
+ "number": 618,
+ "old_number": "",
+ "title_ko": "나 주님을 사랑합니다",
+ "title_en": "I Love You Lord",
+ "original_title": "I Love You, Lord",
+ "theme": "경배와찬양",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "로리 클라인 (Laurie Klein)",
+ "lyricist": "로리 클라인 (Laurie Klein) · 1950~?",
+ "credit_line_in_file": {
+  "composer": "L.Klein/E.Thomas",
+  "lyricist": "L.Klein"
+ },
+ "year": 1974,
+ "meter": "IRREG.",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "work dated 1974, may still be in copyright"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "work dated 1974, may still be in copyright"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "618장 나 주님을 사랑합니다.mscz",
+   "sha256": "ca039c27ef2969d654aafce80f07d73ddb807994b87e8bdbb91f79f96e972530",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

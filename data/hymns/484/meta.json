@@ -1,0 +1,46 @@
+{
+ "number": 484,
+ "old_number": 533,
+ "title_ko": "내 맘의 주여 소망되소서",
+ "title_en": "Be Thou My Vision",
+ "original_title": "Be Thou My Vision",
+ "theme": "미래와소망",
+ "key_table": "Eb",
+ "time_table": "3/4",
+ "composer": "아일랜드 전통 가락 (C. Young 화성, 1963)",
+ "lyricist": "미상 (아일랜드 8세기 찬송)",
+ "credit_line_in_file": {
+  "composer": "Irish Melody/나운영",
+  "lyricist": "Irish Hymn"
+ },
+ "year": null,
+ "meter": "10.10.10.10",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 미상 (아일랜드 8세기 찬송)"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "484장 내 맘의 주여 소망되소서.mscz",
+   "sha256": "fc03fc652a4c363f5504079ea864312402963ed69582c9687dcbd0ef603fadc4",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

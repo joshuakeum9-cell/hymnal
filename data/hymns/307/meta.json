@@ -1,0 +1,46 @@
+{
+ "number": 307,
+ "old_number": "",
+ "title_ko": "소리 없이 보슬보슬",
+ "title_en": "Like Springtime Rain Quietly Come",
+ "original_title": "Like the Spring Rain (Korean original)",
+ "theme": "은혜와사랑",
+ "key_table": "Eb",
+ "time_table": "9/8",
+ "composer": "나인용 (Na In-yong)",
+ "lyricist": "마경일 (Ma Gyeong-il) · 1912~1987",
+ "credit_line_in_file": {
+  "composer": "나인용",
+  "lyricist": "마경일"
+ },
+ "year": 1993,
+ "meter": "8.8.8.8.D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "307장 소리 없이 보슬보슬.mscz",
+   "sha256": "7c913d10348713d7055e51a71ae4d03f50239b0df7ad641e0330208f7485bdb2",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

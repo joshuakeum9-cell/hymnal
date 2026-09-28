@@ -1,0 +1,46 @@
+{
+ "number": 34,
+ "old_number": 45,
+ "title_ko": "참 놀랍도다 주 크신 이름",
+ "title_en": "Ye Servants of God",
+ "original_title": "Ye Servants of God, Your Master Proclaim",
+ "theme": "찬양",
+ "key_table": "Ab",
+ "time_table": "3/4",
+ "composer": "윌리엄 크로프트 (William Croft (attrib.))",
+ "lyricist": "찰스 웨슬리 (Charles Wesley) · 1707~1788",
+ "credit_line_in_file": {
+  "composer": "W.Croft",
+  "lyricist": "C.Wesley"
+ },
+ "year": 1708,
+ "meter": "10.10.11.11",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1727; work dated 1708"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1788; work dated 1708"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "34장 참 놀랍도다 주 크신 이름.mscz",
+   "sha256": "3046369b4d876a7e3ad553a688ef22b296c8188fbc9754049966c311103f74c8",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

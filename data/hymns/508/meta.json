@@ -1,0 +1,46 @@
+{
+ "number": 508,
+ "old_number": 270,
+ "title_ko": "우리가 지금은 나그네 되어도",
+ "title_en": "I am a Stranger Here",
+ "original_title": "The King's Business",
+ "theme": "세계선교",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "플로라 H. 카셀 (Flora Hamilton Cassel)",
+ "lyricist": "엘리야 T. 카셀 (Elijah Taylor Cassel) · 1849~1930",
+ "credit_line_in_file": {
+  "composer": "F.H.Cassel",
+  "lyricist": "E.T.Cassel"
+ },
+ "year": 1902,
+ "meter": "12.12.12.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1930; work dated 1902"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1930; work dated 1902"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "508장 우리가 지금은 나그네 되어도.mscz",
+   "sha256": "f4429dd3bf099ff88abe005ed0fba427fb0849b2c4c0af8f489b3980f2373aed",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 353,
+ "old_number": 391,
+ "title_ko": "십자가 군병 되어서",
+ "title_en": "Am I a Soldier of the Cross",
+ "original_title": "Am I a Soldier of the Cross",
+ "theme": "분투와승리",
+ "key_table": "D",
+ "time_table": "4/4",
+ "composer": "I. D. 생키 (Ira D. Sankey)",
+ "lyricist": "아이작 왓츠 (Isaac Watts) · 1674~1748",
+ "credit_line_in_file": {
+  "composer": "I.D.Sankey",
+  "lyricist": "I.Watts"
+ },
+ "year": 1890,
+ "meter": "8.6.8.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1908; work dated 1890"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1748; work dated 1890"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "353장 십자가 군병 되어서.mscz",
+   "sha256": "842c4479ed5e65d18a76056138db339f79b06c4734c3a62a4126609a828cfb4e",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 373,
+ "old_number": 503,
+ "title_ko": "고요한 바다로",
+ "title_en": "If, on a Quiet Sea",
+ "original_title": "When Languor and Disease Invade (Golden Hill)",
+ "theme": "인도와보호",
+ "key_table": "Eb",
+ "time_table": "3/4",
+ "composer": "A. 채핀 (Aaron Chapin)",
+ "lyricist": "A. M. 토플레디 (Augustus M. Toplady) · 1740~1778",
+ "credit_line_in_file": {
+  "composer": "A.Chapin",
+  "lyricist": "A.M.Toplady"
+ },
+ "year": 1805,
+ "meter": "6.6.8.6 (Short Meter)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1835; work dated 1805"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1778; work dated 1805"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "373장 고요한 바다로.mscz",
+   "sha256": "3f61df32b217ec81c8c52d3d3e77ef7e1cc9f893942e35fce1a341ff128e3381",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

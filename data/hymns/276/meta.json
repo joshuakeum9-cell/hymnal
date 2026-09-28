@@ -1,0 +1,46 @@
+{
+ "number": 276,
+ "old_number": 334,
+ "title_ko": "아버지여 이 죄인을",
+ "title_en": "Take Me, Oh, My Father, Take Me",
+ "original_title": "(Ray Palmer 1864 가사 한국 의역, 영문 원제 추가 검증 필요)",
+ "theme": "회개와용서",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "존 준델 (John Zundel)",
+ "lyricist": "레이 파머 (Ray Palmer) · 1808~1887",
+ "credit_line_in_file": {
+  "composer": "J.Zundel",
+  "lyricist": "R.Palmer"
+ },
+ "year": 1870,
+ "meter": "8.7.8.7.D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1882; work dated 1870"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1887; work dated 1870"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "276장 아버지여 이 죄인을.mscz",
+   "sha256": "d46a9e886697472cb45de35b237386a23110da53687da5cc8141204a5400b586",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

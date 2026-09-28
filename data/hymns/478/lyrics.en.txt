@@ -1,0 +1,10 @@
+# 478 This is My Father's World
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: rough (per verse: rough, rough, rough)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: God _ the Om- nip- o- tent! _ _ _ _ _ _ King, who or- _ dain- _ _ est Thun- der Thy _ _ _ clar- _ _ ion, the light- ning Thy sword Show forth _ Thy pit- y on high where Thou reign- est _ _ Give to us peace in _ our time, O- _ Lord. _ _
+v2: God _ the _ _ _ All- mer- _ ci- _ _ _ ful! Earth hath _ for- _ _ sak- en Meek- ness _ _ and mer- _ _ cy, and slight- ed Thy word Let not _ Thy wrath in its ter- rors a- wak- en _ _ Give to us peace in _ our time, O- _ Lord. _ _
+v3: God _ the _ _ _ All- right- _ eous _ _ _ One! Man hath _ de- _ _ fied Thee Yet to _ _ e- ter- _ _ ni- ty stand- eth Thy word False- hood _ and wrong shall not tar- ry be- side Thee _ _ Give to us peace _ _ in our _ _ time, O- Lord.

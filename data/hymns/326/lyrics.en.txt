@@ -1,0 +1,12 @@
+# 326 Serving the Lord
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: rough (per verse: rough, exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Ser- ving _ _ the Lord, re- _ pent- _ _ _ ant And sor- ry for my sin, I'll give my love to Je- sus And glad- ly serve for Him. For _ _ _ Him Who died _ for me Lord, I _ would be true!
+v2: Since Christ gave mew life to me Ac- coreding to His will, Through life a- now would I tur- ly Serve for my Mas- ter still. In Christ, Where- e'er I be, There what- e'er I do, For Him Who died for me Lord, I would be true!
+v3: With all my heart and be- ing Would I o- bey God's word, And, faith and life a- gree- ing, Serve ev- er for my Lord. In Christ, Where- e'er I be, There what- e'er I do, For Him Who died for me Lord, I would be true!
+v4: His pow'r my strength and unc- tion His man- date to o- bey, Would I live out my func- tion And serve through- out my day. In Christ, Where- e'er I be, There what- e'er I do, For Him Who died for me Lord, I would be true!
+v5: When, earth- ly ser- vice fin- ish'd, To heav- en I as- cent, Through ag- es un- dim- in- ish'd I'll serve Him with- out end. In Christ, Where- e'er I be, There what- e'er I do, For Him Who died for me Lord, I would be true!

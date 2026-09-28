@@ -1,0 +1,11 @@
+# 299 O Love of God Most Full
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: rough (per verse: exact, exact, exact, rough)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: O love of God most full, O love of God most free, Come warm my heart, Come fill my soul Come, lead _ me un- to Thee. _ _
+v2: Warm as the glow- ing sun, So shines Thy love to me It wraps me 'round with kind- ly care, It draws _ me un- to Thee. _ _
+v3: The wild- est sea is calm, The temp- est brings no fear, The dark- est night is full of light Be- cause _ Thy love is near. _ _
+v4: O love of God most full, O love of God most free, Thou warm'st my heart, Thou fill'st my soul, With might _ _ Thou streng- th'nest me. _

@@ -1,0 +1,46 @@
+{
+ "number": 76,
+ "old_number": "",
+ "title_ko": "창조의 주 아버지께",
+ "title_en": "Creator, God, We Give You Thanks",
+ "original_title": "O Father, Creator",
+ "theme": "창조주",
+ "key_table": "G",
+ "time_table": "3/4",
+ "composer": "김정일 (Kim Jeong-il)",
+ "lyricist": "이용원 (Lee Yong-won)",
+ "credit_line_in_file": {
+  "composer": "김정일",
+  "lyricist": "이용원"
+ },
+ "year": 1997,
+ "meter": "8.8.8.8 D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "76장 창조의 주 아버지께.mscz",
+   "sha256": "314dd71bea732aff3cc0142e9114553f9d9c71af58e714c70afdc7123520eb79",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

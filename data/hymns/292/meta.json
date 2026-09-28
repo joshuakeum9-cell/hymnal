@@ -1,0 +1,46 @@
+{
+ "number": 292,
+ "old_number": 415,
+ "title_ko": "주 없이 살 수 없네",
+ "title_en": "I Could Not Do Without Thee",
+ "original_title": "I Could Not Do Without Thee",
+ "theme": "은혜와사랑",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "살바토레 페레티 (Salvatore Ferretti)",
+ "lyricist": "프랜시스 리들리 헤이버갈 (Frances Ridley Havergal) · 1836~1879",
+ "credit_line_in_file": {
+  "composer": "S.Ferreti",
+  "lyricist": "F.R.Havergal"
+ },
+ "year": 1864,
+ "meter": "7.6.7.6.D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1874; work dated 1864"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1879; work dated 1864"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "292장 주 없이 살 수 없네.mscz",
+   "sha256": "5b66d85b63565c154eae0984e321c0666b7716f2e11113b7f29b91663c3cc0a4",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

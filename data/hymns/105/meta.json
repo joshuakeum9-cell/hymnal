@@ -1,0 +1,46 @@
+{
+ "number": 105,
+ "old_number": 105,
+ "title_ko": "오랫동안 기다리던",
+ "title_en": "Come, Thou Long-expected Jesus",
+ "original_title": "Come, Thou Long-Expected Jesus",
+ "theme": "강림",
+ "key_table": "F",
+ "time_table": "3/4",
+ "composer": "로울런드 휴 프리처드 (Rowland Hugh Prichard)",
+ "lyricist": "찰스 웨슬리 (Charles Wesley) · 1707~1788",
+ "credit_line_in_file": {
+  "composer": "R.H.Prichard",
+  "lyricist": "C.Wesley"
+ },
+ "year": 1830,
+ "meter": "8.7.8.7 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1887; work dated 1830"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1788; work dated 1830"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "105장 오랫동안 기다리던.mscz",
+   "sha256": "9bf6ce35159a8edd43ab67b0df73d57b3f24a270f407ec05c696c84af72e8e02",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

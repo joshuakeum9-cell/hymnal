@@ -1,0 +1,46 @@
+{
+ "number": 627,
+ "old_number": "",
+ "title_ko": "할렐루야 할렐루야 다 함께",
+ "title_en": "Hallelujah!",
+ "original_title": "",
+ "theme": "입례송",
+ "key_table": "E",
+ "time_table": "4/4",
+ "composer": "이영조 (이영조)",
+ "lyricist": "이영조 (이영조) · 1943~?",
+ "credit_line_in_file": {
+  "composer": "이영조",
+  "lyricist": "이영조"
+ },
+ "year": 1992,
+ "meter": "IRREG.",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "627장 할렐루야 할렐루야 다 함께.mscz",
+   "sha256": "7ed421bb5c23d84e2d13efcb9b01fb03b6b496438d55e65467dab09a5aec8aee",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

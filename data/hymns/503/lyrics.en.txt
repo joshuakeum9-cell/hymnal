@@ -1,0 +1,11 @@
+# 503 Do You Know the World is Dying
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, exact, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Do _ you know the world is dying For a lit- tle bit of love? Eve- ry- where we hear the sigh- ing For a lit- tle bit of love; For the love that rights a wrong, Fills the heart with hope and song; They have wai- ted, oh, so long, For a lit- tle bit of love. For a lit- tle bit of love, For a lit- tle bit of love, They have wai- ted, oh, so long, For a lit- tle bit of love,
+v2: From the poor of e- ve- ry ci- ty, For a lit- tle bit of love, Hands are reaching out for pi- ty, For a lit- tle bit of love; Some have bur- dens hard to bear, Some have sor- rows we would share; Shall they fal- ter and de- spair For a lit- tle bit of love? For a lit- tle bit of love, For a lit- tle bit of love, Shall they fal- ter and de- spair For a lit- tle bit of love?
+v3: Down be- fore their i- dols fall- ing, For a lit- tle bit of love, Ma- ny souls in vain are call- ing For a lit- tle bit of love; If they die in sin and shame, So- _ meone sure- ly is to blame For not going in His Name, With a lit- tle bit of love. With a lit- tle bit of love, With a lit- tle bit of love, For _ not going in His Name, With a lit- tle bit of love.
+v4: While _ the souls of men are dying, For a lit- tle bit of love, While _ the chil- dren, too, are crying, For a lit- tle bit of love, Stand no long- er id- ly by, You can help them if you try; Go, _ then saying, “Here am I," With a lit- tle bit of love. With a lit- tle bit of love, With a lit- tle bit of love, Go, _ then saying, “Here am I," With a lit- tle bit of love.

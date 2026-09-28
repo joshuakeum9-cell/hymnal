@@ -1,0 +1,46 @@
+{
+ "number": 274,
+ "old_number": 332,
+ "title_ko": "나 행한 것 죄뿐이니",
+ "title_en": "One Thing I of the Lord Desire",
+ "original_title": "A Clean Heart (One Thing I of the Lord Desire)",
+ "theme": "회개와용서",
+ "key_table": "Ab",
+ "time_table": "3/4",
+ "composer": "프레드 H. 바이쉬 (Fred H. Byshe)",
+ "lyricist": "월터 챌머스 스미스 (Walter Chalmers Smith) · 1824~1908",
+ "credit_line_in_file": {
+  "composer": "F.H.Byshe",
+  "lyricist": "W.C.Smith"
+ },
+ "year": 1901,
+ "meter": "8.8.8.8.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1901, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1908; work dated 1901"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "274장 나 행한 것 죄뿐이니.mscz",
+   "sha256": "b5233c7a4841ea2ce6a09fc0cfb0c2d837bcd1709d19ad4b52f83ef5dee2bd8f",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

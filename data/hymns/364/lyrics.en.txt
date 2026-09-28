@@ -1,0 +1,11 @@
+# 364 Sweet Hour of Prayer
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Sweet hour of prayer, sweet hour of prayer, That calls me from _ a world of care, And bids me at my Fa- ther's throne, Make all my wants _ and wish- es known! In sea- sons of dis- tress and grief, My soul has of- ten found re- lief, And oft es- _ caped the tempt- er's, By thy re- turn _ sweet hour of prayer. _ _
+v2: Sweet hour of prayer, sweet hour of prayer, The joys I feel, _ the bliss I share Of those whose anx- ious spir- its burn With strong de- sires _ for Thy re- turn! With such I has- ten to the place Where God, my Sav- iour, shows His face. And glad- ly take my sta- tion there, And wait for thee, _ sweet hour of prayer. _ _
+v3: Sweet hour of prayer, sweet hour of prayer, Thy wings shall my _ pe- ti- tion bear To Him, whose truth and faith- ful- ness En- gage the wait- _ ing soul to bless And since He bids me seek His face, Be- lieve His Word, and trust His grace, I'll cast on Him my ev- -'ry care, And wait for thee, _ sweet hour of prayer. _ _
+v4: Sweet hour of prayer, sweet hour of prayer, Our Lord Him- self _ knew glad- ness there And of- ten- times, when thronged a- bout, Would slip a- way _ and seek it out, And pray all night in field or hill, While all the clam-'r- ing world grew still. His ways to walk, His joys to share, 'Tis thee we need, _ sweet hour of prayer. A- men

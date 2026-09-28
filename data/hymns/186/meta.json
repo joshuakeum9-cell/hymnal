@@ -1,0 +1,46 @@
+{
+ "number": 186,
+ "old_number": 176,
+ "title_ko": "영화로신 주 성령",
+ "title_en": "Holy Ghost, with Light Divine",
+ "original_title": "Holy Ghost, with Light Divine",
+ "theme": "성령강림",
+ "key_table": "Bb",
+ "time_table": "3/4",
+ "composer": "루이 모로 고트샬크 / 에드윈 파커 편곡 (Louis Moreau Gottschalk, arr. Edwin P. Parker)",
+ "lyricist": "앤드루 리드 (Andrew Reed) · 1787~1862",
+ "credit_line_in_file": {
+  "composer": "L.M.Gottschalk/E.P.Parker",
+  "lyricist": "A.Reed"
+ },
+ "year": 1880,
+ "meter": "7.7.7.7",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1880, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1862; work dated 1880"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "186장 영화로신 주 성령.mscz",
+   "sha256": "93947d32a22f2a8d726044de3b061ccb0cc72d3b483b79c43ace3767a1f71e5f",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

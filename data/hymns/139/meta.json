@@ -1,0 +1,46 @@
+{
+ "number": 139,
+ "old_number": 128,
+ "title_ko": "오 영원한 내 주 예수",
+ "title_en": "O Thou Eternal Christ of God",
+ "original_title": "O Eternal Christ of God (PERCIVAL-SMITH)",
+ "theme": "종려주일",
+ "key_table": "Cm",
+ "time_table": "4/4",
+ "composer": "캘빈 위스 라우퍼 (Calvin Weiss Laufer)",
+ "lyricist": "캘빈 위스 라우퍼 (Calvin Weiss Laufer) · 1874~1938",
+ "credit_line_in_file": {
+  "composer": "C.W.Laufer",
+  "lyricist": "C.W.Laufer"
+ },
+ "year": 1925,
+ "meter": "8.6.8.6 D (CMD)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1938; work dated 1925"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1938; work dated 1925"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "139장 오 영원한 내 주 예수.mscz",
+   "sha256": "445e323e325b8213093d04d4a87bbf3ff12fa3845449fba21d2c887fb9918498",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

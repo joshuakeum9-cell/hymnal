@@ -1,0 +1,11 @@
+# 184 Come, Thou Burning Spirit, Come
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Come, Thou burn- ing Spir- it, Come Lo! We stretch our hands to Thee From the Fa- ther and the Son Let us now Thy glo- ry see. Come, O Come great Spir- it, Come! Let the might- y deed be done! Sat- is- fy our soul's de- sire! Now we trust Thee for the fire Fi- re, fi- re fill us with Thy ho- ly fire! _ _
+v2: On the al- tar now we lay Soul and bod- y, mind and will All the e- vil pas- sions slay, Come and ev- ery cor- ner fill, Come, O Come great Spir- it, Come! Let the might- y deed be done! Sat- is- fy our soul's de- sire! Now we trust Thee for the fire Fi- re, fi- re fill us with Thy ho- ly fire! _ _
+v3: Now the sac- ri- fice we make, Though as dear as a right eye, For our bless- ed Sav- ior's sake Who for us did bleed and die. Come, O Come great Spir- it, Come! Let the might- y deed be done! Sat- is- fy our soul's de- sire! Now we trust Thee for the fire Fi- re, fi- re fill us with Thy ho- ly fire! _ _
+v4: Now by faith the gift I claim, Bought for me by blood di- vine, Through the al Pre- vail- ing name All the prom- is- es are mine. Come, O Come great Spir- it, Come! Let the might- y deed be done! Sat- is- fy our soul's de- sire! Now we trust Thee for the fire Fi- re, fi- re fill us with Thy ho- ly fire! A- men.

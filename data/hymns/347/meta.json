@@ -1,0 +1,46 @@
+{
+ "number": 347,
+ "old_number": 382,
+ "title_ko": "허락하신 새 땅에",
+ "title_en": "We Are Bound for Canaan Land",
+ "original_title": "Dare to Stand Like Joshua",
+ "theme": "분투와승리",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "P. P. 빌혼 (Peter Philip Bilhorn)",
+ "lyricist": "C. S. 로빈슨 (Charles S. Robinson) · 1829~1899",
+ "credit_line_in_file": {
+  "composer": "P.P.Bilhorn",
+  "lyricist": "C.M.Robinson"
+ },
+ "year": 1898,
+ "meter": "7.5.7.5 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1936; work dated 1898"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1899; work dated 1898"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "347장 허락하신 새 땅에.mscz",
+   "sha256": "de9e09c7b81eb035eb0f664dc23594e59a43cd1eaee5277a5eecef9a89bc1f46",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

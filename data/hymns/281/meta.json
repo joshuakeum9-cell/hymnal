@@ -1,0 +1,46 @@
+{
+ "number": 281,
+ "old_number": "",
+ "title_ko": "요나처럼 순종않고",
+ "title_en": "I Went Away Against His Will",
+ "original_title": "",
+ "theme": "회개와용서",
+ "key_table": "F",
+ "time_table": "3/4",
+ "composer": "김홍규 (김홍규)",
+ "lyricist": "정성구 (정성구) · 1942~?",
+ "credit_line_in_file": {
+  "composer": "김홍규",
+  "lyricist": "정성구"
+ },
+ "year": 1999,
+ "meter": "8.8.8.8.D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "281장 요나처럼 순종않고.mscz",
+   "sha256": "f54a22a704645206f4716b3dda54aee5e1066acd274ed1353a4f42fab733bb15",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

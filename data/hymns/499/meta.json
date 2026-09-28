@@ -1,0 +1,46 @@
+{
+ "number": 499,
+ "old_number": 277,
+ "title_ko": "흑암에 사는 백성들을 보라",
+ "title_en": "Far, Far Away in Heathen Darkness Dwelling",
+ "original_title": "Go Ye into All the World",
+ "theme": "전도",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "제임스 맥그래너핸 (James McGranahan)",
+ "lyricist": "제임스 맥그래너핸 (James McGranahan) · 1840~1907",
+ "credit_line_in_file": {
+  "composer": "J.McGranahan",
+  "lyricist": "J.McGranahan"
+ },
+ "year": 1886,
+ "meter": "11.10.11.10 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1907; work dated 1886"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1907; work dated 1886"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "499장 흑암에 사는 백성들을 보라.mscz",
+   "sha256": "44cb4e6b7b1e52ebc7a67c441ac584c5bb0af044fd48fdbcee01e29bad11c41e",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,11 @@
+# 538 If You Are Tired of the Load of Your Sin
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: If you are tired of the load of your sin, Let Je- _ sus come in- to your heart If you de- sire a new life to be- gin, Let Je- sus come in- to your heart. Just now, your doubt- ings give o'er Just now, re- ject Him no more Just now, throw o- pen the door Let Je- sus come in- to your heart
+v2: If 'tis for pu- ri- ty now that you sigh, Let Je- _ sus come in- to your heart Foun- tains for cleans- ing are flow- ing near by, Let Je- sus come in- to your heart. Just now, your doubt- ings give o'er Just now, re- ject Him no more Just now, throw o- pen the door Let Je- sus come in- to your heart
+v3: If what you need is a true- heart- ed friend, Let Je- _ sus come in- to your heart If in your heart you want peace with- out end, Let Je- sus come in- to your heart. Just now, your doubt- ings give o'er Just now, re- ject Him no more Just now, throw o- pen the door Let Je- sus come in- to your heart
+v4: If you would join the glad songs of the blest, Let Je- _ sus come in- to your heart If you would en- ter the man- sions of rest, Let Je- sus come in- to your heart. Just now, your doubt- ings give o'er Just now, re- ject Him no more Just now, throw o- pen the door Let Je- sus come in- to your heart

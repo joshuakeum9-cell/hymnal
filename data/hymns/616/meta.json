@@ -1,0 +1,46 @@
+{
+ "number": 616,
+ "old_number": "",
+ "title_ko": "주를 경배하리",
+ "title_en": "I Will Worship You, Lord",
+ "original_title": "",
+ "theme": "경배와찬양",
+ "key_table": "Em",
+ "time_table": "4/4",
+ "composer": "다니엘 가드너 (Daniel Gardner)",
+ "lyricist": "다니엘 가드너 (Daniel Gardner)",
+ "credit_line_in_file": {
+  "composer": "D.Gardner",
+  "lyricist": "D.Gardner"
+ },
+ "year": null,
+ "meter": "IRREG.",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "credits marked ai-draft on the source page; check the book"
+  },
+  "text_en": {
+   "status": "unknown",
+   "basis": "no dates found; check the printed credit line"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "616장 주를 경배하리.mscz",
+   "sha256": "c1c028db83d15a19908d4c0c4294da501b0c17887ba14922f8f644ffa28d204f",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

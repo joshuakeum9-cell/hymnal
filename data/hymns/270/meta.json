@@ -1,0 +1,46 @@
+{
+ "number": 270,
+ "old_number": 214,
+ "title_ko": "변찮는 주님의 사랑과",
+ "title_en": "Let Us Sing of His Love",
+ "original_title": "Full Salvation",
+ "theme": "회개와용서",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "조셉 필브릭 웹스터 (Joseph Philbrick Webster)",
+ "lyricist": "프랜시스 (프랭크) 보텀 (Francis (Frank) Bottome) · 1823~1894",
+ "credit_line_in_file": {
+  "composer": "J.P.Webster",
+  "lyricist": "F.Bottome"
+ },
+ "year": 1867,
+ "meter": "9.9.9.9 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1875; work dated 1867"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1894; work dated 1867"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "270장 변찮는 주님의 사랑과.mscz",
+   "sha256": "54ebc1e6e521d004e66a8a1a12ce0f0d50887dc8a8c6da3650c7304421a4ff61",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

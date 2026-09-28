@@ -1,0 +1,46 @@
+{
+ "number": 456,
+ "old_number": 509,
+ "title_ko": "거친 세상에서 실패하거든",
+ "title_en": "Have You Failed in Your Plan",
+ "original_title": "The Nail-Scarred Hand",
+ "theme": "제자의도리",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "B. B. 매키니 (Baylus Benjamin McKinney)",
+ "lyricist": "B. B. 매키니 (Baylus Benjamin McKinney) · 1886~1952",
+ "credit_line_in_file": {
+  "composer": "B.B.McKinney",
+  "lyricist": "B.B.McKinney"
+ },
+ "year": 1924,
+ "meter": "11.8.11.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1952; work dated 1924"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1952; work dated 1924"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "456장 거친 세상에서 실패하거든.mscz",
+   "sha256": "6b6afc0093f9b131f44a6e1b6352fb352d772dbac056ccc4fa8717deabfd1936",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

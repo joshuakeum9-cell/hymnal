@@ -1,0 +1,46 @@
+{
+ "number": 174,
+ "old_number": 161,
+ "title_ko": "대속하신 구주께서",
+ "title_en": "Lo! He Comes, with Clouds Descending",
+ "original_title": "Lo! He Comes with Clouds Descending",
+ "theme": "재림",
+ "key_table": "D",
+ "time_table": "3/4",
+ "composer": "찰스 록하트 (Charles Lockhart)",
+ "lyricist": "찰스 웨슬리 (존 세닉 보강) (Charles Wesley (after John Cennick)) · 1707~1788",
+ "credit_line_in_file": {
+  "composer": "C.Lockhart",
+  "lyricist": "C.Wesley"
+ },
+ "year": 1769,
+ "meter": "8.7.8.7.8.7",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1815; work dated 1769"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1788; work dated 1769"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "174장 대속하신 구주께서.mscz",
+   "sha256": "0bb353400ba87ef27d88a9c248d8b8fb7d07acdb78d8a9cbf6107c18f804eee5",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

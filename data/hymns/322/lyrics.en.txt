@@ -1,0 +1,10 @@
+# 322 Gather Us In, Thou Love
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Gath- er us in, Thou love that fill- est all Gath- er our ri- val faiths with- in Thy fold. Rend each man's tem- ple veil and bid it fall, That we, may know that Thou hast been of old _ _
+v2: Gath- er us in: we wor- ship on- ly Thee In var- ied names we stretch a com- mon hand In div- erse forms a com- mon soul we see In man- y ships we seek one spir- it land. _ _
+v3: Each sees one colour of Thy rain- bow light, Each looks upon one tint and calls it hea- ven Thou art the full- ness of our par- tial sight We are not per- fect till we find the se- ven. A- men.

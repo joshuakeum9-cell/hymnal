@@ -1,0 +1,46 @@
+{
+ "number": 481,
+ "old_number": 531,
+ "title_ko": "때 저물어서 날이 어두니",
+ "title_en": "Abide with Me",
+ "original_title": "Abide with Me",
+ "theme": "미래와소망",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "윌리엄 H. 몽크 (William Henry Monk)",
+ "lyricist": "헨리 F. 라이트 (Henry Francis Lyte) · 1793~1847",
+ "credit_line_in_file": {
+  "composer": "W.H.Monk",
+  "lyricist": "H.F.Lyte"
+ },
+ "year": 1861,
+ "meter": "10.10.10.10",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1889; work dated 1861"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1847; work dated 1861"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "481장 때 저물어서 날이 어두니.mscz",
+   "sha256": "aedbc3ee650548a2cf71da9677703f9db33278018bbcaca1705bec24b88ea4b8",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

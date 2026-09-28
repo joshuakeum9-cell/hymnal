@@ -1,0 +1,46 @@
+{
+ "number": 591,
+ "old_number": 310,
+ "title_ko": "저 밭에 농부 나가",
+ "title_en": "We Plow the Fields, and Scatter",
+ "original_title": "We Plow the Fields and Scatter",
+ "theme": "감사절",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "요한 A. P. 슐츠 (Johann Abraham Peter Schulz)",
+ "lyricist": "마티아스 클라우디우스 (Matthias Claudius) · 1740~1815",
+ "credit_line_in_file": {
+  "composer": "J.A.P.Schulz",
+  "lyricist": "M.Claudius"
+ },
+ "year": 1800,
+ "meter": "7.6.7.6 D with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1800; work dated 1800"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1815; work dated 1800"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "591장 저 밭에 농부 나가.mscz",
+   "sha256": "797af0f1859967fdce95717a252e1a415f07e216dc26759e9394572e25c19d96",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

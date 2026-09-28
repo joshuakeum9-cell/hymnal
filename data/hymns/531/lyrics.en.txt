@@ -1,0 +1,11 @@
+# 531 Jesus is Tenderly Calling Thee Home
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Je- sus is ten- der- ly call- ing thee home Call- ing to- day, call- ing to- day Why from the sun- shine of love wilt thou roam Far- ther and far- ther a- way Call- ing to- day, Call- ing to- day, Je- sus is call- ing, is ten- der- ly call- ing to- day.
+v2: Je- sus is call- ing the wea- ry to rest Call- ing to- day, call- ing to- day Bring Him thy bur- den and thou shalt be blest: He will not turn thee a- way. Call- ing to- day, Call- ing to- day, Je- sus is call- ing, is ten- der- ly call- ing to- day.
+v3: Je- sus is wait- ing O come to Him now Wait- ing to- day, wait- ing to- day Come with thy sins at His feet low- ly bow Come, and no lon- ger de- lay. Call- ing to- day, Call- ing to- day, Je- sus is call- ing, is ten- der- ly call- ing to- day.
+v4: Je- sus is plead- ing O list to His voice Hear Him to- day, hear Him to- day They who be- lieve on His name shall re- joice Quick- ly a- rise and a- way. Call- ing to- day, Call- ing to- day, Je- sus is call- ing, is ten- der- ly call- ing to- day.

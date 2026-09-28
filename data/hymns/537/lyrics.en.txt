@@ -1,0 +1,11 @@
+# 537 Why Do You Wait, Dear Brother
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, auto, exact, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Why do you wait, dear brth- er, O why do you tar- ry so long Your sav- iour is wait- ing to give you A place in His sanc- ti- fied throng. Why not why not Why not come to Him now _ Why not why not Why not come to Him now
+v2: What do you hope, dear brother, To gain by a fur- ther de- lay The- re's no one to save you but Je- sus, The- re's no oth- er way but His way. Why not why not Why not come to Him now Why not why not Why not come to Him now
+v3: Do you not feel, dear broth- er, His Spir- it now striv- ing with- in O why not ac- cept His sal- va- tion And throw off your bur- den of sin Why not why not Why not come to Him now _ Why not why not Why not come to Him now
+v4: Why do you wait, dear broth- er The har- vest is pass- ing a- way Your Sav- iour is long- ing to bless you, The- re's dang- er and death in de- lay. Why not why not Why not come to Him now Why not why not Why not come to Him now

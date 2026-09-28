@@ -1,0 +1,46 @@
+{
+ "number": 461,
+ "old_number": 519,
+ "title_ko": "십자가를 질 수 있나",
+ "title_en": "“Are ye able,” said the Master",
+ "original_title": "Are Ye Able",
+ "theme": "제자의도리",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "해리 S. 메이슨 (Harry Silvernale Mason)",
+ "lyricist": "얼 B. 말랫 (Earl Bowman Marlatt) · 1892~1976",
+ "credit_line_in_file": {
+  "composer": "H.S.Mason",
+  "lyricist": "E.B.Marlatt"
+ },
+ "year": 1924,
+ "meter": "8.7.8.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "author died 1964, after 1962"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "author died 1976, after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "461장 십자가를 질 수 있나.mscz",
+   "sha256": "0a18a1d73e18ec7e7c4c0ae6aac348f77cae31b7c34732757e193cdb1d159507",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

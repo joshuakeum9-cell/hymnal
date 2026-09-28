@@ -1,0 +1,46 @@
+{
+ "number": 65,
+ "old_number": 19,
+ "title_ko": "내 영혼아 찬양하라",
+ "title_en": "Praise, My Soul, the King of Heaven",
+ "original_title": "Praise, My Soul, the King of Heaven",
+ "theme": "창조주",
+ "key_table": "D",
+ "time_table": "2/4",
+ "composer": "존 고스 (John Goss)",
+ "lyricist": "헨리 프랜시스 라이트 (Henry Francis Lyte) · 1793~1847",
+ "credit_line_in_file": {
+  "composer": "J.Goss",
+  "lyricist": "H.F.Lyte"
+ },
+ "year": 1869,
+ "meter": "8.7.8.7.8.7",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1880; work dated 1869"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1847; work dated 1869"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "65장 내 영혼아 찬양하라.mscz",
+   "sha256": "49d293c6a1d997f1ec082cd65fb3d4472241f47237f696c624763e02f4334259",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

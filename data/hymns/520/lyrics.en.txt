@@ -1,0 +1,10 @@
+# 520 Whosoever Heareth, Shout, Shout the Sound
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: "Who- so- ev- er hear- eth," shout, shout the _ sound! Spread the bless- ed ti- dings all the world a- round, Tell the joy- ful news where- ev- er man is found, "Who- so- ev- er will may come." "Who- so- ev- er will", "Who- so- ev- er will," Send the proc- la- ma- tion o- ver vale and hill 'Tis a lov- ing Fa- ther calls the van- d'rer home: "Who- so- ev- er will may come."
+v2: Who- so- ev- er com- eth, need _ not de- lay, Now the door is o- pen, en- ter while you may Je- sus is the true, the on- ly Liv- ing Way "Who- so- ev- er will may come." "Who- so- ev- er will," "Who- so- ev- er will," Send the proc- la- ma- tion o- ver vale and hill 'Tis a lov- ing Fa- ther calls the van- d'rer home: "Who- so- ev- er will may come."
+v3: "Who- so- ev- er will!" the prom- ise is se- cure "Who- so- ev- er will," for- ev- er must en- dure "Who- so- ev- er will!" 'tis life for- ev- er- more "Who- so- ev- er will may come." "Who- so- ev- er will," "Who- so- ev- er will," Send the proc- la- ma- tion o- ver vale and hill 'Tis a lov- ing Fa- ther calls the van- d'rer home: "Who- so- ev- er will may come."

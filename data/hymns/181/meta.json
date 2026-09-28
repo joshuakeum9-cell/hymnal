@@ -1,0 +1,46 @@
+{
+ "number": 181,
+ "old_number": "",
+ "title_ko": "부활 승천하신 주께서",
+ "title_en": "Risen and Ascended Lord Jesus",
+ "original_title": "Risen and Ascended Lord (Korean original)",
+ "theme": "재림",
+ "key_table": "E",
+ "time_table": "4/4",
+ "composer": "나운영 (Na Un-young)",
+ "lyricist": "이성봉 목사 (성결교 부흥사) (Lee Sung-bong (Korean revivalist)) · 1900~1965",
+ "credit_line_in_file": {
+  "composer": "나운영",
+  "lyricist": "이성봉"
+ },
+ "year": 1979,
+ "meter": "9.9.8.9 with refrain",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "181장 부활 승천하신 주께서.mscz",
+   "sha256": "eec9b031d96de284eaeb6e96763d26e0f64314cdbafceac021dd09b319fdc15a",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,11 @@
+# 526 Come, Ye Disconsolate
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Come, ye dis- con- so- late, where- _ e'er ye lan- _ guish Come to the mer- cy- seat, Fer- vent- ly kneel, Here bring your wound- ed hearts here tell _ you're _ an- _ guish. Earth _ has no sor- row that heav'n can- not heal.
+v2: Joy of the des- o- late, light _ of the stray- _ ing Hope of the pen- i- tent, fade- less and pure, Here speaks the com- fort- er, ten- der- _ ly _ say- _ ing “Earth _ has no sor- row that heav'n can- not cure."
+v3: Here see the bread of life see _ wa- ters flow- _ ing Forth from the throne of God, pure from a- bove. Come to the feast of love come ev- _ er _ know- _ ing Earth _ has no sor- row but heav'n can re- move.
+v4: All who draw nigh and take, here _ of Cod's boun- _ ty Shall know a spring of Life, still to in- crease, Wat- er of life shall flow up from _ with- _ in _ them, End- _ ing all thirst- ing, and nev- er to cease.

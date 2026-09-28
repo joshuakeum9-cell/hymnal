@@ -1,0 +1,46 @@
+{
+ "number": 425,
+ "old_number": 217,
+ "title_ko": "주님의 뜻을 이루소서",
+ "title_en": "Have Thine Own Way, Lord",
+ "original_title": "Have Thine Own Way, Lord",
+ "theme": "성결한생활",
+ "key_table": "Eb",
+ "time_table": "9/4",
+ "composer": "조지 C. 스테빈스 (George Coles Stebbins)",
+ "lyricist": "아델라이드 폴라드 (Adelaide Addison Pollard) · 1862~1934",
+ "credit_line_in_file": {
+  "composer": "G.C.Stebbins",
+  "lyricist": "A.A.Pollard"
+ },
+ "year": 1907,
+ "meter": "5.4.5.4.D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1945; work dated 1907"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1934; work dated 1907"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "425장 주님의 뜻을 이루소서.mscz",
+   "sha256": "b4f688bb991fad35487be6aab399ca352f64b06ac085e0d580c27a507929f444",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

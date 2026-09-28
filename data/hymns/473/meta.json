@@ -1,0 +1,46 @@
+{
+ "number": 473,
+ "old_number": "",
+ "title_ko": "괴로움과 고통을",
+ "title_en": "All the Suff'ring Every Sorrow",
+ "original_title": "Healing Lord (Korean original)",
+ "theme": "신유의권능",
+ "key_table": "F",
+ "time_table": "6/8",
+ "composer": "김성훈 (Kim Sung-hoon)",
+ "lyricist": "정희근 (Jung Hee-geun)",
+ "credit_line_in_file": {
+  "composer": "김성훈",
+  "lyricist": "정치근"
+ },
+ "year": 2005,
+ "meter": "7.8.7.7 with refrain",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "473장 괴로움과 고통을.mscz",
+   "sha256": "b1b957fd5ef5cfb5ed4b392ebbd5c2d77184dfff375cbf402e7042d5c71141f0",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

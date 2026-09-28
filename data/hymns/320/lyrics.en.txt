@@ -1,0 +1,11 @@
+# 320 How I Praise Thee, Precious Savior
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: How I praise Thee, pre- cious Sav- iour, That Thy love laid hold of me Thou hast saved and cleansed and filled me That I might Thy chan- nel be. Chan- nels on- ly, bless- ed Mas- ter, But with all Thy won- drous pow'r Flow- ing thro' us, Thou canst use us Ev- -'ry day and ev- -'ry hour. _ _
+v2: Emp- tied that Thou should- est fill me, A clean ves- sel in Thy hand, With no pow'r but as Thou giv- est Gra- cious- ly with each com- mand. Chan- nels on- ly, bless- ed Mas- ter, But with all Thy won- drous pow'r Flow- ing thro' us, Thou canst use us Ev- -'ry day and ev- -'ry hour. _ _
+v3: Wit- ness- ing Thy pow'r to save me, Set- ting free from self and sin Thou who bought- est to pos- sess me, In Thy full- ness, Lord come in. Chan- nels on- ly, bless- ed Mas- ter, But with all Thy won- drous pow'r Flow- ing thro' us, Thou canst use us Ev- -'ry day and ev- -'ry hour. _ _
+v4: Je- sus, fill now with Thy Spir- it Hearts that full sur- ren- der know, That the streams of liv- ing wa- ter From our in- ner man may flow. Chan- nels on- ly, bless- ed Mas- ter, But with all Thy won- drous pow'r Flow- ing thro' us, Thou canst use us Ev- -'ry day and ev- -'ry hour. A- men.

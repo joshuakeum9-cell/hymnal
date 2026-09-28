@@ -1,0 +1,46 @@
+{
+ "number": 3,
+ "old_number": 2,
+ "title_ko": "성부 성자와 성령",
+ "title_en": "Glory Be to the Father",
+ "original_title": "Glory be to the Father (Gloria Patri)",
+ "theme": "송영",
+ "key_table": "A",
+ "time_table": "4/4",
+ "composer": "크리스토프 마이네케 (Christoph Meineke)",
+ "lyricist": "전통(2세기) (Traditional (2nd Century))",
+ "credit_line_in_file": {
+  "composer": "C.Meineke",
+  "lyricist": "Anonymous"
+ },
+ "year": 1844,
+ "meter": "Irregular",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1850; work dated 1844"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 전통(2세기) (Traditional (2nd Century))"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "3장 성부 성자와 성령.mscz",
+   "sha256": "9d1e8ddd371c0a5d62be7dc9b4fc4a1ae116664d71d004e631a1d91859580f7f",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

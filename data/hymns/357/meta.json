@@ -1,0 +1,46 @@
+{
+ "number": 357,
+ "old_number": 397,
+ "title_ko": "주 믿는 사람 일어나",
+ "title_en": "Encamped Along the Hills of Light",
+ "original_title": "Faith Is the Victory (Encamped Along the Hills of Light)",
+ "theme": "분투와승리",
+ "key_table": "Eb",
+ "time_table": "6/8",
+ "composer": "I. D. 생키 (Ira D. Sankey)",
+ "lyricist": "J. H. 예이츠 (John Henry Yates) · 1837~1900",
+ "credit_line_in_file": {
+  "composer": "I.D.Sankey",
+  "lyricist": "J.H.Yates"
+ },
+ "year": 1891,
+ "meter": "8.6.8.6.D with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1908; work dated 1891"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1900; work dated 1891"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "357장 주 믿는 사람 일어나.mscz",
+   "sha256": "62e8b4a675e5057fccf5f6dd3dcaa3aad5d9cdc8f6ffb34b7652b1bbfee2ecf5",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

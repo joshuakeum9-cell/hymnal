@@ -1,0 +1,46 @@
+{
+ "number": 142,
+ "old_number": "",
+ "title_ko": "시온에 오시는 주",
+ "title_en": "Let Us Sing Our Hosanna Loud",
+ "original_title": "God Come to Zion (Korean original)",
+ "theme": "종려주일",
+ "key_table": "F",
+ "time_table": "3/4",
+ "composer": "김종덕 (Kim Jong-deok)",
+ "lyricist": "홍안의 (Hong An-eui)",
+ "credit_line_in_file": {
+  "composer": "김종덕",
+  "lyricist": "홍안의"
+ },
+ "year": 1997,
+ "meter": "7.7.7.7.7.7.8.7.7",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "142장 시온에 오시는 주.mscz",
+   "sha256": "9348efe409f8af223ac03e726f72578c63c372531cf4ce6b487cd68a0058e4a0",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

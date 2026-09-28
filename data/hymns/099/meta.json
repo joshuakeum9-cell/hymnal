@@ -1,0 +1,46 @@
+{
+ "number": 99,
+ "old_number": "",
+ "title_ko": "주님 앞에 떨며 서서",
+ "title_en": "Let All Mortal Flesh Keep Silence",
+ "original_title": "Let All Mortal Flesh Keep Silence",
+ "theme": "구주강림",
+ "key_table": "Dm",
+ "time_table": "2/2",
+ "composer": "프랑스 캐럴 (French Carol (PICARDY))",
+ "lyricist": "성 야고보 전례(4세기) (Liturgy of St. James (trans. G. Moultrie))",
+ "credit_line_in_file": {
+  "composer": "French Carol",
+  "lyricist": "Liturgy of St. James"
+ },
+ "year": 1906,
+ "meter": "8.7.8.7.8.7",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1906, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1906, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "99장 주님 앞에 떨며 서서.mscz",
+   "sha256": "f9b5a8679eb76b847acac80f1d5ff38965b898bc192aa2d163c8e9ddbc13fcaa",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

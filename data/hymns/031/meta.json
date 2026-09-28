@@ -1,0 +1,46 @@
+{
+ "number": 31,
+ "old_number": 46,
+ "title_ko": "찬양하라 복되신 구세주 예수",
+ "title_en": "Praise Him, Praise Him",
+ "original_title": "Praise Him, Praise Him! Jesus, Our Blessed Redeemer",
+ "theme": "찬양",
+ "key_table": "Ab",
+ "time_table": "6/8",
+ "composer": "체스터 G. 앨런 (Chester G. Allen)",
+ "lyricist": "패니 J. 크로스비 (Fanny J. Crosby) · 1820~1915",
+ "credit_line_in_file": {
+  "composer": "C.G.Allen",
+  "lyricist": "F.J.Crosby"
+ },
+ "year": 1869,
+ "meter": "Irregular",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1878; work dated 1869"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1869"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "31장 찬양하라 복되신 구세주 예수.mscz",
+   "sha256": "08a999379528d52d10c1776d32d62e2a834de59e5aa6bc0ade45cd83ad4e9f14",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

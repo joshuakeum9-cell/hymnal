@@ -1,0 +1,46 @@
+{
+ "number": 521,
+ "old_number": 253,
+ "title_ko": "구원으로 인도하는",
+ "title_en": "Strait is the Gate to Salvation",
+ "original_title": "",
+ "theme": "부르심과영접",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "존 R. 스위니 (John R. Sweney)",
+ "lyricist": "Anonymous",
+ "credit_line_in_file": {
+  "composer": "J.R.Sweney",
+  "lyricist": "Anonymous"
+ },
+ "year": 1919,
+ "meter": "8.7.8.7.8.7.8.8.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "credits marked ai-draft on the source page; check the book"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1919, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "521장 구원으로 인도하는.mscz",
+   "sha256": "1feeb4f6d4e8e5cd19bc41a1479f19b45a4871ef117f41d4ac8837323215a717",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

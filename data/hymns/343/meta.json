@@ -1,0 +1,46 @@
+{
+ "number": 343,
+ "old_number": 443,
+ "title_ko": "시험 받을 때에",
+ "title_en": "In The Hour Of Trial",
+ "original_title": "In the Hour of Trial",
+ "theme": "시련과극복",
+ "key_table": "C",
+ "time_table": "4/4",
+ "composer": "S. 레인 (Spencer Lane)",
+ "lyricist": "J. 몽고메리 (James Montgomery) · 1771~1854",
+ "credit_line_in_file": {
+  "composer": "S.Lane",
+  "lyricist": "J.Montgomery"
+ },
+ "year": 1875,
+ "meter": "6.5.6.5.D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1903; work dated 1875"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1854; work dated 1875"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "343장 시험 받을 때에.mscz",
+   "sha256": "5eeda3e7ea1959d30f2bf2ca5bc15ea4833d3032068663a62c3087374822941c",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

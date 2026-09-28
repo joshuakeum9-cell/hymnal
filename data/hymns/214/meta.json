@@ -1,0 +1,46 @@
+{
+ "number": 214,
+ "old_number": 349,
+ "title_ko": "나 주의 도움 받고자",
+ "title_en": "Jesus, My Lord, to Thee I Cry",
+ "original_title": "Take Me As I Am",
+ "theme": "헌신과봉사",
+ "key_table": "Eb",
+ "time_table": "6/8",
+ "composer": "아이라 데이비드 생키 (Ira David Sankey)",
+ "lyricist": "엘리자 H. 해밀턴 (Eliza H. Hamilton)",
+ "credit_line_in_file": {
+  "composer": "I.D.Sankey",
+  "lyricist": "E.H.Hamilton"
+ },
+ "year": 1885,
+ "meter": "8.8.8.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1908; work dated 1885"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1885, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "214장 나 주의 도움 받고자.mscz",
+   "sha256": "cd54e878fb8b4779a2d059be4dcc97f6cae61f1e4be945fe2bdc9ed8528d58b1",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

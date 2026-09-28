@@ -1,0 +1,11 @@
+# 294 God Gave His Only Begotten Son
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: God gave _ His on- ly begot- _ ten Son To meet _ our dy- ing need _ In love _ spar'ds not His best- _ lov'd One! Ah! this _ is love in- deed! Yes! God _ is love and to _ a race Still sunk _ in sin and greed, He o- _ ver- flows with love _ and grace! Is this _ not love in- deed!
+v2: Though we _ re- bel a- gainst _ our Lord, And live _ from His es- trang'd, _ Make God _ our foe and flout _ His word, His love _ re- mains un- chang'd. Yes! God _ is love and to _ a race Still sunk _ in sin and greed, He o- _ ver- flows with love _ and grace! Is this _ not love in- deed!
+v3: To save _ this earth, our sin _ a- tone, And spare _ us ut- ter loss, _ The Ho- _ ly Son bore all _ a- lone Our tor- _ ment on the Cross. Yes! God _ is love and to _ a race Still sunk _ in sin and greed, He o- _ ver- flows with love _ and grace! Is this _ not love in- deed!
+v4: Be mov'd _ by this a- maz- _ ing love And seek _ your Sav- iour's face! _ Com- mit _ your soul to God _ a- bove, And so _ be sav'd by grace! Yes! God _ is love and to _ a race Still sunk _ in sin and greed, He o- _ ver- flows with love _ and grace! Is this _ not love in- deed!

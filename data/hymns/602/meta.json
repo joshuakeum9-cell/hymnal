@@ -1,0 +1,46 @@
+{
+ "number": 602,
+ "old_number": 286,
+ "title_ko": "성부님께 빕니다",
+ "title_en": "Here, O Father, This Our Prayer",
+ "original_title": "",
+ "theme": "혼례",
+ "key_table": "D",
+ "time_table": "4/4",
+ "composer": "교구 합창단 (The Parish Choir)",
+ "lyricist": "Anonymous",
+ "credit_line_in_file": {
+  "composer": "French Melody",
+  "lyricist": "Anonymous"
+ },
+ "year": 1850,
+ "meter": "7.7.7.7",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1850, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1850, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "602장 성부님께 빕니다.mscz",
+   "sha256": "565ee3e1bdceb6c1b4c07d329449ffd6b7b32e87069df91112f0ca37d47c51b1",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

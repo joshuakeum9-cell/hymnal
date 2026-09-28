@@ -1,0 +1,46 @@
+{
+ "number": 390,
+ "old_number": 444,
+ "title_ko": "예수가 거느리시니",
+ "title_en": "He Leadeth Me: O Blessed Thought",
+ "original_title": "He Leadeth Me, O Blessed Thought",
+ "theme": "인도와보호",
+ "key_table": "Db",
+ "time_table": "4/4",
+ "composer": "W. B. 브래드버리 (William B. Bradbury)",
+ "lyricist": "J. H. 길모어 (Joseph H. Gilmore) · 1834~1918",
+ "credit_line_in_file": {
+  "composer": "W.B.Bradbury",
+  "lyricist": "J.H.Gilmore"
+ },
+ "year": 1864,
+ "meter": "8.8.8.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1864, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1918; work dated 1864"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "390장 예수가 거느리시니.mscz",
+   "sha256": "d3ba08787b0f119281bd222dccd3d59bc9da5424b95b0f6fbeec9c8356e67be4",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

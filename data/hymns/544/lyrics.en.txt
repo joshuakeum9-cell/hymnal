@@ -1,0 +1,11 @@
+# 544 Weeping Will Not Save Me
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Weep- ing will not save me! Tho' my face were bathed in tears, That could not al- lay my fears, Could not wash the sin of years! Weep- ing will not save me. Je- sus wept and died for me Je- sus suf- fered on the tree Je- sus waits to make me free He a- lone can save me!
+v2: Work- ing will not save me! Pu- rest deeds that I can do, Holi- est thoughts and fee- lings too, Can- not form my soul a- new! Work- ing will not save me. Je- sus wept and died for me Je- sus suf- fered on the tree Je- sus waits to make me free He a- lone can save me!
+v3: Wait- ing will not save me! Hel- pless, guil- ty, los- t,I lie In my ear is Mer- cy's cry If I wait I can but die Wait- ing will not save me. Je- sus wept and died for me Je- sus suf- fered on the tree Je- sus waits to make me free He a- lone can save me!
+v4: Faith in Christ will save me! Let me trust Thy weep- ing Son, Trust the work that He has done To His arms, Lord help me run Faith in christ will save me. Je- sus wept and died for me Je- sus suf- fered on the tree Je- sus waits to make me free He a- lone can save me!

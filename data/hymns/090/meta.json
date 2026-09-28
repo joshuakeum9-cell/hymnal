@@ -1,0 +1,46 @@
+{
+ "number": 90,
+ "old_number": 98,
+ "title_ko": "주 예수 내가 알기전",
+ "title_en": "I've Found a Friend",
+ "original_title": "I Have a Friend Whose Faithful Love (Loved With Everlasting Love)",
+ "theme": "예수그리스도",
+ "key_table": "Ab",
+ "time_table": "3/4",
+ "composer": "조지 C. 스테빈스 (George C. Stebbins)",
+ "lyricist": "제임스 G. 스몰 (James G. Small) · 1817~1888",
+ "credit_line_in_file": {
+  "composer": "G.C.Stebbins",
+  "lyricist": "J.G.Small"
+ },
+ "year": 1878,
+ "meter": "8.7.8.7 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1878, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1888; work dated 1878"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "90장 주 예수 내가 알기전.mscz",
+   "sha256": "7f533b7297b07b7af02e9e710fa8bde857548c37e3cf7b9510cf142da8b306d9",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 225,
+ "old_number": 298,
+ "title_ko": "실로암 샘물가에 핀",
+ "title_en": "By Cool Siloam's Shady Rill",
+ "original_title": "By Cool Siloam's Shady Rill (The Christian Child)",
+ "theme": "세례침례)",
+ "key_table": "D",
+ "time_table": "3/4",
+ "composer": "아이작 베이커 우드베리 (Isaac Baker Woodbury)",
+ "lyricist": "레지널드 히버 (Reginald Heber) · 1783~1826",
+ "credit_line_in_file": {
+  "composer": "I.B.Woodbury",
+  "lyricist": "R.Heber"
+ },
+ "year": 1842,
+ "meter": "8.6.8.6 (C.M.)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1858; work dated 1842"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1826; work dated 1842"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "225장 실로암 샘물가에 핀.mscz",
+   "sha256": "feac519b39ab94f80f23b47aaf4351e8a8ccd2c207e45e7827dafed10bda5970",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,10 @@
+# 126 Hark! The Herald Angels Sing
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Hark! the her- ald an- gels sing, _ "Glo- ry to the new- born King Peace on earth, and mer- cy mild, _ God and sin- ners rec- on- ciled!" Joy- ful, all ye na- tions, rise, _ Join the tri- umph of the skies With th' an- gel- ic host pro- claim, "Christ is _ born in Beth- le- hem!" Hark! the her- ald an- gels sing, "Glo- ry _ to the new- born King" _ _
+v2: Christ, by high- est heav'n a- dored, _ Christ, the Ev- er- last- ing Lord! Late in time be- hold Him come, _ Off- spring of the Vir- gin's womb. Veiled in flesh the God- head see _ Hail th' In- car- nate De- i- ty Pleased as man with men to dwell, Je- sus, _ our Em- man- u- el. Hark! the her- ald an- gels sing, "Glo- ry _ to the new- born King" _ _
+v3: Hail the heav'n- born Prince of Peace! _ Hail the Sun of Right- eous- ness! Light and life to all He brings, _ Ris'n with heal- ing in His wings. Mild He lays His glo- ry by, _ Born that man no more may die, _ Born to raise the sons of earth, Born to _ give them sec- ond birth. Hark! the her- ald an- gels sing, "Glo- ry _ to the new- born King" A- men.

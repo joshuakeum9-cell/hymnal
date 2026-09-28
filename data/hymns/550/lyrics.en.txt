@@ -1,0 +1,11 @@
+# 550 Hail to the Brightness of Zion's Glad Morning
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Hail to the bright- ness of Zi- on's glad morn- ing! Joy to the lands that in dark- ness have lain! Hushed be the ac- cents of sor- row and mourn- ing Zi- on in tri- umph be- gins her mild reign. _ _
+v2: Hail to the bright- ness of Zi- on's glad morn- ing! Long by the proph- ets of Is- rael fore- told! Hail to the mil- lions from bon- dage re- turn- ing! Gen- tiles and Jews the blest vis- ion be- hold. _ _
+v3: Lo. in the des- ert rich flow- ers are spring- ing! Streams ev- er cop- ious are glid- ing a- long Loud from the moun- tain tops ech- oes are ring- ing, Wastes rise in ver- dure, and min- gle in song. _ _
+v4: See, from all lands, from the isles of the o- cean, Praise to Je- ho- vah as- cend- ing on high Fall'n are the en- gines of war and com- mo- tion, Shouts of sal- va- tion are rend- ing the sky. A- men.

@@ -1,0 +1,11 @@
+# 546 Standing on the Promises
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Stand- ing on the prom- is- es of Christ, my King! Thro' e- ter- nal a- ges let His prais- es ring. “Glo- ry in the high- est!" I will shout and sing, Stand- ing on the prom- is- es of God. Stand- ing, stand- ing, Stand- ing on the prom- is- es of God, my sav- iour Stand- ing, stand- ing, I'm stand- ing on the prom- is- es of God
+v2: Stand- ing on the prom- is- es that can- not fail! When the howl- ing storms of doubt and fear as- sail, By the liv- ing Word of God I shall pre- vail, Stand- ing on the prom- is- es of God. Stand- ing, stand- ing, Stand- ing on the prom- is- es of God, my sav- iour Stand- ing, stand- ing, I'm stand- ing on the prom- is- es of God
+v3: Standing on the prom- is- es of Christ, the Lord, Bound to Him e- ter- nal- ly by lo- ve's strong cord, O- ver- com- ing dai- ly with the Spir- it's sword, Stand- ing on the prom- is- es of God. Stand- ing, stand- ing, Stand- ing on the prom- is- es of God, my sav- iour Stand- ing, stand- ing, I'm stand- ing on the prom- is- es of God
+v4: Stand- ing on the prom- is- es I can- not fall, Lis- t'ning ev- ery mo- ment to the Spir- it's call, Rest- ing in my Sav- ior as my all in all, Stand- ing on the prom- is- es of God. Stand- ing, stand- ing, Stand- ing on the prom- is- es of God, my sav- iour Stand- ing, stand- ing, I'm stand- ing on the prom- is- es of God

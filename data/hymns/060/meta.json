@@ -1,0 +1,46 @@
+{
+ "number": 60,
+ "old_number": 67,
+ "title_ko": "영혼의 햇빛 예수님",
+ "title_en": "Sun of My Soul",
+ "original_title": "Sun of My Soul, Thou Saviour Dear",
+ "theme": "아침과저녁",
+ "key_table": "F",
+ "time_table": "3/4",
+ "composer": "가톨릭 찬송가집(빈, c.1774) (Katholisches Gesangbuch (Vienna, c.1774))",
+ "lyricist": "존 케블 (John Keble) · 1792~1866",
+ "credit_line_in_file": {
+  "composer": "Anonumous/J.Keble",
+  "lyricist": "J.Keble"
+ },
+ "year": 1774,
+ "meter": "8.8.8.8 (LM)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 가톨릭 찬송가집(빈, c.1774) (Katholisches Gesangbuch (Vienna, c.1774))"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1866; work dated 1774"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "60장 영혼의 햇빛 예수님.mscz",
+   "sha256": "7f3ba7571de2c7f0a05e8997a1dae35e11d8df3ecc195aceaaeb0a7d85e29089",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

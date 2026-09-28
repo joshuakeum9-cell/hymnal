@@ -1,0 +1,10 @@
+# 185 Oh, Spread the Tidings 'Round
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Oh, spread the tid- ings 'round, where- ev- er man is found, Where- ev- er hu- man hearts and hu- man woes a- bound Let ev- -'ry Chri- stian tongue pro- claim the joy- ful sound: The Com- fort- er has come! The Com- fort- er has come! The Com- fort- er has come! The Ho- ly Ghost from heav'n, The Fa- ther's prom- ise giv'n! Oh, spread the tid- ings 'round, where- ev- er man is found: The Com- fort- er has come!
+v2: Lo, the great King of Kings, with heal- ing in His wings, To ev- -'ry cap- tive soul a full de- liv- 'rance brings And thro' the va- cant cells the song of tri- umph rings: The Com- fort- er has come! The Com- fort- er has come! The Com- fort- er has come! The Ho- ly Ghost from heav'n, The Fa- ther's prom- ise giv'n! Oh, spread the tid- ings 'round, where- ev- er man is found: The Com- fort- er has come!
+v3: Oh, bound- less love di- vine! how shall this tongue of mine To won- d'ring mor- tals tell the match- less grace di- vine That I, a child of hell, should in His in- age shine! The Com- fort- er has come! The Com- fort- er has come! The Com- fort- er has come! The Ho- ly Ghost from heav'n, The Fa- ther's prom- ise giv'n! Oh, spread the tid- ings 'round, where- ev- er man is found: The Com- fort- er has come!

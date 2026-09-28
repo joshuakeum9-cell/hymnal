@@ -1,0 +1,11 @@
+# 115 Joy to the World
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, exact, exact, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Joy to the world! The Lord is come Let earth re- ceive her King Let ev- _ ery _ heart _ _ pre- pare _ Him _ room, _ _ And heav'n and na- ture _ sing, And _ heav'n and na- ture _ sing, And _ heav'n _ and heav'n _ _ and na- ture sing. _ _
+v2: Joy to the earth! The Sav- iour reigns Let men their songs em- ploy While fields _ and _ floods, _ _ rocks, hills, _ and _ plains _ _ Re- peat the sound- ing _ joy, Re- _ peat the sound- ing _ joy, Re- _ peat, _ re- peat _ _ the sound- ing joy. _ _
+v3: No more let sins and sor- rows grow, Nor thorns in- fest the ground He comes _ to _ make _ _ His bless- _ ings _ flow _ _ Far as the curse is _ found, Far _ as the curse is _ found, Far _ as, _ far as _ _ the curse is found. _ _
+v4: He rules the world with truth and grace, And makes the na- tions prove The glo- _ ries _ of _ _ His right- _ eous- _ ness _ _ And won- ders of His _ love, And _ won- ders of His _ love, And _ won- _ ders, won- _ _ _ ders of His love. _

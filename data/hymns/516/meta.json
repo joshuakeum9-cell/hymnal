@@ -1,0 +1,46 @@
+{
+ "number": 516,
+ "old_number": 265,
+ "title_ko": "옳은 길 따르라 의의 길을",
+ "title_en": "We've a Story to Tell to the Nations",
+ "original_title": "We've a Story to Tell to the Nations",
+ "theme": "전도와교훈",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "헨리 어니스트 니콜 (Henry Ernest Nichol)",
+ "lyricist": "헨리 어니스트 니콜 (Henry Ernest Nichol) · 1862~1926",
+ "credit_line_in_file": {
+  "composer": "H.E.Nichol",
+  "lyricist": "H.E.Nichol"
+ },
+ "year": 1896,
+ "meter": "10.8.8.7.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1926; work dated 1896"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1926; work dated 1896"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "516장 옳은 길 따르라 의의 길을.mscz",
+   "sha256": "da56bd5d829604def06e7342631739ed6ba424850d3467646a6691c80fbce687",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

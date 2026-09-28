@@ -1,0 +1,46 @@
+{
+ "number": 285,
+ "old_number": 209,
+ "title_ko": "주의 말씀 받은 그 날",
+ "title_en": "O Happy Day, That Fixed My Choice",
+ "original_title": "O Happy Day, That Fixed My Choice",
+ "theme": "거듭남",
+ "key_table": "F",
+ "time_table": "3/2",
+ "composer": "에드워드 프랜시스 림보 (후렴: 웨슬리안 신성하프 1854) (Edward Francis Rimbault (refrain: Wesleyan Sacred Harp 1854))",
+ "lyricist": "필립 도드리지 (Philip Doddridge) · 1702~1751",
+ "credit_line_in_file": {
+  "composer": "E.F.Rimbault",
+  "lyricist": "P.Doddridge"
+ },
+ "year": 1854,
+ "meter": "8.8.8.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1854, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1751; work dated 1854"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "285장 주의 말씀 받은 그 날.mscz",
+   "sha256": "771cd057d043b7a91f1814029f71ad7b7b90dc526cc2bbbaad44aeed9439f205",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 157,
+ "old_number": "",
+ "title_ko": "겟세마네 동산에서 최후 기도",
+ "title_en": "On the Last Night, Deep in Distress",
+ "original_title": "In Gethsemane the Final Prayer (Korean original)",
+ "theme": "고난",
+ "key_table": "Em",
+ "time_table": "6/8",
+ "composer": "김정양 (Kim Jung-yang)",
+ "lyricist": "김광영 (악보 표기 김장영) (Kim Kwang-young) · 1944~?",
+ "credit_line_in_file": {
+  "composer": "김정양",
+  "lyricist": "김광영"
+ },
+ "year": 1999,
+ "meter": "8.7.8.7 D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "157장 겟세마네 동산에서 최후 기도.mscz",
+   "sha256": "479ffd79805adbcff79dab59e6b8070f79d5149cff30eecc496e2b9e667f3766",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

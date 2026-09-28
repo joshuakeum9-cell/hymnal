@@ -1,0 +1,11 @@
+# 385 My Faith Looks up to Thee
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, exact, auto, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: My faith looks up to Thee, Thou Lamb of Cal- va- ry, Sav- iour Di- vine: Now hear me while I pray, Take all my guilt a- way, O let me from this day Be whol- ly Thine. _ _
+v2: May Thy rich grace im- part Strength to my faint- ing heart, My zeal in- spire As Thou hast died for me, O may my love to Thee Pure, warm, and change- less be, A liv- ing fire. _ _
+v3: While li- fe's dark maze I tread, And griefs a- round me spread, Be Thou my guide Bid dark- ness turn to day, Wipe sor- row's tears a- way, Nor let me ev- er stray From Thee a- _ side.
+v4: When ends li- fe's tran- sient dream, When death's cold, sul- len stream, Shall o'er me roll Blest Saviour, then, in love, Fear and dis- trust re- move O bear me sage a- bobe, A ran- somed soul! A- men.

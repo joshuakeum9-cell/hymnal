@@ -1,0 +1,46 @@
+{
+ "number": 75,
+ "old_number": 47,
+ "title_ko": "주여 우리 무리를",
+ "title_en": "God, Be Merciful To Us",
+ "original_title": "God, Be Merciful to Us",
+ "theme": "창조주",
+ "key_table": "F",
+ "time_table": "3/4",
+ "composer": "윌리엄 B. 브래드버리 (William B. Bradbury)",
+ "lyricist": "알렉산더 A. 피터즈(피득) (Alexander A. Pieters) · 1871~1958",
+ "credit_line_in_file": {
+  "composer": "W.B.Bradbury",
+  "lyricist": "A.A.Pieters"
+ },
+ "year": 1858,
+ "meter": "7.7.7.7.7",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1858, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1958; work dated 1858"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "75장 주여 우리 무리를.mscz",
+   "sha256": "beec21d491a225c9e73eab56acd7b4f0e081ed42628dddac18b8330e875b4c7e",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

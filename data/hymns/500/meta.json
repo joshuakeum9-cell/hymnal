@@ -1,0 +1,46 @@
+{
+ "number": 500,
+ "old_number": 258,
+ "title_ko": "물 위에 생명줄 던지어라",
+ "title_en": "Throw Out the Life Line",
+ "original_title": "Throw Out the Life-Line",
+ "theme": "전도",
+ "key_table": "F",
+ "time_table": "6/8",
+ "composer": "에드윈 S. 어퍼드 (Edwin Smith Ufford)",
+ "lyricist": "에드윈 S. 어퍼드 (Edwin Smith Ufford) · 1851~1929",
+ "credit_line_in_file": {
+  "composer": "E.S.Ufford",
+  "lyricist": "E.S.Ufford"
+ },
+ "year": 1888,
+ "meter": "10.10.10.11 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1929; work dated 1888"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1929; work dated 1888"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "500장 물 위에 생명줄 던지어라.mscz",
+   "sha256": "e9b5b412a2d38b2aaa812bf40b5321c576237bf976e80ad2f4b416169bbab112",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

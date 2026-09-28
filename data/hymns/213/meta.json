@@ -1,0 +1,46 @@
+{
+ "number": 213,
+ "old_number": 348,
+ "title_ko": "나의 생명 드리니",
+ "title_en": "Take My Life, and Let It Be",
+ "original_title": "Take My Life and Let It Be",
+ "theme": "헌신과봉사",
+ "key_table": "G",
+ "time_table": "3/4",
+ "composer": "볼프강 아마데우스 모차르트 (Wolfgang Amadeus Mozart)",
+ "lyricist": "프랜시스 리들리 헤이버갈 (Frances Ridley Havergal) · 1836~1879",
+ "credit_line_in_file": {
+  "composer": "W.A.Mozart",
+  "lyricist": "F.R.Havergal"
+ },
+ "year": 1874,
+ "meter": "7.7.7.7",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1791; work dated 1874"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1879; work dated 1874"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "213장 나의 생명 드리니.mscz",
+   "sha256": "d438b7089576ba7fb8c583a7184fe2a077d8c4e22d2f9841549f2df225a7d7f8",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

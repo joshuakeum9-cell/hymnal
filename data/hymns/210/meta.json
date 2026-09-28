@@ -1,0 +1,46 @@
+{
+ "number": 210,
+ "old_number": 245,
+ "title_ko": "시온성과 같은 교회",
+ "title_en": "Glorious Things of Thee are Spoken",
+ "original_title": "Glorious Things of Thee Are Spoken",
+ "theme": "하나님나라",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "프란츠 요제프 하이든 (Franz Joseph Haydn)",
+ "lyricist": "존 뉴턴 (John Newton) · 1725~1807",
+ "credit_line_in_file": {
+  "composer": "F.J.Haydn",
+  "lyricist": "J.Newton"
+ },
+ "year": 1797,
+ "meter": "8.7.8.7.D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1809; work dated 1797"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1807; work dated 1797"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "210장 시온성과 같은 교회.mscz",
+   "sha256": "0fe85733ea8079f14883b9f73d6e4081249bb173fca72cc634a48f639d7fd2c7",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

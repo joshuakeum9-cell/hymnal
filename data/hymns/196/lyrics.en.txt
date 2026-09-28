@@ -1,0 +1,11 @@
+# 196 Breathe on Me, Breath of God
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Breathe on me, Breath of God, Fill me with life a- new. That I may love what Thou dost love And do _ what Thou wouldst do. _ _
+v2: Breathe on me, Breath of God, Un- til my heart is pure, Un- til with Thee I will on will To do _ and to en- dure. _ _
+v3: Breathe on me, Breath of God, Till I am whol- ly Thine, Till all this earth- ly part of me Glows with _ Thy fire di- vine. _ _
+v4: Breathe on me, Breath of God, So shall I nev- er die, But live with Thee the per- fect life Of Thine _ e- ter- ni- ty. A- men.

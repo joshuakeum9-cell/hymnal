@@ -1,0 +1,11 @@
+# 390 He Leadeth Me: O Blessed Thought
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, exact, exact, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: He lead- eth me: O bless- ed thought! O words with heav'n- ly _ com- fort fraught What- e'er I do, where- e'er I be, Still _ 'tis God's hand _ that _ lead- eth me. He lead- eth me, He lead- eth _ me By His own hand _ He _ lead- eth me. His faith- ful fol- l'wer I would _ be, For by His hand _ He _ lead- eth me. _ _
+v2: Some- times 'mid scenes of deep- est gloom, Some- times where E- den's _ bow- ers bloom By wa- ters calm, o'er trou- bled sea, Still _ 'tis His hand _ that _ lead- eth me. He lead- eth me, He lead- eth _ me By His own hand _ He _ lead- eth me. His faith- ful fol- l'wer I would _ be, For by His hand _ He _ lead- eth me. _ _
+v3: Lord, I would clasp Thy hand in mine, Nor ev- er mur- mur _ nor re- pine Con- tent, what- ev- er lot I see, Since _ 'tis my God _ that _ lead- eth me. He lead- eth me, He lead- eth _ me By His own hand _ He _ lead- eth me. His faith- ful fol- l'wer I would _ be, For by His hand _ He _ lead- eth me. _ _
+v4: And when my task on earth is done, When by Thy grace the _ vic- t'ry's won, E- 'en death's cold wave I will not flee, _ Since God through _ Jor- dan lead- eth me. He lead- eth me, He lead- eth _ me By His own hand _ He _ lead- eth me. His faith- ful fol- l'wer I would _ be, For by His hand _ He _ lead- eth me. A- men.

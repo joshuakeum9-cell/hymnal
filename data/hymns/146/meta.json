@@ -1,0 +1,46 @@
+{
+ "number": 146,
+ "old_number": 146,
+ "title_ko": "저 멀리 푸른 언덕에",
+ "title_en": "There is a Green Hill Far Away",
+ "original_title": "There is a Green Hill Far Away",
+ "theme": "고난",
+ "key_table": "Eb",
+ "time_table": "6/8",
+ "composer": "조지 콜스 스테빈스 (George Coles Stebbins)",
+ "lyricist": "세실 프랜시스 알렉산더 (Cecil Frances Humphreys Alexander) · 1818~1895",
+ "credit_line_in_file": {
+  "composer": "G.C.Stebbins",
+  "lyricist": "C.F.H.Alexander"
+ },
+ "year": 1878,
+ "meter": "8.6.8.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1945; work dated 1878"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1895; work dated 1878"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "146장 저 멀리 푸른 언덕에.mscz",
+   "sha256": "4a67c89a8bd11fd9ce9581b3ca2fd684e4b296bdc0f903b65a35f65e48a0ae78",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

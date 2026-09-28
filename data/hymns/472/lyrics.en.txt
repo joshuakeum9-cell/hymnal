@@ -1,0 +1,10 @@
+# 472 When Christ of Old with Healing Pow'r
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: When Christ of old with heal- ing pow'r Went forth thro' all the suf- f'ring land, His word so oft was wont to be, "Stretch forth thy hand, stretch forth thy hand!" And tho' the pal- sied arm might shrink, And trem- ble at the strange com- mand, The heal- ing touch was on- ly felt While strech- ing forth the wither- ed hand. O suf- f'ring one, stretch forth thy hand, Up- on His prom- ise take your stand. At His com- mand stretch forth thy hand, And _ Christ shall make you whole.
+v2: That change- less Christ is still as near, And just as kind and strong to save He came to lift our fall- en race From sin and sick- ness and the grave As in the days of Gal- i- lee, Dis- ease still flees at His com- mand, Be ere His touch your frame can feel, You too must still stretch forth thy hand. O suf- f'ring one, stretch forth thy hand, Up- on His prom- ise take your stand. At His com- mand stretch forth thy hand, And _ Christ shall make you whole.
+v3: What tho' you feel so weak and faint He can your will with strength en- due, New faith and cour- age breathe with- in, And work in you the will to do Reach out to meet His quick-'n- ing touch, Take up your bed a- rise and stand, And press- ing thro' to meet your Lord, Stretch forth thy hand, stretch forth thy hand. O suf- f'ring one, stretch forth thy hand, Up- on His prom- ise take your stand. At His com- mand stretch forth thy hand, And _ Christ shall make you whole.

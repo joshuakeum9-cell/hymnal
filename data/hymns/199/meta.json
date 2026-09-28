@@ -1,0 +1,46 @@
+{
+ "number": 199,
+ "old_number": 234,
+ "title_ko": "나의 사랑하는 책",
+ "title_en": "There is a Dear and Precious Book",
+ "original_title": "My Mother's Bible",
+ "theme": "성경",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "찰스 D. 틸먼 (Charles Davis Tillman)",
+ "lyricist": "밀란 B. 윌리엄스 (Milan Bertrand Williams) · 1860~1941",
+ "credit_line_in_file": {
+  "composer": "C.D.Tillman",
+  "lyricist": "M.B.Williams"
+ },
+ "year": 1893,
+ "meter": "7.7.11 D with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1893, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1941; work dated 1893"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "199장 나의 사랑하는 책.mscz",
+   "sha256": "e98791b97123011348ad6ff0aa2956bf84442625abf0f92b62bdc4547b7150eb",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,11 @@
+# 70 God is Our Refuge Strong
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, auto, auto, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: God is our re- fuge strong, Let all who suf- fer wrong Find wel- come here. Here, though earth stand no more, Though o- ceans rage and roar And break _ the _ moun- tains o'er, We _ _ shall not fear.
+v2: Peoples and na- tions _ shake When ra- ging hea- then make Their ma- lice felt. But once a sing- le word Of our Lord's voice was heard A great- _ er _ thing oc- curred: The _ _ earth did melt.
+v3: Our God, the Lord of all, Our help, our tow- er tall, Will not us fail. To earth's re- motest shore He makes wars rage no more Sword, spear, _ _ the _ tools of war Can _ _ naught a- vail.
+v4: Our Lord, great God a- bove, Saves us in pow'r and love Praise ye the Lord! Though grief and pain be rife, Sharp woe and bit- ter strife, Our re- _ fuge _ and our life Is _ _ our Lord God.

@@ -1,0 +1,46 @@
+{
+ "number": 444,
+ "old_number": "",
+ "title_ko": "겟세마네 동산에서",
+ "title_en": "Where Our Lord Pray'd Gethsemane",
+ "original_title": "In Gethsemane's Garden (Korean original)",
+ "theme": "주와동행",
+ "key_table": "Eb",
+ "time_table": "6/8",
+ "composer": "박영근 (Park Young-geun)",
+ "lyricist": "한경직 (Han Kyung-chik) · 1902~2000",
+ "credit_line_in_file": {
+  "composer": "박영근",
+  "lyricist": "한경직"
+ },
+ "year": 2005,
+ "meter": "8.8.8.8 with refrain",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "444장 겟세마네 동산에서.mscz",
+   "sha256": "283a6db1f7f12af581228b3f4540d346203076099aa00ee42214befff8429730",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

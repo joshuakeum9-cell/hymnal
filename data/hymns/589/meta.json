@@ -1,0 +1,46 @@
+{
+ "number": 589,
+ "old_number": 308,
+ "title_ko": "넓은 들에 익은 곡식",
+ "title_en": "Far and Near the Fields are Teeming",
+ "original_title": "Far and Near the Fields are Teeming",
+ "theme": "감사절",
+ "key_table": "G",
+ "time_table": "6/8",
+ "composer": "제임스 B. O. 클렘 (James Burton Oren Clemm)",
+ "lyricist": "존 O. 톰슨 (John Oxenham Thompson)",
+ "credit_line_in_file": {
+  "composer": "J.B.O.Clemm",
+  "lyricist": "J.O.Thompson"
+ },
+ "year": 1885,
+ "meter": "8.7.8.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1885, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1885, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "589장 넓은 들에 익은 곡식.mscz",
+   "sha256": "517008c2aaa0ef2b7e18a8908d70967d5600ff6b10b592c8d0aedfdf45f261c7",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

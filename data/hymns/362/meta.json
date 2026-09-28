@@ -1,0 +1,46 @@
+{
+ "number": 362,
+ "old_number": 481,
+ "title_ko": "주여 복을 주시기를",
+ "title_en": "Lord, I Hear of Showers of Blessing",
+ "original_title": "Lord, I Hear of Showers of Blessing (Even Me)",
+ "theme": "기도와간구",
+ "key_table": "Ab",
+ "time_table": "6/8",
+ "composer": "W. B. 브래드버리 (William B. Bradbury)",
+ "lyricist": "E. 코드너 (Elizabeth Codner) · 1824~1919",
+ "credit_line_in_file": {
+  "composer": "W.B.Bradbury",
+  "lyricist": "E.Codner"
+ },
+ "year": 1862,
+ "meter": "8.7.8.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1868; work dated 1862"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1919; work dated 1862"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "362장 주여 복을 주시기를.mscz",
+   "sha256": "f766d5cb5e82152015bc7526c01b121d45058045b7b5269fd66295acc23e4683",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

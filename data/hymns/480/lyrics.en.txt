@@ -1,0 +1,10 @@
+# 480 I Will Meet You in the Morning
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: I will meet you in the morn- ing Just in- side the East- ern Gate Then be read- y, faith- ful pil- grim, Lest with you it be too late. I will meet you, I will meet you, Just in- side the East- ern Gate o- ver there I will meet you, I will meet you, I will meet you in the morn- ing o- ver there.
+v2: Keep your lamps all trimmed and burn- ing, For the Bride- groom watch and wait He'll be with us at the meet- ing Just in- side the East- ern Gate. I will meet you, I will meet you, Just in- side the East- ern Gate o- ver there I will meet you, I will meet you, I will meet you in the morn- ing o- ver there.
+v3: Oh, the joys of that glad meet- ing With the saints who for us wait! What a bless- ed hap- py meet- ing, Just in- side the East- ern Gate. I will meet you, I will meet you, Just in- side the East- ern Gate o- ver there I will meet you, I will meet you, I will meet you in the morn- ing o- ver there.

@@ -1,0 +1,46 @@
+{
+ "number": 161,
+ "old_number": 159,
+ "title_ko": "할렐루야 우리 예수",
+ "title_en": "Hallelujah, He is Risen!",
+ "original_title": "Hallelujah, He Is Risen!",
+ "theme": "부활",
+ "key_table": "F",
+ "time_table": "3/4",
+ "composer": "필립 P. 블리스 (Philip P. Bliss)",
+ "lyricist": "필립 P. 블리스 (Philip P. Bliss) · 1838~1876",
+ "credit_line_in_file": {
+  "composer": "P.P.Bliss",
+  "lyricist": "P.P.Bliss"
+ },
+ "year": 1876,
+ "meter": "8.7.8.7 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1876; work dated 1876"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1876; work dated 1876"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "161장 할렐루야 우리 예수.mscz",
+   "sha256": "a937ec2c29a542b99ea484429b166725c2941adffd9202b7757fb2812896ba92",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

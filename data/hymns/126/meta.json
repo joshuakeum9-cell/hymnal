@@ -1,0 +1,46 @@
+{
+ "number": 126,
+ "old_number": 126,
+ "title_ko": "천사 찬송하기를",
+ "title_en": "Hark! The Herald Angels Sing",
+ "original_title": "Hark! the Herald Angels Sing",
+ "theme": "성탄",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "펠릭스 멘델스존 / W. H. 커밍스 편곡 (Felix Mendelssohn, arr. W. H. Cummings)",
+ "lyricist": "찰스 웨슬리 (Charles Wesley) · 1707~1788",
+ "credit_line_in_file": {
+  "composer": "F.Mendelssohn/W.H.Cummings",
+  "lyricist": "C.Wesley"
+ },
+ "year": 1840,
+ "meter": "7.7.7.7 D with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1847; work dated 1840"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1788; work dated 1840"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "126장 천사 찬송하기를.mscz",
+   "sha256": "7bcfebe9d22cb981cd10899e1f3a638e69544a226095200bcbe0ebb78fd626e6",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

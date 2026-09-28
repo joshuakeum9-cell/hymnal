@@ -1,0 +1,46 @@
+{
+ "number": 127,
+ "old_number": "",
+ "title_ko": "그 고요하고 쓸쓸한",
+ "title_en": "'Twas in the Moon of Wintertime",
+ "original_title": "'Twas in the Moon of Wintertime (Jesous Ahatonhia / Huron Carol)",
+ "theme": "성탄",
+ "key_table": "Gm",
+ "time_table": "4/4",
+ "composer": "프랑스 전통 (16세기) · UNE JEUNE PUCELLE (French Carol (16th C.) — UNE JEUNE PUCELLE)",
+ "lyricist": "장 드 브레뵈프 (휴런 원작) / J. E. 미들턴 영역 (Jean de Brébeuf (Huron), tr. Jesse Edgar Middleton) · 1872~1960",
+ "credit_line_in_file": {
+  "composer": "French Carol",
+  "lyricist": "J.de Brebeuf"
+ },
+ "year": 1926,
+ "meter": "8.6.8.6.8.8.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 프랑스 전통 (16세기) · UNE JEUNE PUCELLE (French Carol (16th C.) — UNE JEUNE PUCELLE)"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1960; work dated 1926"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "127장 그 고요하고 쓸쓸한.mscz",
+   "sha256": "0545898e4ad441fd5e278f56c1286e7fe787849fa960e5f884a276a69c64fe26",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

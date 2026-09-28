@@ -1,0 +1,46 @@
+{
+ "number": 188,
+ "old_number": 180,
+ "title_ko": "무한하신 주 성령",
+ "title_en": "Come To Our Poor Nature'S Night",
+ "original_title": "Come to Our Poor Nature's Night",
+ "theme": "성령강림",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "U. C. 버냅 (Uzziah Christopher Burnap)",
+ "lyricist": "조지 로슨 (George Rawson) · 1807~1889",
+ "credit_line_in_file": {
+  "composer": "U.C.Burnap",
+  "lyricist": "G.Rawson"
+ },
+ "year": 1880,
+ "meter": "7.7.7.5",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1900; work dated 1880"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1889; work dated 1880"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "188장 무한하신 주 성령.mscz",
+   "sha256": "ad160b0b1bfb58d5a5bcc3c85cfa69ecddd87af9794c7964d305737bef987ece",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

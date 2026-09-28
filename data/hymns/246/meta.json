@@ -1,0 +1,46 @@
+{
+ "number": 246,
+ "old_number": 221,
+ "title_ko": "나 가나안 땅 귀한성에",
+ "title_en": "I've Cast My Heavy Burdens Down",
+ "original_title": "Living Where the Healing Waters Flow",
+ "theme": "천국",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "피터 필립 빌혼 (Peter Philip Bilhorn)",
+ "lyricist": "아이나 둘리 오그던 (Ina Duley Ogdon) · 1872~1964",
+ "credit_line_in_file": {
+  "composer": "P.P.Bilhorn",
+  "lyricist": "I.D.Ogdon"
+ },
+ "year": 1900,
+ "meter": "14.10.14.10 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1936; work dated 1900"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "author died 1964, after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "246장 나 가나안 땅 귀한성에.mscz",
+   "sha256": "b41a3456d354df27673588b9636aa25f29ddf7ebee276d4924b90bf3dd4daf5a",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

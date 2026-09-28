@@ -1,0 +1,46 @@
+{
+ "number": 592,
+ "old_number": 311,
+ "title_ko": "산마다 불이 탄다 고운 단풍에",
+ "title_en": "Ev'ry Hill Seems to be Aflame",
+ "original_title": "",
+ "theme": "감사절",
+ "key_table": "Em",
+ "time_table": "6/4",
+ "composer": "박재훈 (박재훈)",
+ "lyricist": "임옥인 (임옥인) · 1915~1995",
+ "credit_line_in_file": {
+  "composer": "박재훈",
+  "lyricist": "임옥인"
+ },
+ "year": 1967,
+ "meter": "7.5.7.5 with refrain",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "592장 산마다 불이 탄다 고운 단풍에.mscz",
+   "sha256": "2da6c43d2e420598b9edf973d0f614b3f147c744e0ed05b367aaf40f29c0c22f",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

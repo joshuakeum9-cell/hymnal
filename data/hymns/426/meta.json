@@ -1,0 +1,46 @@
+{
+ "number": 426,
+ "old_number": 215,
+ "title_ko": "이 죄인을 완전케 하시옵고",
+ "title_en": "Lord Jesus, I Long to be Perfectly Whole",
+ "original_title": "Whiter Than Snow",
+ "theme": "성결한생활",
+ "key_table": "Ab",
+ "time_table": "3/4",
+ "composer": "윌리엄 G. 피셔 (William Gustavus Fischer)",
+ "lyricist": "제임스 L. 니컬슨 (James L. Nicholson) · 1828~1876",
+ "credit_line_in_file": {
+  "composer": "W.G.Fischer",
+  "lyricist": "J.L.Nicholson"
+ },
+ "year": 1872,
+ "meter": "11.11.11.11 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1912; work dated 1872"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1876; work dated 1872"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "426장 이 죄인을 완전케 하시옵고.mscz",
+   "sha256": "e4be0498b0e07c86586c043d2e7ad452b65aca474eefa9d5d4fdf7b853a3b95b",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

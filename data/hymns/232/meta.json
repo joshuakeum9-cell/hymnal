@@ -1,0 +1,46 @@
+{
+ "number": 232,
+ "old_number": 282,
+ "title_ko": "유월절 때가 이르러",
+ "title_en": "Twas On That Night When Doomed To Know",
+ "original_title": "'Twas on that night when doomed to know",
+ "theme": "성찬",
+ "key_table": "F",
+ "time_table": "2/2",
+ "composer": "헨리 켐블 올리버 (Henry Kemble Oliver)",
+ "lyricist": "존 모리슨 (John Morison) · 1750~1798",
+ "credit_line_in_file": {
+  "composer": "H.K.Oliver",
+  "lyricist": "J.Morrison"
+ },
+ "year": 1832,
+ "meter": "8.8.8.8 (L.M.)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1885; work dated 1832"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1798; work dated 1832"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "232장 유월절 때가 이르러.mscz",
+   "sha256": "2eda8d74f9de561db78b28b0da3b41c35bc41c6cffd54f0c2f8fb7dfadc8b024",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

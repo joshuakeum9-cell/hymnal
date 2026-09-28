@@ -1,0 +1,46 @@
+{
+ "number": 371,
+ "old_number": 419,
+ "title_ko": "구주여 광풍이 불어",
+ "title_en": "Master, the Tempest is Raging",
+ "original_title": "Master, the Tempest Is Raging (Peace, Be Still)",
+ "theme": "인도와보호",
+ "key_table": "Bb",
+ "time_table": "6/8",
+ "composer": "H. R. 파머 (Horatio R. Palmer)",
+ "lyricist": "M. A. 베이커 (Mary A. Baker) · 1831~1921",
+ "credit_line_in_file": {
+  "composer": "H.R.Palmer",
+  "lyricist": "M.A.Baker"
+ },
+ "year": 1874,
+ "meter": "Irregular",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1874, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1921; work dated 1874"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "371장 구주여 광풍이 불어.mscz",
+   "sha256": "90841e01fecb593772d39278908153ade5611bb7786582c4706bb2b26383adff",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

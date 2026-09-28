@@ -1,0 +1,46 @@
+{
+ "number": 577,
+ "old_number": "",
+ "title_ko": "낳으시고 길러주신",
+ "title_en": "Great the Love of Human Parents",
+ "original_title": "",
+ "theme": "어버이",
+ "key_table": "Eb",
+ "time_table": "3/4",
+ "composer": "이관섭 (이관섭)",
+ "lyricist": "김수진 (김수진)",
+ "credit_line_in_file": {
+  "composer": "이관섭",
+  "lyricist": "김수진"
+ },
+ "year": 2005,
+ "meter": "8.7.8.8.8.8 with refrain",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "577장 낳으시고 길러주신.mscz",
+   "sha256": "bee82970a2d884b3fa015fbad92584a52f54427e53de0c83401dcda94ddc7451",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 239,
+ "old_number": 230,
+ "title_ko": "저 뵈는 본향 집",
+ "title_en": "One Sweetly Solemn Thought",
+ "original_title": "One Sweetly Solemn Thought / Nearer Home",
+ "theme": "천국",
+ "key_table": "Bb",
+ "time_table": "6/8",
+ "composer": "필립 필립스 (Philip Phillips)",
+ "lyricist": "피비 캐리 (Phoebe Cary) · 1824~1871",
+ "credit_line_in_file": {
+  "composer": "P.Phillips",
+  "lyricist": "P.Cary"
+ },
+ "year": 1862,
+ "meter": "6.6.8.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1895; work dated 1862"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1871; work dated 1862"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "239장 저 뵈는 본향 집.mscz",
+   "sha256": "46b6078967c20d3f739532ed3e56528081b4e8763a376c7dcf794d2c6a12cfad",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,10 @@
+# 146 There is a Green Hill Far Away
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: There is a green hill far a- way, With- out a cit- y wall, Where the dear Lord was cru- ci- fied, Who died to save us all. Oh dear- ly, dear- ly has He loved, And we must love Him too, And trust in His re- deem- ing blood, And try _ His works to do. _ _
+v2: We may not know, we can- not tell What pains He had to bear But we be- lieve it was for us He hung and suf- fered there. Oh dear- ly, dear- ly has He loved, And we must love Him too, And trust in His re- deem- ing blood, And try _ His works to do. _ _
+v3: There was no o- ther good e- nough To bear the price of sin He on- ly could un- lock the gate Of heav'n and let us in. Oh dear- ly, dear- ly has He loved, And we must love Him too, And trust in His re- deem- ing blood, And try _ His works to do. A- men.

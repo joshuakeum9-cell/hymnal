@@ -1,0 +1,46 @@
+{
+ "number": 350,
+ "old_number": 393,
+ "title_ko": "우리들이 싸울 것은",
+ "title_en": "March We Onward",
+ "original_title": "March We Onward, Doing Battle",
+ "theme": "분투와승리",
+ "key_table": "G",
+ "time_table": "2/4",
+ "composer": "H. C. 워크 (Henry Clay Work)",
+ "lyricist": "작자 미상 (미다니 다네키치 한국 도입) (Anonymous (intro. by Mitani Tanekichi))",
+ "credit_line_in_file": {
+  "composer": "H.C.Work",
+  "lyricist": "T.Mitani"
+ },
+ "year": 1865,
+ "meter": "13.13.13.9 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1884; work dated 1865"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 작자 미상 (미다니 다네키치 한국 도입) (Anonymous (intro. by Mitani Tanekichi))"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "350장 우리들이 싸울 것은.mscz",
+   "sha256": "da7a0026d0e63255e52b5f5af3c8895b555c4c5171e62d715d4968d34fe65da7",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

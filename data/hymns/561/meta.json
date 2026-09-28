@@ -1,0 +1,46 @@
+{
+ "number": 561,
+ "old_number": "",
+ "title_ko": "예수님의 사랑은",
+ "title_en": "Jesus' Love for Every One",
+ "original_title": "",
+ "theme": "어린이",
+ "key_table": "F",
+ "time_table": "2/4",
+ "composer": "박재훈 (박재훈)",
+ "lyricist": "안성신 (안성신)",
+ "credit_line_in_file": {
+  "composer": "박재훈",
+  "lyricist": "안성진"
+ },
+ "year": 1997,
+ "meter": "7.5.7.6.7.5.7.5",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "561장 예수님의 사랑은.mscz",
+   "sha256": "234d8a4b791714a3ee0be8235e12c0d873a5988fee3e4482342aeff28ec025a1",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

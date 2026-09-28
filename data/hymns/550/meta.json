@@ -1,0 +1,46 @@
+{
+ "number": 550,
+ "old_number": 248,
+ "title_ko": "시온의 영광이 빛나는 아침",
+ "title_en": "Hail to the Brightness of Zion's Glad Morning",
+ "original_title": "Hail to the Brightness of Zion's Glad Morning",
+ "theme": "새해송구영신)",
+ "key_table": "Ab",
+ "time_table": "3/4",
+ "composer": "로웰 메이슨 (Lowell Mason)",
+ "lyricist": "토마스 헤이스팅스 (Thomas Hastings) · 1784~1872",
+ "credit_line_in_file": {
+  "composer": "L.Mason",
+  "lyricist": "T.Hastings"
+ },
+ "year": 1833,
+ "meter": "11.10.11.10",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1833, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1872; work dated 1833"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "550장 시온의 영광이 빛나는 아침.mscz",
+   "sha256": "2f8537383c68babc76dadda5377de2b61d261c2ad5e621c674a649c545482968",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

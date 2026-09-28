@@ -1,0 +1,46 @@
+{
+ "number": 170,
+ "old_number": 16,
+ "title_ko": "내 주님은 살아 계셔",
+ "title_en": "I Know that My Redeemer Lives",
+ "original_title": "I Know That My Redeemer Lives",
+ "theme": "부활",
+ "key_table": "D",
+ "time_table": "3/4",
+ "composer": "게오르크 프리드리히 헨델 (George Frideric Handel)",
+ "lyricist": "찰스 웨슬리 (Charles Wesley) · 1707~1788",
+ "credit_line_in_file": {
+  "composer": "G.F.Handel",
+  "lyricist": "C.Wesley"
+ },
+ "year": 1741,
+ "meter": "8.6.8.6 (CM)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1759; work dated 1741"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1788; work dated 1741"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "170장 내 주님은 살아 계셔.mscz",
+   "sha256": "68b01b67d4eea1ec57a5f3c12a7495a0b3e2418e990de0562c62a02b97518202",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

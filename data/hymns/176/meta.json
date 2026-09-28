@@ -1,0 +1,46 @@
+{
+ "number": 176,
+ "old_number": 163,
+ "title_ko": "주 어느 때 다시 오실는지",
+ "title_en": "When Jesus Comes to Reward",
+ "original_title": "Will Jesus Find Us Watching",
+ "theme": "재림",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "윌리엄 H. 도언 (William Howard Doane)",
+ "lyricist": "패니 크로스비 (Fanny J. Crosby) · 1820~1915",
+ "credit_line_in_file": {
+  "composer": "W.H.Doane",
+  "lyricist": "F.J.Crosby"
+ },
+ "year": 1876,
+ "meter": "10.7.10.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1876"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1876"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "176장 주 어느 때 다시 오실는지.mscz",
+   "sha256": "c1d5bfb8ef2154f7656a4c6e66108163ba204c764c9154c15610a8e7298b7bad",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

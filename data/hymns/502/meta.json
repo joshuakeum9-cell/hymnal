@@ -1,0 +1,46 @@
+{
+ "number": 502,
+ "old_number": 259,
+ "title_ko": "빛의 사자들이여",
+ "title_en": "Heralds of the Light, Be Swift",
+ "original_title": "Heralds of Light, Speed Away",
+ "theme": "세계선교",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "루이스 E. 존스 (Lewis E. Jones)",
+ "lyricist": "루이스 E. 존스 (Lewis E. Jones) · 1865~1936",
+ "credit_line_in_file": {
+  "composer": "J.E.Jones",
+  "lyricist": "J.E.Lewis"
+ },
+ "year": null,
+ "meter": "11.7.11.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1936; work dated unknown"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1936; work dated unknown"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "502장 빛의 사자들이여.mscz",
+   "sha256": "e0d140e29403f0f2c3b602d7423a53d3176bc59c10fe1d883bb07e54c73cdbfb",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

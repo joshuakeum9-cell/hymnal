@@ -1,0 +1,46 @@
+{
+ "number": 638,
+ "old_number": 70,
+ "title_ko": "주 너를 지키시고",
+ "title_en": "All Things Come of Thee, O Lord",
+ "original_title": "The Lord Bless You and Keep You",
+ "theme": "축도송",
+ "key_table": "C",
+ "time_table": "4/4",
+ "composer": "피터 C. 럿킨 (Peter Christian Lutkin)",
+ "lyricist": "아론의 축복 (민 6:24-26) (Aaronic Benediction (Numbers 6:24-26))",
+ "credit_line_in_file": {
+  "composer": "PC.Lutkin",
+  "lyricist": ""
+ },
+ "year": 1900,
+ "meter": "IRREG.",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1931; work dated 1900"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1900, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "638장 주 너를 지키시고.mscz",
+   "sha256": "1f418b862103500ced39d362840b0792424d3ee3f3b75d51f6cf07136784a966",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

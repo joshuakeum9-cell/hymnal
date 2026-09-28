@@ -1,0 +1,46 @@
+{
+ "number": 128,
+ "old_number": "",
+ "title_ko": "거룩하신 우리 주님",
+ "title_en": "Infant Holy, Infant Lowly",
+ "original_title": "Infant Holy, Infant Lowly (W żłobie leży)",
+ "theme": "성탄",
+ "key_table": "G",
+ "time_table": "3/4",
+ "composer": "폴란드 전통 / 러스브리지 화성 (Polish Carol, harm. A. E. Rusbridge)",
+ "lyricist": "폴란드 전통 / 에디스 리드 영역·의역 (Polish Carol, tr. & para. Edith M. G. Reed) · 1885~1933",
+ "credit_line_in_file": {
+  "composer": "Polish Carol/E.M.G.Reed",
+  "lyricist": "Polish Carol"
+ },
+ "year": 1926,
+ "meter": "4.4.7.4.4.7.4.4.4.4.7",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 폴란드 전통 / 러스브리지 화성 (Polish Carol, harm. A. E. Rusbridge)"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 폴란드 전통 / 에디스 리드 영역·의역 (Polish Carol, tr. & para. Edith M. G. Reed) · 1885~1933"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "128장 거룩하신 우리 주님.mscz",
+   "sha256": "c53e01546adccff84f1c5a51b0f3ebbc58304fd5ede323bf2f24f1d05f20e40a",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

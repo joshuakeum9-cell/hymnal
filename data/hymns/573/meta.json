@@ -1,0 +1,46 @@
+{
+ "number": 573,
+ "old_number": "",
+ "title_ko": "말씀에 순종하여",
+ "title_en": "Obeying God and His Word",
+ "original_title": "",
+ "theme": "청년",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "유병웅 (유병웅)",
+ "lyricist": "박지혜 (박지혜) · 1942~?",
+ "credit_line_in_file": {
+  "composer": "유병용",
+  "lyricist": "박지혜"
+ },
+ "year": 2005,
+ "meter": "7.8.8.8.8.8.8 with refrain",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "573장 말씀에 순종하여.mscz",
+   "sha256": "d4e8d5d43f9c19dabce58d5be5d51bd3d19bc4cf6b3c3c918dd91820d9fa8aad",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

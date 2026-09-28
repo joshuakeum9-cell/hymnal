@@ -1,0 +1,11 @@
+# 86 Oh, the Best Friend to Have is Jesus
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Oh, the best friend to have is Je- sus When the cares of life up- on you roll, He will heal the wound- ed heart, He will strength and grace im- part Oh, the best friend to have is Je- sus. The best friend to have is Je- sus, The best friend to have is Je- sus, He will help you when you fall, He will hear you when you call Oh, the best friend to have is Je- sus.
+v2: What a friend I have found in Je- sus! Peace and com- fort to my soul He brings Lean- ing on His might- y arm, I will fear no ill nor harm Oh, the best friend to have is Je- sus. The best friend to have is Je- sus, The best friend to have is Je- sus, He will help you when you fall, He will hear you when you call Oh, the best friend to have is Je- sus.
+v3: Though I pass through the night of sor- row, And the chill- y waves of Jor- dan roll, Nev- er need I shrink nor fear, For my Sav- iour is so near Oh, the best friend to have is Je- sus. The best friend to have is Je- sus, The best friend to have is Je- sus, He will help you when you fall, He will hear you when you call Oh, the best friend to have is Je- sus.
+v4: When at last to our home we ga- ther, With the loved ones who have gone be- fore, We will sing u- pon the shore, Prais- ing Him for- ev- er- more Oh, the best friend to have is Je- sus. The best friend to have is Je- sus, The best friend to have is Je- sus, He will help you when you fall, He will hear you when you call Oh, the best friend to have is Je- sus.

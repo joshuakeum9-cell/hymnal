@@ -1,0 +1,46 @@
+{
+ "number": 171,
+ "old_number": "",
+ "title_ko": "하나님의 독생자",
+ "title_en": "God sent His Son",
+ "original_title": "Because He Lives (God Sent His Son)",
+ "theme": "부활",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "빌 게이더 (William J. (Bill) Gaither)",
+ "lyricist": "글로리아 게이더 (Gloria Gaither) · 1942~?",
+ "credit_line_in_file": {
+  "composer": "W.J.Gaither",
+  "lyricist": "G.&W.J.Gaither"
+ },
+ "year": 1971,
+ "meter": "9.8.9.12 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "work dated 1971, may still be in copyright"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "work dated 1971, may still be in copyright"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "171장 하나님의 독생자.mscz",
+   "sha256": "eecbc77796453b2f5b5402c6671b340359b2b8d7e609c09d79f36eaaf8810394",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

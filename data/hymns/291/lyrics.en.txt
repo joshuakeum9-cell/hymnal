@@ -1,0 +1,10 @@
+# 291 Somebody Loves You
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Some- bo- dy loves you! Then who's this I see, Cast down and trou- bl'd con- tin- u- al- ly Some- one was cru- ci- fied, nail'd to a cross and died! How could you ev- er for- get Cal- va- ry The- re's none like Je- sus to guard you and guide you, None with such love as up Cal- va- ry trod. What- e'er be- tide you He'll stand be- side you. No- one like Je- sus! Oh, Je- sus my God!
+v2: Who is this weep- ing Do trou- bles of- fend Could it be you have for- got- ten your friend He, though all friends de- ny, to save you chose to die. Have you for- got- ten that love with- out end The- re's none like Je- sus to guard you and guide you, None with such love as up Cal- va- ry trod. What- e'er be- tide you He'll stand be- side you. No- one like Je- sus! Oh, Je- sus my God!
+v3: Have you for- got- ten who put death to flight, Still stays be- side you by day and by night Fol- low His teach- ing and know Him to be at hand, Dim- ming all griefs in His glad- ness and light. The- re's none like Je- sus to guard you and guide you, None with such love as up Cal- va- ry trod. What- e'er be- tide you He'll stand be- side you. No- one like Je- sus! Oh, Je- sus my God!

@@ -1,0 +1,46 @@
+{
+ "number": 471,
+ "old_number": 528,
+ "title_ko": "주여 나의 병든 몸을",
+ "title_en": "Heal Me Now, My Savior",
+ "original_title": "Heal Me Now (Korean text)",
+ "theme": "신유의권능",
+ "key_table": "Ab",
+ "time_table": "3/4",
+ "composer": "미상 (신증 복음가, 1919)",
+ "lyricist": "미상 (신증 복음가, 1919)",
+ "credit_line_in_file": {
+  "composer": "I.D.Sankey",
+  "lyricist": "U.Nakada"
+ },
+ "year": 1919,
+ "meter": "Irregular",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 미상 (신증 복음가, 1919)"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 미상 (신증 복음가, 1919)"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "471장 주여 나의 병든 몸을.mscz",
+   "sha256": "58c409b4a9f2f54fab49d667f9cb0168ebe6ae7bfc872d6c88ccac46de09084c",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

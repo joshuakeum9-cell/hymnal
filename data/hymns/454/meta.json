@@ -1,0 +1,46 @@
+{
+ "number": 454,
+ "old_number": 508,
+ "title_ko": "주와 같이 되기를",
+ "title_en": "More Like Jesus Would I Be",
+ "original_title": "Like Him (Fanny Crosby)",
+ "theme": "제자의도리",
+ "key_table": "D",
+ "time_table": "4/4",
+ "composer": "존 바커스 다익스 (John Bacchus Dykes)",
+ "lyricist": "패니 크로스비 (Fanny Jane Crosby) · 1820~1915",
+ "credit_line_in_file": {
+  "composer": "J.B.Dykes",
+  "lyricist": "F.J.Crosby"
+ },
+ "year": 1861,
+ "meter": "7.7.7.7.D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1876; work dated 1861"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1861"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "454장 주와 같이 되기를.mscz",
+   "sha256": "1e321faa29a9f1b1ced6854d0c2837abce4a0ed266d72eb2ecb902c86b9c4959",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

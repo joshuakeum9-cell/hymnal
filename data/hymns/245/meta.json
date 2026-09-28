@@ -1,0 +1,46 @@
+{
+ "number": 245,
+ "old_number": 228,
+ "title_ko": "저 좋은 낙원 이르니",
+ "title_en": "I've Reached the Land of Corn and Wine",
+ "original_title": "Beulah Land",
+ "theme": "천국",
+ "key_table": "E",
+ "time_table": "3/4",
+ "composer": "존 롭슨 스위니 (John Robson Sweney)",
+ "lyricist": "에드거 페이지 스타이츠 (Edgar Page Stites) · 1836~1921",
+ "credit_line_in_file": {
+  "composer": "J.R.Sweney",
+  "lyricist": "E.P.Stites"
+ },
+ "year": 1876,
+ "meter": "8.8.8.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1876, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1921; work dated 1876"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "245장 저 좋은 낙원 이르니.mscz",
+   "sha256": "8a03f4c20cdac7dcf13049b481ca37daf31290fd0299e4c61666505f19d85bc5",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

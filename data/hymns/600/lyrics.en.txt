@@ -1,0 +1,10 @@
+# 600 The Church's One Foundation
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: The Church's one Foun- da- tion Is Je- sus Christ, her _ Lord. She is His new cre- a- tion By wa- ter and the word. From heav'n He came and sought her To be His ho- ly bride With His own blood He bought her, And for her life He died. _ _
+v2: E- lect from ev- -'ry na- tion, Yet on o'er all the earth Her char- ter of sal- va- tion One Lord, one faith, one birth One ho- ly name she bless- es Par- takes one ho- ly food And to one hope she press- es, With ev- -'ry grace en- dued. _ _
+v3: And she on earth hath un- ion With God, The Three in One, And mys- tic sweet com- mu- nion With those whose rest is won Oh, hap- py ones and ho- ly! Lord, give us grace that we, Like them, the meek and low- ly, On high may dwell with Thee. A- men.

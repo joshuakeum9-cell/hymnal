@@ -1,0 +1,46 @@
+{
+ "number": 52,
+ "old_number": "",
+ "title_ko": "거룩하신 나의 하나님",
+ "title_en": "God Most Holy",
+ "original_title": "God Most Holy",
+ "theme": "봉헌",
+ "key_table": "Eb",
+ "time_table": "3/4",
+ "composer": "백효죽 (Baek Hyo-juk)",
+ "lyricist": "정필도 (Jeong Pil-do)",
+ "credit_line_in_file": {
+  "composer": "백효죽",
+  "lyricist": "정필도"
+ },
+ "year": 2005,
+ "meter": "Irregular",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "52장 거룩하신 나의 하나님.mscz",
+   "sha256": "1a83b50363baeb613c1768193c39bd4aeff4a56f1c69aee2db0b03767024f8bd",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

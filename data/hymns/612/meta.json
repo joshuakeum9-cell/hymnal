@@ -1,0 +1,46 @@
+{
+ "number": 612,
+ "old_number": "",
+ "title_ko": "이 땅에서 주를 위해",
+ "title_en": "After Serving Well the Lord God",
+ "original_title": "",
+ "theme": "추모",
+ "key_table": "F",
+ "time_table": "3/4",
+ "composer": "최용신 (최용신)",
+ "lyricist": "김지길 (김지길) · 1923~?",
+ "credit_line_in_file": {
+  "composer": "최종진",
+  "lyricist": "김지길"
+ },
+ "year": 1980,
+ "meter": "8.5.8.5 D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "612장 이 땅에서 주를 위해.mscz",
+   "sha256": "0b9831a9021aba67d03f056f6a45d5aa12ed7d48cd14f348290dd401741210b4",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

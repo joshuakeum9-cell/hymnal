@@ -1,0 +1,46 @@
+{
+ "number": 545,
+ "old_number": 344,
+ "title_ko": "이 눈에 아무 증거 아니 뵈어도",
+ "title_en": "Down in the Valley Where the Mists of Doubt Arise",
+ "original_title": "We Walk by Faith, Not by Sight",
+ "theme": "믿음과확신",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "로버트 라우리 (Robert Lowry)",
+ "lyricist": "미타니 다네키치 (谷貝種吉) (Tanekichi Mitani)",
+ "credit_line_in_file": {
+  "composer": "R.Lowry",
+  "lyricist": "T.Mitani"
+ },
+ "year": 1901,
+ "meter": "12.12.12.11 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1901, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1901, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "545장 이 눈에 아무 증거 아니 뵈어도.mscz",
+   "sha256": "05c6a2e2f6bac4379eb3e3cf747111b5503b30b4531b51acce6276c6a4d63277",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

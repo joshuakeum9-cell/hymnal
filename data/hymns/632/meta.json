@@ -1,0 +1,46 @@
+{
+ "number": 632,
+ "old_number": 549,
+ "title_ko": "주여 주여 우리를",
+ "title_en": "O Lord, O Lord!",
+ "original_title": "Kyrie Eleison",
+ "theme": "기도송",
+ "key_table": "Dm",
+ "time_table": "3/4",
+ "composer": "이보철 (이보철)",
+ "lyricist": "Kyrie Eleison",
+ "credit_line_in_file": {
+  "composer": "이보철",
+  "lyricist": "Kyrie Eleison"
+ },
+ "year": 2002,
+ "meter": "IRREG.",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "work dated 2002, may still be in copyright"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "632장 주여 주여 우리를.mscz",
+   "sha256": "1ec2ce0ed1edbc0765a780912304ea1f5aed3f973c9d7d585ea90948761cd469",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

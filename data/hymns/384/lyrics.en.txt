@@ -1,0 +1,10 @@
+# 384 All the Way My Saviour Leads Me
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: All the way my Sav- iour leads me What have I to ask be- side? Can I doubt His ten- der mer- cy, Who thro' life has been my guide? Heaven- ly peace, di- vin- est com- fort, Here by faith in Him to dwell For I know what- e'er be- fall me, Je- sus do- eth all things well For I know what- e'er be- fall me, Je- sus do- eth all things well. _ _
+v2: All the way my Sav- iour leads me Cheers each wind- ing path I tread Gives me grace for ev- ery tri- al, Feeds me with the liv- ing bread Though my wea- ry steps may fal- ter, And my soul a- thirst may be, Gush- ing from the Rock be- fore me, Lo, a spring of joy I see Gush- ing from the Rock be- fore me, Lo, a spring of joy I see. _ _
+v3: All the way my Sav- iour leads me O the ful- ness of His love! Per- fect rest to me is prom- ised In my Fa- ther's house a- bove When my spir- it clothed, im- mor- tal, Wings its flight to realms of day, This my song thro' end- less a- ges Je- sus led me all the way This my song thro' end- less a- ges Je- sus led me all the way. A- men.

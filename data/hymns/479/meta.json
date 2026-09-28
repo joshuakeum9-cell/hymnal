@@ -1,0 +1,46 @@
+{
+ "number": 479,
+ "old_number": 290,
+ "title_ko": "괴로운 인생길 가는 몸이",
+ "title_en": "I'm but a Stranger Here",
+ "original_title": "I'm but a Stranger Here",
+ "theme": "미래와소망",
+ "key_table": "Eb",
+ "time_table": "3/4",
+ "composer": "웨일스 전통 가락 (Bristol Tune Book)",
+ "lyricist": "토머스 R. 테일러 (Thomas Rawson Taylor) · 1807~1835",
+ "credit_line_in_file": {
+  "composer": "Welsh Hymn Melody",
+  "lyricist": "T.R.Taylor"
+ },
+ "year": 1836,
+ "meter": "10.10.12.10",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 웨일스 전통 가락 (Bristol Tune Book)"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1835; work dated 1836"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "479장 괴로운 인생길 가는 몸이.mscz",
+   "sha256": "b91609e3836ae9696b86c68e5bb48c82c43a81e98d3da6586b100f66a49d6414",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

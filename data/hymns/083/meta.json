@@ -1,0 +1,46 @@
+{
+ "number": 83,
+ "old_number": 83,
+ "title_ko": "나의 맘에 근심 구름",
+ "title_en": "Is There Anyone Can Help Us",
+ "original_title": "He's the One (Jesus is the One)",
+ "theme": "예수그리스도",
+ "key_table": "Db",
+ "time_table": "4/4",
+ "composer": "존 B. 매케이 (John B. Mackay)",
+ "lyricist": "존 B. 매케이 (John B. Mackay)",
+ "credit_line_in_file": {
+  "composer": "J.B.Mackay",
+  "lyricist": "J.B.Mackay"
+ },
+ "year": 1899,
+ "meter": "15.11.15.11 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1899, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1899, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "83장 나의 맘에 근심 구름.mscz",
+   "sha256": "796b370bf97dba4d4e73e417e3a95516e9e3d87a2f5058d4764c58a79c582d20",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 258,
+ "old_number": 190,
+ "title_ko": "샘물과 같은 보혈은",
+ "title_en": "There is a Fountain Filled with Blood",
+ "original_title": "There Is a Fountain Filled with Blood",
+ "theme": "회개와용서",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "로웰 메이슨 (전통 미국 멜로디 편곡) (Lowell Mason (arr. Traditional American Melody))",
+ "lyricist": "윌리엄 쿠퍼 (William Cowper) · 1731~1800",
+ "credit_line_in_file": {
+  "composer": "American Melody",
+  "lyricist": "W.Cowper"
+ },
+ "year": 1830,
+ "meter": "8.6.8.6.8.6.8.6 (C.M.D.)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 로웰 메이슨 (전통 미국 멜로디 편곡) (Lowell Mason (arr. Traditional American Melody))"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1800; work dated 1830"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "258장 샘물과 같은 보혈은.mscz",
+   "sha256": "312fd98683c74bc9f4862d5f07488a06d510d00bc852d23c34f5c346b89310d0",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

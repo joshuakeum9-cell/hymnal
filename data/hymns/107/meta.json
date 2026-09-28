@@ -1,0 +1,46 @@
+{
+ "number": 107,
+ "old_number": "",
+ "title_ko": "거룩한 밤 복된 이밤",
+ "title_en": "Holy Night, Blessed Night",
+ "original_title": "Sheng Ye Qing, Sheng Ye Jing (Holy Night, Blessed Night)",
+ "theme": "성탄",
+ "key_table": "D",
+ "time_table": "4/4",
+ "composer": "시기궤(Qigui Shi) / 천펜리 편곡 (Qigui Shi, arr. Pen-li Chen)",
+ "lyricist": "주위어(Weiyu Zhu) · 우정인(Jingren Wu) / 무디 의역 (Weiyu Zhu & Jingren Wu, para. K. Moody) · 1890~1986",
+ "credit_line_in_file": {
+  "composer": "Qigui Shy/Pen-li Chen",
+  "lyricist": "Mandarin Carol/Weiyu Zhu and Jingren Wu"
+ },
+ "year": 1982,
+ "meter": "8.11.8.9.9",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "work dated 1982, may still be in copyright"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "author died 1986, after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "107장 거룩한 밤 복된 이밤.mscz",
+   "sha256": "c23da0a339f3aec8eda378b0431cccd23bce60aafd0006451f8997d585598972",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

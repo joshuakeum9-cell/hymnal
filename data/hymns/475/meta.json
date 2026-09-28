@@ -1,0 +1,46 @@
+{
+ "number": 475,
+ "old_number": 272,
+ "title_ko": "인류는 하나되게",
+ "title_en": "Humankind, the Work of God",
+ "original_title": "Humankind, the Work of God (Korean original)",
+ "theme": "화해와평화",
+ "key_table": "Eb",
+ "time_table": "3/4",
+ "composer": "나인용 (Na In-yong)",
+ "lyricist": "홍현설 (Hong Hyun-sul) · 1911~1990",
+ "credit_line_in_file": {
+  "composer": "나인용",
+  "lyricist": "홍현설"
+ },
+ "year": 1983,
+ "meter": "7.7.7.7.7.7",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "475장 인류는 하나되게.mscz",
+   "sha256": "19ba616e1ea0627f8f2e30e853240273633d47dda87893f0d1dff9b4d558b493",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 480,
+ "old_number": 293,
+ "title_ko": "천국에서 만나보자",
+ "title_en": "I Will Meet You in the Morning",
+ "original_title": "I Will Meet You in the Morning (The Eastern Gate)",
+ "theme": "미래와소망",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "아이재아 G. 마틴 (Isaiah G. Martin)",
+ "lyricist": "아이재아 G. 마틴 (Isaiah G. Martin) · 1862~1957",
+ "credit_line_in_file": {
+  "composer": "",
+  "lyricist": "I.G.Martin"
+ },
+ "year": 1905,
+ "meter": "8.7.8.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1957; work dated 1905"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1957; work dated 1905"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "480장 천국에서 만나보자.mscz",
+   "sha256": "a3d35c4d37116916ab7fc9873c9e7eae64315e1cd0c3de04bf7d0e4f73524f73",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

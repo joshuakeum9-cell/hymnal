@@ -1,0 +1,46 @@
+{
+ "number": 77,
+ "old_number": "",
+ "title_ko": "거룩하신 하나님",
+ "title_en": "Holy Heav'nly Lord, Our God",
+ "original_title": "Holy Heav'nly Lord, Our God",
+ "theme": "창조주",
+ "key_table": "Fm",
+ "time_table": "4/4",
+ "composer": "김성은 (Kim Seong-eun)",
+ "lyricist": "전재동 (Jeon Jae-dong)",
+ "credit_line_in_file": {
+  "composer": "김성은",
+  "lyricist": "전재동"
+ },
+ "year": 1998,
+ "meter": "7.7.8.7 D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "77장 거룩하신 하나님.mscz",
+   "sha256": "e4a975539b3a2933bc2afaca86d02ed0fd88815c05451b02e54f589f5903f7ee",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

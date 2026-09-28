@@ -1,0 +1,46 @@
+{
+ "number": 487,
+ "old_number": 535,
+ "title_ko": "어두움 후에 빛이 오며",
+ "title_en": "Light After Darkness",
+ "original_title": "Light After Darkness",
+ "theme": "미래와소망",
+ "key_table": "Db",
+ "time_table": "3/4",
+ "composer": "아이라 D. 생키 (Ira David Sankey)",
+ "lyricist": "프랜시스 R. 하버갈 (Frances Ridley Havergal) · 1836~1879",
+ "credit_line_in_file": {
+  "composer": "I.D.Sankey",
+  "lyricist": "F.R.Havergal"
+ },
+ "year": 1879,
+ "meter": "9.9.9.9",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1908; work dated 1879"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1879; work dated 1879"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "487장 어두움 후에 빛이 오며.mscz",
+   "sha256": "b22e4c02c3e25bf284ef4731608aa5ba4bf6cea1024abd33957e6bfb01f1c755",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

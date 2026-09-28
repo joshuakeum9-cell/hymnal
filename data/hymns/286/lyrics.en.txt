@@ -1,0 +1,11 @@
+# 286 Come into My Heart, Blessed Jesus
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, auto, exact, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Come in- to my heart, bless- ed Je- sus, Come in- to my heart, _ I pray My soul is so troub- led and wea- ry, Come in- to my heart to day. In- to my heart, in- to my heart, Come in- to my heart, Lord Je- sus Come in to- day, Come in to stay, Come in- to my heart, Lord Je- sus. _ _
+v2: Come in- to my heart, bless- ed Je- sus, I need Thee thro' li- _ fe's drear- y way The bur- den of sin is so heav- y, Come in- to my heart to stay. In- to my heart, in- to my heart, Come in- to my heart, Lord Je- sus Come in to- day, Come in to stay, Come in- to my heart, Lord Je- sus.
+v3: Come in- to my heart, bless- ed Je- sus, And take all my guilt _ a- way Then spot- less I'll stand in Thy pres- ence, When breaks Thine e- ter- nal day. In- to my heart, in- to my heart, Come in- to my heart, Lord Je- sus Come in to- day, Come in to stay, Come in- to my heart, Lord Je- sus. _ _
+v4: Come in- to my heart, bless- ed Je- sus, O cleanse and il- lu- mine my soul Fill me with Thy won- der- ful Spir- it, Come in and take full con- trol. In- to my heart, in- to my heart, Come in- to my heart, Lord Je- sus Come in to- day, Come in to stay, Come in- to my heart, Lord Je- sus A- men

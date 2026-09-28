@@ -1,0 +1,46 @@
+{
+ "number": 233,
+ "old_number": "",
+ "title_ko": "자비로 그 몸 찢기시고",
+ "title_en": "Bread Of The World In Mercy Broken",
+ "original_title": "Bread of the World, in Mercy Broken",
+ "theme": "성찬",
+ "key_table": "Eb",
+ "time_table": "3/4",
+ "composer": "존 세바스찬 바흐 호지스 (John Sebastian Bach Hodges)",
+ "lyricist": "레지널드 히버 (Reginald Heber) · 1783~1826",
+ "credit_line_in_file": {
+  "composer": "J.S.B.Hodges",
+  "lyricist": "R.Heber"
+ },
+ "year": 1868,
+ "meter": "9.8.9.8",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1868"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1826; work dated 1868"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "233장 자비로 그 몸 찢기시고.mscz",
+   "sha256": "b1ad8ee85b43ab40033062496d8a765d34bbf5508fa40a6b54b62b9ef6cb9f91",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

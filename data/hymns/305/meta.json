@@ -1,0 +1,46 @@
+{
+ "number": 305,
+ "old_number": 405,
+ "title_ko": "나 같은 죄인 살리신",
+ "title_en": "Amazing Grace! How Sweet the Sound!",
+ "original_title": "Amazing Grace",
+ "theme": "은혜와사랑",
+ "key_table": "G",
+ "time_table": "3/4",
+ "composer": "미국 전통 곡조 (E. O. 엑셀 편곡) (Traditional American Melody (arr. E. O. Excell))",
+ "lyricist": "존 뉴턴 (John Newton) · 1725~1807",
+ "credit_line_in_file": {
+  "composer": "American melody/E.O.Excell",
+  "lyricist": "J.Newton"
+ },
+ "year": 1779,
+ "meter": "8.6.8.6 (Common Meter)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 미국 전통 곡조 (E. O. 엑셀 편곡) (Traditional American Melody (arr. E. O. Excell))"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1807; work dated 1779"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "305장 나 같은 죄인 살리신.mscz",
+   "sha256": "d8f180317a9d08cc39a0222636cc58a9b5c816ad8da1279f78e0b87ac61c1cbe",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

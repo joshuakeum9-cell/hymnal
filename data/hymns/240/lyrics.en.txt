@@ -1,0 +1,11 @@
+# 240 When My Life Work is Ended
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: When _ my life work is end- ed and I cross the swell- ing tide, When the bright and glo- rious morn- ing I shall see, I _ shall know my Re- deem- er when I reach the oth- er side, And His smile will be the first to wel- come me. I shall know Him- ,I shall know Him, And _ re- deem- ed by His side I shall stand, I shall know Him, I shall know Him, By _ the _ print of the nails in His hand.
+v2: O _ the _ _ soul thrill- ing rap- ture when I view His blessed face And the lus- ter of His kind- ly beam- ing eye How my full heart will praise Him for the mer- cy, love and grace That pre- pare for me a man- sion in the sky. I shall know Him, I shall know Him, And _ re- deem- ed by His side I shall stand, I shall know Him, I shall know Him, By _ the _ print of the nails in His hand.
+v3: O the dear ones in glo- ry, how _ they beck- on me to come, And _ our part- ing at the ri- ver I re- call To the sweet vales of E- den they will sing my wel- come home But I long to meet my Sa- viour first of all. I shall know Him, I shall know Him, And _ re- deem- ed by His side I shall stand, I shall know Him, I shall know Him, By _ the _ print of the nails in His hand.
+v4: Thru the gates to the cit- y, in _ a robe of spot- less white, He _ will lead me where no tears will e- ver fail In the glad song of a- ges I shall min- gle with de- light But I long to meet my Sa- viour first of all. I shall know Him, I shall know Him, And _ re- deem- ed by His side I shall stand, I shall know Him, I shall know Him, By _ the _ print of the nails in His hand.

@@ -1,0 +1,10 @@
+# 331 True-hearted, Whole-hearted
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: True- heart- ed, whole- heart- ed, faith- ful _ and loy- al, King of our lives, by Thy grace we will be Un- der the stand- ard ex- alt- ed _ and roy- al, Strong in Thy strength we will bat- tle for Thee. Peal out the watch- world! si- lence it nev- er! Song of our spir- its, re- joic- _ ing and free Peal out the watch- word! loy- al for- ev- er! King of our lives, By Thy grace we will be.
+v2: True- heart- ed, whole- heart- ed, full- est _ al- le- giance Yield- ing hence forth to our glo- ri- ous King, Val- iant en- deav- our and lov- ing _ o- be- dience, Free- ly and joy- ous- ly now would we bring. Peal out the watch- world! si- lence it nev- er! Song of our spir- its, re- joic- _ ing and free Peal out the watch- word! loy- al for- ev- er! King of our lives, By Thy grace we will be.
+v3: True- heart- ed, whole- heart- ed, Sav- iour _ all glo- rious! Take Thy great pow- 'er and reign there a- lone, O- ver ours will and af- fec- tions _ vic- to- rious, Free- ly sur- ren- dered and whol- ly Thine own. Peal out the watch- world! si- lence it nev- er! Song of our spir- its, re- joic- _ ing and free Peal out the watch- word! loy- al for- ev- er! King of our lives, By Thy grace we will be.

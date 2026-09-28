@@ -1,0 +1,46 @@
+{
+ "number": 566,
+ "old_number": 301,
+ "title_ko": "사랑의 하나님 귀하신 이름은",
+ "title_en": "A Little Child May Know",
+ "original_title": "",
+ "theme": "어린이",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "요한 S. 바흐 (Johann Sebastian Bach)",
+ "lyricist": "제인 E. 리슨 (Jane Eliza Leeson) · 1807~1882",
+ "credit_line_in_file": {
+  "composer": "J.S.Bach",
+  "lyricist": "J.E.Leason"
+ },
+ "year": null,
+ "meter": "6.6.8.6",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1750; work dated unknown"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1882; work dated unknown"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "566장 사랑의 하나님 귀하신 이름은.mscz",
+   "sha256": "e7cffffdea4b741374fe1fb9cba9b31976218189798afd067de6a02d66ee7660",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

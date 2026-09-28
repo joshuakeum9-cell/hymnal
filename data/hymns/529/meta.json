@@ -1,0 +1,46 @@
+{
+ "number": 529,
+ "old_number": 319,
+ "title_ko": "온유한 주님의 음성",
+ "title_en": "Patiently, Tenderly Pleading",
+ "original_title": "",
+ "theme": "부르심과영접",
+ "key_table": "Ab",
+ "time_table": "6/8",
+ "composer": "할도르 릴레나스 (Haldor Lillenas)",
+ "lyricist": "할도르 릴레나스 (Haldor Lillenas) · 1885~1959",
+ "credit_line_in_file": {
+  "composer": "H.Lillenas",
+  "lyricist": "H.Lillenas"
+ },
+ "year": null,
+ "meter": "8.7.8.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1959; work dated unknown"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1959; work dated unknown"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "529장 온유한 주님의 음성.mscz",
+   "sha256": "0bdd6e0ed750ce6efaba2a796b18007bea961fe137c5bc38e7c924f3bc9b6f89",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

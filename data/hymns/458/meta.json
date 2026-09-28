@@ -1,0 +1,46 @@
+{
+ "number": 458,
+ "old_number": 513,
+ "title_ko": "너희 마음에 슬픔이 가득할 때",
+ "title_en": "Tho' Your Heart May be Heavy",
+ "original_title": "Carry Your Cross with a Smile",
+ "theme": "제자의도리",
+ "key_table": "Ab",
+ "time_table": "6/8",
+ "composer": "찰스 H. 가브리엘 (Charles Hutchinson Gabriel)",
+ "lyricist": "아이나 D. 오그던 (Ina Duley Ogdon) · 1872~1964",
+ "credit_line_in_file": {
+  "composer": "C.H.Gabriel",
+  "lyricist": "I.D.Ogdon"
+ },
+ "year": 1916,
+ "meter": "12.9.12.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1916, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "author died 1964, after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "458장 너희 마음에 슬픔이 가득할 때.mscz",
+   "sha256": "e570625901f5ded365d5301e2f61180e01531500943e75eba9a4e53ed74ff495",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

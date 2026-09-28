@@ -1,0 +1,46 @@
+{
+ "number": 35,
+ "old_number": 50,
+ "title_ko": "큰 영화로신 주",
+ "title_en": "Great King of Glory",
+ "original_title": "Great King of Glory",
+ "theme": "찬양",
+ "key_table": "A",
+ "time_table": "4/4",
+ "composer": "루이스 에드슨 (Lewis Edson)",
+ "lyricist": "벤저민 프랜시스 (Benjamin Francis) · 1734~1799",
+ "credit_line_in_file": {
+  "composer": "L.Edson",
+  "lyricist": "B.Francis"
+ },
+ "year": 1782,
+ "meter": "6.6.6.6.8.8.8.8",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1820; work dated 1782"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1799; work dated 1782"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "35장 큰 영화로신 주.mscz",
+   "sha256": "11281de31227a85bc2bcc7e1e1c69f0bd8e622cfc387b90664c5411bf55aa675",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

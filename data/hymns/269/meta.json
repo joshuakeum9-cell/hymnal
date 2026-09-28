@@ -1,0 +1,46 @@
+{
+ "number": 269,
+ "old_number": 211,
+ "title_ko": "그 참혹한 십자가에",
+ "title_en": "The Precious Blood of Jesus",
+ "original_title": "Lord, I Believe",
+ "theme": "회개와용서",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "신증 복음가 (1919) (신증 복음가(新增 福音歌, 1919) 출처)",
+ "lyricist": "신증 복음가 (1919, 한국 성결교 가스펠 송집) (신증 복음가(新增 福音歌, 1919) 출처)",
+ "credit_line_in_file": {
+  "composer": "Anonymous",
+  "lyricist": "Anonymous"
+ },
+ "year": 1919,
+ "meter": "8.6.8.6.D with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1919, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1919, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "269장 그 참혹한 십자가에.mscz",
+   "sha256": "742ca4b3e9f98659cd770ff3a54e6f974263512f3c1b6c4d74533f98ce9e98df",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

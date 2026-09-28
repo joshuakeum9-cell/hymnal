@@ -1,0 +1,46 @@
+{
+ "number": 218,
+ "old_number": 369,
+ "title_ko": "네 맘과 정성을 다하여서",
+ "title_en": "Love Your God with Your Heart and Your True Mind",
+ "original_title": "",
+ "theme": "헌신과봉사",
+ "key_table": "Eb",
+ "time_table": "3/4",
+ "composer": "곽상수 (곽상수)",
+ "lyricist": "정용철 (정용철)",
+ "credit_line_in_file": {
+  "composer": "곽상수",
+  "lyricist": "정용철"
+ },
+ "year": 1967,
+ "meter": "10.11.10.10.10.10",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "218장 네 맘과 정성을 다하여서.mscz",
+   "sha256": "e3700957908df9f4d80fa4dcc957868b79c296f25ee156bd959dcf1d4f1acf82",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

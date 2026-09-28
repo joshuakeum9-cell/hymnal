@@ -1,0 +1,11 @@
+# 36 All Hail the Pow'r of Jesus' Name!
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: All hail the pow'r of Je- sus' name! Let an- gels pros- trate fall. Bring forth the roy- al di- _ a- _ dem, And crown Him Lord of _ all! Bring forth the roy- al di- _ a- _ dem, And crown Him Lord _ _ of all! _ _
+v2: Sin- ners whose love can ne'er for- get The worm- wood and the gall, Come, lay your tro- phies at _ His _ feet, And crown Him Lord of _ all! Come, lay your tro- phies at _ His _ feet, And crown Him Lord _ _ of all! _ _
+v3: Let ev- -'ry kin- dred, ev- -'ry tribe, On this ter- res- trial ball, To Him all maj- es- ty _ as- _ cribe, And crown Him Lord of _ all! To Him all maj- es- ty _ as- _ cribe, And crown Him Lord _ _ of all! _ _
+v4: Oh, that with yon- der sa- cred throng We at His feet may fall! We'll join the ev- er- last- _ ing _ song, And crown Him Lord of _ all! We'll join the ev- er- last- _ ing _ song, And crown Him Lord _ _ of all! A- men

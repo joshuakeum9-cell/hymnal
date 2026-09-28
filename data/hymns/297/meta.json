@@ -1,0 +1,46 @@
+{
+ "number": 297,
+ "old_number": 191,
+ "title_ko": "양 아흔아홉 마리는",
+ "title_en": "There Were Ninety and Nine",
+ "original_title": "The Ninety and Nine",
+ "theme": "은혜와사랑",
+ "key_table": "Ab",
+ "time_table": "6/8",
+ "composer": "아이라 데이비드 생키 (Ira David Sankey)",
+ "lyricist": "엘리자베스 세실리아 클레페인 (Elizabeth Cecilia Clephane) · 1830~1869",
+ "credit_line_in_file": {
+  "composer": "I.D.Sankey",
+  "lyricist": "E.C.Clephane"
+ },
+ "year": 1874,
+ "meter": "Irregular",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1908; work dated 1874"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1869; work dated 1874"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "297장 양 아흔아홉 마리는.mscz",
+   "sha256": "de4cb3103eb28ce2236c166a70a94fc475c1dd9acbc5da63a8caec99298efa4f",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

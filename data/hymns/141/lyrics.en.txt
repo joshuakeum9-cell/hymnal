@@ -1,0 +1,10 @@
+# 141 Hosanna, Loud Hosanna
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Ho- san- na, _ loud ho- san- _ na The lit- _ tle chil- dren sang Though pil- lared _ court and tem- _ ple The love- _ ly an- them rang To _ Je- sus, who had blessed _ _ them Close _ fold- ed to His breast, The chil- dren _ sang their prais- _ es, The sim- _ plest and the best. _ _
+v2: From Ol- i- _ vet they fol- _ lowed Mid an _ ex- ult- ant crowd, The vic- tor _ palm branch wav- _ ing, And chant- _ ing clear and loud The _ Lord of men and an- _ _ gels Rode _ on in low- ly state, Nor scorned that _ lit- tle chil- _ dren Should on _ His bid- ding wait. _ _
+v3: "Ho- san- na _ in the high- _ est!" That an- _ cient song we sing, For Christ is _ our Re- deem- _ er, The Lord _ of heav'n, our King O _ may we ev- er praise _ _ Him With _ heart and life and voice, And in His _ bliss- ful pres- _ ence E- ter- _ nal- ly re- joice! A- men.

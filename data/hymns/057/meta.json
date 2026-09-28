@@ -1,0 +1,46 @@
+{
+ "number": 57,
+ "old_number": "",
+ "title_ko": "오늘 주신 말씀에",
+ "title_en": "You Have Made My Life So Strong",
+ "original_title": "By Today's Word",
+ "theme": "예배마침",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "김정일 (Kim Jeong-il)",
+ "lyricist": "정치근 (Jeong Chi-geun) · 1922~?",
+ "credit_line_in_file": {
+  "composer": "김정일",
+  "lyricist": "정치근"
+ },
+ "year": 2005,
+ "meter": "Irregular",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "57장 오늘 주신 말씀에.mscz",
+   "sha256": "b054bc36117c2194973779030d343830a61718f3890de09e3d16dd40e9a8c2fd",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 190,
+ "old_number": 177,
+ "title_ko": "성령이여 강림하사",
+ "title_en": "Hover Over Me, Holy Spirit",
+ "original_title": "Hover O'er Me, Holy Spirit (Fill Me Now)",
+ "theme": "성령강림",
+ "key_table": "G",
+ "time_table": "6/4",
+ "composer": "존 R. 스위니 (John R. Sweney)",
+ "lyricist": "엘우드 H. 스토크스 (Elwood Haines Stokes) · 1815~1895",
+ "credit_line_in_file": {
+  "composer": "J.R.Sweney",
+  "lyricist": "E.H.Stokes"
+ },
+ "year": 1879,
+ "meter": "8.7.8.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1879, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1895; work dated 1879"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "190장 성령이여 강림하사.mscz",
+   "sha256": "5157f3761076d1fafc311d197b54fbb9c6a357d025a4c3cf112d0cf28a7b8116",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

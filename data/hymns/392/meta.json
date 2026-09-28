@@ -1,0 +1,46 @@
+{
+ "number": 392,
+ "old_number": "",
+ "title_ko": "주여 어린 사슴이",
+ "title_en": "Lord, Just as the Thirsty Fawn",
+ "original_title": "As the Hart Pants (Korean original, Psalm 42)",
+ "theme": "인도와보호",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "박재훈 (Park Jae-hoon)",
+ "lyricist": "전영택 (Jeon Young-taek) · 1894~1968",
+ "credit_line_in_file": {
+  "composer": "박재훈",
+  "lyricist": "전영택"
+ },
+ "year": 1947,
+ "meter": "7.5.7.5.D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "392장 주여 어린 사슴이.mscz",
+   "sha256": "bd79007026b6a344340f416351fa8e5b6655cbd36b021b0013a29629d7376c96",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

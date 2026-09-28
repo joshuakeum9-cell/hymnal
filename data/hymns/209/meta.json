@@ -1,0 +1,46 @@
+{
+ "number": 209,
+ "old_number": 247,
+ "title_ko": "이 세상 풍파 심하고",
+ "title_en": "From Every Stormy Wind That Blows",
+ "original_title": "From Every Stormy Wind That Blows",
+ "theme": "하나님나라",
+ "key_table": "Bb",
+ "time_table": "6/4",
+ "composer": "토머스 헤이스팅스 (Thomas Hastings)",
+ "lyricist": "휴 스토웰 (Hugh Stowell) · 1799~1865",
+ "credit_line_in_file": {
+  "composer": "T.Hastings",
+  "lyricist": "H.Stowell"
+ },
+ "year": 1842,
+ "meter": "8.8.8.8 (L.M.)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1872; work dated 1842"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1865; work dated 1842"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "209장 이 세상 풍파 심하고.mscz",
+   "sha256": "74c195e666a6eca1daa778d77fbfad9f4eccb6e8b313d9900b80c5b63df5d89e",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

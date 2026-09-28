@@ -1,0 +1,46 @@
+{
+ "number": 66,
+ "old_number": 20,
+ "title_ko": "다 감사드리세",
+ "title_en": "Now Thank We All Our God",
+ "original_title": "Now Thank We All Our God",
+ "theme": "창조주",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "요한 크뤼거(멘델스존 화성) (Johann Crüger (harm. F. Mendelssohn))",
+ "lyricist": "마르틴 링카르트 (Martin Rinkart) · 1586~1649",
+ "credit_line_in_file": {
+  "composer": "J.Cruger/F.Mendelssohn",
+  "lyricist": "M.Rinkart"
+ },
+ "year": 1647,
+ "meter": "6.7.6.7.6.6.6.6",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1647, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1649; work dated 1647"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "66장 다 감사드리세.mscz",
+   "sha256": "ec729fdaa921c2b7358179e4f62c071d3d3804cac6be02d1627efdc2011ea9cf",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

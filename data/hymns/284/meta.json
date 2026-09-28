@@ -1,0 +1,46 @@
+{
+ "number": 284,
+ "old_number": 206,
+ "title_ko": "오랫동안 모든 죄 가운데 빠져",
+ "title_en": "The Abundant Love of Jesus",
+ "original_title": "(Bringing in the Sheaves 곡조에 한국 회개 가사 결합)",
+ "theme": "거듭남",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "조지 A. 마이너 (George A. Minor)",
+ "lyricist": "신증 복음가 (1919) (신증 복음가 (1919) 출처)",
+ "credit_line_in_file": {
+  "composer": "G.A.Minor",
+  "lyricist": "Anonymous"
+ },
+ "year": 1880,
+ "meter": "12.11.12.11 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1904; work dated 1880"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1880, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "284장 오랫동안 모든 죄 가운데 빠져.mscz",
+   "sha256": "e473f45d583aa44d5f420f4582ab989af417a6786c179bfcda7bbde666cc80f2",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

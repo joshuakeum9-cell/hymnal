@@ -1,0 +1,11 @@
+# 23 O for A Thousand Tongues
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: O for a thou- sand tongues to sing My great Re- deem- er's praise, The glo- ries of my God and King, The _ tri- umphs of His grace. _ _
+v2: My gra- cious Mas- ter and my God, As- sist me to pro- claim, To spread through all the earth a- broad, The _ hon- ors of Thy Name. _ _
+v3: Je- sus! The name that charms our fears, That bids our sor- rows cease 'Tis mu- sic in the sin- ner's ears, 'Tis _ life, and health, and peace. _ _
+v4: He breaks the pow'r of can- cel'd sin, He sets the pris- -'ner free His blood can make the foul- est clean His _ blood a- vail'd for me. A- men.

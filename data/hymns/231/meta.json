@@ -1,0 +1,46 @@
+{
+ "number": 231,
+ "old_number": "",
+ "title_ko": "우리 다 같이 무릎 꿇고서",
+ "title_en": "Let Us Break Bread Together",
+ "original_title": "Let Us Break Bread Together",
+ "theme": "성찬",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "아프리카계 미국인 영가 / 멜바 윌슨 코스턴 편곡 (African-American Spiritual / arr. Melva Wilson Costen)",
+ "lyricist": "아프리카계 미국인 영가 (African-American Spiritual (Gullah/Geechee tradition))",
+ "credit_line_in_file": {
+  "composer": "Afro-American Spiritual/M.W.Costen",
+  "lyricist": "Afro-American Spiritual"
+ },
+ "year": 1988,
+ "meter": "5.5.4.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 아프리카계 미국인 영가 / 멜바 윌슨 코스턴 편곡 (African-American Spiritual / arr. Melva Wilson Costen)"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 아프리카계 미국인 영가 (African-American Spiritual (Gullah/Geechee tradition))"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "231장 우리 다 같이 무릎 꿇고서.mscz",
+   "sha256": "ff555a796735364b14bc2827efa1070b77b3e07bc786e2104502495c42a7c304",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

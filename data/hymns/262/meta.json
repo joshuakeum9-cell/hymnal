@@ -1,0 +1,46 @@
+{
+ "number": 262,
+ "old_number": 196,
+ "title_ko": "날 구원하신 예수님",
+ "title_en": "Of Him Who Did Salvation Bring",
+ "original_title": "Jesus, the Very Thought of Thee (Jesu Dulcis Memoria)",
+ "theme": "회개와용서",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "로웰 메이슨 (Lowell Mason)",
+ "lyricist": "클레르보의 베르나르 (캐스월 영역) (Bernard of Clairvaux (trans. Edward Caswall 1849)) · 1091~1153",
+ "credit_line_in_file": {
+  "composer": "L.Mason",
+  "lyricist": "Bernard of Clairvaux"
+ },
+ "year": 1830,
+ "meter": "8.8.8.8 (L.M.)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1830, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1830, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "262장 날 구원하신 예수님.mscz",
+   "sha256": "c04177f8120fddb6d09f56074a633ddec42dcae9413017ba89e77a7aee9dcb04",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

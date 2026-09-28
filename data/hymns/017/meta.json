@@ -1,0 +1,46 @@
+{
+ "number": 17,
+ "old_number": "",
+ "title_ko": "사랑의 하나님",
+ "title_en": "God of Love",
+ "original_title": "",
+ "theme": "경배",
+ "key_table": "Eb",
+ "time_table": "3/4",
+ "composer": "박재훈 (Park Jae-hoon)",
+ "lyricist": "김희보 (Kim Hee-bo)",
+ "credit_line_in_file": {
+  "composer": "박재훈",
+  "lyricist": "김희보"
+ },
+ "year": 2003,
+ "meter": "Irregular",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "17장 사랑의 하나님.mscz",
+   "sha256": "ffd2a03f9d5e44eddb10965c7581045c3dd44596da0f250c8e356b73ccaa6893",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

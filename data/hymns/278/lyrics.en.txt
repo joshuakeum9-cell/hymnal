@@ -1,0 +1,11 @@
+# 278 Far From the Lord I Wander'd Long
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Far from the Lord I wan- der'd long In en- chant- ments of time and place, Sunk deep in my sins, im- mers'd in wrong, For- get- ting a Sav- iour's grace. O, Je- sus, dear Lord, my heart Is o- pen- ing now the door, Come in to- day, come for- ev- er to stay, My life to be, ev- er- more! _ _
+v2: Griev- ing for Ad- am's dy- ing seed In the bond- age of sin and shame, From glo- ries of heav'n to meet our need, In pit- y the Sav- iour came. O, Je- sus, dear Lord, my heart Is o- pen- ing now the door, Come in to- day, come for- ev- er to stay, My life to be, ev- er- more! _ _
+v3: Mock- e- ry's cirm- son cloth He wore, And His crown was a crown of thorn, And, high on the cross, the pains He bore The sins of a world have borne! O, Je- sus, dear Lord, my heart Is o- pen- ing now the door, Come in to- day, come for- ev- er to stay, My life to be, ev- er- more! _ _
+v4: Fol- ly and sin of hu- man- kind! So un- will- ing our Lord to know, We wan- der our de- serts, faint and blind! How long shall we scorn Him so O, Je- sus, dear Lord, my heart Is o- pen- ing now the door, Come in to- day, come for- ev- er to stay, My life to be, ev- er- more! A- men.

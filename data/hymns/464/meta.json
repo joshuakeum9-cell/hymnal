@@ -1,0 +1,46 @@
+{
+ "number": 464,
+ "old_number": "",
+ "title_ko": "믿음의 새 빛을",
+ "title_en": "Faith's New Light",
+ "original_title": "New Light of Faith (Korean original)",
+ "theme": "제자의도리",
+ "key_table": "Dm",
+ "time_table": "3/4",
+ "composer": "이보성 (Lee Bo-seong)",
+ "lyricist": "임상신 (Yim Sang-shin)",
+ "credit_line_in_file": {
+  "composer": "이보철",
+  "lyricist": "엄상신"
+ },
+ "year": 2004,
+ "meter": "6.6.6.6.7.6.7.6",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "464장 믿음의 새 빛을.mscz",
+   "sha256": "3cd58e2e3d7fc2e1529f2a65704b813787a87498d237bcea9812db689e08367e",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

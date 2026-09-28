@@ -1,0 +1,10 @@
+# 504 Heralds of Christ, Who Bear the King's Commands
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Her- alds of Christ, who bear the King's com- mands Im- mor- tal ti- dings in your mor- tal hands, Pass on and car- ry swift the news ye bring: Make, straight, make straight the high- way of the King. _ _
+v2: Through des- ert ways, dark fen, and deep mo- rass, Through jun- gles, slug- gish seas, and moun- tain pass, Build ye the road, and fal- ter not, nor stay Pre- pare a- cross the earth the King's high- way. _ _
+v3: Lord, give us faith and strength the road to build, To see the prom- ise of the day ful- filled, When war shall be no more and strife shall cease Up- on the high- way of the Prince of peace. A- men.

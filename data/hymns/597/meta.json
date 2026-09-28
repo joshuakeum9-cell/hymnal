@@ -1,0 +1,46 @@
+{
+ "number": 597,
+ "old_number": 378,
+ "title_ko": "이전에 주님을 내가 몰라",
+ "title_en": "Once Knowing Not the Lord for From His Face",
+ "original_title": "",
+ "theme": "임직",
+ "key_table": "Dm",
+ "time_table": "3/4",
+ "composer": "이유선 (이유선)",
+ "lyricist": "정용철 (정용철)",
+ "credit_line_in_file": {
+  "composer": "이유선",
+  "lyricist": "정용철"
+ },
+ "year": 1967,
+ "meter": "10.10.10.10",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "597장 이전에 주님을 내가 몰라.mscz",
+   "sha256": "4ca016d2e98cbfe4abb28357b3ba5f34d121d3d04aa7f26dfd38102cd414e949",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 396,
+ "old_number": "",
+ "title_ko": "우리 주님 밤새워",
+ "title_en": "See Our Lord Christ All Night Long",
+ "original_title": "See Our Lord Christ All Night Long (Korean original)",
+ "theme": "인도와보호",
+ "key_table": "F",
+ "time_table": "3/4",
+ "composer": "이문승 (Lee Mun-seung)",
+ "lyricist": "최기채 (Choi Gi-chae)",
+ "credit_line_in_file": {
+  "composer": "이문승",
+  "lyricist": "최기채"
+ },
+ "year": 2004,
+ "meter": "7.7.7.7.D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "396장 우리 주님 밤새워.mscz",
+   "sha256": "1cc544ec6ac1ea929e61918edd162d4a526438a0efb49cfe47dba865342918b3",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

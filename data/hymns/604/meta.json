@@ -1,0 +1,46 @@
+{
+ "number": 604,
+ "old_number": 288,
+ "title_ko": "완전한 사랑",
+ "title_en": "O Perfect Love, All Human Thought Transcending",
+ "original_title": "O Perfect Love",
+ "theme": "혼례",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "조셉 반비 (Joseph Barnby)",
+ "lyricist": "도로시 F. B. 거니 (Dorothy Frances Blomfield Gurney) · 1858~1932",
+ "credit_line_in_file": {
+  "composer": "J.Barnby",
+  "lyricist": "D.F.B.Gurney"
+ },
+ "year": 1889,
+ "meter": "11.10.11.10",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1896; work dated 1889"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1932; work dated 1889"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "604장 완전한 사랑.mscz",
+   "sha256": "f8cf50e9b2b86b0e5934ee245cafc59627ab6b755c846378cf0853088cf88b5c",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

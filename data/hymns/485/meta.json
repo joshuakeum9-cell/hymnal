@@ -1,0 +1,46 @@
+{
+ "number": 485,
+ "old_number": 534,
+ "title_ko": "세월이 흘러가는데",
+ "title_en": "My Days are Gliding Swiftly By",
+ "original_title": "The Shining Shore",
+ "theme": "미래와소망",
+ "key_table": "G",
+ "time_table": "3/4",
+ "composer": "조지 F. 루트 (George Frederick Root)",
+ "lyricist": "데이비드 넬슨 (David Nelson) · 1793~1844",
+ "credit_line_in_file": {
+  "composer": "G.F.Root",
+  "lyricist": "D.Nelson"
+ },
+ "year": 1855,
+ "meter": "8.7.8.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1895; work dated 1855"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1844; work dated 1855"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "485장 세월이 흘러가는데.mscz",
+   "sha256": "bf9b387805b506da25bc324560eacbefc324a4143194ff8efe23d81b672f5de0",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

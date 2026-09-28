@@ -1,0 +1,46 @@
+{
+ "number": 610,
+ "old_number": 289,
+ "title_ko": "고생과 수고가 다 지난 후",
+ "title_en": "When All My Labours and Trials are O'er",
+ "original_title": "O That Will Be Glory (The Glory Song)",
+ "theme": "장례",
+ "key_table": "G",
+ "time_table": "6/4",
+ "composer": "찰스 H. 가브리엘 (Charles Hutchinson Gabriel)",
+ "lyricist": "찰스 H. 가브리엘 (Charles Hutchinson Gabriel) · 1856~1932",
+ "credit_line_in_file": {
+  "composer": "C.H.Gabriel",
+  "lyricist": "C.H.Gabriel"
+ },
+ "year": 1900,
+ "meter": "10.10.10.10 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1900, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1932; work dated 1900"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "610장 고생과 수고가 다 지난 후.mscz",
+   "sha256": "0f55669e5963d00df2e483878b74b2625cc5b16c0e0a47cafb77138ba1dd0f76",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

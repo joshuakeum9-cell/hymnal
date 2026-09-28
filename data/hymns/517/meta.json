@@ -1,0 +1,46 @@
+{
+ "number": 517,
+ "old_number": "",
+ "title_ko": "가난한 자 돌봐주며",
+ "title_en": "Oh, God's Spirit is Upon Us",
+ "original_title": "",
+ "theme": "전도와교훈",
+ "key_table": "Em",
+ "time_table": "6/8",
+ "composer": "김국진 (김국진)",
+ "lyricist": "오영세 (오영세)",
+ "credit_line_in_file": {
+  "composer": "김국진",
+  "lyricist": "오만세"
+ },
+ "year": 1989,
+ "meter": "8.8.8.8.8.8.8.5",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "517장 가난한 자 돌봐주며.mscz",
+   "sha256": "67e05a7b7d42914f6e2481fcd853346719d192b98c5113839743005d73dbee79",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

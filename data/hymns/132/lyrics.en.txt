@@ -1,0 +1,10 @@
+# 132 Praise the Lord, His Glories Show
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, auto, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Praise the Lord, His glo- ries _ show, Al- _ _ le- _ lu- ia! Saints with- in His courts be- _ low, Al- _ _ le- _ lu- ia! An- gels round His throne _ a- _ bove, Al- _ _ le- lu- ia! All that see and share His _ love, Al- _ _ le- _ lu- ia! _ _
+v2: Earth to hea- ven, and hea- _ ven to _ earth, Al- le- lu- ia! Tell His won- ders, sing His _ worth, Al- _ _ le- _ lu- ia! Age to age and shore _ to _ shore, Al- _ _ le- lu- ia! Praise Him, praise Him ev- er- _ more! Al- _ _ le- _ lu- ia! _ _
+v3: Praise the Lord, His mer- cies _ trace, Al- _ _ le- _ lu- ia! Praise His prov- i- dence and _ grace, Al- _ _ le- _ lu- ia! All that He for man _ has _ done, Al- _ _ le- lu- ia! All He sends us through His _ Son. Al- _ _ le- _ lu- ia! A- men.

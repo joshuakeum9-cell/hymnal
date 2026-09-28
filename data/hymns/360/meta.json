@@ -1,0 +1,46 @@
+{
+ "number": 360,
+ "old_number": 402,
+ "title_ko": "행군 나팔 소리에",
+ "title_en": "Bugle Calls are Ringing Out",
+ "original_title": "Wear a Crown (Bugle Calls Are Ringing Out)",
+ "theme": "분투와승리",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "D. B. 타우너 (Daniel B. Towner)",
+ "lyricist": "B. 웹스터 (Benjamin Webster)",
+ "credit_line_in_file": {
+  "composer": "D.B.Towner",
+  "lyricist": "H.Waters"
+ },
+ "year": 1905,
+ "meter": "7.7.7.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1919; work dated 1905"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1905, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "360장 행군 나팔 소리에.mscz",
+   "sha256": "a39c303ed6d2de4dce1ee2ef743d72f429633517a63fc744459481bbfdd608b5",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

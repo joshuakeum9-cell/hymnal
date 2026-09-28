@@ -1,0 +1,46 @@
+{
+ "number": 322,
+ "old_number": 357,
+ "title_ko": "세상의 헛된 신을 버리고",
+ "title_en": "Gather Us In, Thou Love",
+ "original_title": "Cast Idols Away",
+ "theme": "소명과충성",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "E. 디얼 (Edward Dearle)",
+ "lyricist": "조지 마테슨 (George Matheson) · 1842~1906",
+ "credit_line_in_file": {
+  "composer": "E.Dearle",
+  "lyricist": "G.Matheson"
+ },
+ "year": 1874,
+ "meter": "10.10.10.10",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1891; work dated 1874"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1906; work dated 1874"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "322장 세상의 헛된 신을 버리고.mscz",
+   "sha256": "5312348a676e3964ca228002c3cee5ce05038e83b9ba3ba1d67f9fa6a580bdac",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

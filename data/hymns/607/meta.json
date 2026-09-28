@@ -1,0 +1,46 @@
+{
+ "number": 607,
+ "old_number": 292,
+ "title_ko": "내 본향 가는 길",
+ "title_en": "The Blessed Land",
+ "original_title": "The Blessed Land",
+ "theme": "장례",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "Anonymous",
+ "lyricist": "A.N.Blatchford",
+ "credit_line_in_file": {
+  "composer": "Anonymous",
+  "lyricist": "A.N.Blatchford"
+ },
+ "year": 1935,
+ "meter": "10.10.12.10",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "work dated 1935, may still be in copyright"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "work dated 1935, may still be in copyright"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "607장 내 본향 가는 길.mscz",
+   "sha256": "9c81408ebf1be692ba641a6ada96c21defc0579ae0dafbf63d3854f554c9d315",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

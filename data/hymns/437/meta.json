@@ -1,0 +1,46 @@
+{
+ "number": 437,
+ "old_number": "",
+ "title_ko": "하늘 보좌 떠나서",
+ "title_en": "Leaving Heav'n's Throne, Down He Came",
+ "original_title": "Leaving the Heavenly Throne (Korean original)",
+ "theme": "주와동행",
+ "key_table": "G",
+ "time_table": "3/4",
+ "composer": "박종환 (Park Jong-hwan)",
+ "lyricist": "박정수 (Park Jeong-soo)",
+ "credit_line_in_file": {
+  "composer": "백경환",
+  "lyricist": "박명수"
+ },
+ "year": 2000,
+ "meter": "Irregular",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "437장 하늘 보좌 떠나서.mscz",
+   "sha256": "4b83a44cc6567f8a847e57ae8ee2a774b3981c1c9a03a1f142a904dd53bba7cf",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

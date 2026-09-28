@@ -1,0 +1,46 @@
+{
+ "number": 59,
+ "old_number": 68,
+ "title_ko": "하나님 아버지 어둔 밤이 지나",
+ "title_en": "Father, We Praise Thee, Now the Night is Over",
+ "original_title": "O Father, the Dark Night is Past (Christe Sanctorum)",
+ "theme": "아침과저녁",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "프랑스 교회 멜로디(라 파이예) (French Church Melody (La Feillèe))",
+ "lyricist": "교황 그레고리우스 1세(추정) (Gregory the Great (attrib.)) · 540~604",
+ "credit_line_in_file": {
+  "composer": "French Church Melody",
+  "lyricist": "Gregory the Great"
+ },
+ "year": 1782,
+ "meter": "12.11.13.6",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 프랑스 교회 멜로디(라 파이예) (French Church Melody (La Feillèe))"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1782, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "59장 하나님 아버지 어둔 밤이 지나.mscz",
+   "sha256": "6d80202517addd9e2d294a8e6e2bb6bbc86950b37891add283c02dd5a366dd8f",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

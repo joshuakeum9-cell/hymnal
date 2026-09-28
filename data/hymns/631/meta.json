@@ -1,0 +1,46 @@
+{
+ "number": 631,
+ "old_number": 547,
+ "title_ko": "우리 기도를",
+ "title_en": "Hear Our Prayer, O Lord",
+ "original_title": "Hear Our Prayer, O Lord",
+ "theme": "기도송",
+ "key_table": "D",
+ "time_table": "4/4",
+ "composer": "조지 웰프턴 (George Whelpton)",
+ "lyricist": "G.Whelpton",
+ "credit_line_in_file": {
+  "composer": "G.Whelpton",
+  "lyricist": "G.Whelpton"
+ },
+ "year": 1897,
+ "meter": "IRREG.",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1930; work dated 1897"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1897, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "631장 우리 기도를.mscz",
+   "sha256": "a49ef40181255d63971028d09f0293aafc5aeaddc4dbca4bd42978d5ae3e51e7",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

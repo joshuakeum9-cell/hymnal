@@ -1,0 +1,46 @@
+{
+ "number": 633,
+ "old_number": "",
+ "title_ko": "나의 하나님 받으소서",
+ "title_en": "Take These Gifts",
+ "original_title": "",
+ "theme": "헌금응답송",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "김성훈 (김성훈)",
+ "lyricist": "김성훈 (김성훈)",
+ "credit_line_in_file": {
+  "composer": "김성훈",
+  "lyricist": "김성훈"
+ },
+ "year": 2002,
+ "meter": "IRREG.",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "633장 나의 하나님 받으소서.mscz",
+   "sha256": "93a95f8785eb5eec0358d1cf4171beaa371d4cea5a98b809b27b17dd0689187d",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

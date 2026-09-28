@@ -1,0 +1,46 @@
+{
+ "number": 554,
+ "old_number": 297,
+ "title_ko": "종소리 크게 울려라",
+ "title_en": "Ring Out the Old, Ring in the New",
+ "original_title": "Ring Out, Wild Bells",
+ "theme": "새해송구영신)",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "존 B. 칼킨 (John Baptiste Calkin)",
+ "lyricist": "앨프리드 테니슨 (Alfred, Lord Tennyson) · 1809~1892",
+ "credit_line_in_file": {
+  "composer": "J.B.Calkin",
+  "lyricist": "A.Tennyson"
+ },
+ "year": 1872,
+ "meter": "8.8.8.8 (LM)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1905; work dated 1872"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1892; work dated 1872"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "554장 종소리 크게 울려라.mscz",
+   "sha256": "ae843d513fae83e290656f5d397cfa272b48401c05b7c4e9a67b284d731cbb12",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

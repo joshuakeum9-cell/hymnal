@@ -1,0 +1,46 @@
+{
+ "number": 431,
+ "old_number": "",
+ "title_ko": "주 안에 기쁨 있네",
+ "title_en": "In the Lord is Joy for Us",
+ "original_title": "In the Lord There Is Joy (Korean original)",
+ "theme": "주와동행",
+ "key_table": "A",
+ "time_table": "3/4",
+ "composer": "박재훈 (Park Jae-hun)",
+ "lyricist": "박상문 (Park Sang-moon)",
+ "credit_line_in_file": {
+  "composer": "백태현",
+  "lyricist": "박성문"
+ },
+ "year": 1998,
+ "meter": "7.5.7.5.D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "431장 주 안에 기쁨 있네.mscz",
+   "sha256": "08370ba3dd63cf74d2f5b501a19eff4234e9d8952a7f532a9f5a4b0de3b4d32a",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

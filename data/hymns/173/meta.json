@@ -1,0 +1,46 @@
+{
+ "number": 173,
+ "old_number": "",
+ "title_ko": "다 함께 찬송 부르자",
+ "title_en": "Let us Sing to the Risen Christ",
+ "original_title": "Let Us All Sing Praises (Korean original)",
+ "theme": "부활",
+ "key_table": "C",
+ "time_table": "2/2",
+ "composer": "이동일 (Lee Dong-il)",
+ "lyricist": "이동일 (Lee Dong-il) · 1943~?",
+ "credit_line_in_file": {
+  "composer": "이동일",
+  "lyricist": "이동일"
+ },
+ "year": 1985,
+ "meter": "irregular",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "173장 다 함께 찬송 부르자.mscz",
+   "sha256": "962187917bb69c97876dc707be5505f9fc6c65711acdcfd7b20707cc4517f35e",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

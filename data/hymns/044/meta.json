@@ -1,0 +1,46 @@
+{
+ "number": 44,
+ "old_number": 56,
+ "title_ko": "지난 이레 동안에",
+ "title_en": "Safely Through Another Week",
+ "original_title": "Safely Through Another Week",
+ "theme": "주일",
+ "key_table": "G",
+ "time_table": "3/4",
+ "composer": "로웰 메이슨 (Lowell Mason)",
+ "lyricist": "존 뉴턴 (John Newton) · 1725~1807",
+ "credit_line_in_file": {
+  "composer": "L.Mason",
+  "lyricist": "J.Newton"
+ },
+ "year": 1824,
+ "meter": "7.7.7.7 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1872; work dated 1824"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1807; work dated 1824"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "44장 지난 이레 동안에.mscz",
+   "sha256": "bf10c3a098af24fd313e62e7caadf9371c9e853a0389de5fa0b8b963e2a8dcf4",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,10 @@
+# 266 O Now I See the Cleansing Wave
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: O now I see the cleans- ing wave! The foun- tain deep and wide Je- sus, my Lord, might- y to save, Points to His wound- ed side. The cleans- ing stream I see! I see! I plunge, and O it cleans- eth me! O praise the Lord! It cleans- eth me! It cleans- eth me yes, cleans- eth me.
+v2: I rise to walk in heav'n own light, A- bove the world and sin, With heart made pure and gar- ments white And Christ en- throned with- in. The cleans- ing stream I see! I see! I plunge, and O it cleans- eth me! O praise the Lord! It cleans- eth me! It cleans- eth me yes, cleans- eth me.
+v3: A- maz- ing grace! 'tis heav'n's own light, To feel the blood ap- plied, And Je- sus, on- ly Je- sus know, My Je- sus cru- ci- fied. The cleans- ing stream I see! I see! I plunge, and O it cleans- eth me! O praise the Lord! It cleans- eth me! It cleans- eth me yes, cleans- eth me.

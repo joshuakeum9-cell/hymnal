@@ -1,0 +1,46 @@
+{
+ "number": 513,
+ "old_number": "",
+ "title_ko": "헛된 욕망 길을 가며",
+ "title_en": "You Who Wonder About on the Earth",
+ "original_title": "",
+ "theme": "전도와교훈",
+ "key_table": "D",
+ "time_table": "4/4",
+ "composer": "게이브리얼 치 (Gabriel Chi)",
+ "lyricist": "게이브리얼 치 (Gabriel Chi)",
+ "credit_line_in_file": {
+  "composer": "Gabriel Chi",
+  "lyricist": "Gabriel Chi"
+ },
+ "year": 1973,
+ "meter": "8.7.8.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "work dated 1973, may still be in copyright"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "work dated 1973, may still be in copyright"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "513장 헛된 욕망 길을 가며.mscz",
+   "sha256": "e1ed51fd42824fcb9d1339bc0f2fedaa85f01ae0b71228af9cd4d3ed1f53bcaa",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

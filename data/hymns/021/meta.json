@@ -1,0 +1,46 @@
+{
+ "number": 21,
+ "old_number": 21,
+ "title_ko": "다 찬양하여라",
+ "title_en": "Praise to the Lord, the Almighty",
+ "original_title": "Praise to the Lord, the Almighty",
+ "theme": "찬양",
+ "key_table": "G",
+ "time_table": "3/4",
+ "composer": "슈트랄준트 찬송가집 (Stralsund Gesangbuch (German Folk Tune))",
+ "lyricist": "요아킴 네안더 (Joachim Neander) · 1650~1680",
+ "credit_line_in_file": {
+  "composer": "Stralsund Gesangbuch",
+  "lyricist": "J.Neander"
+ },
+ "year": 1665,
+ "meter": "14.14.4.7.8",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 슈트랄준트 찬송가집 (Stralsund Gesangbuch (German Folk Tune))"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1680; work dated 1665"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "21장 다 찬양하여라.mscz",
+   "sha256": "b238fe4de68798271a667d5db80d768c931f2b0d780273b624bab6e914c2284e",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

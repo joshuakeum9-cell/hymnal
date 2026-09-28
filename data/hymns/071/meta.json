@@ -1,0 +1,46 @@
+{
+ "number": 71,
+ "old_number": 438,
+ "title_ko": "예부터 도움 되시고",
+ "title_en": "O God, Our Help in Ages Past",
+ "original_title": "O God, Our Help in Ages Past",
+ "theme": "창조주",
+ "key_table": "C",
+ "time_table": "4/4",
+ "composer": "윌리엄 크로프트 (William Croft)",
+ "lyricist": "아이작 와츠 (Isaac Watts) · 1674~1748",
+ "credit_line_in_file": {
+  "composer": "W.Croft",
+  "lyricist": "I.Watts"
+ },
+ "year": 1708,
+ "meter": "8.6.8.6 (CM)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1727; work dated 1708"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1748; work dated 1708"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "71장 예부터 도움 되시고.mscz",
+   "sha256": "1e3176a42374c6ded08e9300bda16d47119effe9ddc9971cfba2fe4c56cdf5fa",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

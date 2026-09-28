@@ -1,0 +1,46 @@
+{
+ "number": 242,
+ "old_number": 233,
+ "title_ko": "황무지가 장미꽃같이",
+ "title_en": "We Shall See The Desert As The Rose",
+ "original_title": "Walking in the King's Highway",
+ "theme": "천국",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "플로렌스 호턴 (Florence Horton)",
+ "lyricist": "플로렌스 호턴 (Florence Horton)",
+ "credit_line_in_file": {
+  "composer": "F.Horton",
+  "lyricist": "F.Horton"
+ },
+ "year": 1906,
+ "meter": "9.7.9.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1906, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1906, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "242장 황무지가 장미꽃같이.mscz",
+   "sha256": "1ac92da1c3cc0dbb08de0f3ec9b96392159e34fa6a76f6674bb3f516e352ca46",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

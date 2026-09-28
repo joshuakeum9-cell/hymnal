@@ -1,0 +1,46 @@
+{
+ "number": 298,
+ "old_number": 35,
+ "title_ko": "속죄하신 구세주를",
+ "title_en": "I Will Sing of My Redeemer",
+ "original_title": "I Will Sing of My Redeemer",
+ "theme": "은혜와사랑",
+ "key_table": "Ab",
+ "time_table": "9/8",
+ "composer": "제임스 맥그래너핸 (James McGranahan)",
+ "lyricist": "필립 폴 블리스 (Philip Paul Bliss) · 1838~1876",
+ "credit_line_in_file": {
+  "composer": "J.McGranahan",
+  "lyricist": "P.P.Bliss"
+ },
+ "year": 1877,
+ "meter": "8.7.8.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1907; work dated 1877"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1876; work dated 1877"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "298장 속죄하신 구세주를.mscz",
+   "sha256": "73cc9d5e70434e3f0b259467e946ce0af3c430fd704ec1511398efb1db6adf7d",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

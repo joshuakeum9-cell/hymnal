@@ -1,0 +1,46 @@
+{
+ "number": 304,
+ "old_number": 404,
+ "title_ko": "그 크신 하나님의 사랑",
+ "title_en": "The Love of God is Greater Far",
+ "original_title": "The Love of God",
+ "theme": "은혜와사랑",
+ "key_table": "D",
+ "time_table": "3/4",
+ "composer": "F. M. 레만·C. L. 메이즈 (Frederick M. Lehman & Claudia Lehman Mays)",
+ "lyricist": "F. M. 레만 (Frederick M. Lehman) · 1868~1953",
+ "credit_line_in_file": {
+  "composer": "F.M.Lehman",
+  "lyricist": "F.M.Lehman"
+ },
+ "year": 1917,
+ "meter": "Irregular",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1953; work dated 1917"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1953; work dated 1917"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "304장 그 크신 하나님의 사랑.mscz",
+   "sha256": "5af45ebc25a6ebe76f44ff6d145651f6f4502249c02e413c844c42888612fca4",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

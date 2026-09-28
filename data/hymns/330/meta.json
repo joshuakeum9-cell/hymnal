@@ -1,0 +1,46 @@
+{
+ "number": 330,
+ "old_number": 370,
+ "title_ko": "어둔 밤 쉬되리니",
+ "title_en": "Work, for the Night is Coming",
+ "original_title": "Work, for the Night Is Coming",
+ "theme": "소명과충성",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "로웰 메이슨 (Lowell Mason)",
+ "lyricist": "A. L. 코그힐 (Anna L. Coghill) · 1836~1907",
+ "credit_line_in_file": {
+  "composer": "L.Mason",
+  "lyricist": "A.L.Coghill"
+ },
+ "year": 1864,
+ "meter": "7.6.7.5.D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1872; work dated 1864"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1907; work dated 1864"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "330장 어둔 밤 쉬되리니.mscz",
+   "sha256": "52857239c1877d68cfe4583cd557b9602ddc820e91ea16d9b40bffb5f446594e",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

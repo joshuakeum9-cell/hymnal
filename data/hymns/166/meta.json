@@ -1,0 +1,46 @@
+{
+ "number": 166,
+ "old_number": 156,
+ "title_ko": "싸움은 모두 끝나고",
+ "title_en": "The Strife is O'er, the Battle Done",
+ "original_title": "The Strife Is O'er (Finita iam sunt proelia)",
+ "theme": "부활",
+ "key_table": "D",
+ "time_table": "3/4",
+ "composer": "G. P. 다 팔레스트리나 / W. H. 멍크 편곡 (G. P. da Palestrina, adapt. W. H. Monk)",
+ "lyricist": "미상 (1695 라틴어) / 프랜시스 포트 영역 (Anonymous Latin (1695), tr. Francis Pott) · 1832~1909",
+ "credit_line_in_file": {
+  "composer": "G.P.da Palestrina/W.H.Monk",
+  "lyricist": "Latin Hymn"
+ },
+ "year": 1591,
+ "meter": "8.8.8.4 with Alleluias",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1889; work dated 1591"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 미상 (1695 라틴어) / 프랜시스 포트 영역 (Anonymous Latin (1695), tr. Francis Pott) · 1832~1909"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "166장 싸움은 모두 끝나고.mscz",
+   "sha256": "3505c1e25f93cd7d1b3e5c14d3ad1a7c98b5d9e003c195b6ff4c86383f215ca9",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

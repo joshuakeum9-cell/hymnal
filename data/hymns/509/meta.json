@@ -1,0 +1,46 @@
+{
+ "number": 509,
+ "old_number": 314,
+ "title_ko": "기쁜 일이 있어 천국 종 치네",
+ "title_en": "Ring the Bells of Heaven",
+ "original_title": "Ring the Bells of Heaven",
+ "theme": "세계선교",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "조지 F. 루트 (George Frederick Root)",
+ "lyricist": "윌리엄 O. 쿠싱 (William Orcutt Cushing) · 1823~1902",
+ "credit_line_in_file": {
+  "composer": "G.F.Root",
+  "lyricist": "W.O.Cushing"
+ },
+ "year": 1875,
+ "meter": "11.9.11.9 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1895; work dated 1875"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1902; work dated 1875"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "509장 기쁜 일이 있어 천국 종 치네.mscz",
+   "sha256": "54793c8498c40130b0b0bcc0003699b69475d93158275dde092c5420f536d465",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

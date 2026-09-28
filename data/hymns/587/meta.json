@@ -1,0 +1,46 @@
+{
+ "number": 587,
+ "old_number": 306,
+ "title_ko": "감사하는 성도여",
+ "title_en": "Come, Ye Thankful People, Come",
+ "original_title": "Come, Ye Thankful People, Come",
+ "theme": "감사절",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "조지 J. 엘비 (George Job Elvey)",
+ "lyricist": "헨리 앨퍼드 (Henry Alford) · 1810~1871",
+ "credit_line_in_file": {
+  "composer": "G.J.Elvey",
+  "lyricist": "H.Alford"
+ },
+ "year": 1858,
+ "meter": "7.7.7.7 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1893; work dated 1858"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1871; work dated 1858"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "587장 감사하는 성도여.mscz",
+   "sha256": "b6cce2c4ed8a0ecc9154d2179d0fd0b135954097624d2bcca1e9c9ed6d18713b",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

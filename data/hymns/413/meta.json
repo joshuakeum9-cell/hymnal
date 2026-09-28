@@ -1,0 +1,46 @@
+{
+ "number": 413,
+ "old_number": 470,
+ "title_ko": "내 평생에 가는 길",
+ "title_en": "When Peace, Like a River, Attendeth My Way",
+ "original_title": "It Is Well with My Soul",
+ "theme": "평안과위로",
+ "key_table": "Db",
+ "time_table": "4/4",
+ "composer": "필립 폴 블리스 (Philip Paul Bliss)",
+ "lyricist": "호라티오 스패포드 (Horatio Gates Spafford) · 1828~1888",
+ "credit_line_in_file": {
+  "composer": "P.P.Bliss",
+  "lyricist": "H.G.Spafford"
+ },
+ "year": 1876,
+ "meter": "11.8.11.9 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1876; work dated 1876"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1888; work dated 1876"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "413장 내 평생에 가는 길.mscz",
+   "sha256": "83a85349917a48b29b742c90d914967bfbd50421ae2a5b062f147a2744ccacf8",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

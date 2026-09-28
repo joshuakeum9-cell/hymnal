@@ -1,0 +1,46 @@
+{
+ "number": 264,
+ "old_number": 198,
+ "title_ko": "정결하게 하는 샘이",
+ "title_en": "When I Saw the Cleansing Fountain",
+ "original_title": "I Will Praise Him (When I Saw the Cleansing Fountain)",
+ "theme": "회개와용서",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "마거릿 젠킨스 해리스 (Margaret Jenkins Harris)",
+ "lyricist": "마거릿 젠킨스 해리스 (Margaret Jenkins Harris) · 1865~1919",
+ "credit_line_in_file": {
+  "composer": "M.J.Harris",
+  "lyricist": "M.J.Harris"
+ },
+ "year": 1898,
+ "meter": "8.7.8.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1919; work dated 1898"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1919; work dated 1898"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "264장 정결하게 하는 샘이.mscz",
+   "sha256": "b48987beb8868bf34ff860ed399f4b4842786d4d014d08700511f4d509e33f2d",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

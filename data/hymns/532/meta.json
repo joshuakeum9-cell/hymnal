@@ -1,0 +1,46 @@
+{
+ "number": 532,
+ "old_number": 323,
+ "title_ko": "주께로 한 걸음씩",
+ "title_en": "Only a Step to Jesus",
+ "original_title": "Only a Step to Jesus",
+ "theme": "부르심과영접",
+ "key_table": "Ab",
+ "time_table": "6/8",
+ "composer": "윌리엄 H. 도언 (William Howard Doane)",
+ "lyricist": "패니 J. 크로스비 (Fanny J. Crosby) · 1820~1915",
+ "credit_line_in_file": {
+  "composer": "W.H.Doane",
+  "lyricist": "F.J.Corsby"
+ },
+ "year": 1873,
+ "meter": "7.6.7.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1873, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1873"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "532장 주께로 한 걸음씩.mscz",
+   "sha256": "ad4f136ebd2226efa56af43ba192d40b6b3fcb41ab44f27b69378c9ed858ed2e",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

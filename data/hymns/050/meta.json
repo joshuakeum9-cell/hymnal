@@ -1,0 +1,46 @@
+{
+ "number": 50,
+ "old_number": 71,
+ "title_ko": "내게 있는 모든 것을",
+ "title_en": "All to Jesus I Surrender",
+ "original_title": "All to Jesus I Surrender",
+ "theme": "봉헌",
+ "key_table": "D",
+ "time_table": "4/4",
+ "composer": "윈필드 S. 위든 (Winfield S. Weeden)",
+ "lyricist": "저드슨 W. 밴드벤터 (Judson W. Van DeVenter) · 1855~1939",
+ "credit_line_in_file": {
+  "composer": "W.S.Weeden",
+  "lyricist": "J.W.Van Deventer"
+ },
+ "year": 1896,
+ "meter": "8.7.8.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1908; work dated 1896"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1939; work dated 1896"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "50장 내게 있는 모든 것을.mscz",
+   "sha256": "5d86effe93f7665634c44f52e1083d4a1a335157de9cc7ab5d8e3c5b370d65e3",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,10 @@
+# 151 Alas! and Did my Savior Bleed
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: A- las! and did my Sav- _ iour bleed, And did my Sov- -'reign die Would He de- vote that sa- cred head For such a worm as I At the Cross, at the Cross, where I first saw the light, And the bur- den of my heart rolled a- way It was there by faith I re- ceived my _ sight, And now I an hap- py all the day!
+v2: Was it for crimes that I have done, He groaned up- on the tree A- maz- ing pit- y, grace un- known, And love be- yond de- gree! At the Cross, at _ the Cross, where I first saw the light, And the bur- den of my heart rolled a- way It was there by faith I re- ceived my _ sight, And now I an hap- py all the day!
+v3: No tears of gried can e'er re- pay The debt of love I owe. Here, Lord, I give my- self a- way 'Tis all that I can do! At the Cross, at _ the Cross, where I first saw the light, And the bur- den of my heart rolled a- way It was there by faith I re- ceived my _ sight, And now I an hap- py all the day!

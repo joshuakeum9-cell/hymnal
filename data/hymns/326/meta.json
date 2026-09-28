@@ -1,0 +1,46 @@
+{
+ "number": 326,
+ "old_number": 368,
+ "title_ko": "내 죄를 회개하고",
+ "title_en": "Serving the Lord",
+ "original_title": "Serving the Lord",
+ "theme": "소명과충성",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "미국 청년 부흥송 (작자 미상, 19세기 말) (Songs for Young People (anonymous, late 19th C))",
+ "lyricist": "소안련 (W. L. 스왈른) (William L. Swallen) · 1859~1954",
+ "credit_line_in_file": {
+  "composer": "J.H.Rosecrans",
+  "lyricist": "W.L.Swallen"
+ },
+ "year": 1905,
+ "meter": "7.6.7.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 미국 청년 부흥송 (작자 미상, 19세기 말) (Songs for Young People (anonymous, late 19th C))"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1954; work dated 1905"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "326장 내 죄를 회개하고.mscz",
+   "sha256": "98a821e42faddbcc046b80c32c0f4f5becbc5d8ef4b977db64cae71c32e20bb4",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 204,
+ "old_number": 379,
+ "title_ko": "주의 말씀 듣고서",
+ "title_en": "Those Who Hear and Do The Word",
+ "original_title": "More to Follow",
+ "theme": "성경",
+ "key_table": "Eb",
+ "time_table": "6/8",
+ "composer": "필립 폴 블리스 (Philip Paul Bliss)",
+ "lyricist": "민로아 (프레더릭 S. 밀러) (Frederick S. Miller (민로아)) · 1866~1937",
+ "credit_line_in_file": {
+  "composer": "P.P.Bliss",
+  "lyricist": "F.S.Miller"
+ },
+ "year": 1875,
+ "meter": "7.6.7.6.D with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1876; work dated 1875"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1937; work dated 1875"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "204장 주의 말씀 듣고서.mscz",
+   "sha256": "e499fe821de4d21e72c1971837cf77982d98dad33c012eda9f4edfbfb4a37ab0",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

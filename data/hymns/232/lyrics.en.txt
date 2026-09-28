@@ -1,0 +1,13 @@
+# 232 Twas On That Night When Doomed To Know
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, exact, exact, exact, auto, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: 'Twas on that night when _ doomed to know The ea- ger spite of ev- -'ry foe, That night in which He was _ be- _ trayed, The sav- iour of the world took bread. _ _
+v2: And, af- ter thanks and _ glo- ry giv'n To Him that rules in earth and heav'n, That Sym- bol of His flesh _ He _ broke, And thus to all his fol- l'wers spoke. _ _
+v3: "My bro- ken bod- y _ thus I give For you, for all, Take, eat, and live. And oft the sa- cred rite _ re- _ new That brings my sav- ing love to view." _ _
+v4: Then in His hands the _ cup He raised, And God a- new He thanked and praised, While kind- ness in His bos- _ om _ glowed, And from His lips sal- va- tion flowed. _ _
+v5: "My blood I thus pour _ forth," He cries, "To cleanse the soul in sin that lies In this the cov- e- nant _ is _ sealed, And _ heav'n's eter- nal grace re- vealed." _ _
+v6: "With love to man this _ cup is fraught Let all par- take the sa- cred draught Through lat- est a- ges let _ it _ pour, In mem- ory of my dy- ing hour." A- men.

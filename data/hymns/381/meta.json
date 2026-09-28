@@ -1,0 +1,46 @@
+{
+ "number": 381,
+ "old_number": 425,
+ "title_ko": "나 캄캄한 밤 죄의 길에",
+ "title_en": "I Wandered in the Shades",
+ "original_title": "Sunlight in My Soul",
+ "theme": "인도와보호",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "W. S. 위든 (Winfield S. Weeden)",
+ "lyricist": "J. W. 밴드벤터 (John W. Van Deventer) · 1855~1939",
+ "credit_line_in_file": {
+  "composer": "W.S.Weeden",
+  "lyricist": "J.W.Van DeVenter"
+ },
+ "year": 1896,
+ "meter": "9.5.8.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1908; work dated 1896"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1939; work dated 1896"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "381장 나 캄캄한 밤 죄의 길에.mscz",
+   "sha256": "b9e060df1e457fd1761f2289741f19f5bff4c84ffd5825562dc01ace50fa487d",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 400,
+ "old_number": 463,
+ "title_ko": "험한 시험 물 속에서",
+ "title_en": "Jesus, Hide Me in Thy Power",
+ "original_title": "Jesus, Hide Me",
+ "theme": "인도와보호",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "C. 피셔 (C. Fisher)",
+ "lyricist": "F. 우드로 (F. Woodrow)",
+ "credit_line_in_file": {
+  "composer": "C.Fisher",
+  "lyricist": "F.Woodrow"
+ },
+ "year": null,
+ "meter": "8.7.8.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "unknown",
+   "basis": "no dates found; check the printed credit line"
+  },
+  "text_en": {
+   "status": "unknown",
+   "basis": "no dates found; check the printed credit line"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "400장 험한 시험 물 속에서.mscz",
+   "sha256": "96f4839c491b4b5f851afe7fae8cebd2c35b48cb5ddf645f4d185a14a15e802e",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

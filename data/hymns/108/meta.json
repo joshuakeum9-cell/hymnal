@@ -1,0 +1,46 @@
+{
+ "number": 108,
+ "old_number": 113,
+ "title_ko": "그 어린 주예수",
+ "title_en": "Away in a Manger",
+ "original_title": "Away in a Manger",
+ "theme": "성탄",
+ "key_table": "Ab",
+ "time_table": "3/4",
+ "composer": "조너선 스필먼 / C. H. 가브리엘 편곡 (Jonathan E. Spilman, arr. C. H. Gabriel)",
+ "lyricist": "미상 (Little Children's Book 1885) / 3절 J. T. 맥팔런드 (Anonymous (Little Children's Book, 1885); st. 3 J. T. McFarland) · 1851~1913",
+ "credit_line_in_file": {
+  "composer": "J.E.Spilman/C.H.Gabriel",
+  "lyricist": "1-2.Anonymous/3.J.T.McFarland"
+ },
+ "year": 1837,
+ "meter": "11.11.11.11",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1896; work dated 1837"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 미상 (Little Children's Book 1885) / 3절 J. T. 맥팔런드 (Anonymous (Little Children's Book, 1885); st. 3 J. T. McFarland) · 1851~1913"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "108장 그 어린 주예수.mscz",
+   "sha256": "6398129968290aad5dd2864e816adb90340537de65b30e7c069692856cfdd1f4",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

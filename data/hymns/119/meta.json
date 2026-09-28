@@ -1,0 +1,46 @@
+{
+ "number": 119,
+ "old_number": 119,
+ "title_ko": "옛날 임금 다윗성에",
+ "title_en": "Once in Royal David's City",
+ "original_title": "Once in Royal David's City",
+ "theme": "성탄",
+ "key_table": "D",
+ "time_table": "4/2",
+ "composer": "손성우 (한국 WELCOME 곡) (Son Sung-woo (Korean, WELCOME tune))",
+ "lyricist": "세실 프랜시스 알렉산더 (Cecil Frances Humphreys Alexander) · 1818~1895",
+ "credit_line_in_file": {
+  "composer": "Anonymous",
+  "lyricist": "C.F.H.Alexander"
+ },
+ "year": 1985,
+ "meter": "irregular",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "work dated 1985, may still be in copyright"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "119장 옛날 임금 다윗성에.mscz",
+   "sha256": "6b29e6672d718eb91cce907c1e53c9572c1ce03bc0df1bff77641f9b987f874b",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

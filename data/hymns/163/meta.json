@@ -1,0 +1,46 @@
+{
+ "number": 163,
+ "old_number": 160,
+ "title_ko": "할렐루야 할렐루야",
+ "title_en": "O Sons and Daughters, Let Us Sing",
+ "original_title": "O Sons and Daughters, Let Us Sing (O Filii et Filiae)",
+ "theme": "부활",
+ "key_table": "Gm",
+ "time_table": "6/4",
+ "composer": "프랑스 전통 (15세기) (Traditional French Melody (15th C.))",
+ "lyricist": "장 티스랑 / J. M. 닐 영역 (Jean Tisserand, tr. John Mason Neale) · 1430~1494",
+ "credit_line_in_file": {
+  "composer": "French Melody",
+  "lyricist": "J.Tisserand"
+ },
+ "year": 1490,
+ "meter": "8.8.8 with Alleluias",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 프랑스 전통 (15세기) (Traditional French Melody (15th C.))"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1866; work dated 1490"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "163장 할렐루야 할렐루야.mscz",
+   "sha256": "a6d507c3fe7e637dc1ba77f718a594f21edbaa9a33aa83b73d9b45bb01da16cd",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

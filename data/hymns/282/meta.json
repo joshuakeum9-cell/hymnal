@@ -1,0 +1,46 @@
+{
+ "number": 282,
+ "old_number": 339,
+ "title_ko": "큰 죄에 빠진 날 위해",
+ "title_en": "Just as I am, Without One Plea",
+ "original_title": "Just As I Am, Without One Plea",
+ "theme": "회개와용서",
+ "key_table": "D",
+ "time_table": "3/4",
+ "composer": "윌리엄 배철더 브래드버리 (William Batchelder Bradbury)",
+ "lyricist": "샬럿 엘리엇 (Charlotte Elliott) · 1789~1871",
+ "credit_line_in_file": {
+  "composer": "W.B.Bradbury",
+  "lyricist": "C.Elliott"
+ },
+ "year": 1849,
+ "meter": "8.8.8.8 (L.M.)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1868; work dated 1849"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1871; work dated 1849"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "282장 큰 죄에 빠진 날 위해.mscz",
+   "sha256": "a9165273c31ee78f7c0eafdadd77fea2c6e8def0023deb0011564e899a79ad81",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

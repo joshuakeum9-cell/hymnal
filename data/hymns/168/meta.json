@@ -1,0 +1,46 @@
+{
+ "number": 168,
+ "old_number": 158,
+ "title_ko": "하늘에 찬송이 들리던 그날",
+ "title_en": "One Day When Heaven Was Filled with His Praises",
+ "original_title": "One Day! (When Heaven Was Filled with His Praises)",
+ "theme": "부활",
+ "key_table": "Db",
+ "time_table": "9/4",
+ "composer": "찰스 H. 마쉬 (Charles H. Marsh)",
+ "lyricist": "J. 윌버 채프먼 (J. Wilbur Chapman) · 1859~1918",
+ "credit_line_in_file": {
+  "composer": "C.H.Marsh",
+  "lyricist": "J.W.Chapman"
+ },
+ "year": 1910,
+ "meter": "11.10.11.10 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1956; work dated 1910"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1918; work dated 1910"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "168장 하늘에 찬송이 들리던 그날.mscz",
+   "sha256": "c633069b5890e94b132040e3ae73adb51ea9512bb8fcb90992cba003f1871d4b",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 402,
+ "old_number": "",
+ "title_ko": "나의 반석 나의 방패",
+ "title_en": "Sing of My Rock",
+ "original_title": "My Rock, My Shield (시 18편 운문)",
+ "theme": "인도와보호",
+ "key_table": "Eb",
+ "time_table": "6/8",
+ "composer": "권순호 (Kwon Soon-ho)",
+ "lyricist": "이명직 (Lee Myung-jik) · 1890~1973",
+ "credit_line_in_file": {
+  "composer": "권순호",
+  "lyricist": "이명직"
+ },
+ "year": 1993,
+ "meter": "8.5.8.5.D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "402장 나의 반석 나의 방패.mscz",
+   "sha256": "07e589634a097497cf365f8e7cbdcfa250ccb00300a9c9bd56824f25369be41f",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

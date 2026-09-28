@@ -1,0 +1,46 @@
+{
+ "number": 448,
+ "old_number": "",
+ "title_ko": "주님 가신 길을 따라",
+ "title_en": "I Will Follow Jesus, My Lord",
+ "original_title": "Following the Lord (Korean original)",
+ "theme": "제자의도리",
+ "key_table": "F",
+ "time_table": "3/4",
+ "composer": "한대근 (Han Dae-geun)",
+ "lyricist": "임종학 (Lim Jong-hak)",
+ "credit_line_in_file": {
+  "composer": "한태근",
+  "lyricist": "임종락"
+ },
+ "year": 2000,
+ "meter": "8.8.8.8.D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "448장 주님 가신 길을 따라.mscz",
+   "sha256": "c078fe4e803971ab805fc135ade8c1f2cad22cba31ef501384d026bc8b3d39c4",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

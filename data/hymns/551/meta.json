@@ -1,0 +1,46 @@
+{
+ "number": 551,
+ "old_number": 296,
+ "title_ko": "오늘까지 복과 은혜",
+ "title_en": "At Thy feet, our God and Father",
+ "original_title": "",
+ "theme": "새해송구영신)",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "교회 평성 가곡 시론 (Essay on the Church Plain Chant)",
+ "lyricist": "제임스 D. 번스 (James Drummond Burns) · 1823~1864",
+ "credit_line_in_file": {
+  "composer": "S.Webbe",
+  "lyricist": "J.D.Burns"
+ },
+ "year": 1782,
+ "meter": "8.7.8.7 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 교회 평성 가곡 시론 (Essay on the Church Plain Chant)"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1864; work dated 1782"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "551장 오늘까지 복과 은혜.mscz",
+   "sha256": "bab9440f2146265258281f45fb657390df2fe5a92d3eb0474c532105dfc039e9",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

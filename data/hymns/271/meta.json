@@ -1,0 +1,46 @@
+{
+ "number": 271,
+ "old_number": "",
+ "title_ko": "나와 같은 죄인 위해",
+ "title_en": "For a Wretched Sinner Like Me",
+ "original_title": "",
+ "theme": "회개와용서",
+ "key_table": "Dm",
+ "time_table": "4/4",
+ "composer": "구두회 (구두회)",
+ "lyricist": "박홍배 (박홍배)",
+ "credit_line_in_file": {
+  "composer": "구두희",
+  "lyricist": "박봉배"
+ },
+ "year": 1977,
+ "meter": "8.7.8.7.D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "271장 나와 같은 죄인 위해.mscz",
+   "sha256": "1dba29194fa0d0f9a8517380a83ef8400268b6eb57696e935b33344b66343cc2",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

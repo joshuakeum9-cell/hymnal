@@ -1,0 +1,11 @@
+# 311 I Gave My Life for Thee
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: I gave my life for thee, _ _ My pre- cious blood I shed, That thou might'st ran- somed be, _ _ And quick- ened from _ the dead I gave, I gave _ my life for thee, What hast thou gi- ven for me I gave, I gave _ my life for thee, What hast thou gi- ven for me
+v2: My Fa- ther's house of light, _ _ My glo- ry cir- cled throne I left, for earth- ly night _ _ And wan- de- rings sad and lone I left, I left _ it all for thee, Hast thou left aught _ for me I left, I left _ it all for thee, Hast thou left aught _ for me
+v3: I suf- fered much for thee, _ _ More than thy tongue can tell, Of bit- terest ag- o- ny, _ _ To res- cue thee _ from hell I've borne, I've borne _ it all for thee, What hast thou borne _ for me I've borne, I've borne _ it all for thee, What hast thou borne _ for me
+v4: And I have brought to thee, _ _ Down from My home a- bove, Sal- va- tion full and free, _ _ My par- don and _ My love I bring, I bring _ rich gifts to thee, What hast thou brought _ to me I bring, I bring _ rich gifts to thee, What hast thou brought _ to me

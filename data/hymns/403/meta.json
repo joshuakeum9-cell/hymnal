@@ -1,0 +1,46 @@
+{
+ "number": 403,
+ "old_number": "",
+ "title_ko": "영원하신 주님의",
+ "title_en": "If It Were Not For Your Grace",
+ "original_title": "If Not for the Eternal Lord (Russian source)",
+ "theme": "인도와보호",
+ "key_table": "Dm",
+ "time_table": "4/4",
+ "composer": "미상 (러시아 영적 송가집)",
+ "lyricist": "미상 (러시아 영적 송가집)",
+ "credit_line_in_file": {
+  "composer": "Anonymous",
+  "lyricist": "Anonymous"
+ },
+ "year": 1984,
+ "meter": "Irregular",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 미상 (러시아 영적 송가집)"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 미상 (러시아 영적 송가집)"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "403장 영원하신 주님의.mscz",
+   "sha256": "69c0dbef50058c9d15a7a3821dc4d1ca46c75d68a5f1b065e8f05f65d7eb17dd",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

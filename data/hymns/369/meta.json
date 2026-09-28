@@ -1,0 +1,46 @@
+{
+ "number": 369,
+ "old_number": 487,
+ "title_ko": "죄짐 맡은 우리 구주",
+ "title_en": "What a Friend We Have in Jesus",
+ "original_title": "What a Friend We Have in Jesus",
+ "theme": "기도와간구",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "C. C. 컨버스 (Charles C. Converse)",
+ "lyricist": "J. M. 스크라이븐 (Joseph M. Scriven) · 1819~1886",
+ "credit_line_in_file": {
+  "composer": "C.C.Converse",
+  "lyricist": "J.Scriven"
+ },
+ "year": 1868,
+ "meter": "8.7.8.7.D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1918; work dated 1868"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1886; work dated 1868"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "369장 죄짐 맡은 우리 구주.mscz",
+   "sha256": "3b8fa40e372783961b3bdc232f44246e9c035b5e58ab95703f29bb358c2b7e17",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

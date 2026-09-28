@@ -1,0 +1,13 @@
+# 451 Looking unto Jesus
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: rough (per verse: auto, auto, rough, rough, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Look- ing un- _ to Je- _ sus, Nev- er need we yie- _ _ ld! O- ver all the ar- _ mor, _ Faith the bat- tle shield!
+v2: Stand- ard of _ sal- va- _ tion, In our hearts un- furl- _ _ ed, Let its el- e- va- _ tion _ O- ver- come the world.
+v3: Look a- way _ to Je- _ sus, Look _ a- way from _ _ all! Then we need not stum- _ ble, _ Then we shall not fall.
+v4: Look- ing un- _ to Je- _ sus, Wond'r- _ ing- ly we _ _ trace Heights of pow'r and glo- _ ry, _ Depths of love and grace.
+v5: Look- ing up _ to Je- _ sus, On the em- er- ald _ _ throne, Faith shall pierce the heav- _ ens, _ Where our King is gone.
+v6: Lord, on Thee _ de- pend- _ ing, Now, con- tin- u- al- _ _ ly, Heart and mind as- cend- _ ing, _ Let us dwell with Thee.

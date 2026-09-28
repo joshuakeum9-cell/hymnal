@@ -1,0 +1,46 @@
+{
+ "number": 374,
+ "old_number": 423,
+ "title_ko": "나의 믿음 약할 때",
+ "title_en": "When I Fear My Faith Will Fail",
+ "original_title": "He Will Hold Me Fast",
+ "theme": "인도와보호",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "R. 하크니스 (Robert Harkness)",
+ "lyricist": "A. R. 하버숀 (Ada Ruth Habershon) · 1861~1918",
+ "credit_line_in_file": {
+  "composer": "R.Harkness",
+  "lyricist": "A.R.Haborshon"
+ },
+ "year": 1906,
+ "meter": "7.5.7.5 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1961; work dated 1906"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1918; work dated 1906"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "374장 나의 믿음 약할 때.mscz",
+   "sha256": "5745cd75f4d431eb58fb9abe4a37be8115b2095db6b850c7dbefab330d78a9c8",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 391,
+ "old_number": 446,
+ "title_ko": "오 놀라운 구세주",
+ "title_en": "A wonderful Saviour is Jesus my Lord",
+ "original_title": "He Hideth My Soul",
+ "theme": "인도와보호",
+ "key_table": "D",
+ "time_table": "6/8",
+ "composer": "W. J. 커크패트릭 (William J. Kirkpatrick)",
+ "lyricist": "패니 J. 크로스비 (Fanny J. Crosby) · 1820~1915",
+ "credit_line_in_file": {
+  "composer": "W.J.Kirkpatrick",
+  "lyricist": "F.J.Crosby"
+ },
+ "year": 1890,
+ "meter": "11.8.11.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1890, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1890"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "391장 오 놀라운 구세주.mscz",
+   "sha256": "ec09c925da392c0b9c2ed66d536a00898238a1176cebb585f6c599475f3b8d9a",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

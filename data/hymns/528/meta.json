@@ -1,0 +1,46 @@
+{
+ "number": 528,
+ "old_number": 318,
+ "title_ko": "예수가 우리를 부르는 소리",
+ "title_en": "Softly and Tenderly Jesus is Calling",
+ "original_title": "Softly and Tenderly Jesus Is Calling",
+ "theme": "부르심과영접",
+ "key_table": "Ab",
+ "time_table": "6/8",
+ "composer": "윌 L. 톰슨 (Will Lamartine Thompson)",
+ "lyricist": "윌 L. 톰슨 (Will Lamartine Thompson) · 1847~1909",
+ "credit_line_in_file": {
+  "composer": "W.L.Thompson",
+  "lyricist": "W.L.Thompson"
+ },
+ "year": 1880,
+ "meter": "11.7.11.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1909; work dated 1880"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1909; work dated 1880"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "528장 예수가 우리를 부르는 소리.mscz",
+   "sha256": "37a1dffeed26ba7c3250605b5235dfa9c279549824e6e20669da9bf38c18618c",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

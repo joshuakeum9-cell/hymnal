@@ -1,0 +1,46 @@
+{
+ "number": 562,
+ "old_number": "",
+ "title_ko": "예루살렘 아이들",
+ "title_en": "Children of Jerusalem",
+ "original_title": "Children of Jerusalem",
+ "theme": "어린이",
+ "key_table": "D",
+ "time_table": "2/2",
+ "composer": "커웬 곡집 (Curwen's Tune Book)",
+ "lyricist": "존 헨리 (John Henley) · 1800~1842",
+ "credit_line_in_file": {
+  "composer": "Anonymous",
+  "lyricist": "J.Henley"
+ },
+ "year": 1842,
+ "meter": "7.7.7.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1842, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1842; work dated 1842"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "562장 예루살렘 아이들.mscz",
+   "sha256": "850f88ff7c497b4b0b3f280321b3abfea435a349ad6182aa74daa6372b3fce63",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

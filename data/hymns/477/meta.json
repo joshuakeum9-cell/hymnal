@@ -1,0 +1,46 @@
+{
+ "number": 477,
+ "old_number": "",
+ "title_ko": "하나님이 창조하신",
+ "title_en": "All the Flowers Your Hands Have Made",
+ "original_title": "God's Creation (Korean original)",
+ "theme": "자연과환경",
+ "key_table": "Eb",
+ "time_table": "3/4",
+ "composer": "김순호 (Kim Soon-ho)",
+ "lyricist": "채희동 (Chae Hee-dong) · 1963~2004",
+ "credit_line_in_file": {
+  "composer": "김승호",
+  "lyricist": "채희동"
+ },
+ "year": 2005,
+ "meter": "Irregular",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "477장 하나님이 창조하신.mscz",
+   "sha256": "a69498904cc8a291f89063c6e8b4f436fbb1242c5c3721d63690497ad8b1db87",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

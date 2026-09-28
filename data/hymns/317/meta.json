@@ -1,0 +1,46 @@
+{
+ "number": 317,
+ "old_number": 353,
+ "title_ko": "내 주 예수 주신 은혜",
+ "title_en": "Lord, Take My All",
+ "original_title": "The Offering",
+ "theme": "소명과충성",
+ "key_table": "C",
+ "time_table": "3/4",
+ "composer": "E. O. 엑셀 (Edwin O. Excell)",
+ "lyricist": "J. J. 매클로린 (John J. McLaurin)",
+ "credit_line_in_file": {
+  "composer": "E.O.Excell",
+  "lyricist": "J.J.McLaurin"
+ },
+ "year": 1909,
+ "meter": "12.12.12",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1921; work dated 1909"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1909, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "317장 내 주 예수 주신 은혜.mscz",
+   "sha256": "5972cd49cab1fc10c4a7ce9c7e58d6516089e7e73c73dc791945769242aedf92",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 518,
+ "old_number": 252,
+ "title_ko": "기쁜 소리 들리니",
+ "title_en": "We Have Heard the Joyful Sound",
+ "original_title": "We Have Heard the Joyful Sound (Jesus Saves!)",
+ "theme": "전도와교훈",
+ "key_table": "G",
+ "time_table": "3/4",
+ "composer": "윌리엄 J. 커크패트릭 (William James Kirkpatrick)",
+ "lyricist": "프리실라 J. 오언스 (Priscilla Jane Owens) · 1829~1907",
+ "credit_line_in_file": {
+  "composer": "W.J.Kirkpatrick",
+  "lyricist": "P.J.Owens"
+ },
+ "year": 1882,
+ "meter": "7.7.7.7 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1921; work dated 1882"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1907; work dated 1882"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "518장 기쁜 소리 들리니.mscz",
+   "sha256": "9f83bf69dd8ff47d3e7c1e71da9b2c6dbd88c4ac83c54ce0a741647fe537d807",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

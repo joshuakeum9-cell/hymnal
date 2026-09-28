@@ -1,0 +1,4084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 4.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise version="4.0">
+ <work>
+  <work-number>370</work-number>
+  <work-title>주 안에 있는 나에게</work-title>
+ </work>
+ <identification>
+  <creator type="composer">W.J.Kirkpatrick</creator>
+  <creator type="lyricist">E.E.Hewitt</creator>
+  <rights>Transcription: 깔끔이 CCM (ccm4u.tistory.com), CC BY 4.0. Converted and edited for this project.</rights>
+  <encoding>
+   <software>hymnal tools/convert_mscz.py</software>
+  </encoding>
+ </identification>
+ <defaults/>
+ <part-list>
+  <score-part id="P1">
+   <part-name print-object="no">SATB</part-name>
+  </score-part>
+ </part-list>
+ <part id="P1">
+  <measure number="0" implicit="yes">
+   <attributes>
+    <divisions>96</divisions>
+    <key>
+     <fifths>1</fifths>
+     <mode>major</mode>
+    </key>
+    <time>
+     <beats>6</beats>
+     <beat-type>8</beat-type>
+    </time>
+    <staves>2</staves>
+    <clef number="1">
+     <sign>G</sign>
+     <line>2</line>
+    </clef>
+    <clef number="2">
+     <sign>F</sign>
+     <line>4</line>
+    </clef>
+   </attributes>
+   <sound tempo="84"/>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">1.주</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">2.그</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">3.내</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">4.내</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>48</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>48</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <backup>
+    <duration>48</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <measure number="1">
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">안</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">두</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">주</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">주</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">에</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">려</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">는</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">와</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">있</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">움</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">자</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">맺</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">는</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">이</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">비</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">은</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>2</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>2</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>6</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>2</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>2</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>6</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>2</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <measure number="2">
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">나</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">변</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">하</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">언</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">에</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">하</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">셔</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">약</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">게</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">여</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">서</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">은</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">딴</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">내</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">늘</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">영</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>2</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>2</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>2</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>6</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>2</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>2</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>6</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>2</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <measure number="3">
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">근</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">기</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">함</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">불</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">심</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">도</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">께</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">변</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">있</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">되</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">계</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">하</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">으</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">었</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">시</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">시</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>2</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>2</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>6</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>2</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>2</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>6</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>2</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <measure number="4">
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>144</duration>
+    <tie type="start"/>
+    <voice>1</voice>
+    <type>quarter</type>
+    <dot/>
+    <stem>up</stem>
+    <staff>1</staff>
+    <notations>
+     <tied type="start"/>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">랴</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">고</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">고</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">니</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>96</duration>
+    <tie type="stop"/>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <notations>
+     <tied type="stop"/>
+    </notations>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">십</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">전</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">내</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">그</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>144</duration>
+    <tie type="start"/>
+    <voice>2</voice>
+    <type>quarter</type>
+    <dot/>
+    <stem>down</stem>
+    <staff>1</staff>
+    <notations>
+     <tied type="start"/>
+    </notations>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>96</duration>
+    <tie type="stop"/>
+    <voice>2</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <notations>
+     <tied type="stop"/>
+    </notations>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>F</step>
+     <alter>1</alter>
+     <octave>3</octave>
+    </pitch>
+    <duration>144</duration>
+    <tie type="start"/>
+    <voice>5</voice>
+    <type>quarter</type>
+    <dot/>
+    <stem>up</stem>
+    <staff>2</staff>
+    <notations>
+     <tied type="start"/>
+    </notations>
+   </note>
+   <note>
+    <pitch>
+     <step>F</step>
+     <alter>1</alter>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <tie type="stop"/>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>2</staff>
+    <notations>
+     <tied type="stop"/>
+    </notations>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>144</duration>
+    <tie type="start"/>
+    <voice>6</voice>
+    <type>quarter</type>
+    <dot/>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <tied type="start"/>
+    </notations>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <tie type="stop"/>
+    <voice>6</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <tied type="stop"/>
+    </notations>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <measure number="5">
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">자</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">날</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">궁</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">나</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">가</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">의</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">핍</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">라</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">밑</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">한</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">함</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">가</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">에</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">숨</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">을</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">기</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>2</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>2</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>6</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>2</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>2</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>6</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>2</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <measure number="6">
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">나</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">변</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">아</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">까</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">아</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">하</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">시</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">지</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">가</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">여</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">고</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">는</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">내</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">내</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">늘</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">늘</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>2</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>2</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>2</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>6</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>2</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>2</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>6</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>2</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <measure number="7">
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">짐</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">노</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">채</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">보</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">을</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">래</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">워</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">호</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">풀</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">되</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">주</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">하</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">었</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">었</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">시</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">시</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>C</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>2</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>2</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>F</step>
+     <alter>1</alter>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>C</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>6</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>6</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <measure number="8">
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>288</duration>
+    <voice>1</voice>
+    <type>half</type>
+    <dot/>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">네</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">네</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">네</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">네</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>288</duration>
+    <voice>2</voice>
+    <type>half</type>
+    <dot/>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>288</duration>
+    <voice>5</voice>
+    <type>half</type>
+    <dot/>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>2</octave>
+    </pitch>
+    <duration>288</duration>
+    <voice>6</voice>
+    <type>half</type>
+    <dot/>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <measure number="9">
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">주</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">주</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">주</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">주</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">님</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">님</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">님</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">님</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">을</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">을</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">을</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">을</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">찬</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">찬</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">찬</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">찬</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">송</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">송</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">송</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">송</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>2</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>6</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <measure number="10">
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">하</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">하</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">하</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">하</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">면</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">면</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">면</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">면</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>144</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <dot/>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">서</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">서</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">서</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">서</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>2</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>144</duration>
+    <voice>2</voice>
+    <type>quarter</type>
+    <dot/>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>144</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <dot/>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>6</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>144</duration>
+    <voice>6</voice>
+    <type>quarter</type>
+    <dot/>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <measure number="11">
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">할</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">할</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">할</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">할</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">렐</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">렐</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">렐</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">렐</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">루</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">루</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">루</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">루</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>144</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <dot/>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">야</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">야</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">야</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">야</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>F</step>
+     <alter>1</alter>
+     <octave>4</octave>
+    </pitch>
+    <duration>144</duration>
+    <voice>2</voice>
+    <type>quarter</type>
+    <dot/>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>144</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <dot/>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>144</duration>
+    <voice>6</voice>
+    <type>quarter</type>
+    <dot/>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <measure number="12">
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">할</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">할</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">할</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">할</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">렐</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">렐</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">렐</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">렐</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">루</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">루</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">루</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">루</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>144</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <dot/>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">야</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">야</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">야</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">야</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>F</step>
+     <alter>1</alter>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>F</step>
+     <alter>1</alter>
+     <octave>4</octave>
+    </pitch>
+    <duration>144</duration>
+    <voice>2</voice>
+    <type>quarter</type>
+    <dot/>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>144</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <dot/>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>144</duration>
+    <voice>6</voice>
+    <type>quarter</type>
+    <dot/>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <measure number="13">
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">내</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">내</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">내</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">내</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">앞</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">앞</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">앞</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">앞</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">길</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">길</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">길</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">길</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">멀</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">멀</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">멀</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">멀</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">고</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">고</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">고</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">고</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>2</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>6</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <measure number="14">
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">험</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">험</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">험</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">험</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">해</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">해</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">해</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">해</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">도</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">도</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">도</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">도</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">나</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">나</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">나</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">나</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>2</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>2</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>6</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <voice>6</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>2</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <measure number="15">
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">주</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">주</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">주</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">주</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">님</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">님</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">님</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">님</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">만</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">만</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">만</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">만</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">따</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">따</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">따</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">따</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">라</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">라</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">라</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">라</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">가</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">가</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">가</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">가</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>C</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>F</step>
+     <alter>1</alter>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>C</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>48</duration>
+    <voice>6</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <measure number="16" implicit="no">
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>144</duration>
+    <tie type="start"/>
+    <voice>1</voice>
+    <type>quarter</type>
+    <dot/>
+    <stem>up</stem>
+    <staff>1</staff>
+    <notations>
+     <tied type="start"/>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">리</text>
+    </lyric>
+    <lyric number="3">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">리</text>
+    </lyric>
+    <lyric number="5">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">리</text>
+    </lyric>
+    <lyric number="7">
+     <syllabic>single</syllabic>
+     <text xml:lang="ko">리</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>96</duration>
+    <tie type="stop"/>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <notations>
+     <tied type="stop"/>
+    </notations>
+   </note>
+   <backup>
+    <duration>240</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>144</duration>
+    <tie type="start"/>
+    <voice>2</voice>
+    <type>quarter</type>
+    <dot/>
+    <stem>down</stem>
+    <staff>1</staff>
+    <notations>
+     <tied type="start"/>
+    </notations>
+   </note>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>96</duration>
+    <tie type="stop"/>
+    <voice>2</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <notations>
+     <tied type="stop"/>
+    </notations>
+   </note>
+   <backup>
+    <duration>240</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>144</duration>
+    <tie type="start"/>
+    <voice>5</voice>
+    <type>quarter</type>
+    <dot/>
+    <stem>up</stem>
+    <staff>2</staff>
+    <notations>
+     <tied type="start"/>
+    </notations>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>96</duration>
+    <tie type="stop"/>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>2</staff>
+    <notations>
+     <tied type="stop"/>
+    </notations>
+   </note>
+   <backup>
+    <duration>240</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>2</octave>
+    </pitch>
+    <duration>144</duration>
+    <tie type="start"/>
+    <voice>6</voice>
+    <type>quarter</type>
+    <dot/>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <tied type="start"/>
+    </notations>
+   </note>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>2</octave>
+    </pitch>
+    <duration>96</duration>
+    <tie type="stop"/>
+    <voice>6</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <tied type="stop"/>
+    </notations>
+   </note>
+   <barline location="right">
+    <bar-style>light-heavy</bar-style>
+   </barline>
+  </measure>
+ </part>
+</score-partwise>

@@ -1,0 +1,46 @@
+{
+ "number": 541,
+ "old_number": "",
+ "title_ko": "꽃이 피는 봄날에만",
+ "title_en": "When Bright Flowers Bloom in the Spring",
+ "original_title": "When Bright Flowers Bloom in Spring",
+ "theme": "믿음과확신",
+ "key_table": "F",
+ "time_table": "6/8",
+ "composer": "김국진 (김국진)",
+ "lyricist": "손양원 (손양원) · 1902~1950",
+ "credit_line_in_file": {
+  "composer": "김국진",
+  "lyricist": "손양원"
+ },
+ "year": 1987,
+ "meter": "8.8.8.8 D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "541장 꽃이 피는 봄날에만.mscz",
+   "sha256": "f7497c4977cacce9e902717a76dec404a3bfd9a2a43fed6583b3a913b0d12ad0",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 367,
+ "old_number": "",
+ "title_ko": "인내하게 하소서 주여 우리를",
+ "title_en": "God Give Us the Patience",
+ "original_title": "God Give Us the Patience",
+ "theme": "기도와간구",
+ "key_table": "Em",
+ "time_table": "5/4",
+ "composer": "I. 카자코프 (I. Kajakov)",
+ "lyricist": "I. 프로하노바 (I. Prohanova)",
+ "credit_line_in_file": {
+  "composer": "I.Kajakov",
+  "lyricist": "I.Prohanova"
+ },
+ "year": null,
+ "meter": "7.5.6.5 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "credits marked ai-draft on the source page; check the book"
+  },
+  "text_en": {
+   "status": "unknown",
+   "basis": "no dates found; check the printed credit line"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "367장 인내하게 하소서 주여 우리를.mscz",
+   "sha256": "a2c2d702b5197ff3d0941f76b7f2cf1e4831e2461e1b60868605dff3051999a4",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

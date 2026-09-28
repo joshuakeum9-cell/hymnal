@@ -1,0 +1,46 @@
+{
+ "number": 42,
+ "old_number": 11,
+ "title_ko": "거룩한 주님께",
+ "title_en": "Worship the Lord in the Beauty of Holiness",
+ "original_title": "Worship the Lord in the Beauty of Holiness",
+ "theme": "주일",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "윌리엄 F. 셔윈 (William F. Sherwin)",
+ "lyricist": "존 S. B. 몬셀 (John S. B. Monsell) · 1811~1875",
+ "credit_line_in_file": {
+  "composer": "W.F.Sherwin",
+  "lyricist": "J.S.B.Monsell"
+ },
+ "year": 1875,
+ "meter": "12.10.12.10",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1888; work dated 1875"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1875; work dated 1875"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "42장 거룩한 주님께.mscz",
+   "sha256": "5c82050c792f502d42afc744bfe0717c4f7c15818da869a649aeb47aec04c65b",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

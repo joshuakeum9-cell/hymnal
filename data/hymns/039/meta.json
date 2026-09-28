@@ -1,0 +1,46 @@
+{
+ "number": 39,
+ "old_number": 39,
+ "title_ko": "주 은혜를 받으려",
+ "title_en": "We Gather Together to Ask the Lord's Blessing",
+ "original_title": "We Gather Together to Ask the Lord's Blessing",
+ "theme": "찬양",
+ "key_table": "D",
+ "time_table": "3/4",
+ "composer": "네덜란드 민요(크렘저 편곡) (Traditional Netherlands Folk Tune (arr. E. Kremser))",
+ "lyricist": "아드리아누스 발레리우스(네덜란드) (Adrianus Valerius (Netherlands))",
+ "credit_line_in_file": {
+  "composer": "Netherlands Folk Hymn/E.Kremser",
+  "lyricist": "Netherlands Folk Hymn"
+ },
+ "year": 1626,
+ "meter": "12.11.12.11",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 네덜란드 민요(크렘저 편곡) (Traditional Netherlands Folk Tune (arr. E. Kremser))"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1626, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "39장 주 은혜를 받으려.mscz",
+   "sha256": "eeec09648923e9637959ea188abe067e0778c517af35fa1d4013a69fba148421",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

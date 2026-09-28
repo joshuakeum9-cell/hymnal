@@ -1,0 +1,12 @@
+# 71 O God, Our Help in Ages Past
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: O God, our help in a- ges past, Our hope for years to come, Our shel- ter from the storm- y blast, And our e- ter- nal home! _ _
+v2: Be- fore the hills in or- der stood, Or earth re- ceived her frame, From ev- ev- last- ing Thou art God, To end- less years the same. _ _
+v3: A thou- sand a- ges in Thy sight Are like an eve- ning gone Short as the watch that ends the night, Be- fore the ris- ing sun. _ _
+v4: Time, like and ev- er- roll- ing stream, Bears all its sons a- way They fly, for- got- ten, as a dream Dies at the op'n- ing day. _ _
+v5: O God, our help in a- ges past, Our hope for years to come, Be Thou our guide while life shall last, And our e- ter- nal home! A- men.

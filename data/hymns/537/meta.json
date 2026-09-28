@@ -1,0 +1,46 @@
+{
+ "number": 537,
+ "old_number": 329,
+ "title_ko": "형제여 지체 말라",
+ "title_en": "Why Do You Wait, Dear Brother",
+ "original_title": "Why Do You Wait, Dear Brother?",
+ "theme": "부르심과영접",
+ "key_table": "A",
+ "time_table": "6/8",
+ "composer": "조지 F. 루트 (George Frederick Root)",
+ "lyricist": "조지 F. 루트 (George Frederick Root) · 1820~1895",
+ "credit_line_in_file": {
+  "composer": "G.F.Root",
+  "lyricist": "G.F.Root"
+ },
+ "year": 1860,
+ "meter": "IRREG.",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1895; work dated 1860"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1895; work dated 1860"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "537장 형제여 지체 말라.mscz",
+   "sha256": "3df303e37337970a52221613e9c7c2a14e57ca2711098898dc7f1d2aab0ee5e5",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

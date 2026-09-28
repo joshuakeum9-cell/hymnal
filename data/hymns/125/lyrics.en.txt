@@ -1,0 +1,11 @@
+# 125 Angels We Have Heard On High
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: An- gels we have heard on high, Sweet- ly sing- ing o'er the plains, And the moun- tains in re- ply Ech- o back their joy- ous strains. Glo- _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ri- a in ex- cel- sis De- o _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Glo- ri- a in ex- cel- sis De- o _ _
+v2: Shep- herds, why this ju- bi- lee Why your joy- ous strains pro- long Say what may the ti- dings be, Which in- spire your heav'n- ly song. Glo- _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ri- a in ex- cel- sis De- o _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Glo- ri- a in ex- cel- sis De- o _ _
+v3: Come to Beth- le- hem, and see, Him whose birth the an- gels sing Come a- dore on bend- ed knee, The In- fant Christ, the new- born King. _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Glo- ri- a in ex- cel- sis De- o _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Glo- ri- a in ex- cel- sis De- o _ _
+v4: See with- in a man- ger laid, Je- sus, Lord of hea- ven and earth! Earth and heav- en lend your aid, With us sing our Sav- iour's birth. _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Glo- ri- a in ex- cel- sis De- o _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Glo- ri- a in ex- cel- sis De- o A- men.

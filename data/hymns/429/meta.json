@@ -1,0 +1,46 @@
+{
+ "number": 429,
+ "old_number": 489,
+ "title_ko": "세상 모든 풍파 너를 흔들어",
+ "title_en": "When upon Life's Billows",
+ "original_title": "Count Your Blessings",
+ "theme": "감사의생활",
+ "key_table": "Eb",
+ "time_table": "2/4",
+ "composer": "에드윈 O. 엑셀 (Edwin Othello Excell)",
+ "lyricist": "존슨 오트먼 주니어 (Johnson Oatman Jr.) · 1856~1922",
+ "credit_line_in_file": {
+  "composer": "E.O.Excell",
+  "lyricist": "J.Oatman"
+ },
+ "year": 1897,
+ "meter": "11.11.11.11 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1921; work dated 1897"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1922; work dated 1897"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "429장 세상 모든 풍파 너를 흔들어.mscz",
+   "sha256": "fb3d24e8677a8d78a63e524184205b74b6cf1afe1a71b93bf6e7ab8888f0fda4",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

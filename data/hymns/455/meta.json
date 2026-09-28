@@ -1,0 +1,46 @@
+{
+ "number": 455,
+ "old_number": 507,
+ "title_ko": "주님의 마음을 본받는 자",
+ "title_en": "We Shall be Like Him",
+ "original_title": "We Shall Be Like Him",
+ "theme": "제자의도리",
+ "key_table": "Bb",
+ "time_table": "6/4",
+ "composer": "찰스 H. 가브리엘 (Charles Hutchinson Gabriel)",
+ "lyricist": "찰스 H. 가브리엘 (Charles Hutchinson Gabriel) · 1856~1932",
+ "credit_line_in_file": {
+  "composer": "C.H.Gabriel",
+  "lyricist": "C.H.Gabriel"
+ },
+ "year": 1900,
+ "meter": "10.10.10.10 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1932; work dated 1900"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1932; work dated 1900"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "455장 주님의 마음을 본받는 자.mscz",
+   "sha256": "0a501fdb23b07abbd515cbb7e4cac19fbdbd98f86db527327df290eca02baaee",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "number": 519,
+ "old_number": 251,
+ "title_ko": "구주께서 부르되",
+ "title_en": "Come, Come to the Saviour",
+ "original_title": "Come, Come, to the Savior",
+ "theme": "부르심과영접",
+ "key_table": "C",
+ "time_table": "4/4",
+ "composer": "Anonymous",
+ "lyricist": "Anonymous",
+ "credit_line_in_file": {
+  "composer": "Anonymous",
+  "lyricist": "Anonymous"
+ },
+ "year": 1919,
+ "meter": "7.7.7.7 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "credits marked ai-draft on the source page; check the book"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1919, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "519장 구주께서 부르되.mscz",
+   "sha256": "1ac41a78aed8506ed53fb4d7ae2edcabe641dd326ef4cf0becfca96526685ed6",
+   "changes": [
+    "lyric verse 4: 두르려 -> 두드려"
+   ]
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

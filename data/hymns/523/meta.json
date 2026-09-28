@@ -1,0 +1,46 @@
+{
+ "number": 523,
+ "old_number": 262,
+ "title_ko": "어둔 죄악 길에서",
+ "title_en": "Life at Best is Very Brief",
+ "original_title": "",
+ "theme": "부르심과영접",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "윌리엄 J. 커크패트릭 (William James Kirkpatrick)",
+ "lyricist": "나카다 주지 (中田重治) (Juji Nakada) · 1870~1939",
+ "credit_line_in_file": {
+  "composer": "W.J.Kirkpatrick",
+  "lyricist": "Z.Nakada"
+ },
+ "year": 1909,
+ "meter": "7.7.10.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1921; work dated 1909"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1939; work dated 1909"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "523장 어둔 죄악 길에서.mscz",
+   "sha256": "240b5aac6bd3320a07b4edcca0b7bcb7d9c67c65a3d865850a1244701b8c8777",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

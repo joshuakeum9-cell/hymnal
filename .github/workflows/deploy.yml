@@ -1,0 +1,76 @@
+name: Check, build and deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: tools/requirements.txt
+      - run: pip install -r tools/requirements.txt
+
+      - name: Check the hymn data
+        run: python tools/check_data.py
+
+      - name: Build hymn files and search index
+        run: python tools/build_data.py
+
+      - uses: actions/cache@v4
+        with:
+          path: work/fonts
+          key: noto-kr-fonts-v1
+      - name: Subset Korean fonts
+        run: python tools/subset_fonts.py
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --omit=optional
+      - run: npm run build
+
+      - uses: actions/upload-pages-artifact@v4
+        if: github.event_name != 'pull_request'
+        with:
+          path: dist
+
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Confirm hymn files are served compressed
+        run: |
+          url="${{ steps.deployment.outputs.page_url }}"
+          for i in 1 2 3 4 5 6; do
+            file=$(curl -sSf "${url}hymns/sample.txt" || true)
+            [ -n "$file" ] && break
+            sleep 10
+          done
+          echo "sample hymn file: $file"
+          curl -sSI -H 'Accept-Encoding: gzip' "${url}hymns/${file}" | tr -d '\r' | tee headers.txt
+          grep -qi '^content-encoding: gzip' headers.txt

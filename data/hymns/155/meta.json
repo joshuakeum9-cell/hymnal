@@ -1,0 +1,46 @@
+{
+ "number": 155,
+ "old_number": "",
+ "title_ko": "십자가 지고",
+ "title_en": "Bearing the Cross",
+ "original_title": "Bearing the Cross (Korean original)",
+ "theme": "고난",
+ "key_table": "Fm",
+ "time_table": "3/4",
+ "composer": "이문승 (악보 표기는 이동순) (Lee Moon-seung (악보 표기 이동순))",
+ "lyricist": "이성희 (Lee Sung-hee) · 1955~?",
+ "credit_line_in_file": {
+  "composer": "이문승",
+  "lyricist": "이성희"
+ },
+ "year": 2005,
+ "meter": "5.5.5.4 with refrain",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "155장 십자가 지고.mscz",
+   "sha256": "9234d05dc18b37979d4ef77e2d133bb74a2b11348085b778cda76d4f12746485",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

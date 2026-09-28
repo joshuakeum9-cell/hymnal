@@ -1,0 +1,10 @@
+# 459 Who is on the Lord's Side
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Who is on the Lord's side Who will serve the King Who will be His help- ers, Oth- _ er lives to bring Who will leave the world's side Who will face the foe Who is on the Lord's side Who for Him will go By Thy call of mer- cy,By Thy grace Di- vine, We are on the Lord's side, Sav- iour, we are Thine.
+v2: Not for weight of glo- ry, Not for crown and palm, En- ter we the ar- my, Raise the war- rior psalm But for Love that claim- eth Lives for whom He died He whom Je- sus nam- eth Must be on His side. By Thy love con- strain- ing, By Thy grace Di- vine, We are on the Lord's side, Sav- iour, we are Thine.
+v3: Fierce may be the con- flict Strong may be the foe, But the King's own ar- my None can o- ver- throw Round His Stand- ard rang- ing Vic- tory is se- cure For His truth un- chang- ing, Makes the tri- umph sure. Joy- ful- ly en- list- ing By Thy grace Di- vine, We are on the Lord's side, Sav- iour, we are Thine.

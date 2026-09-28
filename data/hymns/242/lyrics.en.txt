@@ -1,0 +1,12 @@
+# 242 We Shall See The Desert As The Rose
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, auto, auto, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: We shall see the des- ert as the rose, Walk- ing in the King's high- way The- re'll be sing- ing where sal- va- tion goes, Walk- ing in the King's high- way. The- re's a high- way there and a- way, Where sor- row shall flee a- way, And the light shines bright as the day, Walk- ing in the King's high- way.
+v2: We shall see the glo- ry of the Lord, Walk- ing in the King's high- _ way And be- hold the beau- ty of His Word, Walk- ing in the King's high- way. The- re's a high- way there and a- way, Where sor- row shall flee a- way, And the light shines bright as the day, Walk- ing in the King's high- way.
+v3: There the rain shall come up- on the ground, Walk- ing in the King's high- _ way And the springs of wa- ter will be found, Walk- ing in the King's high- way. The- re's a high- way there and a- way, Where sor- row shall flee a- way, And the light shines bright as the day, Walk- ing in the King's high- way.
+v4: There no rav- -'nous beast shall make a- fraid, Walk- ing in the King's high- _ way For the pu- ri- fied the way was made, Walk- ing in the King's high- way. The- re's a high- way there and a- way, Where sor- row shall flee a- way, And the light shines bright as the day, Walk- ing in the King's high- way.
+v5: No un- clean thing shall pass o'er here, Walk- ing in the King's high- way _ But the ran- some dones with- out a fear, Walk- ing in the King's high- way. The- re's a high- way there and a- way, Where sor- row shall flee _ a- way, And the light shines bright as the day, Walk- ing in the King's high- way.

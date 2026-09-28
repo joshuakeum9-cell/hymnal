@@ -1,0 +1,46 @@
+{
+ "number": 595,
+ "old_number": 372,
+ "title_ko": "나 맡은 본분은",
+ "title_en": "A Charge to Keep I Have",
+ "original_title": "A Charge to Keep I Have",
+ "theme": "임직",
+ "key_table": "Fm",
+ "time_table": "3/2",
+ "composer": "제트헴 시편가 (J. Chetham's Psalmody)",
+ "lyricist": "찰스 웨슬리 (Charles Wesley) · 1707~1788",
+ "credit_line_in_file": {
+  "composer": "J.Chetham",
+  "lyricist": "C.Wesley"
+ },
+ "year": 1718,
+ "meter": "6.6.8.6",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1718, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1788; work dated 1718"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "595장 나 맡은 본분은.mscz",
+   "sha256": "8d64e568b066c0e52924d18f3ef488b28a49f08c607c39b12d14e3f08f1ca771",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

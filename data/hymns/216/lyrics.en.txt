@@ -1,0 +1,11 @@
+# 216 Savior! Thy Dying Love
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Sav- iour! Thy dy- ing love Thou _ gav- est me, _ Nor should I aught wigh- hold, Dear _ Lord, from Thee In love my soul would bow, My heart ful- fill its vow Some of- fering bring Thee now, Some- _ thing for Thee. _ _
+v2: At the blest mer- cy- seat, Plead- _ ing for me, _ My fee- ble raith looks up, Je- _ sus, to Thee, Help me the cross to bear, Thy won- drous love de- clare, Some song to raise, or prayer, Some- _ thing for Thee. _ _
+v3: Give me a faith- ful heart, Guid- _ ed by Thee _ That each de- part- ing day Hence- _ forth may see Some work of love be- gun, Some deed of kind- ness done, Some wan- derer sought and won, Some- _ thing for Thee. _ _
+v4: All that I am and have- Thy _ gifts so free- _ In joy, in grief, thro' life, Dear _ Lord, for Thee! And when Thy face I see, My ran- somed soul shall be Through all e- ter- ni- ty, Some- _ thing for Thee. A- men.

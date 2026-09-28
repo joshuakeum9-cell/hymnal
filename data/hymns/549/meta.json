@@ -1,0 +1,46 @@
+{
+ "number": 549,
+ "old_number": 431,
+ "title_ko": "내 주여 뜻대로",
+ "title_en": "My Jesus, as Thou Wilt",
+ "original_title": "My Jesus, As Thou Wilt",
+ "theme": "믿음과확신",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "카를 M. 폰 베버 (Carl Maria von Weber)",
+ "lyricist": "베냐민 슈몰크 (Benjamin Schmolck) · 1672~1737",
+ "credit_line_in_file": {
+  "composer": "C.M. von Weber/J.P.Holbrook",
+  "lyricist": "B.Schmolck"
+ },
+ "year": 1821,
+ "meter": "6.6.6.6 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1826; work dated 1821"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1737; work dated 1821"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "549장 내 주여 뜻대로.mscz",
+   "sha256": "02f809274e848dce8c7dfdd61cc39ecdaea68cc2fd528c88be8179a45f084955",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

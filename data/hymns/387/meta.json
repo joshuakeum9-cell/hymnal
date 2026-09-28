@@ -1,0 +1,46 @@
+{
+ "number": 387,
+ "old_number": 440,
+ "title_ko": "멀리 멀리 갔더니",
+ "title_en": "I Have Wander'd Far Indeed",
+ "original_title": "I Have Wandered Far Indeed (Trusting)",
+ "theme": "인도와보호",
+ "key_table": "G",
+ "time_table": "3/4",
+ "composer": "W. G. 피셔 (William G. Fischer)",
+ "lyricist": "안애리 (애니 L. A. 베어드) (Annie L. A. Baird (배위량 부인)) · 1864~1916",
+ "credit_line_in_file": {
+  "composer": "W.G.Fischer",
+  "lyricist": "A.A.Baird"
+ },
+ "year": 1870,
+ "meter": "7.7.7.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1912; work dated 1870"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1916; work dated 1870"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "387장 멀리 멀리 갔더니.mscz",
+   "sha256": "b731bbe3870e99e645a7f93a5441cf829469c41b1379c84c5fa538fdd2e7c7fc",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

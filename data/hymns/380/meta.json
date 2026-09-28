@@ -1,0 +1,46 @@
+{
+ "number": 380,
+ "old_number": 424,
+ "title_ko": "나의 생명 되신 주",
+ "title_en": "Saviour, More Than Life to Me",
+ "original_title": "Every Day and Hour (Saved by Grace)",
+ "theme": "인도와보호",
+ "key_table": "Ab",
+ "time_table": "3/4",
+ "composer": "W. H. 도언 (William Howard Doane)",
+ "lyricist": "패니 J. 크로스비 (Fanny J. Crosby) · 1820~1915",
+ "credit_line_in_file": {
+  "composer": "W.H.Doane",
+  "lyricist": "F.J.Crosby"
+ },
+ "year": 1875,
+ "meter": "7.9.7.9 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1875, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1875"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "380장 나의 생명 되신 주.mscz",
+   "sha256": "802e2d9a74d37d52b6fccfb266c27ac07d0db3df146426c6a38278c2e6cd23fc",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

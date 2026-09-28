@@ -1,0 +1,46 @@
+{
+ "number": 69,
+ "old_number": 33,
+ "title_ko": "온 천하 만물 우러러",
+ "title_en": "All Creatures of Our God And King",
+ "original_title": "All Creatures of Our God and King",
+ "theme": "창조주",
+ "key_table": "D",
+ "time_table": "3/2",
+ "composer": "독일 가톨릭 찬송가집(쾰른, 1623) (Geistliche Kirchengesänge (Köln, 1623))",
+ "lyricist": "아시시의 프란체스코 (St. Francis of Assisi (para. W. H. Draper)) · 1181~1226",
+ "credit_line_in_file": {
+  "composer": "Anonumous",
+  "lyricist": "St.Francis of Assisi"
+ },
+ "year": 1623,
+ "meter": "8.8.4.4.8.8 with alleluias",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1623, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1933; work dated 1623"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "69장 온 천하 만물 우러러.mscz",
+   "sha256": "456398f2faf10226e803e7604d5c1cfcb060f92f36ca4d1d4d9f622497082a83",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

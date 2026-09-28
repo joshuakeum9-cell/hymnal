@@ -1,0 +1,46 @@
+{
+ "number": 67,
+ "old_number": 31,
+ "title_ko": "영광의 왕께 다 경배하며",
+ "title_en": "O Worship The King, All Glorious Above",
+ "original_title": "O Worship the King, All Glorious Above",
+ "theme": "창조주",
+ "key_table": "Ab",
+ "time_table": "3/4",
+ "composer": "요한 미하엘 하이든 (Johann Michael Haydn (attrib.))",
+ "lyricist": "로버트 그랜트 (Robert Grant (adapt. from W. Kethe, 1561)) · 1779~1838",
+ "credit_line_in_file": {
+  "composer": "J.M.Haydn/W.Gardiner",
+  "lyricist": "R.Grant"
+ },
+ "year": 1815,
+ "meter": "10.10.11.11",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1806; work dated 1815"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1838; work dated 1815"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "67장 영광의 왕께 다 경배하며.mscz",
+   "sha256": "4f03b16d8980c94d371d1ea1fa70c1c819ab760db0b45c1380e369ad2da4ddcc",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

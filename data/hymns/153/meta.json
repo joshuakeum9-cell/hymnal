@@ -1,0 +1,46 @@
+{
+ "number": 153,
+ "old_number": "",
+ "title_ko": "가시 면류관",
+ "title_en": "The Crown Made Of Thorns",
+ "original_title": "The Crown Made of Thorns (Korean original)",
+ "theme": "고난",
+ "key_table": "Em",
+ "time_table": "6/8",
+ "composer": "나운영 (차이콥스키 *Legend* 기반) (Na Un-young (나운영, after Tchaikovsky))",
+ "lyricist": "정대위 (악보 표기 정태태 가능) (Jeong Dae-wee (정대위))",
+ "credit_line_in_file": {
+  "composer": "나운영",
+  "lyricist": "정대위"
+ },
+ "year": 1992,
+ "meter": "irregular",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "153장 가시 면류관.mscz",
+   "sha256": "2700975d1cbb58573de6e4775941b0752ecf0b0f03a3286fc3479e21be30877f",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

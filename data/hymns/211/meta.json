@@ -1,0 +1,46 @@
+{
+ "number": 211,
+ "old_number": 346,
+ "title_ko": "값비싼 향유를 주께 드린",
+ "title_en": "Master, No Offering Costly and Sweet",
+ "original_title": "Master, No Offering Costly and Sweet (Love's Offering)",
+ "theme": "헌신과봉사",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "에드윈 폰드 파커 (Edwin Pond Parker)",
+ "lyricist": "에드윈 폰드 파커 (Edwin Pond Parker) · 1836~1920",
+ "credit_line_in_file": {
+  "composer": "E.P.Parker",
+  "lyricist": "E.P.Parker"
+ },
+ "year": 1889,
+ "meter": "6.4.6.4.6.6.4.4",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1920; work dated 1889"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1920; work dated 1889"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "211장 값비싼 향유를 주께 드린.mscz",
+   "sha256": "66fee253c643d0fb03388c3ee515b94d79269ee0c1bd898ae67d03a5efb4be5d",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

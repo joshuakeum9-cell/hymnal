@@ -1,0 +1,46 @@
+{
+ "number": 193,
+ "old_number": "",
+ "title_ko": "성령의 봄바람 불어오니",
+ "title_en": "Wind of the Holy Spirit",
+ "original_title": "The Spring Breeze of the Holy Spirit (Korean original)",
+ "theme": "성령강림",
+ "key_table": "Eb",
+ "time_table": "6/8",
+ "composer": "이문승 (Lee Moon-seung)",
+ "lyricist": "임태득 목사 (Lim Tae-deuk) · 1937~2009",
+ "credit_line_in_file": {
+  "composer": "이문승",
+  "lyricist": "임태득"
+ },
+ "year": 2004,
+ "meter": "10.10.10.10.9.9",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "193장 성령의 봄바람 불어오니.mscz",
+   "sha256": "65011df22cc7d7f7bcf00d4d15498371cdfef4c740e61e05aa6d755e03c53221",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

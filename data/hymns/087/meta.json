@@ -1,0 +1,46 @@
+{
+ "number": 87,
+ "old_number": 87,
+ "title_ko": "내 주님 입으신 그 옷은",
+ "title_en": "My Lord has Garments so Wondrous Fine",
+ "original_title": "My Lord Has Garments So Wondrous Fine (Ivory Palaces)",
+ "theme": "예수그리스도",
+ "key_table": "Eb",
+ "time_table": "6/4",
+ "composer": "헨리 배러클러프 (Henry Barraclough)",
+ "lyricist": "헨리 배러클러프 (Henry Barraclough) · 1891~1983",
+ "credit_line_in_file": {
+  "composer": "H.Barraclough",
+  "lyricist": "H.Barraclough"
+ },
+ "year": 1915,
+ "meter": "9.6.9.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "author died 1983, after 1962"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "author died 1983, after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "87장 내 주님 입으신 그 옷은.mscz",
+   "sha256": "c5446af1bb7816da8fadc9fbdc16c1d6f3fcfa77a5bde371c9ff0d280fcf924c",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

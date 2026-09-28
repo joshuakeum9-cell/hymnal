@@ -1,0 +1,46 @@
+{
+ "number": 564,
+ "old_number": 299,
+ "title_ko": "예수께서 오실 때에",
+ "title_en": "When He Cometh",
+ "original_title": "When He Cometh (Jewels)",
+ "theme": "어린이",
+ "key_table": "Eb",
+ "time_table": "3/4",
+ "composer": "조지 F. 루트 (George Frederick Root)",
+ "lyricist": "윌리엄 O. 쿠싱 (William Orcutt Cushing) · 1823~1902",
+ "credit_line_in_file": {
+  "composer": "G.F.Root",
+  "lyricist": "W.O.Cushing"
+ },
+ "year": 1866,
+ "meter": "8.6.8.5 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1866, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1902; work dated 1866"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "564장 예수께서 오실 때에.mscz",
+   "sha256": "6e7c56273e20aea1e8bc387cd810188beae14fc6640dd0afc31379d42a792c2e",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

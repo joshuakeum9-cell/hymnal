@@ -1,0 +1,46 @@
+{
+ "number": 335,
+ "old_number": "",
+ "title_ko": "크고 놀라운 평화가",
+ "title_en": "I Have Found a Deep Peace",
+ "original_title": "Wonderful Peace (I Have Found a Deep Peace)",
+ "theme": "소명과충성",
+ "key_table": "F",
+ "time_table": "6/8",
+ "composer": "H. 릴레나스 (Haldor Lillenas)",
+ "lyricist": "H. 릴레나스 (Haldor Lillenas) · 1885~1959",
+ "credit_line_in_file": {
+  "composer": "H.Lillenas",
+  "lyricist": "H.Lillenas"
+ },
+ "year": 1938,
+ "meter": "Irregular",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "work dated 1938, may still be in copyright"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "work dated 1938, may still be in copyright"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "335장 크고 놀라운 평화가.mscz",
+   "sha256": "156b006e18f49d7e9c62ad0407228b2bd572fb1df930c3e4f75e74fe986ea076",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

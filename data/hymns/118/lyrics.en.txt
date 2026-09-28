@@ -1,0 +1,12 @@
+# 118 Angels, from the Realms of Glory
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, exact, exact, exact, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: An- gels, from the realms of glo- ry, Wing your flight o'er all the earth Ye who sang cre- a- tion's sto- ry, Now pro- claim Mes- _ si- ah's birth: Come and wor- ship, come and wor- ship, Wor- ship Christ, the new- born King. _ _
+v2: Shep- herds, in the fields a- bid- ing, Watch- ing o'er your flocks by night, God with man is now re- sid- ing, Yon- der shines the _ in- fant Light: Come and wor- ship, come and wor- ship, Wor- ship Christ, the new- born King. _ _
+v3: Sa- ges, leave your con- tem- pla- tion, Bright- er vi- sions beam a- far Seek the great De- sire of na- tions, Ye have seen His _ na- tal star: Come and wor- ship, come and wor- ship, Wor- ship Christ, the new- born King. _ _
+v4: Saints be- fore the al- tar bend- ing, Watch- ing long in hope and fear, Sud- den- ly the Lord, de- scend- ing, In His tem- ple _ shall ap- pear: Come and wor- ship, come and wor- ship, Wor- ship Christ, the new- born King. _ _
+v5: All cre- a- tion, join in prais- ing God, the Fa- ther, Spir- it, Son, Ev- er- more your voic- es rais- ing To th'e- ter- nal _ Three in One. Come _ and wor- ship, _ come and wor- ship, Wor- ship Christ, the new- born King.

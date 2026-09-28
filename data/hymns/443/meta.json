@@ -1,0 +1,46 @@
+{
+ "number": 443,
+ "old_number": "",
+ "title_ko": "아침 햇살 비칠 때",
+ "title_en": "As the Sun Its Morning Light",
+ "original_title": "When Morning Sunlight Shines (Korean original)",
+ "theme": "주와동행",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "문창식 (Moon Chang-sik)",
+ "lyricist": "황금주 (Hwang Geum-joo)",
+ "credit_line_in_file": {
+  "composer": "황철익",
+  "lyricist": "황금찬"
+ },
+ "year": 2002,
+ "meter": "Irregular",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "443장 아침 햇살 비칠 때.mscz",
+   "sha256": "bf86c21758f87b2e9beeedc1c816f06cb64611dd8572cecc55bd38a1a57631fd",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

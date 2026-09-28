@@ -1,0 +1,11 @@
+# 361 'Tis the Blessed Hour of Prayer
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: 'Tis the bless- ed hour of prayer, when our hearts low- ly bend, And we gath- er to Je- sus, our Sav- ior and Friend If we come to Him on faith, His pro- tec- tion to share, What a balm for the wea- ry! O how sweet _ to be there! Bless- ed hour of prayer, bless- ed hour _ of prayer, What a balm for the wea- ry! O how sweet _ to be there!
+v2: 'Tis the bless- ed hour of prayer, when the Sav- ior draws near, With a ten- der com- pas- sion His chil- dren to hear When He tells us we may cast at His feet ev- ery care, What a balm for the wea- ry! O how sweet _ to be there! Bless- ed hour of prayer, bless- ed hour _ of prayer, What a balm for the wea- ry! O how sweet _ to be there!
+v3: 'Tis the bless- ed hour of prayer, when the tempt- ed and tried To the Sav- ior who loves them their sor- row con- fide With a sym- pa- thiz- ing heart He re- moves ev- ery care, What a balm for the wea- ry! O how sweet _ to be there! Bless- ed hour of prayer, bless- ed hour _ of prayer, What a balm for the wea- ry! O how sweet _ to be there!
+v4: At the bless- ed hour of prayer, trust- ing Him we be- lieve That the bless- ings we're need- ing we'll wure- ly re- ceive In the full- ness of this trust we shall lose ev- ery care, What a balm for the wea- ry! O how sweet _ to be there! Bless- ed hour of prayer, bless- ed hour _ of prayer, What a balm for the wea- ry! O how sweet _ to be there!

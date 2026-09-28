@@ -1,0 +1,46 @@
+{
+ "number": 486,
+ "old_number": 474,
+ "title_ko": "이 세상에 근심된 일이 많고",
+ "title_en": "My Soul in Sad Exile",
+ "original_title": "The Haven of Rest",
+ "theme": "미래와소망",
+ "key_table": "G",
+ "time_table": "6/4",
+ "composer": "조지 D. 무어 (George D. Moore)",
+ "lyricist": "헨리 L. 길모어 (Henry Lake Gilmour) · 1836~1920",
+ "credit_line_in_file": {
+  "composer": "G.D.Moore",
+  "lyricist": "H.L.Gilmour"
+ },
+ "year": 1890,
+ "meter": "11.8.11.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1890, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1920; work dated 1890"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "486장 이 세상에 근심된 일이 많고.mscz",
+   "sha256": "129b5099e9ef00f635f0d1e4e3ede1437f602c83c0d3a00f1a9a0a6e3698ad6e",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

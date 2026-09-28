@@ -1,0 +1,10 @@
+# 411 There's a Peace in My Heart
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: The- re's a peace in my heart that the world neve- r gave, A peace it can- not take a- way. Tho' the tri- als of life may sur- round like a cloud, I've a peace that has come there to stay! Con- stant- ly a- biding, Je- sus is mine con- stant- ly a- biding, rap- ture di- vinc! He nev- er leaves me lone- ly whis- pers, oh, so kind “I will nev- er leave thee." Je- sus is mine
+v2: All the world seemed to sing of a Sa- viour and King When peace sweet- ly came to my heart. Trou- bles all fled a- way and my night turned to day. Blessed Ju- sus, how glo- rious Thou art! Con- stant- ly a- bid- ing, Je- sus is mine con- stant- ly a- bid- ing, rap- ture di- vinc! He nev- er leaves me lone- ly whis- pers, oh, so kind “I will nev- er leave thee." Je- sus is mine
+v3: This treas- ure I have in a tem- ple of clay While here on His foot- stool I roam But He's com- ing to take me some glo- ri- ous day O- ver there to my heav- en- ly home Con- stant- ly a- bid- ing, Je- sus is mine con- stant- ly a- bid- ing, rap- ture di- vinc! He nev- er leaves me lone- ly whis- pers, oh, so kind “I will nev- er leave thee." Je- sus is mine

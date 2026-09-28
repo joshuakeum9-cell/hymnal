@@ -1,0 +1,46 @@
+{
+ "number": 579,
+ "old_number": 304,
+ "title_ko": "어머니의 넓은 사랑",
+ "title_en": "Precious Love, the Love of Mother",
+ "original_title": "",
+ "theme": "어버이",
+ "key_table": "D",
+ "time_table": "4/4",
+ "composer": "구두회 (구두회)",
+ "lyricist": "주요한 (주요한) · 1900~1979",
+ "credit_line_in_file": {
+  "composer": "구두회",
+  "lyricist": "주요한"
+ },
+ "year": 1967,
+ "meter": "8.7.8.7 D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "579장 어머니의 넓은 사랑.mscz",
+   "sha256": "9f2f1ef7b992d1c7d3c813dc63af882bc193661555b775c499bfbf3ed28888e3",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 143,
+ "old_number": 141,
+ "title_ko": "웬말인가 날 위하여",
+ "title_en": "Alas! And Did My Savior Bleed",
+ "original_title": "Alas! and Did My Savior Bleed",
+ "theme": "고난",
+ "key_table": "Ab",
+ "time_table": "3/4",
+ "composer": "휴 윌슨 / R. A. 스미스 화성 (Hugh Wilson, harm. R. A. Smith)",
+ "lyricist": "아이작 와츠 (Isaac Watts) · 1674~1748",
+ "credit_line_in_file": {
+  "composer": "H.Willson/R.Smith",
+  "lyricist": "I.Watts"
+ },
+ "year": 1800,
+ "meter": "8.6.8.6 (CM)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1824; work dated 1800"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1748; work dated 1800"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "143장 웬말인가 날 위하여.mscz",
+   "sha256": "8f49d72b4de48e028ee7be5e61d966738e64c762ed670f3fdf0e52a4707f9814",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

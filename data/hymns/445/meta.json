@@ -1,0 +1,46 @@
+{
+ "number": 445,
+ "old_number": 502,
+ "title_ko": "태산을 넘어 험곡에 가도",
+ "title_en": "Walking in Sunlight All of My Journey",
+ "original_title": "Heavenly Sunlight",
+ "theme": "주와동행",
+ "key_table": "G",
+ "time_table": "9/8",
+ "composer": "조지 H. 쿡 (George Harrison Cook)",
+ "lyricist": "헨리 J. 젤리 (Henry Jeffreys Zelley) · 1859~1942",
+ "credit_line_in_file": {
+  "composer": "G.H.Cook",
+  "lyricist": "H.J.Zelley"
+ },
+ "year": 1899,
+ "meter": "10.9.10.9 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1899, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1942; work dated 1899"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "445장 태산을 넘어 험곡에 가도.mscz",
+   "sha256": "267167d19e1758f374dabdf0703c916bcbab04707b14c108a68c70ed73f0972d",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

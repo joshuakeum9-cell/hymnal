@@ -1,0 +1,46 @@
+{
+ "number": 492,
+ "old_number": 544,
+ "title_ko": "잠시 세상에 내가 살면서",
+ "title_en": "Just a Few More Days",
+ "original_title": "Where the Gates Swing Outward Never",
+ "theme": "미래와소망",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "찰스 H. 가브리엘 (Charles Hutchinson Gabriel)",
+ "lyricist": "찰스 H. 가브리엘 (Charles Hutchinson Gabriel) · 1856~1932",
+ "credit_line_in_file": {
+  "composer": "C.H.Gabriel",
+  "lyricist": "C.H.Gabriel"
+ },
+ "year": 1907,
+ "meter": "10.8.10.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1932; work dated 1907"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1932; work dated 1907"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "492장 잠시 세상에 내가 살면서.mscz",
+   "sha256": "cad36d2901567aaef37167bd97774c84680d7c61dc5d0cf7940205a1ec03a4d7",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

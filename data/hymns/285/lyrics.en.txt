@@ -1,0 +1,10 @@
+# 285 O Happy Day, That Fixed My Choice
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, exact, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Ev- 'rything is changed since my sins were for- gi- ven, Ev- 'ryth- ing is changed since I knew the Lord Now my feet are walk- ing the path- way to heav- en All the guilt- y past now is un- der the blood. Ev- 'ryth- ing is changed, praise the Lord! Now I am re- deemed thro' the blood Free from condemna- tion, God is my Sal- va- tion, Ev- 'ryth- ing is changed, praise the Lord!
+v2: Ev- 'ryth- ing is changed, to God's name be the glo- ry! Light in'- stead of dark- ness fills my soul Ev- 'ryth- ing is changed, 'tis the blessed old sto- ry, Trust- ing Christ I'm now ev- 'ry whit made whole. Ev- 'ryth- ing is changed, praise the Lord! Now I am re- deemed thro' the blood Free from condemna- tion, God is my Sal- va- tion, Ev- 'ryth- ing is changed, praise the Lord! _ _
+v3: Ev- 'ryth- ing is changed since the Spir- it pos- sessed me, Since He filled my heart with Sa- vior's love, Since He took a- way all the fears that dis- tressed me, _ Helped me set my heart on the things a- bove. Ev- 'ryth- ing is changed, praise the Lord! Now I am re- deemed thro' the blood Free from condemna- tion, God is my Sal- va- tion, Ev- 'ryth- ing is changed, praise the Lord!

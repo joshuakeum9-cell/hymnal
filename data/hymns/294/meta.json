@@ -1,0 +1,46 @@
+{
+ "number": 294,
+ "old_number": 416,
+ "title_ko": "하나님은 외아들을",
+ "title_en": "God Gave His Only Begotten Son",
+ "original_title": "神は愛なり (God's Love is)",
+ "theme": "은혜와사랑",
+ "key_table": "Bb",
+ "time_table": "6/4",
+ "composer": "신선찬미가 (新撰賛美歌, 1903) (賛美歌 (Sambika, 일본 찬송가집 1903))",
+ "lyricist": "미타니 다메키치 (三谷種吉) (三谷種吉 (Tamekichi Mitani)) · 1868~1945",
+ "credit_line_in_file": {
+  "composer": "Anonymous",
+  "lyricist": "T.Mitani"
+ },
+ "year": 1903,
+ "meter": "8.6.8.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1903, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1945; work dated 1903"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "294장 하나님은 외아들을.mscz",
+   "sha256": "3dd482ab64661234c13cfc098f983228b7a0b33cbeeb61bc3220a345e83a2745",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

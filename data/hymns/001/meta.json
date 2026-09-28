@@ -1,0 +1,46 @@
+{
+ "number": 1,
+ "old_number": 1,
+ "title_ko": "만복의 근원 하나님",
+ "title_en": "Praise God from Whom All Blessings Flow",
+ "original_title": "Praise God, from Whom All Blessings Flow (Doxology)",
+ "theme": "송영",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "루이 부르주아 (Louis Bourgeois)",
+ "lyricist": "토마스 켄 (Thomas Ken) · 1637~1711",
+ "credit_line_in_file": {
+  "composer": "L.Bourgeois",
+  "lyricist": "T.Ken"
+ },
+ "year": 1551,
+ "meter": "8.8.8.8 (LM)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1551, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1711; work dated 1551"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "1장 만복의 근원 하나님.mscz",
+   "sha256": "e0ef0af10526813b4c647476cc38954650b0bbdaeb29e73c5728dc8190d2b8a3",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

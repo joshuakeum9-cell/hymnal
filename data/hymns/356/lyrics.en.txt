@@ -1,0 +1,11 @@
+# 356 War of the Soul
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, exact, exact, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: War of the soul _ is _ in- vi- ta- tion Shout forth Je- _ sus' _ name His ho- ly glo- _ ry _ and sal- va- tion Far _ a- _ broad pro- claim! In the war- fare of the soul, O, my Lord, take full con- trol, O, Cap- tain, lead! _ Tis _ Thee I need, O, Thou lov- er of man's soul! _ _
+v2: A peo- ple 'neath _ sin's _ vast do- min- ion Save, Lord, make _ Thine _ own Thy peo- ple, of _ Thy _ Glo- ry King- dom, Gath- _ er'd _ to Thy throne. In the war- fare of the soul, O, my Lord, take full con- trol, O, Cap- tain, lead! _ Tis _ Thee I need, O, Thou lov- er of man's soul! _ _
+v3: For strength to my _ soul's _ foe's dis- pell- ing, Whom shall I _ en- _ treat Al- read- y Christ _ hath _ con- quer'd, quell- ing Sa- _ tan _ 'neath His feet. In the war- fare of the soul, O, my Lord, take full con- trol, O, Cap- tain, lead! _ Tis _ Thee I need, O, Thou lov- er of man's soul! _ _
+v4: Re- make me, Lord, _ hell's _ pains to sev- er, New strength give _ to _ me, That in that strength _ I _ might for- ev- er Live _ in _ vic- to- ry! In the war- fare of the soul, O, my Lord, take full con- trol, O, Cap- tain, _ _ lead! _ Tis Thee I _ need, O, Thou lov- er of man's soul!

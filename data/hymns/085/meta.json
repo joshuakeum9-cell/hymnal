@@ -1,0 +1,46 @@
+{
+ "number": 85,
+ "old_number": 85,
+ "title_ko": "구주를 생각만해도",
+ "title_en": "Jesus, the Very Thought of Thee",
+ "original_title": "Jesus, the Very Thought of Thee",
+ "theme": "예수그리스도",
+ "key_table": "G",
+ "time_table": "3/4",
+ "composer": "존 B. 다익스 (John B. Dykes)",
+ "lyricist": "클레르보의 베르나르 (Bernard of Clairvaux (trans. E. Caswall)) · 1091~1153",
+ "credit_line_in_file": {
+  "composer": "J.B.Dykes",
+  "lyricist": "Bernard of Clairvaux"
+ },
+ "year": 1866,
+ "meter": "8.6.8.6 (CM)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1866, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1878; work dated 1866"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "85장 구주를 생각만해도.mscz",
+   "sha256": "bbaff5b475f53f759f26d3abac7da084d0800c9d43db76c3f44f301efcc6c5df",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

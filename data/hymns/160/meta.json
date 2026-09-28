@@ -1,0 +1,46 @@
+{
+ "number": 160,
+ "old_number": 150,
+ "title_ko": "무덤에 머물러",
+ "title_en": "Low in the Grave He Lay",
+ "original_title": "Low in the Grave He Lay (Christ Arose)",
+ "theme": "부활",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "로버트 라우리 (Robert Lowry)",
+ "lyricist": "로버트 라우리 (Robert Lowry) · 1826~1899",
+ "credit_line_in_file": {
+  "composer": "R.Lowry",
+  "lyricist": "R.Lowry"
+ },
+ "year": 1874,
+ "meter": "6.5.6.4 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1899; work dated 1874"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1899; work dated 1874"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "160장 무덤에 머물러.mscz",
+   "sha256": "193f9293604e97b16a02b607999f3879c3c53c9aa4a608954a9b886601121fb9",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

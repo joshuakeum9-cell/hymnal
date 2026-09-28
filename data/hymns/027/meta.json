@@ -1,0 +1,46 @@
+{
+ "number": 27,
+ "old_number": 27,
+ "title_ko": "빛나고 높은 보좌와",
+ "title_en": "Majestic Sweetness Sits Enthroned",
+ "original_title": "Majestic Sweetness Sits Enthroned",
+ "theme": "찬양",
+ "key_table": "A",
+ "time_table": "6/4",
+ "composer": "토머스 헤이스팅스 (Thomas Hastings)",
+ "lyricist": "새뮤얼 스테넷 (Samuel Stennett) · 1727~1795",
+ "credit_line_in_file": {
+  "composer": "T.Hastings",
+  "lyricist": "S.Stennett"
+ },
+ "year": 1837,
+ "meter": "8.6.8.6.6",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1837, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1795; work dated 1837"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "27장 빛나고 높은 보좌와.mscz",
+   "sha256": "492a4d2e96627f9ecd53e4005fbf78a8bf01a0ebf1009af7019fb4c4b15d12e5",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

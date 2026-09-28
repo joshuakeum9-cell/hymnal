@@ -1,0 +1,46 @@
+{
+ "number": 440,
+ "old_number": 497,
+ "title_ko": "어디든지 예수 나를 이끌면",
+ "title_en": "Anywhere with Jesus I Can Safely Go",
+ "original_title": "Anywhere With Jesus",
+ "theme": "주와동행",
+ "key_table": "C",
+ "time_table": "6/8",
+ "composer": "대니얼 B. 타우너 (Daniel Brink Towner)",
+ "lyricist": "제시 브라운 파운즈 (Jessie Brown Pounds) · 1861~1921",
+ "credit_line_in_file": {
+  "composer": "D.B.Towner",
+  "lyricist": "J.B.Pounds"
+ },
+ "year": 1887,
+ "meter": "11.11.11.11 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1919; work dated 1887"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1921; work dated 1887"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "440장 어디든지 예수 나를 이끌면.mscz",
+   "sha256": "7c409d2df5d864fca9e51e4fb0a75a0da1aef5d7386230751f1b11882b867ce6",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

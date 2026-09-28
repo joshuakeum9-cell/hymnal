@@ -1,0 +1,10 @@
+# 535 O Jesus, Thou Art Standing
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: O Je- sus, _ Thou art stand- ing Out- side the _ fast- closed door, In low- ly _ pa- tience wait- ing To pass the _ thresh- old o'er: Shame on us, Chri- stian broth- ers, His Name and sign who _ bear, O shame, thrice _ shame up- _ on us, To keep Him stand- ing _ there! _ _
+v2: O Je- sus, _ Thou art knock- ing And lo! that _ hand is scarred, And throns Thy brow en- cir- cle, And tears Thy face _ have marred O love that pass- eth knowl- edge, So pa- tient- ly to wait! _ O sin that hath _ no e- _ qual, So fast to bar the _ _ gate! _ _
+v3: O Je- sus, _ Thou art plead- ing In ac- cents _ meek and low, "I died for you, My chil- dren, And will ye treat _ Me so O Lord, with shame and sor- row We o- pen now the door _ Dear Sav- iour, en- _ ter, en- _ ter, And leave us nev- er- _ _ more! A- men.

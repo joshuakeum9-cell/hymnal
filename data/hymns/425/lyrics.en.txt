@@ -1,0 +1,11 @@
+# 425 Have Thine Own Way, Lord
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, exact, exact, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Have Thine own way, Lord! Have Thine own way! Thou art the Pot- ter I am the clay. Mold me and make me af- ter Thy will, While I am wait- ing, yield- ed and still. _ _
+v2: Have Thine own way, Lord! Have Thine own way! Search me and try me, Mas- ter, to- day! Whit- er than snow, Lord, wash me just now, As in Thy pres- ence hum- bly I bow. _ _
+v3: Have Thine own way, Lord! Have Thine own way! Wound- ed and wea- ry, help me, I pray! Pow- er- all pow- er- sure- ly is Thine! Touch me and heal me, Sav- iour di- vine! _ _
+v4: Have Thine own way, Lord! Have Thine own way! Hold o'er my be- ing Ab- so- lute sway! Fill _ _ with Thy Spir- it Till all shall see Christ on- ly, al- ways, Liv- ing in me!

@@ -1,0 +1,12 @@
+# 262 Of Him Who Did Salvation Bring
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Of Him who did sal- va- tion bring I could for- ev- er think and sing. A- rise, ye need- y, He'll re- lieve A- rise, ye guilt- y, He'll for- give.
+v2: Ask but His grace, and lo, 'tis given Ask, and He turns your hell to heaven. Though sin and sor- row wound my soul, Je- sus, Thy balm will make it whole.
+v3: To shame our sins He blushed in blood He closed His eyes to show us God. Let all the world fall down and know That none but God such love can show.
+v4: 'Tis thee I love, for Thee alone I shed my tears and make my moan Where-- 'er I am, whe- re-- 'er I move, I meet the ob- ject of my love
+v5: In- sa- tiate to this Spring I fly I drink, and yet am ev- er dry Ah! who a- gainst Thy charms is proof Ah! who that loves, can love e- nough

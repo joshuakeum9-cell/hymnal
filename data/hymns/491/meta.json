@@ -1,0 +1,46 @@
+{
+ "number": 491,
+ "old_number": 543,
+ "title_ko": "저 높은 곳을 향하여",
+ "title_en": "I'm Pressing on the Upward Way",
+ "original_title": "Higher Ground",
+ "theme": "미래와소망",
+ "key_table": "Ab",
+ "time_table": "3/4",
+ "composer": "찰스 H. 가브리엘 (Charles Hutchinson Gabriel)",
+ "lyricist": "존슨 오트먼 주니어 (Johnson Oatman Jr.) · 1856~1922",
+ "credit_line_in_file": {
+  "composer": "C.H.Gabriel",
+  "lyricist": "J.Oatman"
+ },
+ "year": 1898,
+ "meter": "8.8.8.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1932; work dated 1898"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1922; work dated 1898"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "491장 저 높은 곳을 향하여.mscz",
+   "sha256": "65a1022fab94ad8310f2ffa5dff9ebf95cc89ce23f7ca99c5f9480f94c054aa7",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

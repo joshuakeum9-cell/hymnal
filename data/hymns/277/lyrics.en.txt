@@ -1,0 +1,11 @@
+# 277 I Was a Wandering Sheep
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: I was a wan- _ d'ring sheep, I did not love _ the fold I did not love my Shep- _ herd's voice, I would not be con- trolled. I was a way- _ ward child, I did not love _ my home I did not love my Fa- _ ther's voice, I loved a- far to roam. _ _
+v2: The Shep- herd sought _ His sheep, The Fa- ther sought _ His child They fol- lowed me o'er vale _ and hill, O'er des- erts waste and wild They found me nigh _ to death, Farm- ished and faint _ and lone They bound me with the bands _ of love, They saved the wan- d'ring one. _ _
+v3: Je- sus my Shep- _ herd is, 'Twas He that loved _ my soul, 'Twas He that washed me in _ His blood, 'Twas He that mede me whole 'Twas He that sought _ the lost, That found the wan- _ d'ring sheep, 'Twas He that brought me to _ the fold, 'Tis He that still doth keep. _ _
+v4: No more a wan- _ d'ring sheep, I love to be _ con- troll'd I love my ten- der Shep- _ herd's voice, I love to prace- ful fold, No more a way- _ ward child, I seek no more _ to roam I love my heav'n- ly Fa- _ ther's voice, I love, I love His home. A- men.

@@ -1,0 +1,46 @@
+{
+ "number": 228,
+ "old_number": 285,
+ "title_ko": "오 나의 주님 친히 뵈오니",
+ "title_en": "Here, O My Lord, I See Thee Face To Face",
+ "original_title": "Here, O My Lord, I See Thee Face to Face",
+ "theme": "성찬",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "에드워드 디얼 (Edward Dearle)",
+ "lyricist": "호레이쇼 보너 (Horatius Bonar) · 1808~1889",
+ "credit_line_in_file": {
+  "composer": "E.Dearle",
+  "lyricist": "H.Bonar"
+ },
+ "year": 1874,
+ "meter": "10.10.10.10",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1891; work dated 1874"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1889; work dated 1874"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "228장 오 나의 주님 친히 뵈오니.mscz",
+   "sha256": "e2f422e0d0667625d3d25a150418577ba333569dbebda597f116e0435a8327e0",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

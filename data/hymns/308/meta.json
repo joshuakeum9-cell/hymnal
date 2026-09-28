@@ -1,0 +1,46 @@
+{
+ "number": 308,
+ "old_number": "",
+ "title_ko": "내 평생 살아온 길",
+ "title_en": "When I Think of the Life Passed",
+ "original_title": "All My Life (Korean original)",
+ "theme": "은혜와사랑",
+ "key_table": "D",
+ "time_table": "3/4",
+ "composer": "김성혜 (Kim Sung-hae)",
+ "lyricist": "조용기 (Cho Yong-gi) · 1936~2021",
+ "credit_line_in_file": {
+  "composer": "김성혜",
+  "lyricist": "조용길"
+ },
+ "year": 1983,
+ "meter": "Irregular",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "308장 내 평생 살아온 길.mscz",
+   "sha256": "c6ced670e333ad4c68f60973c9ae6164ae5b540a2dbb6b73f5ede68c138c2893",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

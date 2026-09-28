@@ -1,0 +1,46 @@
+{
+ "number": 132,
+ "old_number": 38,
+ "title_ko": "주의 영광 빛나니",
+ "title_en": "Praise the Lord, His Glories Show",
+ "original_title": "Praise the Lord! His Glories Show",
+ "theme": "주현",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "로버트 윌리엄스 (Robert Williams)",
+ "lyricist": "헨리 프랜시스 라이트 (Henry Francis Lyte) · 1793~1847",
+ "credit_line_in_file": {
+  "composer": "R.Williams",
+  "lyricist": "H.F.Lyte"
+ },
+ "year": 1817,
+ "meter": "7.4.7.4 D (with hallelujahs)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1817, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1847; work dated 1817"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "132장 주의 영광 빛나니.mscz",
+   "sha256": "a7bdd2f21a801f2cefdf6f8535d91ad1e72e84c8c585f18afbff918ea5615db1",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

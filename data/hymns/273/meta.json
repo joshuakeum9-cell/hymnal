@@ -1,0 +1,46 @@
+{
+ "number": 273,
+ "old_number": 331,
+ "title_ko": "나 주를 멀리 떠났다",
+ "title_en": "I've Wandered Far Away From God",
+ "original_title": "Lord, I'm Coming Home (I've Wandered Far Away from God)",
+ "theme": "회개와사죄",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "윌리엄 제임스 커크패트릭 (William James Kirkpatrick)",
+ "lyricist": "윌리엄 제임스 커크패트릭 (William James Kirkpatrick) · 1838~1921",
+ "credit_line_in_file": {
+  "composer": "W.J.Kirkpatrick",
+  "lyricist": "W.J.Kirkpatrick"
+ },
+ "year": 1892,
+ "meter": "8.5.8.5 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1892, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1921; work dated 1892"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "273장 나 주를 멀리 떠났다.mscz",
+   "sha256": "354ec8764446cb9a07b9aa24cf34d197ef760fc208fb494c96af97089028a2f4",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

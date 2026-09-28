@@ -1,0 +1,46 @@
+{
+ "number": 140,
+ "old_number": 130,
+ "title_ko": "왕 되신 우리 주께",
+ "title_en": "All Glory, Laud and Honor",
+ "original_title": "All Glory, Laud, and Honor",
+ "theme": "종려주일",
+ "key_table": "C",
+ "time_table": "4/4",
+ "composer": "멜키오어 테슈너 / 멍크 편곡 (Melchior Teschner, arr. W. H. Monk)",
+ "lyricist": "오를레앙의 테오둘프 / J. M. 닐 영역 (Theodulph of Orleans, tr. John Mason Neale) · 760~821",
+ "credit_line_in_file": {
+  "composer": "M.Teschner/W.H.Monk",
+  "lyricist": "Theodulph of Orleans"
+ },
+ "year": 1614,
+ "meter": "7.6.7.6 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1635; work dated 1614"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1866; work dated 1614"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "140장 왕 되신 우리 주께.mscz",
+   "sha256": "23f7c200013c9d59a4c8f2d07130e698fec932296df5d268baa478cb2de55ed8",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

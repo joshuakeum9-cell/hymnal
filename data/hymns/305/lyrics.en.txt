@@ -1,0 +1,11 @@
+# 305 Amazing Grace! How Sweet the Sound!
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, exact, exact, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: A- maz- ing _ grace! how sweet the sound! That saved a _ wretch like me! I once _ was _ lost, but now _ am _ found Was blind, but _ now I see. _ _
+v2: 'Twas grace that _ taught my heart to fear, And grace my _ fears re- lieved. How pre- _ cious _ did that grace _ ap- _ pear The hour I _ First be- lieved! _ _
+v3: Thro' man- y _ dan- gers, toils, and snares I have al- _ read- y come. 'Tis grace _ hath _ bro't me safe _ thus _ far, And grace will _ lead me home. _ _
+v4: When we've been _ there ten thou- sand years, Bright shin- ing _ as the sun, We've no _ _ _ less days to _ _ _ sing God's praise Than _ when we first be- gun.

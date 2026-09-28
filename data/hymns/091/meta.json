@@ -1,0 +1,46 @@
+{
+ "number": 91,
+ "old_number": 91,
+ "title_ko": "슬픈 마음 있는 사람",
+ "title_en": "Take the Name of Jesus with You",
+ "original_title": "Take the Name of Jesus With You (Precious Name)",
+ "theme": "예수그리스도",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "윌리엄 H. 도언 (William H. Doane)",
+ "lyricist": "리디아 백스터 (Lydia Baxter) · 1809~1874",
+ "credit_line_in_file": {
+  "composer": "W.H.Doane",
+  "lyricist": "L.Baxter"
+ },
+ "year": 1871,
+ "meter": "8.7.8.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1871"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1874; work dated 1871"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "91장 슬픈 마음 있는 사람.mscz",
+   "sha256": "718f670c00a196fa5c4df851965f8c2cc24c463b69eb7f2099cd147259f47158",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

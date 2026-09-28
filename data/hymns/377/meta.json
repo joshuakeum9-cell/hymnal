@@ -1,0 +1,46 @@
+{
+ "number": 377,
+ "old_number": 451,
+ "title_ko": "전능하신 주 하나님",
+ "title_en": "Guide Me, O Thou Great Jehovah",
+ "original_title": "Guide Me, O Thou Great Jehovah (Cwm Rhondda tune)",
+ "theme": "인도와보호",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "J. 휴즈 (John Hughes)",
+ "lyricist": "윌리엄 윌리엄스 (William Williams) · 1717~1791",
+ "credit_line_in_file": {
+  "composer": "J.Hughes",
+  "lyricist": "W.Williams"
+ },
+ "year": 1907,
+ "meter": "8.7.8.7.8.7.7",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1932; work dated 1907"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1791; work dated 1907"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "377장 전능하신 주 하나님.mscz",
+   "sha256": "07872031f909302bfc53291eead7e96ec4e61449418d670157244d3c3646903f",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

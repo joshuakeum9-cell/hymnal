@@ -1,0 +1,46 @@
+{
+ "number": 368,
+ "old_number": 486,
+ "title_ko": "주 예수여 은혜를",
+ "title_en": "Heart Longings",
+ "original_title": "Heart Longings",
+ "theme": "기도와간구",
+ "key_table": "Eb",
+ "time_table": "6/4",
+ "composer": "작자 미상 (신증복음가, 1919) (Anonymous (Korean Sinjeung Bog'eum-ga, 1919))",
+ "lyricist": "작자 미상 (신증복음가, 1919) (Anonymous (Korean Sinjeung Bog'eum-ga, 1919))",
+ "credit_line_in_file": {
+  "composer": "Anonymous",
+  "lyricist": ""
+ },
+ "year": 1919,
+ "meter": "11.8.11.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 작자 미상 (신증복음가, 1919) (Anonymous (Korean Sinjeung Bog'eum-ga, 1919))"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 작자 미상 (신증복음가, 1919) (Anonymous (Korean Sinjeung Bog'eum-ga, 1919))"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "368장 주 예수여 은혜를.mscz",
+   "sha256": "f31e84a52cf503e5b8e5bb5665f1719cdaf298cb21c6e3c474d3f16c7d3e5a99",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

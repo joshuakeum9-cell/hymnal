@@ -1,0 +1,11 @@
+# 588 See the Birds That Fly the Heavens
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: See the birds that fly the hea- vens, How they nei- ther plow the earth. Nor yet gath- er for the store- house An- y fruits the ground brings forth. Yet your Heav'n- ly Fa- ther feeds them Then what fu- ture can you dread? _ You to Him so much more pre- cious, Shall you not like them be fed?
+v2: See the li- lies of the mea- dow, How they nei- ther toil nor spin. Yet their rai- ment makes the splen- dor Of King Sol- o- mon seem dim. Then shall God not colthe His child- ren, Whom He loves, for whom He years, _ If He so be- decks the grass- es Which the farm- er cuts and burns?
+v3: Be not an- xious for the fu- ture, What to eat or drink or wear, For such fool- ish fears and wor- ries Are th'un- b'live- ing gen- tiles' care. But your Heav'n- ly Fa- ther's boun- ty Bears you up on eag- les' wings, _ And be- fore you ask, your Fa- ther Knows you need of all these things.
+v4: Seek you first your Fa- ther's King- dom, And His right- eous- ness, and do Not your will but His, and sure- ly These things shall be add- ed, too. Be not an- xious for to- mor- row, Car- ry no day's bur- dens twice. _ God has planned that each days's trou- bles For their own day shall suf- fice.

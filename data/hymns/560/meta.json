@@ -1,0 +1,46 @@
+{
+ "number": 560,
+ "old_number": "",
+ "title_ko": "주의 발자취를 따름이",
+ "title_en": "In His Steps' I Follow",
+ "original_title": "",
+ "theme": "어린이",
+ "key_table": "D",
+ "time_table": "4/4",
+ "composer": "그랜트 C. 툴라 (Grant Colfax Tullar)",
+ "lyricist": "그랜트 C. 툴라 (Grant Colfax Tullar) · 1869~1950",
+ "credit_line_in_file": {
+  "composer": "G.C.Tullar",
+  "lyricist": "G.C.Tullar"
+ },
+ "year": null,
+ "meter": "9.9.9.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1950; work dated unknown"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1950; work dated unknown"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "560장 주의 발자취를 따름이.mscz",
+   "sha256": "49f801bbce1fa75f7aeece9cd99aa49fd3dfa678465ad5029763596ab9d36f82",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

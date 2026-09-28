@@ -1,0 +1,46 @@
+{
+ "number": 313,
+ "old_number": 352,
+ "title_ko": "내 임금 예수 내 주여",
+ "title_en": "Jesus, My King",
+ "original_title": "Jesus, My King, My Lord",
+ "theme": "소명과충성",
+ "key_table": "G",
+ "time_table": "6/8",
+ "composer": "J. R. 스위니 (John R. Sweney)",
+ "lyricist": "E. E. 휴이트 (Eliza E. Hewitt) · 1851~1920",
+ "credit_line_in_file": {
+  "composer": "J.R.Sweney",
+  "lyricist": "E.E.Hewitt"
+ },
+ "year": 1887,
+ "meter": "8.8.8.9.8.8",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1899; work dated 1887"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1920; work dated 1887"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "313장 내 임금 예수 내 주여.mscz",
+   "sha256": "9b65bafc46e7c70c522e56dbb0a0fa4440957287e77d7bd5e8bb68ef9d83e76b",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

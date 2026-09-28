@@ -1,0 +1,11 @@
+# 235 O, Think Of The Home Over There
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: O, think of the _ home o- ver there By the side of the ri- ver of light, Where the saints, all _ im- mortal and fair, _ Are rod- ed in their gar- ments of white. O- ver there, o- ver there, O _ think of the home o- ver there, O- ver there, o- ver there, o- ver there, O _ think of the home o- ver there.
+v2: O, think of the _ friends o- ver there Who be- fore us the jour- ney have trod, Of the songs that they breathe on the air _ In their home in the pal- ace of God. O- ver there, o- ver there, O _ think of the friends o- ver there, O- ver there, o- ver there, o- ver there, O _ think of the friends o- ver there.
+v3: My _ Sav- ior is now o- ver there, There my kindred and _ friends are at rest, Then a- way from my sor- row and care _ Let me fly to the land of the blest. O- ver there, o- ver there, My _ Sav- ior is now o- ver there, O- ver there, o- ver there, o- ver there, My _ Sav- ior is now o- ver there.
+v4: I'll _ soon be at home o- ver there, For the end of _ my jour- ney I see Man- y dear to my heart, o- ver _ there Are watch- ing and wait- ing for me O- ver there, o- ver there, I'll _ soon be at home o- ver there, O- ver there, o- ver there, o- ver there, I'll _ soon be at home o- ver there.

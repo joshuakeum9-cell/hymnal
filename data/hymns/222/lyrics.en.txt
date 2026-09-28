@@ -1,0 +1,11 @@
+# 222 God Be With You Till We Meet Again
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: God be with you till we meet a- gain, By His coun- sels guide, up- hold you, With His sheep se- cure- ly fold you: God be with you till we meet a- gain. _ _ Till _ we _ _ meet, till we _ _ meet, Till we _ meet _ at Je- _ sus' feet Till we meet, till we meet, God be with you till we meet a- gain.
+v2: God be with you till we meet a- gain, 'Neath His wings se- cure- ly hide you, Dai- ly man- na still pro- vide you: God be with you till we meet a- gain. _ _ Till _ we _ _ meet, till we _ _ meet, Till we _ meet _ at Je- _ sus' feet Till we meet, till we meet, God be with you till we meet a- gain.
+v3: God be with you till we meet a- gain, When li- fe's per- ils thick con- found you, Put His lov- ing arms a- round you: God be with you till we meet a- _ _ gain. Till we _ _ meet, till we _ _ meet, Till we _ meet _ at Je- _ sus' feet Till we meet, till we meet, God be with you till we meet a- gain.
+v4: God be with you till we meet a- gain, Keep lo- ve's ban- ner float- ing o'er you, Smite death's threat-'n- ing wave be- fore you: God be with you till we meet a- _ _ gain. Till we _ _ meet, till we _ _ meet, Till we _ meet _ at Je- _ sus' feet Till we meet, till we meet, God be with you till we meet a- gain.

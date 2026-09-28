@@ -1,0 +1,46 @@
+{
+ "number": 385,
+ "old_number": 435,
+ "title_ko": "못 박혀 죽으신",
+ "title_en": "My Faith Looks up to Thee",
+ "original_title": "Nailed to the Cross (Olivet)",
+ "theme": "인도와보호",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "로웰 메이슨 (Lowell Mason)",
+ "lyricist": "레이 파머 (Ray Palmer) · 1808~1887",
+ "credit_line_in_file": {
+  "composer": "L.Mason",
+  "lyricist": "R.Palmer"
+ },
+ "year": 1832,
+ "meter": "6.6.4.6.6.6.4",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1832, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1887; work dated 1832"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "385장 못 박혀 죽으신.mscz",
+   "sha256": "4be924cc5e77e9492ce398eb467ea1763ea9236b91c623c88bfe34c710945465",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

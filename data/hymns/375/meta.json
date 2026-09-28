@@ -1,0 +1,46 @@
+{
+ "number": 375,
+ "old_number": 421,
+ "title_ko": "나는 갈길 모르니",
+ "title_en": "Jesus, Savior, Pilot Me",
+ "original_title": "Pilot (Korean Hymn by Annie Baird)",
+ "theme": "인도와보호",
+ "key_table": "Ab",
+ "time_table": "3/4",
+ "composer": "J. E. 굴드 (John Edgar Gould)",
+ "lyricist": "안애리 (애니 L. A. 베어드) (Annie L. Adams Baird (배위량 부인)) · 1864~1916",
+ "credit_line_in_file": {
+  "composer": "J.E.Gould",
+  "lyricist": "A.A.Baird"
+ },
+ "year": 1871,
+ "meter": "7.7.7.7.7.7",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1875; work dated 1871"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1916; work dated 1871"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "375장 나는 갈길 모르니.mscz",
+   "sha256": "4acaabba976abbc5010e1e0e541ba028cb1bb0711830bcfd2586e2201b43e080",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,11 @@
+# 147 Were You There When You Crucified My Lord?
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: rough (per verse: rough, rough, rough, rough)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: O _ come and _ mourn _ with _ me a while O come ye to the Sav- _ iour's side _ _ _ O come, to- geth- _ _ _ er let us mourn: Je- sus, our _ Lord, is _ cru- _ ci- _ fied!
+v2: Have _ we no _ tears _ _ _ to shed for Him, While sol- diers mock and _ foes de- _ _ _ ride Ah! look how _ _ pa- tient- ly He hangs: Je- sus, our _ Lord, is _ cru- _ ci- _ fied!
+v3: Se- _ ven times _ He _ _ _ spake, se- ven words of love And all three _ hours His _ _ _ si- lence cried For mer- cy on the souls of men: Je- sus, our _ Lord, is _ cru- _ ci- _ fied!
+v4: O _ love of _ God, _ _ _ O sin of man! In _ this dread act _ your strength _ _ _ is tried, And vic- _ to- ry re- mains with love: Je- sus, our _ Lord, is _ cru- _ ci- _ fied!

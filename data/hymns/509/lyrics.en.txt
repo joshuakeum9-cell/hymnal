@@ -1,0 +1,10 @@
+# 509 Ring the Bells of Heaven
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Ring the bells of hea- ven! there is joy to- day, For a soul, re- turn- ing from the wild! See! the Fa- ther meets him out up- on the way, Wel- com- ing His wea- ry, wan- dering child. Glo- ry! glo- ry! how the an- gels sing Glo- ry! glo- ry! How the loud harps ring! 'Tis the ran- somed ar- my, like a might- y sea, Peal- ing forth the an- them of the free.
+v2: Ring the bells of hea- ven! there is joy to- day, For the wan- derer now is rec- on- ciled Yes, a soul is res- cued from his sin- ful way, And is born a- new a ran- somed child. Glo- ry! glo- ry! how the an- gels sing Glo- ry! glo- ry! How the loud harps ring! 'Tis the ran- somed ar- my, like a might- y sea, Peal- ing forth the an- them of the free.
+v3: Ring the bells of hea- ven! spread the feast to- day! An- gels, swell the glad tri- um- phant strain! Tell the joy- ful ti- dings, bear it far a- way! For a pre- cious soul is born a- gain. Glo- ry! glo- ry! how the an- gels sing Glo- ry! glo- ry! How the loud harps ring! 'Tis the ran- somed ar- my, like a might- y sea, Peal- ing forth the an- them of the free.

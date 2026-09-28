@@ -1,0 +1,46 @@
+{
+ "number": 467,
+ "old_number": "",
+ "title_ko": "높으신 주께서 낮아지심은",
+ "title_en": "From the Height He Came Down",
+ "original_title": "From the Height He Came Down (Korean original)",
+ "theme": "제자의도리",
+ "key_table": "G",
+ "time_table": "6/8",
+ "composer": "전희준 (Jeon Hee-jun)",
+ "lyricist": "박지혜 (Park Ji-hye) · 1942~?",
+ "credit_line_in_file": {
+  "composer": "전희준",
+  "lyricist": "박지혜"
+ },
+ "year": 1994,
+ "meter": "Irregular",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "467장 높으신 주께서 낮아지심은.mscz",
+   "sha256": "552b0316cb4e50b83d0f1b9ce29347bd27e16c4b4644d0336ca36915a4f9db4f",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

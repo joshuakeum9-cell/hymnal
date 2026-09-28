@@ -1,0 +1,46 @@
+{
+ "number": 356,
+ "old_number": 396,
+ "title_ko": "주 예수 이름 소리 높여",
+ "title_en": "War of the Soul",
+ "original_title": "War of the Soul",
+ "theme": "분투와승리",
+ "key_table": "D",
+ "time_table": "4/4",
+ "composer": "작자 미상 (신정찬송가, 1935) (Anonymous (Korean Sinjeong Chansongga, 1935))",
+ "lyricist": "작자 미상 (신정찬송가, 1935) (Anonymous (Korean Sinjeong Chansongga, 1935))",
+ "credit_line_in_file": {
+  "composer": "Anonymous",
+  "lyricist": "Anonymous"
+ },
+ "year": 1935,
+ "meter": "9.5.9.5 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 작자 미상 (신정찬송가, 1935) (Anonymous (Korean Sinjeong Chansongga, 1935))"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 작자 미상 (신정찬송가, 1935) (Anonymous (Korean Sinjeong Chansongga, 1935))"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "356장 주 예수 이름 소리 높여.mscz",
+   "sha256": "436899e38a66f86b977270ac8a16673a09ab00d8a26e41bec3b5c425574950bd",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

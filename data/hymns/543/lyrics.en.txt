@@ -1,0 +1,11 @@
+# 543 Simply Trusting Every Day
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, exact, auto, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Sim- ply trust- ing ev- -'ry day, Trust- ing through a storm- _ y way E- ven when my faith is small, Trust- _ ing Je- sus, that is all. Trust- ing as the mo- ments fly, Trust- ing as the days go by Trust- ing Him waht- e'er be- fall, Trust- ing Je- _ sus, that is all.
+v2: Bright- ly doth His Spir- it shine In- to this poor heart _ of mine While He leads I can- not fall Trust- _ ing Je- sus, that is all. Trust- ing as the mo- ments fly, Trust- ing as the days go by Trust- ing Him waht- e'er be- fall, Trust- ing Je- _ sus, that is all.
+v3: Sing- ing if my way is clear Pray- ing if the path be drear If in dan- ger, for Him call Trust- ing _ Je- sus, that is all. Trust- ing as the most- ing as the Trust- ing as the days go by Trust- ing Him waht- e'er be- fall, Trust- ing Je- _ sus, that is all.
+v4: Trust- ing Him whilst life shall last, Trust- ing Him till earth _ be past Till with- in the jas- per wall Trust- _ ing Je- sus, that is all. Trust- ing as the mo- ments fly, Trust- ing as the days go by Trust- ing Him waht- e'er be- fall, Trust- ing Je- _ sus, that is all.

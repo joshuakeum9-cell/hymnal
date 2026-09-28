@@ -1,0 +1,11 @@
+# 211 Master, No Offering Costly and Sweet
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Mas- ter, no of- fer- ing Cost- ly and sweet, May we, like Mag- da- lene, Lay at Thy feet Yet may lo- ve's in- cense rise, Sweet- er than sac- ri- fice, _ Dear Lord, to _ Thee, Dear Lord, to Thee. _ _
+v2: Dai- ly our lives would show Weak- ness made strong, Toil- some and gloom- y ways Bright- ened with song Some deeds of kind- ness done, Some souls by pa- tience won, Dear _ Lord, to Thee, _ _ Dear Lord, to Thee. _ _
+v3: Some word of hope for hearts Bur- dened with fears, Some balm of peace for eyes Blind- ed with tears Some dews of mer- cy shed, Some way- ward foot- step sled, Dear _ Lord, to Thee, _ _ Dear Lord, to Thee. _ _
+v4: Thus, in Thy serv- ice, Lord Till e- ven- tide Clos- es the day of life, May we a- bide And when earth's la- bours cease, Bid us de- part in peace, Dear _ Lord, to Thee, _ _ Dear Lord, to Thee. A- men.

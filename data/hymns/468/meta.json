@@ -1,0 +1,46 @@
+{
+ "number": 468,
+ "old_number": "",
+ "title_ko": "큰 사랑의 새 계명을",
+ "title_en": "Your New Command to Live with Love",
+ "original_title": "A New Commandment of Great Love (Korean original)",
+ "theme": "제자의도리",
+ "key_table": "G",
+ "time_table": "6/8",
+ "composer": "정유성 (Jung Yu-seong)",
+ "lyricist": "신귀령 (Shin Gwi-ryeong)",
+ "credit_line_in_file": {
+  "composer": "정두영",
+  "lyricist": "신세원"
+ },
+ "year": 1994,
+ "meter": "8.8.8.8.D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "468장 큰 사랑의 새 계명을.mscz",
+   "sha256": "4c190503eaba6529c4a688f5fcd62c5af851d36fd900207f0fa008fe9b90e8bf",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

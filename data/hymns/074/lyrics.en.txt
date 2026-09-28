@@ -1,0 +1,10 @@
+# 74 O God, the Rock of Ages
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: O God, the Rock of A- ges, Who ev- er- more hast been, What time the tem- pest ra- ges, Our dwell- ing place se- rene: Be- fore Thy first cre- _ a- tions, O Lord, the same as now, To end- less gen- er- a- tions The Ev- er- last- ing Thou! _ _
+v2: Our years are like the shad- ows On sun- ny hills that lie, Or grass- es in the mead- ows That blos- som but to die A sleep, a dream, a _ sto- ry, By stran- gers quick- ly told, An un- re- main- ing glo- ry Of things that soon are old. _ _
+v3: O Thou, who dost not slum- ber, Whose light grows nev- er pale, Teach us a- right to num- ber Our years be- fore they fail On us Thy mer- cy _ light- en, On us Thy good- ness rest, And let Thy Spir- it bright- en The hearts Thy- self hast blessed. A- men.

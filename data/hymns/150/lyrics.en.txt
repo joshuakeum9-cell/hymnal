@@ -1,0 +1,11 @@
+# 150 On a Hill Far Away
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: On a hill for a- way stood an old rug- ged cross, The em- blem _ of suf- fering and shame And I love that old cross where the dear- est and best For a world of lost sin- ners was slain. So I'll cher- ish the old rug- ged cross, Till my tro- phies at last I lay down I will cling to the old rug- ged cross, And ex- change it come day for a crown.
+v2: Oh, that old rug- ged cross, so de- spised by the world, Has a won- _ drou at- trac- tion for me For the dear Lamb of God left His glo- ry a- bove To- bear it to dark Cal- va- ry. So I'll cher- ish the old rug- ged cross, Till my tro- phies at last I lay down I will cling to the old rug- ged cross, And ex- change it come day for a crown.
+v3: In the old rug- ged cross, stained, with blood so di- vine, A- Won- drous _ beau- ty I see For 'twas on that _ old cross Je- sus suf- _ fered and died To- par- don and sanc- ti- fy me. So I'll cher- ish the old rug- ged cross, Till my tro- phies at last I lay down I will cling to the old rug- ged cross, And ex- change it come day for a crown.
+v4: To the old rug- ged cros- s,I will ev- er be true, Its- shame and _ re- proach glad- ly bear Then He'll call me some day to my home far a- way, Where His glo- ry for- ev- er I'll share. So I'll cher- ish the old rug- ged cross, Till my tro- phies at last I lay down I will cling to the old rug- ged cross, And ex- change it come day for a crown.

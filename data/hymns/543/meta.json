@@ -1,0 +1,46 @@
+{
+ "number": 543,
+ "old_number": 342,
+ "title_ko": "어려운 일 당할 때",
+ "title_en": "Simply Trusting Every Day",
+ "original_title": "Simply Trusting Every Day (Trusting Jesus)",
+ "theme": "믿음과확신",
+ "key_table": "G",
+ "time_table": "6/8",
+ "composer": "아이라 D. 생키 (Ira David Sankey)",
+ "lyricist": "에드거 P. 스타이츠 (Edgar Page Stites) · 1836~1921",
+ "credit_line_in_file": {
+  "composer": "I.D.Sankey",
+  "lyricist": "E.P.Stites"
+ },
+ "year": 1876,
+ "meter": "7.7.7.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1908; work dated 1876"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1921; work dated 1876"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "543장 어려운 일 당할 때.mscz",
+   "sha256": "5ddd70652fd642d0c7487c758362047e90f1d11bbe5f30587a71e1e0b993c1a3",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

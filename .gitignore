@@ -1,0 +1,7 @@
+node_modules/
+dist/
+work/
+public/hymns/
+src/generated/
+*.log
+.DS_Store

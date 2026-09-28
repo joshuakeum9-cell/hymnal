@@ -1,0 +1,46 @@
+{
+ "number": 10,
+ "old_number": 34,
+ "title_ko": "전능왕 오셔서",
+ "title_en": "Come, Thou Almighty King",
+ "original_title": "Come, Thou Almighty King",
+ "theme": "경배",
+ "key_table": "G",
+ "time_table": "3/4",
+ "composer": "펠리체 데 지아르디니 (Felice de Giardini)",
+ "lyricist": "익명 (Anonymous)",
+ "credit_line_in_file": {
+  "composer": "F.de Giardini",
+  "lyricist": "Anonymous"
+ },
+ "year": 1769,
+ "meter": "6.6.4.6.6.6.4",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1796; work dated 1769"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 익명 (Anonymous)"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "10장 전능왕 오셔서.mscz",
+   "sha256": "2afde8619ca50f1ee554b8361e2dab1dd2dc7bc357a959329abc541e2b3e4d9f",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

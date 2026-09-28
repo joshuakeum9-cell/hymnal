@@ -1,0 +1,8 @@
+# 1 Praise God from Whom All Blessings Flow
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Praise God from whom all bless- ings flow; Praise Him, all crea- tures here be- low; Praise Him a- bove, ye heav'n- ly host; Praise Fa- ther, Son, and Ho- ly Ghost. A- men.

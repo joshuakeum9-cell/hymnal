@@ -1,0 +1,8 @@
+# 6 Now to the King of Heav'n
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Now to the King of heav'n Your cheer- ful voic- es raise; To Him be glo- ry giv'n, Pow'r, maj- es- ty and praise; Wide as _ _ He reigns His name be sung By ev- ery tongue in end- less strains.

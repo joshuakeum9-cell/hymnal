@@ -1,0 +1,46 @@
+{
+ "number": 156,
+ "old_number": "",
+ "title_ko": "머리에 가시관 붉은 피 흐르는",
+ "title_en": "Look Up, Lord Jesus Christ",
+ "original_title": "The Bleeding Brow with Thorns (Korean original)",
+ "theme": "고난",
+ "key_table": "Gm",
+ "time_table": "3/4",
+ "composer": "황철익 (Hwang Cheol-ik (충남 청양))",
+ "lyricist": "반병섭 (악보 표기 한명성 가능) (Ban Byeong-seop (악보 표기 한명성))",
+ "credit_line_in_file": {
+  "composer": "황철익",
+  "lyricist": "반병섭"
+ },
+ "year": 2000,
+ "meter": "irregular",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "156장 머리에 가시관 붉은 피 흐르는.mscz",
+   "sha256": "002c1a54d5f01a56f7b5aec6dde7a69a2364f7b07c4cb4b11a7e425b0d68973f",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

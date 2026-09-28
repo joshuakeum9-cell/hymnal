@@ -1,0 +1,46 @@
+{
+ "number": 434,
+ "old_number": 491,
+ "title_ko": "귀하신 친구 내게 계시니",
+ "title_en": "I Have a Friend",
+ "original_title": "I'm Happy in Jesus Today",
+ "theme": "주와동행",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "C. H. 그린 (C. H. Greene)",
+ "lyricist": "C. H. 그린 (C. H. Greene)",
+ "credit_line_in_file": {
+  "composer": "C.Wesley Hicks/A.B.Smith",
+  "lyricist": "C.H.Greene"
+ },
+ "year": 1915,
+ "meter": "10.8.10.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1915, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1915, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "434장 귀하신 친구 내게 계시니.mscz",
+   "sha256": "875ac2a9b0409a7f580be2871e23e73b1e4239871278b2dc51ad9b9470cd47f6",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

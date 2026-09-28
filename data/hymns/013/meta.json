@@ -1,0 +1,46 @@
+{
+ "number": 13,
+ "old_number": "",
+ "title_ko": "영원한 하늘나라",
+ "title_en": "Eternal Kingdom of God",
+ "original_title": "",
+ "theme": "경배",
+ "key_table": "D",
+ "time_table": "4/4",
+ "composer": "김의작 (Kim Eui-jak)",
+ "lyricist": "김윤국 (Kim Yun-guk) · 1922~?",
+ "credit_line_in_file": {
+  "composer": "김의작",
+  "lyricist": "김윤국"
+ },
+ "year": 1990,
+ "meter": "Irregular",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "13장 영원한 하늘나라.mscz",
+   "sha256": "da446ea3bad1be32ce0e74fe798c2a12f1b5e183137532d46249cb996cc91687",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

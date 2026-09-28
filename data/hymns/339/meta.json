@@ -1,0 +1,46 @@
+{
+ "number": 339,
+ "old_number": 365,
+ "title_ko": "내 주님 지신 십자가",
+ "title_en": "Must Jesus Bear The Cross Alone",
+ "original_title": "Must Jesus Bear the Cross Alone",
+ "theme": "시련과극복",
+ "key_table": "Ab",
+ "time_table": "6/4",
+ "composer": "G. N. 앨런 (George N. Allen)",
+ "lyricist": "T. 셰퍼드 (Thomas Shepherd) · 1665~1739",
+ "credit_line_in_file": {
+  "composer": "G.N.Allen",
+  "lyricist": "T.Shepherd"
+ },
+ "year": 1844,
+ "meter": "8.6.8.6 (Common Meter)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1877; work dated 1844"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1739; work dated 1844"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "339장 내 주님 지신 십자가.mscz",
+   "sha256": "da909ce774be3e1ad38c5f77df2d996de2b418bbda00324eac74e8a7dfb2e1ab",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

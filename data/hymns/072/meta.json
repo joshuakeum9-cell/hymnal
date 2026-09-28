@@ -1,0 +1,46 @@
+{
+ "number": 72,
+ "old_number": "",
+ "title_ko": "만왕의 왕 앞에 나오라",
+ "title_en": "Come Now, and Lift Up Your Hearts and Sing",
+ "original_title": "Come Before the King of Kings",
+ "theme": "창조주",
+ "key_table": "A",
+ "time_table": "4/4",
+ "composer": "남인도 카르나틱 민요(I-to Loh 편곡) (Karnatic Folk Melody (arr. I-to Loh))",
+ "lyricist": "익명 (Anonymous)",
+ "credit_line_in_file": {
+  "composer": "Karnatic Hymn Melody",
+  "lyricist": "Anonymous"
+ },
+ "year": null,
+ "meter": "Irregular",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 남인도 카르나틱 민요(I-to Loh 편곡) (Karnatic Folk Melody (arr. I-to Loh))"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 익명 (Anonymous)"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "72장 만왕의 왕 앞에 나오라.mscz",
+   "sha256": "b51fdbd759cf1336cb703d39487aec47a66f2e9a393d6c9820f4d7cc85027297",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

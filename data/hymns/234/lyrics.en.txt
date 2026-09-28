@@ -1,0 +1,12 @@
+# 234 There Is A Gate Where Angels Wait
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, auto, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: There is a gate where an- gels wait, And through it we'll go throng- ing In rap- ture when Christ comes a- gain For us to Him be- long- ing. Oh, heav'n- ly home, Oh joy re- stor'd! Oh, beau- ty, glo- ry Grace out- pour'd! E- ter- ni- ty _ With Je- sus Christ our Lord!
+v2: When we as- cend where thou- bles end Death dead li- fe's wa- ters flow- ing! With Christ we'll be e- ter- nal- ly, In peace be- yond all know- ing. Oh, heav'n- ly home, Oh joy re- stor'd! Oh, beau- ty, glo- ry Grace out- pour'd! E- ter- ni- ty With Je- sus Christ our Lord!
+v3: No need for light of moon by night, Nor sun nor lamp in heav- en. A ra- diance there than stars more fair To all the blest is giv- en. Oh, heav'n- ly home, Oh joy re- stor'd! Oh, beau- ty, glo- ry Grace out- pour'd! E- ter- ni- ty _ With Je- sus Christ our Lord!
+v4: No tem- ples raise such love- ly praise As heav- en's an- thems num- ber, Where harp and voice as one re- joice, And prais- es nev- er slum- ber. Oh, heav'n- ly home, Oh joy re- stor'd! Oh, beau- ty, glo- ry Grace out- pour'd! E- ter- ni- ty _ With Je- sus Christ our Lord!
+v5: There ev- -'ry race from ev- -'ry place Shall join the an- gels glo- rious, And voic- es raise in end- less praise, Un- to the Lamb vic- to- rious! Oh, heav'n- ly home, Oh joy re- stor'd! Oh, beau- ty, glo- ry Grace out- pour'd! E- ter- ni- ty _ With Je- sus Christ our Lord!

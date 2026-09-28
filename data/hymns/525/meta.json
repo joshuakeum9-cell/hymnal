@@ -1,0 +1,46 @@
+{
+ "number": 525,
+ "old_number": 315,
+ "title_ko": "돌아와 돌아와",
+ "title_en": "Come Home! Come Home",
+ "original_title": "Come Home (The Prodigal Child)",
+ "theme": "부르심과영접",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "윌리엄 H. 도언 (William Howard Doane)",
+ "lyricist": "엘렌 M. H. 게이츠 (Ellen Maria Huntington Gates) · 1835~1920",
+ "credit_line_in_file": {
+  "composer": "W.H.Doane",
+  "lyricist": "E.H.Gates"
+ },
+ "year": 1869,
+ "meter": "6.6.6.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1869, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1920; work dated 1869"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "525장 돌아와 돌아와.mscz",
+   "sha256": "d6bfdee26789256228f10af2b5563d543a59015149d8be230476852e303f37a5",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

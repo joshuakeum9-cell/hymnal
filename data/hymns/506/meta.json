@@ -1,0 +1,46 @@
+{
+ "number": 506,
+ "old_number": "",
+ "title_ko": "땅 끝까지 복음을",
+ "title_en": "God's Good News to All the Earth",
+ "original_title": "",
+ "theme": "세계선교",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "김성요 (김성요)",
+ "lyricist": "김순신 (김순신)",
+ "credit_line_in_file": {
+  "composer": "김정일",
+  "lyricist": "김순권"
+ },
+ "year": 2005,
+ "meter": "7.7.7.6 with refrain",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "506장 땅 끝까지 복음을.mscz",
+   "sha256": "f3c913ffb69cd852639e21e7d5f05bad243296573ac3f1a7cb5e5ebddb449593",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

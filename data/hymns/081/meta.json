@@ -1,0 +1,46 @@
+{
+ "number": 81,
+ "old_number": 452,
+ "title_ko": "주는 귀한 보배",
+ "title_en": "Jesus, Priceless Treasure",
+ "original_title": "Jesus, Priceless Treasure",
+ "theme": "예수그리스도",
+ "key_table": "Cm",
+ "time_table": "4/4",
+ "composer": "요한 크뤼거 (Johann Crüger)",
+ "lyricist": "요한 프랑크 (Johann Franck) · 1618~1677",
+ "credit_line_in_file": {
+  "composer": "J.Cruger",
+  "lyricist": "J.Frank"
+ },
+ "year": 1653,
+ "meter": "6.6.5.6.6.5.7.8.6",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1653, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1677; work dated 1653"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "81장 주는 귀한 보배.mscz",
+   "sha256": "effe9967cb4be20eb6426f338b378029938bbd0d095e3fcb8e2b8e6229137a9b",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

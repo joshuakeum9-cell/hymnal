@@ -1,0 +1,46 @@
+{
+ "number": 451,
+ "old_number": 504,
+ "title_ko": "예수 영광 버리사",
+ "title_en": "Looking unto Jesus",
+ "original_title": "Jesus, Empty of His Glory (Korean text)",
+ "theme": "제자의도리",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "우자이아 C. 버냅 (Uzziah Christopher Burnap)",
+ "lyricist": "민로아 (프레더릭 S. 밀러) (Frederick Scheibler Miller) · 1866~1937",
+ "credit_line_in_file": {
+  "composer": "U.C.Burnap",
+  "lyricist": "F.S.Miller"
+ },
+ "year": 1869,
+ "meter": "7.7.7.5",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1900; work dated 1869"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1937; work dated 1869"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "451장 예수 영광 버리사.mscz",
+   "sha256": "c099050b695891ecf2a99f5a2b301851f2180e36646c3671502ac2532b6206a2",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

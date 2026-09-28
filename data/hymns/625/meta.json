@@ -1,0 +1,46 @@
+{
+ "number": 625,
+ "old_number": "",
+ "title_ko": "거룩 거룩 거룩한 하나님",
+ "title_en": "Holy, Holy, Holy",
+ "original_title": "Sanctus",
+ "theme": "경배와찬양",
+ "key_table": "Gm",
+ "time_table": "3/4",
+ "composer": "윌리엄 팔리 스미스 (William Farley Smith)",
+ "lyricist": "Sanctus",
+ "credit_line_in_file": {
+  "composer": "W.F.Smith",
+  "lyricist": "Sanctus"
+ },
+ "year": null,
+ "meter": "IRREG.",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "unknown",
+   "basis": "no dates found; check the printed credit line"
+  },
+  "text_en": {
+   "status": "unknown",
+   "basis": "no dates found; check the printed credit line"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "625장 거룩 거룩 거룩한 하나님.mscz",
+   "sha256": "aa8d41cd5cc951a718ae7224cd0ca38aaf1efbee515686066e09f3efea1234d1",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

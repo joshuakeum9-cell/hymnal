@@ -1,0 +1,11 @@
+# 329 Lord, Speak to Me
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Lord, speak to me, that _ I may _ speak In liv- ing ech- oes of Thy tone As Thou hast sought, so _ let me _ seek Thy err- ing chil- dren _ lost and lone. _ _
+v2: Oh, lead me, Lord, that _ I may _ lead The wan- d'ring and the wa- v'ring feet Oh, feed me, Lord, that _ I may _ feed Thy hun- g'ring ones with _ man- na sweet. _ _
+v3: Oh, strength- en me, that _ while I _ stand Firm on the rock, and strong in Thee, I may stretch out a _ lov- ing _ hand To wres- tlers with the _ trou- bled sea! _ _
+v4: Oh, use me, Lord, use _ e- ven _ me, Just as Thou wilt, and when, and where Un- til Thy bless- ed _ face I _ see, Thy rest, Thy joy, Thy _ glo- ry share. A- men.

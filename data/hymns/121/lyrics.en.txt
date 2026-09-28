@@ -1,0 +1,10 @@
+# 121 On The Day Of Jesus' Birth
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, exact, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: On the day of Je- sus' birth Glo- ry filled the shep- herds' view An- gel prais- es filled the earth, "Christ is born! It's real- ly true!" King for me and King for you! Ev- ery- bod- y, sing and pray. Je- sus Christ is born! It's true, Born in Beth- le- hem to- day!
+v2: Fast the shep- herds ran to see Off to Beth- le- hem they flew. "Who can this new Ba- by be "Christ is born! It's real- ly true!" King for me and King for you! Ev- ery- bod- y, sing and pray. Je- sus Christ is born! It's true, Born in Beth- le- hem to- day!
+v3: Like the shep- herds,let us bow Let us wor- ship Je- sus too. "Yes! In _ Da- vid's cit- y now" "Christ is born! It's real- ly true!" King for me and King for you! Ev- ery- bod- y, sing and pray. Je- sus Christ is born! It's true, Born in Beth- le- hem to- day!

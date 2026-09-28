@@ -1,0 +1,46 @@
+{
+ "number": 26,
+ "old_number": 14,
+ "title_ko": "구세주를 아는 이들",
+ "title_en": "Praise the Savior, Ye Who Know Him",
+ "original_title": "Praise the Saviour, Ye Who Know Him",
+ "theme": "찬양",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "독일 전래 멜로디 (Traditional German Melody)",
+ "lyricist": "토머스 켈리 (Thomas Kelly) · 1769~1855",
+ "credit_line_in_file": {
+  "composer": "German Melody",
+  "lyricist": "T.Kelly"
+ },
+ "year": null,
+ "meter": "8.8.8.5",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 독일 전래 멜로디 (Traditional German Melody)"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1855; work dated unknown"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "26장 구세주를 아는 이들.mscz",
+   "sha256": "e83f5aff15ac5ee4ea057ca1f5a1adf90846268202fcf47dde4921357dd1907e",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

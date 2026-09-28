@@ -1,0 +1,11 @@
+# 15 Love Divine, All Loves Excelling
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Love di- vine, all loves ex- _ cel- ling, Joy of heav'n, to earth come _ down! Fix in us Thy hum- ble _ dwell- ing All Thy faith- ful mer- cies _ crown. Je- sus, Thou art all com- _ pas- sion Pure, un- bound- ed love Thou _ art. Vis- it us with Thy sal- _ va- tion En- ter ev- -'ry trem- bling _ heart. _ _
+v2: Breathe, oh, breathe Thy lov- ing _ Spir- it In- to ev- -'ry trou- bled _ breast! Let us all in Thee in- _ her- it Let us find that sec- ond _ rest. Take a- way our bent to _ sin- ning Al- pha and O- me- ga _ be. End of faith, as its Be- _ gin- ning, Set our hearts at lib- er- _ ty. _ _
+v3: Come, Al- might- y to De- _ liv- er Let us all Thy life re- _ ceive. Sud- den- ly re- turn, and _ nev- er, Nev- er- more Thy tem- ples _ leave. Thee we would be al- ways _ bless- ing, Serve Thee as Thy hosts a- _ bove, Pray, and praise Thee with- out _ ceas- ing, Glo- ry in Thy per- fect _ love. _ _
+v4: Fin- ish then Thy new cre- _ a- tion Pure and spot- less let us _ be. Let us sea Thy great sal- _ va- tion, Per- fect- ly re- stored in _ Thee: Changed from glo- ry in- to _ glo- ry, Till in hea'n we take our _ place, Till we cast our crowns be- _ fore Thee, Lost in won- der, love, and _ praise. A- men.

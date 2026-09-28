@@ -1,0 +1,46 @@
+{
+ "number": 364,
+ "old_number": 482,
+ "title_ko": "내 기도하는 그 시간",
+ "title_en": "Sweet Hour of Prayer",
+ "original_title": "Sweet Hour of Prayer",
+ "theme": "기도와간구",
+ "key_table": "Db",
+ "time_table": "6/8",
+ "composer": "W. B. 브래드버리 (William B. Bradbury)",
+ "lyricist": "W. W. 월포드 (William W. Walford) · 1772~1850",
+ "credit_line_in_file": {
+  "composer": "W.B.Bradbury",
+  "lyricist": "W.W.Walford"
+ },
+ "year": 1861,
+ "meter": "8.8.8.8.D (Long Meter Double)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1868; work dated 1861"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1850; work dated 1861"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "364장 내 기도하는 그 시간.mscz",
+   "sha256": "42850754cd0c0d081b65edc06de42287facfea09dbe8e7cc673ae42ffb7bfa20",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

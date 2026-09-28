@@ -1,0 +1,46 @@
+{
+ "number": 483,
+ "old_number": 532,
+ "title_ko": "구름 같은 이 세상",
+ "title_en": "Lord, I Care Not for Riches",
+ "original_title": "Is My Name Written There?",
+ "theme": "미래와소망",
+ "key_table": "Ab",
+ "time_table": "3/4",
+ "composer": "프랭크 매리언 데이비스 (Frank Marion Davis)",
+ "lyricist": "메리 앤 키더 (Mary Ann Kidder) · 1820~1905",
+ "credit_line_in_file": {
+  "composer": "F.M.Davis",
+  "lyricist": "M.A.Kidder"
+ },
+ "year": 1876,
+ "meter": "13.13.13.13 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1896; work dated 1876"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1905; work dated 1876"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "483장 구름 같은 이 세상.mscz",
+   "sha256": "adf1e11b2baef0f3e58074c2d6639ca0c3f60cfdd8580cce26c785016ce2373c",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

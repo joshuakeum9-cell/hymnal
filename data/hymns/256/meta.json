@@ -1,0 +1,46 @@
+{
+ "number": 256,
+ "old_number": "",
+ "title_ko": "나의 죄 모두 지신주님",
+ "title_en": "Lord, Jesus bore the Cross for Our Sins",
+ "original_title": "",
+ "theme": "회개와용서",
+ "key_table": "Dm",
+ "time_table": "3/4",
+ "composer": "오소운 (오소운)",
+ "lyricist": "오소운 (오소운)",
+ "credit_line_in_file": {
+  "composer": "오소운",
+  "lyricist": "오소운"
+ },
+ "year": 1998,
+ "meter": "5.4.5.4.D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "256장 나의 죄 모두 지신주님.mscz",
+   "sha256": "5f8d27e9babf683af0b893795962396e8c4a5fc328df93204d39c7a6444841c8",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

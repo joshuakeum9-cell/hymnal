@@ -1,0 +1,46 @@
+{
+ "number": 466,
+ "old_number": "",
+ "title_ko": "죽기까지 사랑하신 주",
+ "title_en": "Greater Love Has No Man",
+ "original_title": "Greater Love Has No One Than This",
+ "theme": "제자의도리",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "자크 베버 (Jacques Weber)",
+ "lyricist": "미상 (Anonymous)",
+ "credit_line_in_file": {
+  "composer": "J.Weber",
+  "lyricist": "J.Weber"
+ },
+ "year": 1970,
+ "meter": "Irregular",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "work dated 1970, may still be in copyright"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 미상 (Anonymous)"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "466장 죽기까지 사랑하신 주.mscz",
+   "sha256": "cd66a10ede4599e6a2b7e2f925e788cbb4ba15795de9371378643d7b3625ce5e",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 409,
+ "old_number": "",
+ "title_ko": "나의 기쁨은 사랑의 주님께",
+ "title_en": "In the Lord of Love May My Joy",
+ "original_title": "My Joy Is in the Lord of Love (Korean original)",
+ "theme": "평안과위로",
+ "key_table": "Eb",
+ "time_table": "6/8",
+ "composer": "전낙표 (Jeon Nak-pyo)",
+ "lyricist": "엄문용 (Um Mun-yong)",
+ "credit_line_in_file": {
+  "composer": "전낙표",
+  "lyricist": "엄문용"
+ },
+ "year": 2005,
+ "meter": "Irregular",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "409장 나의 기쁨은 사랑의 주님께.mscz",
+   "sha256": "d89d37615ce30779bf50b2785a73ce66085186e4b83df73cf3e819c4d57e1f7e",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

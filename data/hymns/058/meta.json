@@ -1,0 +1,46 @@
+{
+ "number": 58,
+ "old_number": 66,
+ "title_ko": "지난 밤에 보호하사",
+ "title_en": "Morning Hymns",
+ "original_title": "Korean Hymn (Morning) with Weber Tune",
+ "theme": "아침과저녁",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "카를 마리아 폰 베버 (Carl Maria von Weber (arr. L. Mason))",
+ "lyricist": "한국 익명 (Korean Brethren (Anonymous))",
+ "credit_line_in_file": {
+  "composer": "C.M. von Weber/L.Mason",
+  "lyricist": "Anonymous"
+ },
+ "year": 1900,
+ "meter": "8.7.8.7",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1826; work dated 1900"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 한국 익명 (Korean Brethren (Anonymous))"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "58장 지난 밤에 보호하사.mscz",
+   "sha256": "3d4d4f0272e5353978a1658cb545a09365ecb31b931e01f1b1c0ce8735ae3653",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

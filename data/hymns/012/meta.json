@@ -1,0 +1,46 @@
+{
+ "number": 12,
+ "old_number": 22,
+ "title_ko": "다 함께 주를 경배하세",
+ "title_en": "Jehovah, Let Me Now Adore Thee",
+ "original_title": "Jehovah, Let Me Now Adore Thee (Dir, dir, Jehova)",
+ "theme": "경배",
+ "key_table": "C",
+ "time_table": "4/4",
+ "composer": "요한 A. 프라일링하우젠 (Johann A. Freylinghausen (Halle Gesangbuch))",
+ "lyricist": "바르톨로메우스 크라셀리우스 (Bartholomäus Crasselius) · 1667~1724",
+ "credit_line_in_file": {
+  "composer": "J.A.Freylinghausen",
+  "lyricist": "B.Crasselius"
+ },
+ "year": 1704,
+ "meter": "9.10.9.10.10.10",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 요한 A. 프라일링하우젠 (Johann A. Freylinghausen (Halle Gesangbuch))"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1724; work dated 1704"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "12장 다 함께 주를 경배하세.mscz",
+   "sha256": "b16ecf5bdd674b3bdc9b83a68540615d606ebb999f7fd335d1dc84054dd23bb4",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

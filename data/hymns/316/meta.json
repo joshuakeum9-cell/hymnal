@@ -1,0 +1,46 @@
+{
+ "number": 316,
+ "old_number": "",
+ "title_ko": "주여 나의 생명",
+ "title_en": "O Lord, All My Life and Dedication",
+ "original_title": "O Lord, My Life (Korean original)",
+ "theme": "소명과충성",
+ "key_table": "D",
+ "time_table": "4/4",
+ "composer": "김보훈 (Kim Bo-hoon)",
+ "lyricist": "김보훈 (Kim Bo-hoon) · 1932~?",
+ "credit_line_in_file": {
+  "composer": "김보훈",
+  "lyricist": "김보훈"
+ },
+ "year": 1968,
+ "meter": "Irregular",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "316장 주여 나의 생명.mscz",
+   "sha256": "2cdd9a77425a9d5dbe87a7963004671cc9d62166ad323f93f8ada44671965456",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

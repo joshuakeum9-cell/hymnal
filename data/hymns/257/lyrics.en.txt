@@ -1,0 +1,11 @@
+# 257 I Can Sing Now the Song
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: I can sing now the song Of the blood- ransomed throng In my soul There is peace, rest and _ calm I am free from all doubt, And I join in the shout, I'm re- deemed by the blood of the Lamb. I'm re- deemed, I'm re- deemed, Je- sus saves me and keeps me just now, Hal- le- lu- jah, And I join with the throng round the throne In the song, I'm re- deemed by the blood of the Lamb.
+v2: Oh! I know I'm a- live In the Lord, and I strive Un- to blood with the sun that would damn As I walk in the light There is strength for the fight, I'm re- deemed by the blood of the Lamb. I'm re- deemed, I'm re- deemed, Je- sus saves me and keeps me just now, Hal- le- lu- jah, And I join with the throng round the throne In the song, I'm re- deemed by the blood of the Lamb.
+v3: I have grace for the day, I have help by the way There is healing and com- fort- ing balm For my sick- ness the- re's health, For my pov- er- ty wealth, I'm re- deemed by the blood of the Lamb. I'm re- deemed, I'm re- deemed, Je- sus saves me and keeps me just now, Hal- le- lu- jah, And I join with the throng round the throne In the song, I'm re- deemed by the blood of the Lamb.
+v4: In the storm and the night, In the midst of the fight Je- sus puts in my hand vic- t'ry's palm O- ver- com- ing all foes, In the Lord I re- pose, I'm re- deemed by the blood of the Lamb. I'm re- deemed, I'm re- deemed, Je- sus saves me and keeps me just now, Hal- le- lu- jah, And I join with the throng round the throne In the song, I'm re- deemed by the blood of the Lamb.

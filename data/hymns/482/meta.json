@@ -1,0 +1,46 @@
+{
+ "number": 482,
+ "old_number": 49,
+ "title_ko": "참 즐거운 노래를",
+ "title_en": "Sing on, Ye Joyful Pilgrims!",
+ "original_title": "Sing On",
+ "theme": "미래와소망",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "존 R. 스위니 (John Robson Sweney)",
+ "lyricist": "C. M. 윌슨 (Christopher Maitland Wilson)",
+ "credit_line_in_file": {
+  "composer": "J.R.Sweney",
+  "lyricist": "C.M.Wilson"
+ },
+ "year": 1894,
+ "meter": "7.6.7.6.D with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1899; work dated 1894"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1894, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "482장 참 즐거운 노래를.mscz",
+   "sha256": "f11418cd0e7eb34f3f57d1c9bda571987aac8845de4d7ce24b08db361a409d0b",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 622,
+ "old_number": "",
+ "title_ko": "거룩한 밤",
+ "title_en": "O Holy Night!",
+ "original_title": "O Holy Night (Cantique de Noël / Minuit, chrétiens)",
+ "theme": "경배와찬양",
+ "key_table": "C",
+ "time_table": "4/4",
+ "composer": "아돌프 아당 (Adolphe Adam)",
+ "lyricist": "플라시드 카포 (Placide Cappeau) · 1808~1877",
+ "credit_line_in_file": {
+  "composer": "A.Adam",
+  "lyricist": "P.Cappeau"
+ },
+ "year": 1847,
+ "meter": "11.10.11.10 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1856; work dated 1847"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1877; work dated 1847"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "622장 거룩한 밤.mscz",
+   "sha256": "b25c2f1de1b15b21b83b9c77cf2814e95a55dda0d1ebdffc47b1c1280d301d5e",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

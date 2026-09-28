@@ -1,0 +1,46 @@
+{
+ "number": 576,
+ "old_number": "",
+ "title_ko": "하나님의 뜻을 따라",
+ "title_en": "After God's Will, for His Purpose",
+ "original_title": "",
+ "theme": "어버이",
+ "key_table": "Eb",
+ "time_table": "6/8",
+ "composer": "한대근 (한대근)",
+ "lyricist": "정시근 (정시근)",
+ "credit_line_in_file": {
+  "composer": "한태근",
+  "lyricist": "정치근"
+ },
+ "year": 1982,
+ "meter": "8.5.8.5.8.8.5.8.5",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "576장 하나님의 뜻을 따라.mscz",
+   "sha256": "122818f8ba636a312ca2ba609e426ff8f8eb961c961e33f126e4283040cc3291",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

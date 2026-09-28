@@ -1,0 +1,46 @@
+{
+ "number": 20,
+ "old_number": 41,
+ "title_ko": "큰 영광 중에 계신 주",
+ "title_en": "Begin, My Tongue, Some Heavenly Theme",
+ "original_title": "Begin, My Tongue, Some Heavenly Theme",
+ "theme": "찬양",
+ "key_table": "G",
+ "time_table": "3/4",
+ "composer": "헨리 W. 그레이토렉스 (Henry W. Greatorex (Collection))",
+ "lyricist": "아이작 와츠 (Isaac Watts) · 1674~1748",
+ "credit_line_in_file": {
+  "composer": "G.A.Rossini/H.W.Greatorex",
+  "lyricist": "I.Watts"
+ },
+ "year": 1851,
+ "meter": "8.6.8.6 (CM)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1851, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1748; work dated 1851"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "20장 큰 영광 중에 계신 주.mscz",
+   "sha256": "205c1484bd62503c9fdc71552d69cdfa93cf018c85ae8092ddfc95622d1bc3e6",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

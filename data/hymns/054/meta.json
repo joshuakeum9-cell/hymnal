@@ -1,0 +1,46 @@
+{
+ "number": 54,
+ "old_number": 61,
+ "title_ko": "주여 복을 구하오니",
+ "title_en": "Lord, Dismiss Us with Thy Blessing",
+ "original_title": "Lord, Dismiss Us with Thy Blessing",
+ "theme": "예배마침",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "장 자크 루소 (Jean-Jacques Rousseau)",
+ "lyricist": "존 포셋 (John Fawcett) · 1740~1817",
+ "credit_line_in_file": {
+  "composer": "J.J.Rousseau",
+  "lyricist": "J.Fawcett"
+ },
+ "year": 1752,
+ "meter": "8.7.8.7.8.7",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1778; work dated 1752"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1817; work dated 1752"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "54장 주여 복을 구하오니.mscz",
+   "sha256": "732a86654c88906fac3eedd5d3bbae371bf3f65cd9af1c87206214fae15c3fa7",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

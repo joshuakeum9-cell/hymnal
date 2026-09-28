@@ -1,0 +1,46 @@
+{
+ "number": 94,
+ "old_number": 102,
+ "title_ko": "주 예수 보다 더 귀한 것은 없네",
+ "title_en": "I'd Rather Have Jesus",
+ "original_title": "I'd Rather Have Jesus",
+ "theme": "예수그리스도",
+ "key_table": "Db",
+ "time_table": "3/4",
+ "composer": "조지 비벌리 셰이 (George Beverly Shea)",
+ "lyricist": "리아 F. 밀러 (Rhea F. Miller) · 1894~1966",
+ "credit_line_in_file": {
+  "composer": "G.B.Shea",
+  "lyricist": "R.F.Miller"
+ },
+ "year": 1929,
+ "meter": "12.11.10.10 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "author died 2013, after 1962"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "author died 1966, after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "94장 주 예수 보다 더 귀한 것은 없네.mscz",
+   "sha256": "93907d6a15a13969a251ff3673f40f6eb505049ab11086ea673485d2e13fb710",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

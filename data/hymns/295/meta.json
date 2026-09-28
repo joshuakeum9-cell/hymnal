@@ -1,0 +1,46 @@
+{
+ "number": 295,
+ "old_number": 417,
+ "title_ko": "큰 죄에 빠진 나를",
+ "title_en": "Of Jesus' Love That Sought Me",
+ "original_title": "Sweeter as the Years Go By",
+ "theme": "은혜와사랑",
+ "key_table": "Ab",
+ "time_table": "3/4",
+ "composer": "리리아 네일러 모리스 (Lelia Naylor Morris)",
+ "lyricist": "리리아 네일러 모리스 (Lelia Naylor Morris) · 1862~1929",
+ "credit_line_in_file": {
+  "composer": "L.N.Morris",
+  "lyricist": "L.N.Morris"
+ },
+ "year": 1912,
+ "meter": "7.6.7.6.7.7.7.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1912, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1929; work dated 1912"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "295장 큰 죄에 빠진 나를.mscz",
+   "sha256": "0db240572af01079e5614bcab655aa95927b0ff0d1204d2c72494e4d53f04a96",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

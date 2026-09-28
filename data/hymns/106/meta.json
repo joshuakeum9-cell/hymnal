@@ -1,0 +1,46 @@
+{
+ "number": 106,
+ "old_number": "",
+ "title_ko": "아기 예수 나셨네",
+ "title_en": "He Is Born, The Holy Child",
+ "original_title": "Il est né, le divin Enfant (He Is Born, the Divine Child)",
+ "theme": "성탄",
+ "key_table": "F",
+ "time_table": "2/4",
+ "composer": "프랑스 전통 / C. R. 영 화성 (French traditional, harm. C. R. Young)",
+ "lyricist": "미상 (프랑스 전통) (Anonymous (French traditional))",
+ "credit_line_in_file": {
+  "composer": "French Carol/C.R.Young",
+  "lyricist": "French Carol"
+ },
+ "year": 1988,
+ "meter": "7.8.7.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 프랑스 전통 / C. R. 영 화성 (French traditional, harm. C. R. Young)"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 미상 (프랑스 전통) (Anonymous (French traditional))"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "106장 아기 예수 나셨네.mscz",
+   "sha256": "93324e128267253c801ead39ade53c256c46edaa7e9dee55b6f16bcdcf95ef73",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

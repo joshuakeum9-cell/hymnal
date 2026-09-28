@@ -1,0 +1,46 @@
+{
+ "number": 9,
+ "old_number": "5  3",
+ "title_ko": "하늘에 가득 찬 영광의 하나님",
+ "title_en": "Heaven is Full of Your Glory",
+ "original_title": "",
+ "theme": "경배",
+ "key_table": "D",
+ "time_table": "3/4",
+ "composer": "곽상수 (Kwak Sang-su)",
+ "lyricist": "김정준 (Kim Jung-jun) · 1914~1981",
+ "credit_line_in_file": {
+  "composer": "곽상수",
+  "lyricist": "김정준"
+ },
+ "year": 1967,
+ "meter": "Irregular",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "9장 하늘에 가득 찬 영광의 하나님.mscz",
+   "sha256": "c0f90f910757bcb1f5f37145526610ba3eb928bc69f0415cce3a57ffd710902b",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

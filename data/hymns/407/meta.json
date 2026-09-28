@@ -1,0 +1,46 @@
+{
+ "number": 407,
+ "old_number": 465,
+ "title_ko": "구주와 함께 나 죽었으니",
+ "title_en": "Dying with Jesus",
+ "original_title": "Moment by Moment",
+ "theme": "평안과위로",
+ "key_table": "F",
+ "time_table": "3/4",
+ "composer": "메이 휘틀 무디 (May Whittle Moody)",
+ "lyricist": "대니얼 휘틀 (Daniel Webster Whittle) · 1840~1901",
+ "credit_line_in_file": {
+  "composer": "M.W.Moody",
+  "lyricist": "D.W.Whittle"
+ },
+ "year": 1893,
+ "meter": "10.10.10.10 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "author died 1963, after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1901; work dated 1893"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "407장 구주와 함께 나 죽었으니.mscz",
+   "sha256": "baa28315cbdf3c58884de9c433f627bef99b5bcf32a1a4da9611351fafdc0ac0",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

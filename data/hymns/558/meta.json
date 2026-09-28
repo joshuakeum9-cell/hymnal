@@ -1,0 +1,46 @@
+{
+ "number": 558,
+ "old_number": "",
+ "title_ko": "미더워라 주의 가정",
+ "title_en": "Faithful is Our Family",
+ "original_title": "Faithful Is Our Family",
+ "theme": "가정",
+ "key_table": "Eb",
+ "time_table": "3/4",
+ "composer": "곽상수 (곽상수)",
+ "lyricist": "문익환 (문익환) · 1918~1994",
+ "credit_line_in_file": {
+  "composer": "곽상수",
+  "lyricist": "문익환"
+ },
+ "year": 1967,
+ "meter": "8.7.8.7 D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "558장 미더워라 주의 가정.mscz",
+   "sha256": "4938254a8b86efd35628e750d83f8bdac9eb931f1837ce41d9fce861951ebd28",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

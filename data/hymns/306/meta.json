@@ -1,0 +1,46 @@
+{
+ "number": 306,
+ "old_number": "",
+ "title_ko": "죽을 죄인 살려주신",
+ "title_en": "Wonderful is Jesus' Great Love",
+ "original_title": "Wonderful Is Jesus' Grace (Korean original)",
+ "theme": "은혜와사랑",
+ "key_table": "Gm",
+ "time_table": "4/4",
+ "composer": "허방자 (Heo Bang-ja)",
+ "lyricist": "김창인 (Kim Chang-in) · 1928~2012",
+ "credit_line_in_file": {
+  "composer": "허방자",
+  "lyricist": "김창인"
+ },
+ "year": 2000,
+ "meter": "8.8.8.8 with refrain",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "306장 죽을 죄인 살려주신.mscz",
+   "sha256": "573f8db6b01dded9a22f1dd659fd5af01dabf9eff2537d4719abe411f1dd3702",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

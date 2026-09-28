@@ -1,0 +1,46 @@
+{
+ "number": 559,
+ "old_number": 305,
+ "title_ko": "사철에 봄바람 불어 잇고",
+ "title_en": "All Year in Our Home the Spring Breezes Blow",
+ "original_title": "",
+ "theme": "가정",
+ "key_table": "Db",
+ "time_table": "3/4",
+ "composer": "구두회 (구두회)",
+ "lyricist": "전영택 (전영택) · 1894~1968",
+ "credit_line_in_file": {
+  "composer": "구두회",
+  "lyricist": "전영택"
+ },
+ "year": 1967,
+ "meter": "10.10.10.10 with refrain",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "559장 사철에 봄바람 불어 잇고.mscz",
+   "sha256": "21d044f6df9b90c163e2b479516fc392f4c32f021d9abbff5f15f68d57fefe05",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

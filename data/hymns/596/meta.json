@@ -1,0 +1,46 @@
+{
+ "number": 596,
+ "old_number": "",
+ "title_ko": "영광은 주님 홀로",
+ "title_en": "Glory Give Only to God",
+ "original_title": "",
+ "theme": "임직",
+ "key_table": "Dm",
+ "time_table": "6/8",
+ "composer": "박정선 (박정선)",
+ "lyricist": "강신명 (강신명) · 1903~1985",
+ "credit_line_in_file": {
+  "composer": "박정선",
+  "lyricist": "강신명"
+ },
+ "year": 1993,
+ "meter": "7.5.7.5.8.5.7.5",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "596장 영광은 주님 홀로.mscz",
+   "sha256": "66c63e353fb4f58ed746a120acef21e366525ad6fd223e2e04ac9d59d8ac8237",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

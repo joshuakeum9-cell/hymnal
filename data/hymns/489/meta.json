@@ -1,0 +1,46 @@
+{
+ "number": 489,
+ "old_number": 541,
+ "title_ko": "저 요단강 건너편에 찬란하게",
+ "title_en": "Face to Face With Christ My Saviour",
+ "original_title": "Face to Face",
+ "theme": "미래와소망",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "그랜트 C. 툴러 (Grant Colfax Tullar)",
+ "lyricist": "캐리 E. 브렉 (Carrie Ellis Breck) · 1855~1934",
+ "credit_line_in_file": {
+  "composer": "G.C.Tullar",
+  "lyricist": "C.E.Breck"
+ },
+ "year": 1898,
+ "meter": "8.7.8.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1950; work dated 1898"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1934; work dated 1898"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "489장 저 요단강 건너편에 찬란하게.mscz",
+   "sha256": "8a46789996850275b7a5b853dc5e24d34700506250bbf798ad595832f43ee689",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

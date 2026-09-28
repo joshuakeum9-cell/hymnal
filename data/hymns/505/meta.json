@@ -1,0 +1,46 @@
+{
+ "number": 505,
+ "old_number": 268,
+ "title_ko": "온 세상 위하여",
+ "title_en": "Christ for the Whole Wide World",
+ "original_title": "Christ for the World",
+ "theme": "세계선교",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "B. B. 매키니 (Baylus Benjamin McKinney)",
+ "lyricist": "H. B. 앨런 (H. B. Allen)",
+ "credit_line_in_file": {
+  "composer": "B.B.Mckinney",
+  "lyricist": "H.B.Allen"
+ },
+ "year": 1938,
+ "meter": "12.14.12.14 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "work dated 1938, may still be in copyright"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "work dated 1938, may still be in copyright"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "505장 온 세상 위하여.mscz",
+   "sha256": "7d14e37f43b8708b84864db22bb4c9e3298fd9fad53c092338081c66573663ce",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

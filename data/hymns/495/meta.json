@@ -1,0 +1,46 @@
+{
+ "number": 495,
+ "old_number": 271,
+ "title_ko": "익은 곡식 거둘 자가",
+ "title_en": "Here am I, Send Me",
+ "original_title": "Here Am I, Send Me",
+ "theme": "전도",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "레일라 네일러 모리스 (Lelia Naylor Morris)",
+ "lyricist": "레일라 네일러 모리스 (Lelia Naylor Morris) · 1862~1929",
+ "credit_line_in_file": {
+  "composer": "L.N.Morris",
+  "lyricist": "L.N.Morris"
+ },
+ "year": 1909,
+ "meter": "13.7.13.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1929; work dated 1909"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1929; work dated 1909"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "495장 익은 곡식 거둘 자가.mscz",
+   "sha256": "a84e73aff86a8a1f1d8ddcd5a3ae96bd337f3dec86bc16181b43697657b1eee2",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

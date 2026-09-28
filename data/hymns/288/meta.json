@@ -1,0 +1,46 @@
+{
+ "number": 288,
+ "old_number": 204,
+ "title_ko": "예수를 나의 구주삼고",
+ "title_en": "Blessed Assurance, Jesus is Mine",
+ "original_title": "Blessed Assurance",
+ "theme": "거룩한생활",
+ "key_table": "D",
+ "time_table": "9/8",
+ "composer": "피비 파머 냅 (Phoebe Palmer Knapp)",
+ "lyricist": "패니 제인 크로스비 (Fanny Jane Crosby) · 1820~1915",
+ "credit_line_in_file": {
+  "composer": "P.P.Knapp",
+  "lyricist": "F.J.Crosby"
+ },
+ "year": 1873,
+ "meter": "9.10.9.9 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1873, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1873"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "288장 예수를 나의 구주삼고.mscz",
+   "sha256": "e6a5ce9a74f91e799e662a82a386e3b61d4ca68f2116de955f662593cba7c246",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

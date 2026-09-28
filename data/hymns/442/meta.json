@@ -1,0 +1,46 @@
+{
+ "number": 442,
+ "old_number": 499,
+ "title_ko": "저 장미꽃 위에 이슬",
+ "title_en": "I Come to the Garden Alone",
+ "original_title": "In the Garden",
+ "theme": "주와동행",
+ "key_table": "Ab",
+ "time_table": "6/8",
+ "composer": "C. 오스틴 마일스 (C. Austin Miles)",
+ "lyricist": "C. 오스틴 마일스 (C. Austin Miles) · 1868~1946",
+ "credit_line_in_file": {
+  "composer": "C.A.Miles",
+  "lyricist": "C.A.Miles"
+ },
+ "year": 1912,
+ "meter": "8.9.10.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1946; work dated 1912"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1946; work dated 1912"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "442장 저 장미꽃 위에 이슬.mscz",
+   "sha256": "4d6bf4e12c5464a834f3562d2e93f00ec0d3f3f6fa1df0b94f16dbfe81fac742",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

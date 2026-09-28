@@ -1,0 +1,46 @@
+{
+ "number": 324,
+ "old_number": 360,
+ "title_ko": "예수 나를 오라 하네",
+ "title_en": "I Can Hear My Savior Calling",
+ "original_title": "Where He Leads Me (I Can Hear My Savior Calling)",
+ "theme": "소명과충성",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "J. S. 노리스 (John S. Norris)",
+ "lyricist": "E. W. 블랜디 (Ernest W. Blandy) · 1849~?",
+ "credit_line_in_file": {
+  "composer": "J.S.Norris",
+  "lyricist": "E.W.Blandy"
+ },
+ "year": 1890,
+ "meter": "8.8.8.9 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1907; work dated 1890"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1890, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "324장 예수 나를 오라 하네.mscz",
+   "sha256": "4b8b7839d1f2bbc452711fbf51cc864980c2f11c8a1f65860a2c14e4a2b6e987",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

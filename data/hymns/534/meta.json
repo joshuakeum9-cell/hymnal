@@ -1,0 +1,46 @@
+{
+ "number": 534,
+ "old_number": 324,
+ "title_ko": "주님 찾아오셨네",
+ "title_en": "Christ, Thy Lord is Waiting Now",
+ "original_title": "",
+ "theme": "부르심과영접",
+ "key_table": "F",
+ "time_table": "3/4",
+ "composer": "C. L. 네일러 (C. L. Naylor)",
+ "lyricist": "프랭클린 L. 셰퍼드 (Franklin L. Sheppard) · 1852~1930",
+ "credit_line_in_file": {
+  "composer": "C.I.Naylor",
+  "lyricist": "F.L.Sheppard"
+ },
+ "year": 1915,
+ "meter": "7.6.7.6.7.6.7.7.6",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "credits marked ai-draft on the source page; check the book"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1930; work dated 1915"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "534장 주님 찾아오셨네.mscz",
+   "sha256": "75dfad2dde6d62d6592f7430d9a8ff3efaade06d8f9e4e49b911ba548ee2536f",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

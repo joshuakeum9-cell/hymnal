@@ -1,0 +1,10 @@
+# 366 Open My Eyes, that I May See
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: O- pen my eyes, that I may see Glimp- ses of truth Thou hast for me Place in my hands the won- der- ful key That shall un- clasp, and set me free. Si- lent- ly now I wait for Thee, Read- y, my God, Thy will to see. O- pen my eyes, il- lu- mine me, Spir- it di- vine!
+v2: O- pen my ears, that I may hear Voic- es of truth Thou send- est clear And while the wave- notes fall on my ear, Ev- 'ry- thing false will dis- ap- pear. Si- lent- ly now I wait for Thee, Read- y, my God, Thy will to see. O- pen my ears, il- lu- mine me, Spir- it di- vine!
+v3: O- pen my mouth and let me bear Glad- ly the warm truth ev- -'ry where O- pen my heart and let me pre- pare, Love with Thy chil- dren thus to share. Si- lent- ly now I wait for Thee, Read- y, my God, Thy will to see. O- pen my heart, il- lu- mine me, Spir- it di- vine!

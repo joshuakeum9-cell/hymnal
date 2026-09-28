@@ -1,0 +1,46 @@
+{
+ "number": 275,
+ "old_number": 333,
+ "title_ko": "날마다 주와 멀어져",
+ "title_en": "I Grieved My Lord from Day to Day",
+ "original_title": "Mother's Prayers Have Followed Me",
+ "theme": "회개와용서",
+ "key_table": "D",
+ "time_table": "3/4",
+ "composer": "벤틀리 디포레스트 애클리 (Bentley DeForest Ackley)",
+ "lyricist": "리지 디아먼드 (Lizzie DeArmond) · 1847~1936",
+ "credit_line_in_file": {
+  "composer": "B.D.Ackley",
+  "lyricist": "L.DeArmond"
+ },
+ "year": 1912,
+ "meter": "8.8.8.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1958; work dated 1912"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1936; work dated 1912"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "275장 날마다 주와 멀어져.mscz",
+   "sha256": "e614bd01b49e4b53b863c63e484cb2c960a9c67410b54e3749878464d42e5d90",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

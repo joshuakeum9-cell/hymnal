@@ -1,0 +1,10 @@
+# 479 I'm but a Stranger Here
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: I'm but a stran- ger here, Heaven is my home Earth is a de- sert drear, Hea- ven is my home. Dan- ger and sor- row stand Round me on every hand Hea- ven is my fa- ther- land, Hea- ven is my home.
+v2: What though the tem- pests rage, Heaven is my home Short is my pil- grimage, Hea- ven is my home. Ti- me's cold and win- try blast Soon will be o- ver- past I shall reach home at last, Hea- ven is my home.
+v3: There at my Saviour's side, Heaven is my home I shall be gol- rified, Hea- ven is my home. There are the good and blest, Those I love most and best, There too, I soon shall rest, Hea- ven is my home. A- men.

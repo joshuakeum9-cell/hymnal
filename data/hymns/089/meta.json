@@ -1,0 +1,46 @@
+{
+ "number": 89,
+ "old_number": 89,
+ "title_ko": "샤론의 꽃 예수",
+ "title_en": "Jesus, Rose of Sharon",
+ "original_title": "Jesus, Rose of Sharon",
+ "theme": "예수그리스도",
+ "key_table": "D",
+ "time_table": "3/4",
+ "composer": "찰스 H. 가브리엘 (Charles H. Gabriel)",
+ "lyricist": "아이다 A. 구이리 (Ida A. Guirey)",
+ "credit_line_in_file": {
+  "composer": "C.H.Gabriel",
+  "lyricist": "I.A.Guirey"
+ },
+ "year": 1922,
+ "meter": "11.11.11.11 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1932; work dated 1922"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1922, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "89장 샤론의 꽃 예수.mscz",
+   "sha256": "40aea1939c6ee546b15acbaa9e053f04dfa5397616dd79e1024a206fe82551f5",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

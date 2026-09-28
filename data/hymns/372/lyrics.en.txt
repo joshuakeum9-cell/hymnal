@@ -1,0 +1,10 @@
+# 372 Nobody Knows the Trouble I've Seen
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: rough (per verse: rough, exact, rough)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: ! could not place 115 syllables on 84 notes
+v2: I meet such tri- als here be- low, Oh, yes, Lord! My heart, it's al- most broke with woe, Oh, yes, Lord! No- bod- y knows the trou- ble I've see, No- bod- y knows but Je- sus, No- bod- y knows the trou- ble I've seen, Glo- ry hal- le- lu- jah! No- bod- y knows the trou- ble I've see, No- bod- y knows but Je- sus, No- bod- y knows the trou- ble I've seen, Glo- ry hal- le- lu- jah!
+v3: That _ _ _ _ _ _ De- vil, he's _ _ too smart for me, Oh, _ _ _ _ _ _ _ yes, Lord! _ _ Come, Je- sus! Give me _ _ _ vic- to- ry! Oh, yes, Lord! No- bod- _ y knows the trou- ble I've see, No- bod- y _ knows _ _ but Je- sus, No- _ _ _ _ bod- y knows the _ trou- _ _ ble I've seen, Glo- ry hal- le- lu- jah!

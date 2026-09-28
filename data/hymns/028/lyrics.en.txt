@@ -1,0 +1,10 @@
+# 28 Come, Thou Fount of Every Blessing
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, exact, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Come, Thou Fount of ev- -'ry bless- ing, tune my heart to sing Thy grace Streams of mer- cy, nev- er ceas- ing, Call for songs of loud- est praise. Teach me _ some me- lo- dious son- _ net, Sung by _ flam- ing tongues a- bove Praise the mount! I'm fixed up- on it, Mount of God's un- chang- ing love. _ _
+v2: Here I raise my Eb- en- e- zer Hith- er by Thy help I'm come And I hope, by Thy good pleas- ure, Safe- ly to ar- rive at home. Je- sus _ sought me when a stran- _ ger, Wan- d'ring _ from the fold of God He, to res- cue me from dan- ger, In- ter- posed His pre- cious blood. _ _
+v3: O to grace how great a debt- or Dai- ly I'm con- strained to be Let that grace now, like a fet- ter, Bind my wan- d'ring heart to Thee. Prone to _ wan- der, Lord, I feel _ it, Prone to _ leave the God I love He- re's my heart, O _ take and seal it, Seal it for Thy courts a- bove.

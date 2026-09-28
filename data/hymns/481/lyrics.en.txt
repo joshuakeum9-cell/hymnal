@@ -1,0 +1,11 @@
+# 481 Abide with Me
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, auto, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: A- bide with me: fast falls the e- ven- tide The dark- ness deep- ens, Lord, with me a- bide: When oth- er help- ers fail, and com- forts flee, Help of the help- less, O a- bide with me. _ _
+v2: Swift to its close ebbs out li- fe's lit- tle day Earth's joys grow dim, its glo- ries pass a- way Change and de- cay in all a- round I see O Thou who chang- est not, a- bide with _ me.
+v3: I need Thy pres- ence ev- ery pass- ing hour What but Thy grace can foil the tempt- er's pow'r Who like Thy- self my guide and stay can be Through cloud and sun- shine, O a- bide with me. _ _
+v4: Hold Thou Thy cross be- fore my clos- ing eyes Shine through the gloom and point me to the skies Heav'n's morn- ing breaks and earth's vain shad- ows flee In life, in death, O Lord, a- bide with me. A- men.

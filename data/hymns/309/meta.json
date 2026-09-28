@@ -1,0 +1,46 @@
+{
+ "number": 309,
+ "old_number": 409,
+ "title_ko": "목마른 내 영혼",
+ "title_en": "My Soul Today is Thirsting",
+ "original_title": "Like a Mighty Sea",
+ "theme": "은혜와사랑",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "H. L. 길모어 (Henry L. Gilmour)",
+ "lyricist": "H. J. 젤리 (Henry J. Zelley) · 1859~1942",
+ "credit_line_in_file": {
+  "composer": "H.L.Gilmour",
+  "lyricist": "H.J.Zelly"
+ },
+ "year": 1901,
+ "meter": "13.13.13.13 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1920; work dated 1901"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1942; work dated 1901"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "309장 목마른 내 영혼.mscz",
+   "sha256": "a09eefc9faa79884feedae58a00ddd3f11dfd1bdccbb1b1a3d9d6fdbff453b79",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

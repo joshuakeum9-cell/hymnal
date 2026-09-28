@@ -1,0 +1,46 @@
+{
+ "number": 122,
+ "old_number": 122,
+ "title_ko": "참 반가운 성도여",
+ "title_en": "O Come, All Ye Faithful",
+ "original_title": "O Come, All Ye Faithful (Adeste Fideles)",
+ "theme": "성탄",
+ "key_table": "A",
+ "time_table": "4/4",
+ "composer": "존 프랜시스 웨이드 (John Francis Wade)",
+ "lyricist": "존 프랜시스 웨이드 (라틴어) / 프레더릭 오클리 영역 (John Francis Wade (Latin), tr. Frederick Oakeley) · 1711~1786",
+ "credit_line_in_file": {
+  "composer": "J.F.Wade",
+  "lyricist": "Latin Hymn/J.F.Wade"
+ },
+ "year": 1751,
+ "meter": "irregular (ADESTE FIDELES)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1786; work dated 1751"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1786; work dated 1751"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "122장 참 반가운 성도여.mscz",
+   "sha256": "73967891f39627bc09754416189c200aa209a3a96c9e3b15895829fa62b15842",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

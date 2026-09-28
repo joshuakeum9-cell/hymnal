@@ -1,0 +1,46 @@
+{
+ "number": 48,
+ "old_number": "",
+ "title_ko": "거룩하신 주 하나님",
+ "title_en": "Holy, Holy! Great our Lord, God",
+ "original_title": "Holy, Holy! Great Our Lord, God",
+ "theme": "주일",
+ "key_table": "F",
+ "time_table": "3/4",
+ "composer": "문성모 (Moon Seong-mo)",
+ "lyricist": "정치근 (Jeong Chi-geun)",
+ "credit_line_in_file": {
+  "composer": "문성모",
+  "lyricist": "정치근"
+ },
+ "year": 1994,
+ "meter": "8.8.8.8.8.7.8.6",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "48장 거룩하신 주 하나님.mscz",
+   "sha256": "cec8524eaa57e115bbf5caee1b7932aa20629917059f6f2ddf0552d1c33e495c",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 265,
+ "old_number": 199,
+ "title_ko": "주 십자가를 지심으로",
+ "title_en": "Christ, Our Redeemer",
+ "original_title": "When I See the Blood",
+ "theme": "회개와용서",
+ "key_table": "C",
+ "time_table": "4/4",
+ "composer": "존 G. 푸트 (John G. Foote)",
+ "lyricist": "존 G. 푸트 (John G. Foote)",
+ "credit_line_in_file": {
+  "composer": "J.G.Foote",
+  "lyricist": "J.G.Foote"
+ },
+ "year": 1892,
+ "meter": "9.9.9.9 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1892, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1892, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "265장 주 십자가를 지심으로.mscz",
+   "sha256": "e6c835f31e7377a4a26c3956543e93b7c1eb50a17b4bfccf5bf968ca727846c8",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

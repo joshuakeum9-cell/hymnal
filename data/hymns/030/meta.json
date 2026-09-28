@@ -1,0 +1,46 @@
+{
+ "number": 30,
+ "old_number": "",
+ "title_ko": "전능하고 놀라우신",
+ "title_en": "Blessed Savior, We Adore Thee",
+ "original_title": "Blessed Savior, We Adore Thee",
+ "theme": "찬양",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "베일러스 B. 매키니 (Baylus Benjamin McKinney)",
+ "lyricist": "베일러스 B. 매키니 (Baylus Benjamin McKinney) · 1886~1952",
+ "credit_line_in_file": {
+  "composer": "B.B.McKinney",
+  "lyricist": "B.B.McKinney"
+ },
+ "year": 1942,
+ "meter": "8.7.8.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "work dated 1942, may still be in copyright"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "work dated 1942, may still be in copyright"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "30장 전능하고 놀라우신.mscz",
+   "sha256": "5f374e9e9e764ddeeb3ee646f884bf2ea40da2a7b80582db5931c3080cd2ad4b",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

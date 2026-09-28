@@ -1,0 +1,46 @@
+{
+ "number": 272,
+ "old_number": 330,
+ "title_ko": "고통의 멍에 벗으려고",
+ "title_en": "Out of My Bondage, Sorrow and Night",
+ "original_title": "Jesus, I Come (Out of My Bondage)",
+ "theme": "회개와용서",
+ "key_table": "Ab",
+ "time_table": "6/4",
+ "composer": "조지 콜스 스테빈스 (George Coles Stebbins)",
+ "lyricist": "윌리엄 트루 슬리퍼 (William True Sleeper) · 1819~1904",
+ "credit_line_in_file": {
+  "composer": "G.C.Stebbins",
+  "lyricist": "W.T.Sleeper"
+ },
+ "year": 1887,
+ "meter": "Irregular",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1945; work dated 1887"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1904; work dated 1887"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "272장 고통의 멍에 벗으려고.mscz",
+   "sha256": "b12ecd6c3ac7fa1f9c177a21cfb0b259fdc0f03353bb917a0858dbddb18e6386",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

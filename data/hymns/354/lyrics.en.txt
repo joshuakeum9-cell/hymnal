@@ -1,0 +1,11 @@
+# 354 They That Wait Upon the Lord
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: In _ Je- _ sus' name is pow'r of con- quest O- ver sin and all its pow'rs, And _ in _ the _ hot- test _ of the con- test Je- sus' grace makes vic- t'ry ours. Then watch and pray and bat- tle, All you by grace re- born! Nev- er give way! Night ends in day You shall have vic- to- ry by morn!
+v2: In _ the _ good _ fight of _ faith en- gag- ing, Smite we this day's sin and _ doubt _ And fu- ture tri- als, leash'd and rag- ing, Shall in turn be put to rout. Then watch and pray and bat- tle, All you by grace re- born! Nev- er give way! Night ends in day You shall have vic- to- ry by morn!
+v3: "As white as snow" oh, won- drous sto- _ ry! "Cleans'd _ by blood" yes, e- ven me, My _ heart _ a tem- ple to His glo- ry! My life His, in _ Him I'm _ free! Then watch and pray and bat- tle, All you by grace re- born! Nev- er give way! Night ends in day You shall have vic- to- ry by morn!
+v4: In _ the _ fierce fight though we be bat- ter'd Till we fear all hope is gone, Soon _ shall _ the _ hosts of _ night be scat- ter'd In the vic- to- ry of dawn. Then watch and pray and bat- tle, All you by grace re- born! Nev- er give way! Night ends in day You shall have vic- to- ry by morn!

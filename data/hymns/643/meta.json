@@ -1,0 +1,46 @@
+{
+ "number": 643,
+ "old_number": 556,
+ "title_ko": "아멘(세번 아멘)",
+ "title_en": "Amen",
+ "original_title": "Threefold Amen (Danish)",
+ "theme": "아멘송",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "덴마크 전통 멜로디 (Danish Traditional Melody)",
+ "lyricist": "",
+ "credit_line_in_file": {
+  "composer": "Danish",
+  "lyricist": ""
+ },
+ "year": null,
+ "meter": "IRREG.",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "credits marked ai-draft on the source page; check the book"
+  },
+  "text_en": {
+   "status": "unknown",
+   "basis": "no dates found; check the printed credit line"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "643장 아멘(세번 아멘).mscz",
+   "sha256": "f29a281e59569e8a68cf58197bfd28138e101b7d844db4b590bb56b7feb17cbd",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

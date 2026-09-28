@@ -1,0 +1,11 @@
+# 602 Here, O Father, This Our Prayer
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Here, O Fa- ther, this our pray'r, That this bride and bride- groom may In this hour of u- ion share Spe- cial bless- ings of the day. _ _
+v2: Here, O Son of God, our pray'r: By Your aid on them be- stow'd, Each for each in love and care May they walk a sin- gle road. _ _
+v3: Ho- ly Spi- rit, hear our pray'r: In dis- tress or tri- al's hour Grant them vict- or's crowns to wear By th'our- pour- ing of Your pow'r. _ _
+v4: May their earth- ly jour- ney know Grace and glad- ness all the way, Till, to- geth- er still, they go In- to heav'n's e- ter- nal day. A- men.

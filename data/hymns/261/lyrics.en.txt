@@ -1,0 +1,10 @@
+# 261 Blessed Be the Fountain of Blood
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: There was one who was will- ing to die in my stead, That a soul so un- wor- thy might live, And the path to the cross He was will- ing to tread, All the sins of my life to _ for- give. They are nailed _ to the cross, _ They _ are _ nailed to the cross, O how much He was will- ing to bear! With _ _ what an- guish and _ loss, Je- _ sus went to the cross! But _ He carri- ed my sins with Him there. _ _
+v2: He _ is _ ten- der _ and lov- _ ing and pa- tient with me, While _ He cleans- es my heart of its dross But "the- re's no con- dem- na- tion," I know I am free, For _ my sins are all nailed _ to the cross. _ They are nailed to the cross, They are nailed to the cross, O how much He was will- ing to bear! With what an- guish and loss, Je- sus went to the cross! But _ He carri- ed my sins with Him there. _ _
+v3: I will cling to my Sav- iour and nev- er de- part I will joy- ful- ly jour- ney each day, With a song on my lips and a song in my heart, That my sins have been tak- en _ a- way. They are nailed _ to the cross, _ They _ are _ nailed to the cross, O how much He was will- ing to bear! With _ _ what an- guish and _ loss, Je- _ sus _ went to the cross! _ But He carri- _ ed my sins with Him there.

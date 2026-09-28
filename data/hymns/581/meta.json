@@ -1,0 +1,46 @@
+{
+ "number": 581,
+ "old_number": "",
+ "title_ko": "주 하나님 이 나라를 지켜주시고",
+ "title_en": "O Lord our God, Keep This Dear Land",
+ "original_title": "",
+ "theme": "나라사랑",
+ "key_table": "Cm",
+ "time_table": "6/8",
+ "composer": "신영순 (신영순)",
+ "lyricist": "임원흥 (임원흥)",
+ "credit_line_in_file": {
+  "composer": "신영순",
+  "lyricist": "엄원용"
+ },
+ "year": 1998,
+ "meter": "IRREG.",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "581장 주 하나님 이 나라를 지켜주시고.mscz",
+   "sha256": "afb5092f8f7babec5830400e1a2f3d88c7ced42fa4092a9ad8459e4da66fd197",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

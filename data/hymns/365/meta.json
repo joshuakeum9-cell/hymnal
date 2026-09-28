@@ -1,0 +1,46 @@
+{
+ "number": 365,
+ "old_number": 484,
+ "title_ko": "마음속에 근심 있는 사람",
+ "title_en": "Are You Weary",
+ "original_title": "Tell It to Jesus",
+ "theme": "기도와간구",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "E. S. 로렌츠 (Edmund S. Lorenz)",
+ "lyricist": "J. E. 랭킨 (Jeremiah Eames Rankin) · 1828~1904",
+ "credit_line_in_file": {
+  "composer": "E.S.Lorenz",
+  "lyricist": "J.E.Rankin"
+ },
+ "year": 1888,
+ "meter": "10.10.10.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1942; work dated 1888"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1904; work dated 1888"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "365장 마음속에 근심 있는 사람.mscz",
+   "sha256": "3dfe61db6ff7cd085569b47f449d8dd49519ef477dc843d1cd3118d7a8be0d3d",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 606,
+ "old_number": 291,
+ "title_ko": "해보다 더 밝은 저 천국",
+ "title_en": "There's a Land that is Fairer Than Day",
+ "original_title": "In the Sweet By and By",
+ "theme": "장례",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "조셉 P. 웹스터 (Joseph Philbrick Webster)",
+ "lyricist": "샌포드 F. 베넷 (Sanford Fillmore Bennett) · 1836~1898",
+ "credit_line_in_file": {
+  "composer": "J.P.Webster",
+  "lyricist": "S.F.Bennett"
+ },
+ "year": 1867,
+ "meter": "9.9.9.9 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1875; work dated 1867"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1898; work dated 1867"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "606장 해보다 더 밝은 저 천국.mscz",
+   "sha256": "e2a49c1556e1527f264161248aa332f2ea869dcef43098a7f22540b314c1b3bc",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

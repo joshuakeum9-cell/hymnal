@@ -1,0 +1,10 @@
+# 379 Lead, Kindly Light, Amid the Encircling Gloom
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, exact, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Lead, kind- ly Light, a- mid th' en- cir- cling gloom, Lead Thou me on. The night is dark, and I am far from home _ Lead Thou me on _ Keep Thou my feet I do not ask _ to _ see The dis- tant scene, one step e- nough _ for me. _ _ _
+v2: I was not ev- er thus, nor prayed that Thou _ Shouldst lead me on I loved to choose and see my path, but now _ Lead Thou me on. _ I loved the gar- ish day, and, spite _ of _ fears, Pride ruled my will re- mem- ber not _ past years. _ _ _
+v3: So long Thy po- wer hath blest me sure it _ still Will lead me on O'er moor and fen, o'er crag and tor- rent, _ till The night is gone. And with the morn those an- gel fa- _ ces _ smile Which I have loved long since, and lost _ a- while. _ A- men.

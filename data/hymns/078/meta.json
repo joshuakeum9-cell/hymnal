@@ -1,0 +1,46 @@
+{
+ "number": 78,
+ "old_number": 75,
+ "title_ko": "저 높고 푸른 하늘과",
+ "title_en": "The Spacious Firmament on High",
+ "original_title": "The Spacious Firmament on High",
+ "theme": "섭리",
+ "key_table": "Ab",
+ "time_table": "2/2",
+ "composer": "프란츠 요제프 하이든 (Franz Joseph Haydn)",
+ "lyricist": "조지프 애디슨 (Joseph Addison) · 1672~1719",
+ "credit_line_in_file": {
+  "composer": "F.J.Haydn",
+  "lyricist": "J.Addison"
+ },
+ "year": 1798,
+ "meter": "8.8.8.8 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1809; work dated 1798"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1719; work dated 1798"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "78장 저 높고 푸른 하늘과.mscz",
+   "sha256": "4d312026636efa6a63b4032c84bc2ea3a622121cb9773c3a40da4c8fc35bcccd",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

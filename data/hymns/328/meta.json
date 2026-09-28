@@ -1,0 +1,46 @@
+{
+ "number": 328,
+ "old_number": 374,
+ "title_ko": "너 주의 사람아",
+ "title_en": "Rise Up, O Men of God",
+ "original_title": "Rise Up, O Men of God",
+ "theme": "소명과충성",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "W. H. 월터 (William H. Walter)",
+ "lyricist": "W. P. 메릴 (William Pierson Merrill) · 1867~1954",
+ "credit_line_in_file": {
+  "composer": "W.H.Walter",
+  "lyricist": "W.P.Merrill"
+ },
+ "year": 1894,
+ "meter": "6.6.8.6 (Short Meter)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1893; work dated 1894"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1954; work dated 1894"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "328장 너 주의 사람아.mscz",
+   "sha256": "f100e1c87e1977562afc2606e94752fb3187ca984c7541d17b3c278abdc4eb0c",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

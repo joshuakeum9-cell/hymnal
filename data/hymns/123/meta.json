@@ -1,0 +1,46 @@
+{
+ "number": 123,
+ "old_number": 123,
+ "title_ko": "저 들 밖에 한밤중에",
+ "title_en": "The First Noel, The Angel Did Say",
+ "original_title": "The First Noel (The First Nowell)",
+ "theme": "성탄",
+ "key_table": "D",
+ "time_table": "3/4",
+ "composer": "잉글랜드 전통 / 존 스테이너 편곡 (Traditional English Melody, arr. John Stainer)",
+ "lyricist": "잉글랜드 전통 (콘월, 17세기) (Traditional English Carol (Cornish, 17th C.))",
+ "credit_line_in_file": {
+  "composer": "W.Sandys/J.Stainer",
+  "lyricist": "English Carol"
+ },
+ "year": 1871,
+ "meter": "8.8.8.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 잉글랜드 전통 / 존 스테이너 편곡 (Traditional English Melody, arr. John Stainer)"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 잉글랜드 전통 (콘월, 17세기) (Traditional English Carol (Cornish, 17th C.))"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "123장 저 들 밖에 한밤중에.mscz",
+   "sha256": "5a09999ba04a1223bc5701f68c2ed99293a27a1442420054802415948d477e98",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

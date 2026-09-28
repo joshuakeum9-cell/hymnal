@@ -1,0 +1,46 @@
+{
+ "number": 452,
+ "old_number": 505,
+ "title_ko": "내 모든 소원 기도의 제목",
+ "title_en": "Oh, to be like Thee",
+ "original_title": "O to Be Like Thee",
+ "theme": "제자의도리",
+ "key_table": "D",
+ "time_table": "3/4",
+ "composer": "윌리엄 J. 커크패트릭 (William James Kirkpatrick)",
+ "lyricist": "토머스 O. 치솜 (Thomas Obadiah Chisholm) · 1866~1960",
+ "credit_line_in_file": {
+  "composer": "W.J.Kirkpatrick",
+  "lyricist": "T.O.Chisholm"
+ },
+ "year": 1897,
+ "meter": "10.9.10.9 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1921; work dated 1897"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1960; work dated 1897"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "452장 내 모든 소원 기도의 제목.mscz",
+   "sha256": "3138d7354f8166a102b489c9c053d6bc6bb91ced51700f225675a77b73f5c562",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

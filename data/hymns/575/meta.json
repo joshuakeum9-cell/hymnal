@@ -1,0 +1,46 @@
+{
+ "number": 575,
+ "old_number": 302,
+ "title_ko": "주님께 귀한 것 드려",
+ "title_en": "Give of Your Best to the Master",
+ "original_title": "Give of Your Best to the Master",
+ "theme": "청년",
+ "key_table": "Eb",
+ "time_table": "3/4",
+ "composer": "샬럿 A. 바너드 (Charlotte Alington Barnard)",
+ "lyricist": "하워드 B. 그로스 (Howard Benjamin Grose) · 1851~1939",
+ "credit_line_in_file": {
+  "composer": "C.A.Barnard",
+  "lyricist": "H.B.Grose"
+ },
+ "year": 1864,
+ "meter": "8.7.8.7 D with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1864, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1939; work dated 1864"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "575장 주님께 귀한 것 드려.mscz",
+   "sha256": "ee8595e454d464a86fe44c7588b9e88857d685ce7310c9e3b34bebb69b653fba",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

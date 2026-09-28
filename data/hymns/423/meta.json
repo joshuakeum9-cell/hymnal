@@ -1,0 +1,46 @@
+{
+ "number": 423,
+ "old_number": 213,
+ "title_ko": "먹보다도 더 검은",
+ "title_en": "Sins of Years Are Wash'd Away",
+ "original_title": "I'm Believing",
+ "theme": "성결한생활",
+ "key_table": "Ab",
+ "time_table": "3/4",
+ "composer": "허버트 H. 부스 (Herbert Howard Booth)",
+ "lyricist": "허버트 H. 부스 (Herbert Howard Booth) · 1862~1926",
+ "credit_line_in_file": {
+  "composer": "H.H.Booth",
+  "lyricist": "H.H.Booth"
+ },
+ "year": 1893,
+ "meter": "7.7.7.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1926; work dated 1893"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1926; work dated 1893"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "423장 먹보다도 더 검은.mscz",
+   "sha256": "6f63479ec91eb96f6e1d7fc042305807cd60fa8fd6077b10fd92af21798108df",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,11 @@
+# 355 March On, O Soul, with Strength
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: March on, O soul, with strength, Like _ those strong men of _ old Who 'gainst en- thron- ed wrong _ Stood con- fi- dent and bold Who, thrust in pri- son or cast to flame, Still made their glo- _ _ ry in your name. _ _
+v2: The sons of fa- thers we By _ whom our faith is _ taught To fear no ill, to fight _ _ The ho- ly fight they fought He- ro- ic war- riors, ne'er from Christ By an- y lure _ _ or guile en- ticed. _ _
+v3: March on, O soul, with strength, As _ strong the bat- tle _ rolls 'Gainst lies and lusts and wrongs, _ _ Let cour- age rule our souls In keen- est strife, Lord, may we stand, Up- held and strength- _ _ ened by your hand. _ _
+v4: Not long the con- flict soon The _ ho- ly war shall _ cease Faith's war- fare end- ed: won _ _ The home of end- less peace. Look up! the vic- tor's crown at length! March on, O soul, _ _ march on with strength. A- men.

@@ -1,0 +1,11 @@
+# 494 Rock of Ages, Cleft for Me
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, exact, auto, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Rock of A- ges, cleft for me, Let me hide my- self in Thee Let the wa- ter and the blood, From Thy wound- ed side which flowed, Be of sin the dou- ble cure, Cleanse me from its guilt and po- _ wer.
+v2: Not the la- bors of my hands Can ful- fill Thy law's de- mands Could my zeal no res- pite know, Could my tears for- ev- er flow, All for sin could not a- tone, Thou must save, and Thou a- lone. _ _
+v3: Noth- ing in my hand I bring, Sim- ply to Thy cross I cling Na- ked, come to Thee for dress, Help- _ less, look to Thee for grace Foul, I to the foun- tain fly Wash me, Sav- iour, or I _ die.
+v4: While I draw this fleet- ing breath, When my eyes shall close in death, When I soar to worlds un- known, See Thee on Thy judg- ment throne, Rock of A- ges, cleft for me, Let me hide my- self in Thee. A- men.

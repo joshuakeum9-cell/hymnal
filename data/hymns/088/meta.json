@@ -1,0 +1,46 @@
+{
+ "number": 88,
+ "old_number": 88,
+ "title_ko": "내 진정 사모하는",
+ "title_en": "I Have Found a Friend in Jesus",
+ "original_title": "I Have Found a Friend in Jesus (The Lily of the Valley)",
+ "theme": "예수그리스도",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "윌리엄 S. 헤이즈 (William S. Hays (arr.))",
+ "lyricist": "찰스 W. 프라이 (Charles W. Fry) · 1837~1882",
+ "credit_line_in_file": {
+  "composer": "J.R.Murray/W.S.Hays",
+  "lyricist": "C.W.Fry"
+ },
+ "year": 1881,
+ "meter": "Irregular",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1881, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1882; work dated 1881"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "88장 내 진정 사모하는.mscz",
+   "sha256": "5e60a060b0b43857d61af0651a324ae5afd3ebdad0d30c0690c17477ab15b287",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

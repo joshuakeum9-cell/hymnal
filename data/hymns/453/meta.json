@@ -1,0 +1,46 @@
+{
+ "number": 453,
+ "old_number": 506,
+ "title_ko": "예수 더 알기 원하네",
+ "title_en": "More About Jesus Would I Know",
+ "original_title": "More About Jesus",
+ "theme": "제자의도리",
+ "key_table": "Ab",
+ "time_table": "6/8",
+ "composer": "존 R. 스위니 (John Robson Sweney)",
+ "lyricist": "엘리자 휴잇 (Eliza Edmunds Hewitt) · 1851~1920",
+ "credit_line_in_file": {
+  "composer": "J.R.Sweney",
+  "lyricist": "E.E.Hewitt"
+ },
+ "year": 1887,
+ "meter": "8.8.8.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1899; work dated 1887"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1920; work dated 1887"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "453장 예수 더 알기 원하네.mscz",
+   "sha256": "87c40d67c3a33dc949b7ed1db248cd00fb488887e6a260bfa4c7692db064ac7c",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

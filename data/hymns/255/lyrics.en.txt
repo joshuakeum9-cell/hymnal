@@ -1,0 +1,10 @@
+# 255 Tho' Your Sins be as Scarlet
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: "Tho' your sins be _ as scar- let, They shall be as white as snow "Tho' your sins be _ as scar- let, They shall be as white as snow Tho' _ they be red _ like crim- son, They shall be as wool" "Tho' your sins be _ as scar- let, Tho' your sins be _ as scar- let, They shall be as white as snow, They shall be as white as snow."
+v2: Hear the voice that _ en- treats you: Oh, re- turn ye un- to God! Hear the voice that _ en- treats you: Oh, re- turn ye un- to God! He _ is of great _ com- pas- sion, And of won- drous love, Hear the voice that _ en- treats you, Hear the voice that _ en- treats you, Oh, re- turn ye un- to God! Oh, re- turn ye un- to God!
+v3: He'll for- give your _ trans- gres- sions, And re- mem- ber them no more He'll for- give your _ trans- gres- sions, And re- mem- ber them no more "Look _ un- to me, _ ye peo- ple," Saith the Lord your God He'll for- give your _ trans- gres- sions, He'll for- give your _ trans- gres- sions, And re- mem- ber them no more, And re- mem- ber them no more.

@@ -1,0 +1,10 @@
+# 327 You Have Longed for Sweet Peace
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: You have longed for sweet peace and for faith to in- crease, And have ear- nest- ly fer- vent- ly prayed But you can- not have rest or be per- fect- ly blest Unt- il all on the al- tar is laid. Is your all on the al- tar of sac- ri- fice laid Your heart does the Spir- it con- trol _ _ You can on- ly be blest and have peace and sweet rest, As you yield Him your bod- y and soul.
+v2: Would you walk with the Lord in the light of His Word And have peace and con- tent- ment al- way You must do His sweet will to be free from all ill On the al- tar your all you must lay. Is your all on the al- tar of sac- ri- fice laid Your heart does the Spir- it con- trol _ _ You can on- ly be blest and have peace and sweet rest, As you yield Him your bod- y and soul.
+v3: Who can tell all the love He will send from a- bove, And how hap- py our heart will be made, Of the fel- low- ship sweet We shall share at His feet When our all on the al- tar is laid. Is your all on the al- tar of sac- ri- fice laid Your heart does the Spir- it con- trol _ _ You can on- ly be blest and have peace and sweet rest, As you yield Him your bod- y and soul.

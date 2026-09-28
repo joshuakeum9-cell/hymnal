@@ -1,0 +1,46 @@
+{
+ "number": 496,
+ "old_number": 260,
+ "title_ko": "새벽부터 우리",
+ "title_en": "Sowing in the Morning",
+ "original_title": "Bringing In the Sheaves",
+ "theme": "전도",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "조지 A. 마이너 (George A. Minor)",
+ "lyricist": "놀스 쇼 (Knowles Shaw) · 1834~1878",
+ "credit_line_in_file": {
+  "composer": "G.A.Minor",
+  "lyricist": "K.Shaw"
+ },
+ "year": 1880,
+ "meter": "12.11.12.11 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1904; work dated 1880"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1878; work dated 1880"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "496장 새벽부터 우리.mscz",
+   "sha256": "6e105b0d90cfae2bfc25889c6edcff83ab7e45cb50bd5d1c1ab8ad93028ac4d1",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

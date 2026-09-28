@@ -1,0 +1,11 @@
+# 42 Worship the Lord in the Beauty of Holiness
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, exact, exact, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Wor- ship the Lord in the beau- ty of ho- li- ness Bow down be- fore Him, His glo- ry pro- claim Gold of o- be- dience, and in- cense of low- li- ness Bring and a- dore Him the Lord is His name. _ _
+v2: Low at His feet lay thy bur- den of care- ful- ness High on His heart He will bear it for thee, Com- fort thy sor- rows, and an- swer thy prayer- ful- ness, Guid- ing thy steps as may best for thee be. _ _
+v3: Fear not to en- ter His courts, in the slen- der- ness, Of the poor wealth thou wouldst reck- on as thine Truth in its beau- ty and love in its ten- der- ness, These are the of- ferings to lay on His shrine. _ _
+v4: These, though we bring them in trem- bling and fear- _ ful- ness, He will ac- cept for the Name that is dear, Morn- ings of joy give for even- ings of tear- ful- ness, Trust _ for our trem- bling, and hope for our fear.

@@ -1,0 +1,10 @@
+# 590 Sing to the Lord of Harvest
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Sing to the Lord _ of _ har- vest, Sing songs of love and praise. with joy- ful hearts _ and _ voic- es Your al- le- lu- ias raise. By Him the roll- ing _ sea- sons In fruit- ful or- _ der _ move Sing to the Lord _ of _ har- vest A joy- ous song of love.
+v2: By Him the clouds _ drop _ fat- ness, The des- erts bloom and spring, The hills leap up _ in _ glad- ness, The val- leys laugh and sing. He bless- es from His _ full- ness All things with large _ in- _ crease, He crowns the year _ with _ good- ness, With plen- ty and with peace.
+v3: Bring to His sa- _ cred _ al- tar The gifts His good- ness gave, The gold- en sheaves _ of _ har- vest, The souls He died to save. Your hearts lay down be- _ fore Him When at His feet _ you _ fall, And with your lives _ a- _ dore Him, Who gave His life for all.

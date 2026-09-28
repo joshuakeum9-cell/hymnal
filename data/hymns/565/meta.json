@@ -1,0 +1,46 @@
+{
+ "number": 565,
+ "old_number": 300,
+ "title_ko": "예수께로 가면",
+ "title_en": "If I Come to Jesus",
+ "original_title": "If I Go to Jesus",
+ "theme": "어린이",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "W.H.Doane",
+ "lyricist": "안애리 (Mrs. Baird) (Annie Laurie Adams Baird) · 1864~1916",
+ "credit_line_in_file": {
+  "composer": "W.H.Doane",
+  "lyricist": "F.J.Crossby"
+ },
+ "year": 1905,
+ "meter": "6.5.6.5 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "credits marked ai-draft on the source page; check the book"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1916; work dated 1905"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "565장 예수께로 가면.mscz",
+   "sha256": "2d954d07fe7788cefa7cff2f0db4f87228475d8c06fd82e476019ea28c6d4fe4",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

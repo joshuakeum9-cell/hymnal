@@ -1,0 +1,46 @@
+{
+ "number": 109,
+ "old_number": 109,
+ "title_ko": "고요한 밤 거룩한 밤",
+ "title_en": "Silent Night, Holy Night",
+ "original_title": "Silent Night, Holy Night (Stille Nacht, heilige Nacht)",
+ "theme": "성탄",
+ "key_table": "Bb",
+ "time_table": "6/8",
+ "composer": "프란츠 크사버 그루버 (Franz Xaver Gruber)",
+ "lyricist": "요제프 모어 / 존 프리먼 영 영역 (Joseph Mohr, tr. John Freeman Young) · 1792~1848",
+ "credit_line_in_file": {
+  "composer": "F.X.Gruber",
+  "lyricist": "J.Mohr"
+ },
+ "year": 1818,
+ "meter": "irregular (STILLE NACHT)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1863; work dated 1818"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1848; work dated 1818"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "109장 고요한 밤 거룩한 밤.mscz",
+   "sha256": "4d33f67822815d7a7278a4a20fcd7ca68549c4b82275c5a425a9ec5adfd876bf",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

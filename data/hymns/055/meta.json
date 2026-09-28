@@ -1,0 +1,46 @@
+{
+ "number": 55,
+ "old_number": 62,
+ "title_ko": "주 이름으로 모였던",
+ "title_en": "Lord, Let Us Now Depart in Peace",
+ "original_title": "Gathered in Thy Name (Dismissal Response)",
+ "theme": "예배마침",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "조지 휄프턴 (George Whelpton)",
+ "lyricist": "익명 (Anonymous)",
+ "credit_line_in_file": {
+  "composer": "G.Whelpton",
+  "lyricist": "Anonymous"
+ },
+ "year": 1900,
+ "meter": "Irregular",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1930; work dated 1900"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 익명 (Anonymous)"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "55장 주 이름으로 모였던.mscz",
+   "sha256": "b97551d74e3287b56afa09fa186e2a4cd8c52ead25fb06f16bdf94c67a5d89a5",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

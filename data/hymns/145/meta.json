@@ -1,0 +1,48 @@
+{
+ "number": 145,
+ "old_number": 145,
+ "title_ko": "오 거룩하신 주님",
+ "title_en": "O Sacred Head, Now Wounded",
+ "original_title": "O Sacred Head, Now Wounded",
+ "theme": "고난",
+ "key_table": "Am",
+ "time_table": "4/4",
+ "composer": "한스 레오 하슬러 / J. S. 바흐 화성 (Hans Leo Hassler, harm. J. S. Bach)",
+ "lyricist": "베르나르 (귀속) · 게르하르트 독어역 · 알렉산더 영역 (Bernard of Clairvaux (attr.), tr. Paul Gerhardt (German), tr. James W. Alexander (English)) · 1091~1153",
+ "credit_line_in_file": {
+  "composer": "H.L.Hassler/J.S.Bach",
+  "lyricist": "Bernard of Clairvaux"
+ },
+ "year": 1601,
+ "meter": "7.6.7.6 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1612; work dated 1601"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1601, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "145장 오 거룩하신 주님.mscz",
+   "sha256": "1bbfb6e6a9f721ec31f7f6215dc3d11e8ee43410105772c893b86a00014f1d16",
+   "changes": [
+    "key signature None -> (0, 'minor')"
+   ]
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

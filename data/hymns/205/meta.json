@@ -1,0 +1,46 @@
+{
+ "number": 205,
+ "old_number": 236,
+ "title_ko": "주 예수 크신 사랑",
+ "title_en": "Tell Me the Old, Old Story",
+ "original_title": "Tell Me the Old, Old Story",
+ "theme": "성경",
+ "key_table": "C",
+ "time_table": "4/4",
+ "composer": "윌리엄 하워드 도언 (William Howard Doane)",
+ "lyricist": "아라벨라 캐서린 행키 (Arabella Catherine Hankey) · 1834~1911",
+ "credit_line_in_file": {
+  "composer": "W.H.Doane",
+  "lyricist": "A.C.Hankey"
+ },
+ "year": 1867,
+ "meter": "7.6.7.6.D with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1867"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1911; work dated 1867"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "205장 주 예수 크신 사랑.mscz",
+   "sha256": "d3d80fbde4ada8346b46a41b79f35b9419288e3edfbca18d1ea74dae5d059a06",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 230,
+ "old_number": "",
+ "title_ko": "우리의 참되신 구주시니",
+ "title_en": "Thee We Adore, O Hidden Savior, Thee",
+ "original_title": "Adoro Te Devote (Thee We Adore, O Hidden Savior)",
+ "theme": "성찬",
+ "key_table": "D",
+ "time_table": "4/4",
+ "composer": "베네딕트회 평성가 (13세기) (Benedictine Plainsong (13th C.))",
+ "lyricist": "토마스 아퀴나스 (J. R. 우드포드 영역) (Thomas Aquinas (trans. J. R. Woodford 1850)) · 1225~1274",
+ "credit_line_in_file": {
+  "composer": "Plain Song/W.H.Monk",
+  "lyricist": "T.Aquinqs"
+ },
+ "year": null,
+ "meter": "10.10.10.10",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 베네딕트회 평성가 (13세기) (Benedictine Plainsong (13th C.))"
+  },
+  "text_en": {
+   "status": "unknown",
+   "basis": "no dates found; check the printed credit line"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "230장 우리의 참되신 구주시니.mscz",
+   "sha256": "2b751f925fb53f9b043375ed6fb5b1088001a4dacdc7c1ec7a8bfaee11e07842",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

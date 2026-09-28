@@ -1,0 +1,46 @@
+{
+ "number": 593,
+ "old_number": 312,
+ "title_ko": "아름다운 하늘과",
+ "title_en": "For the Beauty of the Earth",
+ "original_title": "For the Beauty of the Earth",
+ "theme": "감사절",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "콘라트 코허 (Conrad Kocher)",
+ "lyricist": "폴리어트 S. 피어포인트 (Folliott Sandford Pierpoint) · 1835~1917",
+ "credit_line_in_file": {
+  "composer": "C.Kocher/W.H.Monk",
+  "lyricist": "F.S.Pierpoint"
+ },
+ "year": 1838,
+ "meter": "7.7.7.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1872; work dated 1838"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1917; work dated 1838"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "593장 아름다운 하늘과.mscz",
+   "sha256": "6ae971f3b0afb57f81cde868130a72e47708879b5a2996473711759cb209cda5",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

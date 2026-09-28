@@ -1,0 +1,46 @@
+{
+ "number": 195,
+ "old_number": 175,
+ "title_ko": "성령이여 우리 찬송 부를 때",
+ "title_en": "Holy Spirit, Hear Us",
+ "original_title": "Holy Spirit, Hear Us",
+ "theme": "성령강림",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "제임스 F. 스위프트 (James Frederick Swift)",
+ "lyricist": "윌리엄 H. 파커 (William Henry Parker) · 1845~1929",
+ "credit_line_in_file": {
+  "composer": "J.F.Swift",
+  "lyricist": "W.H.Parker"
+ },
+ "year": 1881,
+ "meter": "6.5.6.5",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1931; work dated 1881"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1929; work dated 1881"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "195장 성령이여 우리 찬송 부를 때.mscz",
+   "sha256": "bd50f7df316305ed20721d513197cc33f2b264d0d11236c557aa708a1397ada1",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

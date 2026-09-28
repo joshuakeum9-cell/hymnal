@@ -1,0 +1,46 @@
+{
+ "number": 415,
+ "old_number": 471,
+ "title_ko": "십자가 그늘 아래",
+ "title_en": "Beneath the Cross of Jesus",
+ "original_title": "Beneath the Cross of Jesus",
+ "theme": "평안과위로",
+ "key_table": "Db",
+ "time_table": "4/4",
+ "composer": "프레더릭 메이커 (Frederick Charles Maker)",
+ "lyricist": "엘리자베스 클레페인 (Elizabeth Cecilia Clephane) · 1830~1869",
+ "credit_line_in_file": {
+  "composer": "F.C.Maker",
+  "lyricist": "E.C.Clephane"
+ },
+ "year": 1881,
+ "meter": "7.6.8.6.8.6.8.6",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1927; work dated 1881"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1869; work dated 1881"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "415장 십자가 그늘 아래.mscz",
+   "sha256": "f886b68ebfe2c3f9574d4028472a5a3f41e83f97614a31c428b34f56018e996d",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 68,
+ "old_number": 32,
+ "title_ko": "오 하나님 우리의 창조주시니",
+ "title_en": "We Praise Thee, O God, our Redeemer, Creator",
+ "original_title": "We Praise Thee, O God, Our Redeemer, Creator",
+ "theme": "창조주",
+ "key_table": "D",
+ "time_table": "3/4",
+ "composer": "네덜란드 민요(크렘저 편곡) (Traditional Netherlands Folk Song (arr. E. Kremser))",
+ "lyricist": "줄리아 B. C. 코리 (Julia Bulkley Cady Cory) · 1882~1963",
+ "credit_line_in_file": {
+  "composer": "Netherlands Folk Song/E.Kremser",
+  "lyricist": "J.C.Cory"
+ },
+ "year": 1626,
+ "meter": "12.11.12.11",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 네덜란드 민요(크렘저 편곡) (Traditional Netherlands Folk Song (arr. E. Kremser))"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "author died 1963, after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "68장 오 하나님 우리의 창조주시니.mscz",
+   "sha256": "c5f7ac506ba9946d044fbb882838e22c1a915108fa98d0c6407729bae0befa5c",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,10 @@
+# 445 Walking in Sunlight All of My Journey
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Walk- ing in sun- light all of my jour- ney, O- ver the moun- tains, through the deep vale, Je- sus has said, "I'll ne- ver for- sake thee," Prom- ise di- vine that nev- er can fail. Heav- en- ly sun- light, heav- en- ly sun- light, Flood- _ _ ing my soul with glo- ry di- vine Hal- le- lu- jah! I am re- joic- ing, Sing- ing His prais- es, Je- sus is mine.
+v2: Shad- ows a- round me, shad- ows a- bove me, Ne- ver con- ceal my Sav- iour and Guide He is the light, in Him is no dark- ness, Ev- er I'm walk- ing close to Him side. Heav- en- ly sun- light, heav- en- ly sun- light, Flood- _ _ ing my soul with glo- ry di- vine Hal- le- lu- jah! I am re- joic- ing, Sing- ing His prais- es, Je- sus is mine.
+v3: In thr bright sun- light, ev- er re- joic- ing, Press- ing my way to man- sions a- bove, Sing- ing His prais- es glad- ly I'm walk- ing, Walk- ing in sun- light, sun- light of love. Heav- en- ly sun- light, heav- en- ly sun- light, Flood- _ _ ing my soul with glo- ry di- vine Hal- le- lu- jah! I am re- joic- ing, Sing- ing His prais- es, Je- sus is mine.

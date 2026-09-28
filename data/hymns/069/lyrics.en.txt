@@ -1,0 +1,13 @@
+# 69 All Creatures of Our God And King
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: rough (per verse: auto, auto, auto, auto, auto, rough)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: All crea- tures of our God and King, Lift up your voice and with us sing Al- le- lu- ia! Al- le- lu- ia! Thou burn- ing sun with gold- en beam, Thou sil- ver moon with soft- er gleam! Oh-, praise Him! Oh-, praise _ Him! Al- le- _ lu- ia! Al- le- lu- ia! Al- le- lu- ia! _ _
+v2: Thou rush- ing wind that art so strong, Ye clouds that sail in hea- ven a- long, Oh-, praise Him! Al- le- lu- ia! Thou ris- ing morn, in praise re- joice, Ye lights of eve- ning, find a voice! Oh-, praise Him! Oh-, praise _ Him! Al- le- _ lu- ia! Al- le- lu- ia! Al- le- lu- ia! _ _
+v3: Thou flow- ing wa- ter, pure and clear, Make mu- sic for thy Lord to hear, Al- le- lu- ia! Al- le- lu- ia! Thou fire so mas- ter- ful and bright, Thou giv- est man both warmth and light! Oh-, praise Him! Oh-, praise _ Him! Al- le- _ lu- ia! Al- le- lu- ia! Al- le- lu- ia! _ _
+v4: Dear moth- er earth,- who day by day Un- fold- est bless- ings on our way, Oh-, praise Him! Al- le- lu- ia! The flo- wers and fruits that in thee grow, Let them His glo- ry al- so show! Oh-, praise Him- !Oh-, praise _ Him! Al- le- _ lu- ia! Al- le- lu- ia! Al- le- lu- ia! _ _
+v5: And all ye men of ten- der heart, For- giv- ing oth- ers, take your part. _ Oh-, sing ye! Al- le- lu- ia! Ye who long pain and sor- row bear, Praise God and on Him cast your care! Oh-, praise Him! Oh-, praise _ Him! Al- le- _ lu- ia! Al- le- lu- ia! Al- le- lu- ia! _ _
+v6: Let all things their Cre- a- tor bless, And wor- ship Him in hum- ble- ness. _ Oh-, praise Him! Al- le- lu- ia! Praise, praise the Fa- ther, praise the Son, And praise the Spir- it, Three in One! Oh-, praise Him! Oh-, praise _ Him! Al- le- _ lu- ia! Al- le- lu- ia! Al- _ le- lu- ia! _

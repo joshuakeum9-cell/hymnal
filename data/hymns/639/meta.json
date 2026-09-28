@@ -1,0 +1,46 @@
+{
+ "number": 639,
+ "old_number": 550,
+ "title_ko": "주 함께하소서",
+ "title_en": "The Lord Bless You and Keep You",
+ "original_title": "",
+ "theme": "축도송",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "백경환 (백경환)",
+ "lyricist": "백경환 (백경환)",
+ "credit_line_in_file": {
+  "composer": "백경환",
+  "lyricist": "백경환"
+ },
+ "year": 1983,
+ "meter": "IRREG.",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "639장 주 함께하소서.mscz",
+   "sha256": "cdf5dd2f9891fa375ea8cdbcbd23e279fe3a84ec3e5c32361ec13b8899c4bd42",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

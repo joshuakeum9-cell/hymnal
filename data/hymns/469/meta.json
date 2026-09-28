@@ -1,0 +1,46 @@
+{
+ "number": 469,
+ "old_number": "",
+ "title_ko": "내 주 하나님",
+ "title_en": "Lord My God Alone",
+ "original_title": "My Lord God (Korean original)",
+ "theme": "제자의도리",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "이상수 (Lee Sang-soo)",
+ "lyricist": "정의수 (Jung Eui-soo)",
+ "credit_line_in_file": {
+  "composer": "이성수",
+  "lyricist": "정의수"
+ },
+ "year": 2004,
+ "meter": "Irregular",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "469장 내 주 하나님.mscz",
+   "sha256": "e8bef02716a87893d4deca3f213ba11419a4874bda200ac019578de478601ce1",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

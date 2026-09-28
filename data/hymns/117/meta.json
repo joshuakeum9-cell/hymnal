@@ -1,0 +1,46 @@
+{
+ "number": 117,
+ "old_number": 117,
+ "title_ko": "만백성 기뻐하여라",
+ "title_en": "God Rest You Merry, Gentlemen",
+ "original_title": "God Rest You Merry, Gentlemen",
+ "theme": "성탄",
+ "key_table": "Em",
+ "time_table": "4/4",
+ "composer": "잉글랜드 전통 / 존 스테이너 편곡 (Traditional English Melody, arr. John Stainer)",
+ "lyricist": "잉글랜드 전통 (18세기) (Traditional English Carol (18th C.))",
+ "credit_line_in_file": {
+  "composer": "English Melody/J.Stainer",
+  "lyricist": "English Carol"
+ },
+ "year": 1871,
+ "meter": "8.6.8.6.8.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 잉글랜드 전통 / 존 스테이너 편곡 (Traditional English Melody, arr. John Stainer)"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 잉글랜드 전통 (18세기) (Traditional English Carol (18th C.))"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "117장 만백성 기뻐하여라.mscz",
+   "sha256": "3b9e2434d593a9241b22156ad2897835c784d93b55d522563b97d0c128295d26",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 185,
+ "old_number": 179,
+ "title_ko": "이 기쁜 소식을",
+ "title_en": "Oh, Spread the Tidings 'Round",
+ "original_title": "The Comforter Has Come",
+ "theme": "성령강림",
+ "key_table": "C",
+ "time_table": "3/4",
+ "composer": "윌리엄 J. 커크패트릭 (William J. Kirkpatrick)",
+ "lyricist": "프랜시스 보텀 (Francis Bottome) · 1823~1894",
+ "credit_line_in_file": {
+  "composer": "W.J.Kirkpatrick",
+  "lyricist": "F.Bottome"
+ },
+ "year": 1890,
+ "meter": "12.12.12.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1890, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1894; work dated 1890"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "185장 이 기쁜 소식을.mscz",
+   "sha256": "7bf69c8e47b6995886eb91a590cfd8c81fd434826c3246f606d50bafc47d13e9",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

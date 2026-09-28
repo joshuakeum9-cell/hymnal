@@ -1,0 +1,46 @@
+{
+ "number": 370,
+ "old_number": 455,
+ "title_ko": "주 안에 있는 나에게",
+ "title_en": "The Trusting Heart to Jesus Clings",
+ "original_title": "Singing I Go (No Other Burden for Me)",
+ "theme": "인도와보호",
+ "key_table": "G",
+ "time_table": "6/8",
+ "composer": "W. J. 커크패트릭 (William J. Kirkpatrick)",
+ "lyricist": "E. E. 휴이트 (Eliza E. Hewitt) · 1851~1920",
+ "credit_line_in_file": {
+  "composer": "W.J.Kirkpatrick",
+  "lyricist": "E.E.Hewitt"
+ },
+ "year": 1898,
+ "meter": "8.6.8.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1921; work dated 1898"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1920; work dated 1898"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "370장 주 안에 있는 나에게.mscz",
+   "sha256": "7832cee931527e44ab8ca3d5ac9e34bdc3fb0a7a024e0d7136bd46ce0110f117",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

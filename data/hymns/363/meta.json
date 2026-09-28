@@ -1,0 +1,46 @@
+{
+ "number": 363,
+ "old_number": 479,
+ "title_ko": "내가 깊은 곳에서",
+ "title_en": "From the Depths, O Lord, I Cry",
+ "original_title": "From the Depths, O Lord, I Cry (Psalm 130)",
+ "theme": "기도와간구",
+ "key_table": "C",
+ "time_table": "3/4",
+ "composer": "D. S. 보르트니안스키 (Dmitri S. Bortniansky)",
+ "lyricist": "피득 (A. A. 피터스, 시편 130편 운문화) (Alexander A. Pieters (Psalm 130 paraphrase)) · 1872~1958",
+ "credit_line_in_file": {
+  "composer": "D.S.Bortniansky",
+  "lyricist": "A.A.Pieters"
+ },
+ "year": 1825,
+ "meter": "7.7.7.7.7.7 (777.777)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1825; work dated 1825"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1958; work dated 1825"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "363장 내가 깊은 곳에서.mscz",
+   "sha256": "35dbe13f9c9de0162662e4bda0d2d3212c6060b231c2f52f4aa1bf8d3145f152",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

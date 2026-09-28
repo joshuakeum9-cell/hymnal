@@ -1,0 +1,46 @@
+{
+ "number": 412,
+ "old_number": 469,
+ "title_ko": "내 영혼의 그윽히 깊은 데서",
+ "title_en": "For Away in the Depths of My Spirit",
+ "original_title": "Wonderful Peace",
+ "theme": "평안과위로",
+ "key_table": "Ab",
+ "time_table": "6/8",
+ "composer": "윌리엄 G. 쿠퍼 (William Gustin Cooper)",
+ "lyricist": "워런 D. 코넬 (Warren Donald Cornell) · 1858~1936",
+ "credit_line_in_file": {
+  "composer": "W.G.Cooper",
+  "lyricist": "W.D.Cornell"
+ },
+ "year": 1889,
+ "meter": "11.9.12.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1889, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1936; work dated 1889"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "412장 내 영혼의 그윽히 깊은 데서.mscz",
+   "sha256": "66e600a8620786636b0a49b2b6e254a18722573c14cb29f0a6f5bf34cf37552e",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

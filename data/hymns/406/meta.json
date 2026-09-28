@@ -1,0 +1,46 @@
+{
+ "number": 406,
+ "old_number": 464,
+ "title_ko": "곤한 내 영혼 편히 쉴 곳과",
+ "title_en": "I Have Found Sweet Rest",
+ "original_title": "The Everlasting Arms",
+ "theme": "평안과위로",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "레일라 네일러 모리스 (Lelia Naylor Morris)",
+ "lyricist": "레일라 네일러 모리스 (Lelia Naylor Morris) · 1862~1929",
+ "credit_line_in_file": {
+  "composer": "L.N.Morris",
+  "lyricist": "L.N.Morris"
+ },
+ "year": 1908,
+ "meter": "10.10.10.9 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1929; work dated 1908"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1929; work dated 1908"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "406장 곤한 내 영혼 편히 쉴 곳과.mscz",
+   "sha256": "bc05a1d04c2a25df2b8e0aba51ac5f470409a213a4ee149529cab7a2b375b4f7",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 46,
+ "old_number": 58,
+ "title_ko": "이 날은 주님 정하신",
+ "title_en": "This is the Day the Lord Hath Made",
+ "original_title": "This is the Day the Lord Hath Made",
+ "theme": "주일",
+ "key_table": "G",
+ "time_table": "3/2",
+ "composer": "토머스 A. 안 (Thomas A. Arne)",
+ "lyricist": "아이작 와츠 (Isaac Watts) · 1674~1748",
+ "credit_line_in_file": {
+  "composer": "T.A.Arne",
+  "lyricist": "I.Watts"
+ },
+ "year": 1762,
+ "meter": "8.6.8.6 (CM)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1778; work dated 1762"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1748; work dated 1762"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "46장 이 날은 주님 정하신.mscz",
+   "sha256": "a68c5b279d6c800676b5262af9203160709f0605b44617985822714ce9b9872f",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

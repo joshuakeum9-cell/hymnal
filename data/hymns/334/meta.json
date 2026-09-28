@@ -1,0 +1,46 @@
+{
+ "number": 334,
+ "old_number": "",
+ "title_ko": "위대하신 주를",
+ "title_en": "This is a Time Remember",
+ "original_title": "O Lord, We Bow Before Your Greatness",
+ "theme": "소명과충성",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "B. J. 리치 (R. 타벨 편곡) (Bryan Jeffery Leech (arr. R. Tabell))",
+ "lyricist": "B. J. 리치 (Bryan Jeffery Leech) · 1931~2015",
+ "credit_line_in_file": {
+  "composer": "B.J.Leech",
+  "lyricist": "B.J.Leech"
+ },
+ "year": 1982,
+ "meter": "12.12.14.13",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "work dated 1982, may still be in copyright"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "author died 2015, after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "334장 위대하신 주를.mscz",
+   "sha256": "832ee47996200d466accf6b0143de0ff2d4474f8d1e98d8e101fc31938aa79d2",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

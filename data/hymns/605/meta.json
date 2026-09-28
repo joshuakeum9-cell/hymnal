@@ -1,0 +1,46 @@
+{
+ "number": 605,
+ "old_number": 287,
+ "title_ko": "오늘 모여 찬송함은",
+ "title_en": "Joy and Praise This Day Confessing",
+ "original_title": "",
+ "theme": "혼례",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "루트비히 판 베토벤 (Ludwig van Beethoven)",
+ "lyricist": "Anonymous",
+ "credit_line_in_file": {
+  "composer": "L.Van Beethoven",
+  "lyricist": "Anonymous"
+ },
+ "year": 1824,
+ "meter": "8.7.8.7 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1827; work dated 1824"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1824, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "605장 오늘 모여 찬송함은.mscz",
+   "sha256": "a5b772b9eed103a3288324539a794ef416df295ca44aa1c97efe6ab40ed8470d",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

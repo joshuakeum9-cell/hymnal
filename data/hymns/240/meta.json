@@ -1,0 +1,46 @@
+{
+ "number": 240,
+ "old_number": 231,
+ "title_ko": "주가 맡긴 모든 역사",
+ "title_en": "When My Life Work is Ended",
+ "original_title": "My Savior First of All (I Shall Know Him)",
+ "theme": "천국",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "존 롭슨 스위니 (John Robson Sweney)",
+ "lyricist": "패니 제인 크로스비 (Fanny Jane Crosby) · 1820~1915",
+ "credit_line_in_file": {
+  "composer": "J.R.Sweney",
+  "lyricist": "F.J.Crosby"
+ },
+ "year": 1891,
+ "meter": "15.11.15.11 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1899; work dated 1891"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1891"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "240장 주가 맡긴 모든 역사.mscz",
+   "sha256": "6f63950e4f5ad273344d0ad1577eca31c09a11ddeebf9754e9ae547c9f1bea5e",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 355,
+ "old_number": 386,
+ "title_ko": "다 같이 일어나",
+ "title_en": "March On, O Soul, with Strength",
+ "original_title": "March on, O Soul, with Strength",
+ "theme": "분투와승리",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "존 고스 (편곡 1874) (John Goss (arr. 1874))",
+ "lyricist": "G. T. 코스터 (George Thomas Coster) · 1835~1912",
+ "credit_line_in_file": {
+  "composer": "J.Goss",
+  "lyricist": "G.T.Coster"
+ },
+ "year": 1874,
+ "meter": "6.6.6.6.8.8",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1874, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1912; work dated 1874"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "355장 다 같이 일어나.mscz",
+   "sha256": "c35db165915120d550ad01341c94ef8d71c70eb1be0f5d01902860c204197274",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

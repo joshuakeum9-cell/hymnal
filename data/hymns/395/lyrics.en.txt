@@ -1,0 +1,11 @@
+# 395 God Be Merciful to Me
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: God be mer- ci- ful to me, _ On _ Thy grace I rest my plea Plen- teous in _ com- pas- _ sion Thou, _ Blot out my _ trans- gres- _ sions now Wash me, make me pure _ with- in, _ Cleanse, O cleanse me from my sin, Wash me, make me pure _ with- in, _ Cleanse, O cleanse me from my sin. _ _
+v2: I am e- vil, born in sin _ Thou _ de- sir- est truth with- in. Thou a- lone _ my Sav- _ ior art, _ Teach Thy wis- _ dom to _ my heart Make me pure, Thy grace _ be- stow, _ Wash me whit- er than the snow, Make me pure, Thy grace _ be- stow, _ Wash me whit- er than the snow. _ _
+v3: Gra- cious God, my heart re- new, _ Make _ my spir- it right and true Cast me not _ a- way _ from Thee, _ Let Thy Spir- _ it dwell _ in me Thy sal- va- tion's joy _ im- part, _ Stead- fast make my will- ing heart, Thy sal- va- tion's joy _ im- part, _ Stead- fast make my will- ing heart. _ _
+v4: Sin- ners then shall learn from me _ And _ re- turn, O God, to Thee Sav- ior, all _ my guilt _ re- move, _ And my tongue _ shall sing _ Thy love Touch my si- lent lips, _ O Lord, _ And my mouth shall praise ac- cord, Touch my si- lent lips, _ O Lord, _ And my mouth shall praise ac- cord. A- men.

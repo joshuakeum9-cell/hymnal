@@ -1,0 +1,46 @@
+{
+ "number": 563,
+ "old_number": 411,
+ "title_ko": "예수 사랑하심을",
+ "title_en": "Jesus Loves Me, This I Know",
+ "original_title": "Jesus Loves Me",
+ "theme": "어린이",
+ "key_table": "Eb",
+ "time_table": "2/4",
+ "composer": "윌리엄 B. 브래드버리 (William Batchelder Bradbury)",
+ "lyricist": "안나 B. 워너 (Anna Bartlett Warner) · 1827~1915",
+ "credit_line_in_file": {
+  "composer": "W.B.Bradbury",
+  "lyricist": "A.B.Warner"
+ },
+ "year": 1862,
+ "meter": "7.7.7.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1868; work dated 1862"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1862"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "563장 예수 사랑하심을.mscz",
+   "sha256": "53b74fc97706157333dd225d3642c3a8dbc708ba91fcacb8a918b64ace3da06d",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

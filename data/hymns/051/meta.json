@@ -1,0 +1,46 @@
+{
+ "number": 51,
+ "old_number": "",
+ "title_ko": "주님 주신 거룩한 날",
+ "title_en": "Holy, Holy Day of the Lord",
+ "original_title": "Holy Day Given by the Lord",
+ "theme": "봉헌",
+ "key_table": "Eb",
+ "time_table": "6/8",
+ "composer": "김영운 (Kim Young-woon)",
+ "lyricist": "김익호 (Kim Ik-ho)",
+ "credit_line_in_file": {
+  "composer": "김영준",
+  "lyricist": "김이호"
+ },
+ "year": 2005,
+ "meter": "8.8.8.8 D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "51장 주님 주신 거룩한 날.mscz",
+   "sha256": "d600388b94c90b3ce0dce2c49474af545a0e0649194fccfb42e02ad8448b8087",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

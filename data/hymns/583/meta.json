@@ -1,0 +1,46 @@
+{
+ "number": 583,
+ "old_number": "",
+ "title_ko": "이 민족에 복음을",
+ "title_en": "This Nation, Lord, By Your Grace",
+ "original_title": "",
+ "theme": "나라사랑",
+ "key_table": "Eb",
+ "time_table": "3/4",
+ "composer": "임긍휘 (임긍휘)",
+ "lyricist": "이춘구 (이춘구)",
+ "credit_line_in_file": {
+  "composer": "임준희",
+  "lyricist": "이윤구"
+ },
+ "year": 2006,
+ "meter": "7.5.7.5 with refrain",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "583장 이 민족에 복음을.mscz",
+   "sha256": "3dc323883248fdbd689b672ebb1c41782c4ef81a62aaa0f4e17926468049aa79",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

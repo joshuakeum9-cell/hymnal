@@ -1,0 +1,46 @@
+{
+ "number": 609,
+ "old_number": "",
+ "title_ko": "이 세상 살 때에",
+ "title_en": "When We Live in This World",
+ "original_title": "",
+ "theme": "장례",
+ "key_table": "Gm",
+ "time_table": "3/4",
+ "composer": "홍은표 (홍은표)",
+ "lyricist": "김지길 (김지길) · 1923~?",
+ "credit_line_in_file": {
+  "composer": "홍권옥",
+  "lyricist": "김지길"
+ },
+ "year": 1998,
+ "meter": "6.5.6.5.6.5 D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "609장 이 세상 살 때에.mscz",
+   "sha256": "38f0f855b07abd6348166a4d70658059db1f22627bef2f543e011b7e85c65a52",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

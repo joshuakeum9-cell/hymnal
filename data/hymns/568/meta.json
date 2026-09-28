@@ -1,0 +1,46 @@
+{
+ "number": 568,
+ "old_number": "",
+ "title_ko": "하나님은 나의 목자시니",
+ "title_en": "Lord in Heaven, He is My Own Shepherd",
+ "original_title": "",
+ "theme": "어린이",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "이일래 (이일래)",
+ "lyricist": "석진영 (석진영) · 1926~?",
+ "credit_line_in_file": {
+  "composer": "이일래",
+  "lyricist": "석진영"
+ },
+ "year": 1938,
+ "meter": "IRREG.",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "568장 하나님은 나의 목자시니.mscz",
+   "sha256": "6cc5ef5ed054f338ca87cafedeeece83864eed87ac2c01ea107503abd6dd8ca9",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 401,
+ "old_number": 457,
+ "title_ko": "주의 곁에 있을 때",
+ "title_en": "Saviour, Lead Me, Lest I Stray",
+ "original_title": "Savior, Lead Me, Lest I Stray",
+ "theme": "인도와보호",
+ "key_table": "C",
+ "time_table": "4/4",
+ "composer": "프랭크 매리언 데이비스 (Frank Marion Davis)",
+ "lyricist": "프랭크 매리언 데이비스 (Frank Marion Davis) · 1839~1896",
+ "credit_line_in_file": {
+  "composer": "F.M.Davis",
+  "lyricist": "F.M.Davis"
+ },
+ "year": 1882,
+ "meter": "7.7.7.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1896; work dated 1882"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1896; work dated 1882"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "401장 주의 곁에 있을 때.mscz",
+   "sha256": "5ca55ecc9baa7ecda14b88562172ef35e3d79e13a0712ab59b640f86650ac6e7",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

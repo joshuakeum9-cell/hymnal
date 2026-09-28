@@ -1,0 +1,46 @@
+{
+ "number": 178,
+ "old_number": "",
+ "title_ko": "주 예수 믿는 자여",
+ "title_en": "All Rejoice Ye Believers",
+ "original_title": "Rejoice, All Ye Believers (Ermuntert euch, ihr Frommen)",
+ "theme": "재림",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "박정신 (한국 곡조) (Park Jung-shin (Korean tune))",
+ "lyricist": "라우렌티우스 라우렌티 / 사라 핀들레이터 영역 (Laurentius Laurenti, tr. Sarah B. Findlater) · 1660~1722",
+ "credit_line_in_file": {
+  "composer": "박정선",
+  "lyricist": "L.Laurenti"
+ },
+ "year": 1999,
+ "meter": "irregular",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "work dated 1999, may still be in copyright"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "178장 주 예수 믿는 자여.mscz",
+   "sha256": "017c734615bc9003cd9474b91e4eadc568c6be2b0882aa9cdd736d8cdfaa31ae",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

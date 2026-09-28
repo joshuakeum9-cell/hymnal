@@ -1,0 +1,46 @@
+{
+ "number": 95,
+ "old_number": 82,
+ "title_ko": "나의 기쁨 나의 소망 되시며",
+ "title_en": "O Thou, In Whose Presence",
+ "original_title": "O Thou in Whose Presence My Soul Takes Delight",
+ "theme": "예수그리스도",
+ "key_table": "D",
+ "time_table": "4/4",
+ "composer": "와이어스 *성가 보감* (Wyeth's Repository of Sacred Music (arr. H. P. Main))",
+ "lyricist": "조지프 스웨인 (Joseph Swain) · 1761~1796",
+ "credit_line_in_file": {
+  "composer": "F.Lewis/H.P.Main",
+  "lyricist": "J.Swain"
+ },
+ "year": 1813,
+ "meter": "11.8.11.8",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1813, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1796; work dated 1813"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "95장 나의 기쁨 나의 소망 되시며.mscz",
+   "sha256": "3f012a4ffbeeedd4582fbe13698f61028740670a7e372629b4488ccebb1adf51",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

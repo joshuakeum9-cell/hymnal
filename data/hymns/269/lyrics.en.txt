@@ -1,0 +1,10 @@
+# 269 The Precious Blood of Jesus
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: The pre- cious blood of Je- sus, shed Up- on the cru- el tree, Flows like a foun- tain still, for sins Oh, friends, for you and me! Come with- out price, _ con- fess your sin, All peo- ple high or low _ _ Be by that stream made tru- ly clean, Made pure, and white as snow! I do be- lieve, _ I do be- lieve, That Je- sus died for me, _ _ That on the cross He shed His blood From sin to set me free.
+v2: The dy- ing thief, who came to know The black- ness of his guilt, In faith re- ceived as Sa- viour Him Whose sin- less blood was spilt And though my sin _ be black as night, The pro- mise still holds true _ _ If I trust Je- sus as did he, I'll be for- giv- en too. I do be- lieve, _ I do be- lieve, That Je- sus died for me, _ _ That on the cross He shed His blood From sin to set me free.
+v3: The Lamb of God, who bore a- lone The sins of all the race, Now by His cross re- deems from loss Each who will seek His face And they shall throng _ with end- less song Up- on that hap- py shore, _ _ With harp of gold and joy un- told, To praise Him ev- er more. I do be- lieve, _ I do be- lieve, That Je- sus died for me, _ _ That on the cross He shed His blood From sin to set me free.

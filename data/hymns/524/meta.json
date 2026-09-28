@@ -1,0 +1,46 @@
+{
+ "number": 524,
+ "old_number": 313,
+ "title_ko": "갈 길을 밝히 보이시니",
+ "title_en": "Come to the Saviour, Make No Delay",
+ "original_title": "Come to the Saviour, Make No Delay",
+ "theme": "부르심과영접",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "조지 F. 루트 (George Frederick Root)",
+ "lyricist": "조지 F. 루트 (George Frederick Root) · 1820~1895",
+ "credit_line_in_file": {
+  "composer": "G.F.Root",
+  "lyricist": "G.F.Root"
+ },
+ "year": 1866,
+ "meter": "9.9.9.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1895; work dated 1866"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1895; work dated 1866"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "524장 갈 길을 밝히 보이시니.mscz",
+   "sha256": "fcc4010e61961b7b520aac131c4d8fa65ecb7f0d109a4050f0053f601f65ba88",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

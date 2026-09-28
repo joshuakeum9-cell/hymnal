@@ -1,0 +1,46 @@
+{
+ "number": 5,
+ "old_number": 3,
+ "title_ko": "이 천지간 만물들아",
+ "title_en": "From All that Dwell Below the Skies",
+ "original_title": "From All That Dwell Below the Skies (Doxology)",
+ "theme": "송영",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "루서 올랜도 에머슨 (Luther Orlando Emerson)",
+ "lyricist": "익명 (Anonymous)",
+ "credit_line_in_file": {
+  "composer": "L.O.Emerson",
+  "lyricist": "W.Kethe"
+ },
+ "year": 1847,
+ "meter": "8.8.8.8 (LM)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1847"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 익명 (Anonymous)"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "5장 이 천지간 만물들아.mscz",
+   "sha256": "b611067da88401f0454dfd1dc0f319fcd84df7840358118d572204582a2ba868",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

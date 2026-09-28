@@ -1,0 +1,46 @@
+{
+ "number": 641,
+ "old_number": 552,
+ "title_ko": "아멘(두번 아멘)",
+ "title_en": "Amen",
+ "original_title": "Twofold Amen",
+ "theme": "아멘송",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "V. D. 톰슨 (V. D. Thompson)",
+ "lyricist": "",
+ "credit_line_in_file": {
+  "composer": "V.D.Thompson",
+  "lyricist": ""
+ },
+ "year": 1890,
+ "meter": "IRREG.",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "credits marked ai-draft on the source page; check the book"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1890, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "641장 아멘(두번 아멘).mscz",
+   "sha256": "8d481684d63e553c6e5bf437de48820805d54f9b29ece34e8da7b78a6857cd46",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

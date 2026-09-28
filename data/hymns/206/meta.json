@@ -1,0 +1,46 @@
+{
+ "number": 206,
+ "old_number": "",
+ "title_ko": "주님의 귀한 말씀은",
+ "title_en": "Lamp of Our Feet, Whereby We Trace",
+ "original_title": "Lamp of Our Feet, Whereby We Trace",
+ "theme": "성경",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "임석인 (임석인)",
+ "lyricist": "버나드 바턴 (Bernard Barton) · 1784~1849",
+ "credit_line_in_file": {
+  "composer": "임석인",
+  "lyricist": "B.D.Barton"
+ },
+ "year": 1999,
+ "meter": "8.6.8.6",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "work dated 1999, may still be in copyright"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "206장 주님의 귀한 말씀은.mscz",
+   "sha256": "9e2b542a3f27e14ec93db2885763c06db2d576881fd245b69bc4325fb03c6c24",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 47,
+ "old_number": "",
+ "title_ko": "하늘이 푸르고",
+ "title_en": "High and Blue Firmament",
+ "original_title": "High and Blue Firmament",
+ "theme": "주일",
+ "key_table": "Eb",
+ "time_table": "6/8",
+ "composer": "김규태 (Kim Gyu-tae)",
+ "lyricist": "강대식 (Kang Dae-sik)",
+ "credit_line_in_file": {
+  "composer": "김규태",
+  "lyricist": "강대식"
+ },
+ "year": 2000,
+ "meter": "6.6.6.6 D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "47장 하늘이 푸르고.mscz",
+   "sha256": "69fa14aca00edf427f8340fe2e3c1bb434bd0d83c6e5999c053ea7eaeffdbcb7",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

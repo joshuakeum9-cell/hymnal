@@ -1,0 +1,46 @@
+{
+ "number": 224,
+ "old_number": "",
+ "title_ko": "정한 물로 우리 죄를",
+ "title_en": "Wash, O God, Our Sons and Daughters",
+ "original_title": "Wash, O God, Our Sons and Daughters",
+ "theme": "세례침례)",
+ "key_table": "F",
+ "time_table": "3/2",
+ "composer": "벤저민 프랭클린 화이트 (편곡 로널드 A. 넬슨) (Benjamin Franklin White (attr.) / arr. Ronald A. Nelson)",
+ "lyricist": "루스 캐럴린 덕 (Ruth Carolyn Duck) · 1947~2024",
+ "credit_line_in_file": {
+  "composer": "B.F.White/R.A.Nelson",
+  "lyricist": "R.Duck"
+ },
+ "year": 1844,
+ "meter": "8.7.8.7.D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1844, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "author died 2024, after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "224장 정한 물로 우리 죄를.mscz",
+   "sha256": "774c57de9c1d63273f4d587a76774f6552d542c9fed82efd1516da6bf5372daf",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 212,
+ "old_number": 347,
+ "title_ko": "겸손히 주를 섬길 때",
+ "title_en": "O Master, Let Me Walk with Thee",
+ "original_title": "O Master, Let Me Walk with Thee",
+ "theme": "헌신과봉사",
+ "key_table": "Eb",
+ "time_table": "3/4",
+ "composer": "H. 퍼시 스미스 (H. Percy Smith)",
+ "lyricist": "워싱턴 글래든 (Washington Gladden) · 1836~1918",
+ "credit_line_in_file": {
+  "composer": "H.P.Smith",
+  "lyricist": "W.Gladden"
+ },
+ "year": 1874,
+ "meter": "8.8.8.8 (L.M.)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1898; work dated 1874"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1918; work dated 1874"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "212장 겸손히 주를 섬길 때.mscz",
+   "sha256": "f22faccd2d2bb93f4808d17acd071548bdde0350b34c51db9d4e77e611aedd13",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

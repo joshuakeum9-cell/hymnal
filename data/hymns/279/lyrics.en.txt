@@ -1,0 +1,11 @@
+# 279 Pass Me Not, O Gentle Saviour
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, auto, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Pass me not, O gen- tle Sav- iour, Hear my hum- ble cry While on oth- ers Thou art smi- ling, Do not pass me by. Sav- iour, Sav- _ iour, hear my hum- ble cry While on oth- ers Thou art call- ing, Do not pass me by. _ _
+v2: Let me at a throne of mer- cy, Find _ sweet re- lief Kneel- ing there in deep con- tri- tion, Help mt un- be- lief. Sav- iour, Sav- _ iour, hear my hum- ble cry While on oth- ers Thou art call- ing, Do not pass me by. _ _
+v3: Trust- ing on- ly in Thy mer- it, Would _ I seek Thy face Heal my wound- ed,bro- ken spir- it, Save me by Thy grace. Sav- iour, Sav- _ iour, hear my hum- ble cry While on oth- ers Thou art call- ing, Do not pass me by. _ _
+v4: Thou the Spring of all my com- fort, More than life to me, Whom have I on earth be- side Thee Whom in heav'n but Thee Sav- iour, Sav- _ iour, hear my hum- ble cry While on oth- ers Thou art call- ing, Do _ _ not pass me by.

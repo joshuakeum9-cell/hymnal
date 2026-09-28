@@ -1,0 +1,12 @@
+# 450 My One Wish, Lord, is This Alone
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: My one wish, Lord, is this a- lone To serve Thee all my days, Then rise to stand be- fore Thy throne And _ sing Thy death- less praise _ _
+v2: Why should I cling to things of earth, Like dreams which pass a- way, Such dreams and toil- ings have no worth In _ heav'n's e- ter- nal day. _ _
+v3: The fier- y trials our faith in- curs, Un- num- ber'd though they be, Fear not for more than con- quer- ors Through _ Je- sus Christ are we. _ _
+v4: More dear is faith than gems or gold Rich jew- el we re- ceive Truth, flood- ing bless- ed- ness un- told On _ all who but be- lieve. _ _
+v5: Like ar- row- flight the mo- ments pass! Re- deem, at Christ's con- trol, Thy days, and give on His be- half Heart, _ bo- dy, strength and soul! A- men.

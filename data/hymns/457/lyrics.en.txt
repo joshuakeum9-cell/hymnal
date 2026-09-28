@@ -1,0 +1,10 @@
+# 457 Go to dark Gethsemane
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: rough (per verse: rough, rough, rough)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: ! could not place 56 syllables on 42 notes
+v2: ! could not place 56 syllables on 42 notes
+v3: ! could not place 56 syllables on 42 notes

@@ -1,0 +1,11 @@
+# 589 Far and Near the Fields are Teeming
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Far and _ _ near the fields are _ teem- ing With the waves of _ rip- ened grain Far and _ near their gold is _ gleam- ing O'er the _ sun- ny slope and plain. Lord of har- vest, send forth _ reap- ers! Hear _ us, Lord to _ Thee we cry Send them _ now the sheaves to _ gath- er, Ere the _ har- vest- time pass _ by.
+v2: Send them _ _ forth with morn's first _ beam- ing, Send them in the _ noon- tide's glare When the _ sun's last lays are _ gleam- ing, Bid them _ gath- er ev- 'ry- where. Lord of har- vest, send forth _ reap- ers! Hear _ us, Lord to _ Thee we cry Send them _ now the sheaves to _ gath- er, Ere the _ har- vest- time pass _ by.
+v3: O thou, whom _ _ thy Lord is _ send- ing, Gath- er now the _ sheaves of gold Heav'n- ward _ then at ev'- ning _ wend- ing, Thou shalt _ come with joy un- told. Lord of har- vest, send forth _ reap- ers! Hear _ us, Lord to _ Thee we cry Send them _ now the sheaves to _ gath- er, Ere the _ har- vest- time pass _ by.
+v4: When the _ _ har- vest is com- _ plet- ed And the last grain _ safe- ly stor'd, Then with _ joy shall we be _ seat- ed At the _ ban- quet of the Lord. Lord of har- vest, send forth _ reap- ers! Hear _ us, Lord to _ Thee we cry Send them _ now the sheaves to _ gath- er, Ere _ _ the har- vest- time pass by.

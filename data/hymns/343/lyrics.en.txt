@@ -1,0 +1,11 @@
+# 343 In The Hour Of Trial
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: In the hour of tri- al, Je- sus, plead for me Lest by base de- ni- al I de- part from Thee When Thou seest me wa- _ ver, With a look re- call, _ _ Nor for fear or fa- vor Suf- fer me to fall. _ _
+v2: With its witch- ing pleas- ures Would this vain world charm, Or its sor- did treas- ures Spread to work me harm, Bring to my re- mem- _ brance Sad Geth- sem- a- ne, _ _ Or, in dark- er sem- blance, Cross- crowned Cal- va- ry. _ _
+v3: If with sore af- flic- tion Thou in love chas- tise, Pour Thy ben- e- dic- tion On the sac- ri- fice Then, up- on Thine al- _ tar Free- ly of- fered up, _ _ Though the flesh may fal- ter, Faith shall drink the cup. _ _
+v4: When my last hour com- eth, Fraught with strife and pain, When my dust re- turn- eth To the dust a- gain On Thy truth re- ly- _ ing, Through that mor- tal strife, _ _ Je- sus, take me, dy- ing, To e- ter- nal life. A- men.

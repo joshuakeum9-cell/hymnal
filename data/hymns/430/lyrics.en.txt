@@ -1,0 +1,11 @@
+# 430 'Tis so Sweet to Walk with Jesus
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: 'Tis so _ sweet to walk with Je- sus, Step by step and day by day Step- ping _ in His ver- y foot- prints, Walk- ing with Him all the way. Step by step, step by step, I would walk with Je- sus, All the day, all the day, Keep- ing step with Je- sus.
+v2: Though like _ lit- tle child- ren we stand, With- out wis- dom, wit or strength, Je- sus _ leads us, safe, by the hand, step by step the jour- ney's length Step by step, step by step, I would walk with Je- sus, All the day, all the day, Keep- ing step with Je- sus.
+v3: Wheth- er _ through the mead- ows and flow'rs Or harsh vales, with feet that bleed, Where He _ goes, the way will be ours, step by step as He may lead. Step by step, step by step, I would walk with Je- sus, All the day, all the day, Keep- ing step with Je- sus.
+v4: Till like _ E- noch, we walk with God, Rais'd to heav'n and heav'n re- ward, We would _ walk in faith, as he trod, step by step, with Christ our Lord. Step by step, step by step, I would walk with Je- sus, All the day, all the day, Keep- ing step with Je- sus.

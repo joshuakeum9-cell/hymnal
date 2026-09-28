@@ -1,0 +1,46 @@
+{
+ "number": 418,
+ "old_number": "",
+ "title_ko": "기쁠 때나 슬플 때나",
+ "title_en": "Lord of Love in Sorrows and Joys",
+ "original_title": "In Joy or Sorrow (Korean original)",
+ "theme": "평안과위로",
+ "key_table": "F",
+ "time_table": "6/8",
+ "composer": "문성모 (Moon Sung-mo)",
+ "lyricist": "유호준 (Yoo Ho-jun)",
+ "credit_line_in_file": {
+  "composer": "문성모",
+  "lyricist": "유호준"
+ },
+ "year": 1990,
+ "meter": "8.8.8.8 with refrain",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "418장 기쁠 때나 슬플 때나.mscz",
+   "sha256": "71a5a347545ab9269adc44cacf1803c20afa222c09829024b55d7aff6461f45d",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

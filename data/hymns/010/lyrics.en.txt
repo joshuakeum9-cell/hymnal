@@ -1,0 +1,11 @@
+# 10 Come, Thou Almighty King
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Come, Thou Al- might- _ y King Help us Thy Name to sing Help us to praise: Fa- ther, all- glo- ri- ous, O'er all vic- to- ti- ous, Come, and reign o- ver us, An- cient of Days. _ _
+v2: Come, Thou In- car- _ nate Word, Gird on Thy might- y sword, Our prayer at- tend: Come, and Thy peo- ple bless, And give Thy Word suc- cess Spir- it of Ho- li- ness, On us de- scend. _ _
+v3: Come, Ho- ly Com- _ fort- er, Thy sa- cred wit- ness bear In this glad hour: Thou who al- might- y art, Now rule in ev- ery heart, And ne'er from us de- part, Spir- it of pow'r. _ _
+v4: To the great One _ in Three E- ter- nal prais- es be, Hence ev- er- more. His sov- ereign maj- es- ty May we in glo- ry see, And to e- ter- ni- ty Love and a- dore A- men.

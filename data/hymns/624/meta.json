@@ -1,0 +1,46 @@
+{
+ "number": 624,
+ "old_number": "",
+ "title_ko": "우리 모두 찬양해",
+ "title_en": "Let Us Praise the Lord our God",
+ "original_title": "",
+ "theme": "경배와찬양",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "카메룬 민요 (Cameroonian Melody)",
+ "lyricist": "Anonymous",
+ "credit_line_in_file": {
+  "composer": "Cameroonian Melody",
+  "lyricist": "Anonymous"
+ },
+ "year": null,
+ "meter": "IRREG.",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "credits marked ai-draft on the source page; check the book"
+  },
+  "text_en": {
+   "status": "unknown",
+   "basis": "no dates found; check the printed credit line"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "624장 우리 모두 찬양해.mscz",
+   "sha256": "cbb66dc8c7c8f8358025af46b600082f758bf359fa4a7ff09d95336bd69895be",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

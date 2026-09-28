@@ -1,0 +1,46 @@
+{
+ "number": 614,
+ "old_number": "",
+ "title_ko": "얼마나 아프셨나",
+ "title_en": "On the Cross He Suffered Pain",
+ "original_title": "",
+ "theme": "경배와찬양",
+ "key_table": "Dm",
+ "time_table": "3/4",
+ "composer": "김성혜 (김성혜)",
+ "lyricist": "조용기 (조용기) · 1936~2021",
+ "credit_line_in_file": {
+  "composer": "김성혜",
+  "lyricist": "조용기"
+ },
+ "year": 1981,
+ "meter": "7.7.7.7 D with refrain",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "614장 얼마나 아프셨나.mscz",
+   "sha256": "8b44a4f7d1bf5a1d3429cb5ed44f362a570bda3b89766cc6650cd1abfa4519d3",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

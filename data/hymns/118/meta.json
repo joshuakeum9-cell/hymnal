@@ -1,0 +1,46 @@
+{
+ "number": 118,
+ "old_number": 118,
+ "title_ko": "영광 나라 천사들아",
+ "title_en": "Angels, from the Realms of Glory",
+ "original_title": "Angels from the Realms of Glory",
+ "theme": "성탄",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "헨리 스마트 (Henry Thomas Smart)",
+ "lyricist": "제임스 몽고메리 (James Montgomery) · 1771~1854",
+ "credit_line_in_file": {
+  "composer": "H.T.Smart",
+  "lyricist": "J.Montgomery"
+ },
+ "year": 1867,
+ "meter": "8.7.8.7.8.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1879; work dated 1867"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1854; work dated 1867"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "118장 영광 나라 천사들아.mscz",
+   "sha256": "4d1974804240bddb14b4342c131cba501446628cd812ced5bd9d507171679d5f",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

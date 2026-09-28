@@ -1,0 +1,10 @@
+# 102 Lift Up Your Heads, Ye Mighty Gates
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Lift up your heads, ye might- y gates, Be- hold, the King _ of _ Glo- ry waits The King of Kings is draw- _ ing _ near The Sav- iour of _ the _ world is here! _ _
+v2: Fling wide the por- tals of your heart Make it a tem- _ ple, _ set a- part From earth- ly use for hea- _ ven's _ em- ploy, A- dorned with _ prayer, _ and love, and _ joy.
+v3: Re- deem- _ er, _ come! I o- pen wide My heart _ to _ Thee here, Lord, a- bide. Let me Thy in- _ ner _ pres- ence feel Thy grace _ and _ love in me re- veal.

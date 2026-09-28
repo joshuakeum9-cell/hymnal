@@ -1,0 +1,46 @@
+{
+ "number": 394,
+ "old_number": 449,
+ "title_ko": "이 세상의 친구들",
+ "title_en": "Earthly Friends May Prove Untrue",
+ "original_title": "Jesus Never Fails",
+ "theme": "인도와보호",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "A. A. 루터 (Arthur A. Luther)",
+ "lyricist": "A. A. 루터 (Arthur A. Luther) · 1891~1960",
+ "credit_line_in_file": {
+  "composer": "A.A.Luther",
+  "lyricist": "A.A.Luther"
+ },
+ "year": 1927,
+ "meter": "7.5.7.5 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1960; work dated 1927"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1960; work dated 1927"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "394장 이 세상의 친구들.mscz",
+   "sha256": "89e022d156aee7b96589e9867df4700d61d9a54f4e1b1f18746dc870d75ec804",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

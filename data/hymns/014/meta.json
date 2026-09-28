@@ -1,0 +1,46 @@
+{
+ "number": 14,
+ "old_number": 30,
+ "title_ko": "주 우리 하나님",
+ "title_en": "The God of Abraham Praise",
+ "original_title": "The God of Abraham Praise (YIGDAL paraphrase)",
+ "theme": "경배",
+ "key_table": "Fm",
+ "time_table": "4/4",
+ "composer": "[\"히브리 멜로디(레오니 편곡)\",\" (Hebrew Melody (arr. Meyer Lyon \\\\\"Leoni\\\\\"))\"]",
+ "lyricist": "다니엘 벤 유다·토머스 올리버스 (Daniel ben Judah / Thomas Olivers (para.)) · 1725~1799",
+ "credit_line_in_file": {
+  "composer": "Hebrew Melody",
+  "lyricist": "D.Ben Judah"
+ },
+ "year": 1780,
+ "meter": "6.6.8.4 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: [\"히브리 멜로디(레오니 편곡)\",\" (Hebrew Melody (arr. Meyer Lyon \\\\\"Leoni\\\\\"))\"]"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1799; work dated 1780"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "14장 주 우리 하나님.mscz",
+   "sha256": "88f2f69e78a3e79f6646fe163d9695822c948de2bc6afd2d85f17f6e8950860c",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

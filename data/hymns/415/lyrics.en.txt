@@ -1,0 +1,10 @@
+# 415 Beneath the Cross of Jesus
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Be- neath the cross of Je- sus I fain would take my stand, The shad- ow of a might- y Rock With- in a wea- ry land A home with- in the wil- der- ness, A rest up- on the way, From the burn- ing of the noon- tide heat, And the bur- den of the day.
+v2: Up- on the cross of Je- sus Mine eye at times can see The ver- y dy- ing form of One Who suf- fered there for me And from my strick- en heart with tears Two won- ders I con- fess, The won- ders of re- deem- ing love And my own worth- less- ness. _ _
+v3: I take, O cross, thy shad- ow For my a- bid- ing place I ask no oth- er sun- shine than The sun- shine of His face Con- tent to let the world go by, To know no gain nor loss My sin- ful self my on- ly shame, My glo- ry, all the cross. A- men.

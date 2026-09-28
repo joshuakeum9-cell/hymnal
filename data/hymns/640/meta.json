@@ -1,0 +1,46 @@
+{
+ "number": 640,
+ "old_number": 554,
+ "title_ko": "아멘(두번 아멘)",
+ "title_en": "Amen",
+ "original_title": "Amen (Greek)",
+ "theme": "아멘송",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "그리스 전통 멜로디 (Greek Traditional Melody)",
+ "lyricist": "",
+ "credit_line_in_file": {
+  "composer": "Greek",
+  "lyricist": ""
+ },
+ "year": null,
+ "meter": "IRREG.",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "credits marked ai-draft on the source page; check the book"
+  },
+  "text_en": {
+   "status": "unknown",
+   "basis": "no dates found; check the printed credit line"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "640장 아멘(두번 아멘).mscz",
+   "sha256": "c0e7bc8df6d7a46b69b64aa0256654ba934d9a2baed2da2b5a566a465d6d7f4e",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

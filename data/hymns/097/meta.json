@@ -1,0 +1,46 @@
+{
+ "number": 97,
+ "old_number": "",
+ "title_ko": "정혼한 처녀에게",
+ "title_en": "To A Maid Engaged To Joseph",
+ "original_title": "To a Maid Engaged to Joseph",
+ "theme": "구주강림",
+ "key_table": "Gm",
+ "time_table": "4/4",
+ "composer": "러스티 에드워즈 (Rusty Edwards)",
+ "lyricist": "그라치아 그린달 (Gracia Grindal) · 1943~?",
+ "credit_line_in_file": {
+  "composer": "R.Edwards",
+  "lyricist": "G.Grindal"
+ },
+ "year": 1984,
+ "meter": "7.6.7.6.7.6",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "work dated 1984, may still be in copyright"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "work dated 1984, may still be in copyright"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "97장 정혼한 처녀에게.mscz",
+   "sha256": "70764fd0ebec0ed86209fdd16734868dc4f3638dbdef32a6a8780aa35973e687",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,11 @@
+# 566 A Little Child May Know
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: A lit- tle child may know Our Fa- ther's name of love 'Tis writ- ten on the earth be- low, And on the sky a- bove.
+v2: A- round me when I look, His hand- i- work I see This world is like a pic- ture book To teach His love to me.
+v3: Love- ly the mead- ow flow'rs Wak- en'd by gen- tle rain Love- ly the rain- bow in the show're, Arch- ing the heav'n- ly plain!
+v4: And in the night- time, too, All of those stars I see, Shin- ing so fair up in the blue, Whis- per God's love to me.

@@ -1,0 +1,46 @@
+{
+ "number": 398,
+ "old_number": "",
+ "title_ko": "어둠의 권세에서",
+ "title_en": "Sing Christ, the Triumph of Light",
+ "original_title": "From the Power of Darkness (Korean original)",
+ "theme": "인도와보호",
+ "key_table": "F",
+ "time_table": "6/8",
+ "composer": "김연준 (Kim Yeon-jun)",
+ "lyricist": "마경일 (Ma Gyeong-il) · 1912~1987",
+ "credit_line_in_file": {
+  "composer": "김연준",
+  "lyricist": "마경일"
+ },
+ "year": 1967,
+ "meter": "7.7.7.7.D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "398장 어둠의 권세에서.mscz",
+   "sha256": "f3aa6afbe6f228062437d954234888f4b40d4319e0615ae0615d9c28d75bdc8e",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

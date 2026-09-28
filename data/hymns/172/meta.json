@@ -1,0 +1,46 @@
+{
+ "number": 172,
+ "old_number": 152,
+ "title_ko": "사망을 이긴 주",
+ "title_en": "The Lord is Risen Indeed",
+ "original_title": "The Head That Once Was Crowned with Thorns",
+ "theme": "부활",
+ "key_table": "C",
+ "time_table": "3/2",
+ "composer": "조지 F. 루트 (George Frederick Root)",
+ "lyricist": "토마스 켈리 (Thomas Kelly) · 1769~1854",
+ "credit_line_in_file": {
+  "composer": "G.F.Root",
+  "lyricist": "T.Kelly"
+ },
+ "year": 1860,
+ "meter": "6.6.8.6",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1895; work dated 1860"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1854; work dated 1860"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "172장 사망을 이긴 주.mscz",
+   "sha256": "1f7688274c5e43c158ee120ee22221fbe3801dbdd17c1f4b722d52b199953b43",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

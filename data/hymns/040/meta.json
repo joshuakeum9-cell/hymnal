@@ -1,0 +1,46 @@
+{
+ "number": 40,
+ "old_number": 43,
+ "title_ko": "찬송으로 보답할 수 없는",
+ "title_en": "We are Never, Never Weary",
+ "original_title": "We Are Never, Never Weary",
+ "theme": "찬양",
+ "key_table": "D",
+ "time_table": "4/4",
+ "composer": "윌리엄 J. 커크패트릭 (William J. Kirkpatrick)",
+ "lyricist": "패니 J. 크로스비 (Fanny J. Crosby) · 1820~1915",
+ "credit_line_in_file": {
+  "composer": "W.J.Kirkpatrick",
+  "lyricist": "F.J.Crosby"
+ },
+ "year": 1885,
+ "meter": "13.9.13.9 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1921; work dated 1885"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1885"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "40장 찬송으로 보답할 수 없는.mscz",
+   "sha256": "151feaa176a06e6a3e6cbab3d8ac91428d5150826e1c6a8e27818e0a847808b5",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

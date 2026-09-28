@@ -1,0 +1,11 @@
+# 606 There's a Land that is Fairer Than Day
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: The- re's a land that is fair- er than day, And by faith we can see it a- far For the Fa- ther waits o- ver the way, To per- pare us a dwell- ing place there. In the sweet by- and- by, We shall meet on that beau- ti- ful shore, In the sweet by- and- by, We shall meet on that beau- ti- ful _ shore.
+v2: We shall sing on that beau- ti- ful shore The me- lo- di- ous songs of the blest, And our spir- its shall sor- row no more, Not a sigh for the bless- ing of rest. In the sweet by- and- by, We shall meet on that beau- ti- ful shore, In the sweet by- and- by, We shall meet on that beau- ti- ful shore. _ _
+v3: We shall meet those we lost long a- go When we rise to re- ceive our re- ward, Tears of part- ing no long- er to know, Nei- ther grief, on- ly joy in the Lord. In the sweet by- and- by, We shall meet on that beau- ti- ful shore, In the sweet by- and- by, We shall meet on that beau- ti- ful shore. _ _
+v4: To our boun- ti- ful Fa- ther a- bove We will of- fer the trib- ute of praise, For the glo- ri- ous gift of His love, And the bless- ings that hal- low our days. In the sweet by- and- by, We shall meet on that beau- ti- ful shore, In the sweet by- and- by, We shall meet on that beau- ti- ful shore. A- men.

@@ -1,0 +1,46 @@
+{
+ "number": 7,
+ "old_number": "",
+ "title_ko": "성부 성자 성령",
+ "title_en": "Glory to the Father",
+ "original_title": "Glory to the Father, Glory to the Son",
+ "theme": "송영",
+ "key_table": "D",
+ "time_table": "4/2",
+ "composer": "J. F. 에릭슨 (J. F. Erickson)",
+ "lyricist": "전통(2세기) (Traditional (2nd Century))",
+ "credit_line_in_file": {
+  "composer": "J.F.Erickson",
+  "lyricist": "Anonymous"
+ },
+ "year": 1984,
+ "meter": "Irregular",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "work dated 1984, may still be in copyright"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 전통(2세기) (Traditional (2nd Century))"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "7장 성부 성자 성령.mscz",
+   "sha256": "12498c9eab1c579a832f419fb2de45c4e43a78206f2bfd0678b0101ae7443d14",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

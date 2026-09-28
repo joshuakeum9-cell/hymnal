@@ -1,0 +1,46 @@
+{
+ "number": 279,
+ "old_number": 337,
+ "title_ko": "인애하신 구세주여",
+ "title_en": "Pass Me Not, O Gentle Saviour",
+ "original_title": "Pass Me Not, O Gentle Savior",
+ "theme": "회개와용서",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "윌리엄 하워드 도언 (William Howard Doane)",
+ "lyricist": "패니 제인 크로스비 (Fanny Jane Crosby) · 1820~1915",
+ "credit_line_in_file": {
+  "composer": "W.H.Doane",
+  "lyricist": "F.J.Crosby"
+ },
+ "year": 1870,
+ "meter": "8.5.8.5 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1870, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1870"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "279장 인애하신 구세주여.mscz",
+   "sha256": "9bdc54d6cb321d190ecb17b2e46c787144fbaf2527c4fb40423a89289668c26c",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

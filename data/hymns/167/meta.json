@@ -1,0 +1,46 @@
+{
+ "number": 167,
+ "old_number": 157,
+ "title_ko": "즐겁도다 이 날",
+ "title_en": "Welcome, Happy Morning",
+ "original_title": "Welcome, Happy Morning! (Salve festa dies)",
+ "theme": "부활",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "프랜시스 리들리 하버갈 (Frances Ridley Havergal)",
+ "lyricist": "베난티우스 포르투나투스 / 존 엘러튼 영역 (Venantius Honorius Fortunatus, tr. John Ellerton) · 530~609",
+ "credit_line_in_file": {
+  "composer": "F.R.Havergal",
+  "lyricist": "V.H.Fortunatus"
+ },
+ "year": 1871,
+ "meter": "6.5.6.5 D with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1879; work dated 1871"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1893; work dated 1871"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "167장 즐겁도다 이 날.mscz",
+   "sha256": "be50c272f6cef0f9dbcc9c71da02370f06d7528208bbc005bd48f607d4cb51b1",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

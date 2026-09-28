@@ -1,0 +1,11 @@
+# 298 I Will Sing of My Redeemer
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, exact, auto, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: I _ _ will sing of _ my Re- dee- mer _ And His won- drous _ love to me _ On the cruel Cross _ He suf- fered, From _ the curse to set _ me free. Sing, _ oh, sing of my _ Re- dee- mer. With _ His blood He pur- _ chased me. On _ the Cross He sealed _ my par- don, Pain _ the debt and made me free.
+v2: I _ will tell the won- _ drous sto- ry, How, _ my lost e- state _ to save, In _ His boun- dless love _ and mer- cy He _ the ran- som free- _ ly gave. Sing, _ oh, sing of my _ Re- dee- mer. With _ His blood He pur- _ chased me. On _ the Cross He sealed _ my par- don, Pain _ the debt and made me free.
+v3: I _ _ will praise my _ dear Re- dee- mer _ His trium- phant pow'r _ I'll tell, How _ the vic- to- ry _ He giv- eth O- _ ver sin, and death, _ and hell. Sing, _ oh, sing of my _ Re- dee- mer. With _ His blood He pur- _ chased me. On _ the Cross He sealed _ my par- don, Pain _ the debt and made me free.
+v4: I _ will sing of my _ Re- dee- mer And _ His heav'n- ly love _ to me He _ from death to life _ hath bro't me, Son _ of God, with Him _ to be. Sing, _ oh, sing of my _ Re- dee- mer. With _ His blood He pur- _ chased me. On _ the Cross He sealed _ my par- don, Pain _ the debt and made me free.

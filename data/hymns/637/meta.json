@@ -1,0 +1,46 @@
+{
+ "number": 637,
+ "old_number": "",
+ "title_ko": "주님 우리의 마음을 여시어",
+ "title_en": "Lord God, Open Our Hearts to You",
+ "original_title": "",
+ "theme": "말씀응답송",
+ "key_table": "F",
+ "time_table": "6/8",
+ "composer": "서장원 (서장원)",
+ "lyricist": "서장원 (서장원)",
+ "credit_line_in_file": {
+  "composer": "서장원",
+  "lyricist": "Anonymous"
+ },
+ "year": 2005,
+ "meter": "IRREG.",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "work dated 2005, may still be in copyright"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "637장 주님 우리의 마음을 여시어.mscz",
+   "sha256": "0beb8bdce3dfecc2127f867641e4f1ee05e38df78d8a8bc9ac86869de8d1318f",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

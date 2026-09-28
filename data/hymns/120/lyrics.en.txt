@@ -1,0 +1,11 @@
+# 120 O Little Town of Bethlehem
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, auto, exact, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: O lit- tle town of beth- le- hem, How still we _ see thee lie A- bove thy deep and dream- less sleep The si- lent _ stars go by: Yet in thy dark streets shin- eth The ev- er- last- ing Light The hopes and fears of all the years Are met in thee to- night. _ _
+v2: For Christ is born of Ma- ry And gath- ered _ _ all a- bove, While mor- tals sleep, the an- gels keep Their watch of _ won- d'ring love. O morn- ing stars, to- geth- er Pro- claim the ho- ly birth And prais- es sing to God the King, And peace to men on earth. _ _
+v3: How si- lent- ly, how si- lent- ly The won- drous _ gift is giv'n! So God im- parts to hu- man hearts The bless- ings _ of His heav'n. No ear may hear His com- ing, But in this world of sin, Where meek souls will re- ceive Him still, The dear Christ en- ters in. _ _
+v4: O ho- ly Child of Beth- le- hem! De- scend _ _ _ to us, we pray Cast out our sin, and en- ter in Be _ born in us to- day. We hear the Christ- mas an- gels The great glad ti- dings tell O come to us, a- bide with us, Our Lord Em- man- u- el.

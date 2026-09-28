@@ -1,0 +1,10 @@
+# 300 Just When I am Disheartened
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Just when I am dis- heart- ened, Just when with cares op- pressed, Just when my way is dark- est, Just when I am dis- tressed, Then is my Sav- iour near me He knows my ev- -'ry care. Je- sus will nev- er leave me He helps my bur- dens bear. His grace is e- nough for me, for me His grace is e- nough for me. Thro' sor- row and pain, Thro' loss or gain, His grace is e- nough for me.
+v2: Just when my hopes have van- ished, Just when my friends for- sake, Just when the fight is thick- est, Just when with fear I shake, Then comes a still, small whis- per, "Fear not, My child, I'm near." Je- sus brings peace and com- fort I love His voice to hear. His grace is e- nough for me, for me His grace is e- nough for me. Thro' sor- row and pain, Thro' loss or gain, His grace is e- nough for me.
+v3: Just when my tears are flowing, Just when with an- guish bent, Just when temp- ta- tion's hard- est, Just when with sad- ness rent, Then comes a tho' t of com- fort, I know my Fa- ther knows. Je- sus has grace suf- fi- cient To con- quer all my foes. His grace is e- nough for me, for me His grace is e- nough for me. Thro' sor- row and pain, Thro' loss or gain, His grace is e- nough for me.

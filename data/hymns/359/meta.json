@@ -1,0 +1,46 @@
+{
+ "number": 359,
+ "old_number": 401,
+ "title_ko": "천성을 향해 가는 성도들아",
+ "title_en": "Go Forward",
+ "original_title": "Go Forward, Christian Soldier",
+ "theme": "분투와승리",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "R. 로우리 (Robert Lowry)",
+ "lyricist": "작자 미상 (신증복음가, 1919) (Anonymous (Korean Sinjeung Bog'eum-ga, 1919))",
+ "credit_line_in_file": {
+  "composer": "Anonymous",
+  "lyricist": "Anonymous"
+ },
+ "year": 1880,
+ "meter": "11.11.11.9 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1899; work dated 1880"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 작자 미상 (신증복음가, 1919) (Anonymous (Korean Sinjeung Bog'eum-ga, 1919))"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "359장 천성을 향해 가는 성도들아.mscz",
+   "sha256": "1442e7dfd5be6b8cf2a4a7dd86cf86f704851448326e17d2596f8e150b013b25",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

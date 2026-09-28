@@ -1,0 +1,46 @@
+{
+ "number": 611,
+ "old_number": "",
+ "title_ko": "주님 오라 부르시어",
+ "title_en": "When the Lord Calls",
+ "original_title": "",
+ "theme": "추모",
+ "key_table": "F",
+ "time_table": "3/4",
+ "composer": "정혜련 (정혜련)",
+ "lyricist": "최혁영 (최혁영)",
+ "credit_line_in_file": {
+  "composer": "정재규",
+  "lyricist": "최태영"
+ },
+ "year": 2005,
+ "meter": "8.5.8.5 D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "611장 주님 오라 부르시어.mscz",
+   "sha256": "9e09c775be8ffc3f38085d4ba54c9554513b4d398148e4b05af80ca7cb3179f7",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

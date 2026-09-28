@@ -1,0 +1,46 @@
+{
+ "number": 332,
+ "old_number": "",
+ "title_ko": "우리는 부지런한",
+ "title_en": "Busy, We're Worker for Him",
+ "original_title": "We Are the Diligent Workers of Jesus (Korean original)",
+ "theme": "소명과충성",
+ "key_table": "F",
+ "time_table": "6/8",
+ "composer": "이영수 (Lee Yeong-su)",
+ "lyricist": "오병수 (Oh Byeong-su)",
+ "credit_line_in_file": {
+  "composer": "이영수",
+  "lyricist": "오병수"
+ },
+ "year": 2000,
+ "meter": "Irregular",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "332장 우리는 부지런한.mscz",
+   "sha256": "20fcc634325fbbdf6a259f791c067008bf46e56bfa3d7787cfe16b266cb14ede",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

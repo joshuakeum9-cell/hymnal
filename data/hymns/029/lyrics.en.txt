@@ -1,0 +1,10 @@
+# 29 Come, Christians, Join to Sing
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Come, Chris- tians, join to sing Al- le- lu- ia! A- _ men. Loud praise to Christ our King Al- le- lu- ia! A- _ men. Let all, with heart and voice, Be- fore His throne re- joice Praise is His gra- cious choice Al- le- lu- ia! A- _ men.
+v2: Come, lift your hearts on high Al- le- lu- ia! A- _ men. Let prais- es fill the sky Al- le- lu- ia! A- _ men. He is our Guide and Friend To us He'll con- de- scend His love shall nev- er end: Al- le- lu- ia! A- _ men.
+v3: Praise yet our Christ a- gain Al- le- lu- ia! A- _ men. Life shall not end the strain Al- le- lu- ia! A- _ men. On heav- en's bliss- ful shore His good- ness we'll a- dore, Sing- ing for- ev- er- more, "Al- le- lu- ia! A- _ men.INSERT

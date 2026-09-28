@@ -1,0 +1,46 @@
+{
+ "number": 301,
+ "old_number": 460,
+ "title_ko": "지금까지 지내온 것",
+ "title_en": "God's Great Grace It Has Brought Us",
+ "original_title": "It Is by God's Great Grace",
+ "theme": "인도와보호",
+ "key_table": "Eb",
+ "time_table": "3/4",
+ "composer": "박재훈 (Park Jae-hoon)",
+ "lyricist": "사사오 데쓰사부로 (Tetsusaburo Sasao) · 1868~1914",
+ "credit_line_in_file": {
+  "composer": "박재훈",
+  "lyricist": "T.Sasao"
+ },
+ "year": 1967,
+ "meter": "8.7.8.7.D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "work dated 1967, may still be in copyright"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "301장 지금까지 지내온 것.mscz",
+   "sha256": "e2cbac73d204e378de7a340f4defaeb9fdd3aad4ebd494c90444d677e07a995d",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

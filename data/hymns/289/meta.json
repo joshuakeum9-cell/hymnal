@@ -1,0 +1,46 @@
+{
+ "number": 289,
+ "old_number": 208,
+ "title_ko": "주 예수 내 맘에 들어와",
+ "title_en": "What a Wonderful Change",
+ "original_title": "Since Jesus Came Into My Heart",
+ "theme": "거룩한생활",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "찰스 허친슨 가브리엘 (Charles Hutchinson Gabriel)",
+ "lyricist": "루퍼스 헨리 맥대니얼 (Rufus Henry McDaniel) · 1850~1940",
+ "credit_line_in_file": {
+  "composer": "C.H.Gabriel",
+  "lyricist": "R.H.McDaniel"
+ },
+ "year": 1914,
+ "meter": "12.8.12.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1932; work dated 1914"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1940; work dated 1914"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "289장 주 예수 내 맘에 들어와.mscz",
+   "sha256": "dc343f2486da83650a5b6a66096549a04827c1633c8729dbc707d571cb6e17fc",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 116,
+ "old_number": 116,
+ "title_ko": "동방에서 박사들",
+ "title_en": "We Three Kings Of Orient Are",
+ "original_title": "We Three Kings of Orient Are",
+ "theme": "성탄",
+ "key_table": "Em",
+ "time_table": "3/8",
+ "composer": "존 헨리 홉킨스 주니어 (John Henry Hopkins Jr.)",
+ "lyricist": "존 헨리 홉킨스 주니어 (John Henry Hopkins Jr.) · 1820~1891",
+ "credit_line_in_file": {
+  "composer": "J.H.Hopkins",
+  "lyricist": "J.H.Hopkins"
+ },
+ "year": 1857,
+ "meter": "7.7.6.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1891; work dated 1857"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1891; work dated 1857"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "116장 동방에서 박사들.mscz",
+   "sha256": "a2dd4ba1d3b4dd58558c8cbfd9e66f0ba76b3b9095cffcecbb2c887caf095cef",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

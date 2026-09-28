@@ -1,0 +1,46 @@
+{
+ "number": 261,
+ "old_number": 195,
+ "title_ko": "이 세상의 모든 죄를",
+ "title_en": "Blessed Be the Fountain of Blood",
+ "original_title": "Whiter Than Snow",
+ "theme": "회개와용서",
+ "key_table": "D",
+ "time_table": "4/4",
+ "composer": "헨리 사우스윅 퍼킨스 (Henry Southwick Perkins)",
+ "lyricist": "이든 리더 라타 (Eden Reeder Latta) · 1839~1915",
+ "credit_line_in_file": {
+  "composer": "H.S.Perkins",
+  "lyricist": "E.R.Latta"
+ },
+ "year": 1875,
+ "meter": "8.8.8.D with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1914; work dated 1875"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1875"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "261장 이 세상의 모든 죄를.mscz",
+   "sha256": "81fd56465cb581af80b82f8fde9850ee44ae87ee6434d16504c1762948a0e5f1",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

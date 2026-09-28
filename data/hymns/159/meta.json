@@ -1,0 +1,46 @@
+{
+ "number": 159,
+ "old_number": 149,
+ "title_ko": "기뻐 찬송하세",
+ "title_en": "Rejoice and Be Glad",
+ "original_title": "Rejoice and Be Glad! The Redeemer Has Come",
+ "theme": "부활",
+ "key_table": "G",
+ "time_table": "3/4",
+ "composer": "존 J. 허즈번드 (John Jenkins Husband)",
+ "lyricist": "호레이셔스 보나 (Horatius Bonar) · 1808~1889",
+ "credit_line_in_file": {
+  "composer": "J.H.Husband",
+  "lyricist": "H.Bonar"
+ },
+ "year": 1815,
+ "meter": "6.6.6.5 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1825; work dated 1815"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1889; work dated 1815"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "159장 기뻐 찬송하세.mscz",
+   "sha256": "d9d41239e58c8512dbd96520cfee933195a3b62d1beb32fba030ed254d40d9d5",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

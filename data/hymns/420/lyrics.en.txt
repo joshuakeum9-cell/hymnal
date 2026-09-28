@@ -1,0 +1,11 @@
+# 420 Take Time to be Holy
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Take time to be ho- ly, Speak oft with the Lord A- bide in Him al- ways, And feed on His Word. Make friends with God's chil- dren Help those who are weak, For- get- ting in noth- ing His bless- ing to seek.
+v2: Take time to be ho- ly, The world rush- es on Spend much time in se- cret With Je- sus a- lone. By look- ing to Je- sus, Like Him thou shalt be Thy friends in thy con- duct His like- ness shall see.
+v3: Take time to be ho- ly, Let Him be thy Guide And run no be- fore Him, What- ev- er be- tide. In joy or in sor- row, Still fol- low thy Lord And, look- ing to Je- sus, Still trust in His Word.
+v4: Take time to be ho- ly, Be calm in thy soul Each thought and each mo- tive Be- neath His con- trol Thus led by His Spir- it To foun- tains of love, Thou soon shalt be fit- ted For ser- vice a- bove.

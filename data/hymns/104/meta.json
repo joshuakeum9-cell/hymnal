@@ -1,0 +1,46 @@
+{
+ "number": 104,
+ "old_number": 104,
+ "title_ko": "곧 오소서 임마누엘",
+ "title_en": "O Come, O Come, Emmanuel",
+ "original_title": "O Come, O Come, Emmanuel",
+ "theme": "구주강림",
+ "key_table": "Em",
+ "time_table": "4/4",
+ "composer": "15세기 프랑스 평성가 / 토머스 헬모어 편곡 (French Plainsong (15th C.), arr. Thomas Helmore)",
+ "lyricist": "12세기 라틴어 찬가 / 존 메이슨 닐 영역 (Latin Hymn (12th C.), tr. John Mason Neale) · 1818~1866",
+ "credit_line_in_file": {
+  "composer": "Plain Song/T.Helmore",
+  "lyricist": "Latin Hymn"
+ },
+ "year": 1851,
+ "meter": "8.8.8.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 15세기 프랑스 평성가 / 토머스 헬모어 편곡 (French Plainsong (15th C.), arr. Thomas Helmore)"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1866; work dated 1851"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "104장 곧 오소서 임마누엘.mscz",
+   "sha256": "51972302c5d8e43b264b3acdfd49eeb932bad776aa36694b70ab04d8fc0879d6",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

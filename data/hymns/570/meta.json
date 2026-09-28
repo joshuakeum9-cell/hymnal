@@ -1,0 +1,46 @@
+{
+ "number": 570,
+ "old_number": 453,
+ "title_ko": "주는 나를 기르시는 목자",
+ "title_en": "While the Lord is My Shepherd",
+ "original_title": "",
+ "theme": "어린이",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "장수철 (장수철)",
+ "lyricist": "최봉춘 (최봉춘) · 1917~1998",
+ "credit_line_in_file": {
+  "composer": "장수철",
+  "lyricist": "최봉춘"
+ },
+ "year": 1956,
+ "meter": "11.10.11.10 with refrain",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "570장 주는 나를 기르시는 목자.mscz",
+   "sha256": "ce26afcf9668fce093e76992587c56babaceaebf5dba44fb363fe943aef71825",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

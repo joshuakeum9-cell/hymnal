@@ -1,0 +1,11 @@
+# 265 Christ, Our Redeemer
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, auto, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Christ, our Re- deem- er, died on the Cross Died for the sin- ner, paid all his due. Sprin- kled your soul with the blood of the Lamb, "And I will pass, will pass o- ver you." _ "When I see the blood, When I see the blood, When _ I see the blood, I will pass, I will pass o- ver you"
+v2: Chief- est of sin- ners, Je- sus will save All He has prom- ised, that will He do. Wash in the foun- tain o- pened for sin, "And I will pass, will pass o- ver you." "When _ I see the blood, When I see the _ blood, When _ I see the blood, I will pass, I will pass o- ver you"
+v3: Judg- ment is com- ing, all will be there, Each one re- ceiv- ing just- ly his due. Hide in the sav- ing, sin- cleans- ing blood, "And I will pass, will pass o- ver you." "When _ I see the blood, When I see the _ blood, When _ I see the blood, I will pass, I will pass o- ver you"
+v4: O great com- pas- sion! O bound- less love! O lov- ing kind- ness, faith- ful and true! Find peace and shel- ter un- der the blood, "And I will pass, will pass o- ver you." "When _ I see the blood, When I see the _ blood, When _ I see the blood, I will pass, I will pass o- ver you"

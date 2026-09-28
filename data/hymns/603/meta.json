@@ -1,0 +1,46 @@
+{
+ "number": 603,
+ "old_number": "",
+ "title_ko": "태초에 하나님이",
+ "title_en": "God Made a Paradise Fair",
+ "original_title": "",
+ "theme": "혼례",
+ "key_table": "Eb",
+ "time_table": "6/8",
+ "composer": "김주석 (김주석)",
+ "lyricist": "반병섭 (반병섭)",
+ "credit_line_in_file": {
+  "composer": "김은석",
+  "lyricist": "반병섭"
+ },
+ "year": 2005,
+ "meter": "7.8.8.8.8.8.8.6.6.6",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "603장 태초에 하나님이.mscz",
+   "sha256": "efffbd2c86d74d458174d931a332564ecea3283e1d3d48ea95b09451b44b1332",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

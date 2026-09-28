@@ -1,0 +1,46 @@
+{
+ "number": 314,
+ "old_number": 511,
+ "title_ko": "내 구주 예수를 더욱 사랑",
+ "title_en": "More Love to Thee, o Christ",
+ "original_title": "More Love to Thee, O Christ",
+ "theme": "소명과충성",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "W. H. 도언 (William Howard Doane)",
+ "lyricist": "E. P. 프렌티스 (Elizabeth Payson Prentiss) · 1818~1878",
+ "credit_line_in_file": {
+  "composer": "W.H.Doane",
+  "lyricist": "E.P.Prentiss"
+ },
+ "year": 1870,
+ "meter": "Irregular",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1870"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1878; work dated 1870"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "314장 내 구주 예수를 더욱 사랑.mscz",
+   "sha256": "40fce4b7e4f15ffece5e9e8613d4aede7004e402dc837f9c6db598d5f3a90047",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 249,
+ "old_number": 246,
+ "title_ko": "주 사랑하는 자 다 찬송할 때에",
+ "title_en": "Come, We That Love The Lord",
+ "original_title": "Come, We That Love the Lord (We're Marching to Zion)",
+ "theme": "천국",
+ "key_table": "F",
+ "time_table": "6/8",
+ "composer": "로버트 라우리 (Robert Lowry)",
+ "lyricist": "아이작 와츠 (후렴 로버트 라우리) (Isaac Watts (refrain by Robert Lowry)) · 1674~1748",
+ "credit_line_in_file": {
+  "composer": "R.Lowry",
+  "lyricist": "I.Watts"
+ },
+ "year": 1867,
+ "meter": "6.6.8.8.6.6.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1867, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1748; work dated 1867"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "249장 주 사랑하는 자 다 찬송할 때에.mscz",
+   "sha256": "0609d59dfb85d01b6c3b8f370ae8928f6e8c078732b7d02492f9a9afcc017531",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

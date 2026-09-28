@@ -1,0 +1,46 @@
+{
+ "number": 164,
+ "old_number": 154,
+ "title_ko": "예수 부활했으니",
+ "title_en": "Christ, the Lord, is Risen Today",
+ "original_title": "Jesus Christ Is Risen Today",
+ "theme": "부활",
+ "key_table": "C",
+ "time_table": "4/4",
+ "composer": "Lyra Davidica (1708) / 존 아놀드 편곡 (Lyra Davidica (1708), arr. John Arnold (1749))",
+ "lyricist": "14세기 라틴어 (1~3절) / 찰스 웨슬리 4절 (Latin Hymn (14th C.), st. 4 Charles Wesley)",
+ "credit_line_in_file": {
+  "composer": "Anonymous/Lyra Davidica",
+  "lyricist": "1-3.Latin Hymn/4.C.Wesley"
+ },
+ "year": 1708,
+ "meter": "7.7.7.7 with Alleluias",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1708, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1708, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "164장 예수 부활했으니.mscz",
+   "sha256": "9c799b616831a5d50606da57a2887a0a59a6af15913050c2e611667f92ddef07",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 73,
+ "old_number": 73,
+ "title_ko": "내 눈을 들어 두루 살피니",
+ "title_en": "Unto The Hills Around Do I Lift Up",
+ "original_title": "Unto the Hills Around Do I Lift Up",
+ "theme": "창조주",
+ "key_table": "F",
+ "time_table": "2/2",
+ "composer": "찰스 H. 퍼데이 (Charles H. Purday)",
+ "lyricist": "존 캠벨(아가일 공작) (John Campbell (9th Duke of Argyll)) · 1845~1914",
+ "credit_line_in_file": {
+  "composer": "C.H.Purday",
+  "lyricist": "J.Campbell"
+ },
+ "year": 1860,
+ "meter": "10.4.10.4.10.10",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1885; work dated 1860"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1914; work dated 1860"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "73장 내 눈을 들어 두루 살피니.mscz",
+   "sha256": "ef0ea9043a0a01b54287001e54c6dfab5c966d6ef7d95b4bd0cf037b6df3826b",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

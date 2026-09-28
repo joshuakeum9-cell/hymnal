@@ -1,0 +1,46 @@
+{
+ "number": 511,
+ "old_number": 263,
+ "title_ko": "예수 말씀하시기를",
+ "title_en": "Hark, the Voice of Jesus Calling",
+ "original_title": "Hark, the Voice of Jesus Calling",
+ "theme": "세계선교",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "필립 P. 밴아스데일 (Philip P. Van Arsdale)",
+ "lyricist": "대니얼 마치 (Daniel March) · 1816~1909",
+ "credit_line_in_file": {
+  "composer": "P.P.Van Arsdale",
+  "lyricist": "D.March"
+ },
+ "year": 1869,
+ "meter": "8.7.8.7 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1903; work dated 1869"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1909; work dated 1869"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "511장 예수 말씀하시기를.mscz",
+   "sha256": "21de1fe259eea2b31ae16f60bace435ae5d9861221e0b3dcc795c5c8a773678b",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

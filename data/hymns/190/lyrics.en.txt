@@ -1,0 +1,11 @@
+# 190 Hover Over Me, Holy Spirit
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Hov- er o'er me, Ho- ly Spir- it, Bathe my trem- bling heart and brow Fill me with Thy hal- lowed pres- ence, Come, O come and fill me now. Fill me now, fill me now, Je- sus, come and fill me now Fill me with Thy hal- lowed pres- ence, Come, O come and fill me now. _ _
+v2: Thou canst fill me, gra- cious Spir- it, Though I can- not tell Thee how But I need Thee, great- ly need Thee, Come, O come and fill me now. Fill me now, fill me now, Je- sus, come and fill me now Fill me with Thy hal- lowed pres- ence, Come, O come and fill me now. _ _
+v3: I am weak- ness, full of weak- ness, At Thy sa- cred feet I bow Blest, di- vine, e- ter- nal Spir- it, Fill with pow'r, and fill me now. Fill me now, fill me now, Je- sus, come and fill me now Fill me with Thy hal- lowed pres- ence, Come, O come and fill me now. _ _
+v4: Cleanse and com- fort, bless and save me, Bathe, O bathe my heart and brow Thou art com- fort- ing and sav- ing, Thou art sweet- ly fill- ing now. Fill me now, fill me now, Je- sus, come and fill me now Fill me with Thy hal- lowed pres- ence, Come, O come and fill me now. A- men.

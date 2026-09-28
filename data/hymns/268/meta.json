@@ -1,0 +1,46 @@
+{
+ "number": 268,
+ "old_number": 202,
+ "title_ko": "죄에서 자유를 얻게 함은",
+ "title_en": "Would You Be Free from Your Burden of Sin",
+ "original_title": "There is Power in the Blood",
+ "theme": "회개와용서",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "루이스 에드거 존스 (Lewis Edgar Jones)",
+ "lyricist": "루이스 에드거 존스 (Lewis Edgar Jones) · 1865~1936",
+ "credit_line_in_file": {
+  "composer": "L.E.Jones",
+  "lyricist": "L.E.Jones"
+ },
+ "year": 1899,
+ "meter": "10.9.10.9 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1936; work dated 1899"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1936; work dated 1899"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "268장 죄에서 자유를 얻게 함은.mscz",
+   "sha256": "ec105cdce90665e247a83b714ee8cad9f7a992277b40bcc217cae2600029ea39",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

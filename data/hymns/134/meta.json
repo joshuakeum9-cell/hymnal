@@ -1,0 +1,46 @@
+{
+ "number": 134,
+ "old_number": 84,
+ "title_ko": "나 어느날 꿈속을 헤매며",
+ "title_en": "In Fancy I Stood By The Shore, One Day",
+ "original_title": "The Stranger of Galilee",
+ "theme": "생애",
+ "key_table": "F",
+ "time_table": "6/8",
+ "composer": "릴리아 모리스 (Lelia Naylor Morris)",
+ "lyricist": "릴리아 모리스 (Lelia Naylor Morris) · 1862~1929",
+ "credit_line_in_file": {
+  "composer": "L.N.Morris",
+  "lyricist": "L.N.Morris"
+ },
+ "year": 1893,
+ "meter": "10.8.10.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1929; work dated 1893"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1929; work dated 1893"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "134장 나 어느날 꿈속을 헤매며.mscz",
+   "sha256": "1ca67a6d729bbc2681a4078e0c0d8c4919b51da53eb97a4092deb324b151d205",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

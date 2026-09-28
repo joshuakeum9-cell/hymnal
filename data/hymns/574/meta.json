@@ -1,0 +1,46 @@
+{
+ "number": 574,
+ "old_number": 303,
+ "title_ko": "가슴마다 파도친다",
+ "title_en": "Ev'ry Heart Beats Like the Ocean",
+ "original_title": "",
+ "theme": "청년",
+ "key_table": "C",
+ "time_table": "4/4",
+ "composer": "이동훈 (이동훈)",
+ "lyricist": "반병섭 (반병섭)",
+ "credit_line_in_file": {
+  "composer": "이동훈",
+  "lyricist": "반병섭"
+ },
+ "year": 1967,
+ "meter": "8.7.8.7 D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "574장 가슴마다 파도친다.mscz",
+   "sha256": "2a212acde17bb5ca3a1d8e08cc991acc712a549be3a104cc515ce40a146077ae",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

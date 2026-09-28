@@ -1,0 +1,46 @@
+{
+ "number": 29,
+ "old_number": 29,
+ "title_ko": "성도여 다 함께",
+ "title_en": "Come, Christians, Join to Sing",
+ "original_title": "Come, Christians, Join to Sing",
+ "theme": "찬양",
+ "key_table": "A",
+ "time_table": "4/4",
+ "composer": "스페인 전래 멜로디 (Traditional Spanish Melody (arr. B. Carr))",
+ "lyricist": "크리스천 H. 베이트만 (Christian H. Bateman) · 1813~1889",
+ "credit_line_in_file": {
+  "composer": "Spanish Melody/B.Carr",
+  "lyricist": "C.H.Bateman"
+ },
+ "year": 1824,
+ "meter": "6.6.6.6 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 스페인 전래 멜로디 (Traditional Spanish Melody (arr. B. Carr))"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1889; work dated 1824"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "29장 성도여 다 함께.mscz",
+   "sha256": "85346f68f0dddfd8771f7287982114900f68c1384b05a5a8f64bf91cc5502c32",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

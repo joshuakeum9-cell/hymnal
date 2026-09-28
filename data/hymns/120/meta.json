@@ -1,0 +1,46 @@
+{
+ "number": 120,
+ "old_number": 120,
+ "title_ko": "오 베들레헴 작은 골",
+ "title_en": "O Little Town of Bethlehem",
+ "original_title": "O Little Town of Bethlehem",
+ "theme": "성탄",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "루이스 레드너 (Lewis H. Redner)",
+ "lyricist": "필립스 브룩스 (Phillips Brooks) · 1835~1893",
+ "credit_line_in_file": {
+  "composer": "L.H.Redner",
+  "lyricist": "P.Brooks"
+ },
+ "year": 1868,
+ "meter": "8.6.8.6.8.7.6.8.6",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1908; work dated 1868"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1893; work dated 1868"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "120장 오 베들레헴 작은 골.mscz",
+   "sha256": "ffc442c8d42bf000afc5f83ece6e6c48f6939fc4e77cbec40d6369277c01d35d",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

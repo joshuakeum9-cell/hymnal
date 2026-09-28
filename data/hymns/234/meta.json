@@ -1,0 +1,46 @@
+{
+ "number": 234,
+ "old_number": 220,
+ "title_ko": "구주 예수 그리스도",
+ "title_en": "There Is A Gate Where Angels Wait",
+ "original_title": "",
+ "theme": "천국",
+ "key_table": "C",
+ "time_table": "6/8",
+ "composer": "사일러스 존스 베일 (Silas Jones Vail)",
+ "lyricist": "사사오 테츠사부로 (笹尾鐵三郎 (Tetsusaburō Sasao)) · 1868~1914",
+ "credit_line_in_file": {
+  "composer": "S.J.Vail",
+  "lyricist": "T.Sasao"
+ },
+ "year": 1872,
+ "meter": "8.7.8.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1884; work dated 1872"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1914; work dated 1872"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "234장 구주 예수 그리스도.mscz",
+   "sha256": "1515004e8177f1dfd84b8dd50364c961bbadafa5b730bf53c566de2deb7f6614",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

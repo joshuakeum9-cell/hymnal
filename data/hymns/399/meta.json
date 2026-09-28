@@ -1,0 +1,46 @@
+{
+ "number": 399,
+ "old_number": "",
+ "title_ko": "어린 양들아 두려워 말아라",
+ "title_en": "Fear Not, Little Flock",
+ "original_title": "Fear Not, Little Flock",
+ "theme": "인도와보호",
+ "key_table": "Db",
+ "time_table": "3/4",
+ "composer": "P. 레이더 (Paul Rader)",
+ "lyricist": "P. 레이더 (Paul Rader) · 1879~1938",
+ "credit_line_in_file": {
+  "composer": "P.Rader",
+  "lyricist": "P.Rader"
+ },
+ "year": 1922,
+ "meter": "Irregular",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1938; work dated 1922"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1938; work dated 1922"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "399장 어린 양들아 두려워 말아라.mscz",
+   "sha256": "6fa7a81753096509cfcd10e55d4642bfd46a5d36b2f0959dcdf69b7659c99b8f",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

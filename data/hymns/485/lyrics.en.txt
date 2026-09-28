@@ -1,0 +1,11 @@
+# 485 My Days are Gliding Swiftly By
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, exact, exact, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: My days are glid- ing swift- ly by, And I a pil- grim stran- ger, Would not de- tain them, as they fly, These hours of toil and dan- ger For now we stand on Jor- dan's strand Our friends are pass- ing o- ver And, just be- fore, the shin- ing shore We may al- most dis- cov- er.
+v2: Our ab- sent King the watch- word gave, "Let ev- -'ry lamp be burn- ing," We look a- far a- cross the wave, Our dis- tant home dis- cern- ing. For now we stand on Jor- dan's strand Our friends are pass- ing o- ver And, just be- fore, the shin- ing shore We may al- most dis- cov- er.
+v3: Should coming days be dark and cold, We will not yield to sor- row, For hope will sing with cour- age bold "The- re's glo- ry on the mor- row." For now we stand on Jor- dan's strand Our friends are pass- ing o- ver And, just be- fore, the shin- ing shore We may al- most dis- cov- er.
+v4: let storms of woe in whirl- winds rise, Each cord on earth to se- ver, There, bright and joy- ous in the skies, There, is _ our home for- ever. For now we stand on Jor- dan's strand Our friends are pass- ing o- ver And, just be- fore, the shin- ing shore We may al- most dis- cov- er.

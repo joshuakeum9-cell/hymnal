@@ -1,0 +1,46 @@
+{
+ "number": 198,
+ "old_number": 284,
+ "title_ko": "주 예수 해변서",
+ "title_en": "Break Thou the Bread of Life",
+ "original_title": "Break Thou the Bread of Life",
+ "theme": "성경",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "윌리엄 F. 셔윈 (William F. Sherwin)",
+ "lyricist": "메리 A. 래스버리 (Mary Artemisia Lathbury) · 1841~1913",
+ "credit_line_in_file": {
+  "composer": "W.F.Sherwin",
+  "lyricist": "M.A.Lathbury"
+ },
+ "year": 1877,
+ "meter": "6.4.6.4 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1888; work dated 1877"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1913; work dated 1877"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "198장 주 예수 해변서.mscz",
+   "sha256": "ae08a4cb91dcd46e2c1c84d69c3db4f1b0fd66d1d9a606c29dddc4d491856c51",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

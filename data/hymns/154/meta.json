@@ -1,0 +1,46 @@
+{
+ "number": 154,
+ "old_number": 139,
+ "title_ko": "생명의 주여 면류관",
+ "title_en": "King of My Life, I Crown Thee Now",
+ "original_title": "King of My Life, I Crown Thee Now (Lead Me to Calvary)",
+ "theme": "고난",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "윌리엄 J. 커크패트릭 (William J. Kirkpatrick)",
+ "lyricist": "제니 에블린 허시 (Jennie Evelyn Hussey) · 1874~1958",
+ "credit_line_in_file": {
+  "composer": "W.J.Kirkpatrick",
+  "lyricist": "J.E.Hussey"
+ },
+ "year": 1921,
+ "meter": "8.6.8.6.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1921; work dated 1921"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1958; work dated 1921"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "154장 생명의 주여 면류관.mscz",
+   "sha256": "90e5b1bd605d6e1374cec431161192c12aacba3664c8da66b75e7cc9bd3c2c22",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

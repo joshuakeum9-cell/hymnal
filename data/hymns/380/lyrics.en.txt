@@ -1,0 +1,10 @@
+# 380 Saviour, More Than Life to Me
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Sav- iour, more than life to me, I am cling- ing cling- ing close to Thee Let Thy pre- cious blood ap- plied, Keep me ev- er, ev- er near Thy side. Ev- ery day, ev- ery hour, Let me feel Thy cleans- ing po- wer May thy ten- der love to me Bind me clos- er, clos- er, Lord, to _ Thee.
+v2: Thro' this chang- ing world be- low, Lead me gen- tly, gen- tly as I go Trust- ing Thee, I can- not stray, I can nev- er, nev- er lose my way. Ev- ery day, ev- ery hour, Let me feel Thy cleans- ing po- wer May thy ten- der love to me Bind me clos- er, clos- er, Lord, to _ Thee.
+v3: Let me love Thee more and more, Till this fleeting, fleet- ing life is o'er Till my soul is lost in love, In a bright- er, bright- er world a- bove. Ev- ery day, ev- ery hour, Let me feel Thy cleans- ing po- wer May thy ten- der love to me Bind me clos- er, clos- er, Lord, to Thee. A- men.

@@ -1,0 +1,46 @@
+{
+ "number": 586,
+ "old_number": 521,
+ "title_ko": "어느 민족 누구게나",
+ "title_en": "Once to Every Man and Nation",
+ "original_title": "Once to Every Man and Nation",
+ "theme": "종교개혁기념일",
+ "key_table": "Fm",
+ "time_table": "4/2",
+ "composer": "토마스 J. 윌리엄스 (Thomas John Williams)",
+ "lyricist": "제임스 R. 로웰 (James Russell Lowell) · 1819~1891",
+ "credit_line_in_file": {
+  "composer": "T.J.Williams",
+  "lyricist": "J.R.Lowell"
+ },
+ "year": 1890,
+ "meter": "8.7.8.7 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1944; work dated 1890"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1891; work dated 1890"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "586장 어느 민족 누구게나.mscz",
+   "sha256": "2c7e64d024f9604caf146e13465d2b65fc7b5a96820edd9c65df81b513f0985a",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

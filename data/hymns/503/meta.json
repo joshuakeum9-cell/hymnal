@@ -1,0 +1,46 @@
+{
+ "number": 503,
+ "old_number": 373,
+ "title_ko": "세상 모두 사랑 없어",
+ "title_en": "Do You Know the World is Dying",
+ "original_title": "",
+ "theme": "세계선교",
+ "key_table": "G",
+ "time_table": "3/4",
+ "composer": "에드윈 O. 엑셀 (Edwin Othello Excell)",
+ "lyricist": "에드윈 O. 엑셀 (Edwin Othello Excell) · 1851~1921",
+ "credit_line_in_file": {
+  "composer": "E.O.Excell",
+  "lyricist": "E.O.Excell"
+ },
+ "year": 1904,
+ "meter": "8.7.8.7.7.7. with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1921; work dated 1904"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1921; work dated 1904"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "503장 세상 모두 사랑 없어.mscz",
+   "sha256": "a568a87b4ce154273caa5652639bd931a1d6230ed61d3d2f14d48f473c6a00c6",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

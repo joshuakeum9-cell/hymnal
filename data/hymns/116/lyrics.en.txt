@@ -1,0 +1,12 @@
+# 116 We Three Kings Of Orient Are
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, auto, auto, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: We three kings of O- _ ri- ent are, Bear- ing gifts we trav- erse a- far Field and foun- tain, moor and moun- tain, Fol- low- ing you- der star. O _ star of won- der, star of night, Star with roy- al beau- ty bright, West- ward lead- ing, still pro- ceed- ing, Guide us to Thy per- fect light.
+v2: Born a King on Beth- _ le- hem's plain, Gold I bring to crown Him a- gain, King for- ev- er, ceas- ing _ nev- er O- ver us all to reign. O star of won- der, star of night, Star with roy- al beau- ty bright, West- ward lead- ing, still pro- ceed- ing, Guide us to Thy per- fect light.
+v3: Frank- in- cense to of- _ fer have I, In- cense owns a De- i- ty nigh Prayer and prais- ing, all men _ rais- ing, Wor- ship Him, God on high. O star of won- der, star of night, Star with roy- al beau- ty bright, West- ward lead- ing, still pro- ceed- ing, Guide us to Thy per- fect light.
+v4: Myrrh is mine: its bit- _ ter per- fume Breathes a life of gath- er- ing gloom Sor- rowing, sigh- ing, bleed- ing, _ dy- ing, Sealed in the stone- cold tomb. O star of won- der, star of night, Star with roy- al beau- ty bright, West- ward lead- ing, still pro- ceed- ing, Guide us to Thy per- fect light.
+v5: Glo- rious now be- hold _ Him a- rise, King and God and _ Sac- ri- fice Al- le- lu- ia, Al- le- _ lu- ia! Earth to heav'n re- plies. O _ star of won- der, star of night, Star with roy- al beau- ty bright, West- ward lead- ing, still pro- ceed- ing, Guide us to Thy per- fect light.

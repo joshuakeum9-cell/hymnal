@@ -1,0 +1,46 @@
+{
+ "number": 201,
+ "old_number": 240,
+ "title_ko": "참 사람 되신 말씀",
+ "title_en": "O Word of God Incarnate",
+ "original_title": "O Word of God Incarnate",
+ "theme": "성경",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "펠릭스 멘델스존(편곡) / 마이닝겐 찬송가집 (Felix Mendelssohn (arr.) / Meiningen Gesangbuch (1693))",
+ "lyricist": "윌리엄 월샴 하우 (William Walsham How) · 1823~1897",
+ "credit_line_in_file": {
+  "composer": "F.Mendelssohn",
+  "lyricist": "W.W.How"
+ },
+ "year": 1867,
+ "meter": "7.6.7.6.D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 펠릭스 멘델스존(편곡) / 마이닝겐 찬송가집 (Felix Mendelssohn (arr.) / Meiningen Gesangbuch (1693))"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1897; work dated 1867"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "201장 참 사람 되신 말씀.mscz",
+   "sha256": "5fd02d4819eceeb20c72940297de4ba84321596c1921b236207e73c443cd4583",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

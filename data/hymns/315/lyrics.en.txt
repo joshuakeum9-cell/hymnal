@@ -1,0 +1,11 @@
+# 315 My Jesus, I Love Thee
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: My Je- sus, I love _ Thee, I know Thou art mine For Thee all the fol- _ lies of sin I re- sign. My gra- cious Re- deem- _ er, my Sav- _ iour art Thou _ If ev- er I loved _ Thee, my Je- _ sus, 'tis now.
+v2: I love Thee be- cause _ Thou hast first lov- ed me, And pur- chased my par- _ don on Cal- va- ry's tree. I love Thee for wear- _ ing the thorns _ on Thy brow _ If ev- er I loved _ Thee, my Je- _ sus, 'tis now.
+v3: I'll love Thee in life, _ I will love Thee in death And praise Thee as long _ as Thou lend- est me breath And say, when the death- _ dew lies cold _ on my brow _ If ev- er I loved _ Thee, my Je- _ sus, 'tis now.
+v4: In man- sions of glo- _ ry and end- less de- light, I'll ev- er a- dore _ Thee in heav- en so bright I'll sing with the glit- _ ter- ing crown _ on my brow _ If ev- er I loved _ Thee, my Je- _ sus, 'tis now.

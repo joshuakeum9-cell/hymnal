@@ -1,0 +1,10 @@
+# 304 The Love of God is Greater Far
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: The love _ of God is great- er far Than tongue or pen can ev- er tell, It goes _ be- yond the high- est star, And reach- es to the low- est hell The guilt- y pair, boewd down with care,- _ God gave His Son- _ to win His err- ing child He rec- on- ciled, _ And par- doned from- _ His sin. Oh love of God, how rich and pure! _ How meas- ure- less- _ and strong! It shall _ for- ev- er _ more en- dure,- The saints' and an- gels' song.
+v2: When hoar- y time shall a- way, and earth- ly thrones _ and king- doms fall When men who here re- fuse to pray,- On rocks and hills and moun- tains call God's love, so _ _ sure, shall still en- dure,- _ All meas- ure- less _ and strong Re- deam- ing grace to Ad- am's race _ The saints' and an- _ gels' song. Oh love of God, how rich and pure! _ How meas- ure- less- _ and strong! It shall _ for- ev- er _ more en- dure,- The saints' and an- gels' song.
+v3: Could we with ink the o- cean fill, And were the ski- es of parch- ment made, Were ev- _ ery stalk on earth a quill- And ev- ery man a scribe by trade To write the love of God a- bove- _ Would drain the o- _ cean dry Nor could the scroll con- tain the whole, _ Tho' stretshed from sky- _ to sky. Oh love of God, how rich and pure! _ How meas- ure- less- _ and strong! It shall _ for- ev- er _ more en- dure,- The saints' and an- gels' song.

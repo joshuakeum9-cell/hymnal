@@ -1,0 +1,46 @@
+{
+ "number": 439,
+ "old_number": 496,
+ "title_ko": "십자가로 가까이",
+ "title_en": "Jesus, Keep Me Near the Cross",
+ "original_title": "Jesus, Keep Me Near the Cross",
+ "theme": "주와동행",
+ "key_table": "F",
+ "time_table": "6/8",
+ "composer": "윌리엄 H. 도언 (William Howard Doane)",
+ "lyricist": "패니 크로스비 (Fanny Jane Crosby) · 1820~1915",
+ "credit_line_in_file": {
+  "composer": "W.H.Doane",
+  "lyricist": "F.J.Crosby"
+ },
+ "year": 1869,
+ "meter": "7.6.7.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1869"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1869"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "439장 십자가로 가까이.mscz",
+   "sha256": "150a2b29794747e4ab721d5341197fd107e66b1c36b145526e6962c6963420f8",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 138,
+ "old_number": 52,
+ "title_ko": "햇빛을 받는 곳마다",
+ "title_en": "Jesus Shall Reign Where'er the Sun",
+ "original_title": "Jesus Shall Reign Where'er the Sun",
+ "theme": "생애",
+ "key_table": "D",
+ "time_table": "2/2",
+ "composer": "존 해튼 (John Hatton)",
+ "lyricist": "아이작 와츠 (Isaac Watts) · 1674~1748",
+ "credit_line_in_file": {
+  "composer": "J.Hatton",
+  "lyricist": "I.Watts"
+ },
+ "year": 1793,
+ "meter": "8.8.8.8 (LM)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1793, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1748; work dated 1793"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "138장 햇빛을 받는 곳마다.mscz",
+   "sha256": "a082b5e628e3126bcd8a6ca66d54923ab0bb5dced8f735cb170abd9573abb394",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

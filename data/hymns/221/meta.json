@@ -1,0 +1,46 @@
+{
+ "number": 221,
+ "old_number": 525,
+ "title_ko": "주 믿는 형제들",
+ "title_en": "Blest Be the Tie That Binds",
+ "original_title": "Blest Be the Tie That Binds",
+ "theme": "성도의교제",
+ "key_table": "F",
+ "time_table": "3/4",
+ "composer": "요한 게오르크 네겔리 (로웰 메이슨 편곡) (Johann Georg Nägeli (arr. Lowell Mason))",
+ "lyricist": "존 포셋 (John Fawcett) · 1740~1817",
+ "credit_line_in_file": {
+  "composer": "J.H.G.Nageli/L.Mason",
+  "lyricist": "J.Fawcett"
+ },
+ "year": 1845,
+ "meter": "6.6.8.6 (S.M.)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1845, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1817; work dated 1845"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "221장 주 믿는 형제들.mscz",
+   "sha256": "feaa151299d71d0d554120e1c2db8582a3ba8db60c015a942ca95e8cfaa5aefa",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

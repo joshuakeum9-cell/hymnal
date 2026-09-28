@@ -1,0 +1,10 @@
+# 417 Safe in the Arms of Jesus
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Safe in the arms of Je- _ sus, Safe on His gen- tle breast, There by His love o'er- shad- _ ed, Sweet- _ ly my soul shall rest. Hark! 'tis the voice of an- gels, Borne in _ a song to me, O- ver the fields of glo- ry, O- ver the jas- per sea. _ Safe in the arms of Je- _ sus, Safe on His gen- tle breast, There by His love o'er- shad- _ ed, Sweet- _ ly my soul shall rest.
+v2: Safe in the arms of Je- _ sus, Safe from cor- rod- ing care, Safe from the world's temp- ta- _ tions, Sin _ can- not harm me there. Free from the blight of sor- row, Free from _ my doubts and fears On- ly a few more tri- als, On- ly a few more tears! _ Safe in the arms of Je- _ sus, Safe on His gen- tle breast, There by His love o'er- shad- _ ed, Sweet- _ ly my soul shall rest.
+v3: Je- sus, my heart's dear ref- _ uge, Je- sus has died for me Firm on the Rock of A- _ ges, Ev- _ er my trust shall be. here let me wait with pa- tience, Wait till _ the night is o'er Wait till I see the morn- ing Break on the gold- en shore. _ Safe in the arms of Je- _ sus, Safe on His gen- tle breast, There by His love o'er- shad- _ ed, Sweet- _ ly my soul shall rest.

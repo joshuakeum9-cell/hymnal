@@ -1,0 +1,11 @@
+# 26 Praise the Savior, Ye Who Know Him
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Praise the Sav- iour, ye who _ know Him! Who can tell how much we _ owe Him? Glad- ly let us ren- der to Him All we are and have.
+v2: Keep us, Lord, O keep us _ cleav- ing To Thy- self and still be- _ liev- ing, Till the hour of our re- ceiv- ing Prom- is'd joys with Thee.
+v3: Je- sus is the name that _ charms us He for con- flict fits and _ arms us Noth- ing moves and noth- ing harms us While we trust in Him.
+v4: Trust in Him, ye saints for- _ ev- er He is faith- ful, chang- ing _ nev- er Nei- ther force nor guile can sev- er Those He loves from Him.

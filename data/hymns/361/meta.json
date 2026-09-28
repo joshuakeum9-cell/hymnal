@@ -1,0 +1,46 @@
+{
+ "number": 361,
+ "old_number": 480,
+ "title_ko": "기도하는 이 시간",
+ "title_en": "'Tis the Blessed Hour of Prayer",
+ "original_title": "'Tis the Blessed Hour of Prayer",
+ "theme": "기도와간구",
+ "key_table": "Eb",
+ "time_table": "3/4",
+ "composer": "W. H. 도언 (William Howard Doane)",
+ "lyricist": "패니 J. 크로스비 (Fanny J. Crosby) · 1820~1915",
+ "credit_line_in_file": {
+  "composer": "W.H.Doane",
+  "lyricist": "F.J.Crosby"
+ },
+ "year": 1880,
+ "meter": "Irregular",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1880"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1880"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "361장 기도하는 이 시간.mscz",
+   "sha256": "b81a76385d69410c4ec0173718d413db47b70d741609dbdb742794ae4ecb12c8",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

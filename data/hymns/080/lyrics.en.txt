@@ -1,0 +1,11 @@
+# 80 There is No Name so Sweet
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: There is no name so sweet on earth, No name so sweet in heav- en, The Name be- fore His won- drous birth To Christ the Sav- iour giv- en. We love to sing of christ our King, And hail Him bless- ed Je- sus For the- re's no word ear ev- er heard So dear, so sweet as “Je- _ sus."
+v2: And, when he hung up- on the tree, They wrote this Name a- bove Him That all might see the rea- son we For- ev- er- more must love Him. We love to sing of christ our King, And hail Him bless- ed Je- sus For the- re's no word ear ev- er heard So dear, so sweet as “Je- _ sus."
+v3: So now, up- on His Fa- ther's throne, Al- might- y to re- lease us From sin and pains, He glad- ly reigns, The Prince and Sav- iour Je- sus. We love to sing of christ our King, And hail Him bless- ed Je- sus For the- re's no word ear ev- er heard So dear, so sweet as “Je- _ sus."
+v4: O Je- sus, by that match- less name, Thy grace shall fail us nev- er To- day as yes- ter- day the same, Thou art the same for- ev- er. We love _ to sing of christ our King, And hail Him bless- ed Je- sus For the- re's no word ear ev- er heard So dear, so sweet as “Je- sus."

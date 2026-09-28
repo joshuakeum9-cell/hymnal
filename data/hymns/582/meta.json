@@ -1,0 +1,46 @@
+{
+ "number": 582,
+ "old_number": 261,
+ "title_ko": "어둔 밤 마음에 잠겨",
+ "title_en": "Unto Hearts in Deep Night Pining",
+ "original_title": "",
+ "theme": "나라사랑",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "이동훈 (이동훈)",
+ "lyricist": "김재준 (김재준) · 1901~1987",
+ "credit_line_in_file": {
+  "composer": "이동훈",
+  "lyricist": "김재준"
+ },
+ "year": 1967,
+ "meter": "IRREG.",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "582장 어둔 밤 마음에 잠겨.mscz",
+   "sha256": "8e299bafc5e88e1c7bf08cceb4df3a3dae986663239a68c6681916ea8fe958e0",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

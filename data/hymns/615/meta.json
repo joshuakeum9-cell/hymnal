@@ -1,0 +1,46 @@
+{
+ "number": 615,
+ "old_number": "",
+ "title_ko": "그 큰 일을 행하신",
+ "title_en": "To God be the Glory",
+ "original_title": "To God Be the Glory",
+ "theme": "경배와찬양",
+ "key_table": "Ab",
+ "time_table": "3/4",
+ "composer": "윌리엄 H. 도언 (William Howard Doane)",
+ "lyricist": "패니 J. 크로스비 (Fanny J. Crosby) · 1820~1915",
+ "credit_line_in_file": {
+  "composer": "W.H.Doane",
+  "lyricist": "F.J.Crosby"
+ },
+ "year": 1875,
+ "meter": "11.11.11.11 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1875, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1875"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "615장 그 큰 일을 행하신.mscz",
+   "sha256": "2bdf492343c5dc79b62d69bee3e109dc9ae14e698665fbc63b67719dfbd39232",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

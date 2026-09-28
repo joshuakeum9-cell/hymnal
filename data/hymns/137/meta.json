@@ -1,0 +1,46 @@
+{
+ "number": 137,
+ "old_number": "",
+ "title_ko": "하나님의 아들이",
+ "title_en": "God was in Christ Son of Man",
+ "original_title": "The Son of God (Korean original on Incarnation)",
+ "theme": "생애",
+ "key_table": "F",
+ "time_table": "6/8",
+ "composer": "한정희 (악보 표기는 한경직) (Han Jung-hee (악보 표기 한경직 가능))",
+ "lyricist": "서영주 (Seo Young-ju)",
+ "credit_line_in_file": {
+  "composer": "한정희",
+  "lyricist": "서병주"
+ },
+ "year": 1993,
+ "meter": "7.7.7.8.7.7.7.7",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "137장 하나님의 아들이.mscz",
+   "sha256": "6fc7763c0eeb0bf4d6fbc1a0f2dc44b536e426ef200ebd49a780a523878bda71",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

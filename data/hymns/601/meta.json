@@ -1,0 +1,46 @@
+{
+ "number": 601,
+ "old_number": "",
+ "title_ko": "하나님이 정하시고",
+ "title_en": "God Has Chosen Two of His Own",
+ "original_title": "",
+ "theme": "혼례",
+ "key_table": "F",
+ "time_table": "6/8",
+ "composer": "조은숙 (조은숙)",
+ "lyricist": "성균식 (성균식) · 1933~2000",
+ "credit_line_in_file": {
+  "composer": "조은옥",
+  "lyricist": "심군식"
+ },
+ "year": 2005,
+ "meter": "8.8.8.8 D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "601장 하나님이 정하시고.mscz",
+   "sha256": "16687d6798494560bb5037c0f564358dc636c5e487ede32a7e097a069d82bee9",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

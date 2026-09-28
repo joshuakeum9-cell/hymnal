@@ -1,0 +1,46 @@
+{
+ "number": 470,
+ "old_number": "",
+ "title_ko": "나의 몸이 상하여",
+ "title_en": "Mind and Body Sick and Sore",
+ "original_title": "My Body Is Wounded (Korean original)",
+ "theme": "신유의권능",
+ "key_table": "Eb",
+ "time_table": "6/8",
+ "composer": "정병종 (Jeong Byeong-jong)",
+ "lyricist": "신춘림 (Sin Choon-rim)",
+ "credit_line_in_file": {
+  "composer": "정태봉",
+  "lyricist": "안종원"
+ },
+ "year": 2005,
+ "meter": "7.7.7.7.8.8.8.8.D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "470장 나의 몸이 상하여.mscz",
+   "sha256": "a9c8b13cc0ddd3cebfe62443056da3c9abfe358ccdb40711995405b306ce24a6",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

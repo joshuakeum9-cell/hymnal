@@ -1,0 +1,46 @@
+{
+ "number": 393,
+ "old_number": 447,
+ "title_ko": "오 신실하신 주",
+ "title_en": "Great is Thy Faithfulness",
+ "original_title": "Great Is Thy Faithfulness",
+ "theme": "인도와보호",
+ "key_table": "Eb",
+ "time_table": "3/4",
+ "composer": "W. M. 러년 (William M. Runyan)",
+ "lyricist": "T. O. 치솔름 (Thomas Obediah Chisholm) · 1866~1960",
+ "credit_line_in_file": {
+  "composer": "W.M.Runyan",
+  "lyricist": "T.O.Chisholm"
+ },
+ "year": 1923,
+ "meter": "11.10.11.10 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1957; work dated 1923"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1960; work dated 1923"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "393장 오 신실하신 주.mscz",
+   "sha256": "2b1c556d47ecae0f9f5b362722246e7b9f110986f88f437e11c75030158607ed",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

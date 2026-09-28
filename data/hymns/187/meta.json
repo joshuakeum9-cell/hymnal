@@ -1,0 +1,46 @@
+{
+ "number": 187,
+ "old_number": 171,
+ "title_ko": "비둘기같이 온유한",
+ "title_en": "Come, Gracious Spirit, Heavenly Dove",
+ "original_title": "Come, Holy Spirit, Heavenly Dove",
+ "theme": "성령강림",
+ "key_table": "Eb",
+ "time_table": "2/2",
+ "composer": "조지 휴스 (George Hews)",
+ "lyricist": "사이먼 브라운 (Simon Browne) · 1680~1732",
+ "credit_line_in_file": {
+  "composer": "G.Hews",
+  "lyricist": "S.Browne"
+ },
+ "year": 1835,
+ "meter": "8.8.8.8 (LM)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1873; work dated 1835"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1732; work dated 1835"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "187장 비둘기같이 온유한.mscz",
+   "sha256": "8ddd74ef24761a748abf498939d162ad2c98db6c42cf0d6c49a4f245aa61ce27",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

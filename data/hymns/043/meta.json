@@ -1,0 +1,46 @@
+{
+ "number": 43,
+ "old_number": 57,
+ "title_ko": "즐겁게 안식할 날",
+ "title_en": "O Day of Rest and Gladness",
+ "original_title": "O Day of Rest and Gladness",
+ "theme": "주일",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "독일 전래 멜로디(L. 메이슨 편곡) (Traditional German Melody (arr. L. Mason))",
+ "lyricist": "크리스토퍼 워즈워스 (Christopher Wordsworth) · 1807~1885",
+ "credit_line_in_file": {
+  "composer": "German Melody/L.Mason",
+  "lyricist": "C.Wordsworth"
+ },
+ "year": 1839,
+ "meter": "7.6.7.6 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 독일 전래 멜로디(L. 메이슨 편곡) (Traditional German Melody (arr. L. Mason))"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1885; work dated 1839"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "43장 즐겁게 안식할 날.mscz",
+   "sha256": "6887d14d56cc83450ac1aad8ee0124bff690bf908080a6d52d6493d01d1f246c",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

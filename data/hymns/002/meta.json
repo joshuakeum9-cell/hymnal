@@ -1,0 +1,46 @@
+{
+ "number": 2,
+ "old_number": 6,
+ "title_ko": "찬양 성부 성자 성령",
+ "title_en": "To Father, Son and Holy Ghost",
+ "original_title": "To Father, Son and Holy Ghost",
+ "theme": "송영",
+ "key_table": "G",
+ "time_table": "6/4",
+ "composer": "토머스 헤이스팅스 (Thomas Hastings)",
+ "lyricist": "네이엄 테이트·니콜라스 브래디 (Nahum Tate & Nicholas Brady)",
+ "credit_line_in_file": {
+  "composer": "T.Hastings",
+  "lyricist": "Tate and Brady"
+ },
+ "year": 1837,
+ "meter": "8.6.8.6.6",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1872; work dated 1837"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1715; work dated 1837"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "2장 찬양 성부 성자 성령.mscz",
+   "sha256": "d8f3c9d305f9446dc5897c1cacae240b1f8391461d72ca61ff77c5a81880a718",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

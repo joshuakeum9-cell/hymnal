@@ -1,0 +1,11 @@
+# 569 Saviour, Like a Shepherd Lead Us
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Sav- iour, like a shep- herd lead us Much _ we need _ Thy ten- der care. In Thy _ pleas- ant pas- tures feed us _ For our use Thy folds pre- pare. Bless- ed Je- sus, bless- ed Je- sus! Thou hast bought us Thine we are. Bless- ed Je- sus, bless- ed Je- sus! Thou hast bought us Thine we are. _ _
+v2: We are _ Thine do Thou be- friend us _ Be the Guard- ian of our way. Keep Thy _ flock from sin de- fend us _ Seek us when we go a- stray. Bless- ed Je- sus, bless- ed Je- sus! Hear, O hear us, when we pray. Bless- ed Je- sus, bless- ed Je- sus! Hear, O hear us, when we pray. _ _
+v3: Thou hast _ promis- ed to re- ceive us _ Poor and sin- ful tho' we be Thou hast mer- cy to re- lieve us, Grace _ to cleanse, and po- wer to free. Bless- ed Je- sus, bless- ed Je- sus! We will ear- ly turn to Thee. Bless- ed Je- sus, bless- ed Je- sus! We will ear- ly turn to Thee. _ _
+v4: Ear- ly let us seek Thy fa- vor, Ear- _ ly let _ us do Thy will Bless- ed _ Lord and on- ly Sav- iour, _ With Thy love our bos- oms fill. Bless- ed Je- sus, bless- ed Je- sus! Thou hast loved us, love us still Bless- ed Je- sus, bless- ed Je- sus! Thou hast loved us- ,love us still. A- men.

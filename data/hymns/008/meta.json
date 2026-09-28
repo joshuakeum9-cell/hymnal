@@ -1,0 +1,46 @@
+{
+ "number": 8,
+ "old_number": 9,
+ "title_ko": "거룩 거룩 거룩 전능하신 주님",
+ "title_en": "Holy Holy Holy! Lord God Almighty",
+ "original_title": "Holy, Holy, Holy! Lord God Almighty",
+ "theme": "경배",
+ "key_table": "D",
+ "time_table": "4/4",
+ "composer": "존 백쿠스 다익스 (John Bacchus Dykes)",
+ "lyricist": "레지널드 히버 (Reginald Heber) · 1783~1826",
+ "credit_line_in_file": {
+  "composer": "J.B.Dykes",
+  "lyricist": "R.Heber"
+ },
+ "year": 1861,
+ "meter": "12.13.12.10",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1876; work dated 1861"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1826; work dated 1861"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "8장 거룩 거룩 거룩 전능하신 주님.mscz",
+   "sha256": "9170eb6efa8ea007c857a1c0a4682a203f4a813098a247d492d80b17b2e37925",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

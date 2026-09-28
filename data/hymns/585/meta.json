@@ -1,0 +1,46 @@
+{
+ "number": 585,
+ "old_number": 384,
+ "title_ko": "내 주는 강한 성이요",
+ "title_en": "A Mighty Fortress Is Our God",
+ "original_title": "A Mighty Fortress Is Our God (Ein feste Burg ist unser Gott)",
+ "theme": "종교개혁기념일",
+ "key_table": "C",
+ "time_table": "4/4",
+ "composer": "마르틴 루터 (Martin Luther)",
+ "lyricist": "마르틴 루터 (Martin Luther) · 1483~1546",
+ "credit_line_in_file": {
+  "composer": "M.Luther",
+  "lyricist": "M.Luther"
+ },
+ "year": 1529,
+ "meter": "8.7.8.7.6.6.6.6.7",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1529, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1529, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "585장 내 주는 강한 성이요.mscz",
+   "sha256": "6856e57a6a990c771803fc7d2963383c9c894e48cc7ccfbcd35b081ebaa71972",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 194,
+ "old_number": "",
+ "title_ko": "저 하늘 거룩하신 주여",
+ "title_en": "The Lord of Holy in the Heaven",
+ "original_title": "Holy Lord of Heaven, Pour Out Your Spirit's Fire (Russian hymn)",
+ "theme": "성령강림",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "미상 (러시아 *영적 노래 모음집*, 모스크바 1984) (Anonymous (Sbornik Duhovnyh Pesen, Moscow 1984))",
+ "lyricist": "미상 (러시아 *영적 노래 모음집*, 모스크바 1984) (Anonymous (Sbornik Duhovnyh Pesen, Moscow 1984))",
+ "credit_line_in_file": {
+  "composer": "F.Booth-Tucker",
+  "lyricist": "W.Booth"
+ },
+ "year": 1984,
+ "meter": "9.9.9.9 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 미상 (러시아 *영적 노래 모음집*, 모스크바 1984) (Anonymous (Sbornik Duhovnyh Pesen, Moscow 1984))"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 미상 (러시아 *영적 노래 모음집*, 모스크바 1984) (Anonymous (Sbornik Duhovnyh Pesen, Moscow 1984))"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "194장 저 하늘 거룩하신 주여.mscz",
+   "sha256": "386c4c4206c29e319136b67f8e887e52d00892943c5aa727e73c206423394c77",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 147,
+ "old_number": 136,
+ "title_ko": "거기 너 있었는가",
+ "title_en": "Were You There When You Crucified My Lord?",
+ "original_title": "Were You There (When They Crucified My Lord)",
+ "theme": "고난",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "아프리카계 미국인 영가 (African American Spiritual)",
+ "lyricist": "아프리카계 미국인 영가 (African American Spiritual)",
+ "credit_line_in_file": {
+  "composer": "Afro-American Spiritual",
+  "lyricist": "Afro-American Spiritual"
+ },
+ "year": 1850,
+ "meter": "irregular",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 아프리카계 미국인 영가 (African American Spiritual)"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 아프리카계 미국인 영가 (African American Spiritual)"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "147장 거기 너 있었는가.mscz",
+   "sha256": "55cf3525d01241e7d674b76d90d350d10841028bb22f2ffa2cac0690c97b61b0",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

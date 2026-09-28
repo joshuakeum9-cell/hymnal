@@ -1,0 +1,46 @@
+{
+ "number": 180,
+ "old_number": 168,
+ "title_ko": "하나님의 나팔 소리",
+ "title_en": "When the Trumpet of the Lord Shall Sound",
+ "original_title": "When the Roll Is Called Up Yonder",
+ "theme": "재림",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "제임스 밀턴 블랙 (James Milton Black)",
+ "lyricist": "제임스 밀턴 블랙 (James Milton Black) · 1856~1938",
+ "credit_line_in_file": {
+  "composer": "J.M.Black",
+  "lyricist": "J.M.Black"
+ },
+ "year": 1893,
+ "meter": "15.15.15.11 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1938; work dated 1893"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1938; work dated 1893"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "180장 하나님의 나팔 소리.mscz",
+   "sha256": "921d4fbdd0c034f70fab79edfe87e5aebe08243986c35b4072c5fe6c1580fae7",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

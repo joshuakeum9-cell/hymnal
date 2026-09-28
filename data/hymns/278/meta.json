@@ -1,0 +1,46 @@
+{
+ "number": 278,
+ "old_number": 336,
+ "title_ko": "여러 해 동안 주 떠나",
+ "title_en": "Far From the Lord I Wander'd Long",
+ "original_title": "(Where Is My Wandering Boy Tonight 곡조에 한국 회개 가사 결합)",
+ "theme": "회개와용서",
+ "key_table": "G",
+ "time_table": "6/8",
+ "composer": "로버트 라우리 (Robert Lowry)",
+ "lyricist": "한국 의역 가사 (출처 미상) (한국 의역 가사 (출처 미상))",
+ "credit_line_in_file": {
+  "composer": "R.Lowry",
+  "lyricist": "R.Lowry"
+ },
+ "year": 1877,
+ "meter": "8.8.9.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1877, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 한국 의역 가사 (출처 미상) (한국 의역 가사 (출처 미상))"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "278장 여러 해 동안 주 떠나.mscz",
+   "sha256": "422ea496f62c743c19b30f3bab86c6985d095c21576ba79eaf613c5aa16d14f6",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

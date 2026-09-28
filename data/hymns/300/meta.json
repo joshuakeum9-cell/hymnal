@@ -1,0 +1,46 @@
+{
+ "number": 300,
+ "old_number": 406,
+ "title_ko": "내 맘이 낙심되며",
+ "title_en": "Just When I am Disheartened",
+ "original_title": "His Grace Is Enough for Me",
+ "theme": "은혜와사랑",
+ "key_table": "Bb",
+ "time_table": "6/8",
+ "composer": "J. 브루스 에반스 (J. Bruce Evans)",
+ "lyricist": "J. 브루스 에반스 (J. Bruce Evans)",
+ "credit_line_in_file": {
+  "composer": "J.B.Evans",
+  "lyricist": "J.B.Evans"
+ },
+ "year": 1906,
+ "meter": "7.6.7.6.D with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1906, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1906, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "300장 내 맘이 낙심되며.mscz",
+   "sha256": "00c9d48251c58a699b12157855b635a6b92d6f54099e15071ae6d1fa02b51950",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

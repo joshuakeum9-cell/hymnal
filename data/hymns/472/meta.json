@@ -1,0 +1,46 @@
+{
+ "number": 472,
+ "old_number": 530,
+ "title_ko": "네 병든 손 내밀라고",
+ "title_en": "When Christ of Old with Healing Pow'r",
+ "original_title": "Stretch Forth Thy Hand",
+ "theme": "신유의권능",
+ "key_table": "C",
+ "time_table": "3/4",
+ "composer": "앨버트 B. 심슨 (Albert Benjamin Simpson)",
+ "lyricist": "앨버트 B. 심슨 (Albert Benjamin Simpson) · 1843~1919",
+ "credit_line_in_file": {
+  "composer": "A.B.Simpson",
+  "lyricist": "A.B.Simpson"
+ },
+ "year": 1904,
+ "meter": "8.8.8.8.D with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1919; work dated 1904"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1919; work dated 1904"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "472장 네 병든 손 내밀라고.mscz",
+   "sha256": "d1f9367dadf4ed0962b2047d0513e0c91e7e9ed651e63dfb5fbfb4c12ebccd47",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

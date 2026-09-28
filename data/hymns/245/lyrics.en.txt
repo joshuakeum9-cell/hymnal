@@ -1,0 +1,11 @@
+# 245 I've Reached the Land of Corn and Wine
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: I've reached the land of corn and wine, And all its rich- es free- ly mine Here shines un- dimm'd one bliss- ful day, For all my night has passed a- way. O Beu- lah Land, sweet Beu- lah Land, As on thy high- est mount I stand, I look a- way a- cross the sea, Where man- sions are pre- pared for me. And view the shining glo- ry shore: My hea- ven, my home for- ev- er more!
+v2: My Sa- viour comes and walks with me, And sweet commu- nion here have we He gen- tly leads me by His hand, For this is hea- ven's bor- der land. O Beu- lah Land, sweet Beu- lah Land, As on thy high- est mount I stand, I look a- way a- cross the sea, Where man- sions are pre- pared for me. And view the shin- ing glo- ry shore: My hea- ven, my home for- ev- er more!
+v3: A sweet per- fume up- on the breeze Is borne from ever, ver- nal trees And flo- wers that, ne- ver fading, grow Where streams of life for- e- ver flow. O Beu- lah Land, sweet Beu- lah Land, As on thy high- est mount I stand, I look a- way a- cross the sea, Where man- sions are pre- pared for me. And view the shin- ing glo- ry shore: My hea- ven, my home for- ev- er more!
+v4: The zeph- yrs seem to float to me, Sweet sounds of Hea- ven's mel- o- dy, As an- gels with the white- robed throng Join in the sweet Re- demp- tion song. O Beu- lah Land, sweet Beu- lah Land, As on thy high- est mount I stand, I look a- way a- cross the sea, Where man- sions are pre- pared for me. And view the shining glo- ry shore: My hea- ven, my home for- ev- er more!

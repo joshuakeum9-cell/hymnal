@@ -1,0 +1,10 @@
+# 167 Welcome, Happy Morning
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, exact, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: "Wel- come, hap- py morn- ing!" Age to age shall say Hell to- day is van- quished! Heav'n is won to- day! Lo! the Dead is liv- ing, God for- ev- er- more, Him, their true Cre- a- tor, All His work a- dore "Wel- come, hap- py morn- ing!" Age to age shall say Hell to- day is van- quished! Heav'n is won to- day! _ _
+v2: Earth her joy con- fess- es, Cloth- ing her for spring, All fresh gifts re- turned with Her re- turn- ing King: Bloom in ev- ery mead- ow, Leaves on ev- ery bough, Speak His sor- row end- ed, Hail His tri- umph now. "Wel- come, hap- py morn- ing!" Age to age shall say Hell to- day is van- quished! Heav'n is won to- day! _ _
+v3: Thou, of life the Au- thor, Death didst un- der- go, Tread the path of dark- ness, Sav- _ ing strength King: Come then, True and Faith- ful, Now ful- fill Thy Word, 'Tis Thine own third morn- ing Rise, O bur- ied Lord! "Wel- come, hap- py morn- ing!" Age to age shall say Hell to- day is van- quished! Heav'n is won to- day! A- men.

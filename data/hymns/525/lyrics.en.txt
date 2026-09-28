@@ -1,0 +1,11 @@
+# 525 Come Home! Come Home
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: rough (per verse: rough, rough, rough, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Come _ home! _ _ come home! _ You are wea- ry at heart, For the way has been dark, _ _ And so lon- ly and _ wild O prod- i- _ gal- child! Come _ home! oh _ _ _ come home! Come home! Come oh come home!
+v2: Come _ home! _ _ come home! _ For we watch and we wait, And we stand at the gate, _ _ While the shad- ows are _ piled O prod- i- _ gal- child! Come _ home! oh _ _ _ come home! Come home! Come oh come home!
+v3: Come _ home! _ _ come home! _ From the sor- row and blame, From the sin and the shame, _ And the temp- ter that smiled. _ O _ prod- i- _ gal- child! Come _ home! oh _ _ _ come home! Come home! Come oh come home!
+v4: Come _ home! _ _ come home! _ There is bread and to spear, And a warm wel- come there, _ Then, to friend re- con- ciled. _ O _ prod- i- _ gal- child! Come _ home! oh come _ _ home! Come ho- me!- Come oh come home!

@@ -1,0 +1,46 @@
+{
+ "number": 79,
+ "old_number": 40,
+ "title_ko": "주 하나님 지으신 모든 세계",
+ "title_en": "O, Lord My God! When I in Awesome Wonder",
+ "original_title": "O Lord My God! When I in Awesome Wonder (How Great Thou Art)",
+ "theme": "섭리",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "스웨덴 민요 (Swedish Folk Melody)",
+ "lyricist": "칼 구스타프 보베르그 (Carl Gustav Boberg (Eng. trans. S. K. Hine)) · 1859~1940",
+ "credit_line_in_file": {
+  "composer": "Swedish Folk Melody/E.A.Edgren",
+  "lyricist": "C.G.Boberg"
+ },
+ "year": 1891,
+ "meter": "11.10.11.10 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 스웨덴 민요 (Swedish Folk Melody)"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1940; work dated 1891"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "79장 주 하나님 지으신 모든 세계.mscz",
+   "sha256": "93f449d04b3e39e4c00e0b2a1ea875a685db49e71b49012acd1767b452f9dc5b",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

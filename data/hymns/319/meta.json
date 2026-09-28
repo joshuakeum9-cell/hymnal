@@ -1,0 +1,46 @@
+{
+ "number": 319,
+ "old_number": "",
+ "title_ko": "말씀으로 이 세상을",
+ "title_en": "Made By Your Word This World And All",
+ "original_title": "Made by Your Word This World and All (Korean original)",
+ "theme": "소명과충성",
+ "key_table": "C",
+ "time_table": "6/8",
+ "composer": "박재훈 (Park Jae-hoon)",
+ "lyricist": "김영진 (Kim Young-jin) · 1944~?",
+ "credit_line_in_file": {
+  "composer": "박재훈",
+  "lyricist": "김영진"
+ },
+ "year": 2004,
+ "meter": "8.8.8.8.D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "319장 말씀으로 이 세상을.mscz",
+   "sha256": "91ba50d7acfa705a7737f9bec3c2e561bce9ec605d6939d6fa09548ff52736a6",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

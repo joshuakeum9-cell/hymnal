@@ -1,0 +1,46 @@
+{
+ "number": 462,
+ "old_number": 517,
+ "title_ko": "생명 진리 은혜 되신",
+ "title_en": "Son of God, Eternal Savior",
+ "original_title": "Son of God, Eternal Savior",
+ "theme": "제자의도리",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "네덜란드 전통 가락 (Julius Röntgen 편곡, c. 1906)",
+ "lyricist": "서머셋 C. 로리 (Somerset Corry Lowry) · 1855~1932",
+ "credit_line_in_file": {
+  "composer": "Dutch Melody",
+  "lyricist": "S.C.Lowry"
+ },
+ "year": 1710,
+ "meter": "8.7.8.7.D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 네덜란드 전통 가락 (Julius Röntgen 편곡, c. 1906)"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1932; work dated 1710"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "462장 생명 진리 은혜 되신.mscz",
+   "sha256": "536b6d0cb4b41848cc1d9924788e69020c9e390abcd5b1f3d2e63becf0e28b13",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

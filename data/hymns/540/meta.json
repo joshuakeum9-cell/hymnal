@@ -1,0 +1,46 @@
+{
+ "number": 540,
+ "old_number": 219,
+ "title_ko": "주의 음성을 내가 들으니",
+ "title_en": "I am Thine, O Lord, I Have Heard Thy Voice",
+ "original_title": "I Am Thine, O Lord",
+ "theme": "믿음과확신",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "윌리엄 H. 도언 (William Howard Doane)",
+ "lyricist": "패니 J. 크로스비 (Fanny J. Crosby) · 1820~1915",
+ "credit_line_in_file": {
+  "composer": "W.H.Doane",
+  "lyricist": "F.J.Crosby"
+ },
+ "year": 1875,
+ "meter": "10.7.10.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1875, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1875"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "540장 주의 음성을 내가 들으니.mscz",
+   "sha256": "840ff834bdb13a2d11d5b509252e47c9dada711c144957b19a52ff6275bcc840",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

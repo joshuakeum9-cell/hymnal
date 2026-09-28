@@ -1,0 +1,46 @@
+{
+ "number": 70,
+ "old_number": 79,
+ "title_ko": "피난처 있으니",
+ "title_en": "God is Our Refuge Strong",
+ "original_title": "God Is Our Refuge Strong",
+ "theme": "창조주",
+ "key_table": "F",
+ "time_table": "3/4",
+ "composer": "*Thesaurus Musicus* (Thesaurus Musicus (c. 1745))",
+ "lyricist": "한국 *찬송가* 1908 (Korean Hymnal Tradition (1908))",
+ "credit_line_in_file": {
+  "composer": "Anonumous",
+  "lyricist": "Anonymous"
+ },
+ "year": 1745,
+ "meter": "6.6.4.6.6.6.4",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1745, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1745, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "70장 피난처 있으니.mscz",
+   "sha256": "052a69225f7b22b1c260711b469e8d71522b6f85860959aed6ab23abab1b3870",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

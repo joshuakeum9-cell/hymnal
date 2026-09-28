@@ -1,0 +1,10 @@
+# 493 The Bright, Heavenly Way
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: The bright, heav'n- ly way, be- fore me, Lies clear- ly in _ my sight And though sor- rows sore be- set me, And trou- bles black as night, At the splen- dor from the skies Ev- -'ry dark- ling shad- ow flies, While we trust the grace _ of Je- sus And look ev- _ er to _ that Light.
+v2: When I think on all the wor- ries Which in my world _ I see, In- ner fears and out- er tri- als Seem nigh too much for me But the blood of Christ our Lord Puts them whol- ly to the sword, While we trust the grace _ of Je- sus And shall ev- _ er vic- _ tors be.
+v3: Draw- ing near- er to that ci- ey Yet seen by faith _ a- lone, Long- ing for the Fa- ther's man- sions And rest be- fore the throne, All un- worth- y though I be There is wel- come there for me, For the King is our _ own Je- sus, Lord and Sav- _ iour of _ His own.

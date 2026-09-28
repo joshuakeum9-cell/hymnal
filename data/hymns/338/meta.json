@@ -1,0 +1,46 @@
+{
+ "number": 338,
+ "old_number": 364,
+ "title_ko": "내 주를 가까이 하게 함은",
+ "title_en": "Nearer, my God, to Thee",
+ "original_title": "Nearer, My God, to Thee",
+ "theme": "시련과극복",
+ "key_table": "G",
+ "time_table": "6/8",
+ "composer": "로웰 메이슨 (Lowell Mason)",
+ "lyricist": "S. F. 애덤스 (Sarah Flower Adams) · 1805~1848",
+ "credit_line_in_file": {
+  "composer": "L.Masson",
+  "lyricist": "S.F.Adams"
+ },
+ "year": 1856,
+ "meter": "6.4.6.4.6.6.6.4",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1872; work dated 1856"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1848; work dated 1856"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "338장 내 주를 가까이 하게 함은.mscz",
+   "sha256": "a2539471e112c3bea7ced8df2c1109b97fbdddbf019eb005490644a6fd6ffacd",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

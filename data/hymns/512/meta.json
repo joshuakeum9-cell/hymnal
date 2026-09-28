@@ -1,0 +1,46 @@
+{
+ "number": 512,
+ "old_number": 328,
+ "title_ko": "천성길을 버리고",
+ "title_en": "Sinners Jesus Will Receive",
+ "original_title": "Sinners Jesus Will Receive (Christ Receiveth Sinful Men)",
+ "theme": "세계선교",
+ "key_table": "C",
+ "time_table": "3/4",
+ "composer": "제임스 맥그래너핸 (James McGranahan)",
+ "lyricist": "에르트만 노이마이스터 (Erdmann Neumeister) · 1671~1756",
+ "credit_line_in_file": {
+  "composer": "J.McGranahan",
+  "lyricist": "E.Neumeister"
+ },
+ "year": 1883,
+ "meter": "7.7.7.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1907; work dated 1883"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1756; work dated 1883"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "512장 천성길을 버리고.mscz",
+   "sha256": "84b3fdd181a541d26271e00fe69ac866fd8a0ff0af365bc1b851086944c0e57d",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

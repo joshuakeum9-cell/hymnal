@@ -1,0 +1,46 @@
+{
+ "number": 411,
+ "old_number": 473,
+ "title_ko": "아 내 맘속에",
+ "title_en": "There's a Peace in My Heart",
+ "original_title": "Constantly Abiding",
+ "theme": "평안과위로",
+ "key_table": "D",
+ "time_table": "3/4",
+ "composer": "앤 S. 머피 (Anne S. Murphy)",
+ "lyricist": "앤 S. 머피 (Anne S. Murphy) · 1878~1942",
+ "credit_line_in_file": {
+  "composer": "A.S.Murphy",
+  "lyricist": "A.S.Murphy"
+ },
+ "year": 1908,
+ "meter": "11.8.12.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1942; work dated 1908"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1942; work dated 1908"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "411장 아 내 맘속에.mscz",
+   "sha256": "7a322301ca001eb24f80147a461aa652c8e27a5c6d59ab4d81431f67fadd9aab",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

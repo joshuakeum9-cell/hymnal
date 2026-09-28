@@ -1,0 +1,46 @@
+{
+ "number": 320,
+ "old_number": 350,
+ "title_ko": "나의 죄를 정케하사",
+ "title_en": "How I Praise Thee, Precious Savior",
+ "original_title": "Channels Only",
+ "theme": "소명과충성",
+ "key_table": "A",
+ "time_table": "3/4",
+ "composer": "A. R. 깁스 (Ada Rose Gibbs)",
+ "lyricist": "M. E. 맥스웰 (Mary E. Maxwell)",
+ "credit_line_in_file": {
+  "composer": "A.R.Gibbs",
+  "lyricist": "M.E.Maxwell"
+ },
+ "year": 1900,
+ "meter": "8.7.8.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1905; work dated 1900"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1900, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "320장 나의 죄를 정케하사.mscz",
+   "sha256": "d0f97962fd0d6b1b8a8f89d3995257251bf20c121c74accf3123acb54133afa6",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

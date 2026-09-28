@@ -1,0 +1,46 @@
+{
+ "number": 235,
+ "old_number": 222,
+ "title_ko": "보아라 즐거운 우리 집",
+ "title_en": "O, Think Of The Home Over There",
+ "original_title": "O Think of the Home Over There",
+ "theme": "천국",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "툴리어스 클린턴 오케인 (Tullius Clinton O'Kane)",
+ "lyricist": "드윗 클린턴 헌팅턴 (DeWitt Clinton Huntington) · 1830~1912",
+ "credit_line_in_file": {
+  "composer": "T.C.O\\'Kane",
+  "lyricist": "D.W.C.Huntington"
+ },
+ "year": 1873,
+ "meter": "Irregular with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1912; work dated 1873"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1912; work dated 1873"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "235장 보아라 즐거운 우리 집.mscz",
+   "sha256": "3956640eb158b48986ac95326afc6075056839c403e4896d3932af3b83def3b6",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

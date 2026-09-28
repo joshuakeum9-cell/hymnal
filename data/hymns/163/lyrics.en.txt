@@ -1,0 +1,12 @@
+# 163 O Sons and Daughters, Let Us Sing
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: rough (per verse: rough, auto, auto, auto, rough)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Al- le- lu- ia! Al- le- lu- ia! Al- le- lu- ia! O sons and daugh- ters, let us sing! The King of hea- ven, the glo- rious King, O'er death to- day rose tri- _ umph- ing. Al- le- lu- ia! Al- le- lu- ia! Al- le- lu- ia! Al- le- lu- ia! Al- le- lu- ia! _ _
+v2: That Eas- ter morn, _ at _ break _ _ of day, The faith- ful wo- men went their way To seek the tomb where Je- _ sus lay. Al- le- lu- ia! Al- le- _ _ _ lu- ia! Al- _ le- _ _ _ _ _ lu- ia! Al- le- lu- ia! Al- le- lu- ia! _ _
+v3: An an- gel clad _ in _ white _ _ they see, Who _ _ sat, and spake un- to the three, "Your Lord doth go _ to Gal- i- lee." Al- le- lu- ia! _ Al- le- lu- ia! Al- _ le- _ _ _ _ _ lu- ia! Al- le- lu- ia! Al- le- lu- ia! _ _
+v4: How blest are they _ who _ have _ _ not seen, And yet whose faith hath con- stant been For they e- ter- nal life _ shall win, Al- le- lu- ia! Al- le- _ _ _ lu- ia! Al- _ le- _ _ _ _ _ lu- ia! Al- le- lu- ia! Al- le- lu- ia! _ _
+v5: On this most ho- _ ly _ day _ _ of days, Our _ _ hearts and voic- es, Lord, we raise To Thee, in ju- _ _ _ bi- lee and praise, Al- le- _ _ _ lu- ia! Al- _ le- _ _ _ _ _ lu- ia! A- _ _ men. _ _ _ _ _ _

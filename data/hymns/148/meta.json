@@ -1,0 +1,46 @@
+{
+ "number": 148,
+ "old_number": 142,
+ "title_ko": "영화로운 주 예수의",
+ "title_en": "On Calvary's Brow My Savior Died",
+ "original_title": "Glorious is the Cross of Jesus (Calvary)",
+ "theme": "고난",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "존 R. 스위니 (John Robson Sweney)",
+ "lyricist": "윌리엄 다우드 (William McKendree Darwood) · 1835~1914",
+ "credit_line_in_file": {
+  "composer": "J.R.Sweney",
+  "lyricist": "W.M.K.Darwood"
+ },
+ "year": 1886,
+ "meter": "8.8.8.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1899; work dated 1886"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1914; work dated 1886"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "148장 영화로운 주 예수의.mscz",
+   "sha256": "b8258f404dc65b656d4df588c239f1f6ff6cf045cd30c0ca137e4c885dd8240c",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

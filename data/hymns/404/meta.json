@@ -1,0 +1,46 @@
+{
+ "number": 404,
+ "old_number": 477,
+ "title_ko": "바다에 놀이 일 때에",
+ "title_en": "Fierce Raged the Tempest O'er the Deep",
+ "original_title": "Fierce Raged the Tempest o'er the Deep",
+ "theme": "평안과위로",
+ "key_table": "Cm",
+ "time_table": "3/4",
+ "composer": "존 바커스 다익스 (John Bacchus Dykes)",
+ "lyricist": "갓프리 트링 (Godfrey Thring) · 1823~1903",
+ "credit_line_in_file": {
+  "composer": "J.B.Dykes",
+  "lyricist": "G.Thring"
+ },
+ "year": 1862,
+ "meter": "8.8.8.3",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1876; work dated 1862"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1903; work dated 1862"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "404장 바다에 놀이 일 때에.mscz",
+   "sha256": "e8ea45a7abfe1e09d952dbc4e79ba681245322a957e76ac7db415e46fc7f8e37",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 389,
+ "old_number": "",
+ "title_ko": "내게로 오라 하신 주님의",
+ "title_en": "O Lord, I Heard You Calling 'Come to me'",
+ "original_title": "Come to Me, Says the Lord (Liebich-Kim)",
+ "theme": "인도와보호",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "김순세 (Kim Sun-se)",
+ "lyricist": "E. 리비히 (Ehrenfried Liebich) · 1713~1780",
+ "credit_line_in_file": {
+  "composer": "김순세",
+  "lyricist": "E.Liebich"
+ },
+ "year": 1995,
+ "meter": "Irregular",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "work dated 1995, may still be in copyright"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "389장 내게로 오라 하신 주님의.mscz",
+   "sha256": "b4c8ffe3d0e8c0c8404d3f29f09781b9b915dde1307661393f7d0f928ea72a3a",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

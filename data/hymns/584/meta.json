@@ -1,0 +1,46 @@
+{
+ "number": 584,
+ "old_number": "",
+ "title_ko": "우리나라 지켜주신",
+ "title_en": "Praise the Lord, God Kept Our Nation",
+ "original_title": "",
+ "theme": "나라사랑",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "박재훈 (박재훈)",
+ "lyricist": "김경희 (김경희)",
+ "credit_line_in_file": {
+  "composer": "백태현",
+  "lyricist": "김경희"
+ },
+ "year": 2000,
+ "meter": "8.8.8.8.8.8 with refrain",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "584장 우리나라 지켜주신.mscz",
+   "sha256": "346db54a3087a000f57ee3698e0ac3eeffce20c62a3632d28108c92eb56440e5",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

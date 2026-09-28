@@ -1,0 +1,46 @@
+{
+ "number": 84,
+ "old_number": 96,
+ "title_ko": "온 세상이 캄캄하여서",
+ "title_en": "The Lord of Glory, the Light of Earth",
+ "original_title": "The Lord of Glory, the Light of Earth",
+ "theme": "예수그리스도",
+ "key_table": "Eb",
+ "time_table": "6/8",
+ "composer": "아이작 H. 메러디스 (Isaac H. Meredith)",
+ "lyricist": "익명 (한국 신정 찬송가, 1931) (Anonymous (Korean 신정 찬송가, 1931))",
+ "credit_line_in_file": {
+  "composer": "I.H.Meredith",
+  "lyricist": "Anonymous"
+ },
+ "year": 1903,
+ "meter": "9.7.9.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1962; work dated 1903"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 익명 (한국 신정 찬송가, 1931) (Anonymous (Korean 신정 찬송가, 1931))"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "84장 온 세상이 캄캄하여서.mscz",
+   "sha256": "9f85429e5fb76c1ce74977e9d573a9a3c6c7577e1a4afe1411e8bf53da2f5ad9",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

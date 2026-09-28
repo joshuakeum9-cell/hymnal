@@ -1,0 +1,46 @@
+{
+ "number": 175,
+ "old_number": 162,
+ "title_ko": "신랑 되신 예수께서",
+ "title_en": "Will our Lamps be Filled and Ready",
+ "original_title": "When the Bridegroom Comes (Will Our Lamps Be Filled and Ready)",
+ "theme": "재림",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "윌리엄 J. 커크패트릭 (William J. Kirkpatrick)",
+ "lyricist": "이든 리더 라타 (Eden Reeder Latta) · 1839~1915",
+ "credit_line_in_file": {
+  "composer": "W.J.Kirkpatrick",
+  "lyricist": "E.R.Latta"
+ },
+ "year": 1895,
+ "meter": "irregular",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1921; work dated 1895"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1895"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "175장 신랑 되신 예수께서.mscz",
+   "sha256": "80af5186e5c10949e3e4dbe3494238cb26bdb744e2256b3c9d7751c1a74a29ac",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

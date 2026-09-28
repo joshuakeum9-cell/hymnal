@@ -1,0 +1,46 @@
+{
+ "number": 260,
+ "old_number": 194,
+ "title_ko": "우리를 죄에서 구하시려",
+ "title_en": "Glory to Jesus, Who Died",
+ "original_title": "Glory to Jesus",
+ "theme": "회개와용서",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "피터 필립 빌혼 (Peter Philip Bilhorn)",
+ "lyricist": "피터 필립 빌혼 (Peter Philip Bilhorn) · 1865~1936",
+ "credit_line_in_file": {
+  "composer": "P.P.Bilhorn",
+  "lyricist": "P.P.Bilhorn"
+ },
+ "year": 1907,
+ "meter": "10.10.10.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1907, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1936; work dated 1907"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "260장 우리를 죄에서 구하시려.mscz",
+   "sha256": "bee99481f28f172c5bba28706e99dee3c4e68b639c6dc24e807503308a3c620e",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

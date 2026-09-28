@@ -1,0 +1,46 @@
+{
+ "number": 92,
+ "old_number": 97,
+ "title_ko": "위에 계신 나의 친구",
+ "title_en": "There's One Above All Earthly Friends",
+ "original_title": "There's One Above All Earthly Friends",
+ "theme": "예수그리스도",
+ "key_table": "Bb",
+ "time_table": "3/4",
+ "composer": "B. F. 버츠 (B. F. Butts)",
+ "lyricist": "존슨 오트먼 주니어 (Johnson Oatman Jr.) · 1856~1926",
+ "credit_line_in_file": {
+  "composer": "B.F.Butts",
+  "lyricist": "J.Oatman"
+ },
+ "year": 1900,
+ "meter": "8.8.8.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1900, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1926; work dated 1900"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "92장 위에 계신 나의 친구.mscz",
+   "sha256": "c00810b5dc863819a46dca899cf674d8244d0cb949110fada1b6b0b32ccd3487",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

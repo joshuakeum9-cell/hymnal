@@ -1,0 +1,46 @@
+{
+ "number": 323,
+ "old_number": 355,
+ "title_ko": "부름 받아 나선 이 몸",
+ "title_en": "Call'd of God, We Honor the Call",
+ "original_title": "Korean: Called and Sent (Korean original)",
+ "theme": "소명과충성",
+ "key_table": "Ab",
+ "time_table": "3/4",
+ "composer": "이유선 (Yi Yu-seon)",
+ "lyricist": "이호운 (Yi Ho-un) · 1911~1969",
+ "credit_line_in_file": {
+  "composer": "이유선",
+  "lyricist": "이호운"
+ },
+ "year": 1967,
+ "meter": "8.8.8.8.D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "323장 부름 받아 나선 이 몸.mscz",
+   "sha256": "d3f2afed54016b82d0d039858c006aa124c3de9a3a0596d39e73ab83e31ecefc",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

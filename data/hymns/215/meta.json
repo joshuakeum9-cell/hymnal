@@ -1,0 +1,46 @@
+{
+ "number": 215,
+ "old_number": 354,
+ "title_ko": "내 죄 속해 주신 주께",
+ "title_en": "All for Jesus",
+ "original_title": "All for Jesus",
+ "theme": "헌신과봉사",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "에이사 헐 (Asa Hull)",
+ "lyricist": "메리 댁워시 제임스 (Mary Dagworthy James) · 1810~1883",
+ "credit_line_in_file": {
+  "composer": "A.Hull",
+  "lyricist": "M.D.James"
+ },
+ "year": 1885,
+ "meter": "8.7.8.7.D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1907; work dated 1885"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1883; work dated 1885"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "215장 내 죄 속해 주신 주께.mscz",
+   "sha256": "0e892a17611f151d162b6fddfb10fb42d73863c2bef80944591bb48df73ab214",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

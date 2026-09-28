@@ -1,0 +1,46 @@
+{
+ "number": 250,
+ "old_number": 182,
+ "title_ko": "구주의 십자가 보혈로",
+ "title_en": "Down at The Cross Where My Savior Died",
+ "original_title": "Down at the Cross (Glory to His Name)",
+ "theme": "회개와용서",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "존 하트 스톡턴 (John Hart Stockton)",
+ "lyricist": "엘리샤 올브라이트 호프만 (Elisha Albright Hoffman) · 1839~1929",
+ "credit_line_in_file": {
+  "composer": "J.H.Stockton",
+  "lyricist": "E.A.Hoffman"
+ },
+ "year": 1874,
+ "meter": "9.9.9.5 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1877; work dated 1874"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1929; work dated 1874"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "250장 구주의 십자가 보혈로.mscz",
+   "sha256": "4c00ee4b6966f4c22f5cd6a2fef73df388f751e249f054b78d5d70860e4f823a",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

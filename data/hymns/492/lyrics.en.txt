@@ -1,0 +1,11 @@
+# 492 Just a Few More Days
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Just a few more days to be filled with praise, And to tell the old, old sto- ry Then, when twi- light falls, and my Sav- ior calls, I shall go to Him in glo- ry. I'll ex- change my cross for a star- ry crown, Where the gates swing ou- tward nev- er, At his feet I'll lay ev- -'ry bur- den down, And with Je- sus reign for- ev- er.
+v2: Just a few more years with their toil and tears, And the jour- ney will be end- ed Then I'll be with Him, where the tide of time With e- ter- ni- ty is blend- ed. I'll ex- change my cross for a star- ry crown, Where the gates swing ou- tward nev- er, At his feet I'll lay ev- -'ry bur- den down, And with Je- sus reign for- ev- er.
+v3: Tho' the hills be steep and the val- leys deep, With no flow'rs my way a- dorn- ing Tho' the night be lone and my rest a stone, Joy a- waits me in the morn- ing. I'll ex- change my cross for a star- ry crown, Where the gates swing ou- tward nev- er, At his feet I'll lay ev- -'ry bur- den down, And with Je- sus reign for- ev- er.
+v4: What a joy 'twill be when I wake to see Him for whom my heart is burn- ing! Nev- er- more to sigh, nev- er- more to die, For that day my heart is yearn- ing. I'll ex- change my cross for a star- ry crown, Where the gates swing ou- tward nev- er, At his feet I'll lay ev- -'ry bur- den down, And with Je- sus reign for- ev- er.

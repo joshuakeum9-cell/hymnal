@@ -1,0 +1,46 @@
+{
+ "number": 358,
+ "old_number": 400,
+ "title_ko": "주의 진리 위해 십자가 군기",
+ "title_en": "There's a Royal Banner",
+ "original_title": "The Banner of the Cross (Royal Banner)",
+ "theme": "분투와승리",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "J. 맥그라나한 (James McGranahan)",
+ "lyricist": "D. W. 휘틀 (Daniel Webster Whittle) · 1840~1901",
+ "credit_line_in_file": {
+  "composer": "J.McGranahan",
+  "lyricist": "D.W.Whittle"
+ },
+ "year": 1887,
+ "meter": "11.7.11.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1907; work dated 1887"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1901; work dated 1887"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "358장 주의 진리 위해 십자가 군기.mscz",
+   "sha256": "214850d3e0b20e18fae36f21e175b45fd14a9b030c6bcdd98cc9c651d59b408b",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

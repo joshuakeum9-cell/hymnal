@@ -1,0 +1,48 @@
+{
+ "number": 220,
+ "old_number": 278,
+ "title_ko": "사랑하는 주님 앞에",
+ "title_en": "In One Fraternal Bond Of Love",
+ "original_title": "",
+ "theme": "성도의교제",
+ "key_table": "Eb",
+ "time_table": "3/2",
+ "composer": "대니얼 브링크 타우너 (Daniel Brink Towner)",
+ "lyricist": "신선찬미가 (일본 찬송가집) (新撰讃美歌 (Shinsen Sambika, 일본 찬송가집))",
+ "credit_line_in_file": {
+  "composer": "D.B.Towner",
+  "lyricist": "M.Okuno"
+ },
+ "year": 1897,
+ "meter": "8.8.8.8.D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1919; work dated 1897"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1897, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "220장 사랑하는 주님 앞에.mscz",
+   "sha256": "b589c2ce3d25bd5c7a7b1877a8f62012bffe2e789768c036d5d70a52cfae7722",
+   "changes": [
+    "lyric verse 1: 복을받아 -> 본을받아"
+   ]
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,11 @@
+# 212 O Master, Let Me Walk with Thee
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, exact, auto, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: O Mas- ter, let me walk with Thee In low- ly paths of serv- _ ice free Tell me Thy se- cret, help _ me bear The strain of toil, the fret _ of care. _ _
+v2: Help me the slow of heart to move By some clear, win- ning word _ of love Teach me the way- ward feet _ to stay, And guide them in the home- _ ward way. _ _
+v3: Teach me Thy pa- tience still with Thee In clos- er, dear- er com- _ pa- ny, In work that keeps faith sweet _ and strong, In trust that triumphs o- ver _ _ wrong. _ _
+v4: In hope that sends a shin- ing ray Far down the fu- ture's broad' _ ning way, In peace that on- ly Thou _ canst give, With Thee, O Mas- ter, let _ me live. A- men.

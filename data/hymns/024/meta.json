@@ -1,0 +1,46 @@
+{
+ "number": 24,
+ "old_number": "",
+ "title_ko": "왕 되신 주",
+ "title_en": "Jesus is King",
+ "original_title": "Jesus is King, I Will Extol Him",
+ "theme": "찬양",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "웬디 처칠 (Wendy Churchill (arr. Tom Fettke))",
+ "lyricist": "웬디 처칠 (Wendy Churchill) · 1957~?",
+ "credit_line_in_file": {
+  "composer": "W.Churchill/T.Fettke",
+  "lyricist": "W.Churchill"
+ },
+ "year": 1982,
+ "meter": "10.10.10.10",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "work dated 1982, may still be in copyright"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "work dated 1982, may still be in copyright"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "24장 왕 되신 주.mscz",
+   "sha256": "b0c7a63ae066a3687fa20d244a20351ad073361a3e7578fecf9bf288079d04a0",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

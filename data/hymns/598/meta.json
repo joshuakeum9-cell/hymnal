@@ -1,0 +1,46 @@
+{
+ "number": 598,
+ "old_number": 244,
+ "title_ko": "천지 주관하는 주님",
+ "title_en": "Temples God",
+ "original_title": "",
+ "theme": "헌당",
+ "key_table": "Bb",
+ "time_table": "3/4",
+ "composer": "이타마르 콘키 (Ithamar Conkey)",
+ "lyricist": "Anonymous",
+ "credit_line_in_file": {
+  "composer": "I.Conkey",
+  "lyricist": "Anonymous"
+ },
+ "year": 1849,
+ "meter": "8.7.8.7",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1867; work dated 1849"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1849, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "598장 천지 주관하는 주님.mscz",
+   "sha256": "a5f19c43ad27f4fb4b3f17b1d90b2226b72d0f1f8820d9d6b9d059fcf5f2fe9c",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

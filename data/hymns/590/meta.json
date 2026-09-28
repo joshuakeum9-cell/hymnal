@@ -1,0 +1,46 @@
+{
+ "number": 590,
+ "old_number": 309,
+ "title_ko": "논밭에 오곡백과",
+ "title_en": "Sing to the Lord of Harvest",
+ "original_title": "Sing to the Lord of Harvest",
+ "theme": "감사절",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "요한 스토이를라인 (Johann Steurlein)",
+ "lyricist": "존 S. B. 몬셀 (John Samuel Bewley Monsell) · 1811~1875",
+ "credit_line_in_file": {
+  "composer": "J.Steurlein",
+  "lyricist": "J.S.B.Monsell"
+ },
+ "year": 1575,
+ "meter": "7.6.7.6 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1613; work dated 1575"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1875; work dated 1575"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "590장 논밭에 오곡백과.mscz",
+   "sha256": "3538d28a10d28ab8c910585f645f6f6144b58a10c56ddfb9358be5deb7940577",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

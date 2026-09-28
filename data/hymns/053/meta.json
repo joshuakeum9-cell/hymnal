@@ -1,0 +1,46 @@
+{
+ "number": 53,
+ "old_number": 59,
+ "title_ko": "성전을 떠나가기 전",
+ "title_en": "The Lord be with Us as Each Day",
+ "original_title": "Savior, Again to Thy Dear Name We Raise",
+ "theme": "예배마침",
+ "key_table": "Ab",
+ "time_table": "3/4",
+ "composer": "존 B. 다익스 (John B. Dykes)",
+ "lyricist": "존 엘러튼 (John Ellerton) · 1826~1893",
+ "credit_line_in_file": {
+  "composer": "J.B.Dykes",
+  "lyricist": "J.Ellerton"
+ },
+ "year": 1875,
+ "meter": "8.6.8.6",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1875, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1893; work dated 1875"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "53장 성전을 떠나가기 전.mscz",
+   "sha256": "82ebe85fbf6d0933f659ea4360e963ae4f7ac6e1e9982441c51894cb5b8edc6b",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

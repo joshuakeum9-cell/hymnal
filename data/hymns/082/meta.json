@@ -1,0 +1,46 @@
+{
+ "number": 82,
+ "old_number": 90,
+ "title_ko": "성부의 어린 양이",
+ "title_en": "I Lay My Sins On Jesus",
+ "original_title": "I Lay My Sins on Jesus",
+ "theme": "예수그리스도",
+ "key_table": "C",
+ "time_table": "6/4",
+ "composer": "조지프 P. 홀브룩 (Joseph Perry Holbrook)",
+ "lyricist": "호레이쇼 보너 (Horatius Bonar) · 1808~1889",
+ "credit_line_in_file": {
+  "composer": "J.P.Holbrook",
+  "lyricist": "H.Bonar"
+ },
+ "year": 1865,
+ "meter": "7.6.7.6 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1865, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1889; work dated 1865"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "82장 성부의 어린 양이.mscz",
+   "sha256": "65f96d5e2ba9e65065328465e6e5987d6dd6c2034c0e4d7c07dbedad24363cc9",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

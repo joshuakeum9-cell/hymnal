@@ -1,0 +1,10 @@
+# 200 Sing Them Over Again To Me
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Sing them ov- er a- gain to me, Won- der- ful words of Life _ Let me more of their beau- ty see, Won- der- ful words of Life. Words of life _ and beau- ty, Teach me faith _ and du- ty Beau- ti- ful words, Won- der- ful words, Won- der- ful words of Life. _ _ Beau- ti- ful words, Won- der- ful words, Won- der- ful words of Life. _ _
+v2: Christ, the bless- ed One, gives to all, Won- der- ful words of Life _ Sin- ner, list to the lov- ing call, Won- der- ful words of Life. All so free- _ ly giv- en, Woo- ing us _ to Heav- en: Beau- ti- ful words, Won- der- ful words, Won- der- ful words of Life. _ _ Beau- ti- ful words, Won- der- ful words, Won- der- ful words of Life. _ _
+v3: Sweet- ly ech- o the gos- pel call, Won- der- ful words of Life _ Of- fer par- don and peace to all, Won- der- ful words of Life. Je- sus, on- _ ly Sav- iour, Sanc- ti- fy _ for- ev- er: Beau- ti- ful words, Won- der- ful words, Won- der- ful words of Life. _ _ Beau- ti- ful words, Won- der- ful words, Won- der- ful words of Life. A- men.

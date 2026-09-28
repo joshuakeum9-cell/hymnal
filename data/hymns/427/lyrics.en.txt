@@ -1,0 +1,12 @@
+# 427 Blest are the Poor in Heart
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, exact, exact, exact, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Blest are the poor in heart, for in God's fa- vor He gives the King- dom of Heav'n to be theirs. Blest they who mourn, for God gives them for ev- er, Heal- ing and com- fort in all of their cares. _ _
+v2: Blest are the gen- tle, for un- der God's fa- vor They shall in- her- it the earth, He has willed. Blest who for right- eous- ness thirst and are hun- gry, Blest, for God pro- mi- ses They shall be filled. _ _
+v3: Blest are the mer- ci- ful, for in God's fa- vor Mer- cy shall blos- som for them from the sod. Blest are the pure in heart, blest be- yond mea- sure, Blest, for the pro- mise is, “They shall see God." _ _
+v4: Blest are the peace- mak- ers, for in God's fa- vor “Chil- dren of God" is their name, He de- clares. Those per- se- cut- ed shall be blest for ev- er, Blest, for the Kind- dom of Hea- ven is thiers. _ _
+v5: Sing, when re- viled for the name of the Sav- iour! Am- ple is Hea- ven shall be your re- ward. Praise! To the Fa- ther the Son and the Spir- it! Praise! Hal- _ le- _ lu- jah! O praise ye the LORD!

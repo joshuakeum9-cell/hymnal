@@ -1,0 +1,46 @@
+{
+ "number": 321,
+ "old_number": 351,
+ "title_ko": "날 대속하신 예수께",
+ "title_en": "My Life, My Love I Give to Thee",
+ "original_title": "My Life, My Love I Give to Thee",
+ "theme": "소명과충성",
+ "key_table": "F",
+ "time_table": "3/4",
+ "composer": "C. R. 던바 (Charles R. Dunbar)",
+ "lyricist": "R. E. 허드슨 (Ralph Erskine Hudson) · 1843~1901",
+ "credit_line_in_file": {
+  "composer": "C.R.Dunbar",
+  "lyricist": "R.E.Hudson"
+ },
+ "year": 1882,
+ "meter": "8.8.8.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1882, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1901; work dated 1882"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "321장 날 대속하신 예수께.mscz",
+   "sha256": "87c337ad12ae916b50e6f761725824110776b57d5853ffd68a857989b00f00db",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

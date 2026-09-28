@@ -1,0 +1,10 @@
+# 312 If I Thou but Suffer God to Guide Thee
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: rough (per verse: auto, auto, rough)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: If thou but suf- fer God to guide thee And hope in Him through all thy ways, He'll give thee strength, wha- te- 'er be- tide thee, And bear thee through the e- vil days. Who trust in God's un- chang- ing love Builds on the rock that naught can _ move.
+v2: O- _ bey thou res- tless heart be still and wait in cheer- ful hope con- tent To take wha- te- 'er His gra- cious will His all di- scern- ing love hath sent Nor doubt our in most wants are known To him who chose us for him own _ _
+v3: Sing, _ _ pray, and swerve not from His ways, But do thine own part fait- hful- ly Trust His rich pro- mi- ses of grace, So _ _ shall they be ful- filled in thee God ne- ver yet for sook in need The souls that tru- sted Him in- deed.

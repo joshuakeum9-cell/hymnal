@@ -1,0 +1,46 @@
+{
+ "number": 267,
+ "old_number": 201,
+ "title_ko": "주의 확실한 약속의 말씀 듣고",
+ "title_en": "Tis the Promise of God",
+ "original_title": "Hallelujah, 'Tis Done! ('Tis the Promise of God)",
+ "theme": "회개와용서",
+ "key_table": "F",
+ "time_table": "3/4",
+ "composer": "필립 폴 블리스 (Philip Paul Bliss)",
+ "lyricist": "필립 폴 블리스 (Philip Paul Bliss) · 1838~1876",
+ "credit_line_in_file": {
+  "composer": "P.P.Bliss",
+  "lyricist": "P.P.Bliss"
+ },
+ "year": 1874,
+ "meter": "5.7.5.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1874, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1876; work dated 1874"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "267장 주의 확실한 약속의 말씀 듣고.mscz",
+   "sha256": "639a1da4fb2b17c1e1b3a2d7fdcdfadb0e74b55cd2957a0172e5fa0a8bbcd644",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

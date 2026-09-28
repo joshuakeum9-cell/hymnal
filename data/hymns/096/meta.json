@@ -1,0 +1,46 @@
+{
+ "number": 96,
+ "old_number": 94,
+ "title_ko": "예수님은 누구신가",
+ "title_en": "Who, You Ask Me, Is My Jesus",
+ "original_title": "Who, You Ask Me, is My Jesus",
+ "theme": "예수그리스도",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "장 자크 루소 (Jean-Jacques Rousseau)",
+ "lyricist": "빈로아 (Frederick S. Miller (빈로아 선교사)) · 1866~1952",
+ "credit_line_in_file": {
+  "composer": "J.J.Rousseau",
+  "lyricist": "F.S.Miller"
+ },
+ "year": 1752,
+ "meter": "8.7.8.7.8.7",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1778; work dated 1752"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1952; work dated 1752"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "96장 예수님은 누구신가.mscz",
+   "sha256": "a99d9200d2cc162a7ed7337979770931d9348d734e213c5e9d857cdd63343d5e",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

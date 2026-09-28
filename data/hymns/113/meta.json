@@ -1,0 +1,46 @@
+{
+ "number": 113,
+ "old_number": "",
+ "title_ko": "저 아기 잠이 들었네",
+ "title_en": "What Child is This",
+ "original_title": "What Child Is This",
+ "theme": "성탄",
+ "key_table": "Em",
+ "time_table": "6/8",
+ "composer": "잉글랜드 전통 (그린슬리브스, 16세기) (English traditional (Greensleeves, 16th C.))",
+ "lyricist": "윌리엄 채터턴 딕스 (William Chatterton Dix) · 1837~1898",
+ "credit_line_in_file": {
+  "composer": "English Ballad",
+  "lyricist": "W.C.Dix"
+ },
+ "year": 1871,
+ "meter": "8.7.8.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 잉글랜드 전통 (그린슬리브스, 16세기) (English traditional (Greensleeves, 16th C.))"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1898; work dated 1871"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "113장 저 아기 잠이 들었네.mscz",
+   "sha256": "c0669ebad3d00d4ede4d2b497a9ae960c7f06a43a0c2d9e5b58ef939203b3958",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

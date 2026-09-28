@@ -1,0 +1,46 @@
+{
+ "number": 331,
+ "old_number": 375,
+ "title_ko": "영광을 받으신 만유의 주여",
+ "title_en": "True-hearted, Whole-hearted",
+ "original_title": "True-Hearted, Whole-Hearted",
+ "theme": "소명과충성",
+ "key_table": "Eb",
+ "time_table": "6/8",
+ "composer": "G. C. 스테빈스 (George C. Stebbins)",
+ "lyricist": "F. R. 하버갈 (Frances R. Havergal) · 1836~1879",
+ "credit_line_in_file": {
+  "composer": "G.C.Stebbins",
+  "lyricist": "F.R.Havergal"
+ },
+ "year": 1893,
+ "meter": "11.10.11.10 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1945; work dated 1893"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1879; work dated 1893"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "331장 영광을 받으신 만유의 주여.mscz",
+   "sha256": "06c67c55e07f7689289aee861f87149963c9969b1d0d81c8e6af53d72e8b8b0c",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

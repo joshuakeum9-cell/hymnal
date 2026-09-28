@@ -1,0 +1,10 @@
+# 104 O Come, O Come, Emmanuel
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: O, come, O come, Em- man- _ _ u- el, And ran- som cap- tive Is- _ _ ra- el, That mourns in lone- ly ex- _ ile here Un- til the Son of God _ _ ap- pear. Re- joice! Re- joice! Em- man- _ _ _ u- el Shall come to thee, O _ Is- ra- el! _ _
+v2: O come, Thou Wis- dom from _ _ on high, And or- der all things far _ _ and nigh; To us the path of knowl _ edge show, And cause us in her ways _ _ to go. Re- joice! Re- joice! Em- man- _ _ _ u- el Shall come to thee, O _ Is- ra- el! _ _
+v3: O come, De- sire of Na- _ _ tions; bind All peo- ples in one heart _ _ and mind, Bid en- vy, strife, and quar- _ rels cease Fill the whole world with heav- _ _ en's peace. Re- joice! Re- joice! Em- man- _ _ _ u- el Shall _ _ come to _ thee, O Is- ra- el!

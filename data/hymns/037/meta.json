@@ -1,0 +1,46 @@
+{
+ "number": 37,
+ "old_number": 37,
+ "title_ko": "주 예수 이름 높이어",
+ "title_en": "All Hail the Pow'r of Jesus' Name!",
+ "original_title": "All Hail the Power of Jesus' Name",
+ "theme": "찬양",
+ "key_table": "G",
+ "time_table": "3/4",
+ "composer": "제임스 엘러 (James Ellor)",
+ "lyricist": "에드워드 페로넷 (Edward Perronet) · 1726~1792",
+ "credit_line_in_file": {
+  "composer": "J.Ellor",
+  "lyricist": "E.Perronet"
+ },
+ "year": 1838,
+ "meter": "8.6.8.6.8.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1899; work dated 1838"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1792; work dated 1838"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "37장 주 예수 이름 높이어.mscz",
+   "sha256": "fb356cd18c9b2f266a31d2ff77902da6c745b67560e7e69549a3725f7ed41477",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 18,
+ "old_number": "",
+ "title_ko": "성도들아 찬양하자",
+ "title_en": "Let Us Join to Sing Together",
+ "original_title": "Let Us Join to Sing Together",
+ "theme": "찬양",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "이중화 (Lee Joong-hwa)",
+ "lyricist": "전재동 (Jeon Jae-dong)",
+ "credit_line_in_file": {
+  "composer": "이중화",
+  "lyricist": "전재동"
+ },
+ "year": 1998,
+ "meter": "Irregular",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "18장 성도들아 찬양하자.mscz",
+   "sha256": "ead21fefb214c0e564b1cf791c728cd0797f9ec950585efcd937bc4581e35658",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

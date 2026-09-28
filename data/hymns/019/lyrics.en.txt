@@ -1,0 +1,10 @@
+# 19 Hark! Ten Thousand Harps and Voices
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Hark! ten thou- sand harps and voic- es Sound the note of praise a- bove Je- sus reigns, and heav'n re- joic- es Je- sus reigns, the God of love: See, _ He sits on yon- der throne Je- sus rules the world a- lone. Al- le- lu- ia! Al- le- lu- ia! Al- le- lu- ia! A- _ _ men. _ _
+v2: King of glo- ry, reign ev- er, Thine an _ ev- er- last- ing crown Noth- ing from Thy love shall sev- er Those whom Thou hast made Thine own: Hap- _ py ob- jects of Thy grace, Des- tined to be- hold Thy face. Al- le- lu- ia! Al- le- lu- ia! Al- le- lu- ia! A- _ _ men. _ _
+v3: Sav- iour, hast- en Thine ap- pear- ing, Bring, O bring the glo- rious day, When, the aw- ful sum- mons hear- ing, Heav'n and earth shall pass a- way: Then _ with gold- en harps we'll sing, "Glo- ry, glo- ry to our King!" Al- le- lu- ia! Al- le- lu- ia! Al- le- lu- ia! A- _ _ men. A- men.

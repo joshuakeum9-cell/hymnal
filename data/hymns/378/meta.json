@@ -1,0 +1,46 @@
+{
+ "number": 378,
+ "old_number": 430,
+ "title_ko": "내 선한 목자",
+ "title_en": "Tell Me, My Savior",
+ "original_title": "My Good Shepherd (Lynde)",
+ "theme": "인도와보호",
+ "key_table": "Bb",
+ "time_table": "2/4",
+ "composer": "독일 튀링겐 민요 (Thüringen Folk Song)",
+ "lyricist": "C. S. 로빈슨 (Charles S. Robinson) · 1829~1899",
+ "credit_line_in_file": {
+  "composer": "F.W.Kucken",
+  "lyricist": "C.S.Robinson"
+ },
+ "year": null,
+ "meter": "11.10.12.10",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 독일 튀링겐 민요 (Thüringen Folk Song)"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1899; work dated unknown"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "378장 내 선한 목자.mscz",
+   "sha256": "a911dd66b1a3a3e8cd8f4d5b663421b80d9f8c14125de879852883457fa6dc4a",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

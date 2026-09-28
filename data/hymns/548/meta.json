@@ -1,0 +1,46 @@
+{
+ "number": 548,
+ "old_number": "",
+ "title_ko": "날 구속하신",
+ "title_en": "I Greet Thee, Who My Sure Redeemer Art",
+ "original_title": "",
+ "theme": "믿음과확신",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "제네바 시편가 (Genevan Psalter)",
+ "lyricist": "장 칼뱅 (John Calvin) · 1509~1564",
+ "credit_line_in_file": {
+  "composer": "Genevan Psalter",
+  "lyricist": "J.Calvin"
+ },
+ "year": 1551,
+ "meter": "10.10.10.10.10",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 제네바 시편가 (Genevan Psalter)"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1564; work dated 1551"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "548장 날 구속하신.mscz",
+   "sha256": "be953d909f8c61ba4b95470261f93f542a3f6a1665120048de7c238b469d3d44",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

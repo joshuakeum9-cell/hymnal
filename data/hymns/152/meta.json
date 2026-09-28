@@ -1,0 +1,46 @@
+{
+ "number": 152,
+ "old_number": "",
+ "title_ko": "귀하신 예수",
+ "title_en": "Ah, Holy Jesus",
+ "original_title": "Ah, Holy Jesus (Herzliebster Jesu)",
+ "theme": "고난",
+ "key_table": "Gm",
+ "time_table": "4/4",
+ "composer": "요한 크뤼거 (Johann Crüger)",
+ "lyricist": "요한 헤르만 / 로버트 브리지스 영역 (Johann Heermann, tr. Robert Bridges) · 1585~1647",
+ "credit_line_in_file": {
+  "composer": "J.Cruger",
+  "lyricist": "J.Heermann"
+ },
+ "year": 1640,
+ "meter": "5.6.5.6.5.6.5.6",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1640, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1647; work dated 1640"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "152장 귀하신 예수.mscz",
+   "sha256": "8b6911ee425396cb30d5256f8f7aff43f87b8800ab1de64cd7dc217370af79c4",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

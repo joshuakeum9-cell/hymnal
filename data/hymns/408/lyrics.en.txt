@@ -1,0 +1,11 @@
+# 408 I Cannot Tell Thee Whence It Came
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: I can- not tell thee whence it came, This peace with- in my breast But this I know, there fills my soul A strange and tran- quil rest The- re's a deep, set- tled peace in my soul, The- re's a deep, set- tled peace in my soul Tho' the bil- lows of sin near me roll, He a- bides, Christ a- bides
+v2: Be- neath the toil and care of life, This hid- den stream flows on My wea- ry soul no long- er thirsts, Nor am I sad and lone The- re's a deep, set- tled peace in my soul, The- re's a deep, set- tled peace in my soul Tho' the bil- lows of sin near me roll, He a- bides, Christ a- bides
+v3: I can- not tell the half of love, Un- feigned, su- preme, di- vine, That caused my dark- est In- most self With beams of hope to shine. The- re's a deep, set- tled peace in my soul, The- re's a deep, set- tled peace in my soul Tho' the bil- lows of sin near me roll, He a- bides, Christ a- bides
+v4: I can- not tell thee why He chose To suf- fer and to die, But if I suf- fer here with Him I'll reign with Him on high. The- re's a deep, set- tled peace in my soul, The- re's a deep, set- tled peace in my soul Tho' the bil- lows of sin near me roll, He a- bides, Christ a- bides

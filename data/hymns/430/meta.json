@@ -1,0 +1,46 @@
+{
+ "number": 430,
+ "old_number": 456,
+ "title_ko": "주와 같이 길 가는 것",
+ "title_en": "'Tis so Sweet to Walk with Jesus",
+ "original_title": "Step by Step (Tis So Sweet to Walk with Jesus)",
+ "theme": "주와동행",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "앨버트 B. 심슨 (Albert Benjamin Simpson)",
+ "lyricist": "앨버트 B. 심슨 (Albert Benjamin Simpson) · 1843~1919",
+ "credit_line_in_file": {
+  "composer": "A.B.Simpson",
+  "lyricist": "A.B.Simpson"
+ },
+ "year": 1897,
+ "meter": "8.7.8.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1919; work dated 1897"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1919; work dated 1897"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "430장 주와 같이 길 가는 것.mscz",
+   "sha256": "e845edd0d0089e4276f8f18c392c6de375a7a6299ef8f0f6d75d046c23531e50",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

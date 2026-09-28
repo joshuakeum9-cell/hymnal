@@ -1,0 +1,46 @@
+{
+ "number": 621,
+ "old_number": "",
+ "title_ko": "찬양하라 내 영혼아",
+ "title_en": "Bless the Lord, Oh My Soul",
+ "original_title": "",
+ "theme": "경배와찬양",
+ "key_table": "A",
+ "time_table": "4/4",
+ "composer": "Anonymous",
+ "lyricist": "Anonymous",
+ "credit_line_in_file": {
+  "composer": "Anonymous",
+  "lyricist": "Anonymous"
+ },
+ "year": null,
+ "meter": "8.8.8.5",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "credits marked ai-draft on the source page; check the book"
+  },
+  "text_en": {
+   "status": "unknown",
+   "basis": "no dates found; check the printed credit line"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "621장 찬양하라 내 영혼아.mscz",
+   "sha256": "432519c015c88306f19b5be0b761a32a84e1efa8234eb219b84da5b2eda4abf4",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

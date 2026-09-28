@@ -1,0 +1,46 @@
+{
+ "number": 208,
+ "old_number": 246,
+ "title_ko": "내 주의 나라와",
+ "title_en": "I Love Thy Kingdom, Lord",
+ "original_title": "I Love Thy Kingdom, Lord",
+ "theme": "하나님나라",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "에런 윌리엄스 (Aaron Williams)",
+ "lyricist": "티모시 드와이트 (Timothy Dwight) · 1752~1817",
+ "credit_line_in_file": {
+  "composer": "A.Williams",
+  "lyricist": "T.Dwight"
+ },
+ "year": 1763,
+ "meter": "6.6.8.6 (S.M.)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1776; work dated 1763"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1817; work dated 1763"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "208장 내 주의 나라와.mscz",
+   "sha256": "ad1a626b3d97d3d3fea9b197290f213dc87e78a57d1ecece92fe625522a6ba68",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

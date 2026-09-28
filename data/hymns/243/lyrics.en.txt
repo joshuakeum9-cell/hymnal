@@ -1,0 +1,11 @@
+# 243 Face to Face with Christ
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, exact, auto, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Face to face with Christ, my Sav- iour, Face to face what will it be When with rap- ture, face to face I be- hold Him. Face to face with Christ, my Sa- viour with rap- ture I be- hold Him. Face to face I shall see Him, who died _ for me. Face to face I shall see Him Far be- yond the star- y sky Face to face in His glo- ry Face to face in all glo- ry Face to face I shall be- hold Him by _ and by.
+v2: On- ly faint- ly now I see Him With the dark- ling veil be- tween But a bless- ed day is com- ing ver- y soon, When His glo- ry shall be seen, hal- le- lu- jah, Face to face He is com- ing, I shall see Him, who died _ for me. Face to face I shall see Him Far be- yond the star- y sky Face to face in His glo- ry Face to face in all glo- ry Face to face I shall be- hold Him by _ and by.
+v3: What re- joic- ing in His pres- ence, When are ban- ished grief and pain, When the crook- _ ed ways are straight- ened at once, And the dark things shall be plain, hal- le- lu- jah, when He will come. Face to face I shall see Him, who died _ for me. Face to face I shall see Him Far be- yond the star- y sky Face to face in His glo- ry Face to face in all glo- ry Face to face I shall be- hold Him by _ and by.
+v4: Face to face O bliss- ful mo- ment! Face to face to see and know Face to face with my Re- deem- er of my soul, Je- sus Christ who loves me so! Hal- le- lu- jah, I shall see Him, Face to face I shall see Him, who died _ for me. Face to face I shall see Him Far be- yond the star- y sky Face to face in His glo- ry Face to face in all glo- ry Face to face I shall be- hold Him by _ and by.

@@ -1,0 +1,10 @@
+# 290 I Have a Saviour He's Pleading in Glory
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: I have a Sav- iour He's plead- _ ing in glo- ry, A dear, lov- ing Sav- iour tho' earth- friends be few And now He is watch- ing in ten- _ der- ness o'er me, And O that my Sav- iour were your Sav- iour too! For you I am pray- ing, For you I am pray- ing, For you I am pray- ing, I am pray- ing for you.
+v2: I have a Fa- ther: to me _ He has giv- en A hope for e- ter- ni- ty, bless- ed and true And soon He will call me to meet _ Him in Heav- en But O that He'd let me bring you with me too! For you I am pray- ing, For you I am pray- ing, For you I am pray- ing, I am pray- ing for you.
+v3: I have a peace: it is calm _ as a riv- er A peace that the friends of this world nev- er knew My Sav- iour a- lone is its auth- _ or and giv- er, And O could I know it was giv- en to you! For you I am pray- ing, For you I am pray- ing, For you I am pray- ing, I am pray- ing for you.

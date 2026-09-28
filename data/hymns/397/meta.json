@@ -1,0 +1,46 @@
+{
+ "number": 397,
+ "old_number": 454,
+ "title_ko": "주 사랑 안에 살면",
+ "title_en": "In Heavenly Love Abiding",
+ "original_title": "In Heavenly Love Abiding",
+ "theme": "인도와보호",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "핀란드 전통 곡조 (D. 에반스 화성) (Traditional Finnish Melody (harm. D. Evans, 1928))",
+ "lyricist": "A. L. 워링 (Anna L. Waring) · 1820~1910",
+ "credit_line_in_file": {
+  "composer": "Finnish Melody/D.Evans",
+  "lyricist": "A.L.Waring"
+ },
+ "year": 1928,
+ "meter": "7.6.7.6.D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 핀란드 전통 곡조 (D. 에반스 화성) (Traditional Finnish Melody (harm. D. Evans, 1928))"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1910; work dated 1928"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "397장 주 사랑 안에 살면.mscz",
+   "sha256": "07aef2a705479c7b1722ac27f5ba290ad10868cf42d9eb942285057fc2cc3301",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

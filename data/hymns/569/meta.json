@@ -1,0 +1,46 @@
+{
+ "number": 569,
+ "old_number": 442,
+ "title_ko": "선한 목자 되신 우리 주",
+ "title_en": "Saviour, Like a Shepherd Lead Us",
+ "original_title": "Savior, Like a Shepherd Lead Us",
+ "theme": "어린이",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "윌리엄 B. 브래드버리 (William Batchelder Bradbury)",
+ "lyricist": "도로시 A. 스럽 (Dorothy Ann Thrupp) · 1779~1847",
+ "credit_line_in_file": {
+  "composer": "W.B.Bradbury",
+  "lyricist": "D.A.Thrupp"
+ },
+ "year": 1859,
+ "meter": "8.7.8.7 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1859, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1847; work dated 1859"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "569장 선한 목자 되신 우리 주.mscz",
+   "sha256": "350244a64f0463d2c79c8f7413e771760be3e3a3061bdb329aa40cbdc91c92bb",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,12 @@
+# 254 I Hear Thy Welcome Voice
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: I _ hear Thy wel- come voice That calls me, Lord, to Thee For cleans- ing in Thy pre- cious blood That flowed on Cal- va- ry. I am com- ing, Lord Com- ing now to Thee Wash me, cleanse me, in the blood That flowed on Cal- va- ry. _ _
+v2: Though _ I come weak and vile, Thou dost my strength as- sure Thou dost my vile- ness full- y cleanse, Till spot- less all and pure. I am com- ing, Lord Com- ing now to Thee Wash me, cleanse me, in the blood That flowed on Cal- va- ry. _ _
+v3: 'Tis _ Je- sus calls me on To per- fect faith and love, To per- fect hope, and peace, and trust, For earth and heav'n a- bove. I am com- ing, Lord Com- ing now to Thee Wash me, cleanse me, in the blood That flowed on Cal- va- ry. _ _
+v4: 'Tis _ Je- sus who con- firms The bless- ed work with- in, By add- ing grace to wel- comed grace, Where reigned the pow'r of sin. I am com- ing, Lord Com- ing now to Thee: Wash me, cleanse me, in the blood That flowed on Cal- va- ry. _ _
+v5: His _ blood the wit- ness gives With- in my heart for me O, Sa- viour, heed my ev- -'ry pray'r, My full a- bund- ance be! I am com- ing, Lord Com- ing now to Thee Wash me, cleanse me, in the blood That flowed on Cal- va- ry. A- men.

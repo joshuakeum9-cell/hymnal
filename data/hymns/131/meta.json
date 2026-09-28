@@ -1,0 +1,46 @@
+{
+ "number": 131,
+ "old_number": 24,
+ "title_ko": "다 나와 찬송부르세",
+ "title_en": "O Come, Let Us Sing To The Lord",
+ "original_title": "O Come, Let Us Sing to the Lord (Psalm 95 metrical)",
+ "theme": "주현",
+ "key_table": "Eb",
+ "time_table": "3/4",
+ "composer": "미상 (더블린 1749 찬송곡집) (Anonymous, A Collection of Hymns and Sacred Poems (Dublin, 1749))",
+ "lyricist": "스코틀랜드 시편가 (1650) (Scottish Psalter (1650))",
+ "credit_line_in_file": {
+  "composer": "Anonymous",
+  "lyricist": "Scottish Psalter"
+ },
+ "year": 1749,
+ "meter": "8.6.8.6 (CM)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 미상 (더블린 1749 찬송곡집) (Anonymous, A Collection of Hymns and Sacred Poems (Dublin, 1749))"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 스코틀랜드 시편가 (1650) (Scottish Psalter (1650))"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "131장 다 나와 찬송부르세.mscz",
+   "sha256": "37be10fdcb92cbac01c756f7d1613708a019764696d88f6c5c8a1480f64ae884",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

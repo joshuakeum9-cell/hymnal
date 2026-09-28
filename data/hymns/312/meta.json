@@ -1,0 +1,46 @@
+{
+ "number": 312,
+ "old_number": 341,
+ "title_ko": "너 하나님께 이끌리어",
+ "title_en": "If I Thou but Suffer God to Guide Thee",
+ "original_title": "If Thou But Suffer God to Guide Thee",
+ "theme": "소명과충성",
+ "key_table": "Gm",
+ "time_table": "3/4",
+ "composer": "게오르크 노이마르크 (Georg Neumark)",
+ "lyricist": "게오르크 노이마르크 (Georg Neumark) · 1621~1681",
+ "credit_line_in_file": {
+  "composer": "G.Neumark",
+  "lyricist": "G.Neumark"
+ },
+ "year": 1657,
+ "meter": "9.8.9.8.8.8",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1681; work dated 1657"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1681; work dated 1657"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "312장 너 하나님께 이끌리어.mscz",
+   "sha256": "c425c1fa8aaa867bd7651b9744cd44962ec4b88eb0bc0d716886fca759c72f47",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

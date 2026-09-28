@@ -1,0 +1,11 @@
+# 293 Jesus Comes With Pow'r to Gladden
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, auto, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Je- sus comes with pow'r to glad- den, When love shines in, Ev- -'ry life that woe can sad- den, When love shines in. Love will teach _ us how to pray, Love will drive _ the gloom a- way, Turn our dark- ness in- _ to day, When love shines in. When love shines in, When love shines _ in, How the heart _ is tuned to sing- ing, When love shines in, When love shines in, When love shines _ in, Joy and peace to oth- ers bring- ing When love shines in.
+v2: How the _ world will glow _ _ with beau- ty, When love shines in, And the heart re- joice When love shines in, Tri- als may _ be sanc- ti- fied, And the soul _ in peace a- bide, Life will all be glo- _ ri- fied, When love shines in, When love shines in, When love shines _ in, How the heart _ is tuned to sing- ing, When love shines in, When love shines in, When love shines _ in, Joy and peace to oth- ers bring- ing When love shines in.
+v3: Dark- est sor- row will grow bright- er, When love shines in, And the heav- iest bur- den light- er, When love shines in, 'Tis the glo- _ ry that will throw Light to show _ us where to go O the heart shall bless- _ ing know, When love shines in. When love shines in, When love shines _ in, How the heart _ is tuned to sing- ing, When love shines in, When love shines in, When love shines _ in, Joy and peace to oth- ers bring- ing When love shines in.
+v4: We may have un- fad- ing splen- dor, When love shines in, And a friend- ship true and ten- der, When love shines in, When earth vic- _ t'ries shall be won, And our life _ in Heav'n be- gun, There will be no need _ of sun, When love shines in. When love shines in, When love shines _ in, How the heart _ is tuned to sing- ing, When love shines in, When love shines in, When love shines _ in, Joy and peace to oth- ers bring- ing When love shines in.

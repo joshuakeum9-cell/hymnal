@@ -1,0 +1,10 @@
+# 440 Anywhere with Jesus I Can Safely Go
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Once it was the bless- ing, Now it is the Lord Once it was the feel- ing, Now it is His Word Once His gifts I want- ed, Now the Giv- er own Once I sought for heal- ing, Now Him- self a- lone. All in all for- ev- er,Je- sus will I sing Ev- 'ry- thing in Je- sus, And Je- sus ev- 'ry- thing.
+v2: Once 'twas pain- ful try- ing, Now 'tis per- fect trust Once a half sal- va- tion, Now the ut- ter- most Once 'twas cease- less hold- ing, Now He holds me fast Once 'twas con- stant drift- ing, Now my an- chor's cast. All in all for- ev- er,Je- sus will I sing Ev- 'ry- thing in Je- sus, And Je- sus ev- 'ry- thing.
+v3: Once 'twas bu- sy plan- ning, Now 'tis trust- ful prayer Once 'twas anx- ious car- ing, Now He has the care Once 'twas what I want- ed, Now what Je- sus says Once 'twas con- stant ask- ing, Now 'tis cease- less praise. All in all for- ev- er,Je- sus will I sing Ev- 'ry- thing in Je- sus, And Je- sus ev- 'ry- thing.

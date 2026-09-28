@@ -1,0 +1,46 @@
+{
+ "number": 588,
+ "old_number": 307,
+ "title_ko": "공중 나는 새를 보라",
+ "title_en": "See the Birds That Fly the Heavens",
+ "original_title": "See the Birds That Fly",
+ "theme": "감사절",
+ "key_table": "F",
+ "time_table": "3/2",
+ "composer": "헨리 B. 리처즈 (Henry Brinley Richards)",
+ "lyricist": "민로아 (Frederick S. Miller) (Frederick Scheibler Miller) · 1866~1952",
+ "credit_line_in_file": {
+  "composer": "H.B.Richards",
+  "lyricist": "F.S.Miller"
+ },
+ "year": 1905,
+ "meter": "8.7.8.7 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1885; work dated 1905"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1952; work dated 1905"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "588장 공중 나는 새를 보라.mscz",
+   "sha256": "e0b648578fe4c9f86a8cc405ae74637fb5bb66999cee96b514f446dbe17f26ac",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 498,
+ "old_number": 275,
+ "title_ko": "저 죽어가는 자 다 구원하고",
+ "title_en": "Rescue the Perishing",
+ "original_title": "Rescue the Perishing",
+ "theme": "전도",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "윌리엄 H. 도언 (William Howard Doane)",
+ "lyricist": "패니 크로스비 (Fanny Jane Crosby) · 1820~1915",
+ "credit_line_in_file": {
+  "composer": "W.H.Doane",
+  "lyricist": "F.J.Crosby"
+ },
+ "year": 1869,
+ "meter": "11.10.11.10 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1869"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1869"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "498장 저 죽어가는 자 다 구원하고.mscz",
+   "sha256": "167051c89e26ad7c41f7b40ff5e345b13e6d4bacd5ccd696404a0bf8a6436805",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

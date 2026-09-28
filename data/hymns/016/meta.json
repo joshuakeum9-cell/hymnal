@@ -1,0 +1,46 @@
+{
+ "number": 16,
+ "old_number": "",
+ "title_ko": "은혜로신 하나님 우리 주 하나님",
+ "title_en": "God of Love and Mercy Great",
+ "original_title": "",
+ "theme": "경배",
+ "key_table": "D",
+ "time_table": "4/4",
+ "composer": "공석준 (Gong Seok-jun)",
+ "lyricist": "한병기 (Han Byung-gi) · 1913~2004",
+ "credit_line_in_file": {
+  "composer": "공석준",
+  "lyricist": "한병기"
+ },
+ "year": 1938,
+ "meter": "7.6.7.6.7.5.7.5",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "16장 은혜로신 하나님 우리 주 하나님.mscz",
+   "sha256": "67a899d78a6a8274b841a50f49d6bbc75d007fe68ce5492b84b8772678007e8a",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

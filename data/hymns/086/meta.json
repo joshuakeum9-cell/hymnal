@@ -1,0 +1,46 @@
+{
+ "number": 86,
+ "old_number": 86,
+ "title_ko": "내가 늘 의지하는 예수",
+ "title_en": "Oh, the Best Friend to Have is Jesus",
+ "original_title": "Jesus, I Am Resting, Resting",
+ "theme": "예수그리스도",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "제임스 마운틴 (James Mountain)",
+ "lyricist": "진 소피아 피곳 (Jean Sophia Pigott) · 1845~1888",
+ "credit_line_in_file": {
+  "composer": "P.P.Bilhorn",
+  "lyricist": "P.P.Bilhorn"
+ },
+ "year": 1891,
+ "meter": "9.9.7.7.9 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1921; work dated 1891"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1888; work dated 1891"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "86장 내가 늘 의지하는 예수.mscz",
+   "sha256": "fc14805848d4a2ea4d1098fd928012c5f3bbd110c56917aa4789ae757cb6640b",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

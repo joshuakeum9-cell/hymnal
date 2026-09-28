@@ -1,0 +1,46 @@
+{
+ "number": 177,
+ "old_number": 164,
+ "title_ko": "오랫동안 고대하던",
+ "title_en": "I am Watching for the Coming",
+ "original_title": "Our Lord's Return to Earth Again",
+ "theme": "재림",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "제임스 M. 커크 (James McPherson Kirk)",
+ "lyricist": "제임스 M. 커크 (James McPherson Kirk) · 1854~1945",
+ "credit_line_in_file": {
+  "composer": "J.M.Kirk",
+  "lyricist": "J.M.Kirk"
+ },
+ "year": 1894,
+ "meter": "15.15.15.11 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1945; work dated 1894"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1945; work dated 1894"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "177장 오랫동안 고대하던.mscz",
+   "sha256": "eb6b666ab425b3f1f28b14795d491d1e459f548335178174c70605307cf866d0",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

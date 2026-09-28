@@ -1,0 +1,46 @@
+{
+ "number": 318,
+ "old_number": "",
+ "title_ko": "순교자의 흘린 피가",
+ "title_en": "Blood Flow Martyrs That Flows Down",
+ "original_title": "The Blood of Martyrs (Korean original)",
+ "theme": "소명과충성",
+ "key_table": "G",
+ "time_table": "3/4",
+ "composer": "하재은 (Ha Jae-eun)",
+ "lyricist": "작자 미상 (Anonymous)",
+ "credit_line_in_file": {
+  "composer": "하재은",
+  "lyricist": "Anonymous"
+ },
+ "year": 2000,
+ "meter": "8.8.8.8.D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 작자 미상 (Anonymous)"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "318장 순교자의 흘린 피가.mscz",
+   "sha256": "29827201f340a4b31b2b871c1ad8ec252e1ddaf642900e5e8563c674aaffed0e",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,10 @@
+# 369 What a Friend We Have in Jesus
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: What a Friend we have in Je- sus, All our sins and griefs to bear! What a priv- i- lege to car- ry Ev- 'ry- thing to God in prayer! O what peace we of- ten for- feit, O what need- less pain we bear, All be- cause we do not car- ry Ev- 'ry- thing to God in prayer. _ _
+v2: Have we tri- als and temp- ta- tions Is there trou- bles an- y- where We should nev- er be dis- cour- aged: Take it to the Lord in prayer! Can we find a friend so faith- ful, Who will all our sor- rows share Je- sus knows our ev- -'ry weak- ness Take it to the Lord in prayer! _ _
+v3: Are we weak and heav- y la- den, Cum- bered with a load of care Pre- cious Sav- iour, still our Ref- uge Take it to the Lord in prayer! Do thy friends de- spise, for- sake thee Take it to the Lord in prayer! In His arms He'll take and shield thee, Thou wilt find a so- lace there A- men.

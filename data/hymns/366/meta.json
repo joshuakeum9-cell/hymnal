@@ -1,0 +1,46 @@
+{
+ "number": 366,
+ "old_number": 485,
+ "title_ko": "어두운 내 눈 밝히사",
+ "title_en": "Open My Eyes, that I May See",
+ "original_title": "Open My Eyes, That I May See",
+ "theme": "미래와소망",
+ "key_table": "Ab",
+ "time_table": "6/8",
+ "composer": "C. H. 스콧 (Clara H. Scott)",
+ "lyricist": "C. H. 스콧 (Clara H. Scott) · 1841~1897",
+ "credit_line_in_file": {
+  "composer": "C.H.Scott",
+  "lyricist": "C.H.Scott"
+ },
+ "year": 1895,
+ "meter": "Irregular",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1897; work dated 1895"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1897; work dated 1895"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "366장 어두운 내 눈 밝히사.mscz",
+   "sha256": "65272e22db80435ae0ec31637b75aa8f9a9e201b9e249e32b93d37c793349910",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,10 @@
+# 438 Since Christ My Soul from Sin Set Free
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Since Christ my soul from sin set free, This world has been a Hea- ven to me And 'mid earth's sor- rows and its woe, 'Tis heav'n my Je- sus here to know O hal- le- lu- jah, yes, 'tis Heav'n 'Tis Heav'n to know my sins for- giv'n On land or sea, what mat- ters where Where Je- sus is, 'tis Heaven there.
+v2: Once Heav- en seemed a far- off place, Till Je- sus showed His smil- ing face Now it's be- gun wi- thin my soul, 'Twill last while end- less a- ges roll. O hal- le- lu- jah, yes, 'tis Heav'n 'Tis Heav'n to know my sins for- giv'n On land or sea, what mat- ters where Where Je- sus is, 'tis Heav- en there.
+v3: What mat- ters where on earth we dwell On moun- tain top or in the dell, In cot- tage or a man- sion fair, Where Je- sus is 'tis Heav- en there. O hal- le- lu- jah, yes, 'tis Heav'n 'Tis Heav'n to know my sins for- giv'n On land or sea, what mat- ters where Where Je- sus is, 'tis Heav- en there.

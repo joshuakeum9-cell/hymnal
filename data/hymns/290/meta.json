@@ -1,0 +1,46 @@
+{
+ "number": 290,
+ "old_number": 412,
+ "title_ko": "우리는 주님을 늘 배반하나",
+ "title_en": "I Have a Saviour He's Pleading in Glory",
+ "original_title": "I Am Praying for You",
+ "theme": "은혜와사랑",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "아이라 데이비드 생키 (Ira David Sankey)",
+ "lyricist": "사무엘 O. 클러프 (클러프/클로) (Samuel O'Malley Cluff (Clough)) · 1837~1910",
+ "credit_line_in_file": {
+  "composer": "I.D.Sankey",
+  "lyricist": "S.O.Clough"
+ },
+ "year": 1874,
+ "meter": "11.11.12.11 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1874, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1910; work dated 1874"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "290장 우리는 주님을 늘 배반하나.mscz",
+   "sha256": "f162e6d5b56f13bfc9b82b927841ab8623904339f2701f338126480657b34546",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

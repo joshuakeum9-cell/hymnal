@@ -1,0 +1,46 @@
+{
+ "number": 421,
+ "old_number": 210,
+ "title_ko": "내가 예수 믿고서",
+ "title_en": "Everything is Changed",
+ "original_title": "Everything Is Changed",
+ "theme": "성결한생활",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "월터 S. 마틴 (Walter Stillman Martin)",
+ "lyricist": "시빌라 D. 마틴 (Civilla Durfee Martin) · 1869~1948",
+ "credit_line_in_file": {
+  "composer": "W.S.Martin",
+  "lyricist": "C.D.Martin"
+ },
+ "year": 1908,
+ "meter": "12.9.12.10 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1948; work dated 1908"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1948; work dated 1908"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "421장 내가 예수 믿고서.mscz",
+   "sha256": "16e7990ee605c20a87d7697fe2057507fa7f2ec636578897267ff72f56a18229",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

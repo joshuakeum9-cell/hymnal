@@ -1,0 +1,46 @@
+{
+ "number": 6,
+ "old_number": 8,
+ "title_ko": "목소리 높여서",
+ "title_en": "Now to the King of Heav'n",
+ "original_title": "Now to the King of Heav'n",
+ "theme": "송영",
+ "key_table": "D",
+ "time_table": "4/4",
+ "composer": "패리시 콰이어 (The Parish Choir)",
+ "lyricist": "아이작 와츠·필립 도드리지 (Isaac Watts & Philip Doddridge)",
+ "credit_line_in_file": {
+  "composer": "The Parish Choir",
+  "lyricist": "I.Watts"
+ },
+ "year": 1851,
+ "meter": "6.6.6.6.8.8",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1851, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1748; work dated 1851"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "6장 목소리 높여서.mscz",
+   "sha256": "6b5b0057ead52698087bc158422968e155adafdf89880a3d589c620f09f76ca6",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

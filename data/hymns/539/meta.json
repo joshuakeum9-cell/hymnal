@@ -1,0 +1,46 @@
+{
+ "number": 539,
+ "old_number": 483,
+ "title_ko": "너 예수께 조용히 나가",
+ "title_en": "Go, Carry Thy Burden to Jesus",
+ "original_title": "O Steal Away Softly to Jesus",
+ "theme": "부르심과영접",
+ "key_table": "Eb",
+ "time_table": "6/8",
+ "composer": "윌리엄 J. 커크패트릭 (William James Kirkpatrick)",
+ "lyricist": "엘리자 E. 휴이트 (Eliza Edmunds Hewitt) · 1851~1920",
+ "credit_line_in_file": {
+  "composer": "W.J.Kirkpatrick",
+  "lyricist": "E.E.Hewitt"
+ },
+ "year": null,
+ "meter": "9.8.9.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "credits marked ai-draft on the source page; check the book"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1920; work dated unknown"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "539장 너 예수께 조용히 나가.mscz",
+   "sha256": "07da2af3ef26498269247a525877be8b3d848f44255a14081681a475174e2a14",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

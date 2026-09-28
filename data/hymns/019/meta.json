@@ -1,0 +1,46 @@
+{
+ "number": 19,
+ "old_number": 44,
+ "title_ko": "찬송하는 소리 있어",
+ "title_en": "Hark! Ten Thousand Harps and Voices",
+ "original_title": "Hark, Ten Thousand Harps and Voices",
+ "theme": "찬양",
+ "key_table": "G",
+ "time_table": "3/4",
+ "composer": "로웰 메이슨 (Lowell Mason)",
+ "lyricist": "토머스 켈리 (Thomas Kelly) · 1769~1855",
+ "credit_line_in_file": {
+  "composer": "L.Mason",
+  "lyricist": "T.Kelly"
+ },
+ "year": 1840,
+ "meter": "8.7.8.7.8.8 with alleluias",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1872; work dated 1840"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1855; work dated 1840"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "19장 찬송하는 소리 있어.mscz",
+   "sha256": "548cc513c654b76ef874cac06c7a0a1fb05221886fe263fc32d55b72bf720018",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

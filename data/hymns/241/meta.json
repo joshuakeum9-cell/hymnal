@@ -1,0 +1,46 @@
+{
+ "number": 241,
+ "old_number": 232,
+ "title_ko": "아름다운 본향",
+ "title_en": "I Will Sing You A Song Of That Beautiful Land",
+ "original_title": "Home of the Soul",
+ "theme": "천국",
+ "key_table": "D",
+ "time_table": "3/4",
+ "composer": "필립 필립스 (Philip Phillips)",
+ "lyricist": "엘렌 마리아 헌팅턴 게이츠 (Ellen Maria Huntington Gates) · 1835~1920",
+ "credit_line_in_file": {
+  "composer": "P.Philips",
+  "lyricist": "E.H.Gates"
+ },
+ "year": 1865,
+ "meter": "Irregular",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1865, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1920; work dated 1865"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "241장 아름다운 본향.mscz",
+   "sha256": "660f8cca3386e6c3eaf1ff492c998d9e99aa0d16f1ca8f1546e3e8f3017e10df",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

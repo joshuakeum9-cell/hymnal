@@ -1,0 +1,46 @@
+{
+ "number": 311,
+ "old_number": 185,
+ "title_ko": "내 너를 위하여",
+ "title_en": "I Gave My Life for Thee",
+ "original_title": "I Gave My Life for Thee",
+ "theme": "소명과충성",
+ "key_table": "C",
+ "time_table": "6/8",
+ "composer": "P. P. 블리스 (Philip P. Bliss)",
+ "lyricist": "F. R. 하버갈 (Frances R. Havergal) · 1836~1879",
+ "credit_line_in_file": {
+  "composer": "P.P.Bliss",
+  "lyricist": "F.R.Havergal"
+ },
+ "year": 1873,
+ "meter": "Irregular",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1876; work dated 1873"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1879; work dated 1873"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "311장 내 너를 위하여.mscz",
+   "sha256": "db04150e1b601eedbdc4d568878facfff4bd191f5a205d33dbdeb6d90a977a02",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

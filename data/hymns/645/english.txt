@@ -1,0 +1,4 @@
+# 645 Amen: English words, one verse per block.
+# status: proposed
+
+Amen Amen Amen Amen Amen Amen Amen.

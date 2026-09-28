@@ -1,0 +1,46 @@
+{
+ "number": 158,
+ "old_number": "",
+ "title_ko": "서쪽 하늘 붉은 노을",
+ "title_en": "On The Hill Side The Sun Is Set",
+ "original_title": "On the Hillside the Red Sunset (Korean original by martyr Chu Ki-chul)",
+ "theme": "고난",
+ "key_table": "F",
+ "time_table": "9/8",
+ "composer": "김남수 (Kim Nam-soo)",
+ "lyricist": "주기철 목사 (한국 일제강점기 순교자) (Chu Ki-chul (Korean martyr)) · 1897~1944",
+ "credit_line_in_file": {
+  "composer": "김남수",
+  "lyricist": "주기철"
+ },
+ "year": 2005,
+ "meter": "8.8.8.8 D D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "158장 서쪽 하늘 붉은 노을.mscz",
+   "sha256": "eb608e4544bd78912e8f332725b8653506fb37dfe369adaff867745bd89bf5cc",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,11 @@
+# 424 Take My Heart, O Father
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, exact, exact, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Take my heart, O _ Fa- ther! Make _ and keep it all Thine own Let Thy Spir- it melt and break it This proud heart of sin and stone. _ _
+v2: Fa- ther, make me pure and low- ly, Fond of peace and free from strife Turn- ing from the paths un- ho- ly Of this vain and sin- ful life. _ _
+v3: Ev- er let Thy grace sur- round me, Strength- en me with pow'r di- vine Till Thy cords of love have bound me: Make me to be whol- ly Thine. _ _
+v4: May the blood of Je- sus heal me, And my sins be _ all for- giv'n Ho- ly Spor- it, take and seal me, Guide me in the path to hea- ven.

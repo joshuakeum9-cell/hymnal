@@ -1,0 +1,46 @@
+{
+ "number": 329,
+ "old_number": 267,
+ "title_ko": "주 날 불러 이르소서",
+ "title_en": "Lord, Speak to Me",
+ "original_title": "Lord, Speak to Me That I May Speak",
+ "theme": "소명과충성",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "R. A. 슈만 (Robert A. Schumann)",
+ "lyricist": "F. R. 하버갈 (Frances R. Havergal) · 1836~1879",
+ "credit_line_in_file": {
+  "composer": "R.A.Schumann",
+  "lyricist": "F.R.Havergal"
+ },
+ "year": 1839,
+ "meter": "8.8.8.8 (Long Meter)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1856; work dated 1839"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1879; work dated 1839"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "329장 주 날 불러 이르소서.mscz",
+   "sha256": "2287ab22e6c1ac633941fc0329c164700213f64b0b65b6689b9434b1e101b85f",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

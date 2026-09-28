@@ -1,0 +1,10 @@
+# 357 Encamped Along the Hills of Light
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: En- eamped a- long the hills of light, Ye Chris- tian sol- diers, rise, And pres the bat- tle ere the night Shall veil the glow- ing skies. A- gainst the foe in vales be- low Let all our strength be hurled Faith is the vic- to- ry, we know, That o- ver- comes the world. Faith is the vic- to- ry! Faith is the vic- to- ry! Oh, glo- ri- ous vic- to- ry, That o- ver- comes the world
+v2: On ev- -'ry hand the foe we find Drawn up in dread ar- ray Let tents of ease be left be- hind, And on- ward to the fray. Sal- va- tion's hel- met on each head, With truth all girt a- bout, The earth shall trem- ble 'neath our tread, And ech- o with our shout. Faith is the vic- to- ry! Faith is the vic- to- ry! Oh, glo- ri- ous vic- to- ry, That o- ver- comes the world
+v3: To him that o- ver- comes the foe White rai- ment shall be giv'n Be- fore the an- gels he shall know His name con- fess'd in heav'n Then on- ward from the hills of light, Our hearts with love a- flame, We'll van- quish all the hosts of night In Ju- sus' con- qu'ring name. Faith is the vic- to- ry! Faith is the vic- to- ry! Oh, glo- ri- ous vic- to- ry, That o- ver- comes the world

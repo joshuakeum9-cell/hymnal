@@ -1,0 +1,12 @@
+# 227 Not Worthy, Lord, To Gather
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Not wor- thy, Lord, to gath- er up the crumbes With trem- bling hand, that from Thy ta- ble fall, A wea- ry, heav- y- la- den sin- ner comes To plead Thy prom- ise and o- bey Thy call. _ _
+v2: I am not wor- thy to be thought Thy child, Nor sit the last or low- est at Thy board Too long a wan- derer, and too oft be- guiled, I on- ly ask one rec- on- cil- ing word _ _
+v3: One word from Thee, my Lord! one smile, on look, And I could face the cold, rough world a- gain, And with that treas- ure in my heart could brook The wrath of dev- ils and the scorn of men. _ _
+v4: I heat Thy voice Thou bid'st me come and rest I come, I kneel, I clasp Thy pierc- ed feet. Thou bid'st me take my place, a wel- come guest, A- mong Thy saints, and of Thy ban- quet eat _ _
+v5: My praise can on- ly breathe it- self in pray'r My pray'r can on- ly lose it- self in Thee. Dwell Thou for ev- er in my heart, and there, Lord, let me sup with thee sup Thou with me! A- men.

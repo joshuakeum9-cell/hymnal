@@ -1,0 +1,46 @@
+{
+ "number": 216,
+ "old_number": 356,
+ "title_ko": "성자의 귀한 몸",
+ "title_en": "Savior! Thy Dying Love",
+ "original_title": "Savior, Thy Dying Love (Something for Thee)",
+ "theme": "헌신과봉사",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "로버트 라우리 (Robert Lowry)",
+ "lyricist": "실바누스 드라이든 펠프스 (Sylvanus Dryden Phelps) · 1816~1895",
+ "credit_line_in_file": {
+  "composer": "R.Lowry",
+  "lyricist": "S.D.Phelps"
+ },
+ "year": 1871,
+ "meter": "6.4.6.4.6.6.6.4",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1899; work dated 1871"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1895; work dated 1871"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "216장 성자의 귀한 몸.mscz",
+   "sha256": "eb58e16576e486c8f9d6e46d86e84a6c4fefd397d184bd967b39446c6dadfa30",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

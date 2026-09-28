@@ -1,0 +1,46 @@
+{
+ "number": 351,
+ "old_number": 389,
+ "title_ko": "믿는 사람들은 주의 군사니",
+ "title_en": "Onward, Christian Soldiers",
+ "original_title": "Onward, Christian Soldiers",
+ "theme": "분투와승리",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "A. S. 설리번 (Arthur S. Sullivan)",
+ "lyricist": "S. 베어링굴드 (Sabine Baring-Gould) · 1834~1924",
+ "credit_line_in_file": {
+  "composer": "A.S.Sullivan",
+  "lyricist": "S.BaringGould"
+ },
+ "year": 1871,
+ "meter": "6.5.6.5.D with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1900; work dated 1871"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1924; work dated 1871"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "351장 믿는 사람들은 주의 군사니.mscz",
+   "sha256": "0098b0b77a6c54a7bc2b9070fe786380fdcd963645b987fa58ad3bc69c775a42",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

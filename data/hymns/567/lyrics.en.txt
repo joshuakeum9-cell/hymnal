@@ -1,0 +1,11 @@
+# 567 Jesus, Tender Shepherd, Hear Me
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Je- sus, ten- der Shep- herd, hear me, Bless Thy lit- tle lamb to- night Through the dark- ness be Thou near me, Keep me safe till _ morn- ing light. _ _
+v2: All day long, Good Shep- herd, guide me In the strait and nar- row way And all night stay close be- side me, Keep- ing watch till _ dawn of day. _ _
+v3: All this day Thy hand has led me, And I thank Thee for Thy care Thou hast cloth'd me, warmed and fed me, Lis- ten to my _ eve- ning pray'r. _ _
+v4: Let my sins be all for- giv- en Bless the friends I love so well Take me, when I die, to heav- en, Hap- py there with _ Thee to dwell. A- men.

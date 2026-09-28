@@ -1,0 +1,46 @@
+{
+ "number": 336,
+ "old_number": 383,
+ "title_ko": "환난과 핍박 중에도",
+ "title_en": "Faith of Our Fathers",
+ "original_title": "Faith of Our Fathers",
+ "theme": "시련과극복",
+ "key_table": "G",
+ "time_table": "3/4",
+ "composer": "H. F. 헤미 (J. G. 월튼 편곡) (Henri F. Hemy (adapt. J. G. Walton))",
+ "lyricist": "F. W. 페이버 (Frederick W. Faber) · 1814~1863",
+ "credit_line_in_file": {
+  "composer": "H.F.Hemy/J.G.Walton",
+  "lyricist": "F.W.Faber"
+ },
+ "year": 1864,
+ "meter": "8.8.8.8.8.8",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1864, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1863; work dated 1864"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "336장 환난과 핍박 중에도.mscz",
+   "sha256": "982193a6c352ace0ac72a5aad6092ead3f25792b1e8d07af663b52d5c6b19c4c",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

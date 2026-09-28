@@ -1,0 +1,10 @@
+# 585 A Mighty Fortress Is Our God
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: A might- y For- _ tress is _ our God, A Bul- wark nev- er _ _ fail- ing Our Help- er _ _ He a- _ mid the flood Of mor- tal ills pre- _ vail- ing. For still our an- cient foe Doth seek to work us woe His craft and pow'r are great And, armed with cru- el hate, On earth is not His _ _ e- qual. _ _
+v2: Did we in our _ own strength _ con- fide, Our striv- ing would be los- _ ing Were not the right _ _ Man on _ our side, The Man of God's own _ _ choos- ing. Dost ask who that may be Christ Je- sus, it is He, Lord Sab- a- oth His Name, From age to age the same, And He must win the _ _ bat- tle. _ _
+v3: And though this world, _ with dev- _ ils filled, Should threat- en to un- _ _ do us, We will _ _ _ _ _ _ not fear, for God hath willed His truth _ to tri- umph through us Let goods and kind- red go, this mor- tal life al- so The bod- y they may kill God's truth a- bid- eth still His King- dom _ is for- ev- er.

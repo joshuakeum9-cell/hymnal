@@ -1,0 +1,11 @@
+# 351 Onward, Christian Soldiers
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: On- ward, Chris- tian sol- _ diers, March- ing as to war, With the cross of Je- sus Go- ing on be- fore: Christ the roy- al Mas- _ ter Leads a- gainst the foe For- ward in- to bat- _ tle, _ See His ban- ners go. On- ward, Chris- tian sol- _ _ diers, _ March- ing as to _ war, With the cross of Je- sus Go- ing on be- fore. _ _
+v2: At the sound of tri- _ umph Sa- tan's host doth flee On then, Chris- tian sol- diers, On to vic- to- ry: Hell's foun- da- tions quiv- _ er At the shout of praise Broth- ers, lift your voic- _ es, _ Loud your an- thems raise. On- ward, Chris- tian sol- _ _ diers, _ March- ing as to _ war, With the cross of Je- sus Go- ing on be- fore. _ _
+v3: Crowns and thrones may per- _ ish, King- doms wax and wane, But the Church of Je- sus Con- stant will re- main Gates of hell can nev- _ er 'Gainst that Church pre- vail We have Christ's own pro- _ mise, _ And that can- not fail. On- ward, Chris- tian sol- _ _ diers, _ March- ing as to _ war, With the cross of Je- sus Go- ing on be- fore. _ _
+v4: On- ward, then, ye peo- _ ple, Join our hap- py throng, Blend with ours your voi- ces In the tri- umph song Glo- ry, laud, and hon- _ or Un- to Christ our King This thro' count- less a- _ ges _ Men and an- gels sing On- ward, Chris- tian sol- _ _ diers, _ March- ing as to _ war, With the cross of Je- sus Go- ing on be- fore. A- men.

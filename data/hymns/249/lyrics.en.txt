@@ -1,0 +1,11 @@
+# 249 Come, We That Love The Lord
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: rough (per verse: rough, rough, rough, rough)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: I love Thy King- _ _ dom, _ Lord, The _ _ _ house of Thine a- bode, The Church our _ blest Re- deem- _ er saved With His own pre- cious blood. _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+v2: I _ love Thy _ _ Church, O God Her _ _ _ walls be- fore Thee stand, Dear as the _ ap- ple of _ Thine eye, And grav- en on Thy hand. _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+v3: For her my tears _ _ _ shall fall, For _ _ _ her my prayers as- _ cend To her _ my cares and _ toils be gi- ven, Till toils and cares shall end. _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+v4: Be- yond my high- _ _ _ est joy I _ _ _ prize her heav'n- ly ways, Her sweet com- _ mun- ion, sol- _ emn vows, Her hymns of love and praise. _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _

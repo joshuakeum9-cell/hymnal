@@ -1,0 +1,10 @@
+# 352 Stand Up, Stand Up For Jesus
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: rough (per verse: exact, exact, rough)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Stand up, Stand up for Je- sus, Ye sol- diers of the cross Lift high His roy- al ban- ner, It must not suf- fer loss: From vic- t'ry un- to vic- t'ry His ar- my He shall lead, _ Till ev- -'ry foe is van- quished, And Christ is Lord in- deed. _ _
+v2: Stand up, stand up for Je- sus, The trum- pet call o- bey Forth to the might- y con- flict In this His glo- rious day: Ye that are men now serve Him A- gainst un- num- bered foes _ Let cour- age rise with dan- ger, And strength to strength op- pose. _ _
+v3: ! could not place 93 syllables on 55 notes

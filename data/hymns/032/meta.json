@@ -1,0 +1,46 @@
+{
+ "number": 32,
+ "old_number": 48,
+ "title_ko": "만유의 주재",
+ "title_en": "Fairest Lord Jesus",
+ "original_title": "Fairest Lord Jesus (Schönster Herr Jesu)",
+ "theme": "찬양",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "실레지아 민요(R. S. 윌리스 편곡) (Silesian Folk Tune (arr. R. S. Willis))",
+ "lyricist": "독일 익명(뮌스터 찬송가집) (German Anonymous (Münster Gesangbuch))",
+ "credit_line_in_file": {
+  "composer": "Silesia Melody/R.S.Willis",
+  "lyricist": "Anonymous"
+ },
+ "year": 1842,
+ "meter": "5.6.8.5.5.8",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 실레지아 민요(R. S. 윌리스 편곡) (Silesian Folk Tune (arr. R. S. Willis))"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 독일 익명(뮌스터 찬송가집) (German Anonymous (Münster Gesangbuch))"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "32장 만유의 주재.mscz",
+   "sha256": "e880f510541ffdc6e1e5264790b09a12830412d9578dc723b0c2bdefc5156d71",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

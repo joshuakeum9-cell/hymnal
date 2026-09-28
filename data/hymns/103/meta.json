@@ -1,0 +1,46 @@
+{
+ "number": 103,
+ "old_number": "",
+ "title_ko": "우리 주님 예수께",
+ "title_en": "Lord, Our Lord, Thy Glorious Name",
+ "original_title": "Lord, Our Lord, Thy Glorious Name (Psalm 8 metrical)",
+ "theme": "구주강림",
+ "key_table": "C",
+ "time_table": "4/4",
+ "composer": "프라일링하우젠 영적 찬송집 (Freylinghausen's Geistreiches Gesangbuch (alt.))",
+ "lyricist": "미국 연합장로교 운율 시편가 (1912), 1985 개정 (The Psalter (1912), alt. (Rejoice in the Lord, 1985))",
+ "credit_line_in_file": {
+  "composer": "Anonymous/J.A.Freylinghausen",
+  "lyricist": "Anonymous"
+ },
+ "year": 1704,
+ "meter": "7.7.7.7",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 프라일링하우젠 영적 찬송집 (Freylinghausen's Geistreiches Gesangbuch (alt.))"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 미국 연합장로교 운율 시편가 (1912), 1985 개정 (The Psalter (1912), alt. (Rejoice in the Lord, 1985))"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "103장 우리 주님 예수께.mscz",
+   "sha256": "8380e7d7fcb622ddfbf9baf192f0b00b047cfeee9bc5857b9c3820e396b69510",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

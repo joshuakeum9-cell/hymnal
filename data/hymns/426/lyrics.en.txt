@@ -1,0 +1,10 @@
+# 426 Lord Jesus, I Long to be Perfectly Whole
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Lord Je- sus, I long to be per- fect- ly whole, I want Thee for- ev- er to live in my soul Break down ev- -'ry i- _ dol, cast out ev- -'ry foe Now wash me and I shall be whit- er than snow. Whit- er than snow, yes, whit- er than snow Now wash me and I _ shall whit- er than snow. _ _
+v2: Lord Je- sus, look down from Thy throne in the skies And help me to make a com- plete sac- ri- fice I gave up my- self _ and what- ev- er I know, Now wash me and I shall be whit- er than snow. Whit- er than snow, yes, whit- er than snow Now wash me and I _ shall whit- er than snow. _ _
+v3: Lord Je- sus, for this I most hum- bly en- treat, I wait, bless- ed Lord, at Thy cru- ci- fied feet By faith, for my cleans- _ ing I see Thy blood flow, Now wash me and I shall be whit- er than snow. Whit- er than snow, yes, whit- _ er than snow Now wash me and _ I shall _ whit- er than snow.

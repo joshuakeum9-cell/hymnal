@@ -1,0 +1,46 @@
+{
+ "number": 248,
+ "old_number": "",
+ "title_ko": "언약의 주 하나님",
+ "title_en": "Father, God in Heav'n Above",
+ "original_title": "",
+ "theme": "천국",
+ "key_table": "Dm",
+ "time_table": "4/4",
+ "composer": "정희치 (정희치)",
+ "lyricist": "한상동 (한상동) · 1901~1976",
+ "credit_line_in_file": {
+  "composer": "정희치",
+  "lyricist": "한상동"
+ },
+ "year": 2000,
+ "meter": "7.7.6.7.6.7.7.5",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "248장 언약의 주 하나님.mscz",
+   "sha256": "c926fbdbc1170023fcf42a75f7cacba0315a21b0f503372ada858767303fa7a1",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

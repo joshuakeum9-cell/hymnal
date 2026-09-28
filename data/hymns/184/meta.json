@@ -1,0 +1,46 @@
+{
+ "number": 184,
+ "old_number": 173,
+ "title_ko": "불길 같은 주 성령",
+ "title_en": "Come, Thou Burning Spirit, Come",
+ "original_title": "Holy Spirit, Like a Flame (Waiting for the Fire)",
+ "theme": "성령강림",
+ "key_table": "G",
+ "time_table": "3/4",
+ "composer": "잉글랜드 전통 (Old English Air)",
+ "lyricist": "찰스 W. 프라이 (Charles William Fry) · 1837~1882",
+ "credit_line_in_file": {
+  "composer": "Old English Air",
+  "lyricist": "C.W.Fry"
+ },
+ "year": 1880,
+ "meter": "7.7.7.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 잉글랜드 전통 (Old English Air)"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1882; work dated 1880"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "184장 불길 같은 주 성령.mscz",
+   "sha256": "1821d98306acd7e70160d56b08a35ce43aedaf3ffa6c279ecb6a11535fa8a484",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

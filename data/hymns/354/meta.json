@@ -1,0 +1,46 @@
+{
+ "number": 354,
+ "old_number": 394,
+ "title_ko": "주를 앙모하는자",
+ "title_en": "They That Wait Upon the Lord",
+ "original_title": "They That Wait Upon the Lord (Mounting Up With Wings as Eagles)",
+ "theme": "분투와승리",
+ "key_table": "D",
+ "time_table": "4/4",
+ "composer": "B. 스테이플즈 (R. E. M. 화성) (Belle Staples (harm. R. E. M.))",
+ "lyricist": "B. 스테이플즈 (Belle Staples)",
+ "credit_line_in_file": {
+  "composer": "Belle Staples",
+  "lyricist": "Belle Staples"
+ },
+ "year": 1915,
+ "meter": "7.6.5.7.6.5 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1915, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1915, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "354장 주를 앙모하는자.mscz",
+   "sha256": "69ac0ea27ba7fc455a6c602f20810935bd9fd5a1b80c8e7713aa34ee3fca2b19",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

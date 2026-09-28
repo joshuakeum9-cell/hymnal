@@ -1,0 +1,46 @@
+{
+ "number": 135,
+ "old_number": 133,
+ "title_ko": "어저께나 오늘이나",
+ "title_en": "Oh, How Sweet The Glorious Message",
+ "original_title": "Yesterday, Today, Forever",
+ "theme": "생애",
+ "key_table": "Bb",
+ "time_table": "6/8",
+ "composer": "제임스 B. 버크 (James B. Burke)",
+ "lyricist": "앨버트 B. 심슨 (Albert Benjamin Simpson) · 1843~1919",
+ "credit_line_in_file": {
+  "composer": "J.H.Burke",
+  "lyricist": "A.B.Simpson"
+ },
+ "year": 1894,
+ "meter": "8.8.8.8.8.5 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1894, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1919; work dated 1894"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "135장 어저께나 오늘이나.mscz",
+   "sha256": "e8a1397c8ff85578e956a1a344467a0838f1da9d24e95976f6fabe343b124c0a",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 169,
+ "old_number": "",
+ "title_ko": "사망의 권세가",
+ "title_en": "Dread Powers of Death and Sin",
+ "original_title": "Christ Has Arisen (Paraphrase of African Chewa Hymn)",
+ "theme": "부활",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "전통 앙곤니 전쟁가락 / 톰 콜빈 편곡 (Traditional Angonni War Song, adapt. Tom Colvin)",
+ "lyricist": "톰 콜빈 (말라위 첸체와 영가 의역) (Tom Colvin (paraphrase of African Chewa Hymn)) · 1925~2000",
+ "credit_line_in_file": {
+  "composer": "Angoni War Song/T.Colvin",
+  "lyricist": "T.Colvin"
+ },
+ "year": 1970,
+ "meter": "11.11.10.8.8",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 전통 앙곤니 전쟁가락 / 톰 콜빈 편곡 (Traditional Angonni War Song, adapt. Tom Colvin)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "author died 2000, after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "169장 사망의 권세가.mscz",
+   "sha256": "7cb318177b0e039a612e4832b021daf353fac4fe99da5ea6bc6df626d9d8e32c",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

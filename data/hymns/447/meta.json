@@ -1,0 +1,46 @@
+{
+ "number": 447,
+ "old_number": 448,
+ "title_ko": "이 세상 끝날까지",
+ "title_en": "O Jesus, I Have Promised",
+ "original_title": "O Jesus, I Have Promised",
+ "theme": "주와동행",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "아서 H. 만 (Arthur Henry Mann)",
+ "lyricist": "존 어니스트 보드 (John Ernest Bode) · 1816~1874",
+ "credit_line_in_file": {
+  "composer": "A.H.Mann",
+  "lyricist": "J.E.Bode"
+ },
+ "year": 1881,
+ "meter": "7.6.7.6.D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1929; work dated 1881"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1874; work dated 1881"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "447장 이 세상 끝날까지.mscz",
+   "sha256": "1ba1f9a5dad72b10ec3568e718bf9f0a4bf8aa6f728698c8050004229eb6b829",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

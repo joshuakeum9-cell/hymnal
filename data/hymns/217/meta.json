@@ -1,0 +1,46 @@
+{
+ "number": 217,
+ "old_number": 362,
+ "title_ko": "하나님이 말씀하시기를",
+ "title_en": "Give Me Thy Heart",
+ "original_title": "Give Me Thy Heart",
+ "theme": "헌신과봉사",
+ "key_table": "F",
+ "time_table": "3/8",
+ "composer": "윌리엄 제임스 커크패트릭 (William James Kirkpatrick)",
+ "lyricist": "엘리자 에드먼즈 휴잇 (Eliza Edmunds Hewitt) · 1851~1920",
+ "credit_line_in_file": {
+  "composer": "W.J.Kirkpatrick",
+  "lyricist": "E.E.Hewitt"
+ },
+ "year": 1898,
+ "meter": "10.10.10.10 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1921; work dated 1898"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1920; work dated 1898"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "217장 하나님이 말씀하시기를.mscz",
+   "sha256": "5bc4ea93bf99dfc11879e84613f98bb492ec6e95993aa0719104da69c85264d6",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

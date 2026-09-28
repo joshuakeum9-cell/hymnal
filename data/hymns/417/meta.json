@@ -1,0 +1,46 @@
+{
+ "number": 417,
+ "old_number": 476,
+ "title_ko": "주 예수 넓은 품에",
+ "title_en": "Safe in the Arms of Jesus",
+ "original_title": "Safe in the Arms of Jesus",
+ "theme": "평안과위로",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "윌리엄 H. 도언 (William Howard Doane)",
+ "lyricist": "패니 크로스비 (Fanny Jane Crosby) · 1820~1915",
+ "credit_line_in_file": {
+  "composer": "W.H.Doane",
+  "lyricist": "F.J.Crosby"
+ },
+ "year": 1868,
+ "meter": "7.6.7.6.7.7.7.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1868"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1868"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "417장 주 예수 넓은 품에.mscz",
+   "sha256": "c9652a1251d59a5ef7e32f7de4b45a71525a3552665c976a62bf4257896db1d6",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

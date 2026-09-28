@@ -1,0 +1,46 @@
+{
+ "number": 283,
+ "old_number": 183,
+ "title_ko": "나 속죄함을 받은 후",
+ "title_en": "I Have a Song I Love to Sing",
+ "original_title": "Since I Have Been Redeemed",
+ "theme": "거듭남",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "에드윈 오델로 엑셀 (Edwin Othello Excell)",
+ "lyricist": "에드윈 오델로 엑셀 (Edwin Othello Excell) · 1851~1921",
+ "credit_line_in_file": {
+  "composer": "E.O.Excell",
+  "lyricist": "E.O.Excell"
+ },
+ "year": 1884,
+ "meter": "8.6.8.5 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1921; work dated 1884"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1921; work dated 1884"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "283장 나 속죄함을 받은 후.mscz",
+   "sha256": "9ac58e906f80eaa176295ef43b26bf9ce92b0f67f4d07ae948e5a2854217db13",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

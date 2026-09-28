@@ -1,0 +1,46 @@
+{
+ "number": 63,
+ "old_number": "",
+ "title_ko": "주가 세상을 다스리니",
+ "title_en": "The Lord Rules the World",
+ "original_title": "The Lord Rules the World",
+ "theme": "창조주",
+ "key_table": "A",
+ "time_table": "4/4",
+ "composer": "에른스트 H. 게브하르트 (Ernst H. Gebhardt)",
+ "lyricist": "러시아 침례교 익명 (Anonymous (Sbornik Duhovnyh Pesen, Moscow))",
+ "credit_line_in_file": {
+  "composer": "E.Gebhardt",
+  "lyricist": "Anonymous"
+ },
+ "year": 1984,
+ "meter": "9.8.9.8 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "work dated 1984, may still be in copyright"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 러시아 침례교 익명 (Anonymous (Sbornik Duhovnyh Pesen, Moscow))"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "63장 주가 세상을 다스리니.mscz",
+   "sha256": "d2a2d05d73f8f20cadc97552b231601e5b5ec7efb57fef4bad327feac0b45e59",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

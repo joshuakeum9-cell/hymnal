@@ -1,0 +1,46 @@
+{
+ "number": 124,
+ "old_number": "",
+ "title_ko": "양 지키는 목자여",
+ "title_en": "Watchman, Tell is of the Night",
+ "original_title": "Watchman, Tell Us of the Night (Korean adapt.)",
+ "theme": "성탄",
+ "key_table": "Dm",
+ "time_table": "4/4",
+ "composer": "조지프 패리 (Joseph Parry)",
+ "lyricist": "존 보링 (원작) / 한국 의역 1972 (John Bowring (orig.), Korean adapt. 1972) · 1792~1872",
+ "credit_line_in_file": {
+  "composer": "J.Parry",
+  "lyricist": "J.Bowring"
+ },
+ "year": 1879,
+ "meter": "7.7.7.7 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1903; work dated 1879"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1872; work dated 1879"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "124장 양 지키는 목자여.mscz",
+   "sha256": "f0b99438fa64ce7128e136da67d62cdf7d6219827f8c2c888b25a0ee925bb3a5",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

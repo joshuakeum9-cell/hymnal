@@ -1,0 +1,11 @@
+# 456 Have You Failed in Your Plan
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Have you failed in your plan of your storm- tossed life Place you hand in the nail- scarred hand Are you wea- ry and worn from its toil and strife Place you hand in the nail- scarred hand. Place you hand in the nail- scarred hand, Place you hand in the nail- scarred hand He will keep to the end, He's your dear- est Friend, Place you hand in the nail- scarred hand.
+v2: Are you walk- ing a- lone thro' the shad- ows dim Place you hand in the nail- scarred hand Christ will com- fort your heart, put your trust in Him, Place you hand in the nail- scarred hand. Place you hand in the nail- scarred hand, Place you hand in the nail- scarred hand He will keep to the end, He's your dear- est Friend, Place you hand in the nail- scarred hand.
+v3: Would you fol- low the will fo the ris- en Lord Place you hand in the nail- scarred hand Would you live in the light of His bless- ed word Place you hand in the nail- scarred hand. Place you hand in the nail- scarred hand, Place you hand in the nail- scarred hand He will keep to the end, He's your dear- est Friend, Place you hand in the nail- scarred hand.
+v4: Is your soul bur- dened down with its load of sin Place you hand in the nail- scarred hand Throw your heart o- pen wide, let the Sav- ior in, Place you hand in the nail- scarred hand. Place you hand in the nail- scarred hand, Place you hand in the nail- scarred hand He will keep to the end, He's your dear- est Friend, Place you hand in the nail- scarred hand.

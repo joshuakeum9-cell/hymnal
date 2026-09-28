@@ -1,0 +1,46 @@
+{
+ "number": 553,
+ "old_number": "",
+ "title_ko": "새해 아침 환히 밝았네",
+ "title_en": "See the Brightness of the Dawning Year",
+ "original_title": "A Bright New Year Morning Has Dawned",
+ "theme": "새해송구영신)",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "영성훈 (영성훈)",
+ "lyricist": "김소엽 (김소엽) · 1944~?",
+ "credit_line_in_file": {
+  "composer": "명정훈",
+  "lyricist": "김소엽"
+ },
+ "year": 2005,
+ "meter": "9.7.9.7.8.7.8.7",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "553장 새해 아침 환히 밝았네.mscz",
+   "sha256": "3adf1b79a1346cb3a969152bf8d8602bb82e35139d676d49952db54c0b8bd4b5",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

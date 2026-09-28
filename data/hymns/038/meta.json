@@ -1,0 +1,46 @@
+{
+ "number": 38,
+ "old_number": "",
+ "title_ko": "예수 우리 왕이여",
+ "title_en": "Jesus, We Enthrone You",
+ "original_title": "Lord, Jesus, We Enthrone You",
+ "theme": "찬양",
+ "key_table": "Ab",
+ "time_table": "2/2",
+ "composer": "폴 카일 (Paul Kyle)",
+ "lyricist": "폴 카일 (Paul Kyle) · 1954~?",
+ "credit_line_in_file": {
+  "composer": "P.Kyle",
+  "lyricist": "P.Kyle"
+ },
+ "year": 1991,
+ "meter": "Irregular",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "work dated 1991, may still be in copyright"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "work dated 1991, may still be in copyright"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "38장 예수 우리 왕이여.mscz",
+   "sha256": "6f55c3999a2be7356bfe5dafb24c924a007a9ca008d592cda98c3c65628fe4ae",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

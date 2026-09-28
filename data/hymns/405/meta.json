@@ -1,0 +1,46 @@
+{
+ "number": 405,
+ "old_number": 458,
+ "title_ko": "주의 친절한 팔에 안기세",
+ "title_en": "What a Fellowship, What a Joy Divine",
+ "original_title": "Leaning on the Everlasting Arms",
+ "theme": "평안과위로",
+ "key_table": "Ab",
+ "time_table": "4/4",
+ "composer": "앤서니 쇼월터 (Anthony Johnson Showalter)",
+ "lyricist": "엘리샤 호프만 (Elisha Albright Hoffman) · 1839~1929",
+ "credit_line_in_file": {
+  "composer": "A.J.Showalter",
+  "lyricist": "E.A.Hoffman"
+ },
+ "year": 1887,
+ "meter": "10.9.10.9 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1924; work dated 1887"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1929; work dated 1887"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "405장 주의 친절한 팔에 안기세.mscz",
+   "sha256": "617da619938bf0763aaa963d82651739112de674d5d6fac163297acd28bc7547",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

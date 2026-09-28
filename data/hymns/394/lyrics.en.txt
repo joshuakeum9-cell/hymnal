@@ -1,0 +1,10 @@
+# 394 Earthly Friends May Prove Untrue
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Earth- ly friends may prove un- true, Doubts and fears as- sail One still loves and cares for you: Je- sus nev- er fails. Je- sus nev- er fails, Je- sus nev- er fails, Heav'n and earth may pass a- way, But Je- sus nev- er fails.
+v2: Though the sky be dark and drear, Fierce and strong the gale, Just re- mem- ber He is near, And He will not fail. Je- sus nev- er fails, Je- sus nev- er fails, Heav'n and earth may pass a- way, But Je- sus nev- er fails.
+v3: In li- fe's dark and bit- ter hour Love will still pre- vail Trust His ever- last- ing pow'r, Je- sus will not fail. Je- sus nev- er fails, Je- sus nev- er fails, Heav'n and earth may pass a- way, But Je- sus nev- er fails.

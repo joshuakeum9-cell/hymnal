@@ -1,0 +1,46 @@
+{
+ "number": 296,
+ "old_number": "",
+ "title_ko": "죄인 구원하시려고",
+ "title_en": "On the Cross He Gave His Own Life",
+ "original_title": "",
+ "theme": "은혜와사랑",
+ "key_table": "Eb",
+ "time_table": "3/4",
+ "composer": "김순애 (김순애)",
+ "lyricist": "박형룡 (박형룡) · 1897~1978",
+ "credit_line_in_file": {
+  "composer": "김순세",
+  "lyricist": "박형룡"
+ },
+ "year": 2007,
+ "meter": "8.8.8.8.D",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "296장 죄인 구원하시려고.mscz",
+   "sha256": "cc6208cdc9b4234bf511e87647e13163035db841982c85e5006fdff3c68ae059",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

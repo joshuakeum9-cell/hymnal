@@ -1,0 +1,46 @@
+{
+ "number": 599,
+ "old_number": "",
+ "title_ko": "우리의 기도 들어주시옵소서",
+ "title_en": "Only Begotten",
+ "original_title": "Iste Confessor",
+ "theme": "헌당",
+ "key_table": "Dm",
+ "time_table": "4/2",
+ "composer": "푸아티에 안티포너 (Antiphoner of Poitiers)",
+ "lyricist": "라틴 송가 (9세기) (Latin Hymn (9th Century))",
+ "credit_line_in_file": {
+  "composer": "Antiphoner",
+  "lyricist": "Latin Hymn"
+ },
+ "year": 1746,
+ "meter": "IRREG.",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1746, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1746, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "599장 우리의 기도 들어주시옵소서.mscz",
+   "sha256": "3692528e1e812319bbe2eb4c038343f265aed7f9de06d0217206765ee681a48d",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

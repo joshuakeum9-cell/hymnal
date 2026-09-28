@@ -1,0 +1,46 @@
+{
+ "number": 629,
+ "old_number": "",
+ "title_ko": "거룩 거룩 거룩",
+ "title_en": "Holy, Holy, Holy",
+ "original_title": "",
+ "theme": "입례송",
+ "key_table": "Eb",
+ "time_table": "3/4",
+ "composer": "장순일 (장순일)",
+ "lyricist": "장순일 (장순일)",
+ "credit_line_in_file": {
+  "composer": "장순일",
+  "lyricist": "장순일"
+ },
+ "year": 1984,
+ "meter": "6.8.7.7",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "629장 거룩 거룩 거룩.mscz",
+   "sha256": "f32d1cbd31add54adb74576aab21ff1f4b4b84e04f3d679bae1a40a84f4998f2",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

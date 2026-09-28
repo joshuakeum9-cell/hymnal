@@ -1,0 +1,46 @@
+{
+ "number": 494,
+ "old_number": 188,
+ "title_ko": "만세 반석 열리니",
+ "title_en": "Rock of Ages, Cleft for Me",
+ "original_title": "Rock of Ages, Cleft for Me",
+ "theme": "미래와소망",
+ "key_table": "Bb",
+ "time_table": "3/4",
+ "composer": "토머스 헤이스팅스 (Thomas Hastings)",
+ "lyricist": "어거스터스 M. 토플레이디 (Augustus Montague Toplady) · 1740~1778",
+ "credit_line_in_file": {
+  "composer": "T.Hastings",
+  "lyricist": "A.M.Toplady"
+ },
+ "year": 1830,
+ "meter": "7.7.7.7.7.7",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1872; work dated 1830"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1778; work dated 1830"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "494장 만세 반석 열리니.mscz",
+   "sha256": "86150495e2ba808490b8a2aafe080c9275c850b9a58adda4515704954aabcf4f",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

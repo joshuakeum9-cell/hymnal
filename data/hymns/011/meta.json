@@ -1,0 +1,46 @@
+{
+ "number": 11,
+ "old_number": "",
+ "title_ko": "홀로 한 분 하나님께",
+ "title_en": "Let People All Worship Our God",
+ "original_title": "Let People All Worship Our God",
+ "theme": "경배",
+ "key_table": "F",
+ "time_table": "3/4",
+ "composer": "김두완 (Kim Du-wan)",
+ "lyricist": "길선주 (Kil Sun-ju) · 1869~1935",
+ "credit_line_in_file": {
+  "composer": "김두완",
+  "lyricist": "길선주"
+ },
+ "year": 1992,
+ "meter": "Irregular",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "11장 홀로 한 분 하나님께.mscz",
+   "sha256": "638fc8669d51c99ded5b9bd6ab22548ea6359b6206f77b9fc494373dc0fbdd67",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

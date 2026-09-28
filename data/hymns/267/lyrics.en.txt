@@ -1,0 +1,12 @@
+# 267 Tis the Promise of God
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, auto, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: 'Tis the prom- ise of God, full sal- va- tion to give Un- to Him who on Je- sus, His Son, will be- lieve. Hal- _ le- lu- jah, _ 'tis done! I _ be- lieve on the Son I _ am saved by the blood of the cru- ci- fied One _ Hal- le- lu- jah, 'tis done! I _ be- lieve on the Son I am saved by the blood of the cru- ci- fied One
+v2: Tho' the path- way be lone- ly, and dan- ger- ous too, Sure- ly Je- sus is a- ble to car- ry me through. Hal- _ le- lu- jah, _ 'tis done! I _ be- lieve on the Son I _ am saved by the blood of the cru- ci- fied One _ Hal- le- lu- jah, 'tis done! I _ be- lieve on the Son I am saved by the blood of the cru- ci- fied One
+v3: 'Round the throne of the Lamb and the An- cient of Days All the an- gels are sing- ing our Lord Je- sus' praise. Hal- _ le- lu- jah, _ 'tis done! I _ be- lieve on the Son I _ am saved by the blood of the cru- ci- fied One _ Hal- le- lu- jah, 'tis done! I _ be- lieve on the Son I am saved by the blood of the cru- ci- fied One
+v4: There are proph- ets and kings in that throng I be- hold, And they sing as they march through the streets of pure gold: Hal- _ le- lu- jah, _ 'tis done! I _ be- lieve on the Son I _ am saved by the blood of the cru- ci- fied One _ Hal- le- lu- jah, 'tis done! I _ be- lieve on the Son I am saved by the blood of the cru- ci- fied One
+v5: The- _ re's a part in that cho- rus for you and for _ me, And the theme of our prais- es for- ev- er will be: Hal- le- _ lu- jah, 'tis _ done! I be- lieve on the Son I am saved by the blood of the cru- ci- fied One Hal- le- lu- jah, 'tis done! I _ be- lieve on the Son I am saved by the blood of the cru- ci- fied One

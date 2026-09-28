@@ -1,0 +1,46 @@
+{
+ "number": 4,
+ "old_number": 4,
+ "title_ko": "성부 성자와 성령",
+ "title_en": "Glory Be to the Father",
+ "original_title": "Glory be to the Father (Gloria Patri)",
+ "theme": "송영",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "헨리 W. 그레이토렉스 (Henry Wellington Greatorex)",
+ "lyricist": "전통(2세기) (Traditional (2nd Century))",
+ "credit_line_in_file": {
+  "composer": "H.W.Greatorex",
+  "lyricist": "Anonymous"
+ },
+ "year": 1851,
+ "meter": "Irregular",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1858; work dated 1851"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 전통(2세기) (Traditional (2nd Century))"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "4장 성부 성자와 성령.mscz",
+   "sha256": "2cb5c1e74f2ad0dfd19b5e465781a2ff239455042565c8f5a792af89bd08719f",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

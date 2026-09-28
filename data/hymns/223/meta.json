@@ -1,0 +1,46 @@
+{
+ "number": 223,
+ "old_number": "",
+ "title_ko": "하나님은 우리들의",
+ "title_en": "Truly Lord is Our Father",
+ "original_title": "",
+ "theme": "성도의교제",
+ "key_table": "Eb",
+ "time_table": "9/8",
+ "composer": "석충완 (석충완)",
+ "lyricist": "참빛 아버지 (참빛 아버지 (필명, 검증 필요))",
+ "credit_line_in_file": {
+  "composer": "석종환",
+  "lyricist": "나채운"
+ },
+ "year": 1993,
+ "meter": "8.5.8.5.8.5.7.5",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "223장 하나님은 우리들의.mscz",
+   "sha256": "3acd508ce727425f3925db6f4da9662b56c83014e63a22d4ab9f3e345a1b5d3f",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

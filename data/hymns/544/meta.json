@@ -1,0 +1,46 @@
+{
+ "number": 544,
+ "old_number": 343,
+ "title_ko": "울어도 못하네",
+ "title_en": "Weeping Will Not Save Me",
+ "original_title": "Weeping Will Not Save Me (None But Jesus)",
+ "theme": "믿음과확신",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "로버트 라우리 (Robert Lowry)",
+ "lyricist": "로버트 라우리 (Robert Lowry) · 1826~1899",
+ "credit_line_in_file": {
+  "composer": "R.Lowry",
+  "lyricist": "R.Lowry"
+ },
+ "year": 1867,
+ "meter": "6.7.7.7.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1899; work dated 1867"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1899; work dated 1867"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "544장 울어도 못하네.mscz",
+   "sha256": "a9de88f152bee9aa00752dc65a330dc858b7f2fb1909474f55ed0f838f660e6a",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

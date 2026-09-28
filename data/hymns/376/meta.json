@@ -1,0 +1,46 @@
+{
+ "number": 376,
+ "old_number": 422,
+ "title_ko": "나그네와 같은 내가",
+ "title_en": "Guide Me, O Thou Great Jehovah",
+ "original_title": "Guide Me, O Thou Great Jehovah (Zion tune)",
+ "theme": "인도와보호",
+ "key_table": "D",
+ "time_table": "3/4",
+ "composer": "T. 헤이스팅스 (Thomas Hastings)",
+ "lyricist": "윌리엄 윌리엄스 (William Williams) · 1717~1791",
+ "credit_line_in_file": {
+  "composer": "T.Hastings",
+  "lyricist": "W.Williams"
+ },
+ "year": 1830,
+ "meter": "8.7.8.7.4.7.4.7",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1872; work dated 1830"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1791; work dated 1830"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "376장 나그네와 같은 내가.mscz",
+   "sha256": "e659c479adbb3d6fad5d4f8a016d1d87bd68c8b6acef749ba51ac4cebbc43861",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

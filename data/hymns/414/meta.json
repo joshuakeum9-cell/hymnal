@@ -1,0 +1,46 @@
+{
+ "number": 414,
+ "old_number": 475,
+ "title_ko": "이 세상은 요란하나",
+ "title_en": "O Blessed Life the Heart at Rest",
+ "original_title": "O Blessed Life, the Heart at Rest",
+ "theme": "평안과위로",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "존 에드슨 스위처 (John Edson Sweetser)",
+ "lyricist": "윌리엄 T. 매슨 (William Tidd Matson) · 1833~1906",
+ "credit_line_in_file": {
+  "composer": "J.E.Sweeter",
+  "lyricist": "W.T.Matson"
+ },
+ "year": 1866,
+ "meter": "8.8.8.8",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1873; work dated 1866"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1906; work dated 1866"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "414장 이 세상은 요란하나.mscz",
+   "sha256": "14ddb827ac45f521cd3e7574549e2154fdf081dc3d77bc7365f31eb046814a70",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

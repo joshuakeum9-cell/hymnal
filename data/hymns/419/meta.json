@@ -1,0 +1,46 @@
+{
+ "number": 419,
+ "old_number": 478,
+ "title_ko": "주 날개 밑 내가 편안히 쉬네",
+ "title_en": "Under His Wings I Am Safely Abiding",
+ "original_title": "Under His Wings",
+ "theme": "평안과위로",
+ "key_table": "C",
+ "time_table": "6/4",
+ "composer": "아이라 D. 생키 (Ira David Sankey)",
+ "lyricist": "윌리엄 O. 커싱 (William Orcutt Cushing) · 1823~1902",
+ "credit_line_in_file": {
+  "composer": "I.D.Sankey",
+  "lyricist": "W.O.Cushing"
+ },
+ "year": 1896,
+ "meter": "11.10.11.10 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1908; work dated 1896"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1902; work dated 1896"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "419장 주 날개 밑 내가 편안히 쉬네.mscz",
+   "sha256": "24a982306f35b7a8ceede6e5e9199c9972bbaceef1a54efa563bd8c3170f1662",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

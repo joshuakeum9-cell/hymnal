@@ -1,0 +1,46 @@
+{
+ "number": 189,
+ "old_number": 181,
+ "title_ko": "진실하신 주 성령",
+ "title_en": "Holy Spirit, Faithful Guide",
+ "original_title": "Holy Spirit, Faithful Guide",
+ "theme": "성령강림",
+ "key_table": "G",
+ "time_table": "3/4",
+ "composer": "마커스 모리스 웰스 (Marcus Morris Wells)",
+ "lyricist": "마커스 모리스 웰스 (Marcus Morris Wells) · 1815~1895",
+ "credit_line_in_file": {
+  "composer": "M.M.Wells",
+  "lyricist": "M.M.Wells"
+ },
+ "year": 1858,
+ "meter": "7.7.7.7 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1895; work dated 1858"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1895; work dated 1858"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "189장 진실하신 주 성령.mscz",
+   "sha256": "881932f913b871f285626489241f5b049d9768199d73b84d220f40a8cdc75247",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

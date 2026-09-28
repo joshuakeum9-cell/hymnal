@@ -1,0 +1,46 @@
+{
+ "number": 133,
+ "old_number": "",
+ "title_ko": "하나님의 말씀으로",
+ "title_en": "Of the Father's Love Begotten",
+ "original_title": "Of the Father's Love Begotten (Corde natus ex Parentis)",
+ "theme": "주현",
+ "key_table": "Eb",
+ "time_table": "4/4",
+ "composer": "11세기 평성가 / 윈프레드 더글러스 편곡 (11C Plainsong (Sanctus), arr. Winfred Douglas)",
+ "lyricist": "아우렐리우스 프루덴티우스 (Aurelius Prudentius Clemens) · 348~413",
+ "credit_line_in_file": {
+  "composer": "Anonymous/C.W.Douglas",
+  "lyricist": "A.C.Prudentius"
+ },
+ "year": null,
+ "meter": "8.8.8.8.8.7.8",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 11세기 평성가 / 윈프레드 더글러스 편곡 (11C Plainsong (Sanctus), arr. Winfred Douglas)"
+  },
+  "text_en": {
+   "status": "unknown",
+   "basis": "no dates found; check the printed credit line"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "133장 하나님의 말씀으로.mscz",
+   "sha256": "3c9e191139aeffb5fa3a82d68a2dda54cdb8b7397088b660a768e26f098e5ad5",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

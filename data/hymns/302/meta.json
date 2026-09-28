@@ -1,0 +1,46 @@
+{
+ "number": 302,
+ "old_number": 408,
+ "title_ko": "내 주 하나님 넓고 큰 은혜는",
+ "title_en": "The Mercy of God is an Ocean’ Divine",
+ "original_title": "Out on an Ocean All Boundless (Launch Out into the Deep)",
+ "theme": "은혜와사랑",
+ "key_table": "D",
+ "time_table": "4/4",
+ "composer": "R. K. 카터 (Russell Kelso Carter)",
+ "lyricist": "A. B. 심슨 (Albert Benjamin Simpson) · 1843~1919",
+ "credit_line_in_file": {
+  "composer": "R.K.Carter",
+  "lyricist": "A.B.Simpson"
+ },
+ "year": 1891,
+ "meter": "11.8.11.8 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1928; work dated 1891"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1919; work dated 1891"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "302장 내 주 하나님 넓고 큰 은혜는.mscz",
+   "sha256": "00e1e5621b0552951c65550224ca6b02100ff675a47ab1f6f1fcea621270fc5d",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

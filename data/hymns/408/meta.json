@@ -1,0 +1,46 @@
+{
+ "number": 408,
+ "old_number": 466,
+ "title_ko": "나 어느 곳에 있든지",
+ "title_en": "I Cannot Tell Thee Whence It Came",
+ "original_title": "Hidden Peace",
+ "theme": "평안과위로",
+ "key_table": "G",
+ "time_table": "3/4",
+ "composer": "L. O. 브라운 (L. O. Brown)",
+ "lyricist": "존 S. 브라운 (John S. Brown)",
+ "credit_line_in_file": {
+  "composer": "L.O.Brown",
+  "lyricist": "J.S.Brown"
+ },
+ "year": 1899,
+ "meter": "8.6.8.6 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1899, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1899, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "408장 나 어느 곳에 있든지.mscz",
+   "sha256": "5b20509e316ee29c0b9c2ddf843a42126e7da09184a8835f83054b39cb3b6225",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 619,
+ "old_number": "",
+ "title_ko": "놀라운 그 이름",
+ "title_en": "His Name is Wonderful",
+ "original_title": "His Name Is Wonderful",
+ "theme": "경배와찬양",
+ "key_table": "F",
+ "time_table": "3/4",
+ "composer": "오드리 메이 미어 (Audrey Mae Mieir)",
+ "lyricist": "오드리 메이 미어 (Audrey Mae Mieir) · 1916~1996",
+ "credit_line_in_file": {
+  "composer": "A.Mieir",
+  "lyricist": "A.Mieir"
+ },
+ "year": 1959,
+ "meter": "IRREG.",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "work dated 1959, may still be in copyright"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "author died 1996, after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "619장 놀라운 그 이름.mscz",
+   "sha256": "27a689695e96a9007ebd109558b2ecb493e6352ef20e9b365ff5eb6c3801d477",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

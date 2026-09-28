@@ -1,0 +1,46 @@
+{
+ "number": 149,
+ "old_number": 147,
+ "title_ko": "주 달려 죽은 십자가",
+ "title_en": "When I Survey the Wondrous Cross",
+ "original_title": "When I Survey the Wondrous Cross",
+ "theme": "고난",
+ "key_table": "F",
+ "time_table": "4/4",
+ "composer": "로웰 메이슨 (그레고리안 1번 톤 편곡) (Lowell Mason (after Gregorian Tone 1))",
+ "lyricist": "아이작 와츠 (Isaac Watts) · 1674~1748",
+ "credit_line_in_file": {
+  "composer": "Gregorian Melody/L.Mason",
+  "lyricist": "I.Watts"
+ },
+ "year": 1824,
+ "meter": "8.8.8.8 (LM)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1824, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1748; work dated 1824"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "149장 주 달려 죽은 십자가.mscz",
+   "sha256": "91791bf7c66c542023808965368715b59c567d91c608d46ac78057ddaab621f3",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

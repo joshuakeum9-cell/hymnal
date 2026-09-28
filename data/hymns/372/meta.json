@@ -1,0 +1,46 @@
+{
+ "number": 372,
+ "old_number": 420,
+ "title_ko": "그 누가 나의 괴롬 알며",
+ "title_en": "Nobody Knows the Trouble I've Seen",
+ "original_title": "Nobody Knows the Trouble I've Seen",
+ "theme": "인도와보호",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "작자 미상 (미국 흑인영가) (Anonymous (Afro-American Spiritual))",
+ "lyricist": "작자 미상 (미국 흑인영가) (Anonymous (Afro-American Spiritual))",
+ "credit_line_in_file": {
+  "composer": "Afro-American Spiritual",
+  "lyricist": "Afro-American Spiritual"
+ },
+ "year": null,
+ "meter": "Irregular",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 작자 미상 (미국 흑인영가) (Anonymous (Afro-American Spiritual))"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 작자 미상 (미국 흑인영가) (Anonymous (Afro-American Spiritual))"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "372장 그 누가 나의 괴롬 알며.mscz",
+   "sha256": "94b1bfb421a51091bcb8d8eb2346fa858c282f3e0ed08c51cdf98b4e969c9b54",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

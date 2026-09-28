@@ -1,0 +1,46 @@
+{
+ "number": 395,
+ "old_number": 450,
+ "title_ko": "자비하신 예수여",
+ "title_en": "God Be Merciful to Me",
+ "original_title": "God Be Merciful to Me (Refuge)",
+ "theme": "인도와보호",
+ "key_table": "C",
+ "time_table": "3/4",
+ "composer": "J. P. 홀브룩 (Joseph P. Holbrook)",
+ "lyricist": "토머스 헤이스팅스 (Thomas Hastings) · 1784~1872",
+ "credit_line_in_file": {
+  "composer": "J.P.Holbrook",
+  "lyricist": "T.Hastings"
+ },
+ "year": 1862,
+ "meter": "7.7.7.7.D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1888; work dated 1862"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1872; work dated 1862"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "395장 자비하신 예수여.mscz",
+   "sha256": "d31307d14568b6d5c472cedecf3b5ddc1dd8a004e485d579971400e7ca9aba8b",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 552,
+ "old_number": 358,
+ "title_ko": "아침 해가 돋을 때",
+ "title_en": "When the Morning Breaks Anew",
+ "original_title": "",
+ "theme": "새해송구영신)",
+ "key_table": "G",
+ "time_table": "3/4",
+ "composer": "Anonymous",
+ "lyricist": "Anonymous",
+ "credit_line_in_file": {
+  "composer": "Anonymous",
+  "lyricist": "Anonymous"
+ },
+ "year": 1908,
+ "meter": "7.7.7.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "credits marked ai-draft on the source page; check the book"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "work dated 1908, no evidence of a death after 1962"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "552장 아침 해가 돋을 때.mscz",
+   "sha256": "73f914e561bb2611c84d5ef4346f4e46e6d6b73d5616a5f6218bd0356140112f",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 144,
+ "old_number": 144,
+ "title_ko": "예수 나를 위하여",
+ "title_en": "Jesus Shed His Blood for Me",
+ "original_title": "Jesus, Keep Me Near the Cross (Near the Cross)",
+ "theme": "고난",
+ "key_table": "F",
+ "time_table": "6/8",
+ "composer": "윌리엄 H. 도언 (William Howard Doane)",
+ "lyricist": "패니 크로스비 (Fanny J. Crosby) · 1820~1915",
+ "credit_line_in_file": {
+  "composer": "W.H.Doane",
+  "lyricist": "김인식"
+ },
+ "year": 1869,
+ "meter": "7.6.7.6 with refrain",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1869"
+  },
+  "text_en": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_ko": {
+   "status": "gated",
+   "basis": "original Korean text"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "144장 예수 나를 위하여.mscz",
+   "sha256": "9c73331163dd90625807dc4caf16cfcad8af6daed06f85551e3085b1feddbe99",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

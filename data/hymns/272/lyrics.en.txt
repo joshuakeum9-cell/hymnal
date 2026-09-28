@@ -1,0 +1,11 @@
+# 272 Out of My Bondage, Sorrow and Night
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Out of my bond- age, sor- row and night, Je- sus, I come, Je- sus, I come In- to Thy free- dom, glad- ness and light, Je- sus, I come to Thee Out of my sick- ness in- to Thy health, Out of my want and in- to Thy wealth, Out of my sin and in- to Thy- self, Je- sus, I come to Thee.
+v2: Out of my shame- ful failure and loss, Je- sus, I come, Je- sus, I come In- to The glo- rious gain of Thy cross, Je- sus, I come to Thee Out of earth's sor- rows in- to thy balm, Out of li- fe's storms and in- to Thy calm, Out of dis- tress to ju- bi- lant psalm, Je- sus, I come to Thee.
+v3: Out of un- rest and ar- ro- gant pride, Je- sus, I come, Je- sus, I come In- to Thy blessed will to a- bide. Je- sus, I come to Thee Out of my- self to dwell in Thy love, Out of de- spair in- to rap- ture a- bove, Up- ward for aye on wings like a dove, Je- sus, I come to Thee.
+v4: Out of the fear and dread of the tomb, Je- sus, I come, Je- sus, I come In- to The joy and light of Thy home, Je- sus, I come to Thee Out of the depths of ru- in un- told, In- to the peace of Thy shel- tering fold, Ev- er Thy glo- rious face to be- hold, Je- sus, I come to Thee.

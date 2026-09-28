@@ -1,0 +1,46 @@
+{
+ "number": 111,
+ "old_number": 111,
+ "title_ko": "귀중한 보배합을",
+ "title_en": "Bringing Our All",
+ "original_title": "Bringing Our All",
+ "theme": "성탄",
+ "key_table": "F",
+ "time_table": "6/8",
+ "composer": "미상 (신정 찬송가 1931) (Anonymous (Sinjeong Hymnal, 1931))",
+ "lyricist": "미상 (신정 찬송가 1931) (Anonymous (Sinjeong Hymnal, 1931))",
+ "credit_line_in_file": {
+  "composer": "Anonymous",
+  "lyricist": "Anonymous"
+ },
+ "year": 1931,
+ "meter": "7.6.7.6 D",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 미상 (신정 찬송가 1931) (Anonymous (Sinjeong Hymnal, 1931))"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 미상 (신정 찬송가 1931) (Anonymous (Sinjeong Hymnal, 1931))"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "111장 귀중한 보배합을.mscz",
+   "sha256": "dee86668665dc934f706b81a7165a9c713057a88d093d1a24afa426325fe1d4f",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

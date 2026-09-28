@@ -1,0 +1,46 @@
+{
+ "number": 255,
+ "old_number": 187,
+ "title_ko": "너희 죄 흉악하나",
+ "title_en": "Tho' Your Sins be as Scarlet",
+ "original_title": "Though Your Sins Be as Scarlet",
+ "theme": "회개와용서",
+ "key_table": "Ab",
+ "time_table": "3/4",
+ "composer": "윌리엄 하워드 도언 (William Howard Doane)",
+ "lyricist": "패니 제인 크로스비 (Fanny Jane Crosby) · 1820~1915",
+ "credit_line_in_file": {
+  "composer": "W.H.Doane",
+  "lyricist": "F.J.Crosby"
+ },
+ "year": 1887,
+ "meter": "Irregular",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1887, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1915; work dated 1887"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "255장 너희 죄 흉악하나.mscz",
+   "sha256": "b9ce919960c136a2a02249fa0382ddddceef5643686918faaa7f2e42578406c6",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

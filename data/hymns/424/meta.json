@@ -1,0 +1,46 @@
+{
+ "number": 424,
+ "old_number": 216,
+ "title_ko": "아버지여 나의 맘을",
+ "title_en": "Take My Heart, O Father",
+ "original_title": "Father, Take My Heart",
+ "theme": "성결한생활",
+ "key_table": "E",
+ "time_table": "3/2",
+ "composer": "아이작 B. 우드버리 (Isaac Baker Woodbury)",
+ "lyricist": "미상 (Anonymous, 1849)",
+ "credit_line_in_file": {
+  "composer": "I.B.Woodbury",
+  "lyricist": "Anonymous"
+ },
+ "year": 1849,
+ "meter": "8.7.8.7",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1858; work dated 1849"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 미상 (Anonymous, 1849)"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "424장 아버지여 나의 맘을.mscz",
+   "sha256": "2359be1a9301b700f2198acbdedb75f1bcd6cb1145c99f2cc75fec96b2279d2f",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

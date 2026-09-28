@@ -1,0 +1,10 @@
+# 376 Guide Me, O Thou Great Jehovah
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Guide me, O Thou great Je- ho- vah, Pil- grim thro' this bar- ren land, I am weak, but Thou art might- y, Hold me with Thy pow'r- ful hand. Bread of Heav- 'en, Feed me till I want no more. Bread of Heav- 'en, Feed me till I want no more. _ _
+v2: O- pen now the crys- tal foun- tain, Whence the heal- ing wa- ters flow, Let the fi- ery, cloud- y pil- lar Lead me all my jour- ney thro'. Strong De- liv- 'rer, Be Thou still my Strength and Shield. Strong De- liv- 'rer, Be Thou still my Strength and Shield. _ _
+v3: When I tread the verge of Jor- dan, Bid my anx- ious fears sub- side Bear me thro' the swell- ing cur- rent Land me safe on Ca- naan's side. Songs of prais- es I will ev- er give to Thee. Songs of prais- es I will ev- er give to Thee. A- men.

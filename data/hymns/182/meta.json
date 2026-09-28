@@ -1,0 +1,46 @@
+{
+ "number": 182,
+ "old_number": 169,
+ "title_ko": "강물같이 흐르는 기쁨",
+ "title_en": "Joys Are Flowing Like a River",
+ "original_title": "Blessed Quietness",
+ "theme": "성령강림",
+ "key_table": "Ab",
+ "time_table": "3/4",
+ "composer": "윌리엄 S. 마샬 / 제임스 M. 커크 편곡 (William S. Marshall, arr. James M. Kirk)",
+ "lyricist": "매니 P. 퍼거슨 (Manie Payne Ferguson) · 1850~1932",
+ "credit_line_in_file": {
+  "composer": "W.S.Marshall/J.M.Kirk",
+  "lyricist": "M.P.Ferguson"
+ },
+ "year": 1900,
+ "meter": "9.7.9.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1900, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1932; work dated 1900"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "182장 강물같이 흐르는 기쁨.mscz",
+   "sha256": "75f960bda1041f05f85cf398357ead530600b511d07e5d8a84483161497c3a5a",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

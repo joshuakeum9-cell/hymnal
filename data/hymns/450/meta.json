@@ -1,0 +1,46 @@
+{
+ "number": 450,
+ "old_number": 376,
+ "title_ko": "내 평생 소원 이것뿐",
+ "title_en": "My One Wish, Lord, is This Alone",
+ "original_title": "My Life-long Wish (Korean text)",
+ "theme": "제자의도리",
+ "key_table": "Ab",
+ "time_table": "3/2",
+ "composer": "카를 G. 글레저 (Carl Gotthelf Gläser)",
+ "lyricist": "미상 (찬숑가, 1908)",
+ "credit_line_in_file": {
+  "composer": "C.G.Glaser/L.Mason",
+  "lyricist": "Anonymous"
+ },
+ "year": 1828,
+ "meter": "8.6.8.6",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_likely",
+   "basis": "work dated 1828, no evidence of a death after 1962"
+  },
+  "text_en": {
+   "status": "pd_likely",
+   "basis": "traditional or anonymous source: 미상 (찬숑가, 1908)"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "450장 내 평생 소원 이것뿐.mscz",
+   "sha256": "bf47b627060236854d1e8b455f1c76894db1a67cab4352755f9833559af02eb6",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

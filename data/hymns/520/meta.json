@@ -1,0 +1,46 @@
+{
+ "number": 520,
+ "old_number": 257,
+ "title_ko": "듣는 사람마다 복음 전하여",
+ "title_en": "Whosoever Heareth, Shout, Shout the Sound",
+ "original_title": "Whosoever Will (Whosoever Heareth, Shout!)",
+ "theme": "부르심과영접",
+ "key_table": "C",
+ "time_table": "4/4",
+ "composer": "필립 P. 블리스 (Philip Paul Bliss)",
+ "lyricist": "필립 P. 블리스 (Philip Paul Bliss) · 1838~1876",
+ "credit_line_in_file": {
+  "composer": "P.P.Bliss",
+  "lyricist": "P.P.Bliss"
+ },
+ "year": 1870,
+ "meter": "11.11.11.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1876; work dated 1870"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1876; work dated 1870"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "520장 듣는 사람마다 복음 전하여.mscz",
+   "sha256": "79d6d843d40fb2f78bbbbcfdaed7c321a86b473f5f39adb5ce3e1a807ec58d5d",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

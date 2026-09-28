@@ -1,0 +1,46 @@
+{
+ "number": 490,
+ "old_number": 542,
+ "title_ko": "주여 지난밤 내 꿈에",
+ "title_en": "There's a Dream that I Dream",
+ "original_title": "My Wonderful Dream",
+ "theme": "미래와소망",
+ "key_table": "Ab",
+ "time_table": "6/8",
+ "composer": "찰스 H. 가브리엘 (Charles Hutchinson Gabriel)",
+ "lyricist": "제시 브라운 파운즈 (Jessie Brown Pounds) · 1861~1921",
+ "credit_line_in_file": {
+  "composer": "C.H.Gabriel",
+  "lyricist": "J.B.Pounds"
+ },
+ "year": 1900,
+ "meter": "12.9.12.9 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1932; work dated 1900"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1921; work dated 1900"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "490장 주여 지난밤 내 꿈에.mscz",
+   "sha256": "d3ced9188d3125b7b4a2a4e12fd2bd861832f1ddeac324e5f1c67463aba25a55",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

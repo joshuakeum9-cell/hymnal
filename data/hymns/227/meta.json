@@ -1,0 +1,46 @@
+{
+ "number": 227,
+ "old_number": 283,
+ "title_ko": "주 앞에 성찬 받기 위하여",
+ "title_en": "Not Worthy, Lord, To Gather",
+ "original_title": "Till He Come (가사 의역, 검증 필요)",
+ "theme": "성찬",
+ "key_table": "C",
+ "time_table": "4/4",
+ "composer": "프레더릭 쿡 앳킨슨 (Frederick Cook Atkinson)",
+ "lyricist": "에드워드 헨리 비커스테스 (Edward Henry Bickersteth) · 1825~1906",
+ "credit_line_in_file": {
+  "composer": "F.C.Atkinson",
+  "lyricist": "E.H.Bickersteth"
+ },
+ "year": 1870,
+ "meter": "10.10.10.10",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1896; work dated 1870"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1906; work dated 1870"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "227장 주 앞에 성찬 받기 위하여.mscz",
+   "sha256": "d019fc18016d39a2e5df1a9b4d14fb5b1d1df3c8c57fbc234aa627ea22233582",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

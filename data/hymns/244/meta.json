@@ -1,0 +1,46 @@
+{
+ "number": 244,
+ "old_number": "",
+ "title_ko": "구원 받은 천국의 성도들",
+ "title_en": "For All the Saints",
+ "original_title": "For All the Saints, Who from Their Labors Rest",
+ "theme": "천국",
+ "key_table": "G",
+ "time_table": "4/4",
+ "composer": "랄프 본 윌리엄스 (Ralph Vaughan Williams)",
+ "lyricist": "윌리엄 월샴 하우 (William Walsham How) · 1823~1897",
+ "credit_line_in_file": {
+  "composer": "R.V.Williams/제성절(사탄찬송)",
+  "lyricist": "W.W.How"
+ },
+ "year": 1906,
+ "meter": "10.10.10.4 with Alleluias",
+ "korean_authored": true,
+ "rights": {
+  "tune": {
+   "status": "gated",
+   "basis": "Korean author (copyright managed in Korea)"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1897; work dated 1906"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "244장 구원 받은 천국의 성도들.mscz",
+   "sha256": "94385cf611e7551a8c9707c624127250b3603bd1f0b549fa33b3bc60d4ce3414",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

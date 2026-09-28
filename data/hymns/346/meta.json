@@ -1,0 +1,46 @@
+{
+ "number": 346,
+ "old_number": 398,
+ "title_ko": "주 예수 우리 구하려",
+ "title_en": "The Son of God Goes Forth to War",
+ "original_title": "The Son of God Goes Forth to War",
+ "theme": "분투와승리",
+ "key_table": "Bb",
+ "time_table": "4/4",
+ "composer": "H. S. 커틀러 (Henry Stephen Cutler)",
+ "lyricist": "레지널드 히버 (Reginald Heber) · 1783~1826",
+ "credit_line_in_file": {
+  "composer": "H.S.Cutler",
+  "lyricist": "R.Heber"
+ },
+ "year": 1872,
+ "meter": "8.6.8.6.D (C.M.D.)",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "pd_verified",
+   "basis": "author died 1902; work dated 1872"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1826; work dated 1872"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": true,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "346장 주 예수 우리 구하려.mscz",
+   "sha256": "5beba6299975f0200993b5910fcdd90bdb9f7eba7300394fae28d80a24f0dbb5",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "number": 386,
+ "old_number": 439,
+ "title_ko": "만세 반석 열린 곳에",
+ "title_en": "In the Rifted Rock I'm Resting",
+ "original_title": "In the Rifted Rock I'm Resting",
+ "theme": "인도와보호",
+ "key_table": "Eb",
+ "time_table": "3/2",
+ "composer": "W. W. 벤틀리 (W. W. Bently)",
+ "lyricist": "M. D. 제임스 (Mary D. James) · 1810~1883",
+ "credit_line_in_file": {
+  "composer": "W.W.Bently",
+  "lyricist": "M.D.James"
+ },
+ "year": null,
+ "meter": "8.7.8.7 with refrain",
+ "korean_authored": false,
+ "rights": {
+  "tune": {
+   "status": "unknown",
+   "basis": "no dates found; check the printed credit line"
+  },
+  "text_en": {
+   "status": "pd_verified",
+   "basis": "author died 1883; work dated unknown"
+  },
+  "text_ko": {
+   "status": "claimed",
+   "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
+  }
+ },
+ "publish": false,
+ "checked_against_book": false,
+ "notes": "",
+ "sources": {
+  "notes": {
+   "origin": "깔끔이 CCM, ccm4u.tistory.com, CC BY 4.0",
+   "file": "386장 만세 반석 열린 곳에.mscz",
+   "sha256": "43a5bb1b57b040f27640f4033791412072d1be1e9023360da96b1eb15051b248",
+   "changes": []
+  },
+  "credits": "bibletoppt.com (AI-assisted, spot-check)",
+  "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ }
+}

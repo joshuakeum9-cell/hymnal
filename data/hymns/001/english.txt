@@ -1,7 +1,8 @@
 # 1 Praise God from Whom All Blessings Flow: English words, one verse per block.
-# status: proposed
+# status: proposed (Korean-English hymnal wording)
 
-Praise God from whom all blessings flow;
-Praise Him, all creatures here below;
-Praise Him above, ye heav'nly host;
-Praise Father, Son, and Holy Ghost. Amen.
+Praise God from whom all blessings flow
+Praise Him, all creatures here below
+Praise Him above, ye heavenly host
+Praise Father, Son, and Holy Ghost.
+Amen.

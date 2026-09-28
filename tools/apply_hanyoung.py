@@ -186,6 +186,14 @@ def process(n: int) -> dict:
         if "# wording:" not in text:
             text = text.replace("# status:", "# wording: Korean-English hymnal (prayertents.com)\n# status:", 1)
         open(lp, "w", encoding="utf-8", newline=NL).write(text)
+    result["quality"] = re.search(r"quality: (\w+)", head).group(1) if "quality:" in head else None
+    # the plain verse text (shown when the notes cannot carry the words, and in print) follows the book too
+    tp = os.path.join(ROOT, f"data/hymns/{n:03d}/english.txt")
+    if not result["problems"] and os.path.exists(tp) and "status: reviewed" not in open(tp, encoding="utf-8").read(300):
+        first = open(tp, encoding="utf-8").read().split(NL)[0]
+        verses = [clean_english(v.strip()) for v in hy["en"][:len(verses)]]
+        open(tp, "w", encoding="utf-8", newline=NL).write(
+            f"{first}{NL}# status: proposed (Korean-English hymnal wording){NL}{NL}" + (NL + NL).join(verses) + NL)
     return result
 
 
@@ -218,7 +226,7 @@ def main(argv):
     report = []
     for n in nums:
         r = process(n)
-        if do_realign and r["status"] == "needs realign":
+        if do_realign and (r["status"] == "needs realign" or r.get("quality") == "rough"):
             hy = json.load(open(os.path.join(ROOT, f"work/hanyoung/{n:03d}.json"), encoding="utf-8"))
             r["realign"] = realign(n, hy)
         report.append(r)

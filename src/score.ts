@@ -39,7 +39,7 @@ export type SystemBox = { top: number; bottom: number }
 /** systems are in the SVG's viewBox units; viewWidth is the viewBox width */
 export type RenderResult = { svg: string; ms: number; cached: boolean; systems: SystemBox[]; viewWidth: number }
 
-const ENGINE_VERSION = 'osmd-2.1.3-r14'
+const ENGINE_VERSION = 'osmd-2.1.3-r15'
 const memory = new Map<string, string>()
 const MEMORY_MAX = 30
 const IDB_MAX = 80
@@ -90,10 +90,11 @@ const SPACING_STEPS = [
 /**
  * Push overlapping words on the same lyric line apart, half each way, until every pair has a
  * small gap. Hyphens take part so they stay between their syllables. Words move by a few units
- * at most in practice; a word never moves more than its own width from where OSMD put it.
+ * at most in practice; a word never moves more than its own width (or one and a half letter
+ * heights for a short syllable) from where OSMD put it.
  */
 export function separateLyrics(host: Element): void {
-  type Item = { el: SVGTextElement; x: number; w: number; x0: number; word: boolean }
+  type Item = { el: SVGTextElement; x: number; w: number; h: number; x0: number; word: boolean }
   const rows = new Map<number, Item[]>()
   for (const t of Array.from(host.querySelectorAll('svg text')) as SVGTextElement[]) {
     const s = t.textContent?.trim() ?? ''
@@ -102,7 +103,7 @@ export function separateLyrics(host: Element): void {
     if (!b.width) continue
     const key = Math.round(b.y)
     const row = rows.get(key) ?? []
-    row.push({ el: t, x: b.x, w: b.width, x0: b.x, word: s !== '-' })
+    row.push({ el: t, x: b.x, w: b.width, h: b.height, x0: b.x, word: s !== '-' })
     rows.set(key, row)
   }
   for (const row of rows.values()) {
@@ -124,7 +125,8 @@ export function separateLyrics(host: Element): void {
       if (!moved) break
     }
     for (const it of row) {
-      const dx = Math.max(-it.w, Math.min(it.w, it.x - it.x0))
+      const limit = Math.max(it.w, it.h * 1.5)
+      const dx = Math.max(-limit, Math.min(limit, it.x - it.x0))
       if (Math.abs(dx) > 0.2) it.el.setAttribute('x', String(Number(it.el.getAttribute('x')) + dx))
     }
   }

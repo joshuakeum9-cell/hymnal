@@ -5,6 +5,7 @@
 # quality: exact (per verse: exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Glo- rious things of thee are spok- _ en, Zi- on, cit- y of our _ God He whose word can- not be bro- _ ken Formed thee for his own a- _ bode On the Rock _ of A- ges found- _ ed, What can shake thy sure re- pose With sal- va- _ tion's walls sur- round- _ ed, Thou may'st _ smile _ at _ all thy _ foes. _ _
-v2: See, the streams of liv- ing wa- _ ters, Spring- ing from e- ter- nal _ love, Well sup- ply thy sons and daugh- _ ters, And all fear of want re- _ move Who can faint, _ while such a riv- _ er Ev- er flows their thirst t'as- suage Grace which, like _ the Lord, the giv- _ er, Nev- er _ fails _ from _ age to _ age. _ _
-v3: Sav- iour, if of Zi- on's cit- _ y I though grace a mem- ber _ am, Let the world de- ride or pi- _ ty, I will glo- ry in that _ name, Fad- ing is _ the world- lings plea- _ sure, All his vaunt- ed pomp and show Sol- id joys _ and last- ing treas- _ ure On- ly _ Zi- _ on's _ chil- dren _ know. A- men.
+# placement: verses 1, 2, 3 follow the Open Hymnal Project's engraving of this tune
+v1: Glo- rious things of thee are spoken, _ Zi- on, cit- y of our God _ He whose word can- not be bro- ken _ Formed thee for his own a- bode _ On the Rock of _ A- ges found- ed, _ What can shake thy sure re- pose _ With sal- _ va- tion's walls sur- round- _ ed, Thou may'st _ smile _ at _ all thy _ foes. _ _
+v2: See, the streams of living wa- ters, _ Spring- ing from e- ter- nal love, _ Well sup- ply thy sons and daugh- ters, _ And all fear of want re- move _ Who can faint, while _ such a riv- er _ Ev- er flows their thirst t'as- suage _ Grace which, _ like the Lord, the giv- _ er, Nev- er _ fails _ from _ age to _ age. _ _
+v3: Saviour, if of Zi- on's cit- y _ I though grace a mem- ber am, _ Let the world de- ride or pi- ty, _ I will glo- ry in that name, _ Fad- ing is the _ world- lings plea- sure, _ All his vaunt- ed pomp and show _ Sol- id _ joys and last- ing treas- _ ure On- ly _ Zi- _ on's _ chil- dren _ know. A- men.

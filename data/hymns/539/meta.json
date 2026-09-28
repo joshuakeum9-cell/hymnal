@@ -30,7 +30,7 @@
    "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
   }
  },
- "publish": false,
+ "publish": true,
  "checked_against_book": false,
  "notes": "",
  "sources": {
@@ -42,5 +42,13 @@
   },
   "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
   "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ },
+ "rights_override": {
+  "publish": true,
+  "basis": "Hewitt/Kirkpatrick, copyrighted 1903 (Songs of Praise and Salvation); the stored English belongs to a different hymn.",
+  "sources": [
+   "https://hymnary.org/text/go_carry_thy_burden_to_jesus"
+  ],
+  "checked": "2026-09-28"
  }
 }

@@ -1,7 +1,8 @@
-# 403 If It Were Not For Your Grace
+# 634 All Things Come of Thee, O Lord
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: none)
+# quality: rough (per verse: rough)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: ! could not place 18 syllables on 13 notes

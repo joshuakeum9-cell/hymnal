@@ -3,10 +3,11 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 v1: God, _ be mer- ci- ful _ to us In _ the great- ness of _ Thy grace, And to us who are but dust Grant _ the joy to see _ Thy face. _ _
-v2: By _ the world- wide mes- _ sage giv'n, Thou _ hast made sal- va- _ tion known, And all peo- ples un- der heav'n Lift _ their prais- es to _ Thy throne. _ _
-v3: Thou _ dost gov'rn in ho- _ li- ness, Truth _ in judg- ment dost _ em- ploy While the na- tions Thou dost bless Bless _ Thy name with ho- _ ly joy. _ _
-v4: All _ that comes to pass _ on earth, Lord, _ Thy boun- teous grace _ sup- ples And we laud Thy match- less worth From _ all na- tions 'neath _ the skies. _ _
+v2: By _ the world- wide mes- _ sage given, Thou _ hast made sal- va- _ tion known, And all peo- ples un- der heaven Lift _ their prais- es to _ Thy throne. _ _
+v3: Thou _ dost govern in ho- _ li- ness, Truth _ in judg- ment dost _ em- ploy; While the na- tions Thou dost bless Bless _ Thy name with ho- _ ly joy. _ _
+v4: All _ that comes to pass _ on earth, Lord, _ Thy boun- teous grace _ sup- plies; And we laud Thy match- less worth From _ all na- tions beneath _ the skies. _ _
 v5: Blest _ of God Who names _ us His, Rain- _ ing boun- ties from _ a- bove, Earth and all that in it is Fears _ the Lord with joy _ and love! A- men.

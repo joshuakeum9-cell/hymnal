@@ -1,0 +1,10 @@
+# 565 If I Come to Jesus
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: If I come to Je- sus, He will make me glad _ He will give me pleas- ure When my heart is sad. If I come to Je- sus, Hap- py I shall be He is gen- tly call- ing Lit- tle ones like me.
+v2: If I come to Je- sus, He will hear my pray'r _ He will love me dear- ly He my sins did bear. If I come to Je- sus, Hap- py I shall be He is gen- tly call- ing Lit- tle ones like me.
+v3: If I come to Je- sus, He will take my hand _ He will kind- ly lead me To a bet- ter land. If I come to Je- sus, Hap- py I shall be He is gen- tly call- ing Lit- tle ones like me.

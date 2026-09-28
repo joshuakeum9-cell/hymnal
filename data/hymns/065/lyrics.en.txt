@@ -2,10 +2,12 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: exact, exact, exact, auto)
+# quality: exact (per verse: exact, exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+# placement: verses 1, 2, 3, 4 follow the Open Hymnal Project's engraving of this tune
 v1: Praise, my soul, the King of heav- en To his feet your trib- ute bring Ran- somed, healed, re- stored for- giv- en, Ev- er- more His prais- es sing Al- le- lu- ia! Al- le- lu- ia! Praise the ev- er- last- ing King. _ _
 v2: Praise Him for His grace and fa- vor To our fa- thers in dis- tress Praise Him still the same as ev- er, Slow to chide, and swift to bless Al- le- lu- ia! Al- le- lu- ia! Glo- rious in His faith- ful- ness. _ _
 v3: Fa- ther- like He tends and spares us Well our fee- ble frame He knows In His hands He gent- ly bears us, Res- cues us from all our foes Al- le- lu- ia! Al- le- lu- ia! Wide- ly yet His mer- cy flows. _ _
-v4: An- _ gels _ in the height, a- dore Him, You be- hold Him face to face Saints tri- um- phant, bow be- fore Him, Gath- ered in from ev- ery race Al- le- lu- ia! Al- le- lu- ia! Praise with us the God of grace.
+v4: An- gels in the height, a- dore Him, You be- hold Him face to face Saints tri- um- phant, bow be- fore Him, Gath- ered in from ev- ery race Al- le- lu- ia! Al- le- lu- ia! Praise with us the God of grace. A- men.

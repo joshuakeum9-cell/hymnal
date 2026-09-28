@@ -1,0 +1,11 @@
+# 386 In the Rifted Rock I'm Resting
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: In the rift- ed Rock I'm rest- ing, Safe- ly shel- tered, I a- bide There no foes nor storms mo- lest me, While with- in the cleft I hide. Now I'm rst- ing, sweet- ly rest- ing, In the cleft once made for me: Je- sus, bless- ed Rock of A- ges, I will hide my- self in Thee. _ _
+v2: Long pur- sued by sin and Sa- tan, Wea- ry, sad, I longed for rest Then I found this heav'n- ly shel- ter Open- ed in my Sav- ior's breast. Now I'm rst- ing, sweet- ly rest- ing, In the cleft once made for me: Je- sus, bless- ed Rock of A- ges, I will hide my- self in Thee. _ _
+v3: Peace, which pass- eth un- der- stand- ing, Joy, the world can nev- er give. Now in Je- sus I am find- ing In His smiles of love I live. Now I'm rst- ing, sweet- ly rest- ing, In the cleft once made for me: Je- sus, bless- ed Rock of A- ges, I will hide my- self in Thee. _ _
+v4: In the rift- ed Rock I'll hide me Till the storms of life are past All se- cure in this blest ref- uge, Heed- ing not the fierc- est blast. Now I'm rst- ing, sweet- ly rest- ing, In the cleft once made for me: Je- sus, bless- ed Rock of A- ges, I will hide my- self in Thee. A- men.

@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Sav- iour, a- gain to Thy dear name we raise With on ac- cord our part- ing hymn of praise. We stand to bless Thee ere our wor- ship cease, And still our hearts to wait Thy word of peace. _ _
+v1: Sav- ior, a- gain to Thy dear name we raise With on ac- cord our part- ing hymn of praise. We stand to bless Thee ere our wor- ship cease, And still our hearts to wait Thy word of peace. _ _
 v2: Grant us Thy peace up- on our home- ward way With Thee be- gan, with Thee shall end the day. Guard Thou the lips from sin, the hearts from shame, That in this house have called up- on Thy name. _ _
 v3: Grant us Thy peace, Lord, through the com- ing night Turn thou for us its dark- ness in- to light. From harm and dan- ger keep Thy chil- dren free, For dark and light are both a- like to Thee. _ _
 v4: Grant us Thy peace through- out our earth- ly life, Our balm in sor- row and our stay in strife. Then, when Thy voice shall bid our con- flict cease, Call us, O Lord, to Thine e- ter- nal peace. A- men.

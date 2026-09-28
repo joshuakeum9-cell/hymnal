@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Low in the grave He lay Je- sus my Sav- iour! Wait- ing the com- ing day Je- sus my Lord! Up from the grave He a- rose, With a moght- y tri- umph o'er His foes: He a- rose a Vic- tor from the dark do- main, And He lives for- ev- er with His saints to reign, He a- rose! He a- rose! Hal- le- lu- jah! Christ a- rose!
-v2: Vain- ly they watch His bed Je- sus my Sav- iour! Vain- ly they seal the dead Je- sus my Lord! Up from the grave He a- rose, With a moght- y tri- umph o'er His foes: He a- rose a Vic- tor from the dark do- main, And He lives for- ev- er with His saints to reign, He a- rose! He a- rose! Hal- le- lu- jah! Christ a- rose!
-v3: Death can- not keep his prey Je- sus my Sav- iour! He tore the bars a- way Je- sus my Lord! Up from the grave He a- rose, With a moght- y tri- umph o'er His foes: He a- rose a Vic- tor from the dark do- main, And He lives for- ev- er with His saints to reign, He a- rose! He a- rose! Hal- le- lu- jah! Christ a- rose!
+v1: Low in the grave He lay Je- sus my Sav- ior! Wait- ing the com- ing day Je- sus my Lord! Up from the grave He a- rose, With a might- y tri- umph over His foes; He a- rose a Vic- tor from the dark do- main, And He lives for- ev- er with His saints to reign, He a- rose! He a- rose! Hal- le- lu- jah! Christ a- rose!
+v2: Vain- ly they watch His bed Je- sus my Sav- ior! Vain- ly they seal the dead Je- sus my Lord! Up from the grave He a- rose, With a might- y tri- umph over His foes; He a- rose a Vic- tor from the dark do- main, And He lives for- ev- er with His saints to reign, He a- rose! He a- rose! Hal- le- lu- jah! Christ a- rose!
+v3: Death can- not keep his prey Je- sus my Sav- ior! He tore the bars a- way Je- sus my Lord! Up from the grave He a- rose, With a might- y tri- umph over His foes; He a- rose a Vic- tor from the dark do- main, And He lives for- ev- er with His saints to reign, He a- rose! He a- rose! Hal- le- lu- jah! Christ a- rose!

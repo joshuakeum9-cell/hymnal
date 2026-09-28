@@ -30,7 +30,7 @@
    "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
   }
  },
- "publish": false,
+ "publish": true,
  "checked_against_book": false,
  "notes": "",
  "sources": {
@@ -42,5 +42,13 @@
   },
   "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
   "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ },
+ "rights_override": {
+  "publish": true,
+  "basis": "A traditional Greek twofold Amen that Hymnary marks public domain, with no authored text.",
+  "sources": [
+   "https://hymnary.org/tune/twofold_amen_greek"
+  ],
+  "checked": "2026-09-28"
  }
 }

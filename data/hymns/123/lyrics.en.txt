@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: rough (per verse: rough, auto, auto, auto)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: The _ first _ No- _ el, the _ an- gel did say, Was _ to _ cer- tain _ poor shep- _ herds in fields as they lay In fields where they lay keep- ing their sheep, On _ a _ cold win- ter's night that was so deep. No- _ el, _ No- _ el, No- _ el, No- el, Born is the King _ of Is- _ ra- el. _ _
-v2: They _ look- _ ed _ up and _ saw _ a star Shin- _ ing _ in the _ east, be- _ yond them far _ And _ to _ the earth _ it gave great light, And _ so _ it con- tin- ued both day and night. No- _ el, _ No- _ el, No- _ el, No- el, Born is the King _ of Is- _ ra- el. _ _
-v3: This _ star _ drew _ nigh to _ the _ north- west, O'er _ Beth- _ le- hem _ it took _ its rest, And _ there _ it _ did both _ stop _ and stay, Right _ o- _ ver the _ place where Je- sus lay. No- _ el, _ No- _ el, No- _ el, No- el, Born is the King _ of Is- _ ra- el. _ _
-v4: Then _ en- _ tered _ in there _ wise- _ men three, Full _ rev- _ 'rent- ly _ up- on _ the knee, And _ of- _ fer'd _ there, in _ His _ pres- ence, Their _ gold _ and myrrh, _ and frank- _ in- sense. No- _ el, _ No- _ el, No- _ el, No- el, Born _ _ is _ the King _ of Is- ra- el.
+v1: The _ first _ No- _ el, the _ an- gel did say, Was _ to _ cer- tain _ poor shep- _ herds in fields as they lay; In fields where they lay keep- ing their sheep, On _ a _ cold win- ter's night that was so deep. No- _ el, _ No- _ el, No- _ el, No- el, Born is the King _ of Is- _ ra- el. _ _
+v2: They _ look- _ ed _ up and _ saw _ a star Shin- _ ing _ in the _ east, be- _ yond them far; _ And _ to _ the earth _ it gave great light, And _ so _ it con- tin- ued both day and night. No- _ el, _ No- _ el, No- _ el, No- el, Born is the King _ of Is- _ ra- el. _ _
+v3: This _ star _ drew _ nigh to _ the _ north- west, Over _ Beth- _ le- hem _ it took _ its rest, And _ there _ it _ did both _ stop _ and stay, Right _ o- _ ver the _ place where Je- sus lay. No- _ el, _ No- _ el, No- _ el, No- el, Born is the King _ of Is- _ ra- el. _ _
+v4: Then _ en- _ tered _ in there _ wise _ men three, Full _ rev- _ 'rent- ly _ up- on _ the knee, And _ of- _ fered _ there, in _ His _ pres- ence, Their _ gold _ and myrrh, _ and frank- _ in- cense. No- _ el, _ No- _ el, No- _ el, No- el, Born _ _ is _ the King _ of Is- ra- el.

@@ -17,13 +17,13 @@ Nothing to pay for: GitHub Pages hosts it, GitHub Actions builds it, everything 
 | | Hymns |
 |---|---|
 | Listed and searchable (new and old numbers, Korean and English titles) | 645 |
-| Music on the site | 457 |
-| Held back for copyright (133 Korean-authored, 55 recent or undated) | 188 |
-| English words under the notes | 404 |
-| English words shown as text below the music | 29 |
-| No usable English yet (363 has only a modern translation; the rest have none in the source) | 24 |
+| Music on the site | 464 |
+| Held back for copyright (Korean-authored, recent, or in a modern arrangement) | 181 |
+| English words under the notes | 414 |
+| English words shown as text below the music | 28 |
+| No English (original Korean texts such as 521 and 580, and hymns with none in the source) | 22 |
 
-Known limits: English placement is automatic and occasionally puts a syllable on the wrong note; the Report a mistake link on each hymn is the way to fix those. Phones in portrait show about one measure per line when both languages are on; turn the phone sideways or pick 한 or 영 for more music per screen.
+Known limits: English placement is automatic for most hymns and occasionally puts a syllable on the wrong note; the Report a mistake link on each hymn is the way to fix those. 44 hymns follow the Open Hymnal Project's hand-engraved placement instead, and a comparison against it found the automatic placement agrees on 96% of notes. When words would run into each other on a narrow screen, the page spaces the notes wider for that hymn, so phones in portrait show fewer measures per line when both languages are on.
 
 ## How it works
 
@@ -60,7 +60,11 @@ Every push runs `python tools/check_data.py`, which catches token counts that do
 pip install -r tools/requirements.txt
 python tools/convert_mscz.py work/ccm4u/mscz data/hymns   # MuseScore files to MusicXML
 python tools/build_meta.py                                # titles, numbers, credits, rights
+python tools/build_hyphenation.py                         # how hymnals split words into syllables
+python tools/openhymnal_patterns.py                       # hand-engraved placement from openhymnal.org
 python tools/align_english.py                             # place English syllables on the notes
+python tools/fetch_hanyoung.py                            # English as the Korean-English hymnal prints it
+python tools/apply_hanyoung.py --realign                  # use that wording on the placed notes
 python tools/check_data.py
 npm install
 npm run data && npm run dev                               # http://localhost:5173/hymnal/
@@ -71,14 +75,14 @@ The `work/` folder (not in git) holds the downloaded sources: the seven MuseScor
 ## Sources and credit
 
 - **Music and Korean words:** MuseScore transcriptions by **깔끔이 CCM** ([ccm4u.tistory.com](https://ccm4u.tistory.com/)), licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Converted to MusicXML with `tools/convert_mscz.py`; corrections are listed in each hymn's `source.json` under `changes` (key signature of 145, lyric typos in 220 and 519).
-- **English words:** the original public-domain hymn texts, taken from [rupang21/hymnEngKorean](https://github.com/rupang21/hymnEngKorean), with typo fixes in `data/english_fixes.json`. Hymns whose source had the wrong words use the Korean-English hymnal wording, checked against hymnary.org, in `data/english_overrides/`. Words are split into sung syllables the way hymnals split them (`data/hyphenation.json`, built by `tools/build_hyphenation.py`). Placement on the notes is automatic (`tools/align_english.py`) and improved by hand over time.
+- **English words:** the original public-domain hymn texts, taken from [rupang21/hymnEngKorean](https://github.com/rupang21/hymnEngKorean), with typo fixes in `data/english_fixes.json`. Hymns whose source had the wrong words use the Korean-English hymnal wording, checked against hymnary.org, in `data/english_overrides/`. Words are split into sung syllables the way hymnals split them (`data/hyphenation.json`, built by `tools/build_hyphenation.py`). Wording follows the Korean-English (한영) hymnal as printed on prayertents.com (`tools/apply_hanyoung.py`). Placement on the notes follows the [Open Hymnal Project](http://openhymnal.org/) (public domain) where it has the same tune, and is automatic elsewhere (`tools/align_english.py`).
 - **Titles and 통일찬송가 numbers:** rupang21/hymnEngKorean. **Keys and time signatures:** praisenworship.biblia66.com. **Credits:** bibletoppt.com (AI-assisted there, so they are spot-checked).
 - **Fonts:** Noto Sans KR and Noto Serif KR, SIL Open Font License, subset by `tools/subset_fonts.py`.
 - **Renderer:** [OpenSheetMusicDisplay](https://opensheetmusicdisplay.org/) (BSD-3-Clause).
 
 ## Copyright
 
-This is a free tool for one church's band. Hymns written by Korean authors, and hymns whose words or music may still be under copyright, are listed but have no music on the public site (`meta.json` → `publish: false`, with the reason in `rights`). Everything else is a public-domain tune and English text; the Korean translations belong to their rights holders. The gated hymns can be added if 한국찬송가공회 gives written permission.
+This is a free tool for one church's band. Hymns written by Korean authors, and hymns whose words or music may still be under copyright, are listed but have no music on the public site (`meta.json` → `publish: false`, with the reason in `rights`; hand-checked decisions are in `rights_override` with their sources). A melody that is traditional but printed in a modern harmonization (106, 125, 231) stays held back, because the harmony is still under copyright. Everything else is a public-domain tune and English text; the Korean translations belong to their rights holders. The gated hymns can be added if 한국찬송가공회 gives written permission.
 
 If you hold rights to anything here and want it removed, please [open an issue](https://github.com/joshuakeum9-cell/hymnal/issues). Each hymn is one folder, so removal takes minutes.
 

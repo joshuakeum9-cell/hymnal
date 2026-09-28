@@ -3,10 +3,11 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: rough (per verse: exact, exact, exact, exact, rough)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: A- las! and did my- _ Sav- iour bleed, and did my- _ Sov- ereign die Would He de- vote that sa- cred head For such- _ a- _ worm as I _ _
-v2: Was it for crimes that- _ I have done, He groaned up- _ on the tree A- maz- ing pit- y! grace un- known! And love- _ be- _ yond de- gree! _ _
-v3: Well might the sun in- _ dark- ness hide, And shut his- _ glo- ries in, When Christ, the migh- ty Mak- er, died For man,- _ the- _ crea- ture's sin. _ _
-v4: Thus might I hide my- _ blush- ing face While His dear- _ cross ap- pears Dis- solve my heart in thank- ful- ness, And melt- _ mine- _ eyes to tears. _ _
-v5: But drops of grief can- _ ne'er re- pay The debt of- _ love I owe! Here, Lord, I give my- self a- way 'Tis all- _ _ _ that- I can do. _
+v1: A- las! and did my _ Sav- ior bleed, And did my _ Sov- ereign die? Would He de- vote that sa- cred head For such _ a _ worm as I? _ _
+v2: Was it for crimes that _ I have done, He suf- fered _ on the tree? A- maz- ing pit- y! grace un- known! And love _ be- _ yond de- gree! _ _
+v3: Well might the sun in _ dark- ness hide, And shut His _ glo- ries in, When Christ, the migh- ty Mak- er, died For man, _ the _ crea- ture's sin. _ _
+v4: Thus might I hide my _ blush- ing face While His dear _ cross ap- pears; Dis- solve my heart in thank- ful- ness, And melt _ mine _ eyes to tears. _ _
+v5: But drops of grief can _ never re- pay The debt of _ love I owe! Here, Lord, I give my- self a- way; 'Tis all _ _ _ that I can do. _

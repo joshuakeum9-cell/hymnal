@@ -2,9 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: auto, auto, auto)
+# quality: exact (per verse: exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Un- der His wings I am safe- ly a- bid- ing Though the night deep- ens and tem- pests are wild, Still I can trust Him I know He will keep me He has re- deemed me and I am His child. Un- der His wings, un- der His wings, Who _ from His love can sev- er Un- der His wings my soul shall a- bide, Safe- _ ly a- bide for- ev- er.
-v2: Un- der His wings, what a ref- uge in sor- row! How the heart yearn- ing- ly turns to His rest! Oft- en when earth has no balm for my heal- ing There I find com- fort and there I am blest. Un- der His wings, un- der His wings, Who _ from His love can sev- er Un- der His wings my soul shall a- bide, Safe- _ ly a- bide for- ev- er.
-v3: Un- der His wings, O what pre- cious en- joy- ment! There will I hide till life's tri- als are o'er Shel- tered, pro- tect- ed, no e- vil can harm me Rest- ing in Je- sus I'm safe ev- er- more. Un- der His wings, un- der His wings, Who _ from His love can sev- er Un- der His wings my soul shall a- bide, Safe- _ ly a- bide for- ev- er.
+# placement: verses 1, 2, 3 follow the Open Hymnal Project's engraving of this tune
+v1: Un- der His wings I am safe- ly a- bid- ing Though the night deep- ens and tem- pests are wild, Still I can trust Him I know He will keep me He has re- deemed me and I am His child. Un- der His wings, un- der His wings, Who from His love _ can sev- er Un- der His wings my soul shall a- bide, Safe- ly a- bide _ for- ev- er.
+v2: Un- der His wings, what a ref- uge in sor- row! How the heart yearn- ing- ly turns to His rest! Oft- en when earth has no balm for my heal- ing There I find com- fort and there I am blest. Un- der His wings, un- der His wings, Who from His love _ can sev- er Un- der His wings my soul shall a- bide, Safe- ly a- bide _ for- ev- er.
+v3: Un- der His wings, O what pre- cious en- joy- ment! There will I hide till life's tri- als are o'er Shel- tered, pro- tect- ed, no e- vil can harm me Rest- ing in Je- sus I'm safe ev- er- more. Un- der His wings, un- der His wings, Who from His love _ can sev- er Un- der His wings my soul shall a- bide, Safe- ly a- bide _ for- ev- er.

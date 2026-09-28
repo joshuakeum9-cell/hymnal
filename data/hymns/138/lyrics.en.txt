@@ -3,10 +3,11 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: exact, exact, exact, auto, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Je- sus shall reign where- _ e'er the _ sun Does his suc- ces- sive jour- neys run His king- dom spread _ from _ shore _ to _ shore, Till moons shall wax and wane no more. _ _
-v2: To Him shall end- less _ pray'r be _ made, And end- less prais- es crown His head. His name like sweet _ per- _ fume _ shall _ rise With ev- -'ry morn- ing sac- ri- fice. _ _
-v3: Peo- ple and realms of _ ev- -'ry _ tongue Dwell on His love with sweet- est song, And in- fant voic- _ es _ shall _ pro- _ claim Their ear- ly bless- ings on His name. _ _
-v4: Bless- ings _ a- bound _ where- e'er _ He reigns The pris- oner leaps to lose his chains, The wea- ry _ find _ eter- _ nal _ rest, And all the sons of want are blest. _ _
-v5: Let ev- ery crea- ture _ rise and _ bring Pe- cu- liar hon- ors to our King An- gels de- scend _ with _ songs _ a- _ gain, And earth re- peat the loud A- men! A- men.
+v1: Je- sus shall reign wher- _ e'er the _ sun Does his suc- ces- sive jour- neys run; His king- dom spread _ from _ shore _ to _ shore, Till moons shall wax and wane no more. _ _
+v2: To Him shall end- less _ pray'r be _ made, And end- less prais- es crown His head. His name like sweet _ per- _ fume _ shall _ rise With ev- ery morn- ing sac- ri- fice. _ _
+v3: Peo- ple and realms of _ ev- ery _ tongue Dwell on His love with sweet- est song, And in- fant voic- _ es _ shall _ pro- _ claim Their ear- ly bless- ings on His name. _ _
+v4: Bless- ings _ a- bound _ wher- e'er _ He reigns; The pris- oner leaps to lose his chains, The wea- ry _ find _ eter- _ nal _ rest, And all the sons of want are blest. _ _
+v5: Let ev- ery crea- ture _ rise and _ bring His grace- ful hon- ors to our King; An- gels de- scend _ with _ songs _ a- _ gain, And earth re- peat the loud A- men! A- men.

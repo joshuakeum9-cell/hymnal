@@ -147,11 +147,11 @@ def align(path, tokens, verse, line_ends=frozenset()):
 ELIDE_NEXT = re.compile(r"^(en|er|ry|el|ing|y|ous|ious|iour|our|ers|ry[,.;!?]?|en[,.;!?]?|er[,.;!?]?|el[,.;!?]?)$", re.I)
 
 
-def elide(tokens: list[str], need: int) -> list[str]:
+def elide(tokens: list[str], need: int, min_score: int = 1) -> list[str]:
     """Merge `need` syllable pairs singers usually run together (ev-er-y, heav-en, pow-er, Sav-iour)."""
     toks = list(tokens)
     for _ in range(need):
-        best, score = None, 0
+        best, score = None, min_score - 1
         for i in range(len(toks) - 1):
             a, b = toks[i], toks[i + 1]
             if not a.endswith("-"):
@@ -215,6 +215,52 @@ def english_matches_title(n: int, meta: dict, hymn_en: dict) -> bool:
     return best >= 0.6
 
 
+_PATTERNS = None
+
+
+def pattern_placement(n, slots, paths, variants, text, k):
+    """Place the syllables where the Open Hymnal's engraving of the same tune puts them.
+
+    data/openhymnal_patterns.json marks, per English verse, which of our melody notes start a
+    syllable. Used only when the number of starts equals the number of syllables in our text.
+    Returns (tokens per note on the path, path) or None.
+    """
+    global _PATTERNS
+    if _PATTERNS is None:
+        p = os.path.join(ROOT, "data/openhymnal_patterns.json")
+        _PATTERNS = json.load(open(p, encoding="utf-8")) if os.path.exists(p) else {}
+    entry = _PATTERNS.get(str(n))
+    if not entry:
+        return None
+    ours = _words(text)[:10]
+
+    def similarity(v):
+        theirs = v["words"].split()
+        return sum(a == b for a, b in zip(ours, theirs)) / max(1, min(len(ours), len(theirs)))
+    # the verse with the same words first, then the others (the rhythm rarely changes between verses)
+    order = sorted(entry["verses"], key=similarity, reverse=True)
+    idx = {s.idx: i for i, s in enumerate(slots)}
+    for v in order:
+        for path in paths:
+            base = [v["flags"][idx[s.idx]] for s in path]
+            for vt in variants:
+                flags = list(base)
+                # an Amen the Open Hymnal score does not print goes on our last two (Amen) notes
+                if [re.sub(r"[^a-z]", "", t.lower()) for t in vt[-2:]] == ["a", "men"] and flags[-2:] == ["H", "H"]:
+                    flags[-2:] = ["S", "S"]
+                starts = flags.count("S")
+                use = vt
+                if 0 < len(vt) - starts <= 4:
+                    use = elide(vt, len(vt) - starts, min_score=4)  # only real contractions (heav-en, ev-er-y)
+                if len(use) != starts:
+                    continue
+                out, it = [], iter(use)
+                for f in flags:
+                    out.append(next(it) if f == "S" else ("_" if f == "H" else "."))
+                return out, path
+    return None
+
+
 def process(n: int, hymn_en: dict, force: bool) -> dict:
     d = os.path.join(ROOT, f"data/hymns/{n:03d}")
     meta = json.load(open(os.path.join(d, "meta.json"), encoding="utf-8"))
@@ -257,6 +303,7 @@ def process(n: int, hymn_en: dict, force: bool) -> dict:
     en_verses = [clean_english(" ".join(l["en"] for l in v["lines"] if l.get("en"))) for v in src_verses]
     has_refrain = any(s.region == "refrain" for s in slots)
     lines, costs, grades = [], [], []
+    used_patterns: list[int] = []
     refrain_tokens = None
     for k in range(1, min(kv, len(en_verses)) + 1):
         # split words the way hymnals do (data/hyphenation.json) and also with the word-level rules;
@@ -276,6 +323,10 @@ def process(n: int, hymn_en: dict, force: bool) -> dict:
                 res, cost = align(path, use, k, korean_line_ends(path, k, groups))
                 if res is not None:
                     candidates.append((cost / max(len(vt), 1), cost, res, path))
+        placed = pattern_placement(n, slots, paths, variants, en_verses[k - 1], k)
+        if placed is not None:
+            candidates = [(0.0, 0.0, placed[0], placed[1])]
+            used_patterns.append(k)
         if not candidates:
             candidates.append((INF, INF, None, slots))
         candidates.sort(key=lambda c: c[0])
@@ -306,6 +357,8 @@ def process(n: int, hymn_en: dict, force: bool) -> dict:
         "# status: proposed",
         "# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)",
     ]
+    if used_patterns:
+        header.append(f"# placement: verses {', '.join(map(str, used_patterns))} follow the Open Hymnal Project's engraving of this tune")
     with open(out_path, "w", encoding="utf-8", newline="\n") as fh:
         fh.write("\n".join(header + lines) + "\n")
     return {"n": n, "status": overall, "grades": grades, "ratios": costs, "korean_verses": kv, "english_verses": len(en_verses)}

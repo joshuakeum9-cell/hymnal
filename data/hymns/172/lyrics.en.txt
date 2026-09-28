@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: exact, auto, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: The Lord is ris'n in- deed The grave hath last its prey! With Him shall rise the ran- som'd seed, To reign in end- less day. _ _
-v2: The Lord is ris'n in- deed! At- tend- ing an- gels, hear: Up to the courts of heav'n, with speed, The _ joy- fulti- ding bear. _ _
-v3: Then wake your gold- en lyres And strike each cheer- ful chord Join, all ye bright ce- les- tial choirs, To sing our ri- sen Lord. _ _
-v4: The Lord is ris'n in- deed! He lives, to die no more He lives, the sin- ner's cause to plead, Whose curse and shame He bore. A- men.
+v1: The Lord is ris'n in- deed; The grave hath last its prey! With Him shall rise the ran- somed seed, To reign in end- less day. _ _
+v2: The Lord is ris'n in- deed! At- tend- ing an- gels, hear; Up to the courts of heaven, with speed, The _ joy- ful tiding bear. _ _
+v3: Then wake your gold- en lyres And strike each cheer- ful chord; Join, all ye bright ce- les- tial choirs, To sing our ri- sen Lord. _ _
+v4: The Lord is ris'n in- deed! He lives, to die no more; He lives, the sin- ner's cause to plead, Whose curse and shame He bore. A- men.

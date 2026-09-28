@@ -2,9 +2,11 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: exact, exact, auto)
+# quality: exact (per verse: exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+# placement: verses 1, 2, 3 follow the Open Hymnal Project's engraving of this tune
 v1: Praise to the Lord, the Al- might- y, the King of cre- a- tion! O, my soul, praise Him, for He is thy health and sal- va- tion! All ye who hear, Now to His tem- ple draw near Join me in glad ad- o- ra- tion! _ _
-v2: Praise to the Lord, who o'er all things so won- drous- ly reign- eth, Shel- ters thee un- der His wings, yea, so gent- ly sus- tain- eth! Hast thou not seen How thy de- sires e'er have been Grant- ed in what He or- dain- eth _ _
-v3: Praise to the Lord, O, let all that is in me a- dore Him! All that hath life and breath, come now with prais- es be- fore Him! Let the "A- man!" Sound from His peo- ple a- gain. Glad- _ _ ly for aye we a- dore Him.
+v2: Praise to the Lord, who over all things so won- drous- ly reign- eth, Shel- ters thee un- der His wings, yea, so gent- ly sus- tain- eth! Hast thou not seen How thy de- sires e'er have been Grant- ed in what He or- dain- eth _ _
+v3: Praise to the Lord, O, let all that is in me a- dore Him! All that hath life and breath, come now with prais- es be- fore Him! Let the "A- men!" Sound from His peo- ple a- gain. Glad- ly for aye we a- dore Him. A- men.

@@ -2,9 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: exact, exact, auto)
+# quality: exact (per verse: exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+# placement: verses 1, 2, 3 follow the Open Hymnal Project's engraving of this tune
 v1: Bless- ed as- ur- ance, Je- sus is mine! O what a fore- taste of glo- ry di- vine! Heir of sal- va- tion, pur- chase of God, Born of His Spir- it, washed in His blood. This is my sto- ry, this is my song, Prais- ing my Sav- iour all the day long This is my sto- ry, this is my song, Praise- ing my Sav- iour all the day long. _ _
 v2: Per- fect sub- mis- sion, per- fect de- light, Vi- sions of rap- ture now burst on my sight An- gels de- scend- ing, bring from a- bove Ech- oes of mer- cy, wish- pers of love. This is my sto- ry, this is my song, Prais- ing my Sav- iour all the day long This is my sto- ry, this is my song, Praise- ing my Sav- iour all the day long. _ _
-v3: Per- fect sub- mis- sion, all is at rest, I in my Sav- iour am hap- py and blest Watch- ing and wait- ing, look- ing, a- bove, Filled with His good- ness, lost in His love. This is my sto- ry, this is my song, Prais- ing my Sav- iour all the day long This is my sto- ry, this is my song, Praise- _ ing my Sav- iour _ all the day long.
+v3: Per- fect sub- mis- sion, all is at rest, I in my Sav- iour am hap- py and blest Watch- ing and wait- ing, look- ing, a- bove, Filled with His good- ness, lost in His love. This is my sto- ry, this is my song, Prais- ing my Sav- iour all the day long This is my sto- ry, this is my song, Praise- ing my Sav- iour all the day long. _ _

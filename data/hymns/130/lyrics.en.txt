@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: exact, exact, auto)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: O splen- _ dor of God's glo- _ ry bright, From light _ e- ter- _ nal bring- _ ing light O Light _ of _ life, light's liv- ing spring, True _ day, _ all days _ il- lu- _ min- ing. _ _
-v2: Con- firm _ our will to do _ the right, And keep _ our hearts _ from en- _ vy's blight Let faith _ her _ ea- ger fires re- new, And _ hate _ the false, _ and love _ and true. _ _
-v3: O joy- _ ful be the pass- _ ing day With thoughts _ as clear _ as morn- _ ing's ray, With faith _ like _ noon- tide shin- ing bright, Our _ souls _ _ un- _ _ shad- _ owed by the night.
+v1: O splen- _ dor of God's glo- _ ry bright, From light _ e- ter- _ nal bring- _ ing light; O Light _ of _ life, light's liv- ing spring, True _ day, _ all days _ il- lu- _ min- ing. _ _
+v2: Con- firm _ our will to do _ the right, And keep _ our hearts _ from en- _ vy's blight; Let faith _ her _ ea- ger fires re- new, And _ hate _ the false, _ and love _ and true. _ _
+v3: O joy- _ ful be, the pass- _ ing day With thoughts _ as clear _ as morn- _ ing's ray, With faith _ like _ noon- tide shin- ing bright, Our _ souls _ _ un- _ _ shad- _ owed by the night.

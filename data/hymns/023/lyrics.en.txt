@@ -3,9 +3,11 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+# placement: verses 1, 2, 3, 4 follow the Open Hymnal Project's engraving of this tune
 v1: O for a thou- sand tongues to sing My great Re- deem- er's praise, The glo- ries of my God and King, The _ tri- umphs of His grace. _ _
 v2: My gra- cious Mas- ter and my God, As- sist me to pro- claim, To spread through all the earth a- broad, The _ hon- ors of Thy Name. _ _
 v3: Je- sus! The name that charms our fears, That bids our sor- rows cease 'Tis mu- sic in the sin- ner's ears, 'Tis _ life, and health, and peace. _ _
-v4: He breaks the pow'r of can- cel'd sin, He sets the pris- -'ner free His blood can make the foul- est clean His _ blood a- vail'd for me. A- men.
+v4: He breaks the power of can- celed sin, He sets the pris- oner free His blood can make the foul- est clean His _ blood a- vails for me. A- men.

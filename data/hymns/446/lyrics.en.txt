@@ -2,10 +2,11 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: auto, auto, auto, rough)
+# quality: exact (per verse: exact, exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: I need Thee eve- ry hour, Most gra- _ cious Lord No ten- der _ voice like Thine Can peace _ af- ford With Thee what _ joy I cap- ture! Ev- ery hour is rap- ture! O bless _ me now, my Sav- iour, I come to Thee. _ _
-v2: I need Thee eve- ry hour, Stay Thou _ near by Temp- ta- tions _ lose their pow- er When _ Thou art nigh. With Thee what joy I cap- ture! Ev- ery hour is rap- ture! O bless _ me now, my Sav- iour, I come to Thee. _ _
-v3: I need Thee eve- ry hour, In joy _ or pain Come quick- ly _ and a- bide, Or life _ _ is vain. With Thee what joy I cap- ture! Ev- ery hour is rap- ture! O bless _ me now, my Sav- iour, I come to Thee. _ _
-v4: I need Thee eve- ry hour, Teach me _ _ Thy will And Thy _ rich prom- is- es In _ me ful- fill. With Thee what joy I cap- ture! Ev- ery hour is rap- ture! O bless _ _ me now, my Sav- iour, _ I come to Thee.
+# placement: verses 1, 2, 3, 4 follow the Open Hymnal Project's engraving of this tune
+v1: I need Thee eve- ry hour, Most gra- _ cious _ Lord No ten- der voice like Thine Can peace _ af- _ ford With Thee what joy I cap- ture! Ev- ery hour is rap- ture! O bless me now, my Sav- iour, I come _ to Thee. _ _
+v2: I need Thee eve- ry hour, Stay Thou _ near _ by Temp- ta- tions lose their power When Thou _ art _ nigh. With Thee what joy I cap- ture! Ev- ery hour is rap- ture! O bless me now, my Sav- iour, I come _ to Thee. _ _
+v3: I need Thee eve- ry hour, In joy _ or _ pain Come quick- ly and a- bide, Or life _ is _ vain. With Thee what joy I cap- ture! Ev- ery hour is rap- ture! O bless me now, my Sav- iour, I come _ to Thee. _ _
+v4: I need Thee eve- ry hour, Teach me _ Thy _ will And Thy rich prom- is- es In me _ ful- _ fill. With Thee what joy I cap- ture! Ev- ery hour is rap- ture! O bless me now, my Sav- iour, I come _ to Thee. _ _

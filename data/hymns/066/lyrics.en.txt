@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: exact, exact, auto)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 v1: Now thank we all our God With heart and hands and voic- es, Who won- drous things hath done, In whom His world re- joic- es Who, from our moth- ers' arms, Hath blessed _ us on our way With count- less gifts of love And still is ours to- day. _ _
 v2: Oh, may this boun- teous God Through all our life be near us, With ev- er joy- ful hearts And bless- ed peace to cheer us And keep us in His grace, And guide _ us when per- plexed, And free us from all ills In this world and the next. _ _
-v3: All praise and thanks to God The Fa- ther now be giv- en, The Son, and Him who reigns With them in high- est heav- en, The one e- ter- nal God, Whom _ _ earth and heav- en a- dore, For thus it was, is now, And shall be ev- er- moer.
+v3: All praise and thanks to God The Fa- ther now be giv- en, The Son, and Him who reigns With them in high- est heav- en, The one e- ter- nal God, Whom _ _ earth and heav- en a- dore, For thus it was, is now, And shall be ever- more. Amen.

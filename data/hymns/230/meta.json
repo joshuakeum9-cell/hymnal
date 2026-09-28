@@ -30,7 +30,7 @@
    "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
   }
  },
- "publish": false,
+ "publish": true,
  "checked_against_book": false,
  "notes": "",
  "sources": {
@@ -42,5 +42,14 @@
   },
   "credits": "bibletoppt.com (AI-assisted, spot-check)",
   "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ },
+ "rights_override": {
+  "publish": true,
+  "basis": "Medieval plainsong with a Monk harmonization (score credit 'Plain Song/W.H.Monk') and Woodford's 1850 translation; every layer is PD.",
+  "sources": [
+   "https://hymnary.org/text/thee_we_adore_o_hidden_savior_thee",
+   "https://hymnology.hymnsam.co.uk/t/thee-we-adore,-o-hidden-saviour,-thee"
+  ],
+  "checked": "2026-09-28"
  }
 }

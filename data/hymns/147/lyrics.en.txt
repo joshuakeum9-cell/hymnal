@@ -3,10 +3,11 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Were you there when they cru- ci- fied my Lord? Were you there when they cru- ci- fied my Lord? Oh! _ _ _ Some- times it cau- ses me to trem- ble, trem- ble, trem- ble. Were you there when they cru- ci- fied my Lord?
-v2: Were you there when they nailed Him to the tree? Were you there when they nailed Him to the tree? Oh! _ _ _ Some- times it cau- ses me to trem- ble, trem- ble, trem- ble. Were you there when they cru- ci- fied my Lord?
-v3: Were you there when the sun re- fused to shine? Were you there when the sun re- fused to shine? Oh! _ _ _ Some- times it cau- ses me to trem- ble, trem- ble, trem- ble. Were you there when they cru- ci- fied my Lord?
-v4: Were you there when they laid Him in the tomb? Were you there when they laid Him in the tomb? Oh! _ _ _ Some- times it cau- ses me to trem- ble, trem- ble, trem- ble. Were you there when they cru- ci- fied my Lord?
-v5: Were you there when He rose up from the dead? Were you there when He rose up from the dead? Oh! _ _ _ Some- times I feel like shout- ing glo- ry, glo- ry, glo- ry! Were you there when they cru- ci- fied my Lord?
+v1: Were you there when they cru- ci- fied my Lord Were you there when they cru- ci- fied my Lord? Oh! _ _ _ Some- times it cau- ses me to trem- ble, trem- ble, trem- ble, Were you there when they cru- ci- fied my Lord?
+v2: Were you there when they nailed Him to the tree Were you there when they nailed Him to the tree? Oh! _ _ _ Some- times it cau- ses me to trem- ble, trem- ble, trem- ble, Were you there when they cru- ci- fied my Lord?
+v3: Were you there when the sun re- fused to shine Were you there when the sun re- fused to shine? Oh! _ _ _ Some- times it cau- ses me to trem- ble, trem- ble, trem- ble, Were you there when they cru- ci- fied my Lord?
+v4: Were you there when they laid Him in the tomb Were you there when they laid Him in the tomb? Oh! _ _ _ Some- times it cau- ses me to trem- ble, trem- ble, trem- ble, Were you there when they cru- ci- fied my Lord?
+v5: Were you there when He rose up from the dead Were you there when He rose up from the dead? Oh! _ _ _ Some- times I feel like shout- ing glo- ry glo- ry glo- ry Were you there when they cru- ci- fied my Lord?

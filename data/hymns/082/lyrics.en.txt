@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: I lay my sins on Je- sus, The spot- less Lamb of God He bears them all, and frees us From the ac- curs- ed load. I bring my guilt to _ Je- sus, To wash my crim- son stains White in His blood most pre- cious, Till not a spot re- mains.
-v2: I lay my wants on Je- sus, All full- ness dwells in Him He heals all my dis- eas- es, He doth my soul re- deem. I lay my griefs on _ Je- sus, My bur- dens and my cares He from them all re- leas- es, He all my sor- rows shares.
-v3: I rest my soul on Je- sus, This wea- ry soul of mine His right hand me em- brac- es, I on His breast re- cline. I love the name of _ Je- sus, Im- man- uel Christ, the Lord Like fra- grance on the breez- es, His name a- broad is poured.
-v4: I long to be, like Je- sus, Meek, lov- ing, low- ly, mild I long to be, like Je- sus, The Fa- ther's ho- ly child, I long to be with _ Je- sus, A- mid the heav'n- ly throng To sing with saints His prais- es, To learn the an- gels' song.
+v1: I lay my sins on Je- sus, The spot- less Lamb of God; He bears them all, and frees us From the ac- curs- ed load. I bring my guilt to _ Je- sus, To wash my crim- son stains; White in His blood most pre- cious, Till not a spot re- mains.
+v2: I lay my wants on Je- sus, All full- ness dwells in Him; He heals all my dis- eas- es, He doth my soul re- deem. I lay my griefs on _ Je- sus, My bur- dens and my cares; He from them all re- leas- es, He all my sor- rows shares.
+v3: I rest my soul on Je- sus, This wea- ry soul of mine; His right hand me em- brac- es, I on His breast re- cline. I love the name of _ Je- sus, Im- man- uel Christ, the Lord; Like fra- grance on the breez- es, His name a- broad is poured.
+v4: I long to be, like Je- sus, Meek, lov- ing, low- ly, mild; I long to be, like Je- sus, The Fa- ther's ho- ly child, I long to be with _ Je- sus, A- mid the heaven- ly throng; To sing with saints His prais- es, To learn the an- gels' song.

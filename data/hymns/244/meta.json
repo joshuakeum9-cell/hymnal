@@ -30,7 +30,7 @@
    "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
   }
  },
- "publish": false,
+ "publish": true,
  "checked_against_book": false,
  "notes": "",
  "sources": {
@@ -42,5 +42,14 @@
   },
   "credits": "bibletoppt.com (AI-assisted, spot-check)",
   "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ },
+ "rights_override": {
+  "publish": true,
+  "basis": "SINE NOMINE (English Hymnal 1906; Vaughan Williams died 1958) with How's 1864 text; the korean_authored flag and the '제성절' credit fragment are data errors.",
+  "sources": [
+   "http://www.kehcnews.co.kr/news/articleView.html?idxno=4702",
+   "http://www.kctusa.org/news/articleView.html?idxno=72682"
+  ],
+  "checked": "2026-09-28"
  }
 }

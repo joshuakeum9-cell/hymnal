@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Thine is the glo- ry, Ris- _ en, _ con- quering son End- _ less _ is the vic- tory Thou o'er death hast won. An- _ gels _ in bright rai- ment Rolled the stone a- way, Kept _ the _ fold- ed grave clothes Where Thy _ bod- y lay. Thine is the glo- ry, Ris- _ en, _ con- quring Son End- _ less _ is the vic- tory Thou o'er death hast won.
-v2: Lo! Je- sus meets us, Ris- _ en _ from the tomb, Lov- _ ing- _ ly He greets us, Scat- ters fear and gloom Let _ His _ Church with glad- ness Hymns of tri- umph sing, For _ her _ Lord now liv- eth Death hath _ lost its sting. Thine is the glo- ry, Ris- _ en, _ con- quring Son End- _ less _ is the vic- tory Thou o'er death hast won.
-v3: No moer we doubt Thee, Glo- _ rious _ Prince of life! Life _ is _ nought with- out Thee Aid us in our strife Make _ us _ more than con- querors, Through Thy death- less love, Bring _ us _ safe through Jor- dan To Thy _ home a- bove. Thine is the glo- ry, Ris- _ en, _ con- quring Son End- _ less _ is the vic- tory Thou o'er death hast won.
+v1: Thine is the glo- ry, Ris- _ en, _ con- quering son; End- _ less _ is the vic- tory Thou over death hast won. An- _ gels _ in bright rai- ment Rolled the stone a- way, Kept _ the _ fold- ed grave clothes Where Thy _ bod- y lay. Thine is the glo- ry, Ris- _ en, _ con- quering Son: End- _ less _ is the vic- tory Thou over death hast won.
+v2: Lo! Je- sus meets us. Ris- _ en _ from the tomb; Lov- _ ing- _ ly He greets us, Scat- ters fear and gloom; Let _ His _ Church with glad- ness Hymns of tri- umph sing, For _ her _ Lord now liv- eth; Death hath _ lost its sting. Thine is the glo- ry, Ris- _ en, _ con- quering Son: End- _ less _ is the vic- tory Thou over death hast won.
+v3: No more we doubt Thee, Glo- _ rious _ Prince of life! Life _ is _ naught with- out Thee; Aid us in our strife; Make _ us _ more than con- querors, Through Thy death- less love, Bring _ us _ safe through Jor- dan To Thy _ home a- bove. Thine is the glo- ry, Ris- _ en, _ con- quering Son: End- _ less _ is the vic- tory Thou over death hast won.

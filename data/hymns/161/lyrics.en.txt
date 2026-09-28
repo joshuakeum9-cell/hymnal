@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: exact, auto, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 v1: Hal- le- lu- jah, He is ris- en! Je- sus is gone up on high! Burst the bars of death a- sun- der, An- gels shout and men re- ply: He is ris- en, He is ris- en, Liv- ing now, no more to die. He is ris- en, He is ris- en, Liv- ing now, no more to die.
-v2: Hal- le- lu- jah, He _ is ris- en! Our ex- alt- ed Head to be Sends the wit- ness of the Spir- it That our Ad- vocate is He. He is ris- en, He is ris- en, Jus- ti- fied in Him are we. He is ris- en, He is ris- en, Jus- ti- fied in Him are we.
+v2: Hal- le- lu- jah, He _ is ris- en! Our ex- alt- ed Head to be; Sends the wit- ness of the Spir- it That our Ad- vocate is He. He is ris- en, He is ris- en; Jus- ti- fied in Him are we. He is ris- en, He is ris- en, Jus- ti- fied in Him are we.
 v3: Hal- le- lu- jah, He is ris- en! Death for aye hath lost his sting. Christ, Him- self the Res- ur- rec- tion, From the grave His own will bring. He is ris- en, He is ris- en, Liv- ing Lord and com- ing King. He is ris- en, He is ris- en, Liv- ing Lord and com- ing King!

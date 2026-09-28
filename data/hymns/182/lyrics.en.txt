@@ -3,10 +3,11 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: auto, auto, auto, auto, auto)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Joys are flow- _ ing like a riv- er, Since the _ Com- fort- er has come He a- bid- _ es with us for- ev- er, Makes the trust- ing heart His home. Bless- ed qui- et- ness, ho- ly qui- et- ness, What as- sur- ance in my soul! On the storm- y sea, He speaks peace to me, How the bil- lows cease to roll!
-v2: Bring- ing life, _ and health _ and glad- ness, All a- round this heav'n- ly Guest, Ban- _ ished _ un- be- lief and sad- ness, Changed our wea- ri- ness to rest. Bless- ed qui- et- ness, ho- ly qui- et- ness, What as- sur- ance in my soul! On the storm- y sea, He speaks peace to me, How the bil- lows cease to roll!
+v1: Joys are flow- _ ing like a riv- er, Since the _ Com- fort- er has come; He a- bid- _ es with us for- ev- er, Makes the trust- ing heart His home. Bless- ed qui- et- ness, ho- ly qui- et- ness, What as- sur- ance in my soul! On the storm- y sea, He speaks peace to me, How the bil- lows cease to roll!
+v2: Bring- ing life, _ and health _ and glad- ness, All a- round this heaven- ly Guest, Ban- _ ished _ un- be- lief and sad- ness, Changed our wea- ri- ness to rest. Bless- ed qui- et- ness, ho- ly qui- et- ness, What as- sur- ance in my soul! On the storm- y sea, He speaks peace to me, How the bil- lows cease to roll!
 v3: Like the rain _ that falls from heav- en, Like the _ sun- light from the sky, So _ the _ Ho- ly Ghost is giv- en, Com- ing on us from on high. Bless- ed qui- et- ness, ho- ly qui- et- ness, What as- sur- ance in my soul! On the storm- y sea, He speaks peace to me, How the bil- lows cease to roll!
-v4: See, a fruit- _ ful field _ is _ grow- ing, Bless- ed fruit of right- eous- ness And the _ streams of life are flow- ing In the lone- ly wil- der- ness. Bless- ed qui- et- ness, ho- ly qui- et- ness, What as- sur- ance in my soul! On the storm- y sea, He speaks peace to me, How the bil- lows cease to roll!
+v4: See, a fruit- _ ful field _ is _ grow- ing, Bless- ed fruit of right- eous- ness; And the _ streams of life are flow- ing In the lone- ly wil- der- ness. Bless- ed qui- et- ness, ho- ly qui- et- ness, What as- sur- ance in my soul! On the storm- y sea, He speaks peace to me, How the bil- lows cease to roll!
 v5: What a won- _ der- ful sal- va- tion, Where we _ al- ways see His face! What _ a _ per- fect hab- i- ta- tion, What a qui- et rest- ing place! Bless- ed qui- et- ness, ho- ly qui- et- ness, What as- sur- ance in my soul! On the storm- y sea, He speaks peace to me, How the bil- lows cease to roll!

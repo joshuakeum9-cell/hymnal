@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: auto, auto, exact, auto)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Ho- ly, Ho- ly, Ho- ly! Lord God al- might- y! Ear- ly in the morn- ing Our song shall rise to thee Ho- ly, Ho- _ ly, Ho- ly! Mer- ci- _ ful and Might- y! God in three Per- sons, bless- ed trin- i- ty! _ _
-v2: Ho- ly, Ho- ly, Ho- ly! All the saints a- dore Thee, Cast- ing down their gold- en crowns a- round the glass- y sea Cher- u- bim and ser- a- phim fall- ing down be- fore Thee, Which wert, and art, and ev- er- more shalt _ be.
-v3: Ho- ly, Ho- ly, Ho- ly! Tho' the dark- ness hide Thee, Tho' the eye of sin- ful man Thy glo- ry may not see On- ly, Thou art Ho- ly! there is none be- side Thee, Per- fact in pow'r in love, and pu- ri- ty. _ _
-v4: Ho- ly, Ho- ly, Ho- ly! Lord God Al- might- y! All Thy _ works shall praise Thy name, in earth, and sky, and sea Ho- ly, Ho- ly, Ho- ly! Mer- ci- ful and Might- y! God- in Three Per- sons, bless- _ ed _ Trin- i- ty!
+v1: Ho- ly, Ho- ly, Ho- ly! Lord God al- might- y! Ear- ly in the morn- ing our song shall rise to thee Ho- ly, Ho- _ ly, Ho- ly! Mer- ci- _ ful and Might- y! God in three Per- sons, bless- ed Trin- i- ty! _ _
+v2: Ho- ly, Ho- ly, Ho- ly! All the saints a- dore Thee, Cast- ing down their gold- en crowns a- round the glass- y sea; Cher- u- bim and ser- a- phim fall- ing down be- fore Thee, Which wert, and art, and ev- er- more shalt _ be.
+v3: Ho- ly, Ho- ly, Ho- ly! Though the dark- ness hide Thee, Though the eye of sin- ful man Thy glo- ry may not see; On- ly, Thou art Ho- ly! there is none be- side Thee, Per- fect in power, in love, and pu- ri- ty. _ _
+v4: Ho- ly, Ho- ly, Ho- ly! Lord God Al- might- y! All Thy _ works shall praise Thy name, in earth, and sky, and sea; Ho- ly, Ho- ly, Ho- ly! Mer- ci- ful and Might- y! God in Three Per- sons, bless- _ ed _ Trin- i- ty!

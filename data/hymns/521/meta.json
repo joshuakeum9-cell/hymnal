@@ -30,7 +30,7 @@
    "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
   }
  },
- "publish": false,
+ "publish": true,
  "checked_against_book": false,
  "notes": "",
  "sources": {
@@ -42,5 +42,13 @@
   },
   "credits": "bibletoppt.com (AI-assisted, spot-check) ai-draft",
   "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ },
+ "rights_override": {
+  "publish": true,
+  "basis": "Sweney's 1880 tune with an anonymous text printed in Korea by 1919; both layers are PD, but the stored English is a back-translation.",
+  "sources": [
+   "https://risen.runean.com/entry/%EC%B0%AC%EC%86%A1%EA%B0%80-521%EC%9E%A5-%EA%B5%AC%EC%9B%90%EC%9C%BC%EB%A1%9C-%EC%9D%B8%EB%8F%84%ED%95%98%EB%8A%94-%EA%B0%80%EC%82%AC%EC%95%85%EB%B3%B4NWCMP3-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C"
+  ],
+  "checked": "2026-09-28"
  }
 }

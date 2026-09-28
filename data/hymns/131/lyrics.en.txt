@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: exact, exact, exact, auto)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: O come, let us _ sing to _ the Lord, To Him _ our voi- _ ces raise With joy- _ ful noise _ let us _ _ the Rock Of our _ _ sal- va- _ tion praise. _ _
-v2: Let us be- fore _ His pres- _ ence come With praise, _ and thank- _ ful voice Let us _ sing psalms _ to Him _ _ with grace, And make _ _ a joy- _ ful noise. _ _
-v3: For God's a great _ God, and _ great King A- bove _ all gods _ He is. The depths _ of earth _ are in _ _ His hand Our heights _ _ of hills _ are His. _ _
-v4: O, come, and let _ us wor- _ ship Him Let us _ bow down, _ with- al, And on _ our knees _ be- fore _ _ the Lord, Our _ _ _ _ Mas- _ ter, let us fall.
+v1: O come, let us _ sing to _ the Lord, To Him _ our voi- _ ces raise; With joy- _ ful noise _ let us _ _ the Rock Of our _ _ sal- va- _ tion praise. _ _
+v2: Let us be- fore _ His pres- _ ence come With praise, _ and thank- _ ful voice; Let us _ sing psalms _ to Him _ _ with grace, And make _ _ a joy- _ ful noise. _ _
+v3: For God's a great _ God, and _ great King; A- bove _ all gods _ He is. The depths _ of earth _ are in _ _ His hand; Our heights _ _ of hills _ are His. _ _
+v4: O, come, and let _ us wor- _ ship Him; Let us _ bow down, _ with- al, And on _ our knees _ be- fore _ _ the Lord, Our _ _ _ _ Mas- _ ter, let us fall.

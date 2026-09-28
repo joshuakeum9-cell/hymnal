@@ -2,10 +2,12 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: exact, exact, exact, auto)
+# quality: exact (per verse: exact, exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: The God of A- braham praise, Who reigns en- throned a- bove An- cient of ev- er- last- ing days, And God of love. Je- ho- vah, great I AM, By _ earth _ and _ heav'n con- fessed I bow and bless the sa- cred _ Name, For- _ ev- er blest. _ _
-v2: He by Him- self hath sworn, I on His oath de- pend I shall, on ea- gles' wings up- borne, To heav'n as- cend I shall be- hold His face, I _ shall _ His _ pow'r a- dore, And sing the won- ders of His _ grace For- _ ev- er- more. _ _
-v3: The God who reigns on high The great arch- an- gels sing, And "Ho- ly, ho- ly, ho- ly" cry, "Al- might- y King!" Who was and is the same, And _ ev- _ er- _ more shall be: Je- ho- vah, Fa- ther, great I _ AM, We _ wor- ship Thee. _ _
-v4: The whole tri- um- phant host Give thanks to God on high "Hail, Fa- ther, Son, and Ho- ly Ghost!" They ev- er cry. Hail, A- braham's God, and mine! I _ join _ the _ heav'n- ly lays All might and maj- es- ty _ _ are _ _ Thine, And end- less praise.
+# placement: verses 1, 2, 3, 4 follow the Open Hymnal Project's engraving of this tune
+v1: The God of A- braham praise, Who reigns en- throned a- bove An- cient of ever- last- ing days, And God of love. Je- ho- vah, great I AM, By earth _ and _ heaven _ con- fessed _ I bow and bless the sa- cred _ Name, For- _ ev- er blest. _ _
+v2: He by Him- self hath sworn, I on His oath de- pend I shall, on ea- gles' wings up- borne, To heaven as- cend; I shall be- hold His face, I _ shall _ His _ power a- _ dore, And sing the won- ders of _ His grace _ For- ever- more. _ _
+v3: The God who reigns on high The great arch- an- gels sing, And "Ho- ly, ho- ly, ho- ly" cry, "Al- mighty King!" Who was and is the same, And ev- _ er- _ more _ shall be: _ Je- ho- vah, Fa- ther, great I _ AM, We _ wor- ship Thee. _ _
+v4: The whole tri- um- phant host Give thanks to God on high "Hail, Fa- ther, Son, and Ho- ly Ghost!" They ever cry. Hail, A- braham's God, and mine! I join _ the _ heaven- _ ly lays _ All might and maj- es- ty are _ Thine, And _ end- less praise. A- men.

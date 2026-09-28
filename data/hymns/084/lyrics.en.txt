@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: The Lord of Glo- ry, the Light of Earth, When earth lay cap- tive to night. And sin had robb'd her of truth and worth, Shin'd forth, and all things were bright! Glo- ry! glo- ry and praise! Lord of Glo- ry al- ways! In my heart has His light ra- diant- ly shone. Lord of Glo- ry al- ways! Glo- ry! glo- ry and praise! Light of all the world is Je- sus, Je- sus, a- lone!
+v1: The Lord of Glo- ry, the Light of Earth, When earth lay cap- tive to night. And sin had robbed her of truth and worth, Shined forth, and all things were bright! Glo- ry! glo- ry and praise! Lord of Glo- ry al- ways! In my heart has His light ra- diant- ly shone. Lord of Glo- ry al- ways! Glo- ry! glo- ry and praise! Light of all the world is Je- sus, Je- sus, a- lone!
 v2: Who hear and be- lieve the Mas- ter's word Know joy of heart all the way. Who do God's com- mands, the light of God Shall light their bright- en- ing day. Glo- ry! glo- ry and praise! Lord of Glo- ry al- ways! In my heart has His light ra- diant- ly shone. Lord of Glo- ry al- ways! Glo- ry! glo- ry and praise! Light of all the world is Je- sus, Je- sus, a- lone!
-v3: Who live in the dark of sin are blind, Their world con- fu- sion and fear. Whose guilt has been clean's by Je- sus find Eyes bright and vi- sion made clear. Glo- ry! glo- ry and praise! Lord of Glo- ry al- ways! In my heart has His light ra- diant- ly shone. Lord of Glo- ry al- ways! Glo- ry! glo- ry and praise! Light of all the world is Je- sus, Je- sus, a- lone!
+v3: Who live in the dark of sin are blind, Their world con- fu- sion and fear. Whose guilt has been cleansed by Je- sus find Eyes bright and vi- sion made clear. Glo- ry! glo- ry and praise! Lord of Glo- ry al- ways! In my heart has His light ra- diant- ly shone. Lord of Glo- ry al- ways! Glo- ry! glo- ry and praise! Light of all the world is Je- sus, Je- sus, a- lone!

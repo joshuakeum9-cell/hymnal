@@ -1,0 +1,10 @@
+# 244 For All the Saints
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: For all the saints, who from their la- bors rest, Who Thee by faith be- fore the world con- fessed, Thy name, O Je- sus, be for- ev- _ er _ blest. Al- _ le- _ lu- ia! Al- _ _ le- lu- ia!
+v2: O may Thy sol- diers, faith- ful, true, and bold, Fight as the saints who no- bly fought of old, And win with them the vic- tor's crown _ of _ gold. Al- _ le- _ lu- ia! Al- _ _ le- lu- ia!
+v3: O blest com- mun- ion, fel- low- ship di- vine! We fee- bly strug- gle, they in glo- ry shine; Yet all are one in Thee, for all _ are _ Thine. Al- _ le- _ lu- ia! Al- _ _ le- lu- ia!

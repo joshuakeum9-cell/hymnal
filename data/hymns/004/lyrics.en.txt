@@ -3,6 +3,7 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: auto)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Glo- ry be to the Fa- ther, and to the Son, and to the Ho- ly Ghost; As it was in the be- gin- ning, is now, and ev- er shall be, world with- out end. A- men, A- _ men
+v1: Glo- ry be to the Fa- ther, and to the Son, and to the Ho- ly Ghost; As it was in the be- gin- ning, is now, and ev- er shall be, world with- out end. A- men, A- _ men.

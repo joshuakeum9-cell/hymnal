@@ -2,9 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: exact, auto, exact)
+# quality: exact (per verse: exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+# placement: verses 1, 2, 3 follow the Open Hymnal Project's engraving of this tune
 v1: My Je- sus, _ as Thou _ wilt! O may Thy _ will be mine In- to Thy _ hand of love I _ would _ my all _ re- sign. _ Through sor- row, _ or through _ joy, Con- duct me _ as Thine own And help me _ still to say, My _ Lord, Thy will be done. _ _
-v2: My Je- sus, _ as Thou _ wilt! Though seen through _ man- y a tear, Let not _ my star of hope _ Grow _ dim or _ dis- ap- _ pear. Since Thou _ on earth _ hast wept, And sor- _ rowed oft a- lone, If I _ must weep with Thee, _ My Lord, Thy will be _ done.
+v2: My Je- sus, _ as Thou _ wilt! Though seen through _ many a tear, Let not my _ star of hope Grow _ dim _ or dis- _ ap- pear. _ Since Thou on _ earth hast _ wept, And sor- rowed _ oft a- lone, If I must _ weep with Thee, My _ Lord, Thy will be done. _ _
 v3: My Je- sus, _ as Thou _ wilt! All shall be _ well for me Each chang- ing _ fu- ture scene I _ glad- _ ly trust _ with Thee. _ Straight to my _ home a- _ bove I trav- el _ calm- ly on And sing, in _ life or death, My _ Lord, Thy will be done. A- men.

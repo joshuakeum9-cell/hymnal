@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: auto, auto, auto, auto)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Take the name of Jesus with you, Child of sor- row and of Woe It will joy and com- fort give you, Take it then Where- 'er you go. Pre- cious name, O how sweet! Hope of earth and joy of hea- ven, Pre- cious name, O how sweet- Hope of earth and joy of hea- ven
-v2: Take the name of Je- sus ever, As a shield from ev- 'ry snare If temp- ta- tion round you gath- er Breathe that ho- ly name in prayer. Pre- cious name, O how sweet! Hope of earth and joy of heav- en, Pre- cious name, O how sweet- Hope of earth and joy of heav- en
-v3: O the pre- cious name of Je- sus! How it thrills our souls with joy When His loving arms re- ceive us, Breathe that ho- ly name in prayer. Pre- cious name, O how sweet! Hope of earth and joy of heav- en, Pre- cious name, O how sweet- Hope of earth and joy of heav- en
-v4: At the name of Je- sus Bowing, Fall- ing pros- trate at His feet, King of kings in heav'n we'll crown Him, When our jour- ney is com- plete. Pre- cious name, O how sweet! Hope of earth and joy of heav- en, Pre- cious name, O how sweet- Hope of earth and joy of heav- en
+v1: Take the name of Jesus with you, Child of sor- row and of Woe; It will joy and com- fort give you, Take it then Where- 'er you go. Pre- cious name, O how sweet! Hope of earth and joy of hea- ven, Pre- cious name, O how sweet Hope of earth and joy of heav- en.
+v2: Take the name of Je- sus ever, As a shield from ev- ery snare; If temp- ta- tion round you gath- er, Breathe that ho- ly name in prayer. Pre- cious name, O how sweet! Hope of earth and joy of heav- en, Pre- cious name, O how sweet Hope of earth and joy of heav- en.
+v3: O the pre- cious name of Je- sus! How it thrills our souls with joy When His loving arms re- ceive us, And His songs our tongues em- ploy! Pre- cious name, O how sweet! Hope of earth and joy of heav- en, Pre- cious name, O how sweet Hope of earth and joy of heav- en.
+v4: At the name of Je- sus Bowing, Fall- ing pros- trate at His feet, King of kings in heaven we'll crown Him, When our jour- ney is com- plete. Pre- cious name, O how sweet! Hope of earth and joy of heav- en, Pre- cious name, O how sweet Hope of earth and joy of heav- en.

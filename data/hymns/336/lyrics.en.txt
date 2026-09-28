@@ -2,9 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: auto, exact, auto)
+# quality: auto (per verse: exact, exact, auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Faith of our fa- _ thers, liv- _ ing still, In spite of dung- eon, fire _ and sword; O how our hearts _ beat high _ with joy Whe- ne- ver we hear that glo- rious Word! Faith of our fa- thers, ho- ly faith! We will be true to thee till death. _ _
+# placement: verses 1 follow the Open Hymnal Project's engraving of this tune
+v1: Faith of our fa- _ thers, liv- _ ing still, In spite of dung- eon, fire and sword; O how our hearts beat _ high with _ joy Whe- ne- ver we hear that glo- _ rious Word! Faith of our fa- thers, ho- ly faith! We will be true to thee till death. _ _
 v2: Our fa- thers chain'd _ in pri- _ sons dark where still in heart and con- _ science free And blest would be _ their chil- _ dren's fate If they like them should die _ for thee Faith of our fa- thers, ho- ly faith! We will be true to thee till death. _ _
 v3: Faith of our fa- _ thers, we _ will love Both friend and foe in all _ our strife; And preach Thee, too, _ as love _ knows how By kind- ly words and vir- _ tuous life. Faith _ of our fa- thers, ho- ly faith! _ We will be true to thee till death.

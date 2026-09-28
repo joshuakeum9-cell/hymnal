@@ -30,7 +30,7 @@
    "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
   }
  },
- "publish": false,
+ "publish": true,
  "checked_against_book": false,
  "notes": "",
  "sources": {
@@ -42,5 +42,13 @@
   },
   "credits": "bibletoppt.com (AI-assisted, spot-check)",
   "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ },
+ "rights_override": {
+  "publish": true,
+  "basis": "Scripture text with a Beethoven melody; Hymnary lists the tune as public domain.",
+  "sources": [
+   "https://hymnary.org/tune/all_things_come_of_thee_o_lord_beethoven"
+  ],
+  "checked": "2026-09-28"
  }
 }

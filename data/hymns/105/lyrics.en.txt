@@ -3,7 +3,8 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: auto, auto)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Come, Thou long- _ _ ex- pect- ed _ Je- sus, Born to set Thy _ peo- ple free From our _ fears and sins re- _ lease us Let us find our _ rest in Thee. Is- rael's _ Strength and Con- so- _ la- tion, Hope of _ all the _ earth Thou art _ Dear De- _ sire of _ ev- ery _ _ _ na- tion, Joy of _ ev- ery long- ing _ heart.
-v2: Born Thy peo- _ _ ple to de- _ liv- er, Born a child and _ yet a King, Born to _ reign in us for- _ ev- er, Now Thy gra- cious _ King- dom bring. By Thine _ own e- ter- nal _ Spir- it Rule in _ all our _ hearts a- lone _ By Thine _ all- suf- _ fi- _ _ _ _ cient mer- it Raise _ us to Thy glo- rious throne.
+v1: Come, Thou long- _ _ ex- pect- ed _ Je- sus, Born to set Thy _ peo- ple free; From our _ fears and sins re- _ lease us; Let us find our _ rest in Thee. Is- rael's _ Strength and Con- so- _ la- tion, Hope of _ all the _ earth Thou art; _ Dear De- _ sire of _ ev- ery _ _ _ na- tion, Joy of _ ev- ery long- ing _ heart.
+v2: Born Thy peo- _ _ ple to de- _ liv- er, Born a child and _ yet a King, Born to _ reign in us for- _ ev- er, Now Thy gra- cious _ King- dom bring. By Thine _ own e- ter- nal _ Spir- it Rule in _ all our _ hearts a- lone; _ By Thine _ all suf- _ fi- _ _ _ _ cient mer- it, Raise _ us to Thy glo- rious throne.

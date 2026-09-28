@@ -5,6 +5,7 @@
 # quality: exact (per verse: exact, exact, exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+# placement: verses 1, 2, 3, 4, 5 follow the Open Hymnal Project's engraving of this tune
 v1: Take my life, and let it be Con- se- crat- _ ed, Lord, to _ Thee. Take my mo- _ ments and my days Let them flow _ in cease- less praise. _ _
 v2: Take my hands, and let them move At the im- _ pulse of Thy _ love. Take my feet, _ and let them be Swift and beau- _ ti- ful for Thee. _ _
 v3: Take my voice, and let me sing, Al- ways, on- _ ly, for my _ King. Take my lips, _ and let them be Filled with mes- _ sa- ges from Thee. _ _

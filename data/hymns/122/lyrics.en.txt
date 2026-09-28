@@ -2,10 +2,12 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: auto, auto, auto, auto)
+# quality: exact (per verse: exact, exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: O come, all ye faith- ful, joy- ful _ and tri- um- phant, O come ye, O come _ ye to Beth- le- _ hem! Come and be- hold Him, born the King _ of an- gles! O come, let us _ a- dore Him, O come, let _ us a- dore Him, O come, _ _ let us a- dore Him, Christ the Lord! _ _
-v2: O Sing, choirs of an- gels, sing in _ ex- ul- ta- tion, O sing, all ye bright _ hosts of heav'n a- bove! Glo- ry to God, all glo- ry in the _ high- est! O _ come, let us _ a- dore Him, O come, let _ us a- dore Him, O come, _ _ let us a- dore Him, Christ the Lord! _ _
-v3: For God of true God, this world's di- _ vine Re- deem- er, In grace con- de- scend- _ ing to be tru- ly man, De- spis'd not the womb of vir- gin, sweet and low- ly O come, let us _ a- dore Him, O come, let _ us a- dore Him, O come, _ _ let us a- dore Him, Christ the Lord! _ _
-v4: O Yea, Lord, we greet Thee, born this _ hap- py morn- ing, O Je- sus, to Thee _ be all glo- ry giv'n Word of the Fa- ther, now in flesh ap- _ pear- ing! O _ come, let us _ a- dore Him, O come, let _ us a- dore Him, O come, _ _ let us a- dore Him, Christ _ the Lord! _
+# placement: verses 1, 2, 3, 4 follow the Open Hymnal Project's engraving of this tune
+v1: O come, all ye faith- ful, _ joy- ful and tri- um- phant, O come ye, O come _ ye to Beth- _ le- hem! _ Come and be- hold Him, _ born the King of an- _ gels! O come, let us a- dore Him, O come, let us a- dore Him, O come, let us a- dore Him, _ Christ _ the Lord! _ _
+v2: O Sing, choirs of an- gels, _ sing in ex- ul- ta- tion, O sing, all ye citi- _ zens of heaven _ a- bove! _ Glo- ry to God, all _ glo- ry in the high- _ est! O come, let us a- dore Him, O come, let us a- dore Him, O come, let us a- dore Him, _ Christ _ the Lord! _ _
+v3: For God of true God, this _ world's di- vine Re- deemer, In grace con- de- scending to _ be tru- ly _ man, De- _ spised not the womb of _ vir- gin, sweet and low- _ ly O come, let us a- dore Him, O come, let us a- dore Him, O come, let us a- dore Him, _ Christ _ the Lord! _ _
+v4: O Yea, Lord, we greet Thee, _ born this hap- py morn- ing, O Je- sus, to Thee _ be all glo- _ ry given; _ Word of the Fa- ther, _ now in flesh ap- pear- _ ing! O come, let us a- dore Him, O come, let us a- dore Him, O come, let us a- dore Him, _ Christ _ the Lord! A- men.

@@ -30,7 +30,7 @@
    "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
   }
  },
- "publish": false,
+ "publish": true,
  "checked_against_book": false,
  "notes": "",
  "sources": {
@@ -42,5 +42,15 @@
   },
   "credits": "bibletoppt.com (AI-assisted, spot-check)",
   "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ },
+ "rights_override": {
+  "publish": true,
+  "basis": "The 1985 Korean composer credit is an AI error: the tune is an anonymous 19th-century melody in Korean hymnals since 1905 (Doane's Songs of Devotion 1870), and the text is Alexander 1848.",
+  "sources": [
+   "http://www.pyungkang.com/logos_04/147244",
+   "https://blog.daum.net/osowny/14688638 (오소운, via search excerpt)",
+   "https://hymnary.org/text/once_in_royal_davids_city_stood_a_lowly"
+  ],
+  "checked": "2026-09-28"
  }
 }

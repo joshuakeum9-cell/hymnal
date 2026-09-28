@@ -30,7 +30,7 @@
    "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
   }
  },
- "publish": false,
+ "publish": true,
  "checked_against_book": false,
  "notes": "",
  "sources": {
@@ -42,5 +42,14 @@
   },
   "credits": "bibletoppt.com (AI-assisted, spot-check)",
   "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ },
+ "rights_override": {
+  "publish": true,
+  "basis": "This is Hewitt/Excell's 1894 ''Tis for You and Me' (Triumphant Songs No. 4), taken into the Korean 신편찬송가 1935; the stored English is a back-translation, so use Hewitt's original.",
+  "sources": [
+   "https://hymnary.org/text/theres_a_pardon_full_and_sweet",
+   "https://www.mapianist.com/sheet/96664"
+  ],
+  "checked": "2026-09-28"
  }
 }

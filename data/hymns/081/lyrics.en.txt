@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 v1: Je- sus, price- less Treas- ure, Source of pur- est pleas- ure, Tru- _ est friend to me, Long my heart hath pant- ed, Till it well- nigh faint- ed, Thirst- _ ing aft- er Thee. Thine I am, O spot- less Lamb, I will suf- fer nought to hide Thee, Ask _ for nought be- side Thee. _ _
-v2: In Thine arm I rest me Foes who would mo- lest me Can- _ not reach me here. Though the earth be shak- ing, Ev- ery heart be quak- ing, God _ dis- pels our fear Sin and hell in con- flict fell With their heav- iest storms as- sail us: Je- _ sus will not fail us. _ _
-v3: Hence, all thoughts of sad- ness! For the Lord of glad- ness, Je- _ sus, en- ters in Those who love the Fa- ther, Though the storms may gath- er, Still _ have peace with- in. Yea, what- e'er we here must bear, Still in Thee lies pur- est pleas- ure, Je- _ sus, price- less Treas- ure! A- men.
+v2: In Thine arm I rest me; Foes who would mo- lest me Can- _ not reach me here. Though the earth be shak- ing, Ev- ery heart be quak- ing, God _ dis- pels our fear; Sin and hell in con- flict fell With their heav- iest storms as- sail us: Je- _ sus will not fail us. _ _
+v3: Hence, all thoughts of sad- ness! For the Lord of glad- ness, Je- _ sus, en- ters in. Those who love the Fa- ther, Though the storms may gath- er, Still _ have peace with- in. Yea, what- e'er we here must bear, Still in Thee lies pur- est pleas- ure, Je- _ sus, price- less Treas- ure! A- men.

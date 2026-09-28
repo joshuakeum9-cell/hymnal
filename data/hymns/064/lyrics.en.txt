@@ -2,10 +2,12 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: exact, auto, exact, auto)
+# quality: auto (per verse: exact, auto, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Joy- ful, joy- ful, we a- dore Thee, God of glo- ry, Lord of love Hearts un- fold like flow'rs be- fore Thee, Open- ing to the sun a- bove. Melt the clouds of sin and _ sad- ness Drive the _ dark of doubt a- way Giv- er of im- mor- tal glad- ness, _ Fill us with the light of day! _ _
-v2: All Thy works with joy sur- round Thee Earth and heav'n re- flect Thy rays Stars and an- gels sing a- round Thee, Cen- ter of un- bro- ken praise. Field and for- est, vale _ _ and moun- tain, Flow- _ ery mead- ow, flash- ing sea, Chant- ing bird and flow- ing foun- _ tain Call us re- joice in Thee. _ _
-v3: Thou art giv- ing and for- giv- ing, Ev- er bless- ing, ev- er blest, Well- spring of the joy of liv- ing, O- cean depth of hap- py rest! Thou our Fa- ther, Christ our _ Broth- er All who _ live in love are Thine. Teach us how to love each oth- er _ Lift us to the joy di- vine. _ _
-v4: Mor- tals join the might- y cho- rus Which the morn- ing stars be- gan. Fa- ther- love is reign- ing o'er us Broth- er- love binds man to man. Ev- er sing- ing, march _ _ we on- ward, _ _ Vic- tors in the midst of strife Joy- ful mu- sic leads us _ sun- ward In the tri- umph song of life.
+# placement: verses 1, 3, 4 follow the Open Hymnal Project's engraving of this tune
+v1: Joy- ful, joy- ful, we a- dore Thee, God of glo- ry, Lord of love; Hearts un- fold like flowers be- fore Thee, Open- ing to the sun a- bove. Melt the clouds of sin and _ sad- ness; Drive the _ dark of doubt a- way; Giv- er of im- mor- tal glad- _ ness, Fill us with the light of day! _ _
+v2: All Thy works with joy sur- round Thee; Earth and heaven re- flect Thy rays; Stars and an- gels sing a- round Thee, Cen- ter of un- bro- ken praise. Field and for- est, vale _ _ and moun- tain, Flow- _ ery mead- ow, flash- ing sea, Chant- ing bird and flow- ing foun- _ tain, Call us re- joice in Thee. _ _
+v3: Thou art giv- ing and for- giv- ing, Ev- er bless- ing, ev- er blest, Well- spring of the joy of liv- ing, O- cean depth of hap- py rest! Thou our Fa- ther, Christ our _ Broth- er, All who _ live in love are Thine. Teach us how to love each oth- _ er; Lift us to the joy di- vine. _ _
+v4: Mor- tals join the might- y cho- rus Which the morn- ing stars be- gan. Fa- ther love is reign- ing over us; Broth- er love binds man to man. Ev- er sing- ing, march we _ on- ward, Vic- tors _ in the midst of strife; Joy- ful mu- sic leads us sun- _ ward In the tri- umph song of life. A- men.

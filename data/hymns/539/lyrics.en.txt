@@ -1,0 +1,11 @@
+# 539 Go, Carry Thy Burden to Jesus
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Go, car- ry thy bur- den to Je- sus, And lay down thy load at His feet, Where Cal- va- ry's cross is u- plif- ted, Find par- don and com- fort- ing sweet. O, steal a- way soft- ly to Je- sus, To Him let thy heart be out- poured; Thy Fa- _ ther, who seeth in se- cret, Shall give thee a gra- cious re- ward.
+v2: Re- joice in His won- der- ful mer- cy, Thy soul from its sor- row re- lieved, Then, turn- ing in love to thy neigh- bor, Give free- ly, as thou hast re- ceived. O, steal a- way soft- ly to Je- sus, To Him let thy heart be out- poured; Thy Fa- _ ther, who seeth in se- cret, Shall give thee a gra- cious re- ward.
+v3: Let Christ be thy gra- cious Com- pan- ion, Keep close to His side, day by day; The Foun- tain, un- seen, of the bless- ings That bright- en and glad- den the way. O, steal a- way soft- ly to Je- sus, To Him let thy heart be out- poured; Thy Fa- _ ther, who seeth in se- cret, Shall give thee a gra- cious re- ward.
+v4: O, fel- low- ship pre- cious and ho- ly, His life, o- ver- flow- ing in love, Shall bring to the need- y a- round thee Fair sun- beams and bloom from a- bove. O, steal a- way soft- ly to Je- sus, To Him let thy heart be out- poured; Thy Fa- _ ther, who seeth in se- cret, Shall give thee a gra- cious re- ward.

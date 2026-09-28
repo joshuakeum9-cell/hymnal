@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: O _ day of rest _ and _ glad- ness, O _ day of joy _ and _ light, O _ balm of care _ and _ sad- ness, Most _ beau- ti- ful, _ most _ bright On Thee the high and low- ly, Through a- ges _ joined in tune, Sing Ho- ly, Ho- ly, Ho- ly, To the great _ God _ Tri- _ une. _ _
-v2: To- _ day on wea- _ ry _ na- tions The _ heav'n- ly man- _ na _ falls To _ ho- ly con- _ vo- _ ca- tions The _ sil- ver trump- _ et _ calls Where gos- pel light is glow- ing With pure and _ ra- diant beams, And liv- ing wa- ter flow- ing With soul re- _ fresh- _ ing _ streams. _ _
+v1: O _ day of rest _ and _ glad- ness, O _ day of joy _ and _ light, O _ balm of care _ and _ sad- ness, Most _ beau- ti- ful, _ most _ bright; On Thee the high and low- ly, Through a- ges _ joined in tune, Sing Ho- ly, Ho- ly, Ho- ly, To the great _ God _ Tri- _ une. _ _
+v2: To- _ day on wea- _ ry _ na- tions The _ heaven- ly man- _ na _ falls; To _ ho- ly con- _ vo- _ ca- tions The _ sil- ver trump- _ et _ calls Where gos- pel light is glow- ing With pure and _ ra- diant beams, And liv- ing wa- ter flow- ing With soul re- _ fresh- _ ing _ streams. _ _
 v3: New _ grac- es ev- _ er _ gain- ing From _ this our day _ of _ rest, We _ reach the rest _ re- _ main- ing To _ spir- its of _ the _ blest, "To Ho- ly Ghost be prais- es, To Fa- ther _ and to son!" The Church her voice up- rais- es To Thee, blest _ Three _ in _ One. A- men.

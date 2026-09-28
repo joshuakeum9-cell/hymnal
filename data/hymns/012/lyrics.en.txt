@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: exact, exact, exact, auto)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Je- ho- vah, let me now a- _ dore Thee, For where is there a God such, Lord, as Thou With songs I fain would come be- _ fore Thee Oh, let Thy Ho- ly Spir- it teach me now To praise Thee in His name thro' whom a- lone Our songs can please Thee, thro' Thy bless- ed Son! _ _
-v2: O Fa- ther, draw me to my _ Sav- iour That Thy dear Son may draw me un- to Thee Thy Spir- it guide my whole be- _ hav- or And rule bothe sense and rea- son thus in me That, Lord, Thy peace from me may ne'er de- part, But wake sweet mel- o- dies with- in my heart! _ _
-v3: Grant that Thy Spir- it prompt my _ prais- es, Then shall my sing- ing sure- ly please Thine ear Sweet are the sounds my heart then _ rais- es, My prayer in truth and spir- it Thou wilt hear, Then shall Thy Spir- it raise my heart to Thee To sing Thee psalms of praise in high de- gree _ _
-v4: For He can plead for me with _ sigh- ings, That are un- speak- a- ble to lips like mine He bids me pray with ear- nest _ cry- ings, Bears wit- ness with my soul that I am Thine, Joint heir With Christ, and thus may dare to say: O heav'n- _ _ ly Fa- ther, hear me when I pray!
+v1: Je- ho- vah, let me now a- _ dore Thee, For where is there a God such, Lord, as Thou? With songs I fain would come be- _ fore Thee Oh, let Thy Ho- ly Spir- it teach me now To praise Thee in His name through whom a- lone Our songs can please Thee, through Thy bless- ed Son! _ _
+v2: O Fa- ther, draw me to my _ Sav- ior That Thy dear Son may draw me un- to Thee; Thy Spir- it guide my whole be- _ ha- vior And rule both sense and rea- son thus in me That, Lord, Thy peace from me may never de- part, But wake sweet mel- o- dies with- in my heart! _ _
+v3: Grant that Thy Spir- it prompt my _ prais- es, Then shall my sing- ing sure- ly please Thine ear; Sweet are the sounds my heart then _ rais- es, My prayer in truth and spir- it Thou wilt hear, Then shall Thy Spir- it raise my heart to Thee To sing Thee psalms of praise in high de- gree _ _
+v4: For He can plead for me with _ sigh- ings, That are un- speak- a- ble to lips like mine; He bids me pray with ear- nest _ cry- ings, Bears wit- ness with my soul that I am Thine, Joint heir With Christ, and thus may dare to say: O heaven- _ _ ly Fa- ther, hear me when I pray!

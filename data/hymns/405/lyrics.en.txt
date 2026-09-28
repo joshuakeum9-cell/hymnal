@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: What a fel- low- ship, what a joy di- vine, Lean- ing on the ev- er- last- ing arms What a bless- ed- ness, what a peace is mine, Lean- ing on the ev- er- last- ing arms. Lean- ing, lean- ing, Safe and se- cure from all a- larms, Lean- ing, lean- ing, Lean- ing on the ev- er- last- ing arms.
-v2: Oh, how sweet to walk in this pil- grim way, Lean- ing on the ev- er- last- ing arms Oh, how bright the path grows from day to day, Lean- ing on the ev- er- last- ing arms. Lean- ing, lean- ing, Safe and se- cure from all a- larms, Lean- ing, lean- ing, Lean- ing on the ev- er- last- ing arms.
-v3: What have I to dread, what have I to fear, Lean- ing on the ev- er- last- ing arms I have bless- ed peace with my Lord so near, Lean- ing on the ev- er- last- ing arms. Lean- ing, lean- ing, Safe and se- cure from all a- larms, Lean- ing, lean- ing, Lean- ing on the ev- er- last- ing arms.
+v1: What a fel- low- ship, what a joy di- vine, Lean- ing on the ev- er- last- ing arms; What a bless- ed- ness, what a peace is mine, Lean- ing on the ev- er- last- ing arms. Lean- ing, lean- ing, Safe and se- cure from all a- larms, Lean- ing, lean- ing, Lean- ing on the ev- er- last- ing arms.
+v2: Oh, how sweet to walk in this pil- grim way, Lean- ing on the ev- er- last- ing arms; Oh, how bright the path grows from day to day, Lean- ing on the ev- er- last- ing arms. Lean- ing, lean- ing, Safe and se- cure from all a- larms, Lean- ing, lean- ing, Lean- ing on the ev- er- last- ing arms.
+v3: What have I to dread, what have I to fear, Lean- ing on the ev- er- last- ing arms; I have bless- ed peace with my Lord so near, Lean- ing on the ev- er- last- ing arms. Lean- ing, lean- ing, Safe and se- cure from all a- larms, Lean- ing, lean- ing, Lean- ing on the ev- er- last- ing arms.

@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: auto, exact, auto, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Je- sus, Rose of Shar- on, bloom with- in my heart, Beau- ties of Thy truth and ho- li- ness im- part, That _ where- e'er I go my life shed a- broad Fra- _ grance of the knowl- edge of the love of God. Je- sus, Rose of Shar- on, Bloom _ in ra- diance and in love with- in my heart.
-v2: Je- sus, Rose of Shar- on, sweet- er far to me Than the fair- est flow'rs of earth could ev- er be, Fill my life com- plete- ly, add- ing more each day Of _ Thy grace di- vine and pur- i- ty I pray. Je- sus, Rose of Shar- on, Bloom _ in ra- diance and in love with- in my heart.
-v3: Je- sus, Rose of Shar- on, balm for ev- 'ry ill, May _ Thy ten- der _ mer- ci's heal- ing For af- _ flict- ed souls of wea- ry, bur- den'd men, Giv- _ ing need- y mor- tals heal than hope a- gain. Je- sus, Rose of Shar- on, Bloom _ in ra- diance and in love with- in my heart.
-v4: Je- sus, Rose of Shar- on, bloom for- ev- er- more Be Thy glo- ry seen on earth from shore to shore, Till the na- tions own Thy Sov- 'reign- ty com- plete, Lay _ their hon- ors down and wor- ship at Thy feet. Je- sus, Rose of Shar- on, Bloom _ in ra- diance and in love with- in my heart.
+v1: Je- sus, Rose of Shar- on, bloom with- in my heart, Beau- ties of Thy truth and ho- li- ness im- part, That _ where- ver I go my life shed a- broad Fra- _ grance of the knowl- edge of the love of God. Je- sus, Rose of Shar- on, Bloom _ in ra- diance and in love with- in my heart.
+v2: Je- sus, Rose of Shar- on, sweet- er far to me Than the fair- est flowers of earth could ev- er be, Fill my life com- plete- ly, add- ing more each day Of _ Thy grace di- vine and pur- i- ty I pray. Je- sus, Rose of Shar- on, Bloom _ in ra- diance and in love with- in my heart.
+v3: Je- sus, Rose of Shar- on, balm for ev- ery ill, May _ Thy ten- der _ mer- cies heal- ing For af- _ flict- ed souls of wea- ry, bur- dened men, Giv- _ ing need- y mor- tals health and hope a- gain. Je- sus, Rose of Shar- on, Bloom _ in ra- diance and in love with- in my heart.
+v4: Je- sus, Rose of Shar- on, bloom for- ev- er- more; Be Thy glo- ry seen on earth from shore to shore, Till the na- tions own Thy Sove- reig- nty com- plete, Lay _ their hon- ors down and wor- ship at Thy feet. Je- sus, Rose of Shar- on, Bloom _ in ra- diance and in love with- in my heart.

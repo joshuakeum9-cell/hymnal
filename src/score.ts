@@ -39,7 +39,7 @@ export type SystemBox = { top: number; bottom: number }
 /** systems are in the SVG's viewBox units; viewWidth is the viewBox width */
 export type RenderResult = { svg: string; ms: number; cached: boolean; systems: SystemBox[]; viewWidth: number }
 
-const ENGINE_VERSION = 'osmd-2.1.3-r11'
+const ENGINE_VERSION = 'osmd-2.1.3-r14'
 const memory = new Map<string, string>()
 const MEMORY_MAX = 30
 const IDB_MAX = 80
@@ -80,12 +80,86 @@ export async function cachedSvg(key: string): Promise<string | null> {
   return null
 }
 
+const SPACING_STEPS = [
+  { elongation: 2.5, spread: 1 }, // OSMD defaults
+  { elongation: 4, spread: 1 },
+  { elongation: 4, spread: 1.3 },
+  { elongation: 6, spread: 1.7 },
+]
+
+/**
+ * Push overlapping words on the same lyric line apart, half each way, until every pair has a
+ * small gap. Hyphens take part so they stay between their syllables. Words move by a few units
+ * at most in practice; a word never moves more than its own width from where OSMD put it.
+ */
+export function separateLyrics(host: Element): void {
+  type Item = { el: SVGTextElement; x: number; w: number; x0: number; word: boolean }
+  const rows = new Map<number, Item[]>()
+  for (const t of Array.from(host.querySelectorAll('svg text')) as SVGTextElement[]) {
+    const s = t.textContent?.trim() ?? ''
+    if (!s || !t.hasAttribute('x')) continue
+    const b = t.getBBox()
+    if (!b.width) continue
+    const key = Math.round(b.y)
+    const row = rows.get(key) ?? []
+    row.push({ el: t, x: b.x, w: b.width, x0: b.x, word: s !== '-' })
+    rows.set(key, row)
+  }
+  for (const row of rows.values()) {
+    if (row.length < 2) continue
+    row.sort((a, b) => a.x - b.x)
+    const words = row.filter(i => i.word)
+    const gap = Math.max(3, (words[0]?.w ?? 20) * 0.08)
+    for (let pass = 0; pass < 40; pass++) {
+      let moved = false
+      for (let i = 1; i < row.length; i++) {
+        const a = row[i - 1], b = row[i]
+        const need = a.x + a.w + (a.word && b.word ? gap : 1) - b.x
+        if (need > 0.5) {
+          a.x -= need / 2
+          b.x += need / 2
+          moved = true
+        }
+      }
+      if (!moved) break
+    }
+    for (const it of row) {
+      const dx = Math.max(-it.w, Math.min(it.w, it.x - it.x0))
+      if (Math.abs(dx) > 0.2) it.el.setAttribute('x', String(Number(it.el.getAttribute('x')) + dx))
+    }
+  }
+}
+
+/** Number of places where two words on the same lyric line overlap (hyphens and extenders ignored). */
+export function lyricCollisions(host: Element): number {
+  const rows = new Map<number, DOMRect[]>()
+  for (const t of Array.from(host.querySelectorAll('svg text'))) {
+    const s = t.textContent?.trim() ?? ''
+    if (!s || s === '-') continue
+    const b = (t as SVGTextElement).getBBox()
+    if (!b.width) continue
+    const key = Math.round(b.y)
+    const row = rows.get(key) ?? []
+    row.push(b)
+    rows.set(key, row)
+  }
+  let hits = 0
+  for (const row of rows.values()) {
+    row.sort((a, b) => a.x - b.x)
+    for (let i = 1; i < row.length; i++) {
+      if (row[i].x < row[i - 1].x + row[i - 1].width - 1) hits++
+    }
+  }
+  return hits
+}
+
 class Renderer {
   private osmd: OpenSheetMusicDisplay | null = null
   private host: HTMLDivElement
   private queue: Promise<unknown> = Promise.resolve()
   private font: string
   private format: string
+  private spacing: { mult: number; add: number } | undefined
 
   constructor(font: string, format: string) {
     this.font = font
@@ -156,7 +230,22 @@ class Renderer {
       await osmd.load(doc as unknown as string)
       osmd.Sheet.Transpose = req.delta
       osmd.zoom = req.zoom
-      osmd.render()
+      // OSMD widens a measure for its words only up to MaximumLyricsElongationFactor times its
+      // normal width, and only pads to the right of a long word, so on a phone words can run
+      // into each other. Draw with the defaults first; where words collide, draw again with
+      // wider measures and then wider note spacing.
+      const rules = osmd.EngravingRules
+      this.spacing ??= { mult: rules.VoiceSpacingMultiplierVexflow, add: rules.VoiceSpacingAddendVexflow }
+      for (const step of SPACING_STEPS) {
+        rules.MaximumLyricsElongationFactor = step.elongation
+        rules.VoiceSpacingMultiplierVexflow = this.spacing.mult * step.spread
+        rules.VoiceSpacingAddendVexflow = this.spacing.add * step.spread
+        osmd.render()
+        if (lyricCollisions(this.host) === 0) break
+      }
+      // OSMD only pads to the right of a long word, so a short word before a long one can
+      // still touch it; nudge such words apart along their line
+      separateLyrics(this.host)
       const svg = this.host.innerHTML
       const ms = Math.round(performance.now() - t0)
       const unit = 10 // OSMD draws 10 viewBox units per internal unit; zoom only changes the SVG's CSS size

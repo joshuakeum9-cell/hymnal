@@ -30,7 +30,7 @@
    "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
   }
  },
- "publish": false,
+ "publish": true,
  "checked_against_book": false,
  "notes": "",
  "sources": {
@@ -42,5 +42,13 @@
   },
   "credits": "bibletoppt.com (AI-assisted, spot-check)",
   "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ },
+ "rights_override": {
+  "publish": true,
+  "basis": "Printed in US hymnals from 1872 (Christian Songs for the Sunday School) and marked PD on Hymnary.",
+  "sources": [
+   "https://hymnary.org/text/in_the_rifted_rock_im_resting_safely_she"
+  ],
+  "checked": "2026-09-28"
  }
 }

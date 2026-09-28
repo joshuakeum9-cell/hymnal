@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: auto, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: The spa- cious fir- ma- ment _ on _ high, With all _ the _ blue _ e- the- real _ sky, _ And span- gled heav- ens, a shin- _ ing _ frame, Their great _ O- _ rig- _ i- nal pro- _ claim: _ Th' un- wea- ried sun, from day to day, Does his _ _ Cre- a- _ _ tor's pow- _ er dis- play, And pub- lish- es to ev- ery land The work _ _ of an _ _ al- might- y hand. _ _
+v1: The spa- cious fir- ma- ment _ on _ high, With all _ the _ blue _ e- the- real _ sky, _ And span- gled heav- ens, a shin- _ ing _ frame, Their great _ O- _ rig- _ i- nal pro- _ claim: _ The un- wea- ried sun, from day to day, Does his _ _ Cre- a- _ _ tor's pow- _ er dis- play, And pub- lish- es to ev- ery land The work _ _ of an _ _ al- might- y hand. _ _
 v2: Soon as the eve- ning shades _ pre- _ vail, _ The _ moon _ takes _ up the won- _ drous _ tale, And night- ly to the lis- _ tening _ earth _ Re- _ peats _ the _ sto- ry of _ her _ birth: Whilst all the stars that round her burn, And all _ _ the plan- _ _ ets in _ _ their turn, Con- firm the ti- dings as they roll, And spread _ _ the truth _ _ from pole to pole. _ _
 v3: What though in sol- emn si- _ lence _ all _ Move _ round _ this _ dark ter- res- _ trial _ ball What though no re- al voice _ nor _ sound _ A- _ midst _ the _ ra- diant orbs _ be _ found In rea- son's ear they all re- joice, And ut- _ _ ter forth _ _ a glo- _ _ rious voice For- ev- er sing- ing, as they shine, "The hand _ _ that made _ _ us is di- vine." A- men.

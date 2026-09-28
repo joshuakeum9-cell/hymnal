@@ -1,0 +1,11 @@
+# 230 Thee We Adore, O Hidden Savior, Thee
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Thee _ we a- dore, _ O hid- den Sav- ior, thee, Who _ at this bless- _ ed feast art pleased to be; Both flesh _ and spir- _ it in thy pres- ence fail, Yet _ _ here thy pres- ence we de- vout- ly hail.
+v2: O _ blest me- mo- _ rial of our dy- ing Lord, Who _ liv- ing bread _ to all doth here af- ford; O may _ our souls _ for ev- er feed on thee, And _ thou, O _ Christ, for ev- er pre- cious be.
+v3: Foun- _ tain of good- _ ness, Je- sus, Lord and God, Cleanse _ us, un- clean, _ with thy most cleans- ing blood; In- _ _ crease our _ faith and love, that we may know _ The hope and peace which from thy pres- ence flow.
+v4: O _ Christ, whom now _ be- neath a veil we see, May _ what we thirst _ for soon our por- tion be: To gaze _ on thee _ un- veiled, and see thy face, The _ _ vi- sion of thy glo- ry and thy grace.

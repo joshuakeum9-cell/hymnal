@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: exact, auto, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Ho- ly Ghost, _ with light di- vine, Shine up- on _ this heart of _ mine Chase the shade _ of night a- _ way, Turn _ my dark- _ ness in- to day. _ _
-v2: Ho- ly Ghost, _ with pow- er di- vine, Cleanse this _ guilt- y heart _ of mine Long has _ sin, with- out con- trol, Held _ do- min- _ ion o'er my soul. _ _
-v3: Ho- ly Ghost, _ with joy di- vine, Cheer this sad- _ dened heart of _ mine Bid my ma- _ ny woes de- _ part, Heal _ my wound- _ ed, bleed- ing heart. _ _
-v4: Ho- ly Spir- _ it, all di- vine, Dwell with- in _ this heart of _ mine Cast down eve- _ ry i- dol _ throne, Reign _ su- preme, _ and reign a- lone. A- men.
+v1: Ho- ly Ghost, _ with light di- vine, Shine up- on _ this heart of _ mine; Chase the shade _ of night a- _ way, Turn _ my dark- _ ness in- to day. _ _
+v2: Ho- ly Ghost, _ with pow- er di- vine, Cleanse this _ guilt- y heart _ of mine; Long has _ sin, with- out con- trol, Held _ do- min- _ ion over my soul. _ _
+v3: Ho- ly Ghost, _ with joy di- vine, Cheer this sad- _ dened heart of _ mine; Bid my ma- _ ny woes de- _ part, Heal _ my wound- _ ed, bleed- ing heart. _ _
+v4: Ho- ly Spir- _ it, all di- vine, Dwell with- in _ this heart of _ mine; Cast down eve- _ ry i- dol _ throne, Reign _ su- preme, _ and reign a- lone. A- men.

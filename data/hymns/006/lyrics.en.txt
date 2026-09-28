@@ -3,6 +3,7 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: auto)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Now to the King of heav'n Your cheer- ful voic- es raise; To Him be glo- ry giv'n, Pow'r, maj- es- ty and praise; Wide as _ _ He reigns His name be sung By ev- ery tongue in end- less strains.
+v1: Now to the King of heaven Your cheer- ful voic- es raise To Him be glo- ry given, Power, maj- es- ty and praise Wide as _ _ He reigns His name be sung By ev- ery tongue in end- less strains

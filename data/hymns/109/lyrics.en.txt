@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: rough (per verse: rough, auto, auto, auto)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Si- _ lent night, ho- _ ly night, All is calm, all is bright Round you Vir- _ gin Moth- er and Child, Ho- ly In- fant so ten- der and mild, Sleep in heav- en- ly peace, _ Sleep _ in heav- en- ly peace. _ _
-v2: Si- _ lent night, ho- _ ly night, Dark- ness flies, all is light Shep- herds hear _ the an- _ gels sing, Al- le- lu- _ ia! Hail _ the king! Christ the Sav- ior is born, _ Christ _ the Sav- ior is born! _ _
-v3: Si- _ lent night, ho- _ ly night, Guid- ing star, lend thy light See the East- _ ern wise _ men bring Gifts and hom- _ age to _ our king! Christ the Sav- ior is born, _ Christ _ the Sav- ior is born. _ _
+v1: Si- _ lent night, ho- _ ly night, All is calm, all is bright 'Round you Vir- _ gin Moth- er and Child, Ho- ly In- fant so ten- der and mild, Sleep in heav- en- ly peace, _ Sleep _ in heav- en- ly peace. _ _
+v2: Si- _ lent night, ho- _ ly night, Dark- ness flies, all is light; Shep- herds hear _ the an- _ gels sing, Al- le- lu- _ ia! Hail _ the king! Christ the Sav- ior is born, _ Christ _ the Sav- ior is born! _ _
+v3: Si- _ lent night, ho- _ ly night, Guid- ing star, lend thy light; See the East- _ ern wise _ men bring Gifts and hom- _ age to _ our king! Christ the Sav- ior is born, _ Christ _ the Sav- ior is born. _ _
 v4: Si- _ lent night, ho- _ ly night, Son of God, love's pure light, Ra- diant beams _ from Thy ho- ly face, With the dawn _ of re- deem- ing grace, Je- sus, Lord, at Thy birth, _ Je- _ sus, Lord, at Thy birth. A- men.

@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Bring- ing our all, to of- fer Gems of our trea- sure- store, Self and heart let us prof- fer, Here at the sta- ble door. Truth is its best a- dorn- ing, Love is its pur- est worth This is the ho- ly morn- ing, Day of our Sav- iour's birth!
-v2: Blest with all heav'n- ly trea- sure Since when we first be- lieved, Let us, in grate- ful mea- sure, Give as we have re- ceived. Joy- fill'd be- yond all full- ness, Hope- fill'd be- yond all days, Let us with heart and whole- ness Ren- der our Sav- iour praise.
-v3: Shep- herds in awe and won- der, Keep- ing their flock by night, Saw the sky rent a- sun- der By a cel- es- tial light Then, the glad tid- ings, giv- en, Hast- ened the man- ger nigh, And, like the host of heav- en, Glo- ri- fied God Most High.
+v1: Bring- ing our all, to of- fer Gems of our trea- sure- store, Self and heart let us prof- fer, Here at the sta- ble door. Truth is its best a- dorn- ing, Love is its pur- est worth; This is the ho- ly morn- ing, Day of our Sav- ior's birth!
+v2: Blest with all heaven- ly trea- sure Since when we first be- lieved, Let us, in grate- ful mea- sure, Give as we have re- ceived. Joy- filled be- yond all full- ness, Hope- filled be- yond all days, Let us with heart and whole- ness Ren- der our Sav- ior praise.
+v3: Shep- herds in awe and won- der, Keep- ing their flock by night, Saw the sky rent a- sun- der By a cel- es- tial light; Then, the glad tid- ings, giv- en, Hast- ened the man- ger nigh, And, like the host of heav- en, Glo- ri- fied God Most High.

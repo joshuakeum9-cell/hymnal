@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 v1: Morn- ing _ hymns, O Lord, with _ prais- es For the past night's gen- _ tle _ rest Safe in Thee, the heart _ up- _ rais- es To Thy name, for- ev- er blest! _ _
-v2: Health of _ bo- dy, peace of _ spir- it! Breath of life and hearts _ at _ ease! Ill- ness heal'd by Je- _ sus' _ mer- it! Praise we God for all of these. _ _
-v3: As Thy _ love has shin'd a- _ round us Through the watch- es of _ the _ night. So, through earth's dark night _ sur- _ round us With Thine own im- mor- tal light. _ _
-v4: Hear, O _ spir- it, our pe- _ ti- tion: From this day our lives _ com- _ trol. Bring Thy work to full _ fru- _ i- tion, Make us per- fect, make us whole! A- men.
+v2: Health of _ bo- dy, peace of _ spir- it! Breath of life and hearts _ at _ ease! Ill- ness healed by Je- _ sus' _ mer- it! Praise we God for all of these. _ _
+v3: As Thy _ love has shined a- _ round us Through the watch- es of _ the _ night. So, through earth's dark night _ sur- _ round us With Thine own im- mor- tal light. _ _
+v4: Hear, O _ spir- it, our pe- _ ti- tion: From this day our lives _ con- _ trol. Bring Thy work to full _ fru- _ i- tion, Make us per- fect, make us whole! A- men.

@@ -5,6 +5,7 @@
 # quality: exact (per verse: exact, exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+# placement: verses 1, 2, 3, 4 follow the Open Hymnal Project's engraving of this tune
 v1: A- bide with me: fast falls the e- ven- tide The dark- ness deep- ens, Lord, with me a- bide: When oth- er help- ers fail, and com- forts flee, Help of the help- less, O a- bide with me. _ _
 v2: Swift to its close ebbs out life's lit- tle day Earth's joys grow dim, its glo- ries pass a- way Change and de- cay in all a- round I see O Thou who chang- est not, a- bide with me. _ _
 v3: I need Thy pres- ence ev- ery pass- ing hour What but Thy grace can foil the tempt- er's pow'r Who like Thy- self my guide and stay can be Through cloud and sun- shine, O a- bide with me. _ _

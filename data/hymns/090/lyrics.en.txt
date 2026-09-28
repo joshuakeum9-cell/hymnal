@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: exact, auto, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: I've found a Friend, oh, such a Friend! He loved me ere I knew Him He drew me with the _ cords of love, And thus He bound me to Him. And 'round my heart still close- ly twine Those ties which naught can sev- er For I am Him, and _ He is mine, For- ev- er and for- ev- er.
-v2: I've found _ a Friend, oh, _ such a Friend! He died to save me And not a- lone the _ gift of life, But His own self He gave me. Naught that I have my own I call I hold it for the Giv- er. My heart, my strength, my _ life, my all Are His, and His for- ev- er.
-v3: I've found a Friend, oh, such a Friend! So kind, and true, and ten- der, So wise a Coun- sel- _ lor and Guide, So might- y a De- fend- er! From Him Who loves me now so well What pow'r my soul can sev- er Shall life or death, or _ earth or hell No! I am His for- ev- er.
+v1: I've found a Friend, oh, such a Friend! He loved me ere I knew Him; He drew me with the _ cords of love, And thus He bound me to Him. And 'round my heart still close- ly twine Those ties which naught can sev- er; For I am Him, and _ He is mine, For- ev- er and for- ev- er.
+v2: I've found _ a Friend, oh, _ such a Friend! He died to save me; And not a- lone the _ gift of life, But His own self He gave me. Naught that I have my own I call; I hold it for the Giv- er. My heart, my strength, my _ life, my all Are His, and His for- ev- er.
+v3: I've found a Friend, oh, such a Friend! So kind, and true, and ten- der, So wise a Coun- se- _ lor and Guide, So might- y a De- fend- er! From Him Who loves me now so well What power my soul can sev- er? Shall life or death, or _ earth or hell? No! I am His for- ev- er.

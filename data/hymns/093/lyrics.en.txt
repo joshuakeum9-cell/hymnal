@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: exact, exact, auto, auto)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Je- sus is all the world to me, My life, my joy, my all He is my strength from day to day, With- out Him I _ would fall. When I am sad, to Him I go, No oth- er one can cheer me so When I am sad He makes me glad, He's my Friend.
-v2: Je- sus is all the world to me, My Friend in tri- al sore I go to Him for bless- ings, and He gives them o'er _ and o'er. He sends the sun- shine and the rain, He sends the har- vest's gold- en grain Sun- shine and rain, Har- vest of grain, He's my Friend.
-v3: Je- sus is all the world to me, And true to Him I'll be Oh, how could I this Friend de- ny, When He's so true _ to me Fol- low- ing Him I know I'm right, He _ watch- es o'er me day and night Follow- ing Him, by day and night, He's my Friend.
-v4: Je- sus is all the world to me, I want no bet- ter friend I trust Him now, I'll trust Him when Life's fleet- ing days _ shall end. Beau- _ ti- ful life with such a Friend Beau- ti- ful life that has no end Eter- nal life, e- ter- nal joy, He's my Friend.
+v1: Je- sus is all the world to me, My life, my joy, my all; He is my strength from day to day, With- out Him I _ would fall. When I am sad, to Him I go, No oth- er one can cheer me so; When I am sad He makes me glad, He's my Friend.
+v2: Je- sus is all the world to me, My Friend in tri- al sore; I go to Him for bless- ings, and He gives them over _ and over. He sends the sun- shine and the rain, He sends the har- vest's gold- en grain; Sun- shine and rain, Har- vest of grain, He's my Friend.
+v3: Je- sus is all the world to me, And true to Him I'll be; Oh, how could I this Friend de- ny, When He's so true _ to me? Fol- low- ing Him I know I'm right, He _ watch- es over me day and night; Follow- ing Him, by day and night, He's my Friend.
+v4: Je- sus is all the world to me, I want no bet- ter friend; I trust Him now, I'll trust Him when Life's fleet- ing days _ shall end. Beau- _ ti- ful life with such a Friend; Beau- ti- ful life that has no end; Eter- nal life, e- ter- nal joy, He's my Friend.

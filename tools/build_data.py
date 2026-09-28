@@ -131,6 +131,39 @@ def make_lyric(note, number: int, syllabic: str, text: str, lang: str):
     return ly
 
 
+def drop_doubled_lyrics(root) -> int:
+    """Remove a second voice's syllable where the melody sings a syllable at the same moment.
+
+    Some scores give the alto its own words for echo phrases (354 "주를 앙모하는 자"). Where both
+    voices start a note together, the two syllables would be drawn on top of each other; the
+    melody's syllable is the one to keep. Echo syllables sung alone stay.
+    """
+    removed = 0
+    for m in root.iter("measure"):
+        pos = 0
+        sung: set[tuple[int, str, str]] = set()
+        for el in m:
+            if el.tag == "backup":
+                pos -= int(el.findtext("duration"))
+                continue
+            if el.tag == "forward":
+                pos += int(el.findtext("duration"))
+                continue
+            if el.tag != "note" or el.find("chord") is not None:
+                continue
+            staff = el.findtext("staff") or "1"
+            lyrics = el.findall("lyric")
+            if el.findtext("voice") == "1":
+                sung.update((pos, staff, ly.get("number")) for ly in lyrics)
+            else:
+                for ly in lyrics:
+                    if (pos, staff, ly.get("number")) in sung:
+                        el.remove(ly)
+                        removed += 1
+            pos += int(el.findtext("duration") or 0)
+    return removed
+
+
 def korean_verse_text(slots, k: int) -> str:
     out = []
     for s in slots:
@@ -214,6 +247,7 @@ def main(argv):
         text_en = read_english_text(os.path.join(d, "english.txt"))[:max(kv, 1)]
         if en_mode == 0 and text_en:
             en_mode = 2
+        drop_doubled_lyrics(root)
         # declare lyric languages for other software
         defaults = root.find("defaults")
         for num in sorted({int(ly.get("number")) for ly in root.iter("lyric")}):

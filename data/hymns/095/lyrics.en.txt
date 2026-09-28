@@ -3,10 +3,11 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: exact, auto, exact, exact, auto)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 v1: O Thou, _ in whose pres- _ ence my soul takes de- light, On whom in af- flic- tion I call, My com- fort by day, and my song in the night, My _ hope, _ my sal- va- tion, my all! _ _
-v2: Where dost _ Thou, dear Shep- _ herd, re- sort with Thy sheep, To feed them in pas- tures of love Say, why in the val- ley of death should I weep, Or _ a- _ lone in this wil- der- ness _ rove?
-v3: Oh! why _ should I wan- _ der an a- lien from Thee, Or cry in the des- ert for bread Thy foes will re- joice when my sor- rows they see, And _ smile _ at the tears I have shed. _ _
-v4: He looks! _ and ten thou- _ sands of an- gels re- joice, And myr- i- ads wait fo His word He speaks! and e- ter- ni- ty, filled with His voice, Re- _ ech- _ oes the praise of the Lord. _ _
-v5: Dear Shep- _ herd! I hear, _ and will fol- low Thy call I know the sweet wound of Thy voice Re- store and de- fend me, for Thou art my all, And _ in Thee I will ev- er re- joice. A- men.
+v2: Where dost _ Thou, dear Shep- _ herd, re- sort with Thy sheep, To feed them in pas- tures of love? Say, why in the val- ley of death should I weep, Or _ a- _ lone in this wil- der- ness _ rove?
+v3: Oh! why _ should I wan- _ der an a- lien from Thee, Or cry in the des- ert for bread? Thy foes will re- joice when my sor- rows they see, And _ smile _ at the tears I have shed. _ _
+v4: He looks! _ and ten thou- _ sands of an- gels re- joice, And myr- i- ads wait for His word; He speaks! and e- ter- ni- ty, filled with His voice, Re- _ ech- _ oes the praise of the Lord. _ _
+v5: Dear Shep- _ herd! I hear, _ and will fol- low Thy call; I know the sweet wound of Thy voice; Re- store and de- fend me, for Thou art my all, And _ in Thee I will ev- er re- joice. A- men.

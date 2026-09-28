@@ -30,7 +30,7 @@
    "basis": "Korean translation claimed by 한국찬송가공회; written permission requested"
   }
  },
- "publish": true,
+ "publish": false,
  "checked_against_book": false,
  "notes": "",
  "sources": {
@@ -42,5 +42,10 @@
   },
   "credits": "bibletoppt.com (AI-assisted, spot-check)",
   "titles": "rupang21/hymnEngKorean hymn_mapping.json"
+ },
+ "rights_override": {
+  "publish": false,
+  "basis": "harmony by Carlton R. Young (1988); the melody is traditional but this harmonization is still under copyright",
+  "checked": "2026-09-28"
  }
 }

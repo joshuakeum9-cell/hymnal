@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: auto, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: We gath- er to- geth- er to ask the Lord's bless- ing He chas- tens and has- tens His will to make known. The wick- ed op- press- ing now cease _ from dis- tress- ing, Sing prais- es to His name: _ He for- gets not His _ own.
-v2: Be- side us to guide us, our God with us join- ing, Or- dian- ing, main- tain- ing His king- dom di- vine So from the be- gin- ning the fight _ we were win- ning. Thou, Lord, wast at our side, _ all glo- ry be Thine! _ _
-v3: We all do ex- tol Thee, Thou Lead- er tri- um- phant, And pray that Thou still our De- fend- wilt er be. Let Thy con- gre- ga- tion es- cape _ trib- u- la- tion. Thy name be ev- er praised! _ O Lord, make us free! A- men.
+v1: We gath- er to- geth- er to ask the Lord's bless- ing; He chas- tens and has- tens His will to make known. The wick- ed op- press- ing now cease _ from dis- tress- ing, Sing prais- es to His name: _ He for- gets not His _ own.
+v2: Be- side us to guide us, our God with us join- ing, Or- dain- ing, main- tain- ing His king- dom di- vine; So from the be- gin- ning the fight _ we were win- ning. Thou, Lord, wast at our side, _ all glo- ry be Thine! _ _
+v3: We all do ex- tol Thee, Thou Lead- er tri- um- phant, And pray that Thou still our De- fend- er wilt be. Let Thy con- gre- ga- tion es- cape _ trib- u- la- tion. Thy name be ev- er praised! _ O Lord, make us free! A- men.

@@ -3,8 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: exact (per verse: exact, exact, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+# placement: verses 1, 2, 3 follow the Open Hymnal Project's engraving of this tune
 v1: O sa- cred Head, now wound- ed, With grief and shame _ weighed down, Now scorn- ful- ly sur- round- ed With thorns, Thy on- _ ly crown: How art _ Thou pale with an- guish, With sore a- buse and scorn! How does _ that vis- age lan- guish Which once was bright as morn! _ _
-v2: What Thou, my Lord, hast suf- fered Was all for sin- _ ner's gain: Mine, mine was the trans- gres- sion, But Thine the dead- _ ly pain. Lo, here _ I fall, my Sav- iour! 'Tis I de- serve Thy place Look on _ me with Thy fa- vor, Vouch- safe to me Thy grace. _ _
-v3: What lan- guage shall I bor- row To thank Thee, dear- _ est friend, For this Thy dy- ing sor- row, Thy pit- y with- _ out end O make _ me Thine for- ev- er And should I faint- ing be, Lord, let _ me nev- er, nev- er Out- live my love to Thee. A- men.
+v2: What Thou, my Lord, hast suf- fered Was all for sin- _ ners' gain; Mine, mine was the trans- gres- sion, But Thine the dead- _ ly pain. Lo, here _ I fall, my Sav- ior! 'Tis I de- serve Thy place; Look on _ me with Thy fa- vor, Vouch- safe to me Thy grace. _ _
+v3: What lan- guage shall I bor- row To thank Thee, dear- _ est friend, For this Thy dy- ing sor- row, Thy pit- y with- _ out end? O make _ me Thine for- ev- er; And should I faint- ing be, Lord, let _ me nev- er, nev- er Out- live my love to Thee. A- men.

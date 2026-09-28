@@ -3,8 +3,9 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: exact, exact, auto)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: All to Je- sus I sur- ren- der, All to Him I free- ly give I will ev- er love and trust Him, In His pres- ence dai- ly live. I sur- ren- der all I sur- ren- der all All to Thee, my bless- ed Sav- iour, I sur- ren- der all. _ _
-v2: All to Je- sus I sur- ren- der, Hum- bly at His feet I bow, Word- ly pleas- ure all for- sak- en, Take me, Je- sus, take me now. I sur- ren- der all I sur- ren- der all All to Thee, my bless- ed Sav- iour, I sur- ren- der all. _ _
-v3: All to Je- sus I sur- ren- der, Make me, Sav- iour, Whol- ly Thine Let me feel the Ho- ly Spir- it, Tru- ly know that Thou art mine. I _ sur- ren- der all _ I sur- ren- der all All to Thee, my bless- ed Sav- iour, I sur- ren- der all.
+v1: All to Je- sus I sur- ren- der, All to Him I free- ly give I will ev- er love and trust Him, In His pres- ence dai- ly live. I sur- ren- der all I sur- ren- der all All to Thee, my bless- ed Sav- ior, I sur- ren- der all. _ _
+v2: All to Je- sus I sur- ren- der, Hum- bly at His feet I bow, World- ly pleas- ure all for- sak- en, Take me, Je- sus, take me now. I sur- ren- der all I sur- ren- der all All to Thee, my bless- ed Sav- ior, I sur- ren- der all. _ _
+v3: All to Je- sus I sur- ren- der, Make me, Sav- ior, Whol- ly Thine Let me feel the Ho- ly Spir- it, Tru- ly know that Thou art mine. I _ sur- ren- der all _ I sur- ren- der all All to Thee, my bless- ed Sav- ior, I sur- ren- der all.

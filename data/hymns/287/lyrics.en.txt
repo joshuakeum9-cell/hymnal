@@ -1,0 +1,10 @@
+# 287 Tis for You and Me
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: There's a par- don full and sweet, 'Tis for you, 'tis for me; Bless- ed rest at Je- sus' feet, 'Tis for you and me. All for you, if you be- lieve, If sal- va- tion you'll re- ceive, There's a wel- come, warm and true, All for you, all for me.
+v2: There's a help for ev- ery day, 'Tis for you, 'tis for me; Joy and bless- ing by the way, 'Tis for you and me. All for you, if you be- lieve, If sal- va- tion you'll re- ceive, There's a wel- come, warm and true, All for you, all for me.
+v3: There's a robe of sno- wy white, 'Tis for you, 'tis for me; There's a home of glo- ry bright, 'Tis for you and me. All for you, if you be- lieve, If sal- va- tion you'll re- ceive, There's a wel- come, warm and true, All for you, all for me.

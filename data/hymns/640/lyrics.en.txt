@@ -1,7 +1,8 @@
-# 231 Let Us Break Bread Together
+# 640 Amen
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: rough (per verse: none)
+# quality: exact (per verse: exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: A- _ _ _ men A- _ _ men.

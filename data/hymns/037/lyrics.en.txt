@@ -3,9 +3,10 @@
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
 # quality: auto (per verse: auto, auto, auto, exact)
+# wording: Korean-English hymnal (prayertents.com)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: All hail the pow'r _ _ of Je- _ sus' name! Let _ an- gels pros- trate fall! _ Let an- _ gels pros- trate fall. Bring _ forth the roy- _ al di- _ a- dem, _ _ And crown _ Him, _ crown _ Him, _ crown _ Him, _ crown Him, and crown Him crown Him, Crown Him And _ _ crown Him Lord of _ all!
-v2: Sin- ners whose love _ _ can ne'er _ for- get The _ worm- wood and the gall, _ Come, lay _ your tro- phies at His _ feet, and crown _ Him Lord _ of all! _ _ And crown _ Him, crown Him, _ crown _ Him, _ crown _ Him, and crown Him crown Him, Crown Him And crown _ _ Him Lord of all! _ _
-v3: Let ev- -'ry kin- _ _ dred, ev- _ -'ry tribe, On _ this ter- res- trial ball, _ On this _ ter- res- trial ball, To _ Him all maj- _ es- ty _ as- cribe, _ _ And crown _ Him, crown Him, _ crown _ Him, _ crown _ Him, and crown Him crown Him, Crown Him And crown _ _ Him Lord of all! _ _
+v1: All hail the power _ _ of Je- _ sus' name! Let _ an- gels pros- trate fall! _ Let an- _ gels pros- trate fall. Bring _ forth the roy- _ al di- _ a- dem, _ _ And crown _ Him, _ crown _ Him, _ crown _ Him, _ crown Him, and crown Him crown Him, Crown Him And _ _ crown Him Lord of _ all!
+v2: Sin- ners whose love _ _ can never _ for- get The _ worm- wood and the gall, _ Come, lay _ your tro- phies at His _ feet, and crown _ Him Lord _ of all! _ _ And crown _ Him, crown Him, _ crown _ Him, _ crown _ Him, and crown Him crown Him, Crown Him And crown _ _ Him Lord of all! _ _
+v3: Let ev- ery kin- _ _ dred, ev- _ ery tribe, On _ this ter- res- trial ball, _ On this _ ter- res- trial ball, To _ Him all maj- _ es- ty _ as- cribe, _ _ And crown _ Him, crown Him, _ crown _ Him, _ crown _ Him, and crown Him crown Him, Crown Him And crown _ _ Him Lord of all! _ _
 v4: Oh, that with yon- _ _ der sa- _ cred throng We _ at His feet may fall! _ We at _ His feet may fall! We'll _ the ev- er- _ last- ing _ song, And _ _ crown Him, _ crown _ Him, _ crown _ Him, _ crown _ Him, and crown Him crown Him, Crown Him And crown _ _ Him Lord of all! A- men.

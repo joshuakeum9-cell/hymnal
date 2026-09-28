@@ -36,9 +36,10 @@ export type RenderRequest = {
 }
 
 export type SystemBox = { top: number; bottom: number }
-export type RenderResult = { svg: string; ms: number; cached: boolean; systems: SystemBox[]; height: number }
+/** systems are in the SVG's viewBox units; viewWidth is the viewBox width */
+export type RenderResult = { svg: string; ms: number; cached: boolean; systems: SystemBox[]; viewWidth: number }
 
-const ENGINE_VERSION = 'osmd-2.1.3-r9'
+const ENGINE_VERSION = 'osmd-2.1.3-r10'
 const memory = new Map<string, string>()
 const MEMORY_MAX = 30
 const IDB_MAX = 80
@@ -136,10 +137,10 @@ class Renderer {
     r.LyricsXPaddingFactorForLongLyrics = 1.6
     r.LyricsXPaddingWidthThreshold = 1.1
     r.LyricsAlignmentStandard = m.TextAlignmentEnum.CenterBottom
-    r.MaximumLyricsElongationFactor = 4
     r.VerticalBetweenLyricsDistance = 0.4
     r.MinSkyBottomDistBetweenSystems = 3
     this.osmd = osmd
+    if (import.meta.env.DEV) (window as any)[`__osmd_${this.format}`] = osmd
     return osmd
   }
 
@@ -147,7 +148,7 @@ class Renderer {
     const run = async (): Promise<RenderResult> => {
       const full = `${ENGINE_VERSION}|${req.cacheKey}`
       const hit = req.noCache ? undefined : memory.get(full)
-      if (hit) return { svg: hit, ms: 0, cached: true, systems: [], height: 0 }
+      if (hit) return { svg: hit, ms: 0, cached: true, systems: [], viewWidth: 0 }
       const t0 = performance.now()
       const osmd = await this.engine()
       this.host.style.width = `${Math.max(280, Math.round(req.width))}px`
@@ -158,7 +159,7 @@ class Renderer {
       osmd.render()
       const svg = this.host.innerHTML
       const ms = Math.round(performance.now() - t0)
-      const unit = 10 * req.zoom
+      const unit = 10 // OSMD draws 10 viewBox units per internal unit; zoom only changes the SVG's CSS size
       const systems: SystemBox[] = []
       for (const page of osmd.GraphicSheet.MusicPages) {
         for (const sys of page.MusicSystems) {
@@ -168,12 +169,13 @@ class Renderer {
         }
       }
       const svgEl = this.host.querySelector('svg')
-      const height = svgEl ? Number(svgEl.getAttribute('height')) || svgEl.getBoundingClientRect().height : 0
+      const vb = svgEl?.getAttribute('viewBox')?.split(/[ ,]+/).map(Number)
+      const viewWidth = vb && vb.length === 4 ? vb[2] : Number(svgEl?.getAttribute('width') ?? 0) / req.zoom
       if (!req.noCache) {
         remember(full, svg)
         void persist(full, svg)
       }
-      return { svg, ms, cached: false, systems, height }
+      return { svg, ms, cached: false, systems, viewWidth }
     }
     const p = this.queue.then(run, run)
     this.queue = p.catch(() => undefined)
@@ -189,7 +191,8 @@ export function screenRenderer(): Renderer {
   return screen
 }
 
-export function printRenderer(format: 'Letter_P' | 'A4_P'): Renderer {
-  if (!print || (print as any).format !== format) print = new Renderer(PRINT_FONT, format)
+/** Print renders one continuous score; print.ts cuts it into pages between systems. */
+export function printRenderer(): Renderer {
+  print ??= new Renderer(PRINT_FONT, 'Endless')
   return print
 }

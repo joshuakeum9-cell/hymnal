@@ -67,7 +67,7 @@ export function AboutView() {
         <p>Numbers follow the 새찬송가 (21세기 찬송가, 한국찬송가공회, 2006), 645 hymns, the numbering used in the Korean-English bilingual hymnals and Bibles. Every hymn also carries its 통일찬송가 (1983) number, so 찬양하라 복되신 구세주 예수 is 31 here and 46 in the old book.</p>
 
         <h2>What is on the site</h2>
-        <p>{published.length} hymns have music. {gatedKo} hymns by Korean authors and {gatedOther} more recent hymns are listed but have no music yet, because their words or music may still be under copyright. We have asked for permission and will add them when it is given.</p>
+        <p>{published.length} hymns have music. {gatedKo} hymns by Korean authors and {gatedOther} more recent hymns are listed but have no music yet, because their words or music may still be under copyright. They will be added if the rights holders give permission.</p>
         <p>The notes and Korean words come from the MuseScore transcriptions by 깔끔이 CCM (<a href="https://ccm4u.tistory.com/" target="_blank" rel="noopener">ccm4u.tistory.com</a>), shared under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>. We converted them to MusicXML and fixed a few known typos. English words are the original public-domain hymn texts, lined up with the notes by a script and checked by hand over time, so a syllable may occasionally sit on the wrong note. Titles and old numbers come from the hymnEngKorean project, keys from praisenworship.biblia66.com, credits from bibletoppt.com.</p>
 
         <h2>Copyright and takedown</h2>

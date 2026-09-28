@@ -14,6 +14,7 @@ export type Row = {
   v?: number         // verse count
   en?: 0 | 1 | 2     // English: 0 none, 1 under the notes, 2 as text below
   ts?: string        // time signature from the key table
+  kt?: string        // key from the key table (shown for gated hymns)
 }
 
 export type Hymn = { n: number; xml: string; ko: string[]; en: string[]; enMode: 0 | 1 | 2; cr?: string }

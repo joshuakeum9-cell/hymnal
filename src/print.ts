@@ -13,7 +13,7 @@ const PAPER = {
 }
 const HEADER_H = 78
 const FOOTER_H = 22
-const PRINT_ZOOM = 0.78
+const PRINT_ZOOM = 0.6
 
 function root(): HTMLElement {
   let el = document.getElementById('print-root')
@@ -40,7 +40,7 @@ function paginate(systems: SystemBox[], firstAvail: number, avail: number): [num
   let start = 0
   let cap = firstAvail
   let i = 0
-  const gap = 6
+  const gap = 8
   while (i < systems.length) {
     const top = Math.max(0, systems[i].top - gap)
     let end = i
@@ -63,8 +63,7 @@ export async function printHymns(items: PrintItem[], paper: 'letter' | 'a4'): Pr
   box.innerHTML = ''
   pageStyle(paper)
   const P = PAPER[paper]
-  const format = paper === 'a4' ? 'A4_P' : 'Letter_P'
-  const renderer = printRenderer(format)
+  const renderer = printRenderer()
   for (const it of items) {
     const res = await renderer.render({
       cacheKey: `print|${it.row.n}|${it.row.f}|${it.delta}|${it.mode}|${paper}`,
@@ -74,8 +73,9 @@ export async function printHymns(items: PrintItem[], paper: 'letter' | 'a4'): Pr
     tpl.innerHTML = res.svg
     const svg = tpl.content.querySelector('svg')
     if (!svg) continue
-    const w = Number(svg.getAttribute('width')) || P.w
-    const pages = paginate(res.systems, P.h - HEADER_H - FOOTER_H, P.h - FOOTER_H)
+    const vbW = res.viewWidth || P.w
+    const scale = P.w / vbW // CSS px per viewBox unit
+    const pages = paginate(res.systems, (P.h - HEADER_H - FOOTER_H) / scale, (P.h - FOOTER_H) / scale)
     const keyText = it.delta ? `Key ${it.keyName} (from ${it.origName})` : `Key ${it.keyName}`
     const modeText = it.mode === 'both' ? '' : it.mode === 'ko' ? ', Korean words' : ', English words'
     pages.forEach(([y0, y1], p) => {
@@ -90,11 +90,11 @@ export async function printHymns(items: PrintItem[], paper: 'letter' | 'a4'): Pr
       }
       const clone = svg.cloneNode(true) as SVGSVGElement
       const h = y1 - y0
-      clone.setAttribute('viewBox', `0 ${y0} ${w} ${h}`)
-      clone.setAttribute('width', String(w))
-      clone.setAttribute('height', String(h))
+      clone.setAttribute('viewBox', `0 ${y0} ${vbW} ${h}`)
+      clone.setAttribute('width', String(P.w))
+      clone.setAttribute('height', String(h * scale))
       clone.removeAttribute('id')
-      clone.style.cssText = `width:${P.w}px;height:${(h * P.w) / w}px;display:block`
+      clone.style.cssText = `width:${P.w}px;height:${h * scale}px;display:block`
       page.appendChild(clone)
       const foot = document.createElement('footer')
       foot.className = 'print-foot'

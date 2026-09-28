@@ -192,6 +192,7 @@ def main(argv):
         row = {
             "n": n, "o": meta.get("old_number"), "k": meta["title_ko"], "e": meta["title_en"],
             "c": choseong(meta["title_ko"]), "t": meta.get("theme", ""),
+            "kt": meta.get("key_table", ""), "ts": meta.get("time_table", ""),
         }
         if not publish:
             row["f"] = None
@@ -231,8 +232,7 @@ def main(argv):
         fname = f"{n:03d}.{h}.json"
         with open(os.path.join(out_dir, fname), "wb") as fh:
             fh.write(body)
-        row.update({"f": fname, "fi": fifths, "m": 1 if mode == "minor" else 0, "v": kv, "en": en_mode,
-                    "ts": meta.get("time_table", "")})
+        row.update({"f": fname, "fi": fifths, "m": 1 if mode == "minor" else 0, "v": kv, "en": en_mode})
         index.append(row)
         stats["published"] += 1
         stats["en_notes" if en_mode == 1 else "en_text"] += 1 if en_mode else 0

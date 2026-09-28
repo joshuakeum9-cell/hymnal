@@ -6,5 +6,7 @@
  "source_sha256": "22af84aa390846f88210769f94c80846e70b5bbccb73146169cbbbb6437523ac",
  "source_file": "112장 그 맑고 환한 밤중에.mscz",
  "title_from_file": "그 맑고 환한 밤중에",
- "changes": []
+ "changes": [
+  "staff transposition removed on staves [0, 1]: 253 notes moved to the written pitch"
+ ]
 }

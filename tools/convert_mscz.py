@@ -131,6 +131,15 @@ def parse_score(root) -> dict:
     meta = {"title": "", "composer": "", "lyricist": "", "subtitle": ""}
     staves = score.findall("Staff")
     n_staves = len(staves)
+    # staves of parts wrongly set up as transposing instruments (112, 451): staff -> semitones
+    respell: dict[int, int] = {}
+    staff_ids = [st.get("id") for st in staves]
+    for part in score.findall("Part"):
+        chrom = int(part.findtext("Instrument/transposeChromatic") or 0)
+        if chrom:
+            for st in part.findall("Staff"):
+                if st.get("id") in staff_ids:
+                    respell[staff_ids.index(st.get("id"))] = chrom
     measures: list[Measure] = []
     volta_spans = []  # (staff0 measure idx, n measures, endings, text)
 
@@ -184,7 +193,7 @@ def parse_score(root) -> dict:
             last = min(m_idx + max(n_meas, 1) - 1, len(measures) - 1)
             measures[last].ending_stop = (endings, "stop")
 
-    return {"meta": meta, "measures": measures, "n_staves": n_staves}
+    return {"meta": meta, "measures": measures, "n_staves": n_staves, "respell": respell}
 
 
 def parse_voice(voice, M: Measure, s_idx: int, v_idx: int, volta_spans, m_i: int) -> None:
@@ -295,6 +304,7 @@ def parse_voice(voice, M: Measure, s_idx: int, v_idx: int, volta_spans, m_i: int
                     ev.notes.append({
                         "pitch": int(n.findtext("pitch")),
                         "tpc": int(n.findtext("tpc")),
+                        "tpc2": int(n.findtext("tpc2")) if n.findtext("tpc2") else None,
                         "tie_start": tie_start,
                         "tie_stop": tie_stop,
                         "acc": ACC.get(acc.findtext("subtype")) if acc is not None else None,
@@ -598,6 +608,25 @@ def convert_file(path: str) -> tuple[int, bytes, dict]:
 def apply_fixes(number: int, parsed: dict) -> list[str]:
     changes = []
     measures = parsed["measures"]
+    if parsed.get("respell") and measures:
+        # These parts are set up as transposing instruments by mistake, so the stored concert
+        # pitches sit a minor third away from the printed hymn (the key signature is the written
+        # key). Use the written pitch and its spelling (tpc2), which is what the hymnal prints.
+        fixed = 0
+        for M in measures:
+            for (s_idx, _v), events in M.streams.items():
+                chrom = parsed["respell"].get(s_idx)
+                if not chrom:
+                    continue
+                for ev in events:
+                    for nd in ev.notes:
+                        nd["pitch"] -= chrom
+                        if nd.get("tpc2") is not None:
+                            nd["tpc"] = nd["tpc2"]
+                        nd["acc"] = None
+                        fixed += 1
+                    ev.notes.sort(key=lambda d: d["pitch"])
+        changes.append(f"staff transposition removed on staves {sorted(parsed['respell'])}: {fixed} notes moved to the written pitch")
     if number in KEY_OVERRIDES and measures:
         old = measures[0].key
         measures[0].key = KEY_OVERRIDES[number]

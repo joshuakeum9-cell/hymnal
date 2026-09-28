@@ -40,11 +40,12 @@ function useWidth(el: { current: HTMLElement | null }): number {
 }
 
 /** Staff size for the column width: about two measures a line on a phone, four on an iPad. */
-export function baseZoom(width: number): number {
+export function baseZoom(width: number, height = 0): number {
   const lo = 480, hi = 960
-  if (width <= lo) return 0.56
-  if (width >= hi) return 1.0
-  return 0.56 + ((width - lo) / (hi - lo)) * 0.44
+  let z = width <= lo ? 0.56 : width >= hi ? 1.0 : 0.56 + ((width - lo) / (hi - lo)) * 0.44
+  // landscape phones and tablets: show more lines of music per screen
+  if (height && width > height * 1.1) z *= 0.84
+  return z
 }
 
 export function HymnView({ n, params }: { n: number; params: URLSearchParams }) {
@@ -117,7 +118,13 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
   }
 
   // render
-  const zoom = Math.round(baseZoom(width) * prefs.zoom * 100) / 100
+  const [vh, setVh] = useState(window.innerHeight)
+  useEffect(() => {
+    const on = () => setVh(window.innerHeight)
+    window.addEventListener('resize', on)
+    return () => window.removeEventListener('resize', on)
+  }, [])
+  const zoom = Math.round(baseZoom(width, vh > 0 ? vh : 0) * prefs.zoom * 100) / 100
   useEffect(() => {
     if (!hymn || !row?.f || width < 100) return
     const my = ++token.current
@@ -223,7 +230,7 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
           <p><strong>This hymn's music is not on the site yet.</strong></p>
           <p>
             {row.g === 1
-              ? 'It was written by a Korean author whose work is still under copyright. We have asked 한국찬송가공회 for permission and will add it when that arrives.'
+              ? 'It was written by a Korean author whose work is still under copyright, so its music stays off the site unless 한국찬송가공회 gives permission.'
               : 'Its words or music may still be under copyright, so it stays off the site until that is checked.'}
           </p>
           <p class="muted">저작권 확인 중인 찬송이라 악보를 아직 싣지 않았습니다.</p>
@@ -296,7 +303,7 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
           <p>
             {row.o ? <>통일찬송가 {row.o}장. </> : null}
             {row.t ? <>{row.t}. </> : null}
-            Original key <KeyName tonic={origTonic} minor={minor} />{row.ts ? `, ${row.ts}` : ''}.
+            Original key {row.f ? <KeyName tonic={origTonic} minor={minor} /> : (row.kt || 'unknown')}{row.ts ? `, ${row.ts}` : ''}.
           </p>
           {hymn?.cr ? <p class="muted small">{hymn.cr}</p> : null}
           <p class="small">

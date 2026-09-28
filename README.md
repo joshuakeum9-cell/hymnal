@@ -64,7 +64,7 @@ The `work/` folder (not in git) holds the downloaded sources: the seven MuseScor
 
 ## Copyright
 
-This is a free tool for one church's band. Hymns written by Korean authors, and hymns whose words or music may still be under copyright, are listed but have no music on the public site (`meta.json` → `publish: false`, with the reason in `rights`). Everything else is a public-domain tune and English text; the Korean translations belong to their rights holders, and permission has been requested from 한국찬송가공회.
+This is a free tool for one church's band. Hymns written by Korean authors, and hymns whose words or music may still be under copyright, are listed but have no music on the public site (`meta.json` → `publish: false`, with the reason in `rights`). Everything else is a public-domain tune and English text; the Korean translations belong to their rights holders. The gated hymns can be added if 한국찬송가공회 gives written permission.
 
 If you hold rights to anything here and want it removed, please [open an issue](https://github.com/joshuakeum9-cell/hymnal/issues). Each hymn is one folder, so removal takes minutes.
 

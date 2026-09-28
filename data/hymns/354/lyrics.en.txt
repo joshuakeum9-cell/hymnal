@@ -1,0 +1,11 @@
+# 354 They That Wait Upon the Lord
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, auto, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: They that wait up- on the Lord Shall mount up, shall mount up, On wings as ea- gles, They shall rise a- bove the strife, Far be- yond the cares of life, Mount- ing up, mount- ing up, On wings as ea- gles. Then wait up- on the Lord, O wait up- on the Lord; Thy strength thou shalt re- new; O wait up- on the Lord.
+v2: Wait- ing thus up- on the Lord They shall walk, they shall walk, And shall _ not faint, They shall scale the rug- ged steep Search- ing for the wand-'r- ing sheep, They shall walk, they shall walk, And shall _ not faint. Then wait up- on the Lord, O wait up- on the Lord; Thy strength thou shalt re- new; O wait up- on the Lord.
+v3: Wait- ing thus up- on the Lord They shall run, they shall run, And not be wea- ry, They shall see the heav'n- ly prize Wait- ing there be- yond the skies, They shall run, they shall run, And not be wea- ry. Then wait up- on the Lord, O wait up- on the Lord; Thy strength thou shalt re- new; O wait up- on the Lord.
+v4: They that wait up- on the Lord Shall mount up, shall mount up, On wings as ea- gles, They shall see the Sav- iour's face, Rev- el in His bound- less grace, Mount- ing up, mount- ing up, On wings as ea- gles. Then wait up- on the Lord, O wait up- on the Lord; Thy strength thou shalt re- new; O wait up- on the Lord.

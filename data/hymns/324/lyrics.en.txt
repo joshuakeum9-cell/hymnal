@@ -5,7 +5,7 @@
 # quality: exact (per verse: exact, exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: I can hear my Sa- viour call- ing I can hear my Sa- viour call- ing I can hear my Sa- viour call- ing take Thy cross and fol- low fol- low me Where he leads me I will fol- low where he leads me I will fol- low Where he leads me I will fol- low I'll go with him with him all the way
+v1: I can hear my Sav- iour call- ing I can hear my Sav- iour call- ing I can hear my Sav- iour call- ing take Thy cross and fol- low fol- low me Where he leads me I will fol- low where he leads me I will fol- low Where he leads me I will fol- low I'll go with him with him all the way
 v2: I'll go with Him through the gar- den I'll go with Him through the gar- den I'll go with Him through the gar- den I'll go with Him, with Him all the way Where he leads me I will fol- low where he leads me I will fol- low Where he leads me I will fol- low I'll go with him with him all the way
 v3: I'll go with him through the judge- ment I'll go with him through the judge- ment I'll go with him through the judge- ment I'll go with him with him all the way Where he leads me I will fol- low where he leads me I will fol- low Where he leads me I will fol- low I'll go with him with him all the way
 v4: He will give me grace and glo- ry He will give me grace and glo- ry He will give me grace and glo- ry And go with me, with me all the way Where he leads me I will fol- low where he leads me I will fol- low Where he leads me I will fol- low I'll go with him with him all the way

@@ -5,7 +5,7 @@
 # quality: exact (per verse: exact, exact, exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Ma- jes- tic sweet- ness sits en- throned Up- on the Sa- viour's brow His head with ra- diant glo- ries crowned, His _ lips with grace o'er- flow, His _ lips with grace o'er- flow. _ _
+v1: Ma- jes- tic sweet- ness sits en- throned Up- on the Sav- iour's brow His head with ra- diant glo- ries crowned, His _ lips with grace o'er- flow, His _ lips with grace o'er- flow. _ _
 v2: No mor- tal can with Him com- pare A- mong the sons of men Fair- er is He than all the fair Who _ fill the heav'n- ly train, Who _ fill the heav'n- ly train. _ _
 v3: He saw me plunged in deep dis- tress, And flew to my re- lief For me He bore the shame- ful Cross, And _ car- ried all my grief, And _ car- ried all my grief. _ _
 v4: To Him I owe my life and breath, And all the joys I have He makes me tri- umph o- ver death, And _ saves me from the grave, And _ saves me from the grave. _ _

@@ -5,6 +5,6 @@
 # quality: rough (per verse: rough, exact, auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Fai- rest Lord Je- _ sus, Ru- ler of all na- _ ture, O Thou of God and _ man the Son Thee will I ho- _ nor, Thou, my _ soul's _ _ _ glo- _ _ ry, joy, and crown. _ _
-v2: Fair are the mea- _ dows, Fai- rer still the wood _ lands, Robed in the bloom- ing _ garb of spring Je- sus is fai- _ rer, Je- sus is pu- _ rer, Who makes the woe- ful heart to sing. _ _
-v3: Fair is the sun- _ shine, Fai- rer still the moon _ light, And all the twinkl- ing, _ sta- ry host Je- sus shines bright- _ er, Je- sus shines pu- rer, Than all the ang- els hea- ven can boast. A- men.
+v1: Fair- est Lord Je- _ sus, Rul- er of all na- _ ture, O Thou of God and _ man the Son Thee will I hon- _ or, Thou, my _ soul's _ _ _ glo- _ _ ry, joy, and crown. _ _
+v2: Fair are the mead- _ ows, Fair- er still the wood _ lands, Robed in the bloom- ing _ garb of spring Je- sus is fair- _ er, Je- sus is pur- _ er, Who makes the woe- ful heart to sing. _ _
+v3: Fair is the sun- _ shine, Fair- er still the moon _ light, And all the twinkl- ing, _ star- y host Je- sus shines bright- _ er, Je- sus shines pur- er, Than all the an- gels heav- en can boast. A- men.

@@ -2,10 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: auto, auto, auto, auto)
+# quality: auto (per verse: auto, auto, exact, auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: The- re's sun- shine in my soul to- day, More _ glo- ri- ous and bright Than _ glows in an- y earth- ly sky, For Je- sus is my Light. O the- re's sun- shine, bless- ed sun- shine, When the peace- ful, hap- py mo- ments roll When _ Je- sus shows His smil- _ ing _ face, There is sun- shine in my soul.
-v2: The- re's mu- sic in my soul to- day, A _ car- ol to my King, And _ Je- sus, lis- ten- ing can hear The songs I can- not sing. O the- re's sun- shine, bless- ed sun- shine, When the peace- ful, hap- py mo- ments roll When _ Je- sus shows His smil- _ ing _ face, There is sun- shine in my soul.
-v3: The- re's spring- time in my soul to- day, For _ when the Lord is near The dove of peace sings in my heart, The flo- wers of grace ap- pear. O the- re's sun- shine, bless- ed sun- shine, When the peace- ful, hap- py mo- ments roll When _ Je- sus shows His smil- _ ing _ face, There is sun- shine in my soul.
-v4: The- re's glad- ness is my soul to- day, And _ hope and praise and love, For _ bless- ings which He gives me now, For joys "laid up" a- bove. O the- re's sun- shine, bless- ed sun- shine, When the peace- ful, hap- py mo- ments roll When _ Je- sus shows His smil- _ ing _ face, There is sun- shine in my soul.
+v1: There's _ sun- shine in my soul to- day, More _ glo- ri- ous and bright Than _ glows in an- y earth- ly sky, For Je- sus is my Light. O there's sun- shine, bless- _ ed sun- shine, When the peace- ful, hap- py mo- ments roll When _ Je- sus shows His smil- _ ing _ face, There is sun- shine in my soul.
+v2: There's _ mu- sic in my soul to- day, A _ car- ol to my King, And _ Je- sus, lis- ten- ing can hear The songs I can- not sing. O there's sun- shine, bless- _ ed sun- shine, When the peace- ful, hap- py mo- ments roll When _ Je- sus shows His smil- _ ing _ face, There is sun- shine in my soul.
+v3: There's spring- time in my soul to- day, For when _ the Lord is near The dove _ of peace sings in my heart, The flow- ers of grace ap- pear. O there's sun- shine, bless- _ ed sun- shine, When the peace- ful, hap- py mo- ments roll When _ Je- sus shows His smil- _ ing _ face, There is sun- shine in my soul.
+v4: There's _ glad- ness is my soul to- day, And _ hope and praise and love, For _ bless- ings which He gives me now, For joys "laid up" a- bove. O there's sun- shine, bless- _ ed sun- shine, When the peace- ful, hap- py mo- ments roll When _ Je- sus shows His smil- _ ing _ face, There is sun- shine in my soul.

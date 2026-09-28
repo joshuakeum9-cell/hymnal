@@ -7,5 +7,5 @@
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 v1: Fierce raged the temp- est o'er the deep, Watch did Thine anx- ious ser- vants keep, But Thou wast wrapped in guile- less sleep, calm and still.
 v2: "Save, Lord, we per- ish", was their cry, "O save us in our a- go- ny!" Thy word a- bove the storm rose high, "Peace, be still."
-v3: The wild winds hushed the ang- ry deep Sank, like a lit- tle child, to sleep The sul- len bil- lows ceased to leap, At Thy will.
+v3: The wild winds hushed the an- gry deep Sank, like a lit- tle child, to sleep The sul- len bil- lows ceased to leap, At Thy will.
 v4: So, when our life is cloud o- ver, And storm- winds drift us from the shore, Say lest we sink to rise no more, "Peace, be still."

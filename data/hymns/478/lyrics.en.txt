@@ -1,0 +1,10 @@
+# 478 This is My Father's World
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, auto, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: This _ is my Fa- ther's world, And _ to my listen- ing ears, All na- ture sings, and _ round me rings The mu- _ sic of the _ spheres. This is my Fa- ther's world: I _ rest me in the thought Of rocks and trees, of _ skies and seas; His hand _ the won- ders _ wrought. _ _
+v2: This _ is my Fa- ther's world, The _ birds their ca- rols raise, The morn- ing light, the _ lil- y white, De- clare _ their Mak- er's _ praise. This is my Fa- ther's world: He _ shines in all that's fair; In the rustl- ing grass _ I hear Him pass, He _ speaks to me _ eve- ry- where.
+v3: This _ is my Fa- ther's world, O _ let me ne'er for- get That though the wrong seems _ oft so strong, God is _ the Rul- er _ yet. This is my Fa- ther's world: The _ bat- tle is not done; Je- sus who died shall _ be sat- is- fied, And _ earth and heav- _ en be one.

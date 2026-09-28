@@ -12,7 +12,7 @@ const PAPER = {
   a4: { w: 698, h: 1026, css: 'A4' },
 }
 const HEADER_H = 78
-const FOOTER_H = 22
+const FOOTER_H = 34 // room for a two-line credit on the last page
 const PRINT_ZOOM = 0.6
 
 function root(): HTMLElement {
@@ -85,6 +85,7 @@ export async function printHymns(items: PrintItem[], paper: 'letter' | 'a4'): Pr
     pages.forEach(([y0, y1], p) => {
       const page = document.createElement('section')
       page.className = 'print-page'
+      page.style.width = `${P.w}px` // paper width, so a narrow phone screen cannot squeeze the header
       if (p === 0) {
         page.innerHTML = `<header class="print-head">
           <div class="print-num">${it.row.n}</div>
@@ -115,6 +116,7 @@ export async function printHymns(items: PrintItem[], paper: 'letter' | 'a4'): Pr
     if (it.hymn.enMode === 2 && it.mode !== 'ko' && it.hymn.en.length) {
       const page = document.createElement('section')
       page.className = 'print-page print-text'
+      page.style.width = `${P.w}px`
       page.innerHTML = `<h2>${it.row.n} ${esc(it.row.e || it.row.k)}, English words</h2>` +
         it.hymn.en.map((v, i) => `<p><b>${i + 1}.</b> ${esc(v).replace(/\n/g, '<br>')}</p>`).join('')
       box.appendChild(page)

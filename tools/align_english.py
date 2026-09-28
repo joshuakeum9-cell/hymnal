@@ -259,19 +259,23 @@ def process(n: int, hymn_en: dict, force: bool) -> dict:
     lines, costs, grades = [], [], []
     refrain_tokens = None
     for k in range(1, min(kv, len(en_verses)) + 1):
-        toks = english_syllables(en_verses[k - 1])
+        # split words the way hymnals do (data/hyphenation.json) and also with the word-level rules;
+        # the source sometimes sings a word as fewer syllables ("blessed"), so keep whichever fits
+        variants = [english_syllables(en_verses[k - 1]), english_syllables(en_verses[k - 1], use_dict=False)]
+        toks = variants[0]
         candidates = []
         groups = line_groups(src_verses[k - 1])
         paths = [slots]
         if k > 1 and has_refrain:
             paths.append([s for s in slots if s.region == "verse"])
         for path in paths:
-            use = toks
-            if 0 < len(toks) - len(path) <= 4:
-                use = elide(toks, len(toks) - len(path))
-            res, cost = align(path, use, k, korean_line_ends(path, k, groups))
-            if res is not None:
-                candidates.append((cost / max(len(toks), 1), cost, res, path))
+            for vt in variants if variants[1] != variants[0] else variants[:1]:
+                use = vt
+                if 0 < len(vt) - len(path) <= 4:
+                    use = elide(vt, len(vt) - len(path))
+                res, cost = align(path, use, k, korean_line_ends(path, k, groups))
+                if res is not None:
+                    candidates.append((cost / max(len(vt), 1), cost, res, path))
         if not candidates:
             candidates.append((INF, INF, None, slots))
         candidates.sort(key=lambda c: c[0])

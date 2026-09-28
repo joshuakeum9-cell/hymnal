@@ -6,7 +6,7 @@
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 v1: For the _ beau- ty of the earth, For the beau- ty of the skies, For the _ love which from our birth O- ver and a- round us lies, Lord of all, to Thee we raise This our hymn of grate- ful praise. _ _
-v2: For the _ beau- ty of each hour Of the day and of the night, Hill and vale, and tree and flo- wer, Sun and moon, and stars of light, Lord of all, to Thee we raise This our hymn of grate- ful praise. _ _
+v2: For the _ beau- ty of each hour Of the day and of the night, Hill and vale, and tree and flow- er, Sun and moon, and stars of light, Lord of all, to Thee we raise This our hymn of grate- ful praise. _ _
 v3: For the _ joy of ear and eye For the heart and mind's de- light For the _ mys- tic har- mo- ny, Link- ing sense to sound and sight, Lord of all, to Thee we raise This our hymn of grate- ful praise. _ _
 v4: For the _ joy of hu- man love, Broth- er, sis- ter, par- ent, child, Friends on earth, and friends a- bove For all gen- tle tho' ts and mild, Lord of all, to Thee we raise This our hymn of grate- ful praise. _ _
 v5: For Thy _ church that ev- er- more Lift- eth ho- ly hands a- bove, Of- f'ring _ up on ev'- ry shore Its pure sac- ri- fice of love, Lord of all, to Thee we raise This our hymn of grate- ful praise. _ _

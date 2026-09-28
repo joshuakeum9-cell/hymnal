@@ -2,12 +2,12 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: exact, exact, auto, auto, exact, auto)
+# quality: auto (per verse: exact, exact, auto, exact, exact, auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Just _ as I am, _ wi- thout _ one plea, But that _ Thy blood was shed for me, And _ that Thou bid'st _ me come to Thee, _ O Lamb of God, _ I come, I come. _ _
+v1: Just _ as I am, _ with- out _ one plea, But that _ Thy blood was shed for me, And _ that Thou bid'st _ me come to Thee, _ O Lamb of God, _ I come, I come. _ _
 v2: Just _ as I am, _ and wait- _ ing not To rid _ my soul of one dark blot, To _ Thee whose blood _ can cleanse each spot, _ O Lamb of God, _ I come, I come. _ _
-v3: Just _ as I am, _ though tossed _ a- bout With ma- _ ny a con- flict, ma- ny a _ doubt, Fight- ings _ and fears wi- thin, _ wi- thout, O Lamb _ of God, I come, I come.
-v4: Just _ as I am, _ poor, wretched, _ blind; Sight, riches, heal- _ ing of the mind, Yea, all I _ need in Thee _ to find, O Lamb _ of God, I _ _ _ come, I come. _ _
-v5: Just _ as I am, _ Thou wilt _ re- ceive, Wilt wel- _ come, par- don, cleanse, re- lieve; Be- _ cause Thy pro- _ mise I be- lieve, _ O Lamb of God, _ I come, I come. _ _
+v3: Just _ as I am, _ though tossed _ a- bout With man- _ y a con- flict, man- y a _ doubt, Fight- ings _ and fears with- in, _ with- out, O Lamb _ of God, I come, I come.
+v4: Just _ as I am, _ poor, wretch- _ ed, blind; Sight, rich- _ es, heal- ing of the mind, Yea, _ all I need _ in Thee to find, _ O Lamb of God, _ I come, I come. _ _
+v5: Just _ as I am, _ Thou wilt _ re- ceive, Wilt wel- _ come, par- don, cleanse, re- lieve; Be- _ cause Thy prom- _ ise I be- lieve, _ O Lamb of God, _ I come, I come. _ _
 v6: Just _ as I am, _ Thy love _ _ un- known Hath _ bro- ken e- ve- ry bar- rier _ down; Now, to _ be Thine, yea, Thine _ a- lone, O Lamb _ of God, I come, I come.

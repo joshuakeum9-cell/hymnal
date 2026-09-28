@@ -2,10 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: exact, exact, exact, auto)
+# quality: exact (per verse: exact, exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 v1: There comes to my heart one sweet strain, _ A glad and a joy- ous re- frain _ I sing it a- gain, and a- gain, _ Sweet peace, the gift of God's love. Peace, peace, sweet peace! Won- der- ful gift form a- bove! _ Oh, won- der- ful, won- der- ful peace! _ Sweet peace, the gift of God's love! _
 v2: Thro' Christ on the cross peace was made, _ My debt by His death was all paid _ No oth- er foun- da- tion is laid, _ For peace, the gift of God's love. Peace, peace, sweet peace! Won- der- ful gift form a- bove! _ Oh, won- der- ful, won- der- ful peace! _ Sweet peace, the gift of God's love! _
 v3: When Je- sus as Lord I had crowned, _ My heart with this peace did a- bound _ In Him the rich bless- ing I found, _ Sweet peace, the gift of God's love. Peace, peace, sweet peace! Won- der- ful gift form a- bove! _ Oh, won- der- ful, won- der- ful peace! _ Sweet peace, the gift of God's love! _
-v4: In JE- sus for peace I a- bide, _ And as I keep close to His side _ The- re's noth- ing but peace doth be- tide, Sweet peace, the gift of God's love. Peace, peace, sweet peace! Won- der- ful gift form a- bove! _ Oh, won- der- ful, won- der- ful peace! _ Sweet peace, the gift of God's love! _
+v4: In JE- sus for peace I a- bide, _ And as I keep close to His side _ There's noth- ing but peace doth be- tide, _ Sweet peace, the gift of God's love. Peace, peace, sweet peace! Won- der- ful gift form a- bove! _ Oh, won- der- ful, won- der- ful peace! _ Sweet peace, the gift of God's love! _

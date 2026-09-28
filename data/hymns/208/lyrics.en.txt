@@ -7,6 +7,6 @@
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 v1: I love Thy King- dom, _ Lord, The _ house of _ Thine a- bode, The Church our blest Re- deem- er saved With His own _ pre- cious blood. _ _
 v2: I love Thy Church, O _ God Her _ walls be- _ fore Thee stand, Dear as the ap- ple of Thine eye, And grav- en _ on Thy hand. _ _
-v3: For her my tears shall _ fall, For _ her my _ prayers as- cend To her my cares and toils be gi- ven, Till toils _ and cares shall _ end.
+v3: For her my tears shall _ fall, For _ her my _ prayers as- cend To her my cares and toils be giv- en, Till toils _ and cares shall _ end.
 v4: Be- yond my high- est _ joy I _ prize her _ heav'n- ly ways, Her sweet com- mun- ion, sol- emn vows, Her hymns of _ love and praise. _ _
 v5: Sure as Thy truth shall _ last, To _ Zi- on _ shall be giv'n The bright- est glo- ries earth can yield, And bright- er _ bliss of heav'n. A- men.

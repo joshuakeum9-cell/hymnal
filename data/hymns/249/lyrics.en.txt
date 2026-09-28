@@ -1,0 +1,11 @@
+# 249 Come, We That Love The Lord
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Come, we that love _ the Lord, And let our joys _ be known; Join in a song with sweet ac- cord, Join in a song with sweet ac- cord, And thus sur- round the throne, And thus sur- round the throne. We're march- ing to Zi- on, Beau- ti- ful, beau- ti- ful Zi- on; We're march- ing up- ward to Zi- on, _ The beau- ti- ful cit- y of God.
+v2: Let those re- fuse _ to sing Who nev- er knew _ our God; But chil- dren of the heav'n- ly King, But chil- dren of the heav'n- ly King May speak their joys a- broad, May speak their joys a- broad. We're march- ing to Zi- on, Beau- ti- ful, beau- ti- ful Zi- on; We're march- ing up- ward to Zi- on, _ The beau- ti- ful cit- y of God.
+v3: The hill of Zi- _ on yields A thou- sand sa- _ cred sweets Be- fore we reach the heav'n- ly fields, Be- fore we reach the heav'n- ly fields, Or walk the gold- en streets, Or walk the gold- en streets. We're march- ing to Zi- on, Beau- ti- ful, beau- ti- ful Zi- on; We're march- ing up- ward to Zi- on, _ The beau- ti- ful cit- y of God.
+v4: Then let our songs _ a- bound, And ev- ery tear _ be dry; We're march- ing through Im- man- uel's ground, We're march- ing through Im- man- uel's ground, To fair- er worlds on high, To fair- er worlds on high. We're march- ing to Zi- on, Beau- ti- ful, beau- ti- ful Zi- on; We're march- ing up- ward to Zi- on, _ The beau- ti- ful cit- y of God.

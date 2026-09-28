@@ -1,0 +1,11 @@
+# 595 A Charge to Keep I Have
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, exact, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: A charge to keep I have, A God to glo- ri- fy, A never- _ dying soul to _ save, And fit it for the sky. _ _
+v2: To serve the pre- sent age, My call- ing to ful- fill; O may it all my po- wers en- gage To do my Mas- ter's _ will!
+v3: Arm me with jea- lous care, As in Thy sight to live, And O, Thy serv- ant, Lord, pre- pare A strict ac- count to give! _ _
+v4: Help me to watch and pray, And still on Thee re- ly, O let _ me not my _ trust be- tray, But press to realms on high.

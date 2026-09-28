@@ -147,7 +147,28 @@ def nuclei(core: str) -> list[tuple[int, int]]:
     return groups
 
 
-def split_word(word: str) -> list[str]:
+_HYPH = None
+
+
+def hymnal_split(core: str) -> list[str] | None:
+    """The split hymnals use for this word (data/hyphenation.json), keeping the word's own letters."""
+    global _HYPH
+    if _HYPH is None:
+        import json
+        import os
+        p = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "hyphenation.json")
+        _HYPH = json.load(open(p, encoding="utf-8")) if os.path.exists(p) else {}
+    h = _HYPH.get(core.lower())
+    if not h:
+        return None
+    pieces, i = [], 0
+    for part in h.split("-"):
+        pieces.append(core[i:i + len(part)])
+        i += len(part)
+    return pieces
+
+
+def split_word(word: str, use_dict: bool = True) -> list[str]:
     """Break one unhyphenated English word into sung syllables: 'Almighty' -> ['Al', 'might', 'y']."""
     lead = re.match(r"^[^A-Za-z']*", word).group(0)
     trail = re.search(r"[^A-Za-z']*$", word).group(0)
@@ -155,6 +176,21 @@ def split_word(word: str) -> list[str]:
     low = core.lower()
     if not low or low in ONE_SYLLABLE:
         return [word]
+    poss = ""
+    if low.endswith("'s") and len(low) > 3:
+        # possessive: split the word itself, the 's rides on the last syllable (Love's, Saviour's)
+        core, low, poss = core[:-2], low[:-2], core[-2:]
+        trail = poss + trail
+    known = hymnal_split(core) if use_dict else None
+    if known:
+        known[0] = lead + known[0]
+        known[-1] = known[-1] + trail
+        return known
+    if poss:
+        parts = split_word(core, use_dict)
+        parts[0] = lead + parts[0]
+        parts[-1] = parts[-1] + trail
+        return parts
     target = cmu_count(low.replace("'", ""))
     groups = nuclei(low.replace("'", "_"))
     if target is None:
@@ -227,7 +263,7 @@ def clean_english(text: str) -> str:
     return text
 
 
-def english_syllables(text: str) -> list[str]:
+def english_syllables(text: str, use_dict: bool = True) -> list[str]:
     """'What a fel-low-ship, Holy' -> ['What', 'a', 'fel-', 'low-', 'ship,', 'Ho-', 'ly']"""
     out: list[str] = []
     text = text.replace("—", "— ").replace("–", "– ")
@@ -239,7 +275,7 @@ def english_syllables(text: str) -> list[str]:
         if re.search(r"[A-Za-z’'.,;:!?]-+[A-Za-z]", word):
             parts = [p for p in re.split(r"-+", word) if p]
         else:
-            parts = split_word(word)
+            parts = split_word(word, use_dict)
         for i, p in enumerate(parts):
             out.append(p + ("-" if i < len(parts) - 1 else ""))
     return out

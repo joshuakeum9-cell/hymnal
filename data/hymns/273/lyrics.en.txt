@@ -2,11 +2,11 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: exact, exact, auto, exact, exact)
+# quality: exact (per verse: exact, exact, exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: I've wan- dered far a- way _ from God, Now I'm com- ing home; The paths of sin too long _ I/ve trod, Lord, I'm com- ing home. Com- ing home, com- ing home, Ne- ver- more to roam, O- pen wide Thine arms _ of love, Lord, I'm com- ing home.
-v2: I/ve wa- sted ma- ny pre- _ cious years, Now I'm com- ing home; I now re- pent with bit- _ ter tears, Lord, I'm com- ing home. Com- ing home, com- ing home, Ne- ver- more to roam, O- pen wide Thine arms _ of love, Lord, I'm com- ing home.
-v3: I/v tired _ of sin and _ straying, Lord, Now I'm com- ing home; I/ll trust Thy love, be- lieve _ Thy Word, Lord, I'm com- ing home. Com- ing home, com- ing home, Ne- ver- more to roam, O- pen wide Thine arms _ of love, Lord, I'm com- ing home.
-v4: My soul is sick, my heart _ is sore, Now I'm com- ing home; My strength re- new, my hope _ re- store, Lord, I'm com- ing home. Com- ing home, com- ing home, Ne- ver- more to roam, O- pen wide Thine arms _ of love, Lord, I'm com- ing home.
-v5: My on- ly hope, my on- _ ly plea, Now I'm com- ing home; That Je- sus died, and died _ for me. Lord, I'm com- ing home. Com- ing home, com- ing home, Ne- ver- more to roam, O- pen wide Thine arms _ of love, Lord, I'm com- ing home.
+v1: I've wan- dered far a- way _ from God, Now I'm com- ing home; The paths of sin too long _ I/ve trod, Lord, I'm com- ing home. Com- ing home, com- ing home, Nev- er- more to roam, O- pen wide Thine arms _ of love, Lord, I'm com- ing home.
+v2: I/ve wast- ed man- y pre- _ cious years, Now I'm com- ing home; I now re- pent with bit- _ ter tears, Lord, I'm com- ing home. Com- ing home, com- ing home, Nev- er- more to roam, O- pen wide Thine arms _ of love, Lord, I'm com- ing home.
+v3: I/v tired of sin and stray- _ ing, Lord, Now I'm com- ing home; I/ll trust Thy love, be- lieve _ Thy Word, Lord, I'm com- ing home. Com- ing home, com- ing home, Nev- er- more to roam, O- pen wide Thine arms _ of love, Lord, I'm com- ing home.
+v4: My soul is sick, my heart _ is sore, Now I'm com- ing home; My strength re- new, my hope _ re- store, Lord, I'm com- ing home. Com- ing home, com- ing home, Nev- er- more to roam, O- pen wide Thine arms _ of love, Lord, I'm com- ing home.
+v5: My on- ly hope, my on- _ ly plea, Now I'm com- ing home; That Je- sus died, and died _ for me. Lord, I'm com- ing home. Com- ing home, com- ing home, Nev- er- more to roam, O- pen wide Thine arms _ of love, Lord, I'm com- ing home.

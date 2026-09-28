@@ -1,0 +1,11 @@
+# 587 Come, Ye Thankful People, Come
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, exact, exact, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Come, ye thank- ful peo- ple, come, Raise the song of har- vest home; All is safe- ly gath- ered in, Ere the win- ter storms be- gin; God, our Mak- er, doth pro- vide For our wants to be sup- plied: Come to God's own tem- ple, come, Raise the song of har- vest home. _ _
+v2: All the world is God's own field, Fruit un- to His praise to yield; Wheat and tares to- geth- er sown, Un- to joy or sor- row grown. First the blade, and then the ear, Then the full corn shall ap- pear: Lord of har- vest, grant that we Whole- some grain and pure may be. _ _
+v3: For the Lord our God shall come, And shall take His har- vest home; From His field shall in that day All of- fen- ces purge a- way; Give His an- gels charge at last In the fire the tares to cast, But the fruit- ful ears to store In His gar- ner ev- er- more. _ _
+v4: E- ven so, Lord, quick- ly come To Thy fi- nal har- vest home; Gath- er Thou Thy peo- ple in, Free from sor- row, free from sin; There, for- ev- er pu- ri- fied, In Thy pres- ence to a- bide: Come, _ with all Thine an- gels, come, Raise the glo- ri- ous har- vest home.

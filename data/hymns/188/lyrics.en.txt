@@ -1,0 +1,13 @@
+# 188 Come To Our Poor Nature'S Night
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Come to our poor na- ture's _ night With the bless- ed in- ward _ light, Ho- ly Ghost the In- fi- nite, _ Com- fort- er Di- vine.
+v2: We are sin- ful, cleanse us, _ Lord, Sick and faint, Thy strength af- _ ford, Lost, un- til by Thee re- stored, _ Com- fort- er Di- vine.
+v3: Like the dew Thy peace di- _ stil; Guide, sub- due our way- ward _ will, Things of Christ un- fold- ing still, _ Com- fort- er Di- vine.
+v4: In us, for us, in- ter- _ cede, And with voice- less groa- nings _ plead Our un- ut- ter- a- ble need, _ Com- fort- er Di- vine.
+v5: In us "Ab- ba, Fa- ther," _ cry, Ear- nest of our bliss on _ high, Seal of im- mor- ta- li- ty, _ Com- fort- er Di- vine.
+v6: Search for us the depths of _ God! Bear us up the star- ry _ road To the height of Thine a- bode, _ Com- fort- er Di- vine.

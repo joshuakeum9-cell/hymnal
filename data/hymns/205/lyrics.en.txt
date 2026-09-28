@@ -1,0 +1,11 @@
+# 205 Tell Me the Old, Old Story
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Tell me the old, old sto- ry, Of un- seen things a- _ bove, Of Je- sus and _ His _ glo- _ ry, Of Je- sus _ and His _ love. Tell _ me the sto- ry sim- _ ply, As to _ a _ lit- tle child; For I am weak _ and _ wea- _ ry, And help- less _ and de- _ filed. Tell me the old, old sto- ry, Tell me the old, old sto- ry, Tell me the old, old sto- ry, Of Je- sus and _ His love.
+v2: Tell me the sto- ry slow- ly, That I may take it _ in, That won- der- ful _ re- _ demp- _ tion, God's re- me- _ dy for _ sin. Tell _ me the sto- ry of- _ ten, For I _ for- _ get so soon; The "ear- ly dew" _ of _ morn- _ ing Has passed a- _ way at _ noon. Tell me the old, old sto- ry, Tell me the old, old sto- ry, Tell me the old, old sto- ry, Of Je- sus and _ His love.
+v3: Tell me the sto- ry soft- ly, With ear- nest tones and _ grave; Re- mem- ber I'm _ the _ sin- _ ner Whom Je- sus _ came to _ save; Tell _ me the sto- ry al- _ ways, If you _ would _ real- ly be, In an- y time _ of _ trou- _ ble, A com- fort- _ er to _ me. Tell me the old, old sto- ry, Tell me the old, old sto- ry, Tell me the old, old sto- ry, Of Je- sus and _ His love.
+v4: Tell me the same old sto- ry, When you have cause to _ fear That this world's emp- _ ty _ glo- _ ry Is cost- ing _ me too _ dear. Yes, _ and when that world's glo- _ ry Is dawn- _ ing _ on my soul, Tell me the old, _ old _ sto- _ ry: "Christ Je- sus _ makes thee _ whole." Tell me the old, old sto- ry, Tell me the old, old sto- ry, Tell me the old, old sto- ry, Of Je- sus and _ His love.

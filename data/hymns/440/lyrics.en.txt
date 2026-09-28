@@ -1,0 +1,10 @@
+# 440 Anywhere with Jesus I Can Safely Go
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: An- y- where with Je- sus I can safe- ly go; An- y- where He leads me in this world be- low; An- y- where with- out Him dear- est joys would fade; An- y- where with Je- sus I am not a- fraid. An- y- where! an- y- where! Fear I can not know; An- y- where with Je- sus I can safe- ly go.
+v2: An- y- where with Je- sus I am not a- lone; Oth- er friends may fail me, He is still my own; Tho' His hand may lead me o- ver drear- y ways; An- y- where with Je- sus is a house of praise. An- y- where! an- y- where! Fear I can not know; An- y- where with Je- sus I can safe- ly go.
+v3: An- y- where with Je- sus I can go to sleep, When the dark'- ning shad- ows 'round a- bout me creep; Know- ing I shall wak- en, nev- er more to roam, An- y- where with Je- sus will be home, sweet home. An- y- where! an- y- where! Fear I can not know; An- y- where with Je- sus I can safe- ly go.

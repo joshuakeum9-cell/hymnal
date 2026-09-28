@@ -1,0 +1,11 @@
+# 499 Far, Far Away in Heathen Darkness Dwelling
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, exact, auto, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Far, far a- way, in hea- then dark- ness dwell- ing, Mil- lions of souls for- ev- er may be lost; Who, who will go, sal- va- tion's sto- ry tell- ing, Look- ing to Je- sus, mind- ing not the cost? All pow'r is giv- en un- to Me, All pow'r is giv- en un- to Me, Go ye in- to all the world and preach the gos- pel, And lo, I am with you al- way.
+v2: See o'er the world wide o- pen doors in- vit- ing, Sol- diers of Christ, a- rise and en- ter in! Chris- tians, a- wake! your for- ces all u- nit- ing, Send forth the gos- pel, break the chains of sin. All pow'r is giv- en un- to Me, All pow'r is giv- en un- to Me, Go ye in- to all the world and preach the gos- pel, And lo, I am with you al- way.
+v3: "Why will ye die?" the voice of God is call- ing, "Why will ye die?" re- echo in His _ name; Je- sus hath died to save from death ap- pall- ing, Life and sal- va- tion there- fore go pro- claim. All pow'r is giv- en un- to Me, All pow'r is giv- en un- to Me, Go ye in- to all the world and preach the gos- pel, And lo, I am with you al- way.
+v4: God speed the day, when those of e- ve- ry na- tion "Glo- ry to God!" trium- phan- tly shall sing; Ran- somed, re- deemed, re- joic- ing in sal- va- tion, Shout "Hal- le- lu- jah, for the Lord is King!" All pow'r is gi- ven un- to Me, All pow'r is gi- ven un- to Me, Go ye in- to all the world and preach the go- spel, And lo, I am with you al- way.

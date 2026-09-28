@@ -7,4 +7,4 @@
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 v1: O per- fect Love, all hu- man thought tran- scend- ing, Low- ly we kneel in prayer be- fore Thy throne, That theirs may be the love which knows no end- ing, Whom Thou for- ev- er more dost join in one. _ _
 v2: O per- fect Life, Be Thou their full as- sur- ance Of ten- der char- i- ty and stead- fast faith, Of pa- tient hope, and qui- et, brave en- dur- ance, With child- like trust that fears not pain nor death. _ _
-v3: Grant them the joy which brightens earth- ly sor- row Grant them the peace which calms all earth- ly strife, And to li- fe's day the glo- rious un- known mor- row That dawns up- on e- ter- nal love and life. A- men.
+v3: Grant them the joy which bright- ens earth- ly sor- row Grant them the peace which calms all earth- ly strife, And to life's day the glo- rious un- known mor- row That dawns up- on e- ter- nal love and life. A- men.

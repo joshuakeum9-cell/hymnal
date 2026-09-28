@@ -2,9 +2,9 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: auto, exact, auto)
+# quality: auto (per verse: auto, auto, auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 v1: Of Je- sus' love that sought me, When I was _ lost in sin Of won- drous grace that brought me Back to His fold a- gain _ Of heights and depths of mer- cy, Far deep- er than the sea, And high- er than the heav- ens, My theme shall ev- er be. Sweet- er as the years go by, _ Sweet- er as the years go by, Rich- er, full- er, deep- er, Je- sus's love is sweet- er, Sweet- er as the years go by,
-v2: He trod in old Ju- de- a Li- fe's path- way long a- go The peo- ple thronged a- bout Him His sav- ing grace to know _ He healed the bro- ken- heart- ed, And caused the blind to see And still His great heart yearn- eth In love for e- ven me. Sweet- er as the years go by, _ Sweet- er as the years go by, Rich- er, full- er, deep- er, Je- sus's love is sweet- er, Sweet- er as the years go by,
-v3: 'T was won- drous love which led Him For us to suf- fer loss To bear with- out a mur- mur The an- guish of the cross _ With saints re- deemed in glo- ry Let us our voi- ces raise, Till hea- ven and earth re- ech- o With our Re- deem- er's praise. Sweet- er as the years go by, Sweet- er as the years go by, Rich- er, full- er, deep- er, Je- sus's love is sweet- er, Sweet- er as the years go by,
+v2: He trod in old Ju- de- a Life's path- way long a- go The peo- ple thronged a- bout Him His sav- ing grace to know He _ healed the bro- ken- heart- ed, And caused the _ blind to see And still His great heart yearn- eth In love for e- ven me. Sweet- er as the years go by, _ Sweet- er as the years go by, Rich- er, full- er, deep- er, Je- sus's love is sweet- er, Sweet- er as the years go by,
+v3: 'T was won- drous love which led Him For us to suf- fer loss To bear with- out a mur- mur The an- guish of the cross _ With saints re- deemed in glo- ry Let us our voi- ces raise, Till heav- en and earth re- ech- o With our Re- deem- er's praise. Sweet- er as the years go by, Sweet- er as the years go by, Rich- er, full- er, deep- er, Je- sus's love is sweet- er, Sweet- er as the years go by,

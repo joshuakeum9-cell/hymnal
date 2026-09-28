@@ -1,0 +1,10 @@
+# 346 The Son of God Goes Forth to War
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: The Son of God goes forth to war, A king- ly crown to gain; His blood- red ban- ner streams a- far: Who fol- lows in His train? Who best can drink his cup of woe, Tri- um- phant o- ver pain, Who pa- tient bears his cross be- low, He fol- lows in His train. _ _
+v2: The mar- tyr first, whose ea- gle eye Could pierce be- yond the grave, Who saw his Mas- ter in the sky, And called on Him to save: Like Him, with par- don on his tongue In midst of mor- tal pain, He prayed for them that did the wrong: Who fol- lows in his train? _ _
+v3: A no- ble ar- my, men and boys, The ma- tron and the maid, A- round the Sav- ior's throne re- joice, In robes of light ar- rayed: They climbed the steep as- cent of heav'n Through pe- ril, toil, and pain; O God, to us may grace be giv'n To fol- low in their train! A- men.

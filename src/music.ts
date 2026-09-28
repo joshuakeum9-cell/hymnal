@@ -102,7 +102,11 @@ export function filterLyrics(xml: string, mode: LyricMode): Document {
     for (const l of lyrics) if (lyricLang(l) !== mode) l.parentNode?.removeChild(l)
   }
   const kept = Array.from(doc.getElementsByTagName('lyric'))
-  const numbers = Array.from(new Set(kept.map(l => Number(l.getAttribute('number') ?? 1)))).sort((a, b) => a - b)
+  // Like the printed Korean-English hymnal: every Korean verse first, then every English verse
+  // (the file interleaves them: Korean verse k is line 2k-1, English verse k is line 2k).
+  const langOf = new Map<number, number>()
+  for (const l of kept) langOf.set(Number(l.getAttribute('number') ?? 1), lyricLang(l) === 'ko' ? 0 : 1)
+  const numbers = Array.from(langOf.keys()).sort((a, b) => (langOf.get(a)! - langOf.get(b)!) || a - b)
   const map = new Map(numbers.map((n, i) => [n, String(i + 1)]))
   for (const l of kept) l.setAttribute('number', map.get(Number(l.getAttribute('number') ?? 1)) ?? '1')
   for (const ll of Array.from(doc.getElementsByTagName('lyric-language'))) ll.parentNode?.removeChild(ll)

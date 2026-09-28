@@ -1,0 +1,10 @@
+# 261 Blessed Be the Fountain of Blood
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Bless- ed be the foun- tain of blood, To a world of sin- ners re- vealed; Bless- ed be the dear Son of God; On- ly by His stripes we are healed. Tho' I've wan- dered far from His fold, _ Bring- ing to my heart _ pain and woe, _ Wash me in the blood of the Lamb, And I shall be whit- er than snow. Whit- er than the snow, Whit- er than the snow; Wash me in the blood of the Lamb, _ And I shall be whit- er than snow. _ _
+v2: Thorn- y was the crown that He wore, And the cross His bod- y o'er came; Griev- ous were the sor- rows He bore, But He suf- fered thus not in vain. May I to that foun- tain be led, _ Made to cleanse my sins _ here be- low; _ Wash me in the blood that He shed, And I shall be whit- er than snow. Whit- er than the snow, Whit- er than the snow; Wash me in the blood of the Lamb, _ And I shall be whit- er than snow. _ _
+v3: Fa- ther, I have wan- dered from Thee, Of- ten has my heart gone a- stray; Crim- son do my sins seem to me; Wa- ter can- not wash them a- way. Je- sus, to that foun- tain of Thine, _ Lean- ing on Thy prom- _ ise I go; _ Cleanse me by Thy wash- ing di- vine, And I shall be whit- er than snow. Whit- er than the snow, Whit- er than the snow; Wash me in the blood of the Lamb, _ And I shall be whit- er than snow. A- men.

@@ -2,10 +2,10 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: auto, exact, exact, auto)
+# quality: auto (per verse: exact, exact, exact, auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Je- sus, Sav- iour, pi- lot me, Lost on li- fe's un- chart- ed sea. Lead me, Lord, that I may know In what way You'd have me go. Lead me, Lord, that I _ may know In what way You'd have me go. _ _
+v1: Je- sus, Sav- iour, pi- _ lot me, Lost on life's un- chart- ed sea. Lead me, Lord, that I may know In what way You'd have me go. Lead me, Lord, that I _ may know In what way You'd have me go. _ _
 v2: Je- sus, Sav- iour, hear _ my call No- thing do I know at all. Teach me, Lord, to learn from You What it is You'd have me do. Teach me, Lord, to learn _ from You What it is You'd have me do. _ _
 v3: Sav- iour, help me! Nor _ for- get I am like an in- fant yet. Weak and strength- less, here I plead, Help me, Lord, sup- ply my need. Weak and strength- less, here _ I plead, Help me, Lord, sup- ply my need. _ _
 v4: Com- fort, Lord, my heart _ of grief Heal it's hurt with Your re- lief. Help- less but for You I stray Com- fort me and be my stay. Help- _ less but for _ You I stray _ Com- fort me and be my stay.

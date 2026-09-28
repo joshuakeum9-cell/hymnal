@@ -6,6 +6,6 @@
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 v1: Rise up, O men of God! Have done _ with les- ser things. Give heart and _ mind and soul and strength To serve _ the King of kings.
-v2: Rise up, O men of God! His king- _ dom tar- ries long. Bring in the _ day of bro- ther- hood And end _ the night of wrong.
+v2: Rise up, O men of God! His king- _ dom tar- ries long. Bring in the _ day of broth- er- hood And end _ the night of wrong.
 v3: Rise up, O men of God! The church _ for you doth wait, Her strength u- _ ne- qual to her task; Rise up _ and make her great!
-v4: Lift high the cross of Christ! Tread where _ His feet have trod. As bro- thers _ of the Son of Man, Rise up, _ O men of God!
+v4: Lift high the cross of Christ! Tread where _ His feet have trod. As broth- ers _ of the Son of Man, Rise up, _ O men of God!

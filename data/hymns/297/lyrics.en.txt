@@ -1,0 +1,12 @@
+# 297 There Were Ninety and Nine
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: rough (per verse: auto, rough, rough, rough, rough)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: There were ninety and nine that safely lay In the shel- ter of the fold, But one was out on the hills away, Far off from the gates of gold; Away on the moun- tains wild and bare, A- way from the ten- der Shep- herd's care, A- way from the ten- der Shep- herd's care.
+v2: ! could not place 62 syllables on 56 notes
+v3: ! could not place 62 syllables on 56 notes
+v4: ! could not place 61 syllables on 56 notes
+v5: ! could not place 61 syllables on 56 notes

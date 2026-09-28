@@ -5,7 +5,7 @@
 # quality: auto (per verse: auto, exact, exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: This is the day the Lord hath made He calls the hours His own _ Let hea- ven re- joice, let earth be glad, And praise sur- round the _ throne.
+v1: This is the day the Lord hath made He calls the hours His own _ Let heav- en re- joice, let earth be glad, And praise sur- round the _ throne.
 v2: To- day He rose and left the dead, And Sa- tan's em- pire fell _ To- day the saints His tri- umphs spread, And all His won- ders tell. _ _
 v3: Ho- san- na to th'a- noint- ed King, To Da- vid's ho- ly Son! _ Help us, O Lord de- scend and bring Sal- va- tion from the throne. _ _
 v4: Blest be the Lord, who comes to men With mes- sag- es of grace, _ Who comes in God His Fa- ther's name To save our sin- ful race! _ _

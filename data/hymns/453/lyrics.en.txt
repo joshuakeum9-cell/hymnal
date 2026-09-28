@@ -1,0 +1,11 @@
+# 453 More About Jesus Would I Know
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: More a- bout Je- sus would I know, More of His grace to oth- ers show; More of His sav- ing full- ness see, More of His love who died for me. More, more a- bout Je- sus, More, more a- bout Je- sus; More of His sav- ing full- ness see, More of His love who died for me.
+v2: More a- bout Je- sus let me learn, More of His ho- ly will di- scern; Spir- it of God, my tea- cher be; Show- ing the things of Christ to me. More, more a- bout Je- sus, More, more a- bout Je- sus; More of His sav- ing full- ness see, More of His love who died for me.
+v3: More a- bout Je- sus in His word, Hold- ing com- mun- ion with my Lord, Hear- ing His voice in ev- ery line, Mak- ing each faith- ful say- ing mine. More, more a- bout Je- sus, More, more a- bout Je- sus; More of His sav- ing full- ness see, More of His love who died for me.
+v4: More a- bout Je- sus on His throne, Rich- es in glo- ry all His own; More of His king- dom's sure in- crease; More of His com- ing, Prince of Peace. More, more a- bout Je- sus, More, more a- bout Je- sus; More of His sav- ing full- ness see, More of His love who died for me.

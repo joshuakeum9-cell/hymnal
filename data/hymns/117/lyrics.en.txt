@@ -5,6 +5,6 @@
 # quality: rough (per verse: auto, rough, auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: God rest you mer- ry, gen- tle- men, Let noth- ing you dis- may, Re- men- ber Christ our Sav- iour Was born on Christ- mas Day To save us all from Sa- tan's po- wer When we were gone a- stray. O _ ti- dings _ of com- fort and joy, Com- _ _ fort and _ joy O ti- dings of com- fort and joy!
+v1: God rest you mer- ry, gen- tle- men, Let noth- ing you dis- may, Re- men- ber Christ our Sav- iour Was born on Christ- mas Day To save us all from Sa- tan's pow- er When we were gone a- stray. O _ ti- dings _ of com- fort and joy, Com- _ _ fort and _ joy O ti- dings of com- fort and joy!
 v2: From God _ _ our heaven- ly Fa- ther A bless- ed an- gel came And un- to cer- tain shep- herds Brought ti- dings of the same How that in Beth- le- hem was born The Son of God by name. O _ ti- dings _ of com- fort and joy, Com- _ _ fort and _ joy O ti- dings of com- fort and joy!
-v3: “Fear not, _ then, “said the an- gel, “Let noth- ing you af- fright, This day _ is born a Sav- iour Of a pure Vir- gin bright, To free _ all those who trust in Him From Sa- tan's po- wer and _ might." O ti- dings of com- fort and joy, _ Com- fort and _ joy O ti- dings of com- fort and joy!
+v3: “Fear not, _ then, “said the an- gel, “Let noth- ing you af- fright, This day _ is born a Sav- iour Of a pure Vir- gin bright, To free _ all those who trust in Him From Sa- tan's pow- er and _ might." O ti- dings of com- fort and joy, _ Com- fort and _ joy O ti- dings of com- fort and joy!

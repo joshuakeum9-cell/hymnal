@@ -5,7 +5,7 @@
 # quality: auto (per verse: auto, exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Un- to the hills a- round do I lift up My long- ing eyes O whence for me shall my sal- va- tion come, From whence a- rise From God the Lord doth come my cer- tain aid, From God the Lord who hea- ven and earth hath _ made.
+v1: Un- to the hills a- round do I lift up My long- ing eyes O whence for me shall my sal- va- tion come, From whence a- rise From God the Lord doth come my cer- tain aid, From God the Lord who heav- en and earth hath _ made.
 v2: He will not suf- fer that thy foot be moved: Safe shalt thou be. No care- less slum- ber shall His eye- lids close, Who keep- eth thee. Be- hold, He sleep- eth not, He slum- bereth ne'er Who keep- eth Is- rael in His ho- ly care. _ _
 v3: Je- ho- vah is Him- self thy keep- er true, Thy change- less shade Je- ho- vah thy de- fense on thy right hand Him- self hath made. And thee no sun by day shall ev- er smite No moon shall harm thee in the si- lent night. _ _
 v4: From ev- ery e- vil shall He keep thy soul, From ev- ery sin Je- ho- vah shall pre- serve thy go- ing out, Thy com- ing in. A- bove thee watch- ing, He whom we a- dore Shall keep thee hence- forth, yea, for- ev- er- more. A- men.

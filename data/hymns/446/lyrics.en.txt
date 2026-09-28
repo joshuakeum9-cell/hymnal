@@ -6,6 +6,6 @@
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
 v1: I need Thee eve- ry hour, Most gra- _ cious Lord No ten- der _ voice like Thine Can peace _ af- ford With Thee what _ joy I cap- ture! Ev- ery hour is rap- ture! O bless _ me now, my Sav- iour, I come to Thee. _ _
-v2: I need Thee eve- ry hour, Stay Thou _ near by Temp- ta- tions _ lose their po- wer When _ Thou art nigh. With Thee what joy I cap- ture! Ev- ery hour is rap- ture! O bless _ me now, my Sav- iour, I come to Thee. _ _
+v2: I need Thee eve- ry hour, Stay Thou _ near by Temp- ta- tions _ lose their pow- er When _ Thou art nigh. With Thee what joy I cap- ture! Ev- ery hour is rap- ture! O bless _ me now, my Sav- iour, I come to Thee. _ _
 v3: I need Thee eve- ry hour, In joy _ or pain Come quick- ly _ and a- bide, Or life _ _ is vain. With Thee what joy I cap- ture! Ev- ery hour is rap- ture! O bless _ me now, my Sav- iour, I come to Thee. _ _
 v4: I need Thee eve- ry hour, Teach me _ _ Thy will And Thy _ rich prom- is- es In _ me ful- fill. With Thee what joy I cap- ture! Ev- ery hour is rap- ture! O bless _ _ me now, my Sav- iour, _ I come to Thee.

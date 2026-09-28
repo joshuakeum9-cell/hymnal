@@ -1,0 +1,11 @@
+# 149 When I Survey the Wondrous Cross
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: exact, exact, auto, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: When I sur- vey the _ won- drous _ cross, On which the Prince of _ glo- ry _ died, My ri- chest gain I _ count but _ loss, And pour con- tempt on all my _ pride. _ _
+v2: For- bid it, Lord, that _ I should _ boast, Save in the death of _ Christ, my _ God; All the vain things that _ charm me _ most, I sac- ri- fice them to His _ blood. _ _
+v3: See, from His head, His _ hands, His _ feet, Sor- row _ and love _ flow mingled _ down; Did e'er such love and _ sor- row _ meet, Or thorns com- pose so rich a _ crown? _ _
+v4: Were the whole realm of _ na- ture _ mine, That were a pre- sent _ far too _ small; Love so a- maz- ing, _ so di- _ vine, De- mands my soul, my life, my _ all. A- men.

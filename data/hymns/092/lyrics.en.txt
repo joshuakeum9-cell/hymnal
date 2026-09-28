@@ -5,7 +5,7 @@
 # quality: exact (per verse: exact, exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: The- re's one a- bove all earth- ly friends Whose love all earth- ly love tran- scends It is my Lord and Christ di- vine, My Lord, be- cause I know He's mine. I know He's mine, this Friend so dear, He lives with me, He's ever near Then thou- sand charms a- round Him shine, And best of all, I know He's mine.
+v1: There's one a- bove all earth- ly friends Whose love all earth- ly love tran- scends It is my Lord and Christ di- vine, My Lord, be- cause I know He's mine. I know He's mine, this Friend so dear, He lives with me, He's ev- er near Then thou- sand charms a- round Him shine, And best of all, I know He's mine.
 v2: He's mine be- cause He died for me, He saved my soul, He set me free With joy I wor- ship at His shrine And cry, "Praise God, I know He's mine." I know He's mine, this Friend so dear, He lives with me, He's ev- er near Then thou- sand charms a- round Him shine, And best of all, I know He's mine.
 v3: He's mine be- cause He's in my heart, And nev- er nev- er will we part: Just as the branch is to the vine, I'm joined to Christ I know He's mine. I know He's mine, this Friend so dear, He lives with me, He's ev- er near Then thou- sand charms a- round Him shine, And best of all, I know He's mine.
 v4: Some day up- on the streets of gold Mine eyes his glo- ry shall be- hold, Then while his arms a- round me twine, I'll cry for joy, "I know He's mine." I know He's mine, this Friend so dear, He lives with me, He's ev- er near Then thou- sand charms a- round Him shine, And best of all, I know He's mine.

@@ -5,7 +5,7 @@
 # quality: exact (per verse: exact, exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: The- re's a roy- al ban- ner given for dis- play To the sol- diers of the King As an en- sign fair we lift it up to- day, While as ran- somed ones we sing. March- ing on, march- ing on, For Christ count ev- ery- thing but loss! And to crown Him King, Toil and sing 'Neath the ban- ner of the cross!
+v1: There's a roy- al ban- ner giv- en for dis- play To the sol- diers of the King As an en- sign fair we lift it up to- day, While as ran- somed ones we sing. March- ing on, march- ing on, For Christ count ev- ery- thing but loss! And to crown Him King, Toil and sing 'Neath the ban- ner of the cross!
 v2: Thought the foe may rage and gath- er as the flood, Let the stand- ard be dis- played And be- neath its folds, as sol- diers of the Lord, For the truth be not dis- mayed! March- ing on, march- ing on, For Christ count ev- ery- thing but loss! And to crown Him King, Toil and sing 'Neath the ban- ner of the cross!
 v3: O- ver land and sea, where- ev- er man may dwell, Make the glo- rious ti- dings known Of the crim- son ban- ner now the sto- ry tell, While the Lord shall claim His own! March- ing on, march- ing on, For Christ count ev- ery- thing but loss! And to crown Him King, Toil and sing 'Neath the ban- ner of the cross!
 v4: When the glo- ry dawns 'tis draw- ing ver- y near It is has- tening day by day Then be- fore our King the foe shall dis- ap- pear, And the cross the world shall sway! March- ing on, march- ing on, For Christ count ev- ery- thing but loss! And to crown Him King, Toil and sing 'Neath the ban- ner of the cross!

@@ -5,7 +5,7 @@
 # quality: auto (per verse: auto, exact, exact, exact)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: Come, gra- cious Spir- it, hea- _ ven- _ ly Dove, With light and com- _ fort _ from a- bove: Be Thou our guar- dian, Thou _ our _ guide! O'er ev- ery thought and step pre- side. _ _
+v1: Come, gra- cious Spir- it, heav- _ en- _ ly Dove, With light and com- _ fort _ from a- bove: Be Thou our guar- dian, Thou _ our _ guide! O'er ev- ery thought and step pre- side. _ _
 v2: The light of truth to us _ dis- _ play, And make us know and _ choose _ Thy _ way Plant ho- ly fear in ev- _ ery _ heart, That we from God may ne'er de- part. _ _
 v3: Lead us to ho- li- ness _ the _ road Which we must take to _ dwell _ with _ God Lead us to Christ, the liv- _ ing _ way, Nor let us from His pre- sence stray. _ _
 v4: Lead us to God, our fi- _ nal _ rest, To be with Him for- _ ev- _ er _ blest Lead us to heav'n, that we _ may _ share Full- ness of joy for- e- ver there A- men.

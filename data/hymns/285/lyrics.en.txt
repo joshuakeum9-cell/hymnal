@@ -1,0 +1,10 @@
+# 285 O Happy Day, That Fixed My Choice
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: O hap- py day, that fixed my choice On Thee, my Sav- ior and my God! Well may this glow- ing heart re- joice, And tell its rap- tures all a- broad. Hap- py day, hap- py day, When Je- sus washed my sins a- way! He taught me how to watch and pray, And live re- joic- ing ev- ery day; Hap- py day, hap- py day, When Je- sus washed my sins a- way! _ _
+v2: O hap- py bond, that seals my vows To Him who me- rits all my love! Let cheer- ful an- thems fill His house, While to that sa- cred shrine I move. Hap- py day, hap- py day, When Je- sus washed my sins a- way! He taught me how to watch and pray, And live re- joic- ing ev- ery day; Hap- py day, hap- py day, When Je- sus washed my sins a- way! _ _
+v3: 'Tis done, the great tran- sac- tion's done; I am my Lord's, and He is mine; He drew me, and I fol- lowed on, Charmed to con- fess the voice di- vine. Hap- py day, hap- py day, When Je- sus washed my sins a- way! He taught me how to watch and pray, And live re- joic- ing ev- ery day; Hap- py day, hap- py day, When Je- sus washed my sins a- way! A- men.

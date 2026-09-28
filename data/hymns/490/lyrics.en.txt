@@ -2,9 +2,9 @@
 # English lyrics placed on the melody notes, one token per note, verse by verse.
 # word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
 # Change status to 'reviewed' after checking against the book so the tool never overwrites it.
-# quality: auto (per verse: exact, auto, auto)
+# quality: auto (per verse: auto, auto, auto)
 # status: proposed
 # source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
-v1: The- re's a dream that I dream, of my Sav- ior di- vine, And I know that my dream will come true At the morn, in the night, comes the vis- ion of light, With a prom- ise e- ter- nal- ly new. O this won- der- ful dream is a se- cret of grace, And I would that this se- cret you knew For I dream that last I shall look on His face And I know that my dream will come true.
+v1: There's a dream that I dream, of my Sav- ior di- vine, And I know that my dream will come true At the morn, in the night, comes the vis- ion of light, With a prom- ise e- ter- nal- ly new. O this won- der- ful dream is a se- cret of grace, And I would that this se- cret you knew For I dream that last I shall look on His face And I know that _ my dream will come true.
 v2: There is sweet com- pen- sa- tion for heart- ache and loss In the hope that is giv- en to me I shall quick- ly for- get how the road was be- set. When the King in His beau- ty I see. O this won- der- ful dream is a se- cret of grace, And I would that this se- cret you knew For I dream that last I shall look on His face And I know that _ my dream will come true.
 v3: It will still be my stay when the fa- shions of earth In the mist are dis- solv- ing a- way For the pass- age of death will be on- ly a breath But a breath, And my dream will come true. O this won- der- ful dream is a se- cret of grace, And I would that this se- cret you knew For I dream that last I shall look on His face And I know that _ my dream will come true.

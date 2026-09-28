@@ -8,6 +8,4 @@ starting with `#` are ignored. Hyphenate multi-syllable words the way a hymnal d
 
 Then run `python tools/align_english.py NNN` and check the result on the site.
 
-Hymns whose English source had another hymn's words, and so have no English yet:
-5, 147, 149, 159, 164, 188, 189, 205, 249, 261, 285, 297, 346, 354, 363, 423, 440, 453, 457,
-460, 478, 499, 518, 587, 595, 631.
+The files here replace English that the source had wrong (another hymn's words). Their wording follows the Korean-English (한영) hymnal as printed on prayertents.com, checked for public-domain status on hymnary.org; research notes are in each file's first line. Hymn 363 has no public-domain English (its Korean text is an original psalm setting), so it has no file.

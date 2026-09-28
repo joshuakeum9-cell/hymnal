@@ -1,0 +1,10 @@
+# 189 Holy Spirit, Faithful Guide
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Ho- ly Spir- it, faith- _ ful Guide, Ev- er near the Chris- _ tian's side, Gen- tly lead us by _ the hand, Pil- grims in a des- _ ert land; Wea- ry souls for- e'er _ re- joice, While they hear that sweet- est voice, Whis- per soft- ly, "Wan- _ der- er, come! Fol- low me, I'll _ guide thee _ home."
+v2: Ev- er pre- sent, tru- _ est Friend, Ev- er near Thine aid _ to lend, Leave us not to doubt _ and fear, Grop- ing on in dark- _ ness drear; When the storms are rag- _ ing sore, Hearts grow faint and hopes give o'er, Whis- per soft- ly, "Wan- _ der- er, come! Fol- low me, I'll _ guide thee _ home."
+v3: When our days of toil _ shall cease, Wait- ing still for sweet _ re- lease, Noth- ing left but heav- en and prayer, Joy- ful that our names _ are there; Wad- ing deep the di- _ smal flood, Plead- ing naught but Je- sus' blood, Whis- per soft- ly, "Wan- _ der- er, come! Fol- low me, I'll guide thee home." A- men.

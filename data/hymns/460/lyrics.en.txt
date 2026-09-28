@@ -1,0 +1,9 @@
+# 460 Not in Dumb Resignation
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto, auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Not in dumb re- sig- na- _ tion We lift our hands on high; Not like the ner- ve- less fa- ta- list Con- tent to trust and die; Our faith springs like the ea- gle, That soars to meet the sun, And cries e- xult- ing un- to Thee, "O Lord, Thy will be done!" _ _
+v2: Thy will! It streng- thens weak- ness, It bids the strong be just; No lip to fawn, no hand to beg, No brow to seek the dust; Wher- ev- er man op- pres- ses man Be- neath Thy li- be- ral sun, O Lord, be there, Thine arm made bare, Thy right- eous will be done! A- men.

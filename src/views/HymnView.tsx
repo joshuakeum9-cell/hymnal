@@ -349,7 +349,7 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
           </p>
           {hymn?.cr ? <p class="muted small">{hymn.cr}</p> : null}
           <p class="small">
-            <a href={`${REPO}/issues/new?title=${encodeURIComponent(`Hymn ${n}: `)}&body=${encodeURIComponent(`Hymn ${n} ${row.k}\nKey: ${key}, lyrics: ${mode}\n\nWhat is wrong:\n`)}`} target="_blank" rel="noopener">
+            <a href={`${REPO}/issues/new?title=${encodeURIComponent(`Hymn ${n}: `)}&body=${encodeURIComponent(`Hymn ${n} ${row.k}\nKey: ${key}, lyrics: ${mode}\n\nWhat is wrong:\n`)}`} class="report-link" target="_blank" rel="noopener">
               Report a mistake in this hymn
             </a>
           </p>

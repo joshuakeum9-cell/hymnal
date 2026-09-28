@@ -1,0 +1,11 @@
+# 423 Sins of Years Are Wash'd Away
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Sins of years are washed a- way, Black- est stains be- come as _ snow, Dark- est night is changed to day, When I to the foun- tain go. I'm be- liev- ing and re- ceiv- ing, While I to the foun- tain go, And my heart the waves are cleans- ing Whit- er than the driv- en snow.
+v2: Doubts and fears are borne a- long On the cur- rent's cease- less _ flow; Sor- row chang- es in- to song, When I to the foun- tain go. I'm be- liev- ing and re- ceiv- ing, While I to the foun- tain go, And my heart the waves are cleans- ing Whit- er than the driv- en snow.
+v3: Ease and wealth be- come as dross, Wor- thless, earth's de- light and _ show; All my boast is in the cross, When I to the foun- tain go. I'm be- liev- ing and re- ceiv- ing, While I to the foun- tain go, And my heart the waves are cleans- ing Whit- er than the driv- en snow.
+v4: Sel- fis- hness is lost in love, Love for Him whose love you _ know; All my treas- ure is a- bove, When I to the foun- tain go. I'm be- liev- ing and re- ceiv- ing, While I to the foun- tain go, And my heart the waves are cleans- ing Whit- er than the driv- en snow.

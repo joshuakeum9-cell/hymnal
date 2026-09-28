@@ -1,0 +1,8 @@
+# 631 Hear Our Prayer, O Lord
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: auto (per verse: auto)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Hear _ _ our prayer, O Lord, Hear our prayer, O Lord; In- cline Thine ear to us, And grant us Thy peace.

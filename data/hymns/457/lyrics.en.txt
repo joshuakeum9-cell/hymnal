@@ -1,0 +1,11 @@
+# 457 Go to dark Gethsemane
+# English lyrics placed on the melody notes, one token per note, verse by verse.
+# word = syllable ends a word, syl- = continues on the next note, _ = hold (melisma), . = no English
+# Change status to 'reviewed' after checking against the book so the tool never overwrites it.
+# quality: exact (per verse: exact, exact, exact, exact)
+# status: proposed
+# source: rupang21/hymnEngKorean hymns.json (original public-domain English text)
+v1: Go to dark Geth- sem- a- ne, Ye that feel the tempt- er's power; Your Re- deem- er's con- flict see; Watch with Him one bit- ter hour; Turn not from His griefs a- way; Learn of Je- sus Christ to pray.
+v2: Fol- low to the judg- ment hall; View the Lord of life ar- raigned; O the worm- wood and the gall! O the pangs His soul sus- tained! Shun not suf- f'ring, shame or loss; Learn of Him to bear the cross.
+v3: Cal- v'ry's mour- nful moun- tain climb; There, a- dor- ing at His feet, Mark that mi- ra- cle of time, God's own sac- ri- fice com- plete. "It is fi- nished!" hear Him cry; Learn of Je- sus Christ to die.
+v4: Ear- ly has- ten to the tomb Where they laid His breat- hless clay: All is so- li- tude and gloom; Who hath tak- en Him a- way? Christ is ris'n! He meets our eyes. Sav- ior, teach us so to rise.

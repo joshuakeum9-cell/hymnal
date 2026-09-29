@@ -101,7 +101,9 @@ def read_notes(root):
                 pos += d
                 longest = max(longest, pos)
         compound = beat_type == 8 and beats % 3 == 0
-        beat = Fraction(3, 2) if compound else Fraction(1)  # quarter beats, dotted quarters in 6/8
+        # quarter beats; dotted quarters in 6/8; half notes in 2/2, 3/2 and 4/2, where a chord on
+        # every quarter would crowd the letters
+        beat = Fraction(3, 2) if compound else Fraction(2) if beat_type == 2 else Fraction(1)
         nominal = Fraction(beats * 4, beat_type)
         length = longest if longest > 0 else nominal
         measures.append((m, t0, length, beat, fifths))
@@ -131,6 +133,8 @@ def best_chord(weights: dict[int, float], bass_pc: int | None, fifths: int):
             third = (root + tones[1]) % 12
             if third not in weights:
                 score -= 0.35 * total  # a chord is named by its third
+                if third in scale:
+                    score += 0.05 * total  # a bare fifth or unison takes the key's own quality (Dm in D minor)
             if (root + tones[2]) % 12 not in weights:
                 score -= 0.08 * total
             if root not in weights:
@@ -198,9 +202,9 @@ def analyse(root):
                 # a diminished triad in a hymn is almost always a dominant seventh without its root
                 # (B-D-F under G7); band charts write G7
                 root_pc, kind = (root_pc - 4) % 12, "dominant"
-            if kind in ("suspended-fourth", "major-seventh"):
-                # a 4-3 suspension resolves to the triad and a major seventh is a passing tone;
-                # a hymn chart writes the plain chord (C, not Csus4 or Cmaj7)
+            if kind in ("suspended-fourth", "major-seventh", "augmented"):
+                # a 4-3 suspension resolves to the triad, a major seventh or a raised fifth is a
+                # passing tone; a hymn chart writes the plain chord (C, not Csus4, Cmaj7 or C+)
                 kind = "major"
             if kind in ("minor", "minor-seventh") and (bass_pc - root_pc) % 12 == 3:
                 # a minor chord over its own third (Bb-Db-F over Db) is the major chord with an

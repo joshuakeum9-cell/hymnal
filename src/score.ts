@@ -40,7 +40,7 @@ export type SystemBox = { top: number; bottom: number; measures: number }
 /** systems are in the SVG's viewBox units; viewWidth is the viewBox width */
 export type RenderResult = { svg: string; ms: number; cached: boolean; systems: SystemBox[]; viewWidth: number }
 
-const ENGINE_VERSION = 'osmd-2.1.3-r25'
+const ENGINE_VERSION = 'osmd-2.1.3-r26'
 const memory = new Map<string, string>()
 const MEMORY_MAX = 30
 const IDB_MAX = 80
@@ -109,6 +109,69 @@ function evenMeasures(osmd: OpenSheetMusicDisplay): boolean {
       if (Math.abs(next - factor) > 0.02) {
         src.WidthFactor = next
         changed = true
+      }
+    }
+  }
+  return changed
+}
+
+/**
+ * OSMD does not size a bar for its chord letters, and stacks letters that would overlap one
+ * above the other, which reads as two chords on one beat. Widen a bar whose letters touch.
+ * The letters' real widths come from the drawn SVG (OSMD's own estimate runs small).
+ * Returns true when some bar was widened (the caller renders again).
+ */
+function chordRoom(osmd: OpenSheetMusicDisplay, host: Element): boolean {
+  const unit = 10 // SVG viewBox units per OSMD unit
+  type Label = { left: number; right: number; measure: any }
+  const drawn = new Map<string, DOMRect[]>()
+  for (const t of Array.from(host.querySelectorAll('svg text')) as SVGTextElement[]) {
+    const key = t.textContent?.trim() ?? ''
+    if (!key || key.length > 12) continue
+    const b = t.getBBox()
+    if (b.width > 0) (drawn.get(key) ?? drawn.set(key, []).get(key)!).push(b)
+  }
+  let changed = false
+  for (const page of osmd.GraphicSheet.MusicPages) {
+    for (const sys of page.MusicSystems) {
+      const labels: Label[] = []
+      for (const stack of sys.GraphicalMeasures as any[]) {
+        const measure = stack[0]
+        if (!measure) continue
+        for (const entry of measure.staffEntries ?? []) {
+          for (const c of entry.graphicalChordContainers ?? []) {
+            const label = c.GraphicalLabel
+            const ps = label?.PositionAndShape
+            if (!ps) continue
+            const x = ps.AbsolutePosition.x, y = ps.AbsolutePosition.y
+            let left = x + ps.BorderLeft, right = x + ps.BorderRight
+            // the nearest drawn text with the same words gives the real width
+            let best: DOMRect | undefined, bestD = 6 * unit
+            for (const b of drawn.get(String(label.Label?.text ?? '').trim()) ?? []) {
+              const d = Math.hypot(b.x + b.width / 2 - (left + right) / 2 * unit, b.y + b.height - y * unit)
+              if (d < bestD) { bestD = d; best = b }
+            }
+            if (best) { left = best.x / unit; right = (best.x + best.width) / unit }
+            labels.push({ left, right, measure })
+          }
+        }
+      }
+      labels.sort((a, b) => a.left - b.left)
+      const stretch = new Map<any, number>() // one factor per bar: the largest its pairs need
+      for (let i = 1; i < labels.length; i++) {
+        const a = labels[i - 1], b = labels[i]
+        const overlap = a.right + 0.8 - b.left // OSMD units; 0.8 keeps a small gap
+        if (overlap <= 0) continue
+        const src = a.measure.parentSourceMeasure
+        // the letters sit on notes, and note spacing grows with the bar: stretch by the share
+        // of their distance that is missing
+        const factor = 1 + overlap / Math.max(b.left - a.left, 1)
+        stretch.set(src, Math.max(stretch.get(src) ?? 1, factor))
+      }
+      for (const [src, factor] of stretch) {
+        src.WidthFactor = (src.WidthFactor ?? 1) * factor
+        changed = true
+        if (import.meta.env.DEV) console.debug(`[hymnal:chords] bar ${src.MeasureNumber} widened x${factor.toFixed(2)} (labels ${labels.length})`)
       }
     }
   }
@@ -328,6 +391,7 @@ class Renderer {
         rules.VoiceSpacingAddendVexflow = this.spacing.add * step.spread
         osmd.render()
         if (evenMeasures(osmd)) osmd.render()
+        for (let pass = 0; pass < 3 && chordRoom(osmd, this.host); pass++) osmd.render()
         // OSMD only pads to the right of a long word, so words can still touch; nudge them apart
         // along their line, and only when nudging cannot separate them all (a cramped bar of
         // wide words) draw the score wider

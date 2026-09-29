@@ -107,7 +107,8 @@ export function filterLyrics(xml: string, mode: LyricMode, chords = true): Docum
   const langOf = new Map<number, number>()
   for (const l of kept) langOf.set(Number(l.getAttribute('number') ?? 1), lyricLang(l) === 'ko' ? 0 : 1)
   const numbers = Array.from(langOf.keys()).sort((a, b) => (langOf.get(a)! - langOf.get(b)!) || a - b)
-  const map = new Map(numbers.map((n, i) => [n, String(i + 1)]))
+  // two digits: the renderer orders lyric lines by their number as text, so "10" would sort after "1"
+  const map = new Map(numbers.map((n, i) => [n, String(i + 1).padStart(2, '0')]))
   for (const l of kept) l.setAttribute('number', map.get(Number(l.getAttribute('number') ?? 1)) ?? '1')
   for (const ll of Array.from(doc.getElementsByTagName('lyric-language'))) ll.parentNode?.removeChild(ll)
   if (!chords) for (const h of Array.from(doc.getElementsByTagName('harmony'))) h.parentNode?.removeChild(h)

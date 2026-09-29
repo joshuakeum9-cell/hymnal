@@ -14,7 +14,7 @@ const PAPER = {
 }
 const HEADER_H = 78
 const FOOTER_H = 34 // room for a two-line credit on the last page
-const PRINT_ZOOM = 0.6
+const PRINT_ZOOM = 0.57
 
 function root(): HTMLElement {
   let el = document.getElementById('print-root')
@@ -68,19 +68,32 @@ export async function printHymns(items: PrintItem[], paper: 'letter' | 'a4'): Pr
   const P = PAPER[paper]
   const renderer = printRenderer()
   for (const it of items) {
-    const res = await renderer.render({
-      cacheKey: `print|${it.row.n}|${it.row.f}|${it.delta}|${it.mode}|${it.chords !== false}|${paper}`,
-      xml: it.hymn.xml, mode: it.mode, chords: it.chords !== false, delta: it.delta, width: P.w, zoom: PRINT_ZOOM, noCache: true,
-    })
-    const tpl = document.createElement('template')
-    tpl.innerHTML = res.svg
-    const svg = tpl.content.querySelector('svg')
-    if (!svg) continue
-    const vbW = res.viewWidth || P.w
-    const scale = P.w / vbW // CSS px per viewBox unit
-    const vb = svg.getAttribute('viewBox')?.split(/[ ,]+/).map(Number)
-    const totalH = vb && vb.length === 4 ? vb[3] : (res.systems.at(-1)?.bottom ?? 0) + 20
-    const pages = paginate(res.systems, (P.h - HEADER_H - FOOTER_H) / scale, (P.h - FOOTER_H) / scale, totalH)
+    const draw = async (zoom: number) => {
+      const res = await renderer.render({
+        cacheKey: `print|${it.row.n}|${it.row.f}|${it.delta}|${it.mode}|${it.chords !== false}|${paper}|${zoom}`,
+        xml: it.hymn.xml, mode: it.mode, chords: it.chords !== false, delta: it.delta, width: P.w, zoom, noCache: true,
+      })
+      const tpl = document.createElement('template')
+      tpl.innerHTML = res.svg
+      const svg = tpl.content.querySelector('svg')
+      if (!svg) return null
+      const vbW = res.viewWidth || P.w
+      const scale = P.w / vbW // CSS px per viewBox unit
+      const vb = svg.getAttribute('viewBox')?.split(/[ ,]+/).map(Number)
+      const totalH = vb && vb.length === 4 ? vb[3] : (res.systems.at(-1)?.bottom ?? 0) + 20
+      const firstAvail = (P.h - HEADER_H - FOOTER_H) / scale
+      const pages = paginate(res.systems, firstAvail, (P.h - FOOTER_H) / scale, totalH)
+      return { svg, vbW, scale, totalH, pages, over: totalH / firstAvail }
+    }
+    let d = await draw(PRINT_ZOOM)
+    if (!d) continue
+    // a hymn that just spills onto a second page is drawn a little smaller so it fits one
+    // sheet (more measures per line, as the printed hymnal does); a long hymn keeps its size
+    if ((d.pages.length > 1 && d.over <= 1.35) || d.pages.length >= 3) {
+      const smaller = await draw(PRINT_ZOOM * 0.88)
+      if (smaller && smaller.pages.length < d.pages.length) d = smaller
+    }
+    const { svg, vbW, scale, pages } = d
     const lang = currentLang()
     const keyText = F.printKey(lang, it.keyName, it.delta ? it.origName : null)
     const modeText = it.mode === 'both' ? '' : it.mode === 'ko' ? t('print.words.ko', lang) : t('print.words.en', lang)

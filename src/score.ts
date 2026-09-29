@@ -40,7 +40,7 @@ export type SystemBox = { top: number; bottom: number }
 /** systems are in the SVG's viewBox units; viewWidth is the viewBox width */
 export type RenderResult = { svg: string; ms: number; cached: boolean; systems: SystemBox[]; viewWidth: number }
 
-const ENGINE_VERSION = 'osmd-2.1.3-r22'
+const ENGINE_VERSION = 'osmd-2.1.3-r23'
 const memory = new Map<string, string>()
 const MEMORY_MAX = 30
 const IDB_MAX = 80
@@ -288,6 +288,13 @@ class Renderer {
     r.MeasureLeftMargin = 1.8
     r.MeasureRightMargin = 0.8
     r.MinSkyBottomDistBetweenSystems = 3
+    if (this.font === PRINT_FONT) {
+      // paper: smaller words and chord letters, as the printed hymnal sets them, so a
+      // lyric-heavy hymn fits three or four measures to a line instead of two
+      r.LyricsHeight = 1.8
+      r.ChordSymbolTextHeight = 1.7
+      r.VerticalBetweenLyricsDistance = 0.3
+    }
     this.osmd = osmd
     if (import.meta.env.DEV) (window as any)[`__osmd_${this.format}`] = osmd
     return osmd

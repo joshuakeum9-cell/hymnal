@@ -202,6 +202,9 @@ def analyse(root):
                 # a minor chord over its own third (Bb-Db-F over Db) is the major chord with an
                 # added sixth; charts write the major chord on the bass note
                 root_pc, kind = bass_pc, "major"
+            elif kind == "half-diminished" and (bass_pc - root_pc) % 12 == 3:
+                # B-D-F-A over D is D minor with an added sixth; charts write Dm
+                root_pc, kind = bass_pc, "minor"
             # the top staff must start a note here, so the letter sits above the melody
             anchors = [n for n in notes if n.start == t and n.staff == "1"]
             chord = (root_pc, kind, bass_pc if bass_pc != root_pc else None)

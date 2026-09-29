@@ -153,6 +153,7 @@ export const F = {
   already: (l: Lang, n: number) => (l === 'ko' ? `${n}장은 이미 콘티에 있습니다.` : `${n} is already in the list.`),
   pagerSet: (l: Lang, i: number, n: number) => (l === 'ko' ? `콘티 ${i}/${n}` : `Set list ${i} of ${n}`),
   footOld: (l: Lang, o: number) => (l === 'ko' ? `통일찬송가 ${o}장.` : `Old hymnal ${o}.`),
+  printOld: (l: Lang, o: number) => (l === 'ko' ? `통일 ${o}장` : `Old hymnal ${o}`),
   shared: (l: Lang, n: number, list: string) =>
     l === 'ko' ? `공유받은 콘티에 ${n}곡이 있습니다: ${list}.` : `Someone shared a set list with ${n} hymn${n === 1 ? '' : 's'}: ${list}.`,
   notPrinted: (l: Lang, list: string) => (l === 'ko' ? `악보가 없어 인쇄하지 않은 찬송: ${list}.` : `Not printed because the music is not on the site: ${list}.`),
@@ -206,7 +207,8 @@ export function themeText(t: string, lang: Lang): string {
 
 /** The credit line is stored in English ("Words: ... Music: ..."); show it in the chosen language. */
 export function creditText(cr: string, lang: Lang): string {
-  if (lang !== 'ko') return cr
+  // a few credits come from a Korean source ("R. S. 윌리스 편곡"); give English the "arr." it expects
+  if (lang !== 'ko') return cr.replace(/\s*편곡\.?/g, ', arr.').replace(/\(출처 미상\)/g, '(source unknown)')
   return cr.replace(/\bWords:/g, '작사:').replace(/\bMusic:/g, '작곡:').replace(/\btr\. /g, '역: ').replace(/\barr\. /g, '편곡: ')
 }
 

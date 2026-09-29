@@ -115,7 +115,7 @@ export async function printHymns(items: PrintItem[], paper: 'letter' | 'a4'): Pr
         page.innerHTML = `<header class="print-head">
           <div class="print-num">${it.row.n}</div>
           <div class="print-titles"><div class="print-ko">${esc(it.row.k)}</div>${it.row.e ? `<div class="print-en">${esc(it.row.e)}</div>` : ''}</div>
-          <div class="print-key">${esc(keyText + modeText)}${it.row.o ? `<br>통일 ${it.row.o}장` : ''}</div>
+          <div class="print-key">${esc(keyText + modeText)}${it.row.o ? `<br>${esc(F.printOld(lang, it.row.o))}` : ''}</div>
         </header>`
       }
       const clone = svg.cloneNode(true) as SVGSVGElement

@@ -169,6 +169,34 @@ def drop_doubled_lyrics(root) -> int:
 PRIMARY_VOICES = {"1", "5"}  # voice = staff*4 + voice + 1, so 1 and 5 lead their staves
 
 
+def fix_bass_clef(root) -> bool:
+    """A few sources write the lower staff of a two-staff hymn in treble clef with its notes
+    hanging far below on ledger lines (127, 244); a low-lying second staff takes the bass clef."""
+    if root.findtext(".//attributes/staves") != "2":
+        return False
+    clefs = [c for c in root.iter("clef") if (c.get("number") or "1") == "2"]
+    if not clefs or any(c.findtext("sign") != "G" for c in clefs):
+        return False
+    pitches = []
+    for note in root.iter("note"):
+        p = note.find("pitch")
+        if p is None or (note.findtext("staff") or "1") != "2":
+            continue
+        pitches.append(int(p.findtext("octave")) * 12 + "C D EF G A B".index(p.findtext("step")))
+    if not pitches:
+        return False
+    pitches.sort()
+    if pitches[len(pitches) // 2] > 50:
+        return False  # median above D4: a real treble part (139, 394)
+    for c in clefs:
+        c.find("sign").text = "F"
+        c.find("line").text = "4"
+        oc = c.find("clef-octave-change")
+        if oc is not None:
+            c.remove(oc)
+    return True
+
+
 def hide_secondary_rests(root) -> int:
     """Mark a second voice's rests invisible so they are not drawn.
 
@@ -276,6 +304,7 @@ def main(argv):
         if en_mode == 0 and text_en:
             en_mode = 2
         drop_doubled_lyrics(root)
+        fix_bass_clef(root)
         add_chords(root)  # chord letters for the band, read from the four-part harmony
         hide_secondary_rests(root)
         # declare lyric languages for other software

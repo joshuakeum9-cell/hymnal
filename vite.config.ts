@@ -34,7 +34,7 @@ export default defineConfig({
         clientsClaim: true, // control the first visit too, so offline saving works right away
         runtimeCaching: [
           {
-            // hymn files are content-hashed, so a cached copy is always correct
+            // hymn files carry their content hash as ?v=, so a cached copy is always correct
             urlPattern: ({ url }) => url.pathname.includes('/hymns/'),
             handler: 'CacheFirst',
             options: {

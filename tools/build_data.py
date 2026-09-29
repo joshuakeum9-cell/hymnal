@@ -1,7 +1,7 @@
 """Build the website's data from data/hymns/*.
 
 Outputs (both git-ignored, rebuilt by CI on every deploy):
-  public/hymns/NNN.<hash>.json   one file per published hymn: MusicXML with Korean + English
+  public/hymns/NNN.json          one file per published hymn (index field f adds ?v=<content hash>)
                                  lyric lines merged in, plus verse text for print and fallback
   src/generated/index.json       the search index for all 645 hymns (gated ones have file null)
   src/generated/hangul.txt       every Hangul character used, for the font subset
@@ -231,6 +231,9 @@ def main(argv):
     church_only = "--church-only" in argv
     english_all = "--english-all" in argv  # preview: also place 'rough' English under the notes
     out_dir = os.path.join(ROOT, "public/hymns")
+    os.makedirs(out_dir, exist_ok=True)
+    for stale in glob.glob(os.path.join(out_dir, "*.*.json")):
+        os.remove(stale)  # content-hashed names from earlier builds
     gen_dir = os.path.join(ROOT, "src/generated")
     shutil.rmtree(out_dir, ignore_errors=True)
     os.makedirs(out_dir)
@@ -290,14 +293,16 @@ def main(argv):
         payload = {"n": n, "xml": xml, "ko": text_ko, "en": text_en, "enMode": en_mode, "cr": credit_line(meta)}
         body = json.dumps(payload, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
         h = hashlib.sha256(body).hexdigest()[:8]
-        fname = f"{n:03d}.{h}.json"
+        # a stable file name with the content hash as a version tag: a deploy that changes a hymn
+        # must not break an open copy of the old app, which would ask for the old file name
+        fname = f"{n:03d}.json"
         with open(os.path.join(out_dir, fname), "wb") as fh:
             fh.write(body)
-        row.update({"f": fname, "fi": fifths, "m": 1 if mode == "minor" else 0, "v": kv, "en": en_mode})
+        row.update({"f": f"{fname}?v={h}", "fi": fifths, "m": 1 if mode == "minor" else 0, "v": kv, "en": en_mode})
         index.append(row)
         stats["published"] += 1
         stats["en_notes" if en_mode == 1 else "en_text"] += 1 if en_mode else 0
-    sample = next((r["f"] for r in index if r["n"] == 405 and r.get("f")), None) or next(r["f"] for r in index if r.get("f"))
+    sample = (next((r["f"] for r in index if r["n"] == 405 and r.get("f")), None) or next(r["f"] for r in index if r.get("f"))).split("?")[0]
     with open(os.path.join(out_dir, "sample.txt"), "w", encoding="utf-8") as fh:
         fh.write(sample)  # CI checks that this file is served gzip-compressed
     with open(os.path.join(gen_dir, "index.json"), "w", encoding="utf-8") as fh:

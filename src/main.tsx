@@ -31,7 +31,16 @@ function UpdateToast() {
   useEffect(() => {
     if (import.meta.env.DEV) return
     import('virtual:pwa-register').then(({ registerSW }) => {
-      const reload = registerSW({ onNeedRefresh: () => setUpdate(() => () => reload(true)) })
+      const reload = registerSW({
+        onNeedRefresh: () => setUpdate(() => () => reload(true)),
+        // an app left open on a music stand only checks for a new version on load; check
+        // again every hour and whenever it comes back to the foreground
+        onRegisteredSW: (_url, r) => {
+          if (!r) return
+          setInterval(() => r.update(), 60 * 60 * 1000)
+          document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') r.update() })
+        },
+      })
     }).catch(() => {})
   }, [])
   if (!update) return null

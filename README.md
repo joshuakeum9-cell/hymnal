@@ -6,8 +6,9 @@ A free website for a church band: type a hymn number and the music appears, in a
 
 - Numbers follow the **새찬송가** (21세기 찬송가, 2006, 645 hymns). The old 통일찬송가 number works too: type it after switching the search to 통일, or open `#/old/46`.
 - **Transpose** to any of the 12 keys. "Best fit" keeps the melody in a comfortable range; Lower and Higher choose the octave.
+- **Search:** typing a number lists the hymn; a tap or Enter opens it (nothing opens by itself).
 - **Language:** the first visit asks for 한국어 or English; the globe button at the top left of the home screen switches later. Every label, hint and heading is in that language. The music's own 한/영 choice is separate.
-- **Chords:** chord letters above the melody (G, Em, D7, C/G), read from each hymn's four-part harmony by `tools/chords.py`. They transpose with the music (the graphic sheet is rebuilt after the transposition is set, since the engine spells chord letters at load time). The Chords button hides them.
+- **Chords:** chord letters above the melody (G, Em, D7, C/G), read from each hymn's four-part harmony by `tools/chords.py`, at most one per beat: a chord changes only when the harmony really moves (passing notes and a pedal bass keep the letter, and a melody singing alone, such as a pickup, never starts one). They transpose with the music (the graphic sheet is rebuilt after the transposition is set, since the engine spells chord letters at load time). The Chords button hides them.
 - **Lyrics:** 한/영 (KO/EN in the English interface) shows all the Korean verses, then all the English verses, as the Korean-English hymnal prints them; 한 is Korean only; 영 is English only.
 - **Print** one hymn, or a whole **set list** in order, on Letter or A4. Pages break between lines of music.
 - Works **offline** once installed (Share, then Add to Home Screen on an iPad or iPhone).
@@ -25,7 +26,7 @@ Nothing to pay for: GitHub Pages hosts it, GitHub Actions builds it, everything 
 | English words shown as text below the music | 0 |
 | No English (363, 521, 580 are original Korean texts with no public-domain English) | 3 |
 
-Known limits: English placement is automatic for most hymns and occasionally puts a syllable on the wrong note; the Report a mistake link on each hymn is the way to fix those. About 50 hymns follow the Open Hymnal Project's hand-engraved placement instead, and a comparison against it found the automatic placement agrees on 96% of notes. When words would run into each other on a narrow screen, the page spaces the notes wider for that hymn, so phones in portrait show fewer measures per line when both languages are on.
+Known limits: English placement is automatic for most hymns and occasionally puts a syllable on the wrong note; the Report a mistake link on each hymn is the way to fix those. About 50 hymns follow the Open Hymnal Project's hand-engraved placement instead, and a comparison against it found the automatic placement agrees on 96% of notes. When words would run into each other on a narrow screen, the page first nudges them apart and, only if that is not enough, spaces the notes wider for that hymn, so phones in portrait show fewer measures per line when both languages are on.
 
 ## How it works
 

@@ -118,10 +118,3 @@ export function search(rows: Row[], query: string, oldNumbers: boolean): SearchR
   return scored.slice(0, 40).map(x => ({ row: x.row, via: 'title' as const }))
 }
 
-/** A typed number that cannot grow into another valid number opens straight away. */
-export function isFinalNumber(q: string, max = 645): boolean {
-  if (!/^\d+$/.test(q)) return false
-  const n = Number(q)
-  if (n < 1 || n > max) return false
-  return n * 10 > max
-}

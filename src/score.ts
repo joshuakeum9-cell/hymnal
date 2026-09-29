@@ -40,7 +40,7 @@ export type SystemBox = { top: number; bottom: number }
 /** systems are in the SVG's viewBox units; viewWidth is the viewBox width */
 export type RenderResult = { svg: string; ms: number; cached: boolean; systems: SystemBox[]; viewWidth: number }
 
-const ENGINE_VERSION = 'osmd-2.1.3-r21'
+const ENGINE_VERSION = 'osmd-2.1.3-r22'
 const memory = new Map<string, string>()
 const MEMORY_MAX = 30
 const IDB_MAX = 80
@@ -126,14 +126,15 @@ const SPACING_STEPS = [
  * Push overlapping words on the same lyric line apart, half each way, until every pair has a
  * small gap. Hyphens take part so they stay between their syllables. Words move by a few units
  * at most in practice; a word never moves more than its own width (or one and a half letter
- * heights for a short syllable) from where OSMD put it.
+ * heights for a short syllable) from where OSMD put it. Returns how many pairs still touch.
  */
-export function separateLyrics(host: Element): void {
+export function separateLyrics(host: Element): number {
   type Item = { el: SVGTextElement | null; x: number; w: number; h: number; x0: number; word: boolean; wall?: boolean }
   // barlines (the tall connector lines of each system) are walls a word may not straddle
   const walls = (Array.from(host.querySelectorAll('svg .vf-connector rect')) as SVGRectElement[])
     .map(r => r.getBBox()).filter(b => b.width < 4 && b.height > 20)
   const rows = new Map<number, Item[]>()
+  let unresolved = 0
   for (const t of Array.from(host.querySelectorAll('svg text')) as SVGTextElement[]) {
     const s = t.textContent?.trim() ?? ''
     if (!s || !t.hasAttribute('x')) continue
@@ -188,9 +189,17 @@ export function separateLyrics(host: Element): void {
       if (!it.el) continue
       const limit = Math.max(it.w, it.h * 1.5)
       const dx = Math.max(-limit, Math.min(limit, it.x - it.x0))
+      it.x = it.x0 + dx
       if (Math.abs(dx) > 0.2) it.el.setAttribute('x', String(Number(it.el.getAttribute('x')) + dx))
     }
+    row.sort((a, b) => a.x - b.x)
+    for (let i = 1; i < row.length; i++) {
+      const a = row[i - 1], b = row[i]
+      const matters = (a.word && (b.word || b.wall)) || (b.word && (a.word || a.wall))
+      if (matters && b.x < a.x + a.w - 1) unresolved++
+    }
   }
+  return unresolved
 }
 
 /** Number of places where two words on the same lyric line overlap (hyphens and extenders ignored). */
@@ -311,11 +320,16 @@ class Renderer {
         rules.VoiceSpacingAddendVexflow = this.spacing.add * step.spread
         osmd.render()
         if (evenMeasures(osmd)) osmd.render()
-        if (lyricCollisions(this.host) === 0) break
+        // OSMD only pads to the right of a long word, so words can still touch; nudge them apart
+        // along their line, and only when nudging cannot separate them all (a cramped bar of
+        // wide words) draw the score wider
+        const unresolved = separateLyrics(this.host)
+        if (import.meta.env.DEV) {
+          const widths = (osmd.GraphicSheet as any).MeasureList.slice(0, 6).map((ms: any[]) => Math.round(ms.find(Boolean)?.minimumStaffEntriesWidth ?? 0))
+          console.debug(`[hymnal:spacing] elong ${step.elongation} spread ${step.spread}: ${unresolved} words still touching; widths ${JSON.stringify(widths)}`)
+        }
+        if (unresolved === 0) break
       }
-      // OSMD only pads to the right of a long word, so a short word before a long one can
-      // still touch it; nudge such words apart along their line
-      separateLyrics(this.host)
       const svg = this.host.innerHTML
       const ms = Math.round(performance.now() - t0)
       const unit = 10 // OSMD draws 10 viewBox units per internal unit; zoom only changes the SVG's CSS size

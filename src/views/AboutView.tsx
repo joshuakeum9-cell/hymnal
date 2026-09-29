@@ -73,7 +73,7 @@ export function AboutView() {
         <article class="prose" lang="ko">
           <h2>사용법</h2>
           <ul>
-            <li><strong>찬송 찾기.</strong> 장 번호를 입력합니다. 세 자리 번호는 바로 열립니다. 통일 번호로 바꾸면 옛 찬송가 번호로, 제목으로 바꾸면 제목이나 첫 줄로 찾을 수 있고 ㅈㅇㅊㅈ처럼 초성만 넣어도 됩니다.</li>
+            <li><strong>찬송 찾기.</strong> 장 번호를 입력하고, 나타난 찬송을 누르거나 Enter를 누릅니다. 통일 번호로 바꾸면 옛 찬송가 번호로, 제목으로 바꾸면 제목이나 첫 줄로 찾을 수 있고 ㅈㅇㅊㅈ처럼 초성만 넣어도 됩니다.</li>
             <li><strong>키 바꾸기.</strong> 키를 누르고 12개 조 가운데 고릅니다. 알맞게는 멜로디를 부르기 편한 음역에 두고, 낮게와 높게로 옥타브를 정할 수 있습니다.</li>
             <li><strong>가사 고르기.</strong> 한/영은 한글 절을 모두 보인 다음 영어 절을 보입니다. 한영 찬송가 책과 같은 배치입니다. 한은 한글만, 영은 영어만 보입니다.</li>
             <li><strong>코드.</strong> 악보 위의 코드는 사성부 화음에서 읽어 낸 것이며, 키를 바꾸면 함께 바뀝니다. 코드 단추로 숨길 수 있습니다.</li>
@@ -103,7 +103,7 @@ export function AboutView() {
         <article class="prose" lang="en">
           <h2>How to use it</h2>
           <ul>
-            <li><strong>Find a hymn.</strong> Type its number. Three-digit numbers open by themselves. Switch to Old number to type a number from the older hymnal, or to Title to search titles and first lines, including Korean initial consonants like ㅈㅇㅊㅈ.</li>
+            <li><strong>Find a hymn.</strong> Type its number, then tap the hymn that appears, or press Enter. Switch to Old number to type a number from the older hymnal, or to Title to search titles and first lines, including Korean initial consonants like ㅈㅇㅊㅈ.</li>
             <li><strong>Change the key.</strong> Tap Key and pick any of the 12 keys. Best fit keeps the melody in a comfortable range; Lower and Higher let you choose the octave.</li>
             <li><strong>Choose the words.</strong> KO/EN shows all the Korean verses, then all the English verses, like the printed Korean-English hymnal. KO is Korean only, EN is English only.</li>
             <li><strong>Chords.</strong> The letters above the music are read from the four-part harmony and change with the key. The Chords button hides them.</li>

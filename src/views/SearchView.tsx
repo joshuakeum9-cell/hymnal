@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'preact/hooks'
-import { isFinalNumber, loadIndex, search, type Row } from '../data'
+import { loadIndex, search, type Row } from '../data'
 import { getPrefs, setPrefs, subscribe } from '../store'
 import { go, hymnHash } from '../route'
 import { IconGlobe, IconList, KeyName } from '../icons'
@@ -32,17 +32,8 @@ export function SearchView() {
 
   const open = (row: Row) => go(`#/${row.n}`)
 
-  const onInput = (e: Event) => {
-    const v = (e.target as HTMLInputElement).value
-    setQ(v)
-    const t = v.trim()
-    if (byTitle || !rows) return
-    if (!prefs.oldNumbers && isFinalNumber(t) && rows.some(r => r.n === Number(t))) go(`#/${Number(t)}`)
-    if (prefs.oldNumbers && isFinalNumber(t, 558)) {
-      const r = rows.find(x => x.o === Number(t))
-      if (r) go(`#/${r.n}`)
-    }
-  }
+  // Typing shows the matching hymn; it opens on a tap or Enter, never by itself.
+  const onInput = (e: Event) => setQ((e.target as HTMLInputElement).value)
 
   const onSubmit = (e: Event) => {
     e.preventDefault()

@@ -166,6 +166,26 @@ def drop_doubled_lyrics(root) -> int:
     return removed
 
 
+PRIMARY_VOICES = {"1", "5"}  # voice = staff*4 + voice + 1, so 1 and 5 lead their staves
+
+
+def hide_secondary_rests(root) -> int:
+    """Mark a second voice's rests invisible so they are not drawn.
+
+    Where a staff carries an echo part (354 주를 앙모하는 자), the alto rests while the melody sings
+    a pickup alone; printed hymnals leave those rests out, and drawn next to the melody they read
+    as an extra rest. The first voice of each staff keeps its rests.
+    """
+    n = 0
+    for m in root.iter("measure"):
+        for note in m.findall("note"):
+            if note.find("rest") is None or note.findtext("voice") in PRIMARY_VOICES:
+                continue
+            note.set("print-object", "no")  # the renderer keeps the time but draws nothing
+            n += 1
+    return n
+
+
 def korean_verse_text(slots, k: int) -> str:
     out = []
     for s in slots:
@@ -254,6 +274,7 @@ def main(argv):
             en_mode = 2
         drop_doubled_lyrics(root)
         add_chords(root)  # chord letters for the band, read from the four-part harmony
+        hide_secondary_rests(root)
         # declare lyric languages for other software
         defaults = root.find("defaults")
         for num in sorted({int(ly.get("number")) for ly in root.iter("lyric")}):

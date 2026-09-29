@@ -46,6 +46,7 @@ class Note:
     step: str
     alter: int
     staff: str
+    voice: str
     el: etree._Element
 
 
@@ -94,7 +95,7 @@ def read_notes(root):
                 step = p.findtext("step")
                 alter = int(float(p.findtext("alter") or 0))
                 midi = (int(p.findtext("octave")) + 1) * 12 + STEP_PC[step] + alter
-                notes.append(Note(t0 + start, t0 + start + d, midi, step, alter, el.findtext("staff") or "1", el))
+                notes.append(Note(t0 + start, t0 + start + d, midi, step, alter, el.findtext("staff") or "1", el.findtext("voice") or "1", el))
             if not is_chord:
                 last_start = pos
                 pos += d
@@ -152,6 +153,18 @@ def best_chord(weights: dict[int, float], bass_pc: int | None, fifths: int):
     return best
 
 
+KIND_TONES = {kind: tones for kind, _, tones, _ in KINDS}
+
+
+def fit(root_pc: int, kind: str, weights: dict[int, float]) -> float:
+    """Share of the beat's sounding weight that belongs to the chord, 0 to 1."""
+    total = sum(weights.values())
+    if not total:
+        return 0.0
+    pcs = {(root_pc + t) % 12 for t in KIND_TONES[kind]}
+    return sum(w for pc, w in weights.items() if pc in pcs) / total
+
+
 def analyse(root):
     """[(time, measure element, anchor note element, root spelling, kind, bass spelling or None)]"""
     notes, measures = read_notes(root)
@@ -188,6 +201,21 @@ def analyse(root):
             # the top staff must start a note here, so the letter sits above the melody
             anchors = [n for n in notes if n.start == t and n.staff == "1"]
             chord = (root_pc, kind, bass_pc if bass_pc != root_pc else None)
+            voices = {n.voice for n in window}
+            if len(voices) < 2:
+                # a melody alone (a pickup, a solo bar) does not set a chord: keep the letter
+                chord = prev
+            elif prev is not None:
+                # a chart changes chord only when the harmony really moves; passing notes and a
+                # bass holding the old root under moving upper voices keep the letter
+                old = fit(prev[0], prev[1], weights)
+                new = fit(root_pc, kind, weights)
+                strong = ((t - t0) % (2 * beat)) == 0
+                margin = 0.2 if strong else 0.35
+                if old >= 0.5 and new - old < margin:
+                    chord = prev
+                elif bass_pc == prev[0] and (old >= 0.6 or not strong):
+                    chord = prev  # pedal bass: upper voices passing over the old root on a weak beat
             if chord != prev and anchors:
                 anchor = min(anchors, key=lambda n: -n.midi).el
                 r = name_pc(root_pc, window, fifths)

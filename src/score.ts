@@ -36,11 +36,11 @@ export type RenderRequest = {
   noCache?: boolean
 }
 
-export type SystemBox = { top: number; bottom: number }
+export type SystemBox = { top: number; bottom: number; measures: number }
 /** systems are in the SVG's viewBox units; viewWidth is the viewBox width */
 export type RenderResult = { svg: string; ms: number; cached: boolean; systems: SystemBox[]; viewWidth: number }
 
-const ENGINE_VERSION = 'osmd-2.1.3-r24'
+const ENGINE_VERSION = 'osmd-2.1.3-r25'
 const memory = new Map<string, string>()
 const MEMORY_MAX = 30
 const IDB_MAX = 80
@@ -116,6 +116,7 @@ function evenMeasures(osmd: OpenSheetMusicDisplay): boolean {
 }
 
 const SPACING_STEPS = [
+  { elongation: 1.8, spread: 1 }, // tighter than the OSMD default of 2.5: more bars per line
   { elongation: 2.5, spread: 1 }, // OSMD defaults
   { elongation: 4, spread: 1 },
   { elongation: 4, spread: 1.3 },
@@ -345,7 +346,7 @@ class Renderer {
         for (const sys of page.MusicSystems) {
           const ps = sys.PositionAndShape
           const y = ps.AbsolutePosition.y
-          systems.push({ top: (y + ps.BorderMarginTop) * unit, bottom: (y + ps.BorderMarginBottom) * unit })
+          systems.push({ top: (y + ps.BorderMarginTop) * unit, bottom: (y + ps.BorderMarginBottom) * unit, measures: sys.GraphicalMeasures.length })
         }
       }
       const svgEl = this.host.querySelector('svg')

@@ -83,7 +83,7 @@ export async function printHymns(items: PrintItem[], paper: 'letter' | 'a4'): Pr
       const totalH = vb && vb.length === 4 ? vb[3] : (res.systems.at(-1)?.bottom ?? 0) + 20
       const firstAvail = (P.h - HEADER_H - FOOTER_H) / scale
       const pages = paginate(res.systems, firstAvail, (P.h - FOOTER_H) / scale, totalH)
-      return { svg, vbW, scale, totalH, pages, over: totalH / firstAvail }
+      return { svg, vbW, scale, totalH, pages, over: totalH / firstAvail, zoom, systems: res.systems }
     }
     let d = await draw(PRINT_ZOOM)
     if (!d) continue
@@ -93,6 +93,16 @@ export async function printHymns(items: PrintItem[], paper: 'letter' | 'a4'): Pr
       const smaller = await draw(PRINT_ZOOM * 0.88)
       if (smaller && smaller.pages.length < d.pages.length) d = smaller
     }
+    // a last line holding a single measure looks like a mistake; a little smaller usually lets
+    // it join the line above without adding a page
+    const alone = (x: NonNullable<typeof d>) => x.systems.length >= 2 && x.systems[x.systems.length - 1].measures === 1
+    if (alone(d)) {
+      for (const f of [0.94, 0.88]) {
+        const s = await draw(d.zoom * f)
+        if (s && !alone(s) && s.pages.length <= d.pages.length) { d = s; break }
+      }
+    }
+    if (import.meta.env.DEV) console.debug(`[hymnal:print] ${it.row.n} zoom ${d.zoom.toFixed(3)} pages ${d.pages.length} systems ${d.systems.map(x => x.measures).join('+')}`)
     const { svg, vbW, scale, pages } = d
     const lang = currentLang()
     const keyText = F.printKey(lang, it.keyName, it.delta ? it.origName : null)

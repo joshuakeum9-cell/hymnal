@@ -115,7 +115,7 @@ const STR = {
   },
   'key.original.short': { ko: ' (원조)', en: ', original' },
   'words': { ko: '가사', en: 'Words' },
-  'words.both': { ko: '한/영', en: 'Korean and English' },
+  'words.both': { ko: '한/영', en: 'Both' },
   'words.ko': { ko: '한글', en: 'Korean' },
   'words.en': { ko: '영어', en: 'English' },
   'print.all': { ko: '전체 인쇄', en: 'Print all' },

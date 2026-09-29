@@ -198,6 +198,10 @@ def analyse(root):
                 # a diminished triad in a hymn is almost always a dominant seventh without its root
                 # (B-D-F under G7); band charts write G7
                 root_pc, kind = (root_pc - 4) % 12, "dominant"
+            if kind in ("suspended-fourth", "major-seventh"):
+                # a 4-3 suspension resolves to the triad and a major seventh is a passing tone;
+                # a hymn chart writes the plain chord (C, not Csus4 or Cmaj7)
+                kind = "major"
             if kind in ("minor", "minor-seventh") and (bass_pc - root_pc) % 12 == 3:
                 # a minor chord over its own third (Bb-Db-F over Db) is the major chord with an
                 # added sixth; charts write the major chord on the bass note

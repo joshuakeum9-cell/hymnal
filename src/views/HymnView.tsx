@@ -3,7 +3,7 @@ import { loadHymn, loadIndex, prefetch, rowFor, type Hymn, type Row } from '../d
 import { chipFor, isKeyName, keyLabel, melodyTop, originalTonic, pitchClass, semitoneDelta, type Direction, type LyricMode } from '../music'
 import { cachedSvg, screenRenderer } from '../score'
 import { getPrefs, pushRecent, setPrefs, subscribe } from '../store'
-import { go, goBack, hymnHash } from '../route'
+import { go, hymnHash } from '../route'
 import { KeySheet } from './KeySheet'
 import { printHymns, printNow } from '../print'
 import { KeyName, IconBack, IconCheck, IconClose, IconListAdd, IconMoon, IconNext, IconPrint, IconSun, IconZoomIn, IconZoomOut } from '../icons'
@@ -269,7 +269,7 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
   const noEnglish = hymn && mode === 'en' && hymn.enMode === 0
 
   return (
-    <Shell n={n} row={row ?? null} onBack={() => goBack()} dark={prefs.dark}>
+    <Shell n={n} row={row ?? null} onBack={() => go(inSet ? '#/set' : '#/')} dark={prefs.dark}>
       {row && !row.f ? (
         <div class="notice">
           <p><strong>{t('gated.title')}</strong></p>

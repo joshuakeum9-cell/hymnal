@@ -2,7 +2,8 @@ import { useEffect, useMemo, useRef, useState } from 'preact/hooks'
 import { isFinalNumber, loadIndex, search, type Row } from '../data'
 import { getPrefs, setPrefs, subscribe } from '../store'
 import { go, hymnHash } from '../route'
-import { IconList, KeyName } from '../icons'
+import { IconGlobe, IconList, KeyName } from '../icons'
+import { F, setLang, titles, useT } from '../i18n'
 
 function usePrefs() {
   const [p, set] = useState(getPrefs())
@@ -15,6 +16,7 @@ export function SearchView() {
   const [q, setQ] = useState('')
   const [byTitle, setByTitle] = useState(false)
   const prefs = usePrefs()
+  const { t, lang } = useT()
   const input = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
@@ -49,22 +51,27 @@ export function SearchView() {
 
   const recent = rows ? prefs.recent.slice(0, 8).map(n => rows.find(r => r.n === n)).filter(Boolean) as Row[] : []
   const first = prefs.setList[0]
+  const hint = byTitle ? t('search.hint.title') : prefs.oldNumbers ? t('search.hint.old') : t('search.hint.number')
 
   return (
     <main class="search-page">
       <header class="search-top">
+        <button class="lang-btn" onClick={() => setLang(lang === 'ko' ? 'en' : 'ko')} aria-label={t('lang.switch')} title={t('lang.switch')}>
+          <IconGlobe size={20} />
+          <span>{t('lang.other')}</span>
+        </button>
         <h1 class="brand">
-          <span class="brand-ko">새찬송가</span>
-          <span class="brand-en">Band Hymnal</span>
+          <span class="brand-ko">{t('home.title')}</span>
+          <span class="brand-en">{t('home.subtitle')}</span>
         </h1>
         <a class="setlist-link" href="#/set">
           <IconList size={20} />
-          <span>Set list{prefs.setList.length ? ` (${prefs.setList.length})` : ''}</span>
+          <span>{t('setlist')}{prefs.setList.length ? ` (${prefs.setList.length})` : ''}</span>
         </a>
       </header>
 
       <form class="search-form" onSubmit={onSubmit} role="search">
-        <label class="visually-hidden" for="q">{byTitle ? 'Search by title or first line' : 'Hymn number'}</label>
+        <label class="visually-hidden" for="q">{byTitle ? t('search.label.title') : t('search.label.number')}</label>
         <div class={`search-field ${byTitle ? 'is-text' : 'is-number'}`}>
           <input
             id="q"
@@ -80,33 +87,33 @@ export function SearchView() {
             value={q}
             onInput={onInput}
           />
-          {q ? null : <span class="search-hint" aria-hidden="true">{byTitle ? '제목 또는 가사 첫 줄, ㅈㅇㅊㅈ' : prefs.oldNumbers ? '통일찬송가 번호' : '장 번호'}</span>}
+          {q ? null : <span class="search-hint" aria-hidden="true">{hint}</span>}
         </div>
-        <div class="search-modes" role="group" aria-label="Search by">
+        <div class="search-modes" role="group" aria-label={t('search.by')}>
           <button type="button" class={!byTitle && !prefs.oldNumbers ? 'on' : ''} aria-pressed={!byTitle && !prefs.oldNumbers}
             onClick={() => { setByTitle(false); setPrefs({ oldNumbers: false }); setQ(''); input.current?.focus() }}>
-            새찬송가 번호
+            {t('search.mode.new')}
           </button>
           <button type="button" class={!byTitle && prefs.oldNumbers ? 'on' : ''} aria-pressed={!byTitle && prefs.oldNumbers}
             onClick={() => { setByTitle(false); setPrefs({ oldNumbers: true }); setQ(''); input.current?.focus() }}>
-            통일 번호
+            {t('search.mode.old')}
           </button>
           <button type="button" class={byTitle ? 'on' : ''} aria-pressed={byTitle}
             onClick={() => { setByTitle(true); setQ(''); input.current?.focus() }}>
-            제목 Title
+            {t('search.mode.title')}
           </button>
         </div>
       </form>
 
       {q.trim() ? (
-        <ResultList items={results.map(r => r.row)} showOld={results[0]?.via === 'old'} empty={rows ? 'No hymn matches that.' : 'Loading…'} />
+        <ResultList items={results.map(r => r.row)} showOld={results[0]?.via === 'old'} empty={rows ? t('results.none') : t('loading')} />
       ) : (
         <>
           {prefs.setList.length > 0 && rows && (
             <section class="home-section">
               <div class="section-row">
-                <h2 class="section-title">Set list</h2>
-                <a class="small" href="#/set">Edit</a>
+                <h2 class="section-title">{t('setlist')}</h2>
+                <a class="small" href="#/set">{t('edit')}</a>
               </div>
               <div class="set-strip">
                 {prefs.setList.map(it => {
@@ -114,7 +121,7 @@ export function SearchView() {
                   return (
                     <a key={it.n} class="set-chip" href={hymnHash(it.n, { key: it.key, lyrics: it.mode && it.mode !== 'both' ? it.mode : undefined, s: '1' })}>
                       <strong>{it.n}</strong>
-                      <span>{r?.k ?? ''}</span>
+                      <span>{r ? titles(r, lang)[0] : ''}</span>
                       {it.key ? <em><KeyName tonic={it.key} minor={r?.m === 1} /></em> : null}
                     </a>
                   )
@@ -122,52 +129,55 @@ export function SearchView() {
               </div>
               {first ? (
                 <a class="btn primary start-btn" href={hymnHash(first.n, { key: first.key, lyrics: first.mode && first.mode !== 'both' ? first.mode : undefined, s: '1' })}>
-                  Start from {first.n}
+                  {F.startFrom(lang, first.n)}
                 </a>
               ) : null}
             </section>
           )}
           {recent.length > 0 && (
             <section class="home-section">
-              <h2 class="section-title">Recent</h2>
+              <h2 class="section-title">{t('recent')}</h2>
               <ResultList items={recent} />
             </section>
           )}
           {recent.length === 0 && (
             <section class="home-section hint">
-              <p>Type a hymn number and the music opens. Pick any key, and show the words in Korean, English, or both.</p>
-              <p class="hint-ko">장 번호를 입력하면 악보가 바로 열립니다. 원하는 키로 옮기고, 가사는 한글, 영어, 또는 함께 볼 수 있습니다.</p>
+              <p>{t('home.hint')}</p>
             </section>
           )}
         </>
       )}
 
       <footer class="page-foot">
-        <a href="#/about">About, sources and copyright</a>
+        <a href="#/about">{t('about.link')}</a>
       </footer>
     </main>
   )
 }
 
 export function ResultList({ items, showOld = false, empty }: { items: Row[]; showOld?: boolean; empty?: string }) {
+  const { t, lang } = useT()
   if (!items.length) return <p class="empty">{empty}</p>
   return (
     <ul class="results">
-      {items.map(r => (
-        <li key={r.n}>
-          <a class={`result ${r.f ? '' : 'is-gated'}`} href={`#/${r.n}`}>
-            <span class="result-num">
-              {r.n}
-              {showOld && r.o ? <small>통 {r.o}</small> : null}
-            </span>
-            <span class="result-titles">
-              <span class="result-ko">{r.k}</span>
-              {r.e ? <span class="result-en">{r.e}</span> : null}
-            </span>
-            {!r.f ? <span class="result-tag">No score yet</span> : null}
-          </a>
-        </li>
-      ))}
+      {items.map(r => {
+        const [primary, secondary] = titles(r, lang)
+        return (
+          <li key={r.n}>
+            <a class={`result ${r.f ? '' : 'is-gated'}`} href={`#/${r.n}`}>
+              <span class="result-num">
+                {r.n}
+                {showOld && r.o ? <small>{F.oldTag(lang, r.o)}</small> : null}
+              </span>
+              <span class="result-titles">
+                <span class="result-ko">{primary}</span>
+                {secondary ? <span class="result-en">{secondary}</span> : null}
+              </span>
+              {!r.f ? <span class="result-tag">{t('noscore')}</span> : null}
+            </a>
+          </li>
+        )
+      })}
     </ul>
   )
 }

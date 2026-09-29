@@ -7,11 +7,12 @@ import { go, goBack, hymnHash } from '../route'
 import { KeySheet } from './KeySheet'
 import { printHymns, printNow } from '../print'
 import { KeyName, IconBack, IconCheck, IconClose, IconListAdd, IconMoon, IconNext, IconPrint, IconSun, IconZoomIn, IconZoomOut } from '../icons'
+import { F, titles, useT, type Key as TKey } from '../i18n'
 
-const MODES: { id: LyricMode; label: string; title: string }[] = [
-  { id: 'both', label: '한/영', title: 'Korean and English' },
-  { id: 'ko', label: '한', title: 'Korean only' },
-  { id: 'en', label: '영', title: 'English only' },
+const MODES: { id: LyricMode; label: TKey; title: TKey }[] = [
+  { id: 'both', label: 'mode.both', title: 'mode.both.title' },
+  { id: 'ko', label: 'mode.ko', title: 'mode.ko.title' },
+  { id: 'en', label: 'mode.en', title: 'mode.en.title' },
 ]
 
 const REPO = 'https://github.com/joshuakeum9-cell/hymnal'
@@ -50,6 +51,7 @@ export function baseZoom(width: number, height = 0): number {
 
 export function HymnView({ n, params }: { n: number; params: URLSearchParams }) {
   const prefs = usePrefs()
+  const { t, lang } = useT()
   const [row, setRow] = useState<Row | null | undefined>(rowFor(n))
   const [hymn, setHymn] = useState<Hymn | null>(null)
   const [error, setError] = useState<string | null>(null)
@@ -258,7 +260,7 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
   if (row === null) {
     return (
       <Shell n={n} row={null} onBack={() => go('#/')}>
-        <div class="notice"><p>There is no hymn {n}. The 새찬송가 has 645 hymns.</p></div>
+        <div class="notice"><p>{F.noHymn(lang, n)}</p></div>
       </Shell>
     )
   }
@@ -270,67 +272,62 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
     <Shell n={n} row={row ?? null} onBack={() => goBack()} dark={prefs.dark}>
       {row && !row.f ? (
         <div class="notice">
-          <p><strong>This hymn's music is not on the site yet.</strong></p>
-          <p>
-            {row.g === 1
-              ? 'It was written by a Korean author whose work is still under copyright, so its music stays off the site unless 한국찬송가공회 gives permission.'
-              : 'Its words or music may still be under copyright, so it stays off the site until that is checked.'}
-          </p>
-          <p class="muted">저작권 확인 중인 찬송이라 악보를 아직 싣지 않았습니다.</p>
+          <p><strong>{t('gated.title')}</strong></p>
+          <p>{row.g === 1 ? t('gated.ko') : t('gated.other')}</p>
         </div>
       ) : (
         <>
-          <div class="toolbar" role="toolbar" aria-label="Hymn controls">
+          <div class="toolbar" role="toolbar">
             <button class="btn key-btn" onClick={() => setSheetOpen(true)} disabled={!hymn} aria-haspopup="dialog">
-              <span class="key-btn-label">Key</span>
+              <span class="key-btn-label">{t('key')}</span>
               <strong><KeyName tonic={key} minor={minor} /></strong>
-              {delta !== 0 ? <span class="key-btn-orig">from <KeyName tonic={origTonic} minor={minor} /></span> : null}
+              {delta !== 0 ? <span class="key-btn-orig">{t('key.from')} <KeyName tonic={origTonic} minor={minor} /></span> : null}
             </button>
-            <div class="segmented" role="group" aria-label="Lyrics">
+            <div class="segmented" role="group" aria-label={t('lyrics')}>
               {MODES.map(m => (
-                <button key={m.id} class={mode === m.id ? 'on' : ''} aria-pressed={mode === m.id} title={m.title} aria-label={m.title} onClick={() => setMode(m.id)}>
-                  {m.label}
+                <button key={m.id} class={mode === m.id ? 'on' : ''} aria-pressed={mode === m.id} title={t(m.title)} aria-label={t(m.title)} onClick={() => setMode(m.id)}>
+                  {t(m.label)}
                 </button>
               ))}
             </div>
-            <div class="tool-group" role="group" aria-label="Size">
-              <button class="icon-btn" aria-label="Smaller music" title="Smaller" disabled={prefs.zoom <= 0.6} onClick={() => setPrefs({ zoom: Math.max(0.6, Math.round((prefs.zoom - 0.1) * 10) / 10) })}><IconZoomOut /></button>
-              <button class="icon-btn" aria-label="Larger music" title="Larger" disabled={prefs.zoom >= 1.8} onClick={() => setPrefs({ zoom: Math.min(1.8, Math.round((prefs.zoom + 0.1) * 10) / 10) })}><IconZoomIn /></button>
+            <div class="tool-group" role="group" aria-label={t('size')}>
+              <button class="icon-btn" aria-label={t('smaller')} title={t('smaller')} disabled={prefs.zoom <= 0.6} onClick={() => setPrefs({ zoom: Math.max(0.6, Math.round((prefs.zoom - 0.1) * 10) / 10) })}><IconZoomOut /></button>
+              <button class="icon-btn" aria-label={t('larger')} title={t('larger')} disabled={prefs.zoom >= 1.8} onClick={() => setPrefs({ zoom: Math.min(1.8, Math.round((prefs.zoom + 0.1) * 10) / 10) })}><IconZoomIn /></button>
             </div>
             <div class="tool-group tool-end">
               <button class={`btn set-btn ${inSetList ? 'on' : ''}`} onClick={toggleSet} aria-pressed={inSetList}
-                aria-label={inSetList ? 'In set list. Tap to remove' : 'Add to set list'} title={inSetList ? 'Remove from set list' : 'Add to set list'}>
+                aria-label={inSetList ? t('set.in.aria') : t('set.add.aria')} title={inSetList ? t('set.in.aria') : t('set.add.aria')}>
                 {inSetList ? <IconCheck size={18} /> : <IconListAdd size={20} />}
-                <span class="set-btn-long">{inSetList ? 'In set list' : 'Add to set'}</span>
-                <span class="set-btn-short" aria-hidden="true">{inSetList ? 'In set' : 'Set'}</span>
+                <span class="set-btn-long">{inSetList ? t('set.in') : t('set.add')}</span>
+                <span class="set-btn-short" aria-hidden="true">{inSetList ? t('set.in.short') : t('set.add.short')}</span>
               </button>
               <button class={`btn chords-btn ${chords ? 'on' : ''}`} aria-pressed={chords} onClick={() => setPrefs({ chords: !chords })}
-                title={chords ? 'Hide chord letters' : 'Show chord letters'}>
-                Chords
+                title={chords ? t('chords.hide') : t('chords.show')}>
+                {t('chords')}
               </button>
-              <button class="icon-btn" aria-label="Print" onClick={doPrint} disabled={!hymn || printing}><IconPrint /></button>
-              <button class="icon-btn" aria-label={prefs.dark ? 'Light pages' : 'Dark pages for the stage'} onClick={() => setPrefs({ dark: !prefs.dark })}>
+              <button class="icon-btn" aria-label={t('print')} title={t('print')} onClick={doPrint} disabled={!hymn || printing}><IconPrint /></button>
+              <button class="icon-btn" aria-label={prefs.dark ? t('light') : t('dark')} title={prefs.dark ? t('light') : t('dark')} onClick={() => setPrefs({ dark: !prefs.dark })}>
                 {prefs.dark ? <IconSun /> : <IconMoon />}
               </button>
             </div>
           </div>
 
-          {noEnglish ? <p class="inline-note">English words are not available for this hymn yet, so the music shows without words.</p> : null}
+          {noEnglish ? <p class="inline-note">{t('noenglish')}</p> : null}
 
           <div class={`score ${busy ? 'is-busy' : ''} ${prefs.dark ? 'is-dark' : ''}`} ref={scoreRef} aria-busy={busy}>
             {error ? (
-              <div class="notice"><p>Sorry, this hymn could not be drawn. {error}</p></div>
+              <div class="notice"><p>{t('draw.error')} {error}</p></div>
             ) : svg ? (
               <div class="score-svg" role="img" aria-label={`Music for hymn ${n} in ${keyLabel(key, minor)}`} dangerouslySetInnerHTML={{ __html: svg }} />
             ) : (
-              <div class="score-loading"><span class="spinner" aria-hidden="true" /> Loading music…</div>
+              <div class="score-loading"><span class="spinner" aria-hidden="true" /> {t('loading.music')}</div>
             )}
           </div>
 
           {showEnText ? (
             <section class="lyric-text" lang="en">
-              <h2 class="section-title">English words</h2>
-              <p class="muted small">The English does not fit this setting note for note yet, so it is shown here instead.</p>
+              <h2 class="section-title">{t('en.words')}</h2>
+              <p class="muted small">{t('en.words.note')}</p>
               {hymn!.en.map((v, i) => (
                 <p key={i} class="verse"><span class="verse-num">{i + 1}</span>{v.split('\n').map((l, j) => <span key={j} class="verse-line">{l}</span>)}</p>
               ))}
@@ -339,23 +336,23 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
         </>
       )}
 
-      <nav class="pager" aria-label="Other hymns">
+      <nav class="pager" aria-label={t('pager')}>
         {prevHash ? <a class="pager-link" href={prevHash}><IconBack size={18} /><span>{inSet ? prevItem!.n : n - 1}</span></a> : <span />}
-        {inSet ? <a class="pager-mid" href="#/set">{setIdx >= 0 ? `Set list ${setIdx + 1} of ${prefs.setList.length}` : 'Back to set list'}</a> : <span />}
+        {inSet ? <a class="pager-mid" href="#/set">{setIdx >= 0 ? F.pagerSet(lang, setIdx + 1, prefs.setList.length) : t('pager.back')}</a> : <span />}
         {nextHash ? <a class="pager-link next" href={nextHash}><span>{inSet ? nextItem!.n : n + 1}</span><IconNext size={18} /></a> : <span />}
       </nav>
 
       {row ? (
         <footer class="hymn-foot">
           <p>
-            {row.o ? <>통일찬송가 {row.o}장. </> : null}
+            {row.o ? <>{F.footOld(lang, row.o)} </> : null}
             {row.t ? <>{row.t}. </> : null}
-            Original key {row.f ? <KeyName tonic={origTonic} minor={minor} /> : (row.kt || 'unknown')}{row.ts ? `, ${row.ts}` : ''}.
+            {t('foot.origkey')} {row.f ? <KeyName tonic={origTonic} minor={minor} /> : (row.kt || t('unknown'))}{row.ts ? `, ${row.ts}` : ''}.
           </p>
           {hymn?.cr ? <p class="muted small">{hymn.cr}</p> : null}
           <p class="small">
             <a href={`${REPO}/issues/new?title=${encodeURIComponent(`Hymn ${n}: `)}&body=${encodeURIComponent(`Hymn ${n} ${row.k}\nKey: ${key}, lyrics: ${mode}\n\nWhat is wrong:\n`)}`} class="report-link" target="_blank" rel="noopener">
-              Report a mistake in this hymn
+              {t('report')}
             </a>
           </p>
         </footer>
@@ -374,12 +371,12 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
           onClose={() => setSheetOpen(false)}
         />
       ) : null}
-      {printing ? <div class="toast" role="status">Preparing pages for printing…</div> : null}
+      {printing ? <div class="toast" role="status">{t('print.preparing')}</div> : null}
       {printReady && !printing ? (
         <div class="toast" role="status">
-          <span>Pages are ready.</span>
-          <button class="btn primary" onClick={() => { setPrintReady(false); printNow() }}>Print</button>
-          <button class="icon-btn" aria-label="Close" onClick={() => setPrintReady(false)}><IconClose size={18} /></button>
+          <span>{t('print.ready')}</span>
+          <button class="btn primary" onClick={() => { setPrintReady(false); printNow() }}>{t('print')}</button>
+          <button class="icon-btn" aria-label={t('close')} onClick={() => setPrintReady(false)}><IconClose size={18} /></button>
         </div>
       ) : null}
     </Shell>
@@ -387,18 +384,20 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
 }
 
 function Shell({ n, row, onBack, children, dark }: { n: number; row: Row | null; onBack: () => void; children: any; dark?: boolean }) {
+  const { t, lang } = useT()
+  const [primary, secondary] = row ? titles(row, lang) : ['', undefined]
   return (
     <main class={`hymn-page ${dark ? 'page-dark' : ''}`}>
       <header class="hymn-head">
-        <button class="icon-btn back" onClick={onBack} aria-label="Back to search"><IconBack /></button>
+        <button class="icon-btn back" onClick={onBack} aria-label={t('back')}><IconBack /></button>
         <div class="hymn-title">
           <span class="hymn-num">{n}</span>
           <span class="hymn-names">
-            <span class="hymn-ko">{row?.k ?? ''}</span>
-            {row?.e ? <span class="hymn-en">{row.e}</span> : null}
+            <span class="hymn-ko">{primary}</span>
+            {secondary ? <span class="hymn-en">{secondary}</span> : null}
           </span>
         </div>
-        <a class="icon-btn" href="#/" aria-label="Search"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5" /><path d="M16 16l4.5 4.5" /></svg></a>
+        <a class="icon-btn" href="#/" aria-label={t('search')}><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5" /><path d="M16 16l4.5 4.5" /></svg></a>
       </header>
       {children}
     </main>

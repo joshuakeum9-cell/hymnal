@@ -36,3 +36,4 @@ export function KeyName({ tonic, minor = false }: { tonic: string; minor?: boole
     </span>
   )
 }
+export const IconGlobe = ({ size }: P) => <svg {...base(size)}><circle cx="12" cy="12" r="9" /><path d="M3 12h18M12 3c2.8 3 2.8 15 0 18M12 3c-2.8 3-2.8 15 0 18" /></svg>

@@ -6,8 +6,9 @@ A free website for a church band: type a hymn number and the music appears, in a
 
 - Numbers follow the **새찬송가** (21세기 찬송가, 2006, 645 hymns). The old 통일찬송가 number works too: type it after switching the search to 통일, or open `#/old/46`.
 - **Transpose** to any of the 12 keys. "Best fit" keeps the melody in a comfortable range; Lower and Higher choose the octave.
-- **Chords:** chord letters above the melody (G, Em, D7, C/G), read from each hymn's four-part harmony by `tools/chords.py` and transposed with the music. The Chords button hides them.
-- **Lyrics:** 한/영 shows all the Korean verses, then all the English verses, as the Korean-English hymnal prints them; 한 is Korean only; 영 is English only.
+- **Language:** the first visit asks for 한국어 or English; the globe button at the top left of the home screen switches later. Every label, hint and heading is in that language. The music's own 한/영 choice is separate.
+- **Chords:** chord letters above the melody (G, Em, D7, C/G), read from each hymn's four-part harmony by `tools/chords.py`. They transpose with the music (the graphic sheet is rebuilt after the transposition is set, since the engine spells chord letters at load time). The Chords button hides them.
+- **Lyrics:** 한/영 (KO/EN in the English interface) shows all the Korean verses, then all the English verses, as the Korean-English hymnal prints them; 한 is Korean only; 영 is English only.
 - **Print** one hymn, or a whole **set list** in order, on Letter or A4. Pages break between lines of music.
 - Works **offline** once installed (Share, then Add to Home Screen on an iPad or iPhone).
 

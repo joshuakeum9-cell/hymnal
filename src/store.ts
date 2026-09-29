@@ -11,6 +11,7 @@ export type Prefs = {
   oldNumbers: boolean // search box expects 통일찬송가 numbers
   paper: 'letter' | 'a4'
   chords: boolean     // chord letters above the music
+  lang?: 'ko' | 'en'  // interface language; unset until chosen on the first visit
   recent: number[]
   setList: SetItem[]
   keys: Record<string, string> // unused since v1.1 (kept so old saved settings still load)

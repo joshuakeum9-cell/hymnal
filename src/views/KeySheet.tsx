@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'preact/hooks'
 import { MAJOR_KEYS, MINOR_KEYS, midiName, pitchClass, type Direction } from '../music'
 import { IconClose, IconMinus, IconPlus, KeyName } from '../icons'
+import { F, useT } from '../i18n'
 
 type Props = {
   original: string          // original tonic, spelled from the chip list
@@ -17,6 +18,7 @@ type Props = {
 export function KeySheet({ original, minor, current, delta, dir, top, onPick, onDir, onClose }: Props) {
   const keys = minor ? MINOR_KEYS : MAJOR_KEYS
   const panel = useRef<HTMLDivElement>(null)
+  const { t, lang } = useT()
 
   useEffect(() => {
     const opener = document.activeElement as HTMLElement | null
@@ -45,15 +47,17 @@ export function KeySheet({ original, minor, current, delta, dir, top, onPick, on
 
   const moved = delta !== 0
   const half = Math.abs(delta)
+  const from = <KeyName tonic={original} minor={minor} />
+  const to = <KeyName tonic={current} minor={minor} />
   return (
     <div class="sheet-backdrop" onClick={onClose}>
-      <div class="sheet" role="dialog" aria-modal="true" aria-label="Choose a key" ref={panel} onClick={e => e.stopPropagation()}>
+      <div class="sheet" role="dialog" aria-modal="true" aria-label={t('key.choose')} ref={panel} onClick={e => e.stopPropagation()}>
         <div class="sheet-head">
-          <h2>Key <span class="muted">조옮김</span></h2>
-          <button class="icon-btn" onClick={onClose} aria-label="Close"><IconClose /></button>
+          <h2>{t('key.title')}</h2>
+          <button class="icon-btn" onClick={onClose} aria-label={t('close')}><IconClose /></button>
         </div>
 
-        <div class="key-grid" role="listbox" aria-label="Keys">
+        <div class="key-grid" role="listbox" aria-label={t('keys')}>
           {keys.map(k => {
             const isOrig = pitchClass(k) === pitchClass(original)
             const on = pitchClass(k) === pitchClass(current)
@@ -66,27 +70,27 @@ export function KeySheet({ original, minor, current, delta, dir, top, onPick, on
                 onClick={() => onPick(k)}
               >
                 <span class="key-name"><KeyName tonic={k} minor={minor} /></span>
-                {isOrig ? <span class="key-orig">Original</span> : null}
+                {isOrig ? <span class="key-orig">{t('original')}</span> : null}
               </button>
             )
           })}
         </div>
 
         <div class="key-row">
-          <div class="stepper" role="group" aria-label="Half steps">
-            <button class="btn" onClick={() => step(-1)} aria-label="Down a half step"><IconMinus size={18} /></button>
-            <span class="stepper-label">Half step</span>
-            <button class="btn" onClick={() => step(1)} aria-label="Up a half step"><IconPlus size={18} /></button>
+          <div class="stepper" role="group" aria-label={t('halfsteps')}>
+            <button class="btn" onClick={() => step(-1)} aria-label={t('halfstep.down')}><IconMinus size={18} /></button>
+            <span class="stepper-label">{t('halfstep')}</span>
+            <button class="btn" onClick={() => step(1)} aria-label={t('halfstep.up')}><IconPlus size={18} /></button>
           </div>
-          <button class="btn" disabled={!moved} onClick={() => onPick(original)}>Back to original</button>
+          <button class="btn" disabled={!moved} onClick={() => onPick(original)}>{t('back.original')}</button>
         </div>
 
         {moved ? (
           <div class="key-row">
-            <div class="segmented" role="group" aria-label="Octave">
+            <div class="segmented" role="group" aria-label={t('octave')}>
               {(['down', 'auto', 'up'] as Direction[]).map(d => (
                 <button key={d} class={dir === d ? 'on' : ''} aria-pressed={dir === d} onClick={() => onDir(d)}>
-                  {d === 'down' ? 'Lower' : d === 'up' ? 'Higher' : 'Best fit'}
+                  {d === 'down' ? t('lower') : d === 'up' ? t('higher') : t('bestfit')}
                 </button>
               ))}
             </div>
@@ -95,9 +99,11 @@ export function KeySheet({ original, minor, current, delta, dir, top, onPick, on
 
         <p class="key-summary">
           {moved
-            ? <>From <KeyName tonic={original} minor={minor} /> {delta > 0 ? 'up' : 'down'} {half} half step{half === 1 ? '' : 's'} to <KeyName tonic={current} minor={minor} />.</>
-            : <>Original key, <KeyName tonic={original} minor={minor} />.</>}
-          {top != null ? <> Melody top note {midiName(top)}{moved ? <> → {midiName(top + delta)}</> : null}.</> : null}
+            ? (lang === 'ko'
+              ? <>{from}에서 {F.halfSteps(lang, half, delta > 0)} {to}.</>
+              : <>From {from} {F.halfSteps(lang, half, delta > 0)} to {to}.</>)
+            : (lang === 'ko' ? <>원조 {from}.</> : <>Original key, {from}.</>)}
+          {top != null ? <> {t('melody.top')} {midiName(top)}{moved ? <> → {midiName(top + delta)}</> : null}.</> : null}
         </p>
       </div>
     </div>

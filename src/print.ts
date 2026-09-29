@@ -3,6 +3,7 @@
 import type { Hymn, Row } from './data'
 import type { LyricMode } from './music'
 import { printRenderer, type SystemBox } from './score'
+import { F, currentLang, t } from './i18n'
 
 export type PrintItem = { row: Row; hymn: Hymn; delta: number; mode: LyricMode; keyName: string; origName: string; chords?: boolean }
 
@@ -80,8 +81,9 @@ export async function printHymns(items: PrintItem[], paper: 'letter' | 'a4'): Pr
     const vb = svg.getAttribute('viewBox')?.split(/[ ,]+/).map(Number)
     const totalH = vb && vb.length === 4 ? vb[3] : (res.systems.at(-1)?.bottom ?? 0) + 20
     const pages = paginate(res.systems, (P.h - HEADER_H - FOOTER_H) / scale, (P.h - FOOTER_H) / scale, totalH)
-    const keyText = it.delta ? `Key ${it.keyName} (from ${it.origName})` : `Key ${it.keyName}`
-    const modeText = it.mode === 'both' ? '' : it.mode === 'ko' ? ', Korean words' : ', English words'
+    const lang = currentLang()
+    const keyText = F.printKey(lang, it.keyName, it.delta ? it.origName : null)
+    const modeText = it.mode === 'both' ? '' : it.mode === 'ko' ? t('print.words.ko', lang) : t('print.words.en', lang)
     pages.forEach(([y0, y1], p) => {
       const page = document.createElement('section')
       page.className = 'print-page'
@@ -106,9 +108,9 @@ export async function printHymns(items: PrintItem[], paper: 'letter' | 'a4'): Pr
       page.appendChild(clone)
       const foot = document.createElement('footer')
       foot.className = 'print-foot'
-      foot.textContent = pages.length > 1 ? `${it.row.n} ${it.row.k}, page ${p + 1} of ${pages.length}` : `${it.row.n} ${it.row.k}`
+      foot.textContent = pages.length > 1 ? `${it.row.n} ${it.row.k}, ${F.printPage(lang, p + 1, pages.length)}` : `${it.row.n} ${it.row.k}`
       if (p === pages.length - 1) {
-        foot.textContent += `. ${it.hymn.cr ?? ''} Engraving: 깔끔이 CCM, CC BY 4.0.`
+        foot.textContent += `. ${it.hymn.cr ?? ''} ${t('print.engraving', lang)}`
       }
       page.appendChild(foot)
       box.appendChild(page)
@@ -117,7 +119,7 @@ export async function printHymns(items: PrintItem[], paper: 'letter' | 'a4'): Pr
       const page = document.createElement('section')
       page.className = 'print-page print-text'
       page.style.width = `${P.w}px`
-      page.innerHTML = `<h2>${it.row.n} ${esc(it.row.e || it.row.k)}, English words</h2>` +
+      page.innerHTML = `<h2>${it.row.n} ${esc(it.row.e || it.row.k)}, ${t('en.words', lang)}</h2>` +
         it.hymn.en.map((v, i) => `<p><b>${i + 1}.</b> ${esc(v).replace(/\n/g, '<br>')}</p>`).join('')
       box.appendChild(page)
     }

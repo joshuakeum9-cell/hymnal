@@ -40,7 +40,7 @@ export type SystemBox = { top: number; bottom: number }
 /** systems are in the SVG's viewBox units; viewWidth is the viewBox width */
 export type RenderResult = { svg: string; ms: number; cached: boolean; systems: SystemBox[]; viewWidth: number }
 
-const ENGINE_VERSION = 'osmd-2.1.3-r20'
+const ENGINE_VERSION = 'osmd-2.1.3-r21'
 const memory = new Map<string, string>()
 const MEMORY_MAX = 30
 const IDB_MAX = 80
@@ -295,6 +295,9 @@ class Renderer {
       const doc = filterLyrics(req.xml, req.mode, req.chords ?? true)
       await osmd.load(doc as unknown as string)
       osmd.Sheet.Transpose = req.delta
+      // chord letters are spelled when the graphic sheet is built (at load, with no transposition),
+      // so rebuild it once the transposition is set; the notes themselves transpose at draw time
+      if (req.delta) osmd.updateGraphic()
       osmd.zoom = req.zoom
       // OSMD widens a measure for its words only up to MaximumLyricsElongationFactor times its
       // normal width, and only pads to the right of a long word, so on a phone words can run

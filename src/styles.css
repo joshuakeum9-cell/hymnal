@@ -115,7 +115,26 @@ button, input, select { font: inherit; color: inherit; }
   max-width: 620px; margin: 0 auto;
   padding: calc(16px + var(--safe-top)) 16px calc(32px + var(--safe-bottom));
 }
-.search-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 8px 0 20px; }
+.search-top { display: flex; align-items: center; gap: 10px; margin: 8px 0 20px; }
+.search-top .brand { flex: 1; min-width: 0; }
+.lang-btn {
+  display: inline-flex; align-items: center; gap: 6px; min-height: var(--tap); padding: 0 12px 0 10px;
+  border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--ink);
+  font-size: 14px; font-weight: 700; cursor: pointer; white-space: nowrap; flex: none;
+}
+.lang-btn:hover { background: var(--chip); }
+
+/* ---------- first visit: choose a language ---------- */
+.lang-page { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 24px 16px; }
+.lang-card { width: 100%; max-width: 360px; text-align: center; }
+.lang-brand { display: flex; flex-direction: column; gap: 4px; margin: 0 0 28px; line-height: 1.15; }
+.lang-brand-ko { font-size: 34px; font-weight: 700; }
+.lang-brand-en { font-size: 18px; color: var(--muted); font-weight: 400; }
+.lang-ask { display: flex; flex-direction: column; gap: 2px; margin: 0 0 18px; font-size: 17px; }
+.lang-ask span:last-child { color: var(--muted); }
+.lang-choices { display: grid; gap: 12px; }
+.lang-choice { min-height: 60px; font-size: 20px; }
+.lang-note { margin-top: 22px; display: flex; flex-direction: column; gap: 2px; }
 .brand { margin: 0; display: flex; align-items: baseline; gap: 10px; font-size: 24px; letter-spacing: -0.01em; }
 .brand-ko { font-weight: 700; }
 .brand-en { font-size: 15px; color: var(--muted); font-weight: 400; }
@@ -345,6 +364,9 @@ button, input, select { font: inherit; color: inherit; }
   .hymn-num { font-size: 22px; }
   .hymn-ko { font-size: 16px; }
   .search-input { height: 68px; font-size: 34px; }
+  .search-top .brand { flex-direction: column; align-items: flex-start; gap: 0; }
+  .lang-btn span { display: none; }
+  .lang-btn { padding: 0; width: var(--tap); justify-content: center; }
   .set-actions .paper { margin-left: 0; }
 }
 

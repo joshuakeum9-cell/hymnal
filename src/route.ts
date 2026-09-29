@@ -46,6 +46,7 @@ export function useRoute(): Route {
   useEffect(() => {
     const on = () => setRoute(parseHash(location.hash))
     window.addEventListener('hashchange', on)
+    on() // the address may have changed between the first render and this listener (a link tapped while the app was starting)
     return () => window.removeEventListener('hashchange', on)
   }, [])
   return route

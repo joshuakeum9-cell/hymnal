@@ -7,7 +7,7 @@ import { go, goBack, hymnHash } from '../route'
 import { KeySheet } from './KeySheet'
 import { printHymns, printNow } from '../print'
 import { KeyName, IconBack, IconCheck, IconClose, IconListAdd, IconMoon, IconNext, IconPrint, IconSun, IconZoomIn, IconZoomOut } from '../icons'
-import { F, titles, useT, type Key as TKey } from '../i18n'
+import { F, creditText, titles, useT, type Key as TKey } from '../i18n'
 
 const MODES: { id: LyricMode; label: TKey; title: TKey }[] = [
   { id: 'both', label: 'mode.both', title: 'mode.both.title' },
@@ -349,7 +349,7 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
             {row.t ? <>{row.t}. </> : null}
             {t('foot.origkey')} {row.f ? <KeyName tonic={origTonic} minor={minor} /> : (row.kt || t('unknown'))}{row.ts ? `, ${row.ts}` : ''}.
           </p>
-          {hymn?.cr ? <p class="muted small">{hymn.cr}</p> : null}
+          {hymn?.cr ? <p class="muted small">{creditText(hymn.cr, lang)}</p> : null}
           <p class="small">
             <a href={`${REPO}/issues/new?title=${encodeURIComponent(`Hymn ${n}: `)}&body=${encodeURIComponent(`Hymn ${n} ${row.k}\nKey: ${key}, lyrics: ${mode}\n\nWhat is wrong:\n`)}`} class="report-link" target="_blank" rel="noopener">
               {t('report')}

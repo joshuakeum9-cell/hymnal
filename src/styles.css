@@ -210,7 +210,7 @@ button, input, select { font: inherit; color: inherit; }
   position: sticky; top: 0; z-index: 20;
   display: grid; grid-template-columns: var(--tap) 1fr var(--tap); align-items: center; gap: 4px;
   padding: calc(6px + var(--safe-top)) 8px 6px;
-  background: color-mix(in srgb, var(--paper) 92%, transparent);
+  background: color-mix(in srgb, var(--paper) 96%, transparent);
   -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--line);
 }

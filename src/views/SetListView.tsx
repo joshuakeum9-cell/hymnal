@@ -167,12 +167,18 @@ export function SetListView({ params }: { params: URLSearchParams }) {
                         ? t('key.original.short')
                         : (lang === 'ko' ? <> (원조 <KeyName tonic={orig} minor={minor} />)</> : <>, from <KeyName tonic={orig} minor={minor} /></>)}
                     </span>
-                    <select value={chipFor(current, minor)} onChange={e => {
-                      const k = (e.target as HTMLSelectElement).value
-                      update(i, { key: pitchClass(k) === pitchClass(orig) ? undefined : k })
-                    }} disabled={!row?.f} aria-label={F.keyFor(lang, it.n)}>
-                      {keys.map(k => <option key={k} value={k}>{keyLabel(k, minor)}{pitchClass(k) === pitchClass(orig) ? ' *' : ''}</option>)}
-                    </select>
+                    {row && !row.f ? (
+                      <select value="x" disabled aria-label={F.keyFor(lang, it.n)}>
+                        <option value="x">{row.kt ? keyLabel(row.kt, minor) : t('unknown')}</option>
+                      </select>
+                    ) : (
+                      <select value={chipFor(current, minor)} onChange={e => {
+                        const k = (e.target as HTMLSelectElement).value
+                        update(i, { key: pitchClass(k) === pitchClass(orig) ? undefined : k })
+                      }} disabled={!row?.f} aria-label={F.keyFor(lang, it.n)}>
+                        {keys.map(k => <option key={k} value={k}>{keyLabel(k, minor)}{pitchClass(k) === pitchClass(orig) ? ' *' : ''}</option>)}
+                      </select>
+                    )}
                   </label>
                   <label class="select-wrap">
                     <span class="select-label">{t('words')}</span>

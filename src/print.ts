@@ -3,7 +3,7 @@
 import type { Hymn, Row } from './data'
 import type { LyricMode } from './music'
 import { printRenderer, type SystemBox } from './score'
-import { F, currentLang, t } from './i18n'
+import { F, creditText, currentLang, t } from './i18n'
 
 export type PrintItem = { row: Row; hymn: Hymn; delta: number; mode: LyricMode; keyName: string; origName: string; chords?: boolean }
 
@@ -110,7 +110,7 @@ export async function printHymns(items: PrintItem[], paper: 'letter' | 'a4'): Pr
       foot.className = 'print-foot'
       foot.textContent = pages.length > 1 ? `${it.row.n} ${it.row.k}, ${F.printPage(lang, p + 1, pages.length)}` : `${it.row.n} ${it.row.k}`
       if (p === pages.length - 1) {
-        foot.textContent += `. ${it.hymn.cr ?? ''} ${t('print.engraving', lang)}`
+        foot.textContent += `. ${creditText(it.hymn.cr ?? '', lang)} ${t('print.engraving', lang)}`
       }
       page.appendChild(foot)
       box.appendChild(page)

@@ -174,6 +174,12 @@ export const F = {
   printPage: (l: Lang, p: number, n: number) => (l === 'ko' ? `${p}/${n}쪽` : `page ${p} of ${n}`),
 }
 
+/** The credit line is stored in English ("Words: ... Music: ..."); show it in the chosen language. */
+export function creditText(cr: string, lang: Lang): string {
+  if (lang !== 'ko') return cr
+  return cr.replace(/\bWords:/g, '작사:').replace(/\bMusic:/g, '작곡:').replace(/\btr\. /g, '역: ').replace(/\barr\. /g, '편곡: ')
+}
+
 export function currentLang(): Lang {
   return getPrefs().lang ?? 'ko'
 }

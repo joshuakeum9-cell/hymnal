@@ -174,6 +174,36 @@ export const F = {
   printPage: (l: Lang, p: number, n: number) => (l === 'ko' ? `${p}/${n}쪽` : `page ${p} of ${n}`),
 }
 
+/** Hymnal theme names (the 새찬송가 index headings) in English. */
+const THEME_EN: Record<string, string> = {
+  '인도와보호': 'Guidance and Protection', '회개와용서': 'Repentance and Forgiveness', '소명과충성': 'Calling and Faithfulness',
+  '찬양': 'Praise', '성탄': 'Christmas', '제자의도리': 'Discipleship', '부르심과영접': 'Invitation and Acceptance',
+  '은혜와사랑': 'Grace and Love', '미래와소망': 'Hope and the Future', '주와동행': 'Walking with the Lord',
+  '예수그리스도': 'Jesus Christ', '고난': 'Passion', '천국': 'Heaven', '평안과위로': 'Peace and Comfort',
+  '창조주': 'God the Creator', '부활': 'Easter', '분투와승리': 'Struggle and Victory', '성령강림': 'Pentecost',
+  '경배와찬양': 'Worship and Praise', '세계선교': 'World Mission', '어린이': 'Children', '경배': 'Adoration',
+  '시련과극복': 'Trials and Overcoming', '믿음과확신': 'Faith and Assurance', '성경': 'Scripture', '구주강림': 'Advent',
+  '재림': 'Second Coming', '헌신과봉사': 'Dedication and Service', '기도와간구': 'Prayer', '감사절': 'Thanksgiving',
+  '송영': 'Doxology', '주일': "The Lord's Day", '성찬': 'Communion', '성결한생활': 'Holy Living', '전도': 'Evangelism',
+  '전도와교훈': 'Evangelism and Teaching', '아멘송': 'Amen', '예배마침': 'Closing', '아침과저녁': 'Morning and Evening',
+  '생애': 'Life of Christ', '성도의교제': 'Fellowship of Believers', '신유의권능': 'Healing', '새해(송구영신)': 'New Year',
+  '새해송구영신)': 'New Year', '가정': 'Home and Family', '청년': 'Youth', '나라사랑': 'Love of Country', '혼례': 'Wedding',
+  '장례': 'Funeral', '봉헌': 'Offering', '주현': 'Epiphany', '종려주일': 'Palm Sunday', '하나님나라': 'Kingdom of God',
+  '거룩한생활': 'Holy Living', '어버이': 'Parents', '입례송': 'Call to Worship', '기도송': 'Prayer Response',
+  '세례(침례)': 'Baptism', '세례침례)': 'Baptism', '거듭남': 'New Birth', '자연과환경': 'Nature and Creation',
+  '임직': 'Ordination', '헌당': 'Dedication of a Church', '추모': 'Remembrance', '섭리': 'Providence', '은사': 'Spiritual Gifts',
+  '감사의생활': 'Thankful Living', '종교개혁기념일': 'Reformation Day', '헌금응답송': 'Offering Response',
+  '축도송': 'Benediction', '강림': 'Advent', '회개와사죄': 'Repentance and Pardon', '화해와평화': 'Reconciliation and Peace',
+  '주기도송': "The Lord's Prayer", '말씀응답송': 'Response to the Word',
+}
+
+/** A theme heading in the chosen language; the Korean form loses a stray bracket from the source. */
+export function themeText(t: string, lang: Lang): string {
+  if (lang === 'en') return THEME_EN[t] ?? THEME_EN[t.replace(/[()]/g, '')] ?? ''
+  const fixed: Record<string, string> = { '새해송구영신)': '새해(송구영신)', '세례침례)': '세례(침례)' }
+  return fixed[t] ?? t
+}
+
 /** The credit line is stored in English ("Words: ... Music: ..."); show it in the chosen language. */
 export function creditText(cr: string, lang: Lang): string {
   if (lang !== 'ko') return cr

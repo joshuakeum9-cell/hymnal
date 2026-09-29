@@ -7,7 +7,7 @@ import { go, goBack, hymnHash } from '../route'
 import { KeySheet } from './KeySheet'
 import { printHymns, printNow } from '../print'
 import { KeyName, IconBack, IconCheck, IconClose, IconListAdd, IconMoon, IconNext, IconPrint, IconSun, IconZoomIn, IconZoomOut } from '../icons'
-import { F, creditText, titles, useT, type Key as TKey } from '../i18n'
+import { F, creditText, themeText, titles, useT, type Key as TKey } from '../i18n'
 
 const MODES: { id: LyricMode; label: TKey; title: TKey }[] = [
   { id: 'both', label: 'mode.both', title: 'mode.both.title' },
@@ -346,7 +346,7 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
         <footer class="hymn-foot">
           <p>
             {row.o ? <>{F.footOld(lang, row.o)} </> : null}
-            {row.t ? <>{row.t}. </> : null}
+            {row.t && themeText(row.t, lang) ? <>{themeText(row.t, lang)}. </> : null}
             {t('foot.origkey')} {row.f ? <KeyName tonic={origTonic} minor={minor} /> : (row.kt || t('unknown'))}{row.ts ? `, ${row.ts}` : ''}.
           </p>
           {hymn?.cr ? <p class="muted small">{creditText(hymn.cr, lang)}</p> : null}

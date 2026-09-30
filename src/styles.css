@@ -101,7 +101,8 @@ button, input, select { font: inherit; color: inherit; }
 .icon-btn:disabled { opacity: 0.4; }
 
 .segmented {
-  display: inline-flex; padding: 0; gap: 0;
+  /* equal columns: 한/영, 한 and 영 (KO/EN, KO, EN) are the same width */
+  display: inline-grid; grid-auto-flow: column; grid-auto-columns: 1fr; padding: 0; gap: 0;
   background: var(--chip); border-radius: 11px; border: 1px solid var(--line);
 }
 .segmented button {

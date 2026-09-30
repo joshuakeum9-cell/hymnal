@@ -40,7 +40,7 @@ export type SystemBox = { top: number; bottom: number; measures: number }
 /** systems are in the SVG's viewBox units; viewWidth is the viewBox width */
 export type RenderResult = { svg: string; ms: number; cached: boolean; systems: SystemBox[]; viewWidth: number }
 
-const ENGINE_VERSION = 'osmd-2.1.3-r26'
+const ENGINE_VERSION = 'osmd-2.1.3-r29'
 const memory = new Map<string, string>()
 const MEMORY_MAX = 30
 const IDB_MAX = 80
@@ -173,6 +173,56 @@ function chordRoom(osmd: OpenSheetMusicDisplay, host: Element): boolean {
         changed = true
         if (import.meta.env.DEV) console.debug(`[hymnal:chords] bar ${src.MeasureNumber} widened x${factor.toFixed(2)} (labels ${labels.length})`)
       }
+    }
+  }
+  return changed
+}
+
+/** Minimum (unstretched) width of every bar, by its index in the score. */
+function minWidths(osmd: OpenSheetMusicDisplay): Map<number, number> {
+  const out = new Map<number, number>()
+  for (const ms of (osmd.GraphicSheet as any).MeasureList as any[][]) {
+    const m = ms.find(Boolean)
+    if (m) out.set(m.parentSourceMeasure.measureListIndex, m.minimumStaffEntriesWidth)
+  }
+  return out
+}
+
+/** Drawn width of every bar, by its index in the score. */
+function barWidths(osmd: OpenSheetMusicDisplay): Map<number, number> {
+  const out = new Map<number, number>()
+  for (const page of osmd.GraphicSheet.MusicPages) {
+    for (const sys of page.MusicSystems) {
+      for (const stack of sys.GraphicalMeasures as any[]) {
+        const m = stack[0]
+        if (m) out.set(m.parentSourceMeasure.measureListIndex, m.PositionAndShape.Size.width)
+      }
+    }
+  }
+  return out
+}
+
+/**
+ * Widen bars so each line divides its width among its bars as the reference layout does.
+ * Every bar keeps at least the width it has now. Returns true when a bar changed.
+ */
+function matchWidths(osmd: OpenSheetMusicDisplay, ref: Map<number, number>): boolean {
+  let changed = false
+  const systems = osmd.GraphicSheet.MusicPages.flatMap(page => page.MusicSystems)
+  for (const sys of systems) {
+    {
+      const bars = (sys.GraphicalMeasures as any[]).map(stack => stack[0]).filter(Boolean)
+      const ratio = bars.map(m => m.PositionAndShape.Size.width / (ref.get(m.parentSourceMeasure.measureListIndex) ?? m.PositionAndShape.Size.width))
+      // a full line is stretched to the page width, so only the proportions matter; the last line
+      // is drawn at its natural width, so its bars also get the reference's actual widths
+      const k = sys === systems[systems.length - 1] ? Math.max(1, ...ratio) : Math.max(...ratio)
+      bars.forEach((m, i) => {
+        const f = k / ratio[i]
+        if (!(f > 1.01)) return
+        const src = m.parentSourceMeasure
+        src.WidthFactor = (src.WidthFactor ?? 1) * f
+        changed = true
+      })
     }
   }
   return changed
@@ -364,6 +414,42 @@ class Renderer {
     return osmd
   }
 
+  /** Load the score and draw it, widening only where words would otherwise collide. */
+  private async draw(osmd: OpenSheetMusicDisplay, doc: Document, req: RenderRequest, steps = SPACING_STEPS): Promise<{ elongation: number; spread: number }> {
+    await osmd.load(doc as unknown as string)
+    osmd.Sheet.Transpose = req.delta
+    // chord letters are spelled when the graphic sheet is built (at load, with no transposition),
+    // so rebuild it once the transposition is set; the notes themselves transpose at draw time
+    if (req.delta) osmd.updateGraphic()
+    osmd.zoom = req.zoom
+    // OSMD widens a measure for its words only up to MaximumLyricsElongationFactor times its
+    // normal width, and only pads to the right of a long word, so on a phone words can run
+    // into each other. Draw with the defaults first; where words collide, draw again with
+    // wider measures and then wider note spacing.
+    const rules = osmd.EngravingRules
+    this.spacing ??= { mult: rules.VoiceSpacingMultiplierVexflow, add: rules.VoiceSpacingAddendVexflow }
+    let used = steps[0]
+    for (const step of steps) {
+      used = step
+      rules.MaximumLyricsElongationFactor = step.elongation
+      rules.VoiceSpacingMultiplierVexflow = this.spacing.mult * step.spread
+      rules.VoiceSpacingAddendVexflow = this.spacing.add * step.spread
+      osmd.render()
+      if (evenMeasures(osmd)) osmd.render()
+      for (let pass = 0; pass < 3 && chordRoom(osmd, this.host); pass++) osmd.render()
+      // OSMD only pads to the right of a long word, so words can still touch; nudge them apart
+      // along their line, and only when nudging cannot separate them all (a cramped bar of
+      // wide words) draw the score wider
+      const unresolved = separateLyrics(this.host)
+      if (import.meta.env.DEV) {
+        const widths = (osmd.GraphicSheet as any).MeasureList.slice(0, 6).map((ms: any[]) => Math.round(ms.find(Boolean)?.minimumStaffEntriesWidth ?? 0))
+        console.debug(`[hymnal:spacing] elong ${step.elongation} spread ${step.spread}: ${unresolved} words still touching; widths ${JSON.stringify(widths)}`)
+      }
+      if (unresolved === 0) break
+    }
+    return used
+  }
+
   render(req: RenderRequest): Promise<RenderResult> {
     const run = async (): Promise<RenderResult> => {
       const full = `${ENGINE_VERSION}|${req.cacheKey}`
@@ -373,34 +459,60 @@ class Renderer {
       const osmd = await this.engine()
       this.host.style.width = `${Math.max(280, Math.round(req.width))}px`
       const doc = filterLyrics(req.xml, req.mode, req.chords ?? true)
-      await osmd.load(doc as unknown as string)
-      osmd.Sheet.Transpose = req.delta
-      // chord letters are spelled when the graphic sheet is built (at load, with no transposition),
-      // so rebuild it once the transposition is set; the notes themselves transpose at draw time
-      if (req.delta) osmd.updateGraphic()
-      osmd.zoom = req.zoom
-      // OSMD widens a measure for its words only up to MaximumLyricsElongationFactor times its
-      // normal width, and only pads to the right of a long word, so on a phone words can run
-      // into each other. Draw with the defaults first; where words collide, draw again with
-      // wider measures and then wider note spacing.
       const rules = osmd.EngravingRules
-      this.spacing ??= { mult: rules.VoiceSpacingMultiplierVexflow, add: rules.VoiceSpacingAddendVexflow }
-      for (const step of SPACING_STEPS) {
-        rules.MaximumLyricsElongationFactor = step.elongation
-        rules.VoiceSpacingMultiplierVexflow = this.spacing.mult * step.spread
-        rules.VoiceSpacingAddendVexflow = this.spacing.add * step.spread
-        osmd.render()
-        if (evenMeasures(osmd)) osmd.render()
-        for (let pass = 0; pass < 3 && chordRoom(osmd, this.host); pass++) osmd.render()
-        // OSMD only pads to the right of a long word, so words can still touch; nudge them apart
-        // along their line, and only when nudging cannot separate them all (a cramped bar of
-        // wide words) draw the score wider
-        const unresolved = separateLyrics(this.host)
-        if (import.meta.env.DEV) {
-          const widths = (osmd.GraphicSheet as any).MeasureList.slice(0, 6).map((ms: any[]) => Math.round(ms.find(Boolean)?.minimumStaffEntriesWidth ?? 0))
-          console.debug(`[hymnal:spacing] elong ${step.elongation} spread ${step.spread}: ${unresolved} words still touching; widths ${JSON.stringify(widths)}`)
+      rules.NewSystemAtXMLNewSystemAttribute = false
+      let layout: Map<number, number> | null = null
+      let bothStep: { elongation: number; spread: number } | null = null
+      let bothMin: Map<number, number> | null = null
+      if (req.mode !== 'both') {
+        // Korean-only and English-only keep the bars exactly where 한/영 puts them, so switching
+        // the words never reflows or restretches the music: lay out 한/영 first, then break the
+        // lines at the same bars
+        bothStep = await this.draw(osmd, filterLyrics(req.xml, 'both', req.chords ?? true), req)
+        const starts = new Set<number>()
+        const bothWidths = barWidths(osmd)
+        bothMin = minWidths(osmd)
+        for (const page of osmd.GraphicSheet.MusicPages) {
+          page.MusicSystems.forEach((sys, i) => {
+            const first = (sys.GraphicalMeasures as any[])[0]?.[0]
+            if (i > 0 && first) starts.add(first.parentSourceMeasure.measureListIndex)
+          })
         }
-        if (unresolved === 0) break
+        layout = bothWidths
+        for (const part of Array.from(doc.getElementsByTagName('part'))) {
+          Array.from(part.getElementsByTagName('measure')).forEach((m, i) => {
+            if (!starts.has(i)) return
+            const br = doc.createElement('print')
+            br.setAttribute('new-system', 'yes')
+            m.insertBefore(br, m.firstChild)
+          })
+        }
+        rules.NewSystemAtXMLNewSystemAttribute = true
+      }
+      let matched = false
+      if (layout && bothStep) {
+        // English words alone would make the engine widen bars that 한/영 fits by nudging words
+        // apart, so every bar takes its width from 한/영. First keep this mode's own note spacing
+        // and scale each bar to its 한/영 width; if words still touch, space the notes evenly
+        // inside the same bars; only if that fails too does this mode get its own layout.
+        for (const scaled of [true, false]) {
+          await this.draw(osmd, doc, req, [scaled ? bothStep : { elongation: 1, spread: bothStep.spread }])
+          if (scaled && bothMin) {
+            for (const ms of (osmd.GraphicSheet as any).MeasureList as any[][]) {
+              const m = ms.find(Boolean)
+              const want = m && bothMin.get(m.parentSourceMeasure.measureListIndex)
+              if (!m || !want || !(m.minimumStaffEntriesWidth > 0)) continue
+              m.parentSourceMeasure.WidthFactor = (m.parentSourceMeasure.WidthFactor ?? 1) * want / m.minimumStaffEntriesWidth
+            }
+            osmd.render()
+          }
+          for (let pass = 0; pass < 3 && matchWidths(osmd, layout); pass++) osmd.render()
+          if (separateLyrics(this.host) === 0) { matched = true; break }
+        }
+      }
+      if (!matched) {
+        rules.NewSystemAtXMLNewSystemAttribute = false
+        await this.draw(osmd, filterLyrics(req.xml, req.mode, req.chords ?? true), req)
       }
       const svg = this.host.innerHTML
       const ms = Math.round(performance.now() - t0)

@@ -40,7 +40,7 @@ export type SystemBox = { top: number; bottom: number; measures: number }
 /** systems are in the SVG's viewBox units; viewWidth is the viewBox width */
 export type RenderResult = { svg: string; ms: number; cached: boolean; systems: SystemBox[]; viewWidth: number }
 
-const ENGINE_VERSION = 'osmd-2.1.3-r29'
+const ENGINE_VERSION = 'osmd-2.1.3-r30'
 const memory = new Map<string, string>()
 const MEMORY_MAX = 30
 const IDB_MAX = 80
@@ -213,9 +213,8 @@ function matchWidths(osmd: OpenSheetMusicDisplay, ref: Map<number, number>): boo
     {
       const bars = (sys.GraphicalMeasures as any[]).map(stack => stack[0]).filter(Boolean)
       const ratio = bars.map(m => m.PositionAndShape.Size.width / (ref.get(m.parentSourceMeasure.measureListIndex) ?? m.PositionAndShape.Size.width))
-      // a full line is stretched to the page width, so only the proportions matter; the last line
-      // is drawn at its natural width, so its bars also get the reference's actual widths
-      const k = sys === systems[systems.length - 1] ? Math.max(1, ...ratio) : Math.max(...ratio)
+      // every line is stretched to the page width, so only the proportions matter
+      const k = Math.max(...ratio)
       bars.forEach((m, i) => {
         const f = k / ratio[i]
         if (!(f > 1.01)) return
@@ -226,6 +225,62 @@ function matchWidths(osmd: OpenSheetMusicDisplay, ref: Map<number, number>): boo
     }
   }
   return changed
+}
+
+/**
+ * Line breaks that share the bars evenly between the lines, as a printed hymnal sets them, keeping
+ * the number of lines. Returns the bar indices that start the second and later lines, or null when
+ * the current breaks are already even enough (the last line holds at least three quarters of an
+ * average line).
+ */
+function balancedBreaks(osmd: OpenSheetMusicDisplay): Set<number> | null {
+  const lines = osmd.GraphicSheet.MusicPages.flatMap(page => page.MusicSystems)
+    .map(sys => (sys.GraphicalMeasures as any[]).map(stack => stack[0]).filter(Boolean))
+  if (lines.length < 2) return null
+  const counts = lines.map(l => l.length)
+  const last = counts[counts.length - 1]
+  const avg = (counts.reduce((a, b) => a + b, 0) - last) / (counts.length - 1)
+  if (last >= avg * 0.75) return null
+  const bars = lines.flat()
+  const w = bars.map(m => m.minimumStaffEntriesWidth as number)
+  const sums = lines.map(l => l.reduce((a: number, m: any) => a + m.minimumStaffEntriesWidth, 0))
+  const cap = Math.max(...sums) * 1.001 // never fuller than the fullest line the engine chose
+  const n = bars.length, S = lines.length
+  const mean = w.reduce((a, b) => a + b, 0) / S
+  const pre = [0]; for (const x of w) pre.push(pre[pre.length - 1] + x)
+  // best[k][j]: least squared deviation from the mean for the first j bars in k lines
+  const best = Array.from({ length: S + 1 }, () => new Array(n + 1).fill(Infinity))
+  const cut = Array.from({ length: S + 1 }, () => new Array(n + 1).fill(-1))
+  best[0][0] = 0
+  for (let k = 1; k <= S; k++) {
+    for (let j = k; j <= n; j++) {
+      for (let i = k - 1; i < j; i++) {
+        const line = pre[j] - pre[i]
+        if (line > cap || best[k - 1][i] === Infinity) continue
+        const c = best[k - 1][i] + (line - mean) ** 2
+        if (c < best[k][j]) { best[k][j] = c; cut[k][j] = i }
+      }
+    }
+  }
+  if (best[S][n] === Infinity) return null
+  const starts = new Set<number>()
+  for (let k = S, j = n; k > 1; k--) { j = cut[k][j]; starts.add(bars[j].parentSourceMeasure.measureListIndex) }
+  const now = new Set(lines.slice(1).map(l => l[0].parentSourceMeasure.measureListIndex))
+  if ([...starts].every(i => now.has(i))) return null
+  return starts
+}
+
+/** Break the lines before these bars (and nowhere else the source file asked for). */
+function setBreaks(doc: Document, starts: Set<number>): void {
+  for (const pr of Array.from(doc.getElementsByTagName('print'))) pr.removeAttribute('new-system')
+  for (const part of Array.from(doc.getElementsByTagName('part'))) {
+    Array.from(part.getElementsByTagName('measure')).forEach((m, i) => {
+      if (!starts.has(i)) return
+      const br = doc.createElement('print')
+      br.setAttribute('new-system', 'yes')
+      m.insertBefore(br, m.firstChild)
+    })
+  }
 }
 
 const SPACING_STEPS = [
@@ -402,6 +457,10 @@ class Renderer {
     r.MeasureLeftMargin = 1.8
     r.MeasureRightMargin = 0.8
     r.MinSkyBottomDistBetweenSystems = 3
+    // like a printed hymnal, the last line runs the full width too (the bars are shared out evenly
+    // between the lines first, so it is never one bar stretched across the page)
+    r.StretchLastSystemLine = true
+    r.LastSystemMaxScalingFactor = 10
     if (this.font === PRINT_FONT) {
       // paper: smaller words and chord letters, as the printed hymnal sets them, so a
       // lyric-heavy hymn fits three or four measures to a line instead of two
@@ -450,6 +509,19 @@ class Renderer {
     return used
   }
 
+  /** Draw, then share the bars evenly between the lines if the last line came out short. */
+  private async drawBalanced(osmd: OpenSheetMusicDisplay, doc: Document, req: RenderRequest): Promise<{ elongation: number; spread: number }> {
+    osmd.EngravingRules.NewSystemAtXMLNewSystemAttribute = false
+    let step = await this.draw(osmd, doc, req)
+    const starts = balancedBreaks(osmd)
+    if (starts) {
+      setBreaks(doc, starts)
+      osmd.EngravingRules.NewSystemAtXMLNewSystemAttribute = true
+      step = await this.draw(osmd, doc, req)
+    }
+    return step
+  }
+
   render(req: RenderRequest): Promise<RenderResult> {
     const run = async (): Promise<RenderResult> => {
       const full = `${ENGINE_VERSION}|${req.cacheKey}`
@@ -468,7 +540,7 @@ class Renderer {
         // Korean-only and English-only keep the bars exactly where 한/영 puts them, so switching
         // the words never reflows or restretches the music: lay out 한/영 first, then break the
         // lines at the same bars
-        bothStep = await this.draw(osmd, filterLyrics(req.xml, 'both', req.chords ?? true), req)
+        bothStep = await this.drawBalanced(osmd, filterLyrics(req.xml, 'both', req.chords ?? true), req)
         const starts = new Set<number>()
         const bothWidths = barWidths(osmd)
         bothMin = minWidths(osmd)
@@ -479,14 +551,7 @@ class Renderer {
           })
         }
         layout = bothWidths
-        for (const part of Array.from(doc.getElementsByTagName('part'))) {
-          Array.from(part.getElementsByTagName('measure')).forEach((m, i) => {
-            if (!starts.has(i)) return
-            const br = doc.createElement('print')
-            br.setAttribute('new-system', 'yes')
-            m.insertBefore(br, m.firstChild)
-          })
-        }
+        setBreaks(doc, starts)
         rules.NewSystemAtXMLNewSystemAttribute = true
       }
       let matched = false
@@ -510,10 +575,7 @@ class Renderer {
           if (separateLyrics(this.host) === 0) { matched = true; break }
         }
       }
-      if (!matched) {
-        rules.NewSystemAtXMLNewSystemAttribute = false
-        await this.draw(osmd, filterLyrics(req.xml, req.mode, req.chords ?? true), req)
-      }
+      if (!matched) await this.drawBalanced(osmd, filterLyrics(req.xml, req.mode, req.chords ?? true), req)
       const svg = this.host.innerHTML
       const ms = Math.round(performance.now() - t0)
       const unit = 10 // OSMD draws 10 viewBox units per internal unit; zoom only changes the SVG's CSS size

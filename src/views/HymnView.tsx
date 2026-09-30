@@ -5,6 +5,7 @@ import { cachedSvg, screenRenderer } from '../score'
 import { getPrefs, pushRecent, setPrefs, subscribe } from '../store'
 import { go, hymnHash } from '../route'
 import { KeySheet } from './KeySheet'
+import { BandUnlock } from './BandUnlock'
 import { printHymns, printNow } from '../print'
 import { KeyName, IconBack, IconCheck, IconClose, IconListAdd, IconMoon, IconNext, IconPrint, IconSun, IconZoomIn, IconZoomOut } from '../icons'
 import { F, creditText, themeText, titles, useT, type Key as TKey } from '../i18n'
@@ -274,6 +275,7 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
         <div class="notice">
           <p><strong>{t('gated.title')}</strong></p>
           <p>{row.g === 1 ? t('gated.ko') : t('gated.other')}</p>
+          {row.b ? <BandUnlock /> : null}
         </div>
       ) : (
         <>

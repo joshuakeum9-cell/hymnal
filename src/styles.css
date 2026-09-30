@@ -260,6 +260,15 @@ button, input, select { font: inherit; color: inherit; }
 }
 .notice p { margin: 0 0 8px; }
 .notice p:last-child { margin-bottom: 0; }
+.band-form { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--line); }
+.band-row { display: flex; gap: 8px; }
+.band-input {
+  flex: 1; min-width: 0; font: inherit; font-size: 16px; padding: 10px 12px; border: 1px solid var(--line);
+  border-radius: var(--radius); background: var(--paper); color: inherit;
+}
+.band-wrong { color: var(--accent); margin-top: 8px; }
+.band-note { margin-top: 12px; }
+.band-note p { margin: 0 0 8px; }
 .row-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
 
 .lyric-text { margin: 16px; padding: 16px 18px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }

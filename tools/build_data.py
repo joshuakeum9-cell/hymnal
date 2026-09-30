@@ -12,6 +12,11 @@ the way the printed bilingual hymnal does it.
 
 Usage: python tools/build_data.py [--church-only]
   --church-only also publishes gated hymns (never deploy that build publicly)
+
+Band copy: when BAND_PASSWORD is set (a GitHub Actions secret; locally the environment or
+work/band-password.txt), gated hymns are also written as public/hymns/NNN.bin, encrypted with
+AES-GCM under a key derived from the password (PBKDF2-SHA256). The index gives them field b
+instead of f, and the app opens them only on a device where the band password was entered.
 """
 from __future__ import annotations
 
@@ -31,6 +36,36 @@ from chords import add_chords  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CHO = "ㄱㄲㄴㄷㄸㄹㅁㅂㅃㅅㅆㅇㅈㅉㅊㅋㅌㅍㅎ"
+
+
+class BandKey:
+    """Encrypts gated hymns for the band. Deterministic (IV from an HMAC of the file), so an
+    unchanged hymn keeps its file hash and cached copies stay valid across deploys."""
+
+    SALT = b"hymnal-band-v1"
+    ITER = 310_000
+
+    def __init__(self, password: str):
+        self.key = hashlib.pbkdf2_hmac("sha256", password.encode("utf-8"), self.SALT, self.ITER, 32)
+
+    @classmethod
+    def from_env(cls) -> "BandKey | None":
+        pw = os.environ.get("BAND_PASSWORD", "").strip()
+        path = os.path.join(ROOT, "work/band-password.txt")
+        if not pw and os.path.exists(path):
+            pw = open(path, encoding="utf-8").read().strip()
+        return cls(pw) if pw else None
+
+    def seal(self, body: bytes) -> bytes:
+        import hmac
+        from cryptography.hazmat.primitives.ciphers.aead import AESGCM
+        iv = hmac.new(self.key, body, hashlib.sha256).digest()[:12]
+        return iv + AESGCM(self.key).encrypt(iv, body, None)
+
+    def params(self) -> dict:
+        import base64
+        return {"salt": self.SALT.decode(), "iter": self.ITER,
+                "check": base64.b64encode(self.seal(b"hymnal band")).decode()}
 
 
 def choseong(s: str) -> str:
@@ -267,7 +302,10 @@ def main(argv):
     os.makedirs(out_dir)
     os.makedirs(gen_dir, exist_ok=True)
     index, hangul = [], set("찬송가새통일검색악보가사한영조옮기인쇄설정목록이전다음원래키장절후렴")
-    stats = {"published": 0, "gated": 0, "en_notes": 0, "en_text": 0}
+    stats = {"published": 0, "gated": 0, "band": 0, "en_notes": 0, "en_text": 0}
+    band = BandKey.from_env()
+    with open(os.path.join(gen_dir, "band.json"), "w", encoding="utf-8") as fh:
+        json.dump(band.params() if band else None, fh)
     for d in sorted(glob.glob(os.path.join(ROOT, "data/hymns/*"))):
         n = int(os.path.basename(d))
         meta = json.load(open(os.path.join(d, "meta.json"), encoding="utf-8"))
@@ -283,9 +321,10 @@ def main(argv):
         if not publish:
             row["f"] = None
             row["g"] = 1 if meta.get("korean_authored") else 2
-            index.append(row)
             stats["gated"] += 1
-            continue
+            if band is None:
+                index.append(row)
+                continue
         root = etree.parse(os.path.join(d, "score.musicxml"), etree.XMLParser(remove_blank_text=True)).getroot()
         slots = melody_slots(root)
         kv = max((v for s in slots for v in s.ko), default=0)
@@ -324,12 +363,20 @@ def main(argv):
         h = hashlib.sha256(body).hexdigest()[:8]
         # a stable file name with the content hash as a version tag: a deploy that changes a hymn
         # must not break an open copy of the old app, which would ask for the old file name
-        fname = f"{n:03d}.json"
-        with open(os.path.join(out_dir, fname), "wb") as fh:
-            fh.write(body)
-        row.update({"f": f"{fname}?v={h}", "fi": fifths, "m": 1 if mode == "minor" else 0, "v": kv, "en": en_mode})
+        if publish:
+            fname = f"{n:03d}.json"
+            with open(os.path.join(out_dir, fname), "wb") as fh:
+                fh.write(body)
+            row["f"] = f"{fname}?v={h}"
+            stats["published"] += 1
+        else:
+            fname = f"{n:03d}.bin"
+            with open(os.path.join(out_dir, fname), "wb") as fh:
+                fh.write(band.seal(body))
+            row["b"] = f"{fname}?v={h}"
+            stats["band"] += 1
+        row.update({"fi": fifths, "m": 1 if mode == "minor" else 0, "v": kv, "en": en_mode})
         index.append(row)
-        stats["published"] += 1
         stats["en_notes" if en_mode == 1 else "en_text"] += 1 if en_mode else 0
     sample = (next((r["f"] for r in index if r["n"] == 405 and r.get("f")), None) or next(r["f"] for r in index if r.get("f"))).split("?")[0]
     with open(os.path.join(out_dir, "sample.txt"), "w", encoding="utf-8") as fh:

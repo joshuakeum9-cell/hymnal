@@ -7,7 +7,8 @@ export type Row = {
   e: string          // English title
   c: string          // Korean initial consonants of the title, for ㅈㅇㅊㅈ search
   t: string          // section / theme
-  f: string | null   // hymn file, null when gated
+  f: string | null   // hymn file, null when gated (set to b once the band password is entered)
+  b?: string         // band copy of a gated hymn, encrypted
   g?: 1 | 2          // gated: 1 Korean-authored, 2 other copyright question
   fi?: number        // key signature fifths
   m?: 0 | 1          // minor
@@ -24,8 +25,9 @@ let byNumber: Map<number, Row> | null = null
 let byOld: Map<number, Row> | null = null
 
 export function loadIndex(): Promise<Row[]> {
-  indexPromise ??= import('./generated/index.json').then(m => {
+  indexPromise ??= restoreBand().then(() => import('./generated/index.json')).then(m => {
     const rows = m.default as Row[]
+    if (bandKey) for (const r of rows) if (r.b) r.f = r.b
     byNumber = new Map(rows.map(r => [r.n, r]))
     byOld = new Map(rows.filter(r => r.o).map(r => [r.o as number, r]))
     return rows
@@ -39,6 +41,54 @@ export function rowFor(n: number): Row | undefined {
 
 export function rowForOld(o: number): Row | undefined {
   return byOld?.get(o)
+}
+
+// Band copy: gated hymns ship encrypted; the band password unlocks them on this device.
+type BandParams = { salt: string; iter: number; check: string }
+const BAND_STORE = 'hymnal.band.v1'
+let bandParams: BandParams | null = null
+let bandKey: CryptoKey | null = null
+
+export const bandAvailable = (): boolean => !!bandParams
+export const bandUnlocked = (): boolean => !!bandKey
+
+async function restoreBand(): Promise<void> {
+  bandParams = (await import('./generated/band.json')).default as BandParams | null
+  let saved: string | null = null
+  try { saved = localStorage.getItem(BAND_STORE) } catch { /* storage blocked */ }
+  if (!bandParams || !saved || !crypto?.subtle) return
+  try {
+    const key = await crypto.subtle.importKey('raw', Uint8Array.from(atob(saved), c => c.charCodeAt(0)), 'AES-GCM', false, ['decrypt'])
+    if (await checkKey(key)) bandKey = key
+  } catch { /* stale key from an older password */ }
+}
+
+async function checkKey(key: CryptoKey): Promise<boolean> {
+  const box = Uint8Array.from(atob(bandParams!.check), c => c.charCodeAt(0))
+  try {
+    await crypto.subtle.decrypt({ name: 'AES-GCM', iv: box.slice(0, 12) }, key, box.slice(12))
+    return true
+  } catch {
+    return false
+  }
+}
+
+/** Returns false for a wrong password. On success the key is kept on this device. */
+export async function unlockBand(password: string): Promise<boolean> {
+  if (!bandParams || !crypto?.subtle) return false
+  const enc = new TextEncoder()
+  const base = await crypto.subtle.importKey('raw', enc.encode(password.trim()), 'PBKDF2', false, ['deriveBits'])
+  const bits = await crypto.subtle.deriveBits(
+    { name: 'PBKDF2', hash: 'SHA-256', salt: enc.encode(bandParams.salt), iterations: bandParams.iter }, base, 256)
+  const key = await crypto.subtle.importKey('raw', bits, 'AES-GCM', false, ['decrypt'])
+  if (!(await checkKey(key))) return false
+  try { localStorage.setItem(BAND_STORE, btoa(String.fromCharCode(...new Uint8Array(bits)))) } catch { /* kept for this visit only */ }
+  bandKey = key
+  return true
+}
+
+export function lockBand(): void {
+  try { localStorage.removeItem(BAND_STORE) } catch { /* nothing kept */ }
 }
 
 const hymnCache = new Map<string, Promise<Hymn>>()
@@ -57,9 +107,12 @@ export function loadHymn(row: Row): Promise<Hymn> {
     hymnCache.set(url, p) // most recently used last
     return p
   }
-  p = fetch(url).then(r => {
+  p = fetch(url).then(async r => {
     if (!r.ok) throw new Error(`Could not load hymn ${row.n} (${r.status})`)
-    return r.json() as Promise<Hymn>
+    if (row.f !== row.b) return r.json() as Promise<Hymn>
+    const box = new Uint8Array(await r.arrayBuffer())
+    const body = await crypto.subtle.decrypt({ name: 'AES-GCM', iv: box.slice(0, 12) }, bandKey!, box.slice(12))
+    return JSON.parse(new TextDecoder().decode(body)) as Hymn
   })
   p.catch(() => hymnCache.delete(url))
   hymnCache.set(url, p)

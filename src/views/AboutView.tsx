@@ -77,6 +77,7 @@ export function AboutView() {
             <li><strong>키 바꾸기.</strong> 키를 누르고 12개 조 가운데 고릅니다. 알맞게는 멜로디를 부르기 편한 음역에 두고, 낮게와 높게로 옥타브를 정할 수 있습니다.</li>
             <li><strong>가사 고르기.</strong> 한/영은 한글 절을 모두 보인 다음 영어 절을 보입니다. 한영 찬송가 책과 같은 배치입니다. 한은 한글만, 영은 영어만 보입니다.</li>
             <li><strong>코드.</strong> 악보 위의 코드는 사성부 화음에서 읽어 낸 것이며, 키를 바꾸면 함께 바뀝니다. 코드 단추로 숨길 수 있습니다.</li>
+            <li><strong>콘티.</strong> 새찬송가 번호나 통일 번호로 찬송을 더하고, 왼쪽 손잡이를 끌거나 화살표를 눌러 순서를 바꿉니다. 곡마다 키와 가사를 정해 둘 수 있고, 콘티 공유로 링크를 보내면 받은 사람도 같은 콘티를 씁니다.</li>
             <li><strong>인쇄.</strong> 찬송 화면의 인쇄는 고른 키로 그 찬송을 인쇄합니다. 콘티에서는 한 주 찬송을 순서대로 한 번에 인쇄합니다.</li>
             <li><strong>아이패드와 휴대폰.</strong> 사파리에서 공유를 누르고 홈 화면에 추가를 고르세요. 그러면 전체 화면으로 열리고, 본 악보는 오프라인에서도 열립니다. 아이폰과 아이패드에서는 홈 화면 앱이 저장 공간을 따로 쓰므로, 오프라인 저장은 그 앱 안에서 하세요.</li>
           </ul>
@@ -107,6 +108,7 @@ export function AboutView() {
             <li><strong>Change the key.</strong> Tap Key and pick any of the 12 keys. Best fit keeps the melody in a comfortable range; Lower and Higher let you choose the octave.</li>
             <li><strong>Choose the words.</strong> KO/EN shows all the Korean verses, then all the English verses, like the printed Korean-English hymnal. KO is Korean only, EN is English only.</li>
             <li><strong>Chords.</strong> The letters above the music are read from the four-part harmony and change with the key. The Chords button hides them.</li>
+            <li><strong>Set list.</strong> Add hymns by new or old number, then drag the handle on the left or use the arrows to change the order. Each hymn keeps its own key and words, and Share list sends a link so others get the same list.</li>
             <li><strong>Print for the band.</strong> Print on a hymn prints that hymn in the key you chose. The set list prints the whole week in order.</li>
             <li><strong>On an iPad or phone.</strong> In Safari tap Share, then Add to Home Screen. The app then opens full screen and keeps the music you have viewed for offline use. On an iPhone or iPad the Home Screen app keeps its own storage, so save hymns for offline use from inside that app.</li>
           </ul>

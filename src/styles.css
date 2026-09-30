@@ -322,7 +322,10 @@ button, input, select { font: inherit; color: inherit; }
 .toast .btn { min-height: var(--tap); }
 
 /* ---------- set list ---------- */
+.set-add-modes { justify-content: flex-start; margin-bottom: 10px; }
 .set-add { display: flex; gap: 8px; }
+.set-page .inline-note { margin: 10px 2px 0; }
+.add-preview { color: var(--ink); }
 .set-add-input {
   flex: 1; min-width: 0; height: 52px; padding: 0 16px; border-radius: 12px; border: 2px solid var(--line);
   background: var(--surface); font-size: 20px; font-variant-numeric: tabular-nums;
@@ -332,10 +335,19 @@ button, input, select { font: inherit; color: inherit; }
 .set-items { list-style: none; margin: 16px 0 0; padding: 0; border-top: 1px solid var(--line); }
 .set-item { border-bottom: 1px solid var(--line); padding: 8px 0 12px; }
 .set-item-top { display: flex; align-items: center; gap: 4px; }
-.set-pos { flex: 0 0 22px; font-size: 13px; color: var(--muted); text-align: center; font-variant-numeric: tabular-nums; }
+.set-item { position: relative; background: var(--paper); }
+.set-item.dragging { z-index: 2; border-radius: 12px; box-shadow: 0 0 0 10px var(--paper), 0 10px 28px 10px rgba(0, 0, 0, 0.14); border-bottom-color: transparent; }
+.set-items.is-dragging { user-select: none; -webkit-user-select: none; }
+.set-grip {
+  flex: 0 0 32px; height: var(--tap); display: inline-flex; align-items: center; justify-content: center;
+  color: var(--muted); cursor: grab; touch-action: none; border-radius: 8px; -webkit-user-select: none; user-select: none;
+}
+.set-grip:hover { background: var(--chip); }
+.set-item.dragging .set-grip { cursor: grabbing; color: var(--ink); }
+.set-pos { flex: 0 0 18px; font-size: 13px; color: var(--muted); text-align: center; font-variant-numeric: tabular-nums; }
 .set-item-main { flex: 1; min-width: 0; display: flex; align-items: center; gap: 12px; min-height: 52px; color: inherit; text-decoration: none; }
 .set-item-main .result-num { flex-basis: 2.4em; }
-.set-item-controls { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto; align-items: end; gap: 8px; padding-left: 26px; }
+.set-item-controls { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto; align-items: end; gap: 8px; padding-left: 36px; }
 .select-wrap { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
 .select-wrap select { width: 100%; }
 .select-label { font-size: 12px; color: var(--muted); padding-left: 2px; }

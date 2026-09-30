@@ -1,10 +1,10 @@
-import { useEffect, useState } from 'preact/hooks'
-import { loadHymn, loadIndex, rowFor, type Row } from '../data'
+import { useEffect, useRef, useState } from 'preact/hooks'
+import { loadHymn, loadIndex, rowFor, rowForOld, type Row } from '../data'
 import { MAJOR_KEYS, MINOR_KEYS, chipFor, isKeyName, keyLabel, melodyTop, originalTonic, pitchClass, semitoneDelta, type LyricMode } from '../music'
 import { decodeSet, encodeSet, getPrefs, setPrefs, subscribe, type SetItem } from '../store'
 import { go, hymnHash } from '../route'
 import { printHymns, printNow, type PrintItem } from '../print'
-import { IconBack, IconDown, IconPrint, IconShare, IconTrash, IconUp, KeyName } from '../icons'
+import { IconBack, IconDown, IconGrip, IconPrint, IconShare, IconTrash, IconUp, KeyName } from '../icons'
 import { F, titles, useT } from '../i18n'
 
 function usePrefs() {
@@ -48,12 +48,62 @@ export function SetListView({ params }: { params: URLSearchParams }) {
     next.splice(i + d, 0, x)
     save(next)
   }
+  // Drag to reorder: press the grip and slide. The dragged item follows the finger and trades
+  // places with a neighbour once it passes the neighbour's middle; the arrows still work too.
+  const [drag, setDrag] = useState<{ n: number; dy: number } | null>(null)
+  const dragState = useRef<{ n: number; startY: number } | null>(null)
+  const listNow = useRef(list)
+  listNow.current = list
+  const itemEl = (n: number) => document.querySelector(`.set-item[data-n="${n}"]`) as HTMLElement | null
+  const onGripDown = (e: PointerEvent, n: number) => {
+    if (e.pointerType === 'mouse' && e.button !== 0) return
+    e.preventDefault()
+    ;(e.currentTarget as Element).setPointerCapture?.(e.pointerId)
+    dragState.current = { n, startY: e.clientY }
+    setDrag({ n, dy: 0 })
+  }
+  const onGripMove = (e: PointerEvent) => {
+    const d = dragState.current
+    if (!d) return
+    // near the top or bottom of the screen, scroll so a long list can be reordered end to end
+    const edge = 72
+    const step = e.clientY > window.innerHeight - edge ? 10 : e.clientY < edge ? -10 : 0
+    if (step) { const before = window.scrollY; window.scrollBy(0, step); d.startY -= window.scrollY - before }
+    let dy = e.clientY - d.startY
+    const cur = listNow.current
+    const i = cur.findIndex(it => it.n === d.n)
+    const swap = (j: number) => {
+      const other = itemEl(cur[j].n)
+      const h = other ? other.getBoundingClientRect().height : 0
+      if (!h || Math.abs(dy) < h / 2) return false
+      const next = [...cur]
+      const [x] = next.splice(i, 1)
+      next.splice(j, 0, x)
+      listNow.current = next
+      save(next)
+      const shift = j > i ? h : -h
+      d.startY += shift
+      dy -= shift
+      return true
+    }
+    if (dy > 0 && i < cur.length - 1) swap(i + 1)
+    else if (dy < 0 && i > 0) swap(i - 1)
+    setDrag({ n: d.n, dy })
+  }
+  const onGripUp = () => { dragState.current = null; setDrag(null) }
+
   const update = (i: number, patch: Partial<SetItem>) => save(list.map((it, j) => (j === i ? { ...it, ...patch } : it)))
+
+  // the number typed in the add box, read as a 새찬송가 or a 통일찬송가 number (shared with the home search)
+  const oldMode = prefs.oldNumbers
+  const typed = add.trim()
+  const addRow: Row | undefined = ready && /^\d+$/.test(typed) ? (oldMode ? rowForOld(Number(typed)) : rowFor(Number(typed))) : undefined
 
   const addNumber = (e: Event) => {
     e.preventDefault()
-    const n = Number(add)
-    if (!rowFor(n)) { setMsg(F.noHymnShort(lang, add)); return }
+    if (!/^\d+$/.test(typed)) { setMsg(F.noHymnShort(lang, add)); return }
+    if (!addRow) { setMsg(oldMode ? F.oldMissing(lang, Number(typed)) : F.noHymnShort(lang, typed)); return }
+    const n = addRow.n
     if (list.some(i => i.n === n)) { setMsg(F.already(lang, n)); return }
     save([...list, { n }])
     setAdd('')
@@ -127,17 +177,23 @@ export function SetListView({ params }: { params: URLSearchParams }) {
         </a>
       ) : null}
 
+      <div class="search-modes set-add-modes" role="group" aria-label={t('add.by')}>
+        <button type="button" class={!oldMode ? 'on' : ''} aria-pressed={!oldMode} onClick={() => { setPrefs({ oldNumbers: false }); setMsg('') }}>{t('search.mode.new')}</button>
+        <button type="button" class={oldMode ? 'on' : ''} aria-pressed={oldMode} onClick={() => { setPrefs({ oldNumbers: true }); setMsg('') }}>{t('search.mode.old')}</button>
+      </div>
       <form class="set-add" onSubmit={addNumber}>
-        <input class="set-add-input" type="text" inputMode="numeric" pattern="[0-9]*" enterKeyHint="done" placeholder={t('add.placeholder')} value={add}
-          onInput={e => setAdd((e.target as HTMLInputElement).value)} aria-label={t('add.placeholder')} />
-        <button class="btn primary" type="submit" disabled={!add.trim()}>{t('add')}</button>
+        <input class="set-add-input" type="text" inputMode="numeric" pattern="[0-9]*" enterKeyHint="done" placeholder={oldMode ? t('add.placeholder.old') : t('add.placeholder')} value={add}
+          onInput={e => { setAdd((e.target as HTMLInputElement).value); setMsg('') }} aria-label={oldMode ? t('add.placeholder.old') : t('add.placeholder')} />
+        <button class="btn primary" type="submit" disabled={!typed}>{t('add')}</button>
       </form>
-      {msg ? <p class="inline-note" role="status">{msg}</p> : null}
+      {msg ? <p class="inline-note" role="status">{msg}</p>
+        : addRow ? <p class="inline-note add-preview" aria-live="polite">{F.addPreview(lang, addRow.n, titles(addRow, lang)[0], oldMode ? Number(typed) : undefined)}</p>
+        : null}
 
       {!list.length ? (
         <p class="empty">{t('empty.set')}</p>
       ) : (
-        <ol class="set-items">
+        <ol class={`set-items${drag ? ' is-dragging' : ''}`}>
           {list.map((it, i) => {
             const row: Row | undefined = ready ? rowFor(it.n) : undefined
             const minor = row?.m === 1
@@ -146,8 +202,13 @@ export function SetListView({ params }: { params: URLSearchParams }) {
             const current = it.key ?? orig
             const [primary, secondary] = row ? titles(row, lang) : ['', undefined]
             return (
-              <li key={it.n} class="set-item">
+              <li key={it.n} data-n={it.n} class={`set-item${drag?.n === it.n ? ' dragging' : ''}`}
+                style={drag?.n === it.n ? { transform: `translateY(${drag.dy}px)` } : undefined}>
                 <div class="set-item-top">
+                  <span class="set-grip" role="button" aria-label={`${t('drag')}, ${it.n}`} title={t('drag')}
+                    onPointerDown={e => onGripDown(e as unknown as PointerEvent, it.n)}
+                    onPointerMove={e => onGripMove(e as unknown as PointerEvent)}
+                    onPointerUp={onGripUp} onPointerCancel={onGripUp}><IconGrip size={20} /></span>
                   <span class="set-pos" aria-hidden="true">{i + 1}</span>
                   <a class="set-item-main" href={hymnHash(it.n, { key: it.key, lyrics: it.mode && it.mode !== 'both' ? it.mode : undefined, s: '1' })}>
                     <span class="result-num">{it.n}</span>

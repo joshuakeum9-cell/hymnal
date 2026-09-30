@@ -105,6 +105,9 @@ const STR = {
   'use.list': { ko: '이 콘티 쓰기', en: 'Use this list' },
   'keep.mine': { ko: '내 콘티 유지', en: 'Keep mine' },
   'add.placeholder': { ko: '추가할 장 번호', en: 'Add hymn number' },
+  'add.placeholder.old': { ko: '추가할 통일 번호', en: 'Add old hymnal number' },
+  'add.by': { ko: '번호 종류', en: 'Number type' },
+  'drag': { ko: '끌어서 순서 바꾸기', en: 'Drag to reorder' },
   'add': { ko: '추가', en: 'Add' },
   'link.copied': { ko: '링크를 복사했습니다. 단톡방에 붙여 넣으세요.', en: 'Link copied. Paste it in your group chat.' },
   'none.music': { ko: '이 찬송들은 아직 악보가 없습니다.', en: 'None of these hymns have music on the site yet.' },
@@ -150,6 +153,8 @@ export const F = {
   oldTag: (l: Lang, o: number) => (l === 'ko' ? `통 ${o}` : `old ${o}`),
   noHymn: (l: Lang, n: number | string) => (l === 'ko' ? `${n}장은 없습니다. 새찬송가는 645장까지입니다.` : `There is no hymn ${n}. The hymnal has 645 hymns.`),
   noHymnShort: (l: Lang, n: string) => (l === 'ko' ? `${n}장은 없습니다.` : `There is no hymn ${n}.`),
+  addPreview: (l: Lang, n: number, title: string, old?: number) =>
+    old ? (l === 'ko' ? `통일 ${old}장 → ${n}장 ${title}` : `Old ${old} → ${n} ${title}`) : `${n}${l === 'ko' ? '장' : ''} ${title}`,
   already: (l: Lang, n: number) => (l === 'ko' ? `${n}장은 이미 콘티에 있습니다.` : `${n} is already in the list.`),
   pagerSet: (l: Lang, i: number, n: number) => (l === 'ko' ? `콘티 ${i}/${n}` : `Set list ${i} of ${n}`),
   footOld: (l: Lang, o: number) => (l === 'ko' ? `통일찬송가 ${o}장.` : `Old hymnal ${o}.`),
@@ -163,7 +168,7 @@ export const F = {
   lyricsFor: (l: Lang, n: number) => (l === 'ko' ? `${n}장 가사` : `Lyrics for ${n}`),
   moveUp: (l: Lang, n: number) => (l === 'ko' ? `${n}장 위로` : `Move ${n} up`),
   moveDown: (l: Lang, n: number) => (l === 'ko' ? `${n}장 아래로` : `Move ${n} down`),
-  oldMissing: (l: Lang, o: number) => (l === 'ko' ? `통일찬송가 ${o}장에 해당하는 찬송이 없습니다.` : `No hymn has 통일찬송가 number ${o}.`),
+  oldMissing: (l: Lang, o: number) => (l === 'ko' ? `통일찬송가 ${o}장에 해당하는 찬송이 없습니다.` : `No hymn has old hymnal number ${o}.`),
   saveAll: (l: Lang, n: number | string) => (l === 'ko' ? `찬송 ${n}곡 모두 저장` : `Save all ${n} hymns`),
   saving: (l: Lang, done: number, total: number) => (l === 'ko' ? `${done}/${total} 저장 중…` : `Saving ${done} of ${total}…`),
   savedSome: (l: Lang, ok: number, failed: number) =>

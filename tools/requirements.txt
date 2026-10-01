@@ -1,6 +1,5 @@
 lxml==6.1.1
 fonttools==4.66.0
-cryptography==46.0.1
 brotli>=1.1
 # only needed to re-run align_english.py
 pronouncing>=0.2.0

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'preact/hooks'
-import { bandUnlocked, hymnUrl, loadIndex, lockBand, type Row } from '../data'
+import { hymnUrl, loadIndex, type Row } from '../data'
 import { go } from '../route'
 import { IconBack } from '../icons'
 import { F, useT } from '../i18n'
@@ -13,8 +13,7 @@ export function AboutView() {
   const { t, lang } = useT()
 
   useEffect(() => { loadIndex().then(setRows) }, [])
-  const published = rows.filter(r => r.f) // includes band hymns once unlocked, for saving offline
-  const publicCount = rows.filter(r => r.f && !r.b).length
+  const published = rows.filter(r => r.f)
   const gatedKo = rows.filter(r => r.g === 1).length
   const gatedOther = rows.filter(r => r.g === 2).length
 
@@ -58,12 +57,6 @@ export function AboutView() {
       {progress == null ? F.saveAll(lang, published.length || '') : progress.done < progress.total ? F.saving(lang, progress.done, progress.total) : t('offline.done')}
     </button>
   )
-  const bandNote = bandUnlocked() ? (
-    <div class="band-note">
-      <p class="muted small">{t('band.on')}</p>
-      <button class="btn" onClick={() => { lockBand(); location.reload() }}>{t('band.lock')}</button>
-    </div>
-  ) : null
   const ccm = <a href="https://ccm4u.tistory.com/" target="_blank" rel="noopener">ccm4u.tistory.com</a>
   const cc = <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>
   const issues = <a href={`${REPO}/issues`} target="_blank" rel="noopener">github.com/joshuakeum9-cell/hymnal</a>
@@ -93,13 +86,12 @@ export function AboutView() {
           <p>모든 찬송을 이 기기에 저장해 두면 와이파이가 없는 예배당에서도 씁니다. 내려받는 양은 약 2 MB, 차지하는 공간은 약 40 MB입니다.</p>
           {saveButton}
           {note ? <p class="muted small">{note}</p> : null}
-          {bandNote}
 
           <h2>어느 찬송가인가</h2>
           <p>번호는 새찬송가(21세기 찬송가, 한국찬송가공회, 2006) 645장을 따릅니다. 한영 찬송가와 성경 찬송가 합본이 쓰는 번호입니다. 모든 찬송에 통일찬송가(1983) 번호도 함께 있어서, 찬양하라 복되신 구세주 예수는 여기서 31장, 옛 책에서는 46장입니다.</p>
 
           <h2>실린 것</h2>
-          <p>{publicCount}곡에 악보가 있습니다. 한국인이 지은 {gatedKo}곡과 비교적 최근 찬송 {gatedOther}곡은 가사나 곡의 저작권이 남아 있을 수 있어 목록에만 있고 악보는 아직 없습니다. 저작권자의 허락을 받으면 추가합니다.</p>
+          <p>{published.length}곡에 악보가 있습니다. 한국인이 지은 {gatedKo}곡과 비교적 최근 찬송 {gatedOther}곡은 가사나 곡의 저작권이 남아 있을 수 있어 목록에만 있고 악보는 아직 없습니다. 저작권자의 허락을 받으면 추가합니다.</p>
           <p>음표와 한글 가사는 깔끔이 CCM({ccm})의 뮤즈스코어 사보를 {cc} 조건으로 가져와 MusicXML로 바꾸고 알려진 오타 몇 곳을 고친 것입니다. 영어 가사는 저작권이 만료된 원문으로, 한영 찬송가에 실린 표기를 따르며, 음표에 맞추는 일은 프로그램이 한 뒤 손으로 고쳐 가고 있어 가끔 음절이 다른 음표에 놓일 수 있습니다. 제목과 통일 번호는 hymnEngKorean, 조는 praisenworship.biblia66.com, 작사 작곡 정보는 bibletoppt.com에서 가져왔습니다.</p>
 
           <h2>저작권과 삭제 요청</h2>
@@ -125,13 +117,16 @@ export function AboutView() {
           <p>Save every available hymn on this device so the site works in the sanctuary without Wi-Fi. It downloads about 2 MB and takes about 40 MB of space.</p>
           {saveButton}
           {note ? <p class="muted small">{note}</p> : null}
-          {bandNote}
 
           <h2>Which hymnal</h2>
           <p>Numbers follow the 새찬송가 (21세기 찬송가, 한국찬송가공회, 2006), 645 hymns, the numbering used in the Korean-English bilingual hymnals and Bibles. Every hymn also carries its 통일찬송가 (1983) number, so Praise Him, Praise Him is 31 here and 46 in the old book.</p>
 
           <h2>What is on the site</h2>
-          <p>{publicCount} hymns have music. {gatedKo} hymns by Korean authors and {gatedOther} more recent hymns are listed but have no music yet, because their words or music may still be under copyright. They will be added if the rights holders give permission.</p>
+          {gatedKo + gatedOther ? (
+            <p>{published.length} hymns have music. {gatedKo} hymns by Korean authors and {gatedOther} more recent hymns are listed but have no music yet, because their words or music may still be under copyright. They will be added if the rights holders give permission.</p>
+          ) : (
+            <p>All {published.length} hymns have music.</p>
+          )}
           <p>The notes and Korean words come from the MuseScore transcriptions by 깔끔이 CCM ({ccm}), shared under {cc}. We converted them to MusicXML and fixed a few known typos. The English words are the original public-domain texts as the Korean-English hymnal prints them, lined up with the notes by a script and checked by hand over time, so a syllable may occasionally sit on the wrong note. Titles and old numbers come from the hymnEngKorean project, keys from praisenworship.biblia66.com, credits from bibletoppt.com.</p>
 
           <h2>Copyright and takedown</h2>

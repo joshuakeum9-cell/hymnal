@@ -2335,15 +2335,8 @@
      <text xml:lang="ko">라</text>
     </lyric>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>48</duration>
-    <voice>1</voice>
-    <type>eighth</type>
-    <staff>1</staff>
-   </note>
    <backup>
-    <duration>432</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -2411,10 +2404,10 @@
      <step>G</step>
      <octave>4</octave>
     </pitch>
-    <duration>96</duration>
+    <duration>48</duration>
     <tie type="stop"/>
     <voice>5</voice>
-    <type>quarter</type>
+    <type>eighth</type>
     <stem>up</stem>
     <staff>2</staff>
     <notations>
@@ -2422,7 +2415,7 @@
     </notations>
    </note>
    <backup>
-    <duration>432</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -2528,10 +2521,10 @@
     <staff>2</staff>
    </note>
    <forward>
-    <duration>96</duration>
+    <duration>48</duration>
    </forward>
    <backup>
-    <duration>432</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -2564,13 +2557,6 @@
     <voice>9</voice>
     <type>half</type>
     <stem>down</stem>
-    <staff>3</staff>
-   </note>
-   <note print-object="no">
-    <rest/>
-    <duration>48</duration>
-    <voice>9</voice>
-    <type>eighth</type>
     <staff>3</staff>
    </note>
    <barline location="right">

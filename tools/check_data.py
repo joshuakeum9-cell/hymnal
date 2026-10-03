@@ -3,6 +3,7 @@
   1. every hymn folder has a readable score.musicxml and meta.json
   2. score structure: one part, 2 or 3 staves, key and time in measure 1, no <transpose>,
      every lyric <text> carries xml:lang, every measure's voices add up to the measure length
+     and none runs past the time signature
   3. edition lock: data/acceptance.csv rows match meta.json (number, old number, Korean title)
   4. rights gate: a published hymn has public-domain tune and English text layers and a
      Korean text that is not an original Korean work
@@ -51,7 +52,11 @@ def check_score(n: int, root) -> None:
             fail(n, "a lyric has no xml:lang")
             break
     divisions = int(root.findtext(".//divisions") or 1)
+    bar = None
     for m in parts[0].findall("measure"):
+        t = m.find("attributes/time")
+        if t is not None and t.findtext("beats"):
+            bar = int(t.findtext("beats")) * divisions * 4 // int(t.findtext("beat-type"))
         pos = 0
         ends = set()
         for el in m:
@@ -65,6 +70,11 @@ def check_score(n: int, root) -> None:
         ends.add(pos)
         if pos < 0 or (len(ends) > 1 and max(ends) - min(ends) > divisions * 8):
             fail(n, f"measure {m.get('number')} voices do not line up")
+            break
+        if bar and max(ends) > bar:
+            # a MuseScore bar stretched past its time signature with notes typed after a voice
+            # (see OVERFLOW_REPAIRS in convert_mscz.py)
+            fail(n, f"measure {m.get('number')} runs {max(ends) - bar} divisions past its time signature")
             break
 
 

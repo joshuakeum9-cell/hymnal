@@ -652,16 +652,8 @@
      <text xml:lang="ko">게</text>
     </lyric>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>576</duration>
-    <voice>1</voice>
-    <type>whole</type>
-    <dot/>
-    <staff>1</staff>
-   </note>
    <backup>
-    <duration>1152</duration>
+    <duration>576</duration>
    </backup>
    <note>
     <pitch>
@@ -708,16 +700,8 @@
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>576</duration>
-    <voice>2</voice>
-    <type>whole</type>
-    <dot/>
-    <staff>1</staff>
-   </note>
    <backup>
-    <duration>1152</duration>
+    <duration>576</duration>
    </backup>
    <note>
     <pitch>
@@ -763,42 +747,8 @@
     <stem>up</stem>
     <staff>2</staff>
    </note>
-   <note>
-    <pitch>
-     <step>D</step>
-     <octave>4</octave>
-    </pitch>
-    <duration>192</duration>
-    <voice>5</voice>
-    <type>half</type>
-    <stem>up</stem>
-    <staff>2</staff>
-   </note>
-   <note>
-    <pitch>
-     <step>D</step>
-     <octave>4</octave>
-    </pitch>
-    <duration>96</duration>
-    <voice>5</voice>
-    <type>quarter</type>
-    <stem>up</stem>
-    <staff>2</staff>
-   </note>
-   <note>
-    <pitch>
-     <step>D</step>
-     <octave>4</octave>
-    </pitch>
-    <duration>288</duration>
-    <voice>5</voice>
-    <type>half</type>
-    <dot/>
-    <stem>up</stem>
-    <staff>2</staff>
-   </note>
    <backup>
-    <duration>1152</duration>
+    <duration>576</duration>
    </backup>
    <note>
     <pitch>
@@ -841,40 +791,6 @@
     <duration>96</duration>
     <voice>6</voice>
     <type>quarter</type>
-    <stem>down</stem>
-    <staff>2</staff>
-   </note>
-   <note>
-    <pitch>
-     <step>B</step>
-     <octave>3</octave>
-    </pitch>
-    <duration>192</duration>
-    <voice>6</voice>
-    <type>half</type>
-    <stem>down</stem>
-    <staff>2</staff>
-   </note>
-   <note>
-    <pitch>
-     <step>G</step>
-     <octave>3</octave>
-    </pitch>
-    <duration>96</duration>
-    <voice>6</voice>
-    <type>quarter</type>
-    <stem>down</stem>
-    <staff>2</staff>
-   </note>
-   <note>
-    <pitch>
-     <step>D</step>
-     <octave>3</octave>
-    </pitch>
-    <duration>288</duration>
-    <voice>6</voice>
-    <type>half</type>
-    <dot/>
     <stem>down</stem>
     <staff>2</staff>
    </note>

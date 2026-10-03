@@ -47,6 +47,30 @@ STAFF_PITCH_FIXES = {
     (54, 1): {6: -1, 11: -1},
 }
 TPC_OF_PC_FLAT_SIDE = {5: 13, 10: 12}  # F, B-flat
+# Bars the transcriber made longer than the time signature (MuseScore's len attribute), padding the
+# other voices with hidden rests. What the notes past the bar line are was read from the notes:
+#   drop     leftovers (371: a copy of the next bar's alto; 69, 252: a stray repeat; 190, 497 bar 4:
+#            a bar the melody does not have): removed
+#   overlay  a part typed after the voice instead of beside it (127: the G drone; 244: the walking
+#            bass; 107: the low bass under the echo; 362, 497: the bass echo at the end placed after
+#            hidden rests): moved to end at the bar line, beside the voice
+#   close    hidden rests and stray notes in the middle of the bar removed, the rest closed up (622)
+#   split    every voice holds two bars' worth (282): two bars
+#   phrase   unmetered chant (133): each bar ends where the melody does, the alto and bass tails
+#            past it removed
+OVERFLOW_REPAIRS = {
+    69: "drop", 107: "overlay", 127: "overlay", 133: "phrase", 190: "drop", 244: "overlay",
+    252: "drop", 282: "split", 362: "overlay", 371: "drop", 466: "drop", 497: {4: "drop", None: "overlay"},
+    622: "close",
+}
+# (hymn, measure index, staff index, voice index) -> MIDI pitches removed first: 622's bass has a low
+# A whole note between its dotted-half A and its last two notes, which no other voice has
+STRAY_NOTES = {(622, 15, 1, 1): {45}}
+# written type of a shortened note, by its length in quarters
+WRITTEN = {F(4): ("whole", 0), F(3): ("half", 1), F(2): ("half", 0), F(3, 2): ("quarter", 1), F(1): ("quarter", 0),
+           F(3, 4): ("eighth", 1), F(1, 2): ("eighth", 0), F(1, 4): ("16th", 0)}
+# no time signature in the source: every bar gets a hidden time signature of its own length
+FREE_METER = {133, 230}
 # (hymn, verse, wrong syllables, right syllables), typos found by pozafly/hymn-transpose's audit
 LYRIC_FIXES = [
     (220, 1, "복을받아", "본을받아"),
@@ -123,6 +147,7 @@ class Measure:
         self.key = None  # (fifths, mode) change at this measure
         self.time = None  # (n, d) change at this measure
         self.time_symbol = None
+        self.time_hidden = None  # (beats, beat type) of an unmetered bar, written print-object="no"
         self.clefs: dict[int, str] = {}
         self.start_repeat = False
         self.end_repeat = None
@@ -402,7 +427,7 @@ def build_musicxml(parsed: dict, number: int, title_ko: str) -> etree._Element:
             if M.start_repeat:
                 sub(bl, "repeat", direction="forward")
 
-        need_attr = M.idx == 0 or M.key or M.time or M.clefs
+        need_attr = M.idx == 0 or M.key or M.time or M.time_hidden or M.clefs
         if need_attr:
             at = sub(mx, "attributes")
             if M.idx == 0:
@@ -418,6 +443,10 @@ def build_musicxml(parsed: dict, number: int, title_ko: str) -> etree._Element:
                 t = sub(at, "time", **({"symbol": M.time_symbol} if M.time_symbol else {}))
                 sub(t, "beats", M.time[0])
                 sub(t, "beat-type", M.time[1])
+            if M.time_hidden:
+                t = sub(at, "time", print_object="no")
+                sub(t, "beats", M.time_hidden[0])
+                sub(t, "beat-type", M.time_hidden[1])
             if M.idx == 0:
                 sub(at, "staves", n_staves)
             for s in sorted(M.clefs):
@@ -464,6 +493,8 @@ def build_musicxml(parsed: dict, number: int, title_ko: str) -> etree._Element:
             bl = sub(mx, "barline", location="right")
             if M.end_repeat or M.idx == len(measures) - 1:
                 sub(bl, "bar-style", "light-heavy")
+            elif M.barline == "none":
+                sub(bl, "bar-style", "none")
             if M.ending_stop:
                 sub(bl, "ending", number=M.ending_stop[0], type="stop")
             if M.end_repeat:
@@ -602,6 +633,7 @@ def convert_file(path: str) -> tuple[int, bytes, dict]:
     root = read_mscx(path)
     parsed = parse_score(root)
     changes = apply_fixes(number, parsed)
+    changes += repair_overflow(number, parsed)
     title = title_from_filename(path)
     xml = build_musicxml(parsed, number, title)
     info = dict(parsed["meta"])
@@ -685,6 +717,153 @@ def apply_fixes(number: int, parsed: dict) -> list[str]:
             no, txt = e.lyrics[i]
             e.lyrics[i] = (no, txt.replace(w, r))
         changes.append(f"lyric verse {verse}: {wrong} -> {right}")
+    return changes
+
+
+def repair_overflow(number: int, parsed: dict) -> list[str]:
+    """Apply OVERFLOW_REPAIRS, STRAY_NOTES and FREE_METER; every voice then fills its bar exactly."""
+    measures: list[Measure] = parsed["measures"]
+    rule = OVERFLOW_REPAIRS.get(number)
+    changes = []
+    pickup = bool(measures) and measures[0].length < measures[0].nominal
+
+    def bar_no(idx):  # the bar number the score prints (a pickup is bar 0); rule keys are indexes
+        return idx if pickup else idx + 1
+
+    def visible(ev):
+        return ev.kind == "chord" or (ev.kind == "rest" and ev.visible)
+
+    def end_of(events):
+        return max((e.start + e.dur for e in events if visible(e)), default=F(0))
+
+    for (hymn, m_idx, s_idx, v_idx), pitches in STRAY_NOTES.items():
+        if hymn == number:
+            stream = measures[m_idx].streams[(s_idx, v_idx)]
+            gone = [e for e in stream if e.kind == "chord" and {nd["pitch"] for nd in e.notes} <= pitches]
+            stream[:] = [e for e in stream if e not in gone]
+            changes.append(f"bar {bar_no(m_idx)}: {len(gone)} stray note(s) removed from staff {s_idx + 1}")
+
+    if rule is not None:
+        i = 0
+        while i < len(measures):
+            M = measures[i]
+            mode = rule.get(M.idx, rule.get(None)) if isinstance(rule, dict) else rule
+            if mode == "phrase":
+                M.nominal = end_of(M.streams.get((0, 0), []))  # the melody's own length
+            if not (M.length > M.nominal):
+                i += 1
+                continue
+            bar = M.nominal
+            lost_lyrics = 0
+            if mode == "split":
+                second = Measure(M.idx + 1)
+                second.nominal = second.length = M.length - bar
+                for key, events in M.streams.items():
+                    later = [e for e in events if e.start >= bar]
+                    events[:] = [e for e in events if e.start < bar]
+                    for e in later:
+                        e.start -= bar
+                    second.streams[key] = later
+                second.end_repeat, second.barline, second.ending_stop = M.end_repeat, M.barline, M.ending_stop
+                M.end_repeat = M.barline = M.ending_stop = None
+                measures.insert(i + 1, second)
+                for k, mm in enumerate(measures):
+                    mm.idx = k
+                M.length = bar
+                changes.append(f"bar {bar_no(i)}: two bars' worth in one, split in two")
+                i += 2
+                continue
+            for key in sorted(M.streams):
+                events = M.streams[key]
+                inside = [e for e in events if e.start < bar]
+                extra = [e for e in events if e.start >= bar and visible(e)]
+                shown = [e for e in events if visible(e)]
+                if mode == "overlay" and shown and end_of(shown) > bar and end_of(shown) - min(e.start for e in shown) <= bar:
+                    # the voice's whole part fits the bar but sits late, after hidden rests (the bass
+                    # echo at the end of 362 and 497): it ends at the bar line instead
+                    shift = end_of(shown) - bar
+                    for e in shown:
+                        e.start -= shift
+                    events[:] = shown
+                    continue
+                for e in inside:
+                    if e.start + e.dur > bar:
+                        e.dur = bar - e.start  # a hidden rest, or a last note, running past the bar line
+                        e.dtype, e.dots = WRITTEN.get(e.dur, (e.dtype, e.dots))
+                if mode == "close":
+                    kept = [e for e in events if visible(e) or e.kind == "chord"]
+                    t = kept[0].start if kept else F(0)
+                    for e in kept:
+                        e.start, t = t, t + e.dur
+                    events[:] = kept
+                    continue
+                if not extra:
+                    events[:] = inside
+                    continue
+                if mode in ("drop", "phrase"):
+                    lost_lyrics += sum(len(e.lyrics) for e in extra)
+                    events[:] = inside
+                    continue
+                # overlay: the extra part ends at the bar line, in the same voice when the voice has
+                # nothing visible inside the bar, else in a voice of its own on the same staff
+                shift = end_of(extra) - bar
+                if min(e.start for e in extra) - shift < 0:
+                    raise ValueError(f"hymn {number} bar {bar_no(M.idx)}: extra part longer than the bar")
+                for e in extra:
+                    e.start -= shift
+                if not any(visible(e) for e in inside):
+                    events[:] = extra
+                else:
+                    events[:] = inside
+                    s_idx = key[0]
+                    free = next(v for v in range(4) if (s_idx, v) not in M.streams)
+                    M.streams[(s_idx, free)] = extra
+            M.length = bar
+            note = f"; {lost_lyrics} lyric syllables went with them" if lost_lyrics else ""
+            changes.append(f"bar {bar_no(M.idx)}: notes past the bar line ({mode}){note}")
+            i += 1
+
+    if number in FREE_METER:
+        # a chant phrase of nine beats of eighth notes cannot fit one line on a phone: cut it into
+        # pieces of at most four beats, at points no note crosses, with invisible barlines between
+        i = 0
+        while i < len(measures):
+            M = measures[i]
+            if M.length <= 4:
+                i += 1
+                continue
+            events = [e for evs in M.streams.values() for e in evs if visible(e)]
+            cuts = [t for t in (F(k, 2) for k in range(1, int(M.length * 2)))
+                    if not any(e.start < t < e.start + e.dur for e in events)]
+            pieces = -(-M.length // 4)  # how many pieces of at most four beats; cut evenly
+            cut = min(cuts, key=lambda t: abs(t - M.length / pieces), default=None)
+            if cut is None:
+                i += 1
+                continue
+            second = Measure(M.idx + 1)
+            second.nominal = second.length = M.length - cut
+            for key, evs in M.streams.items():
+                later = [e for e in evs if e.start >= cut]
+                evs[:] = [e for e in evs if e.start < cut]
+                for e in evs:
+                    if e.start + e.dur > cut:
+                        e.dur = cut - e.start  # only hidden rests cross a cut
+                for e in later:
+                    e.start -= cut
+                second.streams[key] = later
+            second.end_repeat, second.barline, second.ending_stop = M.end_repeat, M.barline, M.ending_stop
+            M.end_repeat, M.barline, M.ending_stop = None, "none", None
+            M.length = M.nominal = cut
+            measures.insert(i + 1, second)
+            for k, mm in enumerate(measures):
+                mm.idx = k
+            i += 1
+        for M in measures:
+            M.nominal = M.length
+            eighths = M.length * 2
+            assert eighths.denominator == 1, (number, M.idx, M.length)
+            M.time, M.time_hidden = None, (int(eighths), 8)
+        changes.append("no time signature in the source: each bar has a hidden one of its own length")
     return changes
 
 

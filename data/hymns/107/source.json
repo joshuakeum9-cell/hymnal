@@ -6,5 +6,14 @@
  "source_sha256": "c23da0a339f3aec8eda378b0431cccd23bce60aafd0006451f8997d585598972",
  "source_file": "107장 거룩한 밤 복된 이밤.mscz",
  "title_from_file": "거룩한 밤 복된 이밤",
- "changes": []
+ "changes": [
+  "bar 2: notes past the bar line (overlay)",
+  "bar 3: notes past the bar line (overlay)",
+  "bar 4: notes past the bar line (overlay)",
+  "bar 6: notes past the bar line (overlay)",
+  "bar 7: notes past the bar line (overlay)",
+  "bar 8: notes past the bar line (overlay)",
+  "bar 15: notes past the bar line (overlay)",
+  "bar 16: notes past the bar line (overlay)"
+ ]
 }

@@ -215,9 +215,13 @@ def best_chord(weights: dict[int, float], bass_pc: int | None, fifths: int):
 KIND_TONES = {kind: tones for kind, _, tones, _ in KINDS}
 
 
-def relabel(root_pc: int, kind: str, bass_pc: int, melody_pc: int | None = None) -> tuple[int, str]:
+def relabel(root_pc: int, kind: str, bass_pc: int, melody_pc: int | None = None, sounding: set[int] = frozenset()) -> tuple[int, str]:
     """Name a chord the way a hymn band chart does."""
     over_third = (bass_pc - root_pc) % 12 == 3
+    if kind == "suspended-fourth" and sounding and (root_pc + 7) % 12 not in sounding:
+        # a bare fourth with no fifth (Eb-Ab at a final cadence) is the chord a fourth up over its
+        # fifth, Ab/Eb, not Eb
+        return (root_pc + 5) % 12, "major"
     if kind == "minor-seventh" and over_third:
         # D-F-A-C over F is exactly F6: charts write F, not Dm7/F
         return bass_pc, "major"
@@ -285,7 +289,7 @@ def analyse(root):
             bass_pc = bass_note.midi % 12
             top = max(at_beat or window, key=lambda n: n.midi)
             (raw_root, raw_ki), best_score = best_chord(weights, bass_pc, fifths)
-            root_pc, kind = relabel(raw_root, KINDS[raw_ki][0], bass_pc, top.midi % 12)
+            root_pc, kind = relabel(raw_root, KINDS[raw_ki][0], bass_pc, top.midi % 12, set(weights))
             tones = {(root_pc + i) % 12 for i in KIND_TONES[kind]}
             # a slash names an inversion the bass holds (struck again on the same note counts); a
             # bass outside the chord, or one walking on within the beat, is a passing note

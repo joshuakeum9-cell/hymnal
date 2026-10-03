@@ -6389,16 +6389,8 @@
      <text xml:lang="ko">어</text>
     </lyric>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>288</duration>
-    <voice>1</voice>
-    <type>half</type>
-    <dot/>
-    <staff>1</staff>
-   </note>
    <backup>
-    <duration>576</duration>
+    <duration>288</duration>
    </backup>
    <note>
     <pitch>
@@ -6470,52 +6462,8 @@
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note>
-    <pitch>
-     <step>G</step>
-     <octave>4</octave>
-    </pitch>
-    <duration>96</duration>
-    <voice>2</voice>
-    <type>quarter</type>
-    <stem>down</stem>
-    <staff>1</staff>
-   </note>
-   <note>
-    <pitch>
-     <step>D</step>
-     <octave>4</octave>
-    </pitch>
-    <duration>48</duration>
-    <voice>2</voice>
-    <type>eighth</type>
-    <stem>down</stem>
-    <staff>1</staff>
-   </note>
-   <note>
-    <pitch>
-     <step>D</step>
-     <octave>4</octave>
-    </pitch>
-    <duration>96</duration>
-    <voice>2</voice>
-    <type>quarter</type>
-    <stem>down</stem>
-    <staff>1</staff>
-   </note>
-   <note>
-    <pitch>
-     <step>D</step>
-     <octave>4</octave>
-    </pitch>
-    <duration>48</duration>
-    <voice>2</voice>
-    <type>eighth</type>
-    <stem>down</stem>
-    <staff>1</staff>
-   </note>
    <backup>
-    <duration>576</duration>
+    <duration>288</duration>
    </backup>
    <note>
     <pitch>
@@ -6583,16 +6531,8 @@
     <stem>up</stem>
     <staff>2</staff>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>288</duration>
-    <voice>5</voice>
-    <type>half</type>
-    <dot/>
-    <staff>2</staff>
-   </note>
    <backup>
-    <duration>576</duration>
+    <duration>288</duration>
    </backup>
    <note>
     <pitch>
@@ -6658,14 +6598,6 @@
     <voice>6</voice>
     <type>eighth</type>
     <stem>down</stem>
-    <staff>2</staff>
-   </note>
-   <note print-object="no">
-    <rest/>
-    <duration>288</duration>
-    <voice>6</voice>
-    <type>half</type>
-    <dot/>
     <staff>2</staff>
    </note>
   </measure>

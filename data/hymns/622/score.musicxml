@@ -4687,23 +4687,8 @@
      <text xml:lang="ko">수</text>
     </lyric>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>96</duration>
-    <voice>1</voice>
-    <type>quarter</type>
-    <staff>1</staff>
-   </note>
-   <note print-object="no">
-    <rest/>
-    <duration>576</duration>
-    <voice>1</voice>
-    <type>whole</type>
-    <dot/>
-    <staff>1</staff>
-   </note>
    <backup>
-    <duration>960</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -4740,18 +4725,8 @@
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>96</duration>
-    <voice>2</voice>
-    <type>quarter</type>
-    <staff>1</staff>
-   </note>
-   <forward>
-    <duration>480</duration>
-   </forward>
    <backup>
-    <duration>960</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -4788,23 +4763,8 @@
     <stem>up</stem>
     <staff>2</staff>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>96</duration>
-    <voice>5</voice>
-    <type>quarter</type>
-    <staff>2</staff>
-   </note>
-   <note print-object="no">
-    <rest/>
-    <duration>576</duration>
-    <voice>5</voice>
-    <type>whole</type>
-    <dot/>
-    <staff>2</staff>
-   </note>
    <backup>
-    <duration>960</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -4815,24 +4775,6 @@
     <voice>6</voice>
     <type>half</type>
     <dot/>
-    <stem>down</stem>
-    <staff>2</staff>
-   </note>
-   <note print-object="no">
-    <rest/>
-    <duration>192</duration>
-    <voice>6</voice>
-    <type>half</type>
-    <staff>2</staff>
-   </note>
-   <note>
-    <pitch>
-     <step>A</step>
-     <octave>2</octave>
-    </pitch>
-    <duration>384</duration>
-    <voice>6</voice>
-    <type>whole</type>
     <stem>down</stem>
     <staff>2</staff>
    </note>

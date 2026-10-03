@@ -6,5 +6,8 @@
  "source_sha256": "b25c2f1de1b15b21b83b9c77cf2814e95a55dda0d1ebdffc47b1c1280d301d5e",
  "source_file": "622장 거룩한 밤.mscz",
  "title_from_file": "거룩한 밤",
- "changes": []
+ "changes": [
+  "bar 16: 1 stray note(s) removed from staff 2",
+  "bar 16: notes past the bar line (close)"
+ ]
 }

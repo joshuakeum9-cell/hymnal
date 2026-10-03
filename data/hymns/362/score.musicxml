@@ -3168,25 +3168,22 @@
   <measure number="14">
    <note print-object="no">
     <rest measure="yes"/>
-    <duration>576</duration>
+    <duration>288</duration>
     <voice>1</voice>
     <staff>1</staff>
    </note>
    <backup>
-    <duration>576</duration>
+    <duration>288</duration>
    </backup>
    <note print-object="no">
     <rest measure="yes"/>
-    <duration>576</duration>
+    <duration>288</duration>
     <voice>5</voice>
     <staff>2</staff>
    </note>
    <backup>
-    <duration>576</duration>
-   </backup>
-   <forward>
     <duration>288</duration>
-   </forward>
+   </backup>
    <note>
     <pitch>
      <step>E</step>
@@ -3228,25 +3225,22 @@
   <measure number="15">
    <note print-object="no">
     <rest measure="yes"/>
-    <duration>576</duration>
+    <duration>288</duration>
     <voice>1</voice>
     <staff>1</staff>
    </note>
    <backup>
-    <duration>576</duration>
+    <duration>288</duration>
    </backup>
    <note print-object="no">
     <rest measure="yes"/>
-    <duration>576</duration>
+    <duration>288</duration>
     <voice>5</voice>
     <staff>2</staff>
    </note>
    <backup>
-    <duration>576</duration>
-   </backup>
-   <forward>
     <duration>288</duration>
-   </forward>
+   </backup>
    <note>
     <pitch>
      <step>D</step>

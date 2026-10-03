@@ -2760,6 +2760,53 @@
      <text xml:lang="ko">아</text>
     </lyric>
    </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>288</duration>
+    <voice>2</voice>
+    <type>half</type>
+    <dot/>
+    <stem>down</stem>
+    <staff>1</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>3</octave>
+    </pitch>
+    <duration>288</duration>
+    <voice>5</voice>
+    <type>half</type>
+    <dot/>
+    <stem>up</stem>
+    <staff>2</staff>
+   </note>
+   <backup>
+    <duration>288</duration>
+   </backup>
+   <note>
+    <pitch>
+     <step>G</step>
+     <octave>2</octave>
+    </pitch>
+    <duration>288</duration>
+    <voice>6</voice>
+    <type>half</type>
+    <dot/>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+  </measure>
+  <measure number="20">
    <note>
     <pitch>
      <step>F</step>
@@ -2778,20 +2825,8 @@
     </lyric>
    </note>
    <backup>
-    <duration>576</duration>
-   </backup>
-   <note>
-    <pitch>
-     <step>D</step>
-     <octave>4</octave>
-    </pitch>
     <duration>288</duration>
-    <voice>2</voice>
-    <type>half</type>
-    <dot/>
-    <stem>down</stem>
-    <staff>1</staff>
-   </note>
+   </backup>
    <note>
     <pitch>
      <step>D</step>
@@ -2805,20 +2840,8 @@
     <staff>1</staff>
    </note>
    <backup>
-    <duration>576</duration>
-   </backup>
-   <note>
-    <pitch>
-     <step>B</step>
-     <octave>3</octave>
-    </pitch>
     <duration>288</duration>
-    <voice>5</voice>
-    <type>half</type>
-    <dot/>
-    <stem>up</stem>
-    <staff>2</staff>
-   </note>
+   </backup>
    <note>
     <pitch>
      <step>A</step>
@@ -2832,20 +2855,8 @@
     <staff>2</staff>
    </note>
    <backup>
-    <duration>576</duration>
-   </backup>
-   <note>
-    <pitch>
-     <step>G</step>
-     <octave>2</octave>
-    </pitch>
     <duration>288</duration>
-    <voice>6</voice>
-    <type>half</type>
-    <dot/>
-    <stem>down</stem>
-    <staff>2</staff>
-   </note>
+   </backup>
    <note>
     <pitch>
      <step>D</step>

@@ -230,15 +230,8 @@
      <text xml:lang="ko">는</text>
     </lyric>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>1</voice>
-    <type>whole</type>
-    <staff>1</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -285,11 +278,8 @@
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <forward>
-    <duration>384</duration>
-   </forward>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -340,15 +330,8 @@
     <stem>up</stem>
     <staff>2</staff>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>5</voice>
-    <type>whole</type>
-    <staff>2</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -385,13 +368,16 @@
     <stem>down</stem>
     <staff>2</staff>
    </note>
+   <backup>
+    <duration>384</duration>
+   </backup>
    <note>
     <pitch>
      <step>G</step>
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -402,7 +388,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -413,7 +399,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -424,7 +410,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -525,15 +511,8 @@
      <text xml:lang="ko">다</text>
     </lyric>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>1</voice>
-    <type>whole</type>
-    <staff>1</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -581,11 +560,8 @@
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <forward>
-    <duration>384</duration>
-   </forward>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -636,15 +612,8 @@
     <stem>up</stem>
     <staff>2</staff>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>5</voice>
-    <type>whole</type>
-    <staff>2</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -682,13 +651,16 @@
     <stem>down</stem>
     <staff>2</staff>
    </note>
+   <backup>
+    <duration>384</duration>
+   </backup>
    <note>
     <pitch>
      <step>G</step>
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -699,7 +671,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -710,7 +682,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -721,7 +693,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -820,15 +792,8 @@
      <text xml:lang="ko">여</text>
     </lyric>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>1</voice>
-    <type>whole</type>
-    <staff>1</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -874,11 +839,8 @@
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <forward>
-    <duration>384</duration>
-   </forward>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -927,15 +889,8 @@
     <stem>up</stem>
     <staff>2</staff>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>5</voice>
-    <type>whole</type>
-    <staff>2</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -959,13 +914,16 @@
     <stem>down</stem>
     <staff>2</staff>
    </note>
+   <backup>
+    <duration>384</duration>
+   </backup>
    <note>
     <pitch>
      <step>G</step>
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -976,7 +934,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -987,7 +945,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -998,7 +956,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -1031,14 +989,13 @@
    </note>
    <note print-object="no">
     <rest/>
-    <duration>288</duration>
+    <duration>96</duration>
     <voice>1</voice>
-    <type>half</type>
-    <dot/>
+    <type>quarter</type>
     <staff>1</staff>
    </note>
    <backup>
-    <duration>576</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -1053,10 +1010,10 @@
     <staff>1</staff>
    </note>
    <forward>
-    <duration>288</duration>
+    <duration>96</duration>
    </forward>
    <backup>
-    <duration>576</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -1086,14 +1043,13 @@
    </note>
    <note print-object="no">
     <rest/>
-    <duration>288</duration>
+    <duration>96</duration>
     <voice>5</voice>
-    <type>half</type>
-    <dot/>
+    <type>quarter</type>
     <staff>2</staff>
    </note>
    <backup>
-    <duration>576</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -1118,13 +1074,19 @@
     <stem>down</stem>
     <staff>2</staff>
    </note>
+   <backup>
+    <duration>384</duration>
+   </backup>
+   <forward>
+    <duration>192</duration>
+   </forward>
    <note>
     <pitch>
      <step>G</step>
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -1135,7 +1097,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -1330,15 +1292,8 @@
      <text xml:lang="ko">기</text>
     </lyric>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>1</voice>
-    <type>whole</type>
-    <staff>1</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -1385,11 +1340,8 @@
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <forward>
-    <duration>384</duration>
-   </forward>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -1440,15 +1392,8 @@
     <stem>up</stem>
     <staff>2</staff>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>5</voice>
-    <type>whole</type>
-    <staff>2</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -1485,13 +1430,16 @@
     <stem>down</stem>
     <staff>2</staff>
    </note>
+   <backup>
+    <duration>384</duration>
+   </backup>
    <note>
     <pitch>
      <step>G</step>
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -1502,7 +1450,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -1513,7 +1461,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -1524,7 +1472,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -1625,15 +1573,8 @@
      <text xml:lang="ko">널</text>
     </lyric>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>1</voice>
-    <type>whole</type>
-    <staff>1</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -1681,11 +1622,8 @@
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <forward>
-    <duration>384</duration>
-   </forward>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -1736,15 +1674,8 @@
     <stem>up</stem>
     <staff>2</staff>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>5</voice>
-    <type>whole</type>
-    <staff>2</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -1782,13 +1713,16 @@
     <stem>down</stem>
     <staff>2</staff>
    </note>
+   <backup>
+    <duration>384</duration>
+   </backup>
    <note>
     <pitch>
      <step>G</step>
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -1799,7 +1733,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -1810,7 +1744,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -1821,7 +1755,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -1921,15 +1855,8 @@
      <text xml:lang="ko">셨</text>
     </lyric>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>1</voice>
-    <type>whole</type>
-    <staff>1</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -1976,11 +1903,8 @@
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <forward>
-    <duration>384</duration>
-   </forward>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -2029,15 +1953,8 @@
     <stem>up</stem>
     <staff>2</staff>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>5</voice>
-    <type>whole</type>
-    <staff>2</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -2061,13 +1978,16 @@
     <stem>down</stem>
     <staff>2</staff>
    </note>
+   <backup>
+    <duration>384</duration>
+   </backup>
    <note>
     <pitch>
      <step>G</step>
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -2078,7 +1998,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -2089,7 +2009,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -2100,7 +2020,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -2133,14 +2053,13 @@
    </note>
    <note print-object="no">
     <rest/>
-    <duration>288</duration>
+    <duration>96</duration>
     <voice>1</voice>
-    <type>half</type>
-    <dot/>
+    <type>quarter</type>
     <staff>1</staff>
    </note>
    <backup>
-    <duration>576</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -2155,10 +2074,10 @@
     <staff>1</staff>
    </note>
    <forward>
-    <duration>288</duration>
+    <duration>96</duration>
    </forward>
    <backup>
-    <duration>576</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -2188,14 +2107,13 @@
    </note>
    <note print-object="no">
     <rest/>
-    <duration>288</duration>
+    <duration>96</duration>
     <voice>5</voice>
-    <type>half</type>
-    <dot/>
+    <type>quarter</type>
     <staff>2</staff>
    </note>
    <backup>
-    <duration>576</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -2220,13 +2138,19 @@
     <stem>down</stem>
     <staff>2</staff>
    </note>
+   <backup>
+    <duration>384</duration>
+   </backup>
+   <forward>
+    <duration>192</duration>
+   </forward>
    <note>
     <pitch>
      <step>G</step>
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -2237,7 +2161,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -2432,15 +2356,8 @@
      <text xml:lang="ko">쁨</text>
     </lyric>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>1</voice>
-    <type>whole</type>
-    <staff>1</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -2487,11 +2404,8 @@
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <forward>
-    <duration>384</duration>
-   </forward>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -2540,15 +2454,8 @@
     <stem>up</stem>
     <staff>2</staff>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>5</voice>
-    <type>whole</type>
-    <staff>2</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -2573,13 +2480,16 @@
     <stem>down</stem>
     <staff>2</staff>
    </note>
+   <backup>
+    <duration>384</duration>
+   </backup>
    <note>
     <pitch>
      <step>G</step>
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -2590,7 +2500,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -2601,7 +2511,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -2612,7 +2522,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -2713,15 +2623,8 @@
      <text xml:lang="ko">아</text>
     </lyric>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>1</voice>
-    <type>whole</type>
-    <staff>1</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -2769,11 +2672,8 @@
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <forward>
-    <duration>384</duration>
-   </forward>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -2824,15 +2724,8 @@
     <stem>up</stem>
     <staff>2</staff>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>5</voice>
-    <type>whole</type>
-    <staff>2</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -2859,13 +2752,16 @@
     <stem>down</stem>
     <staff>2</staff>
    </note>
+   <backup>
+    <duration>384</duration>
+   </backup>
    <note>
     <pitch>
      <step>G</step>
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -2876,7 +2772,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -2887,7 +2783,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -2898,7 +2794,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -2998,15 +2894,8 @@
      <text xml:lang="ko">배</text>
     </lyric>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>1</voice>
-    <type>whole</type>
-    <staff>1</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -3053,11 +2942,8 @@
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <forward>
-    <duration>384</duration>
-   </forward>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -3107,15 +2993,8 @@
     <stem>up</stem>
     <staff>2</staff>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>5</voice>
-    <type>whole</type>
-    <staff>2</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -3139,13 +3018,16 @@
     <stem>down</stem>
     <staff>2</staff>
    </note>
+   <backup>
+    <duration>384</duration>
+   </backup>
    <note>
     <pitch>
      <step>G</step>
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -3156,7 +3038,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -3167,7 +3049,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -3178,7 +3060,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -3265,15 +3147,8 @@
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>1</voice>
-    <type>whole</type>
-    <staff>1</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -3319,11 +3194,8 @@
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <forward>
-    <duration>384</duration>
-   </forward>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -3370,15 +3242,8 @@
     <stem>up</stem>
     <staff>2</staff>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>5</voice>
-    <type>whole</type>
-    <staff>2</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -3402,13 +3267,16 @@
     <stem>down</stem>
     <staff>2</staff>
    </note>
+   <backup>
+    <duration>384</duration>
+   </backup>
    <note>
     <pitch>
      <step>D</step>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -3419,7 +3287,7 @@
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -3430,7 +3298,7 @@
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -3441,7 +3309,7 @@
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -3517,15 +3385,8 @@
      <text xml:lang="ko">왕</text>
     </lyric>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>1</voice>
-    <type>whole</type>
-    <staff>1</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -3560,11 +3421,8 @@
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <forward>
-    <duration>384</duration>
-   </forward>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -3614,15 +3472,8 @@
     <stem>up</stem>
     <staff>2</staff>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>5</voice>
-    <type>whole</type>
-    <staff>2</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -3646,13 +3497,16 @@
     <stem>down</stem>
     <staff>2</staff>
    </note>
+   <backup>
+    <duration>384</duration>
+   </backup>
    <note>
     <pitch>
      <step>G</step>
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -3663,7 +3517,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -3674,7 +3528,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -3685,7 +3539,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -3762,15 +3616,8 @@
      <text xml:lang="ko">네</text>
     </lyric>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>1</voice>
-    <type>whole</type>
-    <staff>1</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -3806,11 +3653,8 @@
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <forward>
-    <duration>384</duration>
-   </forward>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -3847,15 +3691,8 @@
     <stem>up</stem>
     <staff>2</staff>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>5</voice>
-    <type>whole</type>
-    <staff>2</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -3879,13 +3716,16 @@
     <stem>down</stem>
     <staff>2</staff>
    </note>
+   <backup>
+    <duration>384</duration>
+   </backup>
    <note>
     <pitch>
      <step>G</step>
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -3896,7 +3736,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -3907,7 +3747,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -3918,7 +3758,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -3994,15 +3834,8 @@
      <text xml:lang="ko">셨</text>
     </lyric>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>1</voice>
-    <type>whole</type>
-    <staff>1</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -4037,11 +3870,8 @@
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <forward>
-    <duration>384</duration>
-   </forward>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -4090,15 +3920,8 @@
     <stem>up</stem>
     <staff>2</staff>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>5</voice>
-    <type>whole</type>
-    <staff>2</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -4122,13 +3945,16 @@
     <stem>down</stem>
     <staff>2</staff>
    </note>
+   <backup>
+    <duration>384</duration>
+   </backup>
    <note>
     <pitch>
      <step>G</step>
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -4139,7 +3965,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -4150,7 +3976,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -4161,7 +3987,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -4237,15 +4063,8 @@
      <text xml:lang="ko">광</text>
     </lyric>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>1</voice>
-    <type>whole</type>
-    <staff>1</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -4280,11 +4099,8 @@
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <forward>
-    <duration>384</duration>
-   </forward>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -4334,15 +4150,8 @@
     <stem>up</stem>
     <staff>2</staff>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>5</voice>
-    <type>whole</type>
-    <staff>2</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -4366,13 +4175,16 @@
     <stem>down</stem>
     <staff>2</staff>
    </note>
+   <backup>
+    <duration>384</duration>
+   </backup>
    <note>
     <pitch>
      <step>G</step>
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -4383,7 +4195,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -4394,7 +4206,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -4405,7 +4217,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -4493,15 +4305,8 @@
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>1</voice>
-    <type>whole</type>
-    <staff>1</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -4548,11 +4353,8 @@
     <stem>down</stem>
     <staff>1</staff>
    </note>
-   <forward>
-    <duration>384</duration>
-   </forward>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -4611,15 +4413,8 @@
     <stem>up</stem>
     <staff>2</staff>
    </note>
-   <note print-object="no">
-    <rest/>
-    <duration>384</duration>
-    <voice>5</voice>
-    <type>whole</type>
-    <staff>2</staff>
-   </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -4643,13 +4438,16 @@
     <stem>down</stem>
     <staff>2</staff>
    </note>
+   <backup>
+    <duration>384</duration>
+   </backup>
    <note>
     <pitch>
      <step>D</step>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -4660,7 +4458,7 @@
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -4671,7 +4469,7 @@
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -4682,7 +4480,7 @@
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -4715,14 +4513,13 @@
    </note>
    <note print-object="no">
     <rest/>
-    <duration>288</duration>
+    <duration>96</duration>
     <voice>1</voice>
-    <type>half</type>
-    <dot/>
+    <type>quarter</type>
     <staff>1</staff>
    </note>
    <backup>
-    <duration>576</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -4737,10 +4534,10 @@
     <staff>1</staff>
    </note>
    <forward>
-    <duration>288</duration>
+    <duration>96</duration>
    </forward>
    <backup>
-    <duration>576</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -4792,14 +4589,13 @@
    </note>
    <note print-object="no">
     <rest/>
-    <duration>288</duration>
+    <duration>96</duration>
     <voice>5</voice>
-    <type>half</type>
-    <dot/>
+    <type>quarter</type>
     <staff>2</staff>
    </note>
    <backup>
-    <duration>576</duration>
+    <duration>384</duration>
    </backup>
    <note>
     <pitch>
@@ -4834,13 +4630,19 @@
     <stem>down</stem>
     <staff>2</staff>
    </note>
+   <backup>
+    <duration>384</duration>
+   </backup>
+   <forward>
+    <duration>192</duration>
+   </forward>
    <note>
     <pitch>
      <step>G</step>
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>
@@ -4851,7 +4653,7 @@
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
-    <voice>6</voice>
+    <voice>7</voice>
     <type>quarter</type>
     <stem>down</stem>
     <staff>2</staff>

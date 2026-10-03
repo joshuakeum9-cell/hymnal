@@ -6,5 +6,8 @@
  "source_sha256": "61620f34884e3ba0b0350f7ef01d2ea6dd7e347000f5b8116b2e9fd39e756d31",
  "source_file": "252장 나의 죄를 씻기는.mscz",
  "title_from_file": "나의 죄를 씻기는",
- "changes": []
+ "changes": [
+  "bar 9: notes past the bar line (drop)",
+  "bar 12: notes past the bar line (drop)"
+ ]
 }

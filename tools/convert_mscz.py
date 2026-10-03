@@ -40,6 +40,13 @@ KEY_OVERRIDES = {
     # independent key table (praisenworship.biblia66.com/15) and the notes themselves.
     145: (0, "minor"),
 }
+# staff entered under the wrong key signature: (hymn, staff index) -> {wrong pitch class: semitones}.
+# 54's bass staff was typed in G major under an F major treble, so every F sounds F# and every
+# B-flat sounds B (41 F#, 17 B, no F or B-flat in the bass; the treble has no accidentals at all)
+STAFF_PITCH_FIXES = {
+    (54, 1): {6: -1, 11: -1},
+}
+TPC_OF_PC_FLAT_SIDE = {5: 13, 10: 12}  # F, B-flat
 # (hymn, verse, wrong syllables, right syllables), typos found by pozafly/hymn-transpose's audit
 LYRIC_FIXES = [
     (220, 1, "복을받아", "본을받아"),
@@ -627,6 +634,23 @@ def apply_fixes(number: int, parsed: dict) -> list[str]:
                         fixed += 1
                     ev.notes.sort(key=lambda d: d["pitch"])
         changes.append(f"staff transposition removed on staves {sorted(parsed['respell'])}: {fixed} notes moved to the written pitch")
+    for (hymn, s_fix), moves in STAFF_PITCH_FIXES.items():
+        if hymn != number:
+            continue
+        fixed = 0
+        for M in measures:
+            for (s_idx, _v), events in M.streams.items():
+                if s_idx != s_fix:
+                    continue
+                for ev in events:
+                    for nd in ev.notes:
+                        d = moves.get(nd["pitch"] % 12)
+                        if d:
+                            nd["pitch"] += d
+                            nd["tpc"] = TPC_OF_PC_FLAT_SIDE[nd["pitch"] % 12]
+                            nd["acc"] = None
+                            fixed += 1
+        changes.append(f"staff {s_fix + 1} entered in the wrong key: {fixed} notes moved to the hymn's key")
     if number in KEY_OVERRIDES and measures:
         old = measures[0].key
         measures[0].key = KEY_OVERRIDES[number]

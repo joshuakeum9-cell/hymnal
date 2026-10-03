@@ -204,6 +204,7 @@
    <note>
     <pitch>
      <step>B</step>
+     <alter>-1</alter>
      <octave>3</octave>
     </pitch>
     <duration>48</duration>
@@ -240,7 +241,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -252,7 +252,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -264,7 +263,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -276,7 +274,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -460,6 +457,7 @@
    <note>
     <pitch>
      <step>B</step>
+     <alter>-1</alter>
      <octave>3</octave>
     </pitch>
     <duration>48</duration>
@@ -507,7 +505,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -519,7 +516,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -704,7 +700,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -730,7 +725,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -742,7 +736,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -754,7 +747,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -766,7 +758,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -909,6 +900,7 @@
    <note>
     <pitch>
      <step>B</step>
+     <alter>-1</alter>
      <octave>3</octave>
     </pitch>
     <duration>48</duration>
@@ -931,6 +923,7 @@
    <note>
     <pitch>
      <step>B</step>
+     <alter>-1</alter>
      <octave>3</octave>
     </pitch>
     <duration>48</duration>
@@ -989,7 +982,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>192</duration>
@@ -1141,7 +1133,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -1153,7 +1144,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>48</duration>
@@ -1201,7 +1191,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -1213,7 +1202,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -1225,7 +1213,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -1237,7 +1224,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -1389,6 +1375,7 @@
    <note>
     <pitch>
      <step>B</step>
+     <alter>-1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -1400,6 +1387,7 @@
    <note>
     <pitch>
      <step>B</step>
+     <alter>-1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -1433,7 +1421,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -1448,6 +1435,7 @@
    <note>
     <pitch>
      <step>B</step>
+     <alter>-1</alter>
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
@@ -1470,7 +1458,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -1482,7 +1469,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -1634,7 +1620,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -1646,7 +1631,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>48</duration>
@@ -1694,7 +1678,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -1706,7 +1689,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -1718,7 +1700,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -1730,7 +1711,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -1840,6 +1820,7 @@
    <note>
     <pitch>
      <step>B</step>
+     <alter>-1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -1851,6 +1832,7 @@
    <note>
     <pitch>
      <step>B</step>
+     <alter>-1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -1876,6 +1858,7 @@
    <note>
     <pitch>
      <step>B</step>
+     <alter>-1</alter>
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
@@ -1887,6 +1870,7 @@
    <note>
     <pitch>
      <step>B</step>
+     <alter>-1</alter>
      <octave>2</octave>
     </pitch>
     <duration>96</duration>
@@ -1898,7 +1882,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>192</duration>
@@ -2071,6 +2054,7 @@
    <note>
     <pitch>
      <step>B</step>
+     <alter>-1</alter>
      <octave>3</octave>
     </pitch>
     <duration>48</duration>
@@ -2107,7 +2091,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -2119,7 +2102,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -2131,7 +2113,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -2143,7 +2124,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -2327,6 +2307,7 @@
    <note>
     <pitch>
      <step>B</step>
+     <alter>-1</alter>
      <octave>3</octave>
     </pitch>
     <duration>48</duration>
@@ -2374,7 +2355,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -2386,7 +2366,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -2571,7 +2550,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -2597,7 +2575,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -2609,7 +2586,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -2621,7 +2597,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -2633,7 +2608,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>96</duration>
@@ -2776,6 +2750,7 @@
    <note>
     <pitch>
      <step>B</step>
+     <alter>-1</alter>
      <octave>3</octave>
     </pitch>
     <duration>48</duration>
@@ -2798,6 +2773,7 @@
    <note>
     <pitch>
      <step>B</step>
+     <alter>-1</alter>
      <octave>3</octave>
     </pitch>
     <duration>48</duration>
@@ -2856,7 +2832,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>192</duration>
@@ -2928,6 +2903,7 @@
    <note>
     <pitch>
      <step>B</step>
+     <alter>-1</alter>
      <octave>3</octave>
     </pitch>
     <duration>192</duration>
@@ -2953,6 +2929,7 @@
    <note>
     <pitch>
      <step>B</step>
+     <alter>-1</alter>
      <octave>2</octave>
     </pitch>
     <duration>192</duration>
@@ -2964,7 +2941,6 @@
    <note>
     <pitch>
      <step>F</step>
-     <alter>1</alter>
      <octave>3</octave>
     </pitch>
     <duration>192</duration>

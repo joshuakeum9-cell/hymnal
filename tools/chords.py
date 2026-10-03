@@ -129,15 +129,19 @@ def key_spelling(fifths: int) -> dict[int, tuple[str, int]]:
 
 
 def name_pc(pc: int, notes_in_window: list[Note], fifths: int) -> tuple[str, int]:
-    """Spell a pitch class the way the key does (Db, not C#, in A-flat); a note outside the key
-    keeps the score's own spelling (the F# of a D7 in C), else the key signature's side."""
+    """Spell a chord root the way the key does (Db, not C#, in A-flat); a root outside the key
+    takes its usual chart name: Bb, Eb, Ab and F# everywhere, C#, G# and D# only in keys with
+    enough sharps for them to be normal (C#7 in A, D#7 in E), never A#7 or Gb7 in G."""
     diatonic = key_spelling(fifths)
     if pc in diatonic:
         return diatonic[pc]
-    for n in notes_in_window:
-        if (STEP_PC[n.step] + n.alter) % 12 == pc:
-            return n.step, n.alter
-    return (FLAT_NAMES if fifths < 0 else SHARP_NAMES)[pc]
+    if pc == 1 and fifths >= 2:
+        return "C", 1
+    if pc == 8 and fifths >= 3:
+        return "G", 1
+    if pc == 3 and fifths >= 4:
+        return "D", 1
+    return {1: ("D", -1), 3: ("E", -1), 6: ("F", 1), 8: ("A", -1), 10: ("B", -1)}.get(pc, FLAT_NAMES[pc])
 
 
 def spell_from_root(root: tuple[str, int], pc: int) -> tuple[str, int]:
@@ -167,23 +171,78 @@ def spell_chord(chord, window: list[Note], fifths: int):
     return first, spell_from_root(first, bass) if bass is not None else None
 
 
-def chord_score(root: int, ki: int, weights: dict[int, float], bass_pc: int | None, scale: set[int]) -> float:
+class Key:
+    """The hymn's key and its chord family: the chords a band chart in this key is made of.
+    Major: I ii iii IV V(7) vi (in A: A Bm C#m D E E7 F#m). Minor: i iv v V(7) III VI VII.
+    A chord outside the family is written only when a note outside the key sounds in it and
+    belongs to it (the F# of D7 in C); otherwise the family chord that fits is written."""
+
+    def __init__(self, fifths: int, minor: bool):
+        self.minor = minor
+        self.tonic = (fifths * 7 + (9 if minor else 0)) % 12
+        t = self.tonic
+        if minor:
+            # natural minor plus the raised sixth and seventh of melodic and harmonic minor
+            self.scale = {(t + i) % 12 for i in (0, 2, 3, 5, 7, 8, 9, 10, 11)}
+            self.family = {(t, "minor"), ((t + 5) % 12, "minor"), ((t + 7) % 12, "minor"), ((t + 7) % 12, "major"),
+                           ((t + 7) % 12, "dominant"), ((t + 3) % 12, "major"), ((t + 8) % 12, "major"), ((t + 10) % 12, "major")}
+        else:
+            self.scale = {(t + i) % 12 for i in (0, 2, 4, 5, 7, 9, 11)}
+            self.family = {(t, "major"), ((t + 2) % 12, "minor"), ((t + 4) % 12, "minor"), ((t + 5) % 12, "major"),
+                           ((t + 7) % 12, "major"), ((t + 7) % 12, "dominant"), ((t + 9) % 12, "minor")}
+
+    def core(self, root: int, kind: str) -> tuple[int, str]:
+        """The chord a band plays for (root, kind): a seventh chord's triad, a diminished chord's
+        dominant (B-D-F is G7), as relabel() writes it."""
+        if kind in ("minor-seventh",):
+            return root, "minor"
+        if kind in ("major-seventh", "suspended-fourth", "augmented"):
+            return root, "major"
+        if kind in ("diminished", "diminished-seventh", "half-diminished"):
+            return (root - 4) % 12, "dominant"
+        return root, kind
+
+    def in_family(self, root: int, kind: str) -> bool:
+        r, k = self.core(root, kind)
+        return (r, k) in self.family or (k == "dominant" and (r, "major") in self.family and r == (self.tonic + 7) % 12)
+
+
+def chord_score(root: int, ki: int, weights: dict[int, float], bass_pc: int | None, scale: set[int], key: Key | None = None,
+                thin: bool = False) -> float:
     """How well (root, kind) explains the weighted pitch classes of a beat; higher is better."""
     total = sum(weights.values()) or 1
     _, _, tones, seventh = KINDS[ki]
+    score = 0.0
     pcs = {(root + t) % 12 for t in tones}
+    if key is not None and not key.in_family(root, KINDS[ki][0]):
+        # outside the key's chord family: allowed when a note outside the key sounds and belongs
+        # to this chord, which is what makes a chart write D7 in C; otherwise a family chord wins
+        demanded = any(pc not in key.scale and pc in pcs and w >= 0.1 * total for pc, w in weights.items())
+        score -= (0.04 if demanded else 0.45) * total
+    elif key is not None and key.core(root, KINDS[ki][0])[0] in (key.tonic, (key.tonic + 5) % 12, (key.tonic + 7) % 12):
+        # I, IV and V carry a hymn: where the notes fit two chords equally (A-C in F is F or Am),
+        # a chart writes the main one
+        score += 0.06 * total
     inside = sum(w for pc, w in weights.items() if pc in pcs)
     outside = sum(w for pc, w in weights.items() if pc not in pcs)
-    score = inside - 1.3 * outside
+    score += inside - 1.3 * outside
+
+    def present(pc):  # sounding enough to name a chord by (a faint passing note does not)
+        return weights.get(pc, 0) >= 0.08 * total
+
     third = (root + tones[1]) % 12
-    if third not in weights:
+    if not present(third):
         score -= 0.35 * total  # a chord is named by its third
         if third in scale:
             score += 0.05 * total  # a bare fifth or unison takes the key's own quality (Dm in D minor)
-    if (root + tones[2]) % 12 not in weights:
+    if not present((root + tones[2]) % 12):
         score -= 0.08 * total
-    if root not in weights:
-        score -= 0.5 * total
+    # two-part writing (an Amen in thirds): only two voices sound, so a chord's root may be unsung
+    two_notes = thin and sum(1 for w in weights.values() if w >= 0.08 * total) <= 2
+    primary = key is not None and key.core(root, KINDS[ki][0])[0] in (key.tonic, (key.tonic + 5) % 12, (key.tonic + 7) % 12)
+    if not present(root):
+        # with only two notes sounding (A-C) the root may simply be unsung: F in F, not Am
+        score -= (0.05 if two_notes and primary else 0.5) * total
     if seventh:
         sev = (root + tones[3]) % 12
         if weights.get(sev, 0) < 0.12 * total:
@@ -193,20 +252,20 @@ def chord_score(root: int, ki: int, weights: dict[int, float], bass_pc: int | No
         score -= 0.1 * total
     if KINDS[ki][0] == "suspended-fourth":
         score -= 0.12 * total
-    if bass_pc is not None and root == bass_pc:
-        score += 0.15 * total
+    if bass_pc is not None and root == bass_pc and not two_notes:
+        score += 0.15 * total  # (the lower of two voices is not a bass line)
     if root not in scale:
         score -= 0.06 * total
     return score
 
 
-def best_chord(weights: dict[int, float], bass_pc: int | None, fifths: int):
+def best_chord(weights: dict[int, float], bass_pc: int | None, fifths: int, key: Key | None = None, thin: bool = False):
     """Choose (root pc, kind index) that best explains the weighted pitch classes, with its score."""
     scale = {(fifths * 7 + i) % 12 for i in (0, 2, 4, 5, 7, 9, 11)}  # major scale of the key
     best, best_score = None, -1e9
     for root in range(12):
         for ki in range(len(KINDS)):
-            score = chord_score(root, ki, weights, bass_pc, scale)
+            score = chord_score(root, ki, weights, bass_pc, scale, key, thin)
             if score > best_score:
                 best, best_score = (root, ki), score
     return best, best_score
@@ -215,8 +274,9 @@ def best_chord(weights: dict[int, float], bass_pc: int | None, fifths: int):
 KIND_TONES = {kind: tones for kind, _, tones, _ in KINDS}
 
 
-def relabel(root_pc: int, kind: str, bass_pc: int, melody_pc: int | None = None, sounding: set[int] = frozenset()) -> tuple[int, str]:
-    """Name a chord the way a hymn band chart does."""
+def relabel(root_pc: int, kind: str, bass_pc: int, melody_pc: int | None = None, sounding: set[int] = frozenset(),
+            key: Key | None = None) -> tuple[int, str]:
+    """Name a chord the way a hymn band chart does: only major, minor and seventh chords."""
     over_third = (bass_pc - root_pc) % 12 == 3
     if kind == "suspended-fourth" and sounding and (root_pc + 7) % 12 not in sounding:
         # a bare fourth with no fifth (Eb-Ab at a final cadence) is the chord a fourth up over its
@@ -225,25 +285,44 @@ def relabel(root_pc: int, kind: str, bass_pc: int, melody_pc: int | None = None,
     if kind == "minor-seventh" and over_third:
         # D-F-A-C over F is exactly F6: charts write F, not Dm7/F
         return bass_pc, "major"
-    if kind == "minor" and over_third and melody_pc == root_pc:
+    if kind == "minor" and over_third and not (key and key.minor and root_pc == key.tonic) and (
+            melody_pc == root_pc or (key and not key.minor and bass_pc == key.tonic)):
         # a minor chord over its own third with its root in the melody (Bb over Db-F) is the major
-        # chord with the melody on its sixth: charts write Db; with the sixth in an inner voice
-        # the minor chord stands (Am/C)
+        # chord with the melody on its sixth: charts write Db. Over the key's own tonic (G-B-E in
+        # G, the last chord of 85) it is always the tonic chord: G, never Em/G. Otherwise, with the
+        # sixth in an inner voice, the minor chord stands (Am/C)
         return bass_pc, "major"
     if kind == "suspended-fourth" and (bass_pc - root_pc) % 12 == 5:
         # C-F-G over F is F with a passing ninth above its bass, not C: the bass is the root
         return bass_pc, "major"
-    if kind == "diminished":
-        # a diminished triad in a hymn is almost always a dominant seventh without its root
-        # (B-D-F under G7); band charts write G7
-        return (root_pc - 4) % 12, "dominant"
     if kind in ("suspended-fourth", "major-seventh", "augmented"):
         # a 4-3 suspension resolves to the triad, a major seventh or a raised fifth is a
         # passing tone; a hymn chart writes the plain chord (C, not Csus4, Cmaj7 or C+)
         return root_pc, "major"
-    if kind == "half-diminished" and (bass_pc - root_pc) % 12 == 3:
-        # B-D-F-A over D is D minor with an added sixth; charts write Dm
-        return bass_pc, "minor"
+    if kind == "minor-seventh":
+        return root_pc, "minor"  # the seventh is a passing note in a hymn: Am, not Am7
+    if kind == "half-diminished":
+        if over_third or (key and (((root_pc + 3) % 12, "minor") in key.family) and (key.minor or bass_pc == (root_pc + 3) % 12)):
+            # B-D-F-A in A minor (or over D) is D minor with an added sixth: the family's iv, Dm
+            return (root_pc + 3) % 12, "minor"
+        return (root_pc - 4) % 12, "dominant"  # C#-E-G-B in D is A7 without its root
+    if kind == "diminished":
+        # a diminished triad in a hymn is almost always a dominant seventh without its root
+        # (B-D-F under G7); band charts write G7
+        return (root_pc - 4) % 12, "dominant"
+    if kind == "diminished-seventh":
+        # a diminished seventh is a dominant seventh with a flat ninth over a missing root; its four
+        # notes could each be the leading note, so take the one that leads to the tonic, else to a
+        # family chord through a note outside the key (C#dim7 in C leads to Dm: A7)
+        tones = [(root_pc + i) % 12 for i in (0, 3, 6, 9)]
+        if key:
+            for t in tones:
+                if (t + 1) % 12 == key.tonic:
+                    return (t - 4) % 12, "dominant"
+            for t in tones:
+                if t not in key.scale and any(((t + 1) % 12, k) in key.family for k in ("major", "minor")):
+                    return (t - 4) % 12, "dominant"
+        return (root_pc - 4) % 12, "dominant"
     return root_pc, kind
 
 
@@ -263,13 +342,55 @@ def analyse(root):
     out = []
     prev = None      # the chord last written: (root pc, kind, slash bass pc or None)
     prev_raw = None  # its analysis before relabelling: (root pc, kind index), for scoring later beats
+    minor = root.findtext(".//key/mode") == "minor"
+    last_measure = measures[-1][0] if measures else None
+    by_voice: dict[tuple[str, str], list[Note]] = {}
+    for n in notes:
+        by_voice.setdefault((n.staff, n.voice), []).append(n)
+
+    def ornament(n: Note) -> bool:
+        """A note a step away from the same note on both sides (B-A#-B), or stepping through
+        (C-C#-D), in its own voice: decoration, not harmony."""
+        seq = by_voice[(n.staff, n.voice)]
+        before = [x for x in seq if x.end == n.start and x.start < n.start]
+        after = [x for x in seq if x.start == n.end]
+        if len(before) != 1 or len(after) != 1 or len([x for x in seq if x.start == n.start]) != 1:
+            return False
+        a, b = before[0].midi, after[0].midi
+        step = lambda x, y: 1 <= abs(x - y) <= 2
+        return step(a, n.midi) and step(n.midi, b) and (a == b or (a < n.midi < b) or (a > n.midi > b))
     for m, t0, length, beat, fifths in measures:
         scale = {(fifths * 7 + i) % 12 for i in (0, 2, 4, 5, 7, 9, 11)}
+        key = Key(fifths, minor)
+        pickup = m.get("implicit") == "yes"
         t = t0
         while t < t0 + length - Fraction(1, 64):
             w_end = min(t + beat, t0 + length)
             window = [n for n in notes if n.start < w_end and n.end > t]
             voices = {(n.staff, n.voice) for n in window}
+            if window and m is last_measure and is_unison(window) and all(n.midi % 12 == key.tonic for n in window):
+                # a hymn ending on the tonic in unison ends on the tonic chord, not on the last
+                # chord before the unison (107)
+                tonic = (key.tonic, "minor" if key.minor else "major", None)
+                anchors = [n for n in notes if n.start == t and n.staff == "1"]
+                if tonic != prev and anchors:
+                    r, b = spell_chord(tonic, window, fifths)
+                    out.append((t, m, min(anchors, key=lambda n: -n.midi).el, r, tonic[1], b))
+                    prev, prev_raw = tonic, (key.tonic, 1 if key.minor else 0)
+                t = w_end
+                continue
+            if window and not out and (len(voices) < 2 or is_unison(window)):
+                # a hymn opening in unison or with the melody alone (172, 359) starts on the key's
+                # own chord when it opens on a note of it: the chart begins in the key
+                first = [n for n in notes if n.start == t and n.staff == "1"]
+                triad = {(key.tonic + i) % 12 for i in ((0, 3, 7) if key.minor else (0, 4, 7))}
+                if first and all(n.midi % 12 in triad for n in window if n.start <= t < n.end):
+                    tonic = (key.tonic, "minor" if key.minor else "major", None)
+                    r, b = spell_chord(tonic, window, fifths)
+                    out.append((t, m, max(first, key=lambda n: n.midi).el, r, tonic[1], b))
+                    prev, prev_raw = tonic, (key.tonic, 1 if key.minor else 0)
+                t = w_end
+                continue
             if not window or len(voices) < 2 or is_unison(window):
                 # a rest, a melody alone (a pickup, a solo bar) or a unison line sets no chord
                 t = w_end
@@ -282,14 +403,17 @@ def analyse(root):
                 if n.start < t:
                     ov *= 0.8  # held over from before
                 pc = n.midi % 12
+                if pc not in key.scale and ornament(n):
+                    ov *= 0.1  # a chromatic neighbour or passing note does not make a chromatic chord
                 weights[pc] = weights.get(pc, 0) + ov
             total = sum(weights.values())
             at_beat = [n for n in window if n.start <= t < n.end]
             bass_note = min(at_beat or window, key=lambda n: n.midi)
             bass_pc = bass_note.midi % 12
             top = max(at_beat or window, key=lambda n: n.midi)
-            (raw_root, raw_ki), best_score = best_chord(weights, bass_pc, fifths)
-            root_pc, kind = relabel(raw_root, KINDS[raw_ki][0], bass_pc, top.midi % 12, set(weights))
+            thin = len({(n.staff, n.voice) for n in at_beat or window}) <= 2
+            (raw_root, raw_ki), best_score = best_chord(weights, bass_pc, fifths, key, thin)
+            root_pc, kind = relabel(raw_root, KINDS[raw_ki][0], bass_pc, top.midi % 12, set(weights), key)
             tones = {(root_pc + i) % 12 for i in KIND_TONES[kind]}
             # a slash names an inversion the bass holds (struck again on the same note counts); a
             # bass outside the chord, or one walking on within the beat, is a passing note
@@ -305,7 +429,7 @@ def analyse(root):
                 # explains this beat nearly as well as the best chord does (passing notes, a bass
                 # holding the old root under moving upper voices). Both are judged by the same score,
                 # so a seventh chord cannot swallow a later plain triad (Em7 is not G-B-D).
-                prev_score = chord_score(prev_raw[0], prev_raw[1], weights, bass_pc, scale)
+                prev_score = chord_score(prev_raw[0], prev_raw[1], weights, bass_pc, scale, key, thin)
                 margin = (0.15 if strong else 0.3) * total
                 if prev_score >= best_score - margin:
                     chord, raw = prev, prev_raw
@@ -321,6 +445,11 @@ def analyse(root):
                     chord = prev
             # the top staff must start a note here, so the letter sits above the melody
             anchors = [n for n in notes if n.start == t and n.staff == "1"]
+            if pickup and prev is None and chord[0] != key.tonic:
+                # the first letter a band sees is the key's own chord: a pickup harmonised on
+                # another chord gets no letter, and the chart starts at the first full bar
+                t = w_end
+                continue
             if chord != prev and anchors:
                 anchor = min(anchors, key=lambda n: -n.midi).el
                 r, b = spell_chord(chord, window, fifths)
@@ -329,6 +458,29 @@ def analyse(root):
             # with no note starting on the top staff the harmony moves under a held melody note:
             # the previous letter stays
             t = w_end
+    # the last chord a band plays must be named right even when it is struck off the beat (230
+    # ends on a D chord struck on the half beat, which the beat-by-beat reading never names)
+    tops = [n for n in notes if n.staff == "1"]
+    if tops and measures and out:
+        end = max(n.start for n in tops)
+        final = [n for n in notes if n.start <= end < n.end]
+        if len({n.midi % 12 for n in final}) >= 2:
+            fifths = measures[-1][4]
+            key = Key(fifths, minor)
+            weights = {}
+            for n in final:
+                weights[n.midi % 12] = weights.get(n.midi % 12, 0) + 1.0
+            bass = min(final, key=lambda n: n.midi)
+            (r, ki), _ = best_chord(weights, bass.midi % 12, fifths, key, len({(n.staff, n.voice) for n in final}) <= 2)
+            r, kind = relabel(r, KINDS[ki][0], bass.midi % 12, max(final, key=lambda n: n.midi).midi % 12, set(weights), key)
+            tones = {(r + i) % 12 for i in KIND_TONES[kind]}
+            chord = (r, kind, bass.midi % 12 if bass.midi % 12 != r and bass.midi % 12 in tones else None)
+            if chord[:2] != prev[:2]:
+                anchor = max((n for n in tops if n.start == end), key=lambda n: n.midi)
+                rs, bs = spell_chord(chord, final, fifths)
+                if out[-1][0] == end:
+                    out.pop()  # a letter already on this note was the wrong one
+                out.append((end, measures[-1][0] if anchor.el.getparent() is measures[-1][0] else anchor.el.getparent(), anchor.el, rs, kind, bs))
     return out
 
 

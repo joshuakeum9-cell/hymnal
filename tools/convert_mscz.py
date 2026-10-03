@@ -39,7 +39,15 @@ KEY_OVERRIDES = {
     # treble has no key signature and never uses B-flat; bass says one flat. A minor per the
     # independent key table (praisenworship.biblia66.com/15) and the notes themselves.
     145: (0, "minor"),
+    # printed without a signature (and listed as C), but the music opens and closes on D minor: with
+    # D minor's signature the app's key button says Dm, so asking for a key gives that key
+    519: (-1, "minor"),
 }
+# bass staves typed by position on a treble-clef staff: every note sits on the line or space the
+# printed bass part has, but read in the wrong clef (a sixth too high and a letter off). Moving each
+# note to the same line in bass clef takes 139 from 28 of 67 beats out of harmony to 2, and 394 from
+# 25 of 59 to 9; both then open and close in their listed keys (C minor, A-flat). No other hymn gains
+WRONG_CLEF_STAVES = {139: 1, 394: 1}
 # staff entered under the wrong key signature: (hymn, staff index) -> {wrong pitch class: semitones}.
 # 54's bass staff was typed in G major under an F major treble, so every F sounds F# and every
 # B-flat sounds B (41 F#, 17 B, no F or B-flat in the bass; the treble has no accidentals at all)
@@ -666,6 +674,33 @@ def apply_fixes(number: int, parsed: dict) -> list[str]:
                         fixed += 1
                     ev.notes.sort(key=lambda d: d["pitch"])
         changes.append(f"staff transposition removed on staves {sorted(parsed['respell'])}: {fixed} notes moved to the written pitch")
+    if number in WRONG_CLEF_STAVES and measures:
+        s_fix = WRONG_CLEF_STAVES[number]
+        fifths = (measures[0].key or (0, "major"))[0]
+        signature = {s: (1 if fifths > 0 and s in "FCGDAEB"[:fifths] else -1 if fifths < 0 and s in "BEADGCF"[:-fifths] else 0)
+                     for s in "CDEFGAB"}
+        moved = 0
+        for M in measures:
+            if s_fix in M.clefs:
+                M.clefs[s_fix] = "F"
+            for (s_idx, _v), events in M.streams.items():
+                if s_idx != s_fix:
+                    continue
+                for ev in events:
+                    for nd in ev.notes:
+                        step, alter, octave = pitch_xml(nd["pitch"], nd["tpc"])
+                        deviation = alter - signature[step]  # an accidental the transcriber wrote stays
+                        d = "CDEFGAB".index(step) + 7 * octave - 12  # same line, bass clef
+                        step, octave = "CDEFGAB"[d % 7], d // 7
+                        alter = signature[step] + deviation
+                        nd["pitch"] = (octave + 1) * 12 + "C D EF G A B".index(step) + alter
+                        nd["tpc"] = FIFTHS_STEPS.index(step) - 1 + 7 * (alter + 2)
+                        nd["tpc2"] = None
+                        nd["acc"] = None
+                        moved += 1
+                    ev.notes.sort(key=lambda d: d["pitch"])
+        measures[0].clefs[s_fix] = "F"
+        changes.append(f"staff {s_fix + 1} was typed in treble clef from a bass-clef part: {moved} notes moved to their bass-clef pitches")
     for (hymn, s_fix), moves in STAFF_PITCH_FIXES.items():
         if hymn != number:
             continue

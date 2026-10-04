@@ -67,6 +67,8 @@ const STR = {
   'print': { ko: '인쇄', en: 'Print' },
   'dark': { ko: '어두운 화면', en: 'Dark pages for the stage' },
   'light': { ko: '밝은 화면', en: 'Light pages' },
+  'fit': { ko: '한 화면에 보기', en: 'Whole hymn on one screen' },
+  'fit.exit': { ko: '한 화면 보기 닫기', en: 'Leave the one-screen view' },
   'noenglish': {
     ko: '이 찬송은 아직 영어 가사가 없어 가사 없이 악보만 보입니다.',
     en: 'English words are not available for this hymn yet, so the music shows without words.',

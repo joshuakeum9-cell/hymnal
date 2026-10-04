@@ -11,6 +11,7 @@ export type Prefs = {
   oldNumbers: boolean // search box expects 통일찬송가 numbers
   paper: 'letter' | 'a4'
   chords: boolean     // chord letters above the music
+  fit?: boolean       // the whole hymn scaled onto one screen, no scrolling
   lang?: 'ko' | 'en'  // interface language; unset until chosen on the first visit
   recent: number[]
   setList: SetItem[]

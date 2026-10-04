@@ -101,7 +101,7 @@ export type SystemBox = { top: number; bottom: number; measures: number }
 /** systems are in the SVG's viewBox units; viewWidth is the viewBox width */
 export type RenderResult = { svg: string; ms: number; cached: boolean; systems: SystemBox[]; viewWidth: number }
 
-const ENGINE_VERSION = 'osmd-2.1.3-r32'
+const ENGINE_VERSION = 'osmd-2.1.3-r33'
 const memory = new Map<string, string>()
 const MEMORY_MAX = 30
 const IDB_MAX = 80
@@ -531,6 +531,13 @@ class Renderer {
       r.LyricsHeight = 1.8
       r.ChordSymbolTextHeight = 1.7
       r.VerticalBetweenLyricsDistance = 0.3
+    } else {
+      // screen: words and chord letters in bold black, readable on a phone on a music stand (the
+      // layout measures the bold letters, so words still keep apart)
+      r.DefaultFontStyle = 1 // FontStyles.Bold
+      r.DefaultColorLyrics = '#000000'
+      r.DefaultColorChordSymbol = '#000000'
+      r.DefaultColorLabel = '#000000'
     }
     this.osmd = osmd
     if (import.meta.env.DEV) (window as any)[`__osmd_${this.format}`] = osmd

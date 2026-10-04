@@ -6,7 +6,7 @@ import { getPrefs, pushRecent, setPrefs, subscribe } from '../store'
 import { go, hymnHash } from '../route'
 import { KeySheet } from './KeySheet'
 import { printHymns, printNow } from '../print'
-import { KeyName, IconBack, IconCheck, IconClose, IconListAdd, IconMoon, IconNext, IconPrint, IconSun, IconZoomIn, IconZoomOut } from '../icons'
+import { KeyName, IconBack, IconCheck, IconClose, IconExpand, IconListAdd, IconMoon, IconNext, IconPrint, IconSun, IconZoomIn, IconZoomOut } from '../icons'
 import { F, creditText, themeText, titles, useT, type Key as TKey } from '../i18n'
 
 const MODES: { id: LyricMode; label: TKey; title: TKey }[] = [
@@ -38,6 +38,19 @@ function useWidth(el: { current: HTMLElement | null }): number {
     return () => ro.disconnect()
   }, [el.current])
   return w
+}
+
+/** The drawn size of an OSMD SVG, from its viewBox (or its width and height). */
+function svgSize(svg: string): { w: number; h: number } {
+  const head = svg.slice(0, svg.indexOf('>', svg.indexOf('<svg')) + 1)
+  const vb = head.match(/viewBox="([\d.\s,-]+)"/)
+  if (vb) {
+    const [, , w, h] = vb[1].split(/[\s,]+/).map(Number)
+    if (w > 0 && h > 0) return { w, h }
+  }
+  const w = Number(head.match(/\swidth="([\d.]+)/)?.[1] ?? 1000)
+  const h = Number(head.match(/\sheight="([\d.]+)/)?.[1] ?? 1000)
+  return { w, h }
 }
 
 /** Staff size for the column width: about two measures a line on a phone, four on an iPad. */
@@ -126,34 +139,50 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
 
   // render
   const [vh, setVh] = useState(window.innerHeight)
+  const [vw, setVw] = useState(window.innerWidth)
   useEffect(() => {
-    const on = () => setVh(window.innerHeight)
+    const on = () => { setVh(window.innerHeight); setVw(window.innerWidth) }
     window.addEventListener('resize', on)
     return () => window.removeEventListener('resize', on)
   }, [])
   const chords = prefs.chords !== false
+  const fit = !!prefs.fit
   const zoom = Math.round(baseZoom(width, vh > 0 ? vh : 0) * prefs.zoom * 100) / 100
   useEffect(() => {
     if (!hymn || !row?.f || width < 100) return
     const my = ++token.current
-    const cacheKey = `${n}|${row.f}|${delta}|${mode}|${chords}|${width}|${zoom}|screen`
     let cancelled = false
     setError(null)
-    ;(async () => {
+    const draw = async (w: number, z: number): Promise<string | null> => {
+      const cacheKey = `${n}|${row.f}|${delta}|${mode}|${chords}|${w}|${z}|screen`
       const hit = await cachedSvg(cacheKey)
-      if (cancelled || my !== token.current) return
-      if (hit) {
-        setSvg(hit)
-        setBusy(false)
-        return
-      }
+      if (cancelled || my !== token.current) return null
+      if (hit) return hit
       setBusy(true)
+      const res = await screenRenderer().render({ cacheKey, xml: hymn.xml, mode, chords, delta, width: w, zoom: z })
+      if (!res.cached) console.info(`[hymnal] ${n} rendered in ${res.ms} ms (key ${key}, ${mode}, ${w}px)`)
+      return res.svg
+    }
+    ;(async () => {
       try {
-        const res = await screenRenderer().render({ cacheKey, xml: hymn.xml, mode, chords, delta, width, zoom })
-        if (my === token.current) {
-          setSvg(res.svg)
+        let out: string | null
+        if (fit) {
+          // one screen: lay the hymn out at the width whose page best fills this screen, then scale
+          // it to fit. A first layout at 1000px gives the music's area; a page that is w wide is
+          // then about area / w tall, and the scale min(vw / w, vh * w / area) is largest at
+          // w = sqrt(area * vw / vh)
+          const probe = await draw(1000, 1)
+          if (!probe) return
+          const p = svgSize(probe)
+          const best = Math.sqrt((p.w * p.h * vw) / Math.max(vh, 1))
+          const w = Math.round(Math.min(3000, Math.max(600, best)) / 50) * 50
+          out = Math.abs(w - 1000) < 50 ? probe : await draw(w, 1)
+        } else {
+          out = await draw(width, zoom)
+        }
+        if (out && my === token.current) {
+          setSvg(out)
           setError(null)
-          if (!res.cached) console.info(`[hymnal] ${n} rendered in ${res.ms} ms (key ${key}, ${mode}, ${width}px)`)
         }
       } catch (e) {
         if (my === token.current) setError(String((e as Error).message ?? e))
@@ -165,7 +194,29 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
       cancelled = true
       setBusy(false)
     }
-  }, [hymn, row?.f, delta, mode, chords, width, zoom])
+  }, [hymn, row?.f, delta, mode, chords, width, zoom, fit, fit ? vw : 0, fit ? vh : 0])
+
+  // the one-screen view uses the whole screen where the device allows it (not iPhone Safari,
+  // where it fills the window instead); Escape leaves it
+  const setFit = (on: boolean) => {
+    setPrefs({ fit: on })
+    try {
+      if (on) document.documentElement.requestFullscreen?.().catch(() => {})
+      else if (document.fullscreenElement) document.exitFullscreen?.().catch(() => {})
+    } catch { /* no fullscreen API */ }
+  }
+  useEffect(() => {
+    if (!fit) return
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setFit(false) }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [fit])
+  const fitSize = (() => {
+    if (!fit || !svg) return null
+    const s = svgSize(svg)
+    const scale = Math.min(vw / s.w, (vh - 52) / s.h) // a strip at the bottom for the buttons
+    return { w: Math.floor(s.w * scale), h: Math.floor(s.h * scale) }
+  })()
 
   // neighbours
   const setIdx = inSet ? prefs.setList.findIndex(i => i.n === n) : -1
@@ -305,6 +356,7 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
                 title={chords ? t('chords.hide') : t('chords.show')}>
                 {t('chords')}
               </button>
+              <button class="icon-btn" aria-label={t('fit')} title={t('fit')} onClick={() => setFit(true)} disabled={!hymn}><IconExpand /></button>
               <button class="icon-btn" aria-label={t('print')} title={t('print')} onClick={doPrint} disabled={!hymn || printing}><IconPrint /></button>
               <button class="icon-btn" aria-label={prefs.dark ? t('light') : t('dark')} title={prefs.dark ? t('light') : t('dark')} onClick={() => setPrefs({ dark: !prefs.dark })}>
                 {prefs.dark ? <IconSun /> : <IconMoon />}
@@ -317,6 +369,16 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
           <div class={`score ${busy ? 'is-busy' : ''} ${prefs.dark ? 'is-dark' : ''}`} ref={scoreRef} aria-busy={busy}>
             {error ? (
               <div class="notice"><p>{t('draw.error')} {error}</p></div>
+            ) : svg && fitSize ? (
+              <div class="fit-view">
+                <div class="score-svg fit-svg" style={{ width: `${fitSize.w}px`, height: `${fitSize.h}px` }} role="img"
+                  aria-label={`Music for hymn ${n} in ${keyLabel(key, minor)}`} dangerouslySetInnerHTML={{ __html: svg }} />
+                <div class="fit-controls">
+                  {prevHash ? <a class="icon-btn" href={prevHash} aria-label={t('pager')}><IconBack /></a> : null}
+                  {nextHash ? <a class="icon-btn" href={nextHash} aria-label={t('pager')}><IconNext /></a> : null}
+                  <button class="icon-btn" onClick={() => setFit(false)} aria-label={t('fit.exit')} title={t('fit.exit')}><IconClose /></button>
+                </div>
+              </div>
             ) : svg ? (
               <div class="score-svg" role="img" aria-label={`Music for hymn ${n} in ${keyLabel(key, minor)}`} dangerouslySetInnerHTML={{ __html: svg }} />
             ) : (

@@ -7,7 +7,21 @@ type Engine = typeof import('opensheetmusicdisplay')
 
 let enginePromise: Promise<Engine> | null = null
 export function loadEngine(): Promise<Engine> {
-  enginePromise ??= import('opensheetmusicdisplay')
+  enginePromise ??= import('opensheetmusicdisplay').then(m => {
+    // Barlines stop at each staff, as in the printed hymnal: OSMD joins the treble and bass staves
+    // with a connector at every barline, which runs down through the lyrics between them. Each staff
+    // draws its own barline anyway, so keep only the line that opens a system (VexFlow
+    // StaveConnector type SINGLE_LEFT = 1) and drop the rest.
+    const proto = (m as any).VexFlowMeasure?.prototype
+    if (proto?.lineTo && !proto.__hymnalBarlines) {
+      const lineTo = proto.lineTo
+      proto.lineTo = function (this: any, other: any, type: number, shift?: number) {
+        if (type === 1) return lineTo.call(this, other, type, shift)
+      }
+      proto.__hymnalBarlines = true
+    }
+    return m
+  })
   return enginePromise
 }
 
@@ -40,7 +54,7 @@ export type SystemBox = { top: number; bottom: number; measures: number }
 /** systems are in the SVG's viewBox units; viewWidth is the viewBox width */
 export type RenderResult = { svg: string; ms: number; cached: boolean; systems: SystemBox[]; viewWidth: number }
 
-const ENGINE_VERSION = 'osmd-2.1.3-r30'
+const ENGINE_VERSION = 'osmd-2.1.3-r31'
 const memory = new Map<string, string>()
 const MEMORY_MAX = 30
 const IDB_MAX = 80

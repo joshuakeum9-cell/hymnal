@@ -16,6 +16,7 @@ Usage: python tools/chords.py 405          (prints the chords of one hymn, for c
 """
 from __future__ import annotations
 
+import collections
 import sys
 from dataclasses import dataclass
 from fractions import Fraction
@@ -148,7 +149,7 @@ def spell_from_root(root: tuple[str, int], pc: int) -> tuple[str, int]:
     """Spell a chord tone from the chord's root: the third of F is A, its fifth C (never B#)."""
     letters = "CDEFGAB"
     interval = (pc - STEP_PC[root[0]] - root[1]) % 12
-    steps = {0: 0, 3: 2, 4: 2, 6: 4, 7: 4, 8: 4, 9: 6, 10: 6, 11: 6}.get(interval, 0)
+    steps = {0: 0, 1: 1, 2: 1, 3: 2, 4: 2, 5: 3, 6: 4, 7: 4, 8: 4, 9: 6, 10: 6, 11: 6}.get(interval, 0)
     step = letters[(letters.index(root[0]) + steps) % 7]
     return step, (pc - STEP_PC[step] + 6) % 12 - 6
 
@@ -166,6 +167,8 @@ def spell_chord(chord, window: list[Note], fifths: int):
         options += [SHARP_NAMES[pc], FLAT_NAMES[pc]]
     for r in options:
         b = spell_from_root(r, bass) if bass is not None else None
+        if odd(b) and not odd(r):
+            b = name_pc(bass, window, fifths)  # a bass outside the chord takes its plain name: Bb/B, not Bb/Cb
         if not odd(r) and not odd(b):
             return r, b
     return first, spell_from_root(first, bass) if bass is not None else None
@@ -275,7 +278,7 @@ KIND_TONES = {kind: tones for kind, _, tones, _ in KINDS}
 
 
 def relabel(root_pc: int, kind: str, bass_pc: int, melody_pc: int | None = None, sounding: set[int] = frozenset(),
-            key: Key | None = None) -> tuple[int, str]:
+            key: Key | None = None, doubled: set[int] = frozenset()) -> tuple[int, str]:
     """Name a chord the way a hymn band chart does: only major, minor and seventh chords."""
     over_third = (bass_pc - root_pc) % 12 == 3
     if kind == "suspended-fourth" and sounding and (root_pc + 7) % 12 not in sounding:
@@ -285,7 +288,7 @@ def relabel(root_pc: int, kind: str, bass_pc: int, melody_pc: int | None = None,
     if kind == "minor-seventh" and over_third:
         # D-F-A-C over F is exactly F6: charts write F, not Dm7/F
         return bass_pc, "major"
-    if kind == "minor" and over_third and not (key and key.minor and root_pc == key.tonic) and (
+    if kind == "minor" and over_third and root_pc not in doubled and not (key and key.minor and root_pc == key.tonic) and (
             melody_pc == root_pc or (key and not key.minor and bass_pc == key.tonic)):
         # a minor chord over its own third with its root in the melody (Bb over Db-F) is the major
         # chord with the melody on its sixth: charts write Db. Over the key's own tonic (G-B-E in
@@ -413,7 +416,22 @@ def analyse(root):
             top = max(at_beat or window, key=lambda n: n.midi)
             thin = len({(n.staff, n.voice) for n in at_beat or window}) <= 2
             (raw_root, raw_ki), best_score = best_chord(weights, bass_pc, fifths, key, thin)
-            root_pc, kind = relabel(raw_root, KINDS[raw_ki][0], bass_pc, top.midi % 12, set(weights), key)
+            # the melody's own note, when no other voice sings it (a sixth sung by two voices is the
+            # minor chord's root, not an added sixth over the major chord)
+            # voices on the very same pitch (a piano part doubling the melody) are one line, not two
+            pitches = {n.midi for n in (at_beat or window)}
+            melody = top.midi % 12 if sum(1 for x in pitches if x % 12 == top.midi % 12) == 1 else None
+            sung = collections.Counter(x % 12 for x in pitches)
+            doubled = {pc for pc, c in sung.items() if c >= 2}
+            root_pc, kind = relabel(raw_root, KINDS[raw_ki][0], bass_pc, melody, set(weights), key, doubled)
+            if KINDS[raw_ki][0] == "minor-seventh" and kind == "minor" and root_pc == raw_root:
+                seventh = (root_pc + 10) % 12
+                if sum(1 for x in pitches if x % 12 == seventh) >= 2 or weights.get(seventh, 0) >= 0.25 * total:
+                    kind = "minor-seventh"  # a seventh two voices sing (G under A-C-E four times over) is Am7
+            if KINDS[raw_ki][0] == "major-seventh" and kind == "major" and root_pc == raw_root:
+                seventh = (root_pc + 11) % 12
+                if sum(1 for x in pitches if x % 12 == seventh) >= 2:
+                    kind = "major-seventh"  # likewise a major seventh two voices sing: Cmaj7
             tones = {(root_pc + i) % 12 for i in KIND_TONES[kind]}
             # a slash names an inversion the bass holds (struck again on the same note counts); a
             # bass outside the chord, or one walking on within the beat, is a passing note
@@ -421,6 +439,16 @@ def analyse(root):
                 return min((n for n in window if n.start <= s < n.end), key=lambda n: n.midi, default=bass_note)
             onsets = {n.start for n in window if n.start > t} | {t}
             held = all(lowest_at(s).midi % 12 == bass_pc for s in onsets)
+            if held and kind in ("major", "minor") and bass_pc == (root_pc + 10) % 12 and weights.get(bass_pc, 0) >= 0.1 * total:
+                # the seventh in the bass (G-Bb-D over F, C-E-G over Bb) is written as a slash so the
+                # bass player plays it: Gm/F, C7/Bb
+                if kind == "major":
+                    kind = "dominant"
+                tones = {(root_pc + i) % 12 for i in KIND_TONES[kind]} | {bass_pc}
+            if held and bass_pc not in tones and not ornament(bass_note) and weights.get(bass_pc, 0) >= 0.15 * total:
+                # a bass held under a chord it is not part of (F-A-C over G, D7 over a G pedal, C over a
+                # held F) is written over it, F/G, D7/G, C/F, so the bass player plays the note that is there
+                tones = tones | {bass_pc}
             chord = (root_pc, kind, bass_pc if bass_pc != root_pc and bass_pc in tones and held else None)
             raw = (raw_root, raw_ki)
             strong = ((t - t0) % (2 * beat)) == 0

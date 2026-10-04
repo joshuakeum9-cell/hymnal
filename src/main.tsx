@@ -75,7 +75,9 @@ function App() {
 
   let view
   switch (route.name) {
-    case 'hymn': view = <HymnView key={route.n} n={route.n} params={route.params} />; break
+    // a fresh page per hymn, except in the one-screen view, which keeps its page up while it turns
+    // to the next hymn, like a book (HymnView resets itself when the number changes)
+    case 'hymn': view = <HymnView key={getPrefs().fit ? 'one-screen' : route.n} n={route.n} params={route.params} />; break
     case 'old': view = <OldNumber o={route.o} />; break
     case 'set': view = <SetListView params={route.params} />; break
     case 'about': view = <AboutView />; break

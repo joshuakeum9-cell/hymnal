@@ -44,6 +44,22 @@ const MAX_FIT_LINES = 4 // the one-screen view: treble and bass pairs per page, 
 
 type Draw = (width: number, zoom: number, mode?: LyricMode, text?: number) => Promise<string | null>
 
+/** Draws one hymn (or takes it from the cache): the screen view, the one-screen view and the
+ *  one-screen prefetch all use this, so a page prefetched is found under the same cache key. */
+function makeDraw(o: { n: number; f: string; xml: string; delta: number; chords: boolean; mode: LyricMode;
+  stopped: () => boolean; onDrawing?: () => void }): Draw {
+  return async (w, z, m = o.mode, text = 1) => {
+    const cacheKey = `${o.n}|${o.f}|${o.delta}|${m}|${o.chords}|${w}|${z}|screen${text !== 1 ? `|text${text}` : ''}`
+    const hit = await cachedSvg(cacheKey)
+    if (o.stopped()) return null
+    if (hit) return hit
+    o.onDrawing?.()
+    const res = await screenRenderer().render({ cacheKey, xml: o.xml, mode: m, chords: o.chords, delta: o.delta, width: w, zoom: z, text })
+    if (!res.cached) console.info(`[hymnal] ${o.n} rendered in ${res.ms} ms (${m}, ${w}px)`)
+    return o.stopped() ? null : res.svg
+  }
+}
+
 /**
  * The one-screen view: choose how many lines of music the page has, lay it out, return the drawing.
  *
@@ -233,7 +249,11 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
     let alive = true
     setHymn(null)
     setError(null)
-    setSvg('')
+    setSheetOpen(false)
+    setPrintReady(false)
+    // the one-screen view turns pages like a book: the page stays up (dimmed while the next one is
+    // drawn, which the prefetch below usually makes instant) instead of dropping back to "loading"
+    if (!getPrefs().fit) setSvg('')
     loadIndex().then(() => {
       if (!alive) return
       const r = rowFor(n) ?? null
@@ -299,16 +319,8 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
     const my = ++token.current
     let cancelled = false
     setError(null)
-    const draw = async (w: number, z: number, m: LyricMode = mode, text = 1): Promise<string | null> => {
-      const cacheKey = `${n}|${row.f}|${delta}|${m}|${chords}|${w}|${z}|screen${text !== 1 ? `|text${text}` : ''}`
-      const hit = await cachedSvg(cacheKey)
-      if (cancelled || my !== token.current) return null
-      if (hit) return hit
-      setBusy(true)
-      const res = await screenRenderer().render({ cacheKey, xml: hymn.xml, mode: m, chords, delta, width: w, zoom: z, text })
-      if (!res.cached) console.info(`[hymnal] ${n} rendered in ${res.ms} ms (key ${key}, ${m}, ${w}px)`)
-      return res.svg
-    }
+    const draw = makeDraw({ n, f: row.f, xml: hymn.xml, delta, chords, mode,
+      stopped: () => cancelled || my !== token.current, onDrawing: () => setBusy(true) })
     ;(async () => {
       try {
         let out: string | null
@@ -371,6 +383,33 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
     const ns = inSet ? [prevItem?.n, nextItem?.n] : [n - 1, n + 1]
     prefetch(ns.filter((x): x is number => !!x).map(x => rowFor(x)))
   }, [svg])
+
+  // the one-screen view lays out the next hymn (then the previous one) while this one is on screen,
+  // with the key and words that page will have, so turning the page is instant
+  useEffect(() => {
+    if (!fit || !svg || busy) return
+    let stop = false
+    const pages = inSet
+      ? [nextItem, prevItem].filter(Boolean).map(i => ({ n: i!.n, key: i!.key, mode: (i!.mode ?? 'both') as LyricMode }))
+      : [n + 1, n - 1].filter(x => x >= 1 && x <= 645).map(x => ({ n: x, key: undefined as string | undefined, mode: prefs.mode }))
+    const t = window.setTimeout(async () => {
+      for (const pg of pages) {
+        if (stop) return
+        const r = rowFor(pg.n)
+        if (!r?.f) continue
+        try {
+          const h = await loadHymn(r)
+          if (stop) return
+          const m2 = r.m === 1
+          const orig = chipFor(originalTonic(r.fi ?? 0, m2), m2)
+          const top2 = melodyTop(new DOMParser().parseFromString(h.xml, 'application/xml'))
+          const d = semitoneDelta(orig, pg.key || orig, top2, 'auto')
+          await drawOneScreen(makeDraw({ n: pg.n, f: r.f, xml: h.xml, delta: d, chords, mode: pg.mode, stopped: () => stop }), pg.mode, vw, vh)
+        } catch { /* a page that cannot be prefetched is drawn when it is opened */ }
+      }
+    }, 400)
+    return () => { stop = true; window.clearTimeout(t) }
+  }, [fit, svg, busy, n, chords, vw, vh])
 
   // arrow keys and page-turn pedals that send arrows
   useEffect(() => {

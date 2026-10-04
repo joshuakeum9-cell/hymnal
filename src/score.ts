@@ -100,6 +100,7 @@ export type RenderRequest = {
   pageFormat?: 'Endless' | 'Letter_P' | 'A4_P'
   font?: string
   noCache?: boolean
+  text?: number        // lyrics and chord letters this many times their usual size (the one-screen view)
 }
 
 export type SystemBox = { top: number; bottom: number; measures: number }
@@ -546,9 +547,22 @@ class Renderer {
       r.DefaultColorChordSymbol = '#000000'
       r.DefaultColorLabel = '#000000'
     }
+    this.textBase = { lyrics: r.LyricsHeight, chords: r.ChordSymbolTextHeight, between: r.VerticalBetweenLyricsDistance }
     this.osmd = osmd
     if (import.meta.env.DEV) (window as any)[`__osmd_${this.format}`] = osmd
     return osmd
+  }
+
+  private textBase: { lyrics: number; chords: number; between: number } | null = null
+
+  /** Words and chord letters at `factor` times their usual size, for this render only. */
+  private applyText(osmd: OpenSheetMusicDisplay, factor: number) {
+    const b = this.textBase
+    if (!b) return
+    const r = osmd.EngravingRules
+    r.LyricsHeight = b.lyrics * factor
+    r.ChordSymbolTextHeight = b.chords * factor
+    r.VerticalBetweenLyricsDistance = b.between * factor
   }
 
   /** Load the score and draw it, widening only where words would otherwise collide. */
@@ -607,6 +621,7 @@ class Renderer {
       if (hit) return { svg: hit, ms: 0, cached: true, systems: [], viewWidth: 0 }
       const t0 = performance.now()
       const osmd = await this.engine()
+      this.applyText(osmd, req.text ?? 1)
       this.host.style.width = `${Math.max(280, Math.round(req.width))}px`
       const doc = filterLyrics(req.xml, req.mode, req.chords ?? true)
       const rules = osmd.EngravingRules

@@ -42,6 +42,123 @@ function useWidth(el: { current: HTMLElement | null }): number {
 
 const MAX_FIT_LINES = 4 // the one-screen view: treble and bass pairs per page, as the printed hymnal sets them
 
+type Draw = (width: number, zoom: number, mode?: LyricMode, text?: number) => Promise<string | null>
+
+/**
+ * The one-screen view: choose how many lines of music the page has, lay it out, return the drawing.
+ *
+ * The line count is chosen once, from the Korean and English layout (the tallest of the three), so
+ * Korean only and English only never take more lines than both together. One layout at 1000px gives
+ * that page's size and line count; bars are shared evenly between lines, so a page of L lines is
+ * about S0/L times as wide and L/S0 times as tall. Every L is tried on paper, the scale that fits the
+ * screen worked out for each, and the fewest lines whose music is within 5% of the largest win. A
+ * phone held upright may take as many lines as it likes; a tablet, or a phone turned sideways, at
+ * most four, like the printed hymnal page. The chosen width is checked by laying the page out and
+ * widened a little if a line too many came out.
+ */
+async function drawOneScreen(draw: Draw, mode: LyricMode, vw: number, vh: number): Promise<string | null> {
+  const probe = await draw(1000, 1, 'both')
+  if (!probe) return null
+  const s0 = Math.max(1, systemCount(probe))
+  const p = svgSize(probe)
+  const room = fitMusicHeight(vw, vh)
+  const upright = vh > vw * 1.15 && vw < 600 // a phone held upright; tablets keep four lines either way
+  const most = upright ? Math.max(12, s0 * 2) : MAX_FIT_LINES
+  const scaleFor = (lines: number) => Math.min(vw / ((p.w * s0) / lines), room / ((p.h * lines) / s0))
+  let lines = 1
+  for (let l = 2; l <= most; l++) if (scaleFor(l) > scaleFor(lines)) lines = l
+  const start = Math.max(500, Math.round((1000 * s0) / lines / 50) * 50)
+  const both = await narrowestWithin(draw, 'both', start, lines, vw, room, start === 1000 ? probe : null)
+  if (!both) return null
+  // Korean only and English only keep the bars where Korean and English put them at this width;
+  // where their words do not fit those bars (79 in English) the renderer lays them out afresh, and
+  // the same search finds the narrowest width that brings them back to the Korean and English lines
+  const page = mode === 'both' ? both : await narrowestWithin(draw, mode, both.w, systemCount(both.svg), vw, room, null)
+  if (!page) return null
+  return growText(draw, mode, page, vw, room, upright ? Infinity : MAX_FIT_LINES)
+}
+
+/**
+ * A page limited by the screen's width leaves height unused below it (620 on a phone): spend it on
+ * larger words and chord letters, drawn at the same width (so the music keeps its size), as large as
+ * still fits. Wide words may move a bar to a new line (620 in English: 9 lines instead of 7 at 1.28
+ * times the size); that is fine while the page fits, as every word and chord letter is larger. A few
+ * layouts find the size: try what the spare height suggests, then halve the gap.
+ */
+async function growText(draw: Draw, mode: LyricMode, page: { svg: string; w: number }, vw: number, room: number,
+  maxLines: number): Promise<string> {
+  // A larger size moves bars to new lines in jumps, so a page often comes out a little taller than
+  // the screen; the view then shrinks the whole page to fit. What the eye gets is the text size
+  // times that shrink: choose the size where that is largest, as long as the music itself shrinks by
+  // no more than MIN_SHRINK allows
+  const heightOf = (svg: string) => { const s = svgSize(svg); return (s.h * vw) / s.w }
+  const spare = room / heightOf(page.svg) // above 1: the page is shorter than the screen by this factor
+  if (spare < 1.06) return page.svg // the page already fills the screen
+  let best = page.svg, bestText = 1
+  // a search between the usual size (fine) and the largest allowed: a size that costs the music too
+  // much sends it smaller, one with room left sends it larger, and the best seen is kept
+  let lo = 1, hi = MAX_TEXT
+  let f = Math.min(MAX_TEXT, spare)
+  for (let step = 0; step < 4 && hi - lo > 0.04; step++) {
+    f = Math.round(f * 100) / 100
+    const at = await draw(page.w, 1, mode, f)
+    if (!at) break
+    const shrink = Math.min(1, room / heightOf(at))
+    if (import.meta.env.DEV) console.debug(`[hymnal:fit] text x${f}: ${systemCount(at)} lines, shrink ${shrink.toFixed(3)}, seen x${(f * shrink).toFixed(3)}`)
+    if (shrink >= MIN_SHRINK && systemCount(at) <= maxLines) { // (a tablet keeps its four-line page)
+      if (f * shrink > bestText) { best = at; bestText = f * shrink }
+      if (shrink < 1) break // it fills the screen
+      lo = f
+    } else hi = f
+    f = (lo + hi) / 2
+  }
+  return best
+}
+const MAX_TEXT = 1.8 // words and chord letters at most this many times their usual size
+const MIN_SHRINK = 0.85 // larger words may cost the music at most 15% of its size
+
+/**
+ * The narrowest page of at most `lines` lines near width `start`: widen until it has no more lines
+ * than that, then halve the gap to the last width that had too many. A page limited by the screen's
+ * width is largest when it is narrowest; one limited by its height gains nothing, so it is kept.
+ */
+async function narrowestWithin(draw: Draw, mode: LyricMode, start: number, lines: number, vw: number, room: number,
+  first: string | null): Promise<{ svg: string; w: number } | null> {
+  let out = first ?? (await draw(start, 1, mode))
+  if (!out) return null
+  let lo = 0, hi = start
+  for (let tries = 0; systemCount(out) > lines && tries < 6 && hi < 8000; tries++) {
+    lo = hi
+    hi = Math.round((hi * Math.max(systemCount(out) / lines, 1.06)) / 50) * 50
+    const wider = await draw(hi, 1, mode)
+    if (!wider) return null
+    if (import.meta.env.DEV) console.debug(`[hymnal:fit] ${mode} at ${hi}px: ${systemCount(wider)} lines (want ${lines})`)
+    out = wider
+  }
+  if (systemCount(out) > lines) return { svg: out, w: hi }
+  // never narrow into more lines than this page already has, and keep a narrower page only when
+  // its music comes out larger on this screen
+  lines = Math.min(lines, systemCount(out))
+  const scaleOf = (svg: string) => { const s = svgSize(svg); return Math.min(vw / s.w, room / s.h) }
+  const widthBound = (svg: string) => { const s = svgSize(svg); return vw / s.w < room / s.h }
+  if (!lo) {
+    if (!widthBound(out)) return { svg: out, w: hi }
+    lo = Math.max(450, Math.round((hi * 0.8) / 50) * 50) // try up to a fifth narrower
+  }
+  let best = { svg: out, w: hi }
+  for (let step = 0; step < 4 && hi - lo > 50; step++) {
+    const mid = Math.round((lo + hi) / 2 / 50) * 50
+    if (mid <= lo || mid >= hi) break
+    const at = await draw(mid, 1, mode)
+    if (!at) return best
+    if (systemCount(at) <= lines) {
+      hi = mid
+      if (scaleOf(at) > scaleOf(best.svg)) best = { svg: at, w: mid }
+    } else lo = mid
+  }
+  return best
+}
+
 /** The phone's own reported room for its camera or status bar (CSS safe-area-inset-top), in px. */
 function safeTop(): number {
   try {
@@ -182,40 +299,21 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
     const my = ++token.current
     let cancelled = false
     setError(null)
-    const draw = async (w: number, z: number): Promise<string | null> => {
-      const cacheKey = `${n}|${row.f}|${delta}|${mode}|${chords}|${w}|${z}|screen`
+    const draw = async (w: number, z: number, m: LyricMode = mode, text = 1): Promise<string | null> => {
+      const cacheKey = `${n}|${row.f}|${delta}|${m}|${chords}|${w}|${z}|screen${text !== 1 ? `|text${text}` : ''}`
       const hit = await cachedSvg(cacheKey)
       if (cancelled || my !== token.current) return null
       if (hit) return hit
       setBusy(true)
-      const res = await screenRenderer().render({ cacheKey, xml: hymn.xml, mode, chords, delta, width: w, zoom: z })
-      if (!res.cached) console.info(`[hymnal] ${n} rendered in ${res.ms} ms (key ${key}, ${mode}, ${w}px)`)
+      const res = await screenRenderer().render({ cacheKey, xml: hymn.xml, mode: m, chords, delta, width: w, zoom: z, text })
+      if (!res.cached) console.info(`[hymnal] ${n} rendered in ${res.ms} ms (key ${key}, ${m}, ${w}px)`)
       return res.svg
     }
     ;(async () => {
       try {
         let out: string | null
         if (fit) {
-          // one screen: lay the hymn out at the width whose page best fills this screen, then scale
-          // it to fit. A first layout at 1000px gives the music's area; a page that is w wide is
-          // then about area / w tall, and the scale min(vw / w, vh * w / area) is largest at
-          // w = sqrt(area * vw / vh)
-          const probe = await draw(1000, 1)
-          if (!probe) return
-          const p = svgSize(probe)
-          const best = Math.sqrt((p.w * p.h * vw) / Math.max(fitMusicHeight(vw, vh), 1))
-          let w = Math.round(Math.min(3000, Math.max(600, best)) / 50) * 50
-          out = Math.abs(w - 1000) < 50 ? probe : await draw(w, 1)
-          // at most four lines of music, like a printed hymnal page, on an iPad or a phone turned
-          // sideways: widen in proportion until it fits (bars are shared evenly between lines, so lines
-          // scale with width: widen by the exact ratio first, and only a little more if that still
-          // leaves a fifth line, so it lands on four). A phone held upright keeps the layout that makes
-          // the music largest: four lines across its narrow screen would be too small to read
-          const upright = vh > vw * 1.15 && vw < 600 // a phone held upright; tablets keep four lines either way
-          for (let tries = 0; !upright && out && systemCount(out) > MAX_FIT_LINES && tries < 5 && w < 6000; tries++) {
-            w = Math.round((w * Math.max(systemCount(out) / MAX_FIT_LINES, 1.06)) / 50) * 50
-            out = await draw(w, 1)
-          }
+          out = await drawOneScreen(draw, mode, vw, vh)
         } else {
           out = await draw(width, zoom)
         }

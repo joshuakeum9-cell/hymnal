@@ -72,6 +72,11 @@ function letterTransposer(m: Engine) {
   }
 }
 
+/** How many lines of music (systems) a drawing has, from the note render() leaves in it. */
+export function systemCount(svg: string): number {
+  return Number(svg.match(/<!--hymnal:systems=(\d+)-->/)?.[1] ?? 0)
+}
+
 export const SCREEN_FONT = 'Hymnal Sans'
 export const PRINT_FONT = 'Hymnal Serif'
 
@@ -101,7 +106,7 @@ export type SystemBox = { top: number; bottom: number; measures: number }
 /** systems are in the SVG's viewBox units; viewWidth is the viewBox width */
 export type RenderResult = { svg: string; ms: number; cached: boolean; systems: SystemBox[]; viewWidth: number }
 
-const ENGINE_VERSION = 'osmd-2.1.3-r33'
+const ENGINE_VERSION = 'osmd-2.1.3-r34'
 const memory = new Map<string, string>()
 const MEMORY_MAX = 30
 const IDB_MAX = 80
@@ -532,8 +537,10 @@ class Renderer {
       r.ChordSymbolTextHeight = 1.7
       r.VerticalBetweenLyricsDistance = 0.3
     } else {
-      // screen: words and chord letters in bold black, readable on a phone on a music stand (the
-      // layout measures the bold letters, so words still keep apart)
+      // screen: larger words and chord letters in bold black, readable on a phone on a music stand
+      // (the layout measures the bold letters, so words still keep apart)
+      r.LyricsHeight = 2.6
+      r.ChordSymbolTextHeight = 2.5
       r.DefaultFontStyle = 1 // FontStyles.Bold
       r.DefaultColorLyrics = '#000000'
       r.DefaultColorChordSymbol = '#000000'
@@ -647,7 +654,6 @@ class Renderer {
         }
       }
       if (!matched) await this.drawBalanced(osmd, filterLyrics(req.xml, req.mode, req.chords ?? true), req)
-      const svg = this.host.innerHTML
       const ms = Math.round(performance.now() - t0)
       const unit = 10 // OSMD draws 10 viewBox units per internal unit; zoom only changes the SVG's CSS size
       const systems: SystemBox[] = []
@@ -658,6 +664,8 @@ class Renderer {
           systems.push({ top: (y + ps.BorderMarginTop) * unit, bottom: (y + ps.BorderMarginBottom) * unit, measures: sys.GraphicalMeasures.length })
         }
       }
+      // the line count travels with the drawing (and its cached copies), for the one-screen view
+      const svg = `${this.host.innerHTML}<!--hymnal:systems=${systems.length}-->`
       const svgEl = this.host.querySelector('svg')
       const vb = svgEl?.getAttribute('viewBox')?.split(/[ ,]+/).map(Number)
       const viewWidth = vb && vb.length === 4 ? vb[2] : Number(svgEl?.getAttribute('width') ?? 0) / req.zoom

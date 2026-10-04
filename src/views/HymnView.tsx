@@ -1,7 +1,7 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'preact/hooks'
 import { loadHymn, loadIndex, prefetch, rowFor, type Hymn, type Row } from '../data'
 import { chipFor, isKeyName, keyLabel, melodyTop, originalTonic, pitchClass, semitoneDelta, type Direction, type LyricMode } from '../music'
-import { cachedSvg, screenRenderer } from '../score'
+import { cachedSvg, screenRenderer, systemCount } from '../score'
 import { getPrefs, pushRecent, setPrefs, subscribe } from '../store'
 import { go, hymnHash } from '../route'
 import { KeySheet } from './KeySheet'
@@ -39,6 +39,8 @@ function useWidth(el: { current: HTMLElement | null }): number {
   }, [el.current])
   return w
 }
+
+const MAX_FIT_LINES = 4 // the one-screen view: treble and bass pairs per page, as the printed hymnal sets them
 
 /** The drawn size of an OSMD SVG, from its viewBox (or its width and height). */
 function svgSize(svg: string): { w: number; h: number } {
@@ -175,8 +177,18 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
           if (!probe) return
           const p = svgSize(probe)
           const best = Math.sqrt((p.w * p.h * vw) / Math.max(vh, 1))
-          const w = Math.round(Math.min(3000, Math.max(600, best)) / 50) * 50
+          let w = Math.round(Math.min(3000, Math.max(600, best)) / 50) * 50
           out = Math.abs(w - 1000) < 50 ? probe : await draw(w, 1)
+          // at most four lines of music, like a printed hymnal page, on an iPad or a phone turned
+          // sideways: widen in proportion until it fits (bars are shared evenly between lines, so lines
+          // scale with width: widen by the exact ratio first, and only a little more if that still
+          // leaves a fifth line, so it lands on four). A phone held upright keeps the layout that makes
+          // the music largest: four lines across its narrow screen would be too small to read
+          const upright = vh > vw * 1.15
+          for (let tries = 0; !upright && out && systemCount(out) > MAX_FIT_LINES && tries < 5 && w < 6000; tries++) {
+            w = Math.round((w * Math.max(systemCount(out) / MAX_FIT_LINES, 1.06)) / 50) * 50
+            out = await draw(w, 1)
+          }
         } else {
           out = await draw(width, zoom)
         }

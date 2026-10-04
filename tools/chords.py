@@ -160,17 +160,28 @@ def spell_chord(chord, window: list[Note], fifths: int):
     def odd(s):
         return s is not None and (abs(s[1]) > 1 or s in (("B", 1), ("E", 1), ("C", -1), ("F", -1)))
 
-    pc, _, bass = chord
+    pc, kind, bass = chord
+    diatonic = key_spelling(fifths)
     first = name_pc(pc, window, fifths)
     options = [first]
-    if pc not in key_spelling(fifths):
+    if pc not in diatonic:
         options += [SHARP_NAMES[pc], FLAT_NAMES[pc]]
+    tones = {(pc + i) % 12 for i in KIND_TONES.get(kind, (0, 4, 7))}
+    found = []
     for r in options:
         b = spell_from_root(r, bass) if bass is not None else None
-        if odd(b) and not odd(r):
+        if bass is not None and bass not in tones and bass in diatonic:
+            b = diatonic[bass]  # a bass outside the chord takes the key's name for it (B7/Db in D-flat)
+        elif odd(b) and not odd(r):
             b = name_pc(bass, window, fifths)  # a bass outside the chord takes its plain name: Bb/B, not Bb/Cb
         if not odd(r) and not odd(b):
-            return r, b
+            found.append((r, b))
+    if found:
+        # a bass the key owns is spelled as the key spells it: Gb/Bb in a flat key, not F#/A#
+        for r, b in found:
+            if bass is None or bass not in diatonic or b == diatonic[bass]:
+                return r, b
+        return found[0]
     return first, spell_from_root(first, bass) if bass is not None else None
 
 
@@ -305,7 +316,9 @@ def relabel(root_pc: int, kind: str, bass_pc: int, melody_pc: int | None = None,
     if kind == "minor-seventh":
         return root_pc, "minor"  # the seventh is a passing note in a hymn: Am, not Am7
     if kind == "half-diminished":
-        if over_third or (key and (((root_pc + 3) % 12, "minor") in key.family) and (key.minor or bass_pc == (root_pc + 3) % 12)):
+        minor_triad = {(root_pc + 3) % 12, (root_pc + 6) % 12, (root_pc + 10) % 12}
+        if over_third or bass_pc in minor_triad - {(root_pc + 6) % 12} or (
+                key and (((root_pc + 3) % 12, "minor") in key.family) and (key.minor or bass_pc == (root_pc + 3) % 12)):
             # B-D-F-A in A minor (or over D) is D minor with an added sixth: the family's iv, Dm
             return (root_pc + 3) % 12, "minor"
         return (root_pc - 4) % 12, "dominant"  # C#-E-G-B in D is A7 without its root
@@ -361,7 +374,13 @@ def analyse(root):
             return False
         a, b = before[0].midi, after[0].midi
         step = lambda x, y: 1 <= abs(x - y) <= 2
-        return step(a, n.midi) and step(n.midi, b) and (a == b or (a < n.midi < b) or (a > n.midi > b))
+        if not (step(a, n.midi) and step(n.midi, b)):
+            return False
+        if a == b:
+            return True  # a neighbour note, stepping away and back (B-A#-B over a held G)
+        # a passing note shorter than a beat; held through a whole beat it is harmony (the G-flat
+        # of Ab-Gb-F in 143's alto is the seventh of Ab7, as the printed hymnal names it)
+        return ((a < n.midi < b) or (a > n.midi > b)) and n.end - n.start < 1
     for m, t0, length, beat, fifths in measures:
         scale = {(fifths * 7 + i) % 12 for i in (0, 2, 4, 5, 7, 9, 11)}
         key = Key(fifths, minor)

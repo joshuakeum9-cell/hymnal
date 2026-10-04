@@ -16,7 +16,7 @@ const STR = {
   'search.label.title': { ko: '제목이나 첫 줄로 검색', en: 'Search by title or first line' },
   'search.hint.number': { ko: '장 번호', en: 'Hymn number' },
   'search.hint.old': { ko: '통일찬송가 번호', en: 'Old hymnal number' },
-  'search.hint.title': { ko: '제목 또는 가사 첫 줄, ㅈㅇㅊㅈ', en: 'Title or first line' },
+  'search.hint.title': { ko: '제목으로 찾기 (ㅈㅇㅊㅈ도 됩니다)', en: 'Search by title (Korean or English)' },
   'search.by': { ko: '검색 방법', en: 'Search by' },
   'search.mode.new': { ko: '새찬송가 번호', en: 'New number' },
   'search.mode.old': { ko: '통일 번호', en: 'Old number' },

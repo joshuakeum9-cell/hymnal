@@ -28,7 +28,8 @@ export function SearchView() {
     if (window.matchMedia('(min-width: 700px)').matches) input.current?.focus()
   }, [byTitle])
 
-  const results = useMemo(() => (rows ? search(rows, q, prefs.oldNumbers && !byTitle) : []), [rows, q, prefs.oldNumbers, byTitle])
+  // the title box searches titles even for a typed number ("23편" or a year in a title)
+  const results = useMemo(() => (rows ? search(rows, q, prefs.oldNumbers && !byTitle, byTitle) : []), [rows, q, prefs.oldNumbers, byTitle])
 
   const open = (row: Row) => go(`#/${row.n}`)
 
@@ -42,7 +43,6 @@ export function SearchView() {
 
   const recent = rows ? prefs.recent.slice(0, 8).map(n => rows.find(r => r.n === n)).filter(Boolean) as Row[] : []
   const first = prefs.setList[0]
-  const hint = byTitle ? t('search.hint.title') : prefs.oldNumbers ? t('search.hint.old') : t('search.hint.number')
 
   return (
     <main class="search-page">
@@ -62,38 +62,53 @@ export function SearchView() {
       </header>
 
       <form class="search-form" onSubmit={onSubmit} role="search">
-        <label class="visually-hidden" for="q">{byTitle ? t('search.label.title') : t('search.label.number')}</label>
-        <div class={`search-field ${byTitle ? 'is-text' : 'is-number'}`}>
+        {/* two boxes, always both on screen: a number pad for hymn numbers, a full keyboard for titles */}
+        <label class="visually-hidden" for="q">{t('search.label.number')}</label>
+        <div class="search-field is-number">
           <input
             id="q"
             ref={input}
-            class={`search-input ${byTitle ? 'is-text' : 'is-number'}`}
+            class="search-input is-number"
             type="text"
-            inputMode={byTitle ? 'text' : 'numeric'}
-            pattern={byTitle ? undefined : '[0-9]*'}
+            inputMode="numeric"
+            pattern="[0-9]*"
             enterKeyHint="go"
             autoComplete="off"
             autoCorrect="off"
             spellcheck={false}
-            value={q}
-            onInput={onInput}
+            value={byTitle ? '' : q}
+            onInput={e => { setByTitle(false); onInput(e) }}
           />
-          {q ? null : <span class="search-hint" aria-hidden="true">{hint}</span>}
+          {q && !byTitle ? null : <span class="search-hint" aria-hidden="true">{prefs.oldNumbers ? t('search.hint.old') : t('search.hint.number')}</span>}
         </div>
         <div class="search-modes" role="group" aria-label={t('search.by')}>
-          <button type="button" class={!byTitle && !prefs.oldNumbers ? 'on' : ''} aria-pressed={!byTitle && !prefs.oldNumbers}
+          <button type="button" class={!prefs.oldNumbers ? 'on' : ''} aria-pressed={!prefs.oldNumbers}
             onClick={() => { setByTitle(false); setPrefs({ oldNumbers: false }); setQ(''); input.current?.focus() }}>
             {t('search.mode.new')}
           </button>
-          <button type="button" class={!byTitle && prefs.oldNumbers ? 'on' : ''} aria-pressed={!byTitle && prefs.oldNumbers}
+          <button type="button" class={prefs.oldNumbers ? 'on' : ''} aria-pressed={prefs.oldNumbers}
             onClick={() => { setByTitle(false); setPrefs({ oldNumbers: true }); setQ(''); input.current?.focus() }}>
             {t('search.mode.old')}
           </button>
-          <button type="button" class={byTitle ? 'on' : ''} aria-pressed={byTitle}
-            onClick={() => { setByTitle(true); setQ(''); input.current?.focus() }}>
-            {t('search.mode.title')}
-          </button>
         </div>
+        <label class="visually-hidden" for="qt">{t('search.label.title')}</label>
+        <div class="search-field is-text">
+          <input
+            id="qt"
+            class="search-input is-text search-title"
+            type="search"
+            inputMode="text"
+            enterKeyHint="search"
+            autoComplete="off"
+            autoCorrect="off"
+            spellcheck={false}
+            value={byTitle ? q : ''}
+            onInput={e => { setByTitle(true); onInput(e) }}
+          />
+          {q && byTitle ? null : <span class="search-hint" aria-hidden="true">{t('search.hint.title')}</span>}
+        </div>
+        {/* with two boxes, Enter only submits a form that has a submit button */}
+        <button type="submit" class="visually-hidden" tabIndex={-1}>{t('search.by')}</button>
       </form>
 
       {q.trim() ? (

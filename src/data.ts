@@ -81,11 +81,12 @@ function norm(s: string): string {
 
 export type SearchResult = { row: Row; via: 'number' | 'old' | 'title' }
 
-export function search(rows: Row[], query: string, oldNumbers: boolean): SearchResult[] {
+/** titleOnly: the title box, where even digits are searched as words. */
+export function search(rows: Row[], query: string, oldNumbers: boolean, titleOnly = false): SearchResult[] {
   const q = query.trim()
   if (!q) return []
-  const oldPrefix = /^(통|t|o)\s*(\d+)$/i.exec(q)
-  if (oldPrefix || (/^\d+$/.test(q) && oldNumbers)) {
+  const oldPrefix = titleOnly ? null : /^(통|t|o)\s*(\d+)$/i.exec(q)
+  if (oldPrefix || (!titleOnly && /^\d+$/.test(q) && oldNumbers)) {
     const num = Number(oldPrefix ? oldPrefix[2] : q)
     const exact = rows.filter(r => r.o === num).map(row => ({ row, via: 'old' as const }))
     const more = rows
@@ -95,7 +96,7 @@ export function search(rows: Row[], query: string, oldNumbers: boolean): SearchR
       .map(row => ({ row, via: 'old' as const }))
     return [...exact, ...more]
   }
-  if (/^\d+$/.test(q)) {
+  if (!titleOnly && /^\d+$/.test(q)) {
     const num = Number(q)
     const exact = rows.filter(r => r.n === num)
     const more = rows.filter(r => r.n !== num && String(r.n).startsWith(q)).slice(0, 12)

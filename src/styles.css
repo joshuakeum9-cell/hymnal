@@ -161,6 +161,8 @@ button, input, select { font: inherit; color: inherit; }
   text-align: center; transition: border-color 0.15s;
 }
 .search-input.is-text { font-size: 22px; font-weight: 400; text-align: left; letter-spacing: 0; }
+.search-input.search-title { height: 58px; font-size: 20px; -webkit-appearance: none; appearance: none; }
+.search-field.is-text .search-hint { font-size: 19px; }
 .search-input:focus { outline: none; border-color: var(--accent); }
 .search-modes { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
 .search-modes button {
@@ -241,6 +243,8 @@ button, input, select { font: inherit; color: inherit; }
 .score-svg svg { display: block; max-width: 100%; height: auto; margin: 0 auto; }
 .score.is-busy .score-svg { opacity: 0.35; transition: opacity 0.2s 0.15s; }
 .score.is-dark .score-svg { filter: invert(0.9) hue-rotate(180deg); }
+/* words and chord letters a touch heavier than the font's bold: a thin outline in the same black */
+.score-svg svg text { stroke: #000; stroke-width: 0.35px; paint-order: stroke; }
 /* one screen: the whole hymn scaled to fit, over everything else */
 .fit-view { position: fixed; inset: 0; z-index: 60; background: var(--paper); display: flex; align-items: flex-start; justify-content: center; overflow: hidden; padding-bottom: 52px; }
 .fit-svg svg { width: 100%; height: 100%; max-width: none; }

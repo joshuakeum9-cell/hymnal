@@ -25,6 +25,53 @@ export function loadEngine(): Promise<Engine> {
   return enginePromise
 }
 
+const LETTERS = 'CDEFGAB'
+const LETTER_SEMIS: Record<string, number> = { C: 0, D: 2, E: 4, F: 5, G: 7, A: 9, B: 11 }
+
+/** The key a transposition lands in, as OSMD and the key chips write it: -5 to 6 fifths (Db, not
+ *  C#; F#, not Gb). */
+export function transposedFifths(fifths: number, halftones: number): number {
+  const r = (((fifths + 7 * halftones) % 12) + 12) % 12
+  return r > 6 ? r - 12 : r
+}
+
+/**
+ * OSMD's transposer names each transposed pitch by its simplest name, so in F# major the leading
+ * note E# comes out as F (C#/F instead of C#/E#, F instead of E# in the music). Transposition moves
+ * every letter by the same step as the key's tonic letter, so this keeps OSMD's sounding pitch and
+ * renames it from the original letter: G in A-flat becomes E# in F#, F in F major becomes C# in C#.
+ * Where that would take a double sharp or flat, the plain name stays (G, not F##), as charts print it.
+ */
+function letterTransposer(m: Engine) {
+  const Base = (m as any).TransposeCalculator
+  const accidentalSemis = (acc: number): number =>
+    ({ [m.AccidentalEnum.SHARP]: 1, [m.AccidentalEnum.FLAT]: -1, [m.AccidentalEnum.DOUBLESHARP]: 2, [m.AccidentalEnum.DOUBLEFLAT]: -2 } as Record<number, number>)[acc] ?? 0
+  const accidentalOf = (semis: number) =>
+    semis === 1 ? m.AccidentalEnum.SHARP : semis === -1 ? m.AccidentalEnum.FLAT
+      : semis === 2 ? m.AccidentalEnum.DOUBLESHARP : semis === -2 ? m.AccidentalEnum.DOUBLEFLAT : m.AccidentalEnum.NONE
+  const tonicLetter = (fifths: number) => 'FCGDAEB'[(((fifths + 1) % 7) + 7) % 7]
+  return class extends Base {
+    transposePitch(pitch: any, key: any, halftones: number) {
+      const out = super.transposePitch(pitch, key, halftones)
+      if (!halftones || !out || !key) return out
+      try {
+        const from = typeof key.keyTypeOriginal === 'number' ? key.keyTypeOriginal : key.Key
+        const to = transposedFifths(from, halftones)
+        const shift = LETTERS.indexOf(tonicLetter(to)) - LETTERS.indexOf(tonicLetter(from))
+        const srcLetter = m.Pitch.getNoteEnumString(pitch.FundamentalNote)
+        const letter = LETTERS[(((LETTERS.indexOf(srcLetter) + shift) % 7) + 7) % 7]
+        const target = out.Octave * 12 + LETTER_SEMIS[m.Pitch.getNoteEnumString(out.FundamentalNote)] + accidentalSemis(out.Accidental)
+        const alter = ((((target - LETTER_SEMIS[letter]) % 12) + 18) % 12) - 6
+        if (Math.abs(alter) > 1) return out // a double sharp or flat (F## in G# minor) reads as its plain name, G
+        const octave = (target - LETTER_SEMIS[letter] - alter) / 12
+        return new m.Pitch((m.NoteEnum as any)[letter], octave, accidentalOf(alter))
+      } catch {
+        return out
+      }
+    }
+  }
+}
+
 export const SCREEN_FONT = 'Hymnal Sans'
 export const PRINT_FONT = 'Hymnal Serif'
 
@@ -54,7 +101,7 @@ export type SystemBox = { top: number; bottom: number; measures: number }
 /** systems are in the SVG's viewBox units; viewWidth is the viewBox width */
 export type RenderResult = { svg: string; ms: number; cached: boolean; systems: SystemBox[]; viewWidth: number }
 
-const ENGINE_VERSION = 'osmd-2.1.3-r31'
+const ENGINE_VERSION = 'osmd-2.1.3-r32'
 const memory = new Map<string, string>()
 const MEMORY_MAX = 30
 const IDB_MAX = 80
@@ -449,8 +496,11 @@ class Renderer {
       pageBackgroundColor: undefined,
       defaultFontFamily: this.font,
     })
-    osmd.TransposeCalculator = new m.TransposeCalculator()
+    osmd.TransposeCalculator = new (letterTransposer(m))() as any // transposeKey is inherited
     const r = osmd.EngravingRules
+    // a double sharp in a chord name (the leading note of G# minor, D#/F##) reads as ##, not OSMD's x
+    r.ChordAccidentalTexts.setValue(m.AccidentalEnum.DOUBLESHARP, '##')
+    r.ChordAccidentalTexts.setValue(m.AccidentalEnum.DOUBLEFLAT, 'bb')
     r.PageLeftMargin = 1.5
     r.PageRightMargin = 1.5
     r.PageTopMargin = 1

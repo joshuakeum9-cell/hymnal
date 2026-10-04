@@ -246,7 +246,20 @@ button, input, select { font: inherit; color: inherit; }
 /* words and chord letters a touch heavier than the font's bold: a thin outline in the same black */
 .score-svg svg text { stroke: #000; stroke-width: 0.35px; paint-order: stroke; }
 /* one screen: the whole hymn scaled to fit, over everything else */
-.fit-view { position: fixed; inset: 0; z-index: 60; background: var(--paper); display: flex; align-items: flex-start; justify-content: center; overflow: hidden; padding-bottom: 52px; }
+.fit-view { position: fixed; inset: 0; z-index: 60; background: var(--paper); display: flex; flex-direction: column; align-items: center; overflow: hidden; padding-bottom: 52px; }
+/* the title strip of the one-screen view, laid out like the printed hymnal page */
+.fit-head { flex: none; width: 100%; display: grid; grid-template-columns: minmax(64px, 1fr) minmax(0, auto) minmax(64px, 1fr); align-items: center; gap: 10px; padding: 0 max(12px, env(safe-area-inset-left)); color: var(--ink); }
+.fit-head-side { display: flex; flex-direction: column; justify-content: center; gap: 2px; font-size: 13px; color: var(--muted); min-width: 0; }
+.fit-key { white-space: nowrap; font-weight: 700; }
+.fit-head-title { display: flex; flex-direction: column; align-items: center; text-align: center; min-width: 0; }
+.fit-title { font-size: 22px; font-weight: 700; line-height: 1.15; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 100%; }
+.fit-subtitle { font-size: 13px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 100%; }
+.fit-num { justify-self: end; font-size: 34px; font-weight: 700; line-height: 1; color: var(--accent); font-variant-numeric: tabular-nums; }
+@media (min-width: 600px) {
+  .fit-title { font-size: 30px; }
+  .fit-subtitle, .fit-head-side { font-size: 15px; }
+  .fit-num { font-size: 46px; }
+}
 .fit-svg svg { width: 100%; height: 100%; max-width: none; }
 .fit-controls { position: fixed; right: max(8px, env(safe-area-inset-right)); bottom: max(8px, env(safe-area-inset-bottom)); display: flex; gap: 6px; opacity: 0.6; }
 .fit-controls:hover, .fit-controls:focus-within { opacity: 1; }

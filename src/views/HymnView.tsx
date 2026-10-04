@@ -42,6 +42,16 @@ function useWidth(el: { current: HTMLElement | null }): number {
 
 const MAX_FIT_LINES = 4 // the one-screen view: treble and bass pairs per page, as the printed hymnal sets them
 
+/** Height of the title strip across the top of the one-screen view, as on a printed hymnal page. */
+function fitHeadHeight(vw: number): number {
+  return vw < 600 ? 58 : 78
+}
+
+/** Room the music has in the one-screen view: below the title, above the buttons' strip. */
+function fitMusicHeight(vw: number, vh: number): number {
+  return vh - fitHeadHeight(vw) - 52
+}
+
 /** The drawn size of an OSMD SVG, from its viewBox (or its width and height). */
 function svgSize(svg: string): { w: number; h: number } {
   const head = svg.slice(0, svg.indexOf('>', svg.indexOf('<svg')) + 1)
@@ -176,7 +186,7 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
           const probe = await draw(1000, 1)
           if (!probe) return
           const p = svgSize(probe)
-          const best = Math.sqrt((p.w * p.h * vw) / Math.max(vh, 1))
+          const best = Math.sqrt((p.w * p.h * vw) / Math.max(fitMusicHeight(vw, vh), 1))
           let w = Math.round(Math.min(3000, Math.max(600, best)) / 50) * 50
           out = Math.abs(w - 1000) < 50 ? probe : await draw(w, 1)
           // at most four lines of music, like a printed hymnal page, on an iPad or a phone turned
@@ -226,7 +236,7 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
   const fitSize = (() => {
     if (!fit || !svg) return null
     const s = svgSize(svg)
-    const scale = Math.min(vw / s.w, (vh - 52) / s.h) // a strip at the bottom for the buttons
+    const scale = Math.min(vw / s.w, fitMusicHeight(vw, vh) / s.h)
     return { w: Math.floor(s.w * scale), h: Math.floor(s.h * scale) }
   })()
 
@@ -383,6 +393,7 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
               <div class="notice"><p>{t('draw.error')} {error}</p></div>
             ) : svg && fitSize ? (
               <div class="fit-view">
+                <FitHead n={n} row={row ?? null} keyName={<KeyName tonic={key} minor={minor} />} height={fitHeadHeight(vw)} />
                 <div class="score-svg fit-svg" style={{ width: `${fitSize.w}px`, height: `${fitSize.h}px` }} role="img"
                   aria-label={`Music for hymn ${n} in ${keyLabel(key, minor)}`} dangerouslySetInnerHTML={{ __html: svg }} />
                 <div class="fit-controls">
@@ -454,6 +465,25 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
         </div>
       ) : null}
     </Shell>
+  )
+}
+
+/** The one-screen view's title strip, laid out like the printed hymnal page: the key on the left, the
+ *  title in the middle (the other language under it), the number large on the right. */
+function FitHead({ n, row, keyName, height }: { n: number; row: Row | null; keyName: any; height: number }) {
+  const { t, lang } = useT()
+  const [primary, secondary] = row ? titles(row, lang) : ['', undefined]
+  return (
+    <header class="fit-head" style={{ height: `${height}px` }}>
+      <div class="fit-head-side">
+        <span class="fit-key">{t('key')} {keyName}</span>
+      </div>
+      <div class="fit-head-title">
+        <span class="fit-title">{primary}</span>
+        {secondary ? <span class="fit-subtitle">{secondary}</span> : null}
+      </div>
+      <div class="fit-num">{n}</div>
+    </header>
   )
 }
 

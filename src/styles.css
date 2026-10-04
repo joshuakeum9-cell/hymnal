@@ -212,7 +212,8 @@ button, input, select { font: inherit; color: inherit; }
 .hymn-head {
   position: sticky; top: 0; z-index: 20;
   display: grid; grid-template-columns: var(--tap) 1fr var(--tap); align-items: center; gap: 4px;
-  padding: calc(6px + var(--safe-top)) 8px 6px;
+  /* a little more room above than the phone reports, for camera cut-outs that report none */
+  padding: calc(14px + var(--safe-top)) 8px 8px;
   background: color-mix(in srgb, var(--paper) 96%, transparent);
   -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--line);
@@ -223,6 +224,17 @@ button, input, select { font: inherit; color: inherit; }
 .hymn-names { display: flex; flex-direction: column; min-width: 0; line-height: 1.25; }
 .hymn-ko { font-size: 17px; font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .hymn-en { font-size: 13px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+/* the hymn page's own header, like the printed page: back, title centred, number large, search */
+.hymn-page > .hymn-head { grid-template-columns: var(--tap) minmax(0, 1fr) auto var(--tap); gap: 8px; }
+.hymn-page > .hymn-head .hymn-names { align-items: center; text-align: center; max-width: 100%; }
+.hymn-page > .hymn-head .hymn-ko { font-size: 20px; max-width: 100%; }
+.hymn-page > .hymn-head .hymn-en { max-width: 100%; }
+.hymn-page > .hymn-head .hymn-num { font-size: 32px; padding-right: 2px; }
+@media (min-width: 600px) {
+  .hymn-page > .hymn-head .hymn-ko { font-size: 26px; }
+  .hymn-page > .hymn-head .hymn-en { font-size: 15px; }
+  .hymn-page > .hymn-head .hymn-num { font-size: 42px; }
+}
 
 .toolbar {
   display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px;
@@ -248,7 +260,8 @@ button, input, select { font: inherit; color: inherit; }
 /* one screen: the whole hymn scaled to fit, over everything else */
 .fit-view { position: fixed; inset: 0; z-index: 60; background: var(--paper); display: flex; flex-direction: column; align-items: center; overflow: hidden; padding-bottom: 52px; }
 /* the title strip of the one-screen view, laid out like the printed hymnal page */
-.fit-head { flex: none; width: 100%; display: grid; grid-template-columns: minmax(64px, 1fr) minmax(0, auto) minmax(64px, 1fr); align-items: center; gap: 10px; padding: 0 max(12px, env(safe-area-inset-left)); color: var(--ink); }
+/* (room above for a camera cut-out: what the phone reports plus 16px; fitHeadHeight() counts it too) */
+.fit-head { flex: none; width: 100%; box-sizing: border-box; display: grid; grid-template-columns: minmax(64px, 1fr) minmax(0, auto) minmax(64px, 1fr); align-items: center; gap: 10px; padding: calc(16px + var(--safe-top)) max(12px, env(safe-area-inset-left)) 0; color: var(--ink); }
 .fit-head-side { display: flex; flex-direction: column; justify-content: center; gap: 2px; font-size: 13px; color: var(--muted); min-width: 0; }
 .fit-key { white-space: nowrap; font-weight: 700; }
 .fit-head-title { display: flex; flex-direction: column; align-items: center; text-align: center; min-width: 0; }

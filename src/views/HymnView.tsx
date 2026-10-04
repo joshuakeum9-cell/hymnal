@@ -42,10 +42,27 @@ function useWidth(el: { current: HTMLElement | null }): number {
 
 const MAX_FIT_LINES = 4 // the one-screen view: treble and bass pairs per page, as the printed hymnal sets them
 
-/** Height of the title strip across the top of the one-screen view, as on a printed hymnal page. */
-function fitHeadHeight(vw: number): number {
-  return vw < 600 ? 58 : 78
+/** The phone's own reported room for its camera or status bar (CSS safe-area-inset-top), in px. */
+function safeTop(): number {
+  try {
+    const probe = document.createElement('div')
+    probe.style.cssText = 'position:fixed;top:0;height:env(safe-area-inset-top,0px);visibility:hidden'
+    document.body.appendChild(probe)
+    const h = probe.offsetHeight
+    probe.remove()
+    return h
+  } catch {
+    return 0
+  }
 }
+
+/** Height of the title strip across the top of the one-screen view, as on a printed hymnal page,
+ *  with room above it for a camera cut-out (what the phone reports, plus a little for phones that
+ *  report none) */
+function fitHeadHeight(vw: number): number {
+  return (vw < 600 ? 58 : 78) + FIT_TOP_GAP + safeTop()
+}
+const FIT_TOP_GAP = 16
 
 /** Room the music has in the one-screen view: below the title, above the buttons' strip. */
 function fitMusicHeight(vw: number, vh: number): number {
@@ -194,7 +211,7 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
           // scale with width: widen by the exact ratio first, and only a little more if that still
           // leaves a fifth line, so it lands on four). A phone held upright keeps the layout that makes
           // the music largest: four lines across its narrow screen would be too small to read
-          const upright = vh > vw * 1.15
+          const upright = vh > vw * 1.15 && vw < 600 // a phone held upright; tablets keep four lines either way
           for (let tries = 0; !upright && out && systemCount(out) > MAX_FIT_LINES && tries < 5 && w < 6000; tries++) {
             w = Math.round((w * Math.max(systemCount(out) / MAX_FIT_LINES, 1.06)) / 50) * 50
             out = await draw(w, 1)
@@ -492,15 +509,16 @@ function Shell({ n, row, onBack, children, dark }: { n: number; row: Row | null;
   const [primary, secondary] = row ? titles(row, lang) : ['', undefined]
   return (
     <main class={`hymn-page ${dark ? 'page-dark' : ''}`}>
+      {/* laid out like the printed hymnal page: the title in the middle, the number large on the right */}
       <header class="hymn-head">
         <button class="icon-btn back" onClick={onBack} aria-label={t('back')}><IconBack /></button>
         <div class="hymn-title">
-          <span class="hymn-num">{n}</span>
           <span class="hymn-names">
             <span class="hymn-ko">{primary}</span>
             {secondary ? <span class="hymn-en">{secondary}</span> : null}
           </span>
         </div>
+        <span class="hymn-num">{n}</span>
         <a class="icon-btn" href="#/" aria-label={t('search')}><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5" /><path d="M16 16l4.5 4.5" /></svg></a>
       </header>
       {children}

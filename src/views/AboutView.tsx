@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'preact/hooks'
-import { hymnUrl, loadIndex, type Row } from '../data'
+import { hymnUrl, loadIndex, lockSite, siteLocked, type Row } from '../data'
 import { go } from '../route'
 import { IconBack } from '../icons'
 import { F, useT } from '../i18n'
@@ -57,6 +57,9 @@ export function AboutView() {
       {progress == null ? F.saveAll(lang, published.length || '') : progress.done < progress.total ? F.saving(lang, progress.done, progress.total) : t('offline.done')}
     </button>
   )
+  const lockButton = siteLocked() ? (
+    <p><button class="btn" onClick={lockSite}>{lang === 'ko' ? '이 기기에서 잠그기' : 'Lock on this device'}</button></p>
+  ) : null
   const ccm = <a href="https://ccm4u.tistory.com/" target="_blank" rel="noopener">ccm4u.tistory.com</a>
   const cc = <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>
   const issues = <a href={`${REPO}/issues`} target="_blank" rel="noopener">github.com/joshuakeum9-cell/hymnal</a>
@@ -86,6 +89,7 @@ export function AboutView() {
           <p>모든 찬송을 이 기기에 저장해 두면 와이파이가 없는 예배당에서도 씁니다. 내려받는 양은 약 2 MB, 차지하는 공간은 약 40 MB입니다.</p>
           {saveButton}
           {note ? <p class="muted small">{note}</p> : null}
+          {lockButton}
 
           <h2>어느 찬송가인가</h2>
           <p>번호는 새찬송가(21세기 찬송가, 한국찬송가공회, 2006) 645장을 따릅니다. 한영 찬송가와 성경 찬송가 합본이 쓰는 번호입니다. 모든 찬송에 통일찬송가(1983) 번호도 함께 있어서, 찬양하라 복되신 구세주 예수는 여기서 31장, 옛 책에서는 46장입니다.</p>
@@ -121,6 +125,7 @@ export function AboutView() {
           <p>Save every available hymn on this device so the site works in the sanctuary without Wi-Fi. It downloads about 2 MB and takes about 40 MB of space.</p>
           {saveButton}
           {note ? <p class="muted small">{note}</p> : null}
+          {lockButton}
 
           <h2>Which hymnal</h2>
           <p>Numbers follow the 새찬송가 (21세기 찬송가, 한국찬송가공회, 2006), 645 hymns, the numbering used in the Korean-English bilingual hymnals and Bibles. Every hymn also carries its 통일찬송가 (1983) number, so Praise Him, Praise Him is 31 here and 46 in the old book.</p>

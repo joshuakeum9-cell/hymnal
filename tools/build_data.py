@@ -13,6 +13,11 @@ the way the printed bilingual hymnal does it.
 Usage: python tools/build_data.py [--public-domain-only]
   Every hymn is published. --public-domain-only holds back the hymns whose meta.json has
   publish false (the rights rule), listing them with file null.
+
+Site password: when SITE_PASSWORD is set (a GitHub Actions secret; locally the environment or
+work/site-password.txt), every hymn is written as public/hymns/NNN.bin instead, compressed and
+then encrypted with AES-GCM under a key derived from the password (PBKDF2-SHA256), and
+src/generated/lock.json tells the app to ask for the password before anything else.
 """
 from __future__ import annotations
 
@@ -32,6 +37,39 @@ from chords import add_chords  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CHO = "ㄱㄲㄴㄷㄸㄹㅁㅂㅃㅅㅆㅇㅈㅉㅊㅋㅌㅍㅎ"
+
+
+class SiteLock:
+    """Seals hymn files with the site password. Deterministic (IV from an HMAC of the file), so an
+    unchanged hymn keeps its bytes and cached copies stay valid across deploys."""
+
+    SALT = b"hymnal-site-v1"
+    ITER = 310_000
+
+    def __init__(self, password: str):
+        self.key = hashlib.pbkdf2_hmac("sha256", password.encode("utf-8"), self.SALT, self.ITER, 32)
+
+    @classmethod
+    def from_env(cls) -> "SiteLock | None":
+        pw = os.environ.get("SITE_PASSWORD", "").strip()
+        path = os.path.join(ROOT, "work/site-password.txt")
+        if not pw and os.path.exists(path):
+            pw = open(path, encoding="utf-8").read().strip()
+        return cls(pw) if pw else None
+
+    def seal(self, body: bytes) -> bytes:
+        import hmac
+        import zlib
+        from cryptography.hazmat.primitives.ciphers.aead import AESGCM
+        # compress first: sealed bytes do not compress, and the server would send them in full
+        packed = zlib.compress(body, 9)
+        iv = hmac.new(self.key, packed, hashlib.sha256).digest()[:12]
+        return iv + AESGCM(self.key).encrypt(iv, packed, None)
+
+    def params(self) -> dict:
+        import base64
+        return {"salt": self.SALT.decode(), "iter": self.ITER,
+                "check": base64.b64encode(self.seal(b"hymnal")).decode()}
 
 
 def choseong(s: str) -> str:
@@ -269,6 +307,9 @@ def main(argv):
     os.makedirs(gen_dir, exist_ok=True)
     index, hangul = [], set("찬송가새통일검색악보가사한영조옮기인쇄설정목록이전다음원래키장절후렴")
     stats = {"published": 0, "gated": 0, "en_notes": 0, "en_text": 0}
+    lock = SiteLock.from_env()
+    with open(os.path.join(gen_dir, "lock.json"), "w", encoding="utf-8") as fh:
+        json.dump(lock.params() if lock else None, fh)
     for d in sorted(glob.glob(os.path.join(ROOT, "data/hymns/*"))):
         n = int(os.path.basename(d))
         meta = json.load(open(os.path.join(d, "meta.json"), encoding="utf-8"))
@@ -325,16 +366,17 @@ def main(argv):
         h = hashlib.sha256(body).hexdigest()[:8]
         # a stable file name with the content hash as a version tag: a deploy that changes a hymn
         # must not break an open copy of the old app, which would ask for the old file name
-        fname = f"{n:03d}.json"
+        fname = f"{n:03d}.bin" if lock else f"{n:03d}.json"
         with open(os.path.join(out_dir, fname), "wb") as fh:
-            fh.write(body)
+            fh.write(lock.seal(body) if lock else body)
         row.update({"f": f"{fname}?v={h}", "fi": fifths, "m": 1 if mode == "minor" else 0, "v": kv, "en": en_mode})
         index.append(row)
         stats["published"] += 1
         stats["en_notes" if en_mode == 1 else "en_text"] += 1 if en_mode else 0
-    sample = (next((r["f"] for r in index if r["n"] == 405 and r.get("f")), None) or next(r["f"] for r in index if r.get("f"))).split("?")[0]
-    with open(os.path.join(out_dir, "sample.txt"), "w", encoding="utf-8") as fh:
-        fh.write(sample)  # CI checks that this file is served gzip-compressed
+    if not lock:  # sealed files are compressed already
+        sample = (next((r["f"] for r in index if r["n"] == 405 and r.get("f")), None) or next(r["f"] for r in index if r.get("f"))).split("?")[0]
+        with open(os.path.join(out_dir, "sample.txt"), "w", encoding="utf-8") as fh:
+            fh.write(sample)  # CI checks that this file is served gzip-compressed
     with open(os.path.join(gen_dir, "index.json"), "w", encoding="utf-8") as fh:
         json.dump(index, fh, ensure_ascii=False, separators=(",", ":"))
     with open(os.path.join(gen_dir, "hangul.txt"), "w", encoding="utf-8") as fh:

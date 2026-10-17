@@ -33,6 +33,8 @@ jobs:
 
       - name: Build hymn files and search index
         run: python tools/build_data.py
+        env:
+          SITE_PASSWORD: ${{ secrets.SITE_PASSWORD }}
 
       - uses: actions/cache@v4
         with:
@@ -64,6 +66,7 @@ jobs:
       - id: deployment
         uses: actions/deploy-pages@v4
       - name: Confirm hymn files are served compressed
+        if: ${{ !vars.SITE_LOCKED }}
         run: |
           url="${{ steps.deployment.outputs.page_url }}"
           for i in 1 2 3 4 5 6; do

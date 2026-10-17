@@ -6,7 +6,8 @@ import { HymnView } from './views/HymnView'
 import { SetListView } from './views/SetListView'
 import { AboutView } from './views/AboutView'
 import { LanguageView } from './views/LanguageView'
-import { loadIndex, rowForOld } from './data'
+import { SiteLockView } from './views/SiteLockView'
+import { loadIndex, needsPassword, rowForOld } from './data'
 import { getPrefs, subscribe } from './store'
 import { loadEngine, loadFonts } from './score'
 import { F, useLang, useT } from './i18n'
@@ -87,4 +88,12 @@ function App() {
   return <>{view}<UpdateToast /></>
 }
 
-render(<App />, document.getElementById('app')!)
+/** A locked build asks for the site password before the app itself starts. */
+function Root() {
+  const [locked, setLocked] = useState<boolean | null>(null)
+  useEffect(() => { needsPassword().then(setLocked, () => setLocked(true)) }, [])
+  if (locked === null) return null
+  return locked ? <SiteLockView onOpen={() => setLocked(false)} /> : <App />
+}
+
+render(<Root />, document.getElementById('app')!)

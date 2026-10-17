@@ -41,6 +41,65 @@ export function rowForOld(o: number): Row | undefined {
   return byOld?.get(o)
 }
 
+// Site password: a locked build ships every hymn sealed (compressed, then AES-GCM). The password
+// is asked once; the derived key stays on this device.
+type LockParams = { salt: string; iter: number; check: string }
+const LOCK_STORE = 'hymnal.lock.v1'
+let lockParams: LockParams | null = null
+let siteKey: CryptoKey | null = null
+let lockState: Promise<boolean> | null = null
+
+const fromB64 = (s: string) => Uint8Array.from(atob(s), c => c.charCodeAt(0))
+
+async function openSealed(box: Uint8Array, key = siteKey!): Promise<string> {
+  const packed = await crypto.subtle.decrypt({ name: 'AES-GCM', iv: box.slice(0, 12) }, key, box.slice(12))
+  return new Response(new Blob([packed]).stream().pipeThrough(new DecompressionStream('deflate'))).text()
+}
+
+async function keyFits(key: CryptoKey): Promise<boolean> {
+  return openSealed(fromB64(lockParams!.check), key).then(() => true, () => false)
+}
+
+/** Resolves true while this device still needs the site password. */
+export function needsPassword(): Promise<boolean> {
+  lockState ??= (async () => {
+    lockParams = (await import('./generated/lock.json')).default as LockParams | null
+    if (!lockParams) return false
+    let saved: string | null = null
+    try { saved = localStorage.getItem(LOCK_STORE) } catch { /* storage blocked */ }
+    if (saved) {
+      try {
+        const key = await crypto.subtle.importKey('raw', fromB64(saved), 'AES-GCM', false, ['decrypt'])
+        if (await keyFits(key)) { siteKey = key; return false }
+      } catch { /* a key from an older password */ }
+    }
+    return true
+  })()
+  return lockState
+}
+
+/** Returns false for a wrong password. On success the key is kept on this device. */
+export async function unlockSite(password: string): Promise<boolean> {
+  if (!lockParams) return true
+  const enc = new TextEncoder()
+  const base = await crypto.subtle.importKey('raw', enc.encode(password.trim()), 'PBKDF2', false, ['deriveBits'])
+  const bits = await crypto.subtle.deriveBits(
+    { name: 'PBKDF2', hash: 'SHA-256', salt: enc.encode(lockParams.salt), iterations: lockParams.iter }, base, 256)
+  const key = await crypto.subtle.importKey('raw', bits, 'AES-GCM', false, ['decrypt'])
+  if (!(await keyFits(key))) return false
+  try { localStorage.setItem(LOCK_STORE, btoa(String.fromCharCode(...new Uint8Array(bits)))) } catch { /* this visit only */ }
+  siteKey = key
+  return true
+}
+
+export const siteLocked = (): boolean => !!lockParams
+
+/** Forget the password on this device. */
+export function lockSite(): void {
+  try { localStorage.removeItem(LOCK_STORE) } catch { /* nothing kept */ }
+  location.reload()
+}
+
 const hymnCache = new Map<string, Promise<Hymn>>()
 const HYMN_CACHE_MAX = 24 // parsed hymns kept in memory; the service worker keeps the files
 
@@ -57,9 +116,10 @@ export function loadHymn(row: Row): Promise<Hymn> {
     hymnCache.set(url, p) // most recently used last
     return p
   }
-  p = fetch(url).then(r => {
+  p = fetch(url).then(async r => {
     if (!r.ok) throw new Error(`Could not load hymn ${row.n} (${r.status})`)
-    return r.json() as Promise<Hymn>
+    if (!siteKey) return r.json() as Promise<Hymn>
+    return JSON.parse(await openSealed(new Uint8Array(await r.arrayBuffer()))) as Hymn
   })
   p.catch(() => hymnCache.delete(url))
   hymnCache.set(url, p)

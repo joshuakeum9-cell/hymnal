@@ -1,4 +1,4 @@
-"""Praise songs in the public repo, sealed: data/praise/*/song.abc and meta.json live in git only as
+"""Praise songs in the public repo, sealed: data/praise/*/song.abc, meta.json and chords.txt live in git only as
 data/praise.vault (zip, then AES-GCM under a random 256-bit key). The key is the PRAISE_KEY Actions
 secret; locally work/praise-key.txt (made by `seal` the first time). data/praise/ itself is ignored.
 
@@ -19,7 +19,7 @@ import zipfile
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 VAULT = os.path.join(ROOT, "data/praise.vault")
 KEY_FILE = os.path.join(ROOT, "work/praise-key.txt")
-FILES = ("song.abc", "meta.json")
+FILES = ("song.abc", "meta.json", "chords.txt")  # chords.txt: the book's chords, where read
 
 
 def key(create: bool = False) -> bytes | None:
@@ -41,6 +41,8 @@ def seal() -> None:
         for d in sorted(glob.glob(os.path.join(ROOT, "data/praise/[0-9]*"))):
             for name in FILES:
                 path = os.path.join(d, name)
+                if not os.path.exists(path):
+                    continue
                 info = zipfile.ZipInfo(f"{os.path.basename(d)}/{name}", date_time=(2026, 1, 1, 0, 0, 0))
                 info.compress_type = zipfile.ZIP_DEFLATED
                 z.writestr(info, open(path, "rb").read())  # fixed dates: an unchanged song set seals the same
@@ -66,7 +68,7 @@ def open_vault() -> None:
             os.makedirs(os.path.dirname(out), exist_ok=True)
             with open(out, "wb") as fh:
                 fh.write(z.read(name))
-    print(f"opened {len(z.namelist()) // len(FILES)} praise songs")
+    print(f"opened {len({n.split('/')[0] for n in z.namelist()})} praise songs")
 
 
 if __name__ == "__main__":

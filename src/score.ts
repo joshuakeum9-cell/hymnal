@@ -107,7 +107,7 @@ export type SystemBox = { top: number; bottom: number; measures: number }
 /** systems are in the SVG's viewBox units; viewWidth is the viewBox width */
 export type RenderResult = { svg: string; ms: number; cached: boolean; systems: SystemBox[]; viewWidth: number }
 
-const ENGINE_VERSION = 'osmd-2.1.3-r35'
+const ENGINE_VERSION = 'osmd-2.1.3-r37'
 const memory = new Map<string, string>()
 const MEMORY_MAX = 30
 const IDB_MAX = 80
@@ -507,6 +507,12 @@ class Renderer {
     // a double sharp in a chord name (the leading note of G# minor, D#/F##) reads as ##, not OSMD's x
     r.ChordAccidentalTexts.setValue(m.AccidentalEnum.DOUBLESHARP, '##')
     r.ChordAccidentalTexts.setValue(m.AccidentalEnum.DOUBLEFLAT, 'bb')
+    // praise songs keep the practice book's chord names: C2, Am2, Cadd9 rather than C(2), Am(2), C(9)
+    r.addChordName('2', 'major', ['2'], [], [])
+    r.addChordName('m2', 'minor', ['2'], [], [])
+    r.addChordName('add9', 'major', ['9'], [], [])
+    r.addChordName('madd9', 'minor', ['9'], [], [])
+    r.ChordSymbolLabelTexts.setValue(m.ChordSymbolEnum.majorsixth, '6') // G6, not Gmaj6
     r.PageLeftMargin = 1.5
     r.PageRightMargin = 1.5
     r.PageTopMargin = 1

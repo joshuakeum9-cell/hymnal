@@ -43,10 +43,26 @@ DIV = 96  # divisions per quarter
 STEPS = "CDEFGAB"
 MAJOR_FIFTHS = {"C": 0, "G": 1, "D": 2, "A": 3, "E": 4, "B": 5, "F#": 6, "C#": 7, "F": -1, "Bb": -2,
                 "Eb": -3, "Ab": -4, "Db": -5, "Gb": -6, "Cb": -7}
-KINDS = {"": "major", "m": "minor", "7": "dominant", "maj7": "major-seventh", "m7": "minor-seventh",
-         "sus4": "suspended-fourth", "dim": "diminished", "aug": "augmented", "+": "augmented",
-         "m7b5": "half-diminished", "dim7": "diminished-seventh", "sus": "suspended-fourth",
-         "6": "major-sixth", "m6": "minor-sixth", "9": "dominant-ninth", "add9": "major"}
+# chord suffix as written in the book -> (MusicXML kind, added degrees (value, alter, type), shown text)
+CHORDS = {
+    "": ("major", (), ""), "m": ("minor", (), "m"), "min": ("minor", (), "m"),
+    "7": ("dominant", (), "7"), "maj7": ("major-seventh", (), "maj7"), "M7": ("major-seventh", (), "maj7"),
+    "ma7": ("major-seventh", (), "maj7"), "Maj7": ("major-seventh", (), "maj7"), "maj": ("major-seventh", (), "maj7"),
+    "m7": ("minor-seventh", (), "m7"), "min7": ("minor-seventh", (), "m7"), "mM7": ("major-minor", (), "mM7"),
+    "sus4": ("suspended-fourth", (), "sus4"), "sus": ("suspended-fourth", (), "sus4"),
+    "sus2": ("suspended-second", (), "sus2"),
+    "7sus4": ("suspended-fourth", ((7, 0, "add"),), "7sus4"), "7sus": ("suspended-fourth", ((7, 0, "add"),), "7sus4"),
+    "2": ("major", ((2, 0, "add"),), "2"), "add2": ("major", ((2, 0, "add"),), "add2"),
+    "add9": ("major", ((9, 0, "add"),), "add9"), "m2": ("minor", ((2, 0, "add"),), "m2"),
+    "madd2": ("minor", ((2, 0, "add"),), "madd2"), "madd9": ("minor", ((9, 0, "add"),), "madd9"),
+    "6": ("major-sixth", (), "6"), "m6": ("minor-sixth", (), "m6"),
+    "9": ("dominant-ninth", (), "9"), "maj9": ("major-ninth", (), "maj9"), "m9": ("minor-ninth", (), "m9"),
+    "11": ("dominant-11th", (), "11"), "13": ("dominant-13th", (), "13"),
+    "dim": ("diminished", (), "dim"), "o": ("diminished", (), "dim"), "dim7": ("diminished-seventh", (), "dim7"),
+    "o7": ("diminished-seventh", (), "dim7"), "m7b5": ("half-diminished", (), "m7b5"),
+    "aug": ("augmented", (), "aug"), "+": ("augmented", (), "aug"), "5": ("power", (), "5"),
+}
+KINDS = {k: v[0] for k, v in CHORDS.items()}
 TYPES = [(F(4), "whole", 0), (F(3), "half", 1), (F(2), "half", 0), (F(3, 2), "quarter", 1), (F(1), "quarter", 0),
          (F(3, 4), "eighth", 1), (F(1, 2), "eighth", 0), (F(3, 8), "16th", 1), (F(1, 4), "16th", 0),
          (F(1, 8), "32nd", 0), (F(7, 2), "half", 2), (F(7, 4), "quarter", 2), (F(6), "whole", 1)]
@@ -383,42 +399,166 @@ def split_parts(d: F) -> list[F]:
     return out
 
 
-def chord_element(sym: str, ksteps_pref: int):
-    m = re.fullmatch(r"([A-G])([#b]?)([^/]*)(?:/([A-G])([#b]?))?", sym)
-    if not m:
+CHORD_RE = re.compile(r"([A-G])([#b]?)([^/]*)(?:/([A-G])([#b]?))?")
+PC = {"C": 0, "D": 2, "E": 4, "F": 5, "G": 7, "A": 9, "B": 11}
+TONES = {"major": (0, 4, 7), "minor": (0, 3, 7), "dominant": (0, 4, 7, 10), "major-seventh": (0, 4, 7, 11),
+         "minor-seventh": (0, 3, 7, 10), "major-minor": (0, 3, 7, 11), "suspended-fourth": (0, 5, 7),
+         "suspended-second": (0, 2, 7), "diminished": (0, 3, 6), "augmented": (0, 4, 8),
+         "half-diminished": (0, 3, 6, 10), "diminished-seventh": (0, 3, 6, 9), "major-sixth": (0, 4, 7, 9),
+         "minor-sixth": (0, 3, 7, 9), "dominant-ninth": (0, 2, 4, 7, 10), "major-ninth": (0, 2, 4, 7, 11),
+         "minor-ninth": (0, 2, 3, 7, 10), "dominant-11th": (0, 2, 4, 5, 7, 10), "dominant-13th": (0, 2, 4, 7, 9, 10),
+         "power": (0, 7)}
+DEGREE_PC = {2: 2, 4: 5, 6: 9, 7: 10, 9: 2, 11: 5, 13: 9}  # an added 7 is the flat 7th, as in 7sus4
+
+
+def parse_chord(sym: str):
+    m = CHORD_RE.fullmatch(sym.strip())
+    if not m or m.group(3) not in CHORDS:
         raise AbcError(f"chord {sym!r}")
-    kind_txt = m.group(3)
-    if kind_txt not in KINDS:
-        raise AbcError(f"chord kind {kind_txt!r} in {sym!r}")
+    return m.group(1), m.group(2), CHORDS[m.group(3)], m.group(4), m.group(5)
+
+
+def chord_element(sym: str, ksteps_pref: int = 0):
+    step, acc, (kind, degrees, text), bstep, bacc = parse_chord(sym)
     h = etree.Element("harmony", {"print-frame": "no"})
     r = etree.SubElement(h, "root")
-    etree.SubElement(r, "root-step").text = m.group(1)
-    if m.group(2):
-        etree.SubElement(r, "root-alter").text = "1" if m.group(2) == "#" else "-1"
-    text = {"suspended-fourth": "sus4", "major": "", "minor": "m", "dominant": "7", "major-seventh": "maj7",
-            "minor-seventh": "m7", "diminished": "dim", "augmented": "+", "half-diminished": "m7b5",
-            "diminished-seventh": "dim7", "major-sixth": "6", "minor-sixth": "m6", "dominant-ninth": "9"}[KINDS[kind_txt]]
-    etree.SubElement(h, "kind", {"text": text}).text = KINDS[kind_txt]
-    if m.group(4):
+    etree.SubElement(r, "root-step").text = step
+    if acc:
+        etree.SubElement(r, "root-alter").text = "1" if acc == "#" else "-1"
+    etree.SubElement(h, "kind", {"text": text}).text = kind
+    if bstep:
         b = etree.SubElement(h, "bass")
-        etree.SubElement(b, "bass-step").text = m.group(4)
-        if m.group(5):
-            etree.SubElement(b, "bass-alter").text = "1" if m.group(5) == "#" else "-1"
+        etree.SubElement(b, "bass-step").text = bstep
+        if bacc:
+            etree.SubElement(b, "bass-alter").text = "1" if bacc == "#" else "-1"
+    for value, alter, typ in degrees:
+        d = etree.SubElement(h, "degree")
+        etree.SubElement(d, "degree-value").text = str(value)
+        etree.SubElement(d, "degree-alter").text = str(alter)
+        etree.SubElement(d, "degree-type").text = typ
     etree.SubElement(h, "staff").text = "1"
     return h
 
 
-PC = {"C": 0, "D": 2, "E": 4, "F": 5, "G": 7, "A": 9, "B": 11}
-TONES = {"major": (0, 4, 7), "minor": (0, 3, 7), "dominant": (0, 4, 7, 10), "major-seventh": (0, 4, 7, 11),
-         "minor-seventh": (0, 3, 7, 10), "suspended-fourth": (0, 5, 7), "diminished": (0, 3, 6),
-         "augmented": (0, 4, 8), "half-diminished": (0, 3, 6, 10), "diminished-seventh": (0, 3, 6, 9),
-         "major-sixth": (0, 4, 7, 9), "minor-sixth": (0, 3, 7, 9), "dominant-ninth": (0, 2, 4, 7, 10)}
-
-
 def chord_tones(sym: str) -> set[int]:
-    m = re.fullmatch(r"([A-G])([#b]?)([^/]*)(?:/([A-G])([#b]?))?", sym)
-    r = (PC[m.group(1)] + {"#": 1, "b": -1, "": 0}[m.group(2)]) % 12
-    return {(r + i) % 12 for i in TONES[KINDS[m.group(3)]]}
+    step, acc, (kind, degrees, _), bstep, bacc = parse_chord(sym)
+    r = (PC[step] + {"#": 1, "b": -1, "": 0}[acc]) % 12
+    tones = {(r + i) % 12 for i in TONES[kind]}
+    tones |= {(r + DEGREE_PC[v] + a) % 12 for v, a, _ in degrees}
+    if bstep:
+        tones.add((PC[bstep] + {"#": 1, "b": -1, "": 0}[bacc]) % 12)
+    return tones
+
+
+def onsets(evs):
+    t, out = F(0), []
+    for e in evs:
+        out.append(t)
+        t += e.dur
+    return out
+
+
+def bar_listing(measures, pickup) -> str:
+    """Our bars as the chord readers see them: measure number, then each note or rest with its
+    place in the bar (1-based), pitch, length and onset in quarters. No words."""
+    lines = []
+    for i, evs in enumerate(measures):
+        num = i if pickup else i + 1
+        parts = []
+        for k, (e, t) in enumerate(zip(evs, onsets(evs)), start=1):
+            if e.rest:
+                name = "rest"
+            else:
+                acc = {1: "#", -1: "b", 2: "##", -2: "bb"}.get(e.alter, "")
+                name = f"{e.step}{acc}{e.octave}" + (" tied-from-before" if e.tie_stop else "")
+            parts.append(f"n{k}={name} len {e.dur} at {t}")
+        lines.append(f"m{num}: " + "; ".join(parts))
+    return "\n".join(lines)
+
+
+def tonic_of(fifths: int, mode: str) -> tuple[int, int]:
+    """(letter index in STEPS, pitch class) of the key's tonic."""
+    major = {0: "C", 1: "G", 2: "D", 3: "A", 4: "E", 5: "B", 6: "F#", 7: "C#",
+             -1: "F", -2: "Bb", -3: "Eb", -4: "Ab", -5: "Db", -6: "Gb", -7: "Cb"}[fifths]
+    li = STEPS.index(major[0]) + (5 if mode == "minor" else 0)
+    pc = (PC[major[0]] + {"#": 1, "b": -1}.get(major[1:], 0) + (9 if mode == "minor" else 0)) % 12
+    return li % 7, pc
+
+
+def transpose_chord(sym: str, steps: int, semis: int) -> str:
+    """Move a chord by a number of letters and semitones, keeping its spelling (Bb up a tone is C,
+    F#m up a tone is G#m), as the app's key change spells notes."""
+    m = CHORD_RE.fullmatch(sym)
+
+    def move(letter, acc):
+        nl = STEPS[(STEPS.index(letter) + steps) % 7]
+        alter = (PC[letter] + {"#": 1, "b": -1, "": 0}[acc] + semis - PC[nl] + 6) % 12 - 6
+        return nl + ("#" * alter if alter > 0 else "b" * -alter)
+
+    out = move(m.group(1), m.group(2)) + m.group(3)
+    return out + ("/" + move(m.group(4), m.group(5)) if m.group(4) else "")
+
+
+def apply_book_chords(measures, pickup, path, key=(0, "major")) -> list[tuple[int, int]]:
+    """data/praise/NN/chords.txt: the chords printed in the practice book, one per line,
+    'm<measure> n<note> <chord>' (over that note) or 'm<measure> b<onset> <chord>' (at that point
+    in the bar, in quarters; a held note is split there and tied). A line 'key F' says the book
+    prints the song in F: its chords are moved into our key. 'fill m17-m22' marks bars the book
+    does not have: they get chords by rule. A '#' at the start of a line or after a space starts a
+    comment (C#m is a chord). Returns the bars to fill, as (first, last) measure indexes."""
+    entries = []
+    shift = (0, 0)
+    fills = []
+    for raw in open(path, encoding="utf-8"):
+        line = re.sub(r"(^|\s)#.*$", "", raw).strip()
+        if not line:
+            continue
+        f = re.fullmatch(r"fill\s+m(\d+)(?:-m(\d+))?", line)
+        if f:
+            a = int(f.group(1)) - (0 if pickup else 1)
+            fills.append((a, int(f.group(2) or f.group(1)) - (0 if pickup else 1)))
+            continue
+        k = re.fullmatch(r"key\s+(\S+)", line)
+        if k:
+            book_li, book_pc = tonic_of(*key_fifths(k.group(1)))
+            our_li, our_pc = tonic_of(*key)
+            shift = ((our_li - book_li) % 7, (our_pc - book_pc) % 12)
+            continue
+        m = re.fullmatch(r"m(\d+)\s+(n(\d+)|b([\d/.]+))\s+(\S+)", line)
+        if not m:
+            raise AbcError(f"chords.txt: cannot read {line!r}")
+        entries.append(m)
+    # note numbers refer to the bars as listed, so place those before any split shifts them
+    for m in sorted(entries, key=lambda m: m.group(3) is None):
+        i = int(m.group(1)) - (0 if pickup else 1)
+        if not 0 <= i < len(measures):
+            raise AbcError(f"chords.txt: no measure {m.group(1)}")
+        evs, sym = measures[i], m.group(5)
+        parse_chord(sym)
+        if shift != (0, 0):
+            sym = transpose_chord(sym, *shift)
+        if m.group(3):
+            k = int(m.group(3)) - 1
+            if not 0 <= k < len(evs):
+                raise AbcError(f"chords.txt: measure {m.group(1)} has no note {m.group(3)}")
+            evs[k].chord = sym
+        else:
+            at = F(m.group(4)) if "/" in m.group(4) else F(m.group(4)).limit_denominator(16)
+            for k, (e, t) in enumerate(zip(evs, onsets(evs))):
+                if t == at:
+                    e.chord = sym
+                    break
+                if t < at < t + e.dur:  # split the held note or rest at the chord
+                    rest = Ev(e.step, e.octave, e.alter, t + e.dur - at, rest=e.rest)
+                    e.dur = at - t
+                    if not e.rest:
+                        rest.tie_start, e.tie_start, rest.tie_stop = e.tie_start, True, True
+                    rest.chord = sym
+                    evs.insert(k + 1, rest)
+                    break
+            else:
+                raise AbcError(f"chords.txt: measure {m.group(1)} has no point {m.group(4)}")
+    return fills
 
 
 def clashes(measures, metas, pickup) -> list[str]:
@@ -490,6 +630,11 @@ def build(src: str, number: int) -> tuple[etree._Element, dict]:
             problems.append(f"bar {i + (0 if pickup else 1)}: {L} quarters, more than {full}")
         elif L < full and not (i == 0 or i == len(lens) - 1):
             notes.append(f"bar {i + (0 if pickup else 1)}: short bar ({L} of {full} quarters)")
+    listing = bar_listing(measures, pickup)
+    book = os.path.join(os.path.dirname(src), "chords.txt")
+    if os.path.exists(book):
+        for a, b in apply_book_chords(measures, pickup, book, (fifths, mode)):
+            harmonize(measures[a:b + 1], metas[a:b + 1], False)
     given = sum(1 for e in sum(measures, []) if e.chord)
     made = 0 if given else harmonize(measures, metas, pickup)
 
@@ -608,7 +753,7 @@ def build(src: str, number: int) -> tuple[etree._Element, dict]:
                 ly.find("text").text = f"{v}.{ly.find('text').text}"
     info = {"title": head.get("T", ""), "fifths": fifths, "mode": mode, "meter": f"{beats}/{beat_type}",
             "bars": len(measures), "verses": verses, "problems": problems, "notes": notes,
-            "chords": given or made, "made": bool(made),
+            "chords": given or made, "made": bool(made), "listing": listing,
             "clashes": clashes(measures, metas, pickup)}
     if not info["chords"]:
         problems.append("no chord letters")
@@ -627,6 +772,10 @@ def write(nn: int) -> dict:
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
     args = sys.argv[1:]
+    if args[:1] == ["bars"]:  # the bar listing the chord readers work from
+        for a in args[1:]:
+            print(build(os.path.join(ROOT, "data/praise", f"{int(a):02d}", "song.abc"), 0)[1]["listing"])
+        sys.exit(0)
     if args == ["all"]:
         args = sorted(os.path.basename(d) for d in glob.glob(os.path.join(ROOT, "data/praise/[0-9]*")))
     verbose = "-v" in args

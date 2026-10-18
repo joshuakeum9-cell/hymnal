@@ -24,9 +24,10 @@ export function SearchView() {
   }, [])
 
   useEffect(() => {
-    // focus on desktop and tablets; on phones the keyboard would cover the recent list
+    // focus on desktop and tablets; on phones the keyboard would cover the recent list. Only on
+    // opening the page: typing in the title box must never pull the cursor back to the number box
     if (window.matchMedia('(min-width: 700px)').matches) input.current?.focus()
-  }, [byTitle])
+  }, [])
 
   // the title box searches titles even for a typed number ("23편" or a year in a title)
   const results = useMemo(() => (rows ? search(rows, q, prefs.oldNumbers && !byTitle, byTitle) : []), [rows, q, prefs.oldNumbers, byTitle])

@@ -1,7 +1,7 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'preact/hooks'
 import { loadHymn, loadIndex, neighbour, prefetch, rowFor, type Hymn, type Row } from '../data'
 import { chipFor, isKeyName, keyLabel, melodyTop, originalTonic, pitchClass, semitoneDelta, type Direction, type LyricMode } from '../music'
-import { cachedSvg, screenRenderer, systemCount } from '../score'
+import { cachedSvg, lineStarts, screenRenderer, systemCount } from '../score'
 import { getPrefs, pushRecent, setPrefs, subscribe } from '../store'
 import { go, hymnHash } from '../route'
 import { KeySheet } from './KeySheet'
@@ -42,19 +42,19 @@ function useWidth(el: { current: HTMLElement | null }): number {
 
 const MAX_FIT_LINES = 4 // the one-screen view: treble and bass pairs per page, as the printed hymnal sets them
 
-type Draw = (width: number, zoom: number, mode?: LyricMode, text?: number) => Promise<string | null>
+type Draw = (width: number, zoom: number, mode?: LyricMode, text?: number, breaks?: number[]) => Promise<string | null>
 
 /** Draws one hymn (or takes it from the cache): the screen view, the one-screen view and the
  *  one-screen prefetch all use this, so a page prefetched is found under the same cache key. */
 function makeDraw(o: { n: number; f: string; xml: string; delta: number; chords: boolean; plain?: boolean; mode: LyricMode;
   stopped: () => boolean; onDrawing?: () => void }): Draw {
-  return async (w, z, m = o.mode, text = 1) => {
-    const cacheKey = `${o.n}|${o.f}|${o.delta}|${m}|${o.chords}${o.plain ? '|plain' : ''}|${w}|${z}|screen${text !== 1 ? `|text${text}` : ''}`
+  return async (w, z, m = o.mode, text = 1, breaks) => {
+    const cacheKey = `${o.n}|${o.f}|${o.delta}|${m}|${o.chords}${o.plain ? '|plain' : ''}|${w}|${z}|screen${text !== 1 ? `|text${text}` : ''}${breaks ? `|lines${breaks.join(',')}` : ''}`
     const hit = await cachedSvg(cacheKey)
     if (o.stopped()) return null
     if (hit) return hit
     o.onDrawing?.()
-    const res = await screenRenderer().render({ cacheKey, xml: o.xml, mode: m, chords: o.chords, plain: o.plain, delta: o.delta, width: w, zoom: z, text })
+    const res = await screenRenderer().render({ cacheKey, xml: o.xml, mode: m, chords: o.chords, plain: o.plain, delta: o.delta, width: w, zoom: z, text, breaks })
     if (!res.cached) console.info(`[hymnal] ${o.n} rendered in ${res.ms} ms (${m}, ${w}px)`)
     return o.stopped() ? null : res.svg
   }
@@ -63,8 +63,7 @@ function makeDraw(o: { n: number; f: string; xml: string; delta: number; chords:
 /**
  * The one-screen view: choose how many lines of music the page has, lay it out, return the drawing.
  *
- * The line count is chosen once, from the Korean and English layout (the tallest of the three), so
- * Korean only and English only never take more lines than both together. One layout at 1000px gives
+ * The line count is chosen from this lyric mode's own layout. One layout at 1000px gives
  * that page's size and line count; bars are shared evenly between lines, so a page of L lines is
  * about S0/L times as wide and L/S0 times as tall. Every L is tried on paper, the scale that fits the
  * screen worked out for each, and the fewest lines whose music is within 5% of the largest win. A
@@ -73,7 +72,7 @@ function makeDraw(o: { n: number; f: string; xml: string; delta: number; chords:
  * widened a little if a line too many came out.
  */
 async function drawOneScreen(draw: Draw, mode: LyricMode, vw: number, vh: number): Promise<string | null> {
-  const probe = await draw(1000, 1, 'both')
+  const probe = await draw(1000, 1, mode)
   if (!probe) return null
   const s0 = Math.max(1, systemCount(probe))
   const p = svgSize(probe)
@@ -84,14 +83,31 @@ async function drawOneScreen(draw: Draw, mode: LyricMode, vw: number, vh: number
   let lines = 1
   for (let l = 2; l <= most; l++) if (scaleFor(l) > scaleFor(lines)) lines = l
   const start = Math.max(500, Math.round((1000 * s0) / lines / 50) * 50)
-  const both = await narrowestWithin(draw, 'both', start, lines, vw, room, start === 1000 ? probe : null)
-  if (!both) return null
-  // Korean only and English only keep the bars where Korean and English put them at this width;
-  // where their words do not fit those bars (79 in English) the renderer lays them out afresh, and
-  // the same search finds the narrowest width that brings them back to the Korean and English lines
-  const page = mode === 'both' ? both : await narrowestWithin(draw, mode, both.w, systemCount(both.svg), vw, room, null)
+  // each lyric mode is laid out on its own words (Korean alone is narrower than both), so the page
+  // is found from this mode's own layout
+  const page = await narrowestWithin(draw, mode, start, lines, vw, room, start === 1000 ? probe : null)
   if (!page) return null
-  return growText(draw, mode, page, vw, room, upright ? Infinity : MAX_FIT_LINES)
+  const grown = await growText(draw, mode, page, vw, room, upright ? Infinity : MAX_FIT_LINES)
+  return fillWidth(draw, mode, grown, vw, room)
+}
+
+/**
+ * A page limited by the screen's height is scaled down to fit and leaves bands of screen on its left
+ * and right. Lines of music stretch to the width they are drawn at, so draw the same page wider, as
+ * wide as the screen's shape allows at this height: the same lines, now from edge to edge. Kept only
+ * when it has the same number of lines (a wider page that pulls a bar up a line is shorter, and is
+ * kept only if its music comes out larger).
+ */
+async function fillWidth(draw: Draw, mode: LyricMode, page: { svg: string; w: number; text: number }, vw: number,
+  room: number): Promise<string> {
+  const s = svgSize(page.svg)
+  const scale = Math.min(vw / s.w, room / s.h)
+  const starts = lineStarts(page.svg)
+  if (s.w * scale >= vw * 0.98 || !starts) return page.svg // it fills the width already
+  // the same lines, drawn as wide as the screen's shape allows at this height
+  const wide = Math.round((page.w * (vw / (s.w * scale))) / 10) * 10
+  const at = await draw(wide, 1, mode, page.text, starts)
+  return at && systemCount(at) === systemCount(page.svg) ? at : page.svg
 }
 
 /**
@@ -102,15 +118,15 @@ async function drawOneScreen(draw: Draw, mode: LyricMode, vw: number, vh: number
  * layouts find the size: try what the spare height suggests, then halve the gap.
  */
 async function growText(draw: Draw, mode: LyricMode, page: { svg: string; w: number }, vw: number, room: number,
-  maxLines: number): Promise<string> {
+  maxLines: number): Promise<{ svg: string; w: number; text: number }> {
   // A larger size moves bars to new lines in jumps, so a page often comes out a little taller than
   // the screen; the view then shrinks the whole page to fit. What the eye gets is the text size
   // times that shrink: choose the size where that is largest, as long as the music itself shrinks by
   // no more than MIN_SHRINK allows
   const heightOf = (svg: string) => { const s = svgSize(svg); return (s.h * vw) / s.w }
   const spare = room / heightOf(page.svg) // above 1: the page is shorter than the screen by this factor
-  if (spare < 1.06) return page.svg // the page already fills the screen
-  let best = page.svg, bestText = 1
+  if (spare < 1.06) return { ...page, text: 1 } // the page already fills the screen
+  let best = page.svg, bestText = 1, bestF = 1
   // a search between the usual size (fine) and the largest allowed: a size that costs the music too
   // much sends it smaller, one with room left sends it larger, and the best seen is kept
   let lo = 1, hi = MAX_TEXT
@@ -122,13 +138,13 @@ async function growText(draw: Draw, mode: LyricMode, page: { svg: string; w: num
     const shrink = Math.min(1, room / heightOf(at))
     if (import.meta.env.DEV) console.debug(`[hymnal:fit] text x${f}: ${systemCount(at)} lines, shrink ${shrink.toFixed(3)}, seen x${(f * shrink).toFixed(3)}`)
     if (shrink >= MIN_SHRINK && systemCount(at) <= maxLines) { // (a tablet keeps its four-line page)
-      if (f * shrink > bestText) { best = at; bestText = f * shrink }
+      if (f * shrink > bestText) { best = at; bestText = f * shrink; bestF = f }
       if (shrink < 1) break // it fills the screen
       lo = f
     } else hi = f
     f = (lo + hi) / 2
   }
-  return best
+  return { svg: best, w: page.w, text: bestF }
 }
 const MAX_TEXT = 1.8 // words and chord letters at most this many times their usual size
 const MIN_SHRINK = 0.85 // larger words may cost the music at most 15% of its size
@@ -411,6 +427,35 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
     }, 400)
     return () => { stop = true; window.clearTimeout(t) }
   }, [fit, svg, busy, n, chords, plain, vw, vh])
+
+  // the scrolling view, once this hymn is on screen and the phone is idle, lays out this hymn's
+  // one-screen page (so the full-screen button opens it at once) and then the next and previous
+  // hymns as they will appear (so the arrows turn to them at once)
+  useEffect(() => {
+    if (fit || !svg || busy || !hymn || !row?.f) return
+    let stop = false
+    const t = window.setTimeout(async () => {
+      try {
+        await drawOneScreen(makeDraw({ n, f: row.f!, xml: hymn.xml, delta, chords, plain, mode, stopped: () => stop }), mode, vw, vh)
+        const pages = inSet
+          ? [nextItem, prevItem].filter(Boolean).map(i => ({ n: i!.n, key: i!.key, mode: (i!.mode ?? 'both') as LyricMode }))
+          : [neighbour(n, 1), neighbour(n, -1)].filter((x): x is number => x !== null).map(x => ({ n: x, key: undefined as string | undefined, mode }))
+        for (const pg of pages) {
+          if (stop) return
+          const r = rowFor(pg.n)
+          if (!r?.f) continue
+          const h = await loadHymn(r)
+          if (stop) return
+          const m2 = r.m === 1
+          const orig = chipFor(originalTonic(r.fi ?? 0, m2), m2)
+          const top2 = melodyTop(new DOMParser().parseFromString(h.xml, 'application/xml'))
+          const d = semitoneDelta(orig, pg.key || orig, top2, 'auto')
+          await makeDraw({ n: pg.n, f: r.f, xml: h.xml, delta: d, chords, plain, mode: pg.mode, stopped: () => stop })(width, zoom)
+        }
+      } catch { /* prefetching is only a head start; the page is drawn when it is opened */ }
+    }, 800)
+    return () => { stop = true; window.clearTimeout(t) }
+  }, [fit, svg, busy, n, chords, plain, mode, delta, width, zoom, vw, vh])
 
   // arrow keys and page-turn pedals that send arrows
   useEffect(() => {

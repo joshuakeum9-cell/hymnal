@@ -151,9 +151,44 @@ export function prefetch(rows: (Row | undefined)[]): void {
 }
 
 const CHOSEONG = /^[ㄱ-ㅎ]+$/
+const CHO = 'ㄱㄲㄴㄷㄸㄹㅁㅂㅃㅅㅆㅇㅈㅉㅊㅋㅌㅍㅎ'
+// a final consonant that, while typing, may still become the next syllable's first one (같 on the way to 가톨)
+const JONG_TO_CHO: Record<number, number> = { 1: 0, 4: 2, 7: 3, 8: 5, 16: 6, 17: 7, 19: 9, 21: 11, 22: 12, 23: 14, 24: 15, 25: 16, 26: 17, 27: 18 }
 
 function norm(s: string): string {
   return s.toLowerCase().replace(/[\s,.!?'’"“”()\-]/g, '')
+}
+
+function syllable(ch: string | undefined) {
+  if (!ch) return null
+  const c = ch.charCodeAt(0) - 0xac00
+  return c >= 0 && c < 11172 ? { cho: Math.floor(c / 588), jung: Math.floor((c % 588) / 28), jong: c % 28 } : null
+}
+
+/** Whether the last typed character can still become the title's character there: a lone
+ *  consonant (주님ㄱ for 주님과), a syllable not finished yet (가 for 같), or a final consonant that
+ *  will move on to the next syllable (같 for 가톨). */
+function lastMatches(q: string, h: string | undefined, next: string | undefined): boolean {
+  if (!h) return false
+  if (q === h) return true
+  const sh = syllable(h)
+  if (!sh) return false
+  const ci = CHO.indexOf(q)
+  if (ci >= 0) return sh.cho === ci
+  const sq = syllable(q)
+  if (!sq || sq.cho !== sh.cho || sq.jung !== sh.jung) return false
+  if (sq.jong === 0) return true
+  const sn = syllable(next)
+  return sh.jong === 0 && !!sn && JONG_TO_CHO[sq.jong] === sn.cho
+}
+
+/** Where the typed text starts in the title, its last character allowed to be still in the typing (-1: nowhere). */
+function findTyped(hay: string, q: string): number {
+  const head = q.slice(0, -1), last = q.slice(-1)
+  for (let i = hay.indexOf(head); i >= 0 && i + q.length <= hay.length; i = hay.indexOf(head, i + 1)) {
+    if (lastMatches(last, hay[i + head.length], hay[i + head.length + 1])) return i
+  }
+  return -1
 }
 
 export type SearchResult = { row: Row; via: 'number' | 'old' | 'title' }
@@ -182,18 +217,23 @@ export function search(rows: Row[], query: string, oldNumbers: boolean, titleOnl
   }
   const nq = norm(q)
   if (CHOSEONG.test(nq)) {
-    return rows.filter(r => r.c.includes(nq)).slice(0, 40).map(row => ({ row, via: 'title' as const }))
+    return rows.filter(r => r.c.includes(nq)).slice(0, 60).map(row => ({ row, via: 'title' as const }))
   }
-  const scored: { row: Row; s: number }[] = []
+  // ranked by how well the title matches, hymns and praise songs alike: the title starting with the
+  // typed words, then the words inside it (earlier first), then the section name; a short title
+  // before a long one. Never by number, which put every praise song (1001...) after 40 hymns
+  const scored: { row: Row; s: number; at: number; len: number }[] = []
   for (const r of rows) {
     const k = norm(r.k), e = norm(r.e)
+    const ik = findTyped(k, nq), ie = findTyped(e, nq)
+    const at = ik >= 0 && ie >= 0 ? Math.min(ik, ie) : Math.max(ik, ie)
     let s = -1
-    if (k.startsWith(nq) || e.startsWith(nq)) s = 0
-    else if (k.includes(nq) || e.includes(nq)) s = 1
-    else if (norm(r.t).includes(nq)) s = 2
-    if (s >= 0) scored.push({ row: r, s })
+    if (at === 0) s = 0
+    else if (at > 0) s = 1
+    else if (findTyped(norm(r.t), nq) >= 0) s = 2
+    if (s >= 0) scored.push({ row: r, s, at: Math.max(at, 0), len: Math.min(k.length || 99, e.length || 99) })
   }
-  scored.sort((a, b) => a.s - b.s || a.row.n - b.row.n)
-  return scored.slice(0, 40).map(x => ({ row: x.row, via: 'title' as const }))
+  scored.sort((a, b) => a.s - b.s || a.at - b.at || a.len - b.len || a.row.n - b.row.n)
+  return scored.slice(0, 60).map(x => ({ row: x.row, via: 'title' as const }))
 }
 

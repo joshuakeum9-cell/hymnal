@@ -77,6 +77,12 @@ export function systemCount(svg: string): number {
   return Number(svg.match(/<!--hymnal:systems=(\d+)-->/)?.[1] ?? 0)
 }
 
+/** The bars (indexes) that start each line after the first, from the note render() leaves in the drawing. */
+export function lineStarts(svg: string): number[] | null {
+  const m = svg.match(/<!--hymnal:breaks=([\d,]*)-->/)
+  return m ? (m[1] ? m[1].split(',').map(Number) : []) : null
+}
+
 export const SCREEN_FONT = 'Hymnal Sans'
 export const PRINT_FONT = 'Hymnal Serif'
 
@@ -102,13 +108,14 @@ export type RenderRequest = {
   font?: string
   noCache?: boolean
   text?: number        // lyrics and chord letters this many times their usual size (the one-screen view)
+  breaks?: number[]    // lines start at exactly these bars (the one-screen view stretching a page wider)
 }
 
 export type SystemBox = { top: number; bottom: number; measures: number }
 /** systems are in the SVG's viewBox units; viewWidth is the viewBox width */
 export type RenderResult = { svg: string; ms: number; cached: boolean; systems: SystemBox[]; viewWidth: number }
 
-const ENGINE_VERSION = 'osmd-2.1.3-r41'
+const ENGINE_VERSION = 'osmd-2.1.3-r42'
 const memory = new Map<string, string>()
 const MEMORY_MAX = 30
 const IDB_MAX = 80
@@ -642,10 +649,15 @@ class Renderer {
       const doc = filterLyrics(req.xml, req.mode, req.chords ?? true, req.plain ?? false)
       const rules = osmd.EngravingRules
       rules.NewSystemAtXMLNewSystemAttribute = false
+      if (req.breaks) {
+        // the same lines as a page already laid out, only wider: each line stretches to the width
+        setBreaks(doc, new Set(req.breaks))
+        rules.NewSystemAtXMLNewSystemAttribute = true
+      }
       let layout: Map<number, number> | null = null
       let bothStep: { elongation: number; spread: number } | null = null
       let bothMin: Map<number, number> | null = null
-      if (req.mode === 'en') {
+      if (req.mode === 'en' && !req.breaks) {
         // English alone: the engine would widen bars for long English words that 한/영 fits by
         // nudging words apart, which comes out longer, so English keeps the bars where 한/영 puts
         // them: lay out 한/영 first, then break the lines at the same bars
@@ -686,7 +698,8 @@ class Renderer {
       }
       // 한 lays out its own words: Korean alone is far narrower than 한/영, so it gets more bars to a
       // line instead of keeping the wider 한/영 line breaks
-      if (!matched) await this.drawBalanced(osmd, filterLyrics(req.xml, req.mode, req.chords ?? true, req.plain ?? false), req)
+      if (req.breaks) await this.draw(osmd, doc, req)
+      else if (!matched) await this.drawBalanced(osmd, filterLyrics(req.xml, req.mode, req.chords ?? true, req.plain ?? false), req)
       const ms = Math.round(performance.now() - t0)
       const unit = 10 // OSMD draws 10 viewBox units per internal unit; zoom only changes the SVG's CSS size
       const systems: SystemBox[] = []
@@ -698,7 +711,14 @@ class Renderer {
         }
       }
       // the line count travels with the drawing (and its cached copies), for the one-screen view
-      const svg = `${this.host.innerHTML}<!--hymnal:systems=${systems.length}-->`
+      const starts: number[] = []
+      for (const page of osmd.GraphicSheet.MusicPages) {
+        page.MusicSystems.forEach((sys, i) => {
+          const first = (sys.GraphicalMeasures as any[])[0]?.[0]
+          if (i > 0 && first) starts.push(first.parentSourceMeasure.measureListIndex)
+        })
+      }
+      const svg = `${this.host.innerHTML}<!--hymnal:systems=${systems.length}--><!--hymnal:breaks=${starts.join(',')}-->`
       const svgEl = this.host.querySelector('svg')
       const vb = svgEl?.getAttribute('viewBox')?.split(/[ ,]+/).map(Number)
       const viewWidth = vb && vb.length === 4 ? vb[2] : Number(svgEl?.getAttribute('width') ?? 0) / req.zoom
@@ -719,6 +739,7 @@ let print: Renderer | null = null
 
 export function screenRenderer(): Renderer {
   screen ??= new Renderer(SCREEN_FONT, 'Endless')
+  if (import.meta.env.DEV) (window as any).__hymnalScreen = screen // for timing tests
   return screen
 }
 

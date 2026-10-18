@@ -36,6 +36,7 @@ from hymnlib import XML_LANG, VERSE_PREFIX, melody_slots  # noqa: E402
 from chords import add_chords  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+PRAISE_BASE = 1000
 CHO = "ㄱㄲㄴㄷㄸㄹㅁㅂㅃㅅㅆㅇㅈㅉㅊㅋㅌㅍㅎ"
 
 
@@ -310,9 +311,14 @@ def main(argv):
     lock = SiteLock.from_env()
     with open(os.path.join(gen_dir, "lock.json"), "w", encoding="utf-8") as fh:
         json.dump(lock.params() if lock else None, fh)
-    for d in sorted(glob.glob(os.path.join(ROOT, "data/hymns/*"))):
-        n = int(os.path.basename(d))
+    books = [(int(os.path.basename(d)), d, False) for d in sorted(glob.glob(os.path.join(ROOT, "data/hymns/*")))]
+    # praise songs (CCM lead sheets from tools/leadsheet.py): n = 1000 + their place, never shown
+    books += [(PRAISE_BASE + int(os.path.basename(d)), d, True) for d in sorted(glob.glob(os.path.join(ROOT, "data/praise/*")))
+              if os.path.exists(os.path.join(d, "score.musicxml"))]
+    for n, d, praise in books:
         meta = json.load(open(os.path.join(d, "meta.json"), encoding="utf-8"))
+        if praise:
+            meta = {"title_en": "", "publish": True, **meta}
         publish = meta["publish"] or not pd_only
         for ch in meta["title_ko"]:
             if 0xAC00 <= ord(ch) <= 0xD7A3:
@@ -322,6 +328,8 @@ def main(argv):
             "c": choseong(meta["title_ko"]), "t": meta.get("theme", ""),
             "kt": meta.get("key_table", ""), "ts": meta.get("time_table", ""),
         }
+        if praise:
+            row["p"] = 1
         if not publish:
             row["f"] = None
             row["g"] = 1 if meta.get("korean_authored") else 2
@@ -330,6 +338,8 @@ def main(argv):
             continue
         root = etree.parse(os.path.join(d, "score.musicxml"), etree.XMLParser(remove_blank_text=True)).getroot()
         slots = melody_slots(root)
+        if praise and root.find(".//time") is not None:
+            row["ts"] = f'{root.findtext(".//time/beats")}/{root.findtext(".//time/beat-type")}'
         kv = max((v for s in slots for v in s.ko), default=0)
         en, quality = parse_en(os.path.join(d, "lyrics.en.txt"))
         en_mode = 0
@@ -346,8 +356,9 @@ def main(argv):
         if en_mode == 0 and text_en:
             en_mode = 2
         drop_doubled_lyrics(root)
-        fix_bass_clef(root)
-        add_chords(root)  # chord letters for the band, read from the four-part harmony
+        if not praise:
+            fix_bass_clef(root)
+            add_chords(root)  # chord letters for the band, read from the four-part harmony
         hide_secondary_rests(root)
         # declare lyric languages for other software
         defaults = root.find("defaults")

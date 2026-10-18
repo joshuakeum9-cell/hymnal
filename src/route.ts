@@ -7,6 +7,7 @@ export type Route =
   | { name: 'old'; o: number }
   | { name: 'set'; params: URLSearchParams }
   | { name: 'about' }
+  | { name: 'praise' }
   | { name: 'notfound' }
 
 export function parseHash(hash: string): Route {
@@ -16,6 +17,7 @@ export function parseHash(hash: string): Route {
   const parts = path.split('/').filter(Boolean)
   if (parts.length === 0) return { name: 'search' }
   if (parts[0] === 'about') return { name: 'about' }
+  if (parts[0] === 'praise') return { name: 'praise' }
   if (parts[0] === 'set') return { name: 'set', params }
   if (parts[0] === 'old' && /^\d+$/.test(parts[1] ?? '')) return { name: 'old', o: Number(parts[1]) }
   if (/^\d+$/.test(parts[0])) return { name: 'hymn', n: Number(parts[0]), params }

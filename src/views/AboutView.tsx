@@ -16,6 +16,8 @@ export function AboutView() {
   const published = rows.filter(r => r.f)
   const gatedKo = rows.filter(r => r.g === 1).length
   const gatedOther = rows.filter(r => r.g === 2).length
+  const hymnCount = published.filter(r => !r.p).length
+  const praiseCount = published.filter(r => r.p).length
 
   const downloadAll = async () => {
     if (!('caches' in window)) {
@@ -98,8 +100,9 @@ export function AboutView() {
           {gatedKo + gatedOther ? (
             <p>{published.length}곡에 악보가 있습니다. 한국인이 지은 {gatedKo}곡과 비교적 최근 찬송 {gatedOther}곡은 가사나 곡의 저작권이 남아 있을 수 있어 목록에만 있고 악보는 아직 없습니다. 저작권자의 허락을 받으면 추가합니다.</p>
           ) : (
-            <p>{published.length}곡 모두 악보가 있습니다.</p>
+            <p>찬송 {hymnCount}곡 모두 악보가 있습니다.</p>
           )}
+          {praiseCount ? <p>찬양(CCM) {praiseCount}곡도 있습니다. 번호 없이 제목으로 찾거나 <a href="#/praise">찬양 전체 보기</a>에서 고르고, 찬송처럼 키를 바꾸고 콘티에 넣을 수 있습니다. 멜로디와 가사는 교회 찬양 연습 악보집에서 옮긴 것입니다. 코드는 악보집에 없어서 프로그램이 멜로디와 조에 맞춰 붙인 것이라, 원곡 코드와 다를 수 있습니다.</p> : null}
           <p>음표와 한글 가사는 깔끔이 CCM({ccm})의 뮤즈스코어 사보를 {cc} 조건으로 가져와 MusicXML로 바꾸고 알려진 오타 몇 곳을 고친 것입니다. 영어 가사는 저작권이 만료된 원문으로, 한영 찬송가에 실린 표기를 따르며, 음표에 맞추는 일은 프로그램이 한 뒤 손으로 고쳐 가고 있어 가끔 음절이 다른 음표에 놓일 수 있습니다. 제목과 통일 번호는 hymnEngKorean, 조는 praisenworship.biblia66.com, 작사 작곡 정보는 bibletoppt.com에서 가져왔습니다.</p>
 
           <h2>저작권과 삭제 요청</h2>
@@ -134,8 +137,9 @@ export function AboutView() {
           {gatedKo + gatedOther ? (
             <p>{published.length} hymns have music. {gatedKo} hymns by Korean authors and {gatedOther} more recent hymns are listed but have no music yet, because their words or music may still be under copyright. They will be added if the rights holders give permission.</p>
           ) : (
-            <p>All {published.length} hymns have music.</p>
+            <p>All {hymnCount} hymns have music.</p>
           )}
+          {praiseCount ? <p>There are also {praiseCount} praise songs (CCM). They have no numbers: find them by title or in <a href="#/praise">All praise songs</a>, and change keys or add them to a set list like any hymn. Their melodies and words come from the church's worship practice book. The book has no chords, so the chord letters are fitted to each melody and key by a program and may differ from the original chords.</p> : null}
           <p>The notes and Korean words come from the MuseScore transcriptions by 깔끔이 CCM ({ccm}), shared under {cc}. We converted them to MusicXML and fixed a few known typos. The English words are the original public-domain texts as the Korean-English hymnal prints them, lined up with the notes by a script and checked by hand over time, so a syllable may occasionally sit on the wrong note. Titles and old numbers come from the hymnEngKorean project, keys from praisenworship.biblia66.com, credits from bibletoppt.com.</p>
 
           <h2>Copyright and takedown</h2>

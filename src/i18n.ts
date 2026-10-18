@@ -2,6 +2,7 @@
 // words around it: buttons, hints, headings, print labels.
 import { useEffect, useState } from 'preact/hooks'
 import { getPrefs, setPrefs, subscribe } from './store'
+import { isPraise, rowFor } from './data'
 
 export type Lang = 'ko' | 'en'
 
@@ -10,6 +11,10 @@ const STR = {
   'home.title': { ko: '새찬송가', en: 'Band Hymnal' },
   'home.subtitle': { ko: '찬양팀 악보', en: 'Korean-English Hymnal' },
   'lang.other': { ko: 'English', en: '한국어' },
+  'praise': { ko: '찬양', en: 'Praise' },
+  'praise.title': { ko: '찬양 (CCM)', en: 'Praise songs (CCM)' },
+  'praise.all': { ko: '찬양 전체 보기', en: 'All praise songs' },
+  'add.placeholder.title': { ko: '제목으로 추가 (찬송, 찬양)', en: 'Add by title (hymns, praise songs)' },
   'lang.switch': { ko: '화면을 영어로 보기', en: 'Show the app in Korean' },
   'setlist': { ko: '콘티', en: 'Set list' },
   'search.label.number': { ko: '장 번호', en: 'Hymn number' },
@@ -148,16 +153,25 @@ const STR = {
 
 export type Key = keyof typeof STR
 
+/** How a song is named in a sentence: a hymn by its number ("405장"), a praise song by its title. */
+export function songName(l: Lang, n: number): string {
+  if (isPraise(n)) {
+    const r = rowFor(n)
+    return r ? `'${l === 'en' && r.e ? r.e : r.k}'` : ''
+  }
+  return l === 'ko' ? `${n}장` : String(n)
+}
+
 /** Sentences with numbers in them. */
 export const F = {
-  startFrom: (l: Lang, n: number) => (l === 'ko' ? `${n}장부터 시작` : `Start from ${n}`),
-  startPlaying: (l: Lang, n: number) => (l === 'ko' ? `${n}장부터 시작` : `Start playing from ${n}`),
+  startFrom: (l: Lang, n: number) => (l === 'ko' ? `${songName(l, n)}부터 시작` : `Start from ${songName(l, n)}`),
+  startPlaying: (l: Lang, n: number) => (l === 'ko' ? `${songName(l, n)}부터 시작` : `Start playing from ${songName(l, n)}`),
   oldTag: (l: Lang, o: number) => (l === 'ko' ? `통 ${o}` : `old ${o}`),
   noHymn: (l: Lang, n: number | string) => (l === 'ko' ? `${n}장은 없습니다. 새찬송가는 645장까지입니다.` : `There is no hymn ${n}. The hymnal has 645 hymns.`),
   noHymnShort: (l: Lang, n: string) => (l === 'ko' ? `${n}장은 없습니다.` : `There is no hymn ${n}.`),
   addPreview: (l: Lang, n: number, title: string, old?: number) =>
-    old ? (l === 'ko' ? `통일 ${old}장 → ${n}장 ${title}` : `Old ${old} → ${n} ${title}`) : `${n}${l === 'ko' ? '장' : ''} ${title}`,
-  already: (l: Lang, n: number) => (l === 'ko' ? `${n}장은 이미 콘티에 있습니다.` : `${n} is already in the list.`),
+    old ? (l === 'ko' ? `통일 ${old}장 → ${n}장 ${title}` : `Old ${old} → ${n} ${title}`) : isPraise(n) ? title : `${n}${l === 'ko' ? '장' : ''} ${title}`,
+  already: (l: Lang, n: number) => (l === 'ko' ? `${songName(l, n)}${isPraise(n) ? '' : '은'} 이미 콘티에 있습니다.` : `${songName(l, n)} is already in the list.`),
   pagerSet: (l: Lang, i: number, n: number) => (l === 'ko' ? `콘티 ${i}/${n}` : `Set list ${i} of ${n}`),
   footOld: (l: Lang, o: number) => (l === 'ko' ? `통일찬송가 ${o}장.` : `Old hymnal ${o}.`),
   printOld: (l: Lang, o: number) => (l === 'ko' ? `통일 ${o}장` : `Old hymnal ${o}`),
@@ -165,11 +179,11 @@ export const F = {
     l === 'ko' ? `공유받은 콘티에 ${n}곡이 있습니다: ${list}.` : `Someone shared a set list with ${n} hymn${n === 1 ? '' : 's'}: ${list}.`,
   notPrinted: (l: Lang, list: string) => (l === 'ko' ? `악보가 없어 인쇄하지 않은 찬송: ${list}.` : `Not printed because the music is not on the site: ${list}.`),
   printFailed: (l: Lang, m: string) => (l === 'ko' ? `인쇄에 실패했습니다: ${m}` : `Printing failed: ${m}`),
-  remove: (l: Lang, n: number) => (l === 'ko' ? `${n}장 빼기` : `Remove ${n} from the list`),
-  keyFor: (l: Lang, n: number) => (l === 'ko' ? `${n}장 키` : `Key for ${n}`),
-  lyricsFor: (l: Lang, n: number) => (l === 'ko' ? `${n}장 가사` : `Lyrics for ${n}`),
-  moveUp: (l: Lang, n: number) => (l === 'ko' ? `${n}장 위로` : `Move ${n} up`),
-  moveDown: (l: Lang, n: number) => (l === 'ko' ? `${n}장 아래로` : `Move ${n} down`),
+  remove: (l: Lang, n: number) => (l === 'ko' ? `${songName(l, n)} 빼기` : `Remove ${songName(l, n)} from the list`),
+  keyFor: (l: Lang, n: number) => (l === 'ko' ? `${songName(l, n)} 키` : `Key for ${songName(l, n)}`),
+  lyricsFor: (l: Lang, n: number) => (l === 'ko' ? `${songName(l, n)} 가사` : `Lyrics for ${songName(l, n)}`),
+  moveUp: (l: Lang, n: number) => (l === 'ko' ? `${songName(l, n)} 위로` : `Move ${songName(l, n)} up`),
+  moveDown: (l: Lang, n: number) => (l === 'ko' ? `${songName(l, n)} 아래로` : `Move ${songName(l, n)} down`),
   oldMissing: (l: Lang, o: number) => (l === 'ko' ? `통일찬송가 ${o}장에 해당하는 찬송이 없습니다.` : `No hymn has old hymnal number ${o}.`),
   saveAll: (l: Lang, n: number | string) => (l === 'ko' ? `찬송 ${n}곡 모두 저장` : `Save all ${n} hymns`),
   saving: (l: Lang, done: number, total: number) => (l === 'ko' ? `${done}/${total} 저장 중…` : `Saving ${done} of ${total}…`),

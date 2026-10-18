@@ -1,5 +1,5 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'preact/hooks'
-import { loadHymn, loadIndex, prefetch, rowFor, type Hymn, type Row } from '../data'
+import { loadHymn, loadIndex, neighbour, prefetch, rowFor, type Hymn, type Row } from '../data'
 import { chipFor, isKeyName, keyLabel, melodyTop, originalTonic, pitchClass, semitoneDelta, type Direction, type LyricMode } from '../music'
 import { cachedSvg, screenRenderer, systemCount } from '../score'
 import { getPrefs, pushRecent, setPrefs, subscribe } from '../store'
@@ -260,7 +260,7 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
       setRow(r)
       if (!r) return
       pushRecent(n)
-      document.title = `${n} ${r.k}`
+      document.title = r.p ? r.k : `${n} ${r.k}`
       if (!r.f) return
       loadHymn(r).then(h => alive && setHymn(h)).catch(e => alive && setError(String(e.message ?? e)))
     })
@@ -373,10 +373,10 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
   const nextItem = inSet && setIdx >= 0 && setIdx < prefs.setList.length - 1 ? prefs.setList[setIdx + 1] : null
   const prevHash = inSet
     ? prevItem && hymnHash(prevItem.n, { key: prevItem.key, lyrics: prevItem.mode === 'both' ? undefined : prevItem.mode, s: '1' })
-    : n > 1 ? `#/${n - 1}` : null
+    : neighbour(n, -1) ? `#/${n - 1}` : null
   const nextHash = inSet
     ? nextItem && hymnHash(nextItem.n, { key: nextItem.key, lyrics: nextItem.mode === 'both' ? undefined : nextItem.mode, s: '1' })
-    : n < 645 ? `#/${n + 1}` : null
+    : neighbour(n, 1) ? `#/${n + 1}` : null
 
   useEffect(() => {
     if (!svg) return
@@ -391,7 +391,7 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
     let stop = false
     const pages = inSet
       ? [nextItem, prevItem].filter(Boolean).map(i => ({ n: i!.n, key: i!.key, mode: (i!.mode ?? 'both') as LyricMode }))
-      : [n + 1, n - 1].filter(x => x >= 1 && x <= 645).map(x => ({ n: x, key: undefined as string | undefined, mode: prefs.mode }))
+      : [neighbour(n, 1), neighbour(n, -1)].filter((x): x is number => x !== null).map(x => ({ n: x, key: undefined as string | undefined, mode: prefs.mode }))
     const t = window.setTimeout(async () => {
       for (const pg of pages) {
         if (stop) return
@@ -467,6 +467,14 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
     }
   }, [])
 
+  // a praise song has no number: the pager names it instead (short, the page is narrow)
+  const pagerLabel = (m: number) => {
+    const r = rowFor(m)
+    if (!r?.p) return String(m)
+    const name = titles(r, lang)[0]
+    return name.length > 10 ? `${name.slice(0, 9)}…` : name
+  }
+
   const inSetList = prefs.setList.some(i => i.n === n)
   const toggleSet = () => {
     if (inSetList) setPrefs({ setList: prefs.setList.filter(i => i.n !== n) })
@@ -510,13 +518,15 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
               <strong><KeyName tonic={key} minor={minor} /></strong>
               {delta !== 0 ? <span class="key-btn-orig">{t('key.from')} <KeyName tonic={origTonic} minor={minor} /></span> : null}
             </button>
-            <div class="segmented" role="group" aria-label={t('lyrics')}>
-              {MODES.map(m => (
-                <button key={m.id} class={mode === m.id ? 'on' : ''} aria-pressed={mode === m.id} title={t(m.title)} aria-label={t(m.title)} onClick={() => setMode(m.id)}>
-                  {t(m.label)}
-                </button>
-              ))}
-            </div>
+            {row?.p ? null : (
+              <div class="segmented" role="group" aria-label={t('lyrics')}>
+                {MODES.map(m => (
+                  <button key={m.id} class={mode === m.id ? 'on' : ''} aria-pressed={mode === m.id} title={t(m.title)} aria-label={t(m.title)} onClick={() => setMode(m.id)}>
+                    {t(m.label)}
+                  </button>
+                ))}
+              </div>
+            )}
             <div class="tool-group" role="group" aria-label={t('size')}>
               <button class="icon-btn" aria-label={t('smaller')} title={t('smaller')} disabled={prefs.zoom <= 0.6} onClick={() => setPrefs({ zoom: Math.max(0.6, Math.round((prefs.zoom - 0.1) * 10) / 10) })}><IconZoomOut /></button>
               <button class="icon-btn" aria-label={t('larger')} title={t('larger')} disabled={prefs.zoom >= 1.8} onClick={() => setPrefs({ zoom: Math.min(1.8, Math.round((prefs.zoom + 0.1) * 10) / 10) })}><IconZoomIn /></button>
@@ -576,9 +586,9 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
       )}
 
       <nav class="pager" aria-label={t('pager')}>
-        {prevHash ? <a class="pager-link" href={prevHash}><IconBack size={18} /><span>{inSet ? prevItem!.n : n - 1}</span></a> : <span />}
+        {prevHash ? <a class="pager-link" href={prevHash}><IconBack size={18} /><span>{pagerLabel(inSet ? prevItem!.n : n - 1)}</span></a> : <span />}
         {inSet ? <a class="pager-mid" href="#/set">{setIdx >= 0 ? F.pagerSet(lang, setIdx + 1, prefs.setList.length) : t('pager.back')}</a> : <span />}
-        {nextHash ? <a class="pager-link next" href={nextHash}><span>{inSet ? nextItem!.n : n + 1}</span><IconNext size={18} /></a> : <span />}
+        {nextHash ? <a class="pager-link next" href={nextHash}><span>{pagerLabel(inSet ? nextItem!.n : n + 1)}</span><IconNext size={18} /></a> : <span />}
       </nav>
 
       {row ? (
@@ -636,7 +646,7 @@ function FitHead({ n, row, keyName, height }: { n: number; row: Row | null; keyN
         <span class="fit-title">{primary}</span>
         {secondary ? <span class="fit-subtitle">{secondary}</span> : null}
       </div>
-      <div class="fit-num">{n}</div>
+      <div class="fit-num">{row?.p ? '' : n}</div>
     </header>
   )
 }
@@ -655,7 +665,7 @@ function Shell({ n, row, onBack, children, dark }: { n: number; row: Row | null;
             {secondary ? <span class="hymn-en">{secondary}</span> : null}
           </span>
         </div>
-        <span class="hymn-num">{n}</span>
+        <span class="hymn-num">{row?.p ? '' : n}</span>
         <a class="icon-btn" href="#/" aria-label={t('search')}><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5" /><path d="M16 16l4.5 4.5" /></svg></a>
       </header>
       {children}

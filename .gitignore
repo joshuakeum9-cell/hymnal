@@ -6,3 +6,4 @@ src/generated/
 *.log
 .DS_Store
 __pycache__/
+data/praise/

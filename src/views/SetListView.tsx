@@ -1,11 +1,11 @@
 import { useEffect, useRef, useState } from 'preact/hooks'
-import { loadHymn, loadIndex, rowFor, rowForOld, type Row } from '../data'
+import { loadHymn, loadIndex, rowFor, rowForOld, rowsNow, search, type Row } from '../data'
 import { MAJOR_KEYS, MINOR_KEYS, chipFor, isKeyName, keyLabel, melodyTop, originalTonic, pitchClass, semitoneDelta, type LyricMode } from '../music'
 import { decodeSet, encodeSet, getPrefs, setPrefs, subscribe, type SetItem } from '../store'
 import { go, hymnHash } from '../route'
 import { printHymns, printNow, type PrintItem } from '../print'
 import { IconBack, IconDown, IconGrip, IconPrint, IconShare, IconTrash, IconUp, KeyName } from '../icons'
-import { F, titles, useT } from '../i18n'
+import { F, songName, titles, useT } from '../i18n'
 
 function usePrefs() {
   const [p, set] = useState(getPrefs())
@@ -30,6 +30,7 @@ export function SetListView({ params }: { params: URLSearchParams }) {
   const { t, lang } = useT()
   const [ready, setReady] = useState(false)
   const [add, setAdd] = useState('')
+  const [addTitle, setAddTitle] = useState('')
   const [busy, setBusy] = useState(false)
   const [msg, setMsg] = useState('')
   const [printReady, setPrintReady] = useState(false)
@@ -110,6 +111,17 @@ export function SetListView({ params }: { params: URLSearchParams }) {
     setMsg('')
   }
 
+  // the title box finds hymns and praise songs by name; a tap adds one
+  const titleHits: Row[] = ready && addTitle.trim()
+    ? search(rowsNow(), addTitle, false, true).map(r => r.row).filter(r => r.f).slice(0, 8)
+    : []
+  const addRowToList = (r: Row) => {
+    if (list.some(i => i.n === r.n)) { setMsg(F.already(lang, r.n)); return }
+    save([...list, { n: r.n }])
+    setAddTitle('')
+    setMsg('')
+  }
+
   const share = async () => {
     const url = `${location.origin}${location.pathname}#/set?h=${encodeSet(list)}`
     try {
@@ -141,7 +153,7 @@ export function SetListView({ params }: { params: URLSearchParams }) {
         const top = melodyTop(new DOMParser().parseFromString(hymn.xml, 'application/xml'))
         items.push({ row, hymn, delta: semitoneDelta(orig, key, top), mode: it.mode ?? 'both', chords: prefs.chords !== false, keyName: keyLabel(key, minor), origName: keyLabel(orig, minor) })
       }
-      if (skipped.length) setMsg(F.notPrinted(lang, skipped.join(', ')))
+      if (skipped.length) setMsg(F.notPrinted(lang, skipped.map(n => songName(lang, n)).join(', ')))
       if (!items.length) setMsg(skipped.length ? t('none.music') : t('nothing.print'))
       else setPrintReady((await printHymns(items, prefs.paper)) === 'tap')
     } catch (e) {
@@ -163,7 +175,7 @@ export function SetListView({ params }: { params: URLSearchParams }) {
 
       {incoming && ready && encodeSet(incoming) !== encodeSet(list) ? (
         <div class="notice">
-          <p>{F.shared(lang, incoming.length, incoming.map(i => i.n).join(', '))}</p>
+          <p>{F.shared(lang, incoming.length, incoming.map(i => songName(lang, i.n)).join(', '))}</p>
           <div class="row-actions">
             <button class="btn primary" onClick={() => { save(incoming); go('#/set', true) }}>{t('use.list')}</button>
             <button class="btn" onClick={() => go('#/set', true)}>{t('keep.mine')}</button>
@@ -186,6 +198,24 @@ export function SetListView({ params }: { params: URLSearchParams }) {
           onInput={e => { setAdd((e.target as HTMLInputElement).value); setMsg('') }} aria-label={oldMode ? t('add.placeholder.old') : t('add.placeholder')} />
         <button class="btn primary" type="submit" disabled={!typed}>{t('add')}</button>
       </form>
+      <div class="set-add">
+        <input class="set-add-input" type="search" inputMode="text" enterKeyHint="search" autoComplete="off" spellcheck={false}
+          placeholder={t('add.placeholder.title')} aria-label={t('add.placeholder.title')} value={addTitle}
+          onInput={e => { setAddTitle((e.target as HTMLInputElement).value); setMsg('') }} />
+      </div>
+      {titleHits.length ? (
+        <ul class="results set-add-hits">
+          {titleHits.map(r => (
+            <li key={r.n}>
+              <button type="button" class="result" onClick={() => addRowToList(r)}>
+                <span class={`result-num${r.p ? ' is-praise' : ''}`}>{r.p ? t('praise') : r.n}</span>
+                <span class="result-titles"><span class="result-ko">{titles(r, lang)[0]}</span></span>
+                <span class="result-tag">{t('add')}</span>
+              </button>
+            </li>
+          ))}
+        </ul>
+      ) : null}
       {msg ? <p class="inline-note" role="status">{msg}</p>
         : addRow ? <p class="inline-note add-preview" aria-live="polite">{F.addPreview(lang, addRow.n, titles(addRow, lang)[0], oldMode ? Number(typed) : undefined)}</p>
         : null}
@@ -205,13 +235,13 @@ export function SetListView({ params }: { params: URLSearchParams }) {
               <li key={it.n} data-n={it.n} class={`set-item${drag?.n === it.n ? ' dragging' : ''}`}
                 style={drag?.n === it.n ? { transform: `translateY(${drag.dy}px)` } : undefined}>
                 <div class="set-item-top">
-                  <span class="set-grip" role="button" aria-label={`${t('drag')}, ${it.n}`} title={t('drag')}
+                  <span class="set-grip" role="button" aria-label={`${t('drag')}, ${songName(lang, it.n)}`} title={t('drag')}
                     onPointerDown={e => onGripDown(e as unknown as PointerEvent, it.n)}
                     onPointerMove={e => onGripMove(e as unknown as PointerEvent)}
                     onPointerUp={onGripUp} onPointerCancel={onGripUp}><IconGrip size={20} /></span>
                   <span class="set-pos" aria-hidden="true">{i + 1}</span>
                   <a class="set-item-main" href={hymnHash(it.n, { key: it.key, lyrics: it.mode && it.mode !== 'both' ? it.mode : undefined, s: '1' })}>
-                    <span class="result-num">{it.n}</span>
+                    <span class={`result-num${row?.p ? ' is-praise' : ''}`}>{row?.p ? t('praise') : it.n}</span>
                     <span class="result-titles">
                       <span class="result-ko">{primary}</span>
                       {secondary ? <span class="result-en">{secondary}</span> : null}

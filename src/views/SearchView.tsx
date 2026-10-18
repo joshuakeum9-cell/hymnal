@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from 'preact/hooks'
 import { loadIndex, search, type Row } from '../data'
 import { getPrefs, setPrefs, subscribe } from '../store'
-import { go, hymnHash } from '../route'
-import { IconGlobe, IconList, KeyName } from '../icons'
+import { go, goBack, hymnHash } from '../route'
+import { IconBack, IconGlobe, IconList, KeyName } from '../icons'
 import { F, setLang, titles, useT } from '../i18n'
 
 function usePrefs() {
@@ -126,7 +126,7 @@ export function SearchView() {
                   const r = rows.find(x => x.n === it.n)
                   return (
                     <a key={it.n} class="set-chip" href={hymnHash(it.n, { key: it.key, lyrics: it.mode && it.mode !== 'both' ? it.mode : undefined, s: '1' })}>
-                      <strong>{it.n}</strong>
+                      <strong>{r?.p ? t('praise') : it.n}</strong>
                       <span>{r ? titles(r, lang)[0] : ''}</span>
                       {it.key ? <em><KeyName tonic={it.key} minor={r?.m === 1} /></em> : null}
                     </a>
@@ -151,6 +151,11 @@ export function SearchView() {
               <p>{t('home.hint')}</p>
             </section>
           )}
+          {rows?.some(r => r.p) ? (
+            <section class="home-section">
+              <a class="btn praise-link" href="#/praise">{t('praise.all')} ({rows.filter(r => r.p).length})</a>
+            </section>
+          ) : null}
         </>
       )}
 
@@ -171,8 +176,8 @@ export function ResultList({ items, showOld = false, empty }: { items: Row[]; sh
         return (
           <li key={r.n}>
             <a class={`result ${r.f ? '' : 'is-gated'}`} href={`#/${r.n}`}>
-              <span class="result-num">
-                {r.n}
+              <span class={`result-num${r.p ? ' is-praise' : ''}`}>
+                {r.p ? t('praise') : r.n}
                 {showOld && r.o ? <small>{F.oldTag(lang, r.o)}</small> : null}
               </span>
               <span class="result-titles">
@@ -185,5 +190,25 @@ export function ResultList({ items, showOld = false, empty }: { items: Row[]; sh
         )
       })}
     </ul>
+  )
+}
+
+/** Every praise song, by title: they have no numbers to look up. */
+export function PraiseView() {
+  const [rows, setRows] = useState<Row[] | null>(null)
+  const { t, lang } = useT()
+  useEffect(() => { loadIndex().then(setRows) }, [])
+  const items = rows
+    ? rows.filter(r => r.p).sort((a, b) => titles(a, lang)[0].localeCompare(titles(b, lang)[0], lang))
+    : []
+  return (
+    <main class="set-page">
+      <header class="hymn-head">
+        <button class="icon-btn back" onClick={() => goBack('#/')} aria-label={t('back')}><IconBack /></button>
+        <div class="hymn-title"><span class="hymn-names"><span class="hymn-ko">{t('praise.title')}</span></span></div>
+        <span />
+      </header>
+      <ResultList items={items} empty={rows ? t('results.none') : t('loading')} />
+    </main>
   )
 }

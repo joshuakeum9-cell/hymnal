@@ -113,7 +113,7 @@ export async function printHymns(items: PrintItem[], paper: 'letter' | 'a4'): Pr
       page.style.width = `${P.w}px` // paper width, so a narrow phone screen cannot squeeze the header
       if (p === 0) {
         page.innerHTML = `<header class="print-head">
-          <div class="print-num">${it.row.n}</div>
+          <div class="print-num">${it.row.p ? '' : it.row.n}</div>
           <div class="print-titles"><div class="print-ko">${esc(it.row.k)}</div>${it.row.e ? `<div class="print-en">${esc(it.row.e)}</div>` : ''}</div>
           <div class="print-key">${esc(keyText + modeText)}${it.row.o ? `<br>${esc(F.printOld(lang, it.row.o))}` : ''}</div>
         </header>`
@@ -131,7 +131,8 @@ export async function printHymns(items: PrintItem[], paper: 'letter' | 'a4'): Pr
       page.appendChild(clone)
       const foot = document.createElement('footer')
       foot.className = 'print-foot'
-      foot.textContent = pages.length > 1 ? `${it.row.n} ${it.row.k}, ${F.printPage(lang, p + 1, pages.length)}` : `${it.row.n} ${it.row.k}`
+      const name = it.row.p ? it.row.k : `${it.row.n} ${it.row.k}`
+      foot.textContent = pages.length > 1 ? `${name}, ${F.printPage(lang, p + 1, pages.length)}` : name
       if (p === pages.length - 1) {
         foot.textContent += `. ${creditText(it.hymn.cr ?? '', lang)} ${t('print.engraving', lang)}`
       }

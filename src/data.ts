@@ -15,6 +15,16 @@ export type Row = {
   en?: 0 | 1 | 2     // English: 0 none, 1 under the notes, 2 as text below
   ts?: string        // time signature from the key table
   kt?: string        // key from the key table (shown for gated hymns)
+  p?: 1              // a praise song (CCM): no hymnal number; n is 1000 + its place in the praise list
+}
+
+/** Praise songs carry n = 1000 + k so routes, set lists and caches work unchanged; the number is never shown. */
+export const isPraise = (n: number) => n > 1000
+
+/** The neighbour of n in its own book (hymns 1-645, praise songs 1001-...), or null at either end. */
+export function neighbour(n: number, d: 1 | -1): number | null {
+  const m = n + d
+  return rowFor(m) && isPraise(m) === isPraise(n) ? m : null
 }
 
 export type Hymn = { n: number; xml: string; ko: string[]; en: string[]; enMode: 0 | 1 | 2; cr?: string }
@@ -22,10 +32,17 @@ export type Hymn = { n: number; xml: string; ko: string[]; en: string[]; enMode:
 let indexPromise: Promise<Row[]> | null = null
 let byNumber: Map<number, Row> | null = null
 let byOld: Map<number, Row> | null = null
+let allRows: Row[] = []
+
+/** The index once loadIndex() has finished (empty before). */
+export function rowsNow(): Row[] {
+  return allRows
+}
 
 export function loadIndex(): Promise<Row[]> {
   indexPromise ??= import('./generated/index.json').then(m => {
     const rows = m.default as Row[]
+    allRows = rows
     byNumber = new Map(rows.map(r => [r.n, r]))
     byOld = new Map(rows.filter(r => r.o).map(r => [r.o as number, r]))
     return rows
@@ -158,8 +175,9 @@ export function search(rows: Row[], query: string, oldNumbers: boolean, titleOnl
   }
   if (!titleOnly && /^\d+$/.test(q)) {
     const num = Number(q)
-    const exact = rows.filter(r => r.n === num)
-    const more = rows.filter(r => r.n !== num && String(r.n).startsWith(q)).slice(0, 12)
+    const hymns = rows.filter(r => !r.p)
+    const exact = hymns.filter(r => r.n === num)
+    const more = hymns.filter(r => r.n !== num && String(r.n).startsWith(q)).slice(0, 12)
     return [...exact, ...more].map(row => ({ row, via: 'number' as const }))
   }
   const nq = norm(q)

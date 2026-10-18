@@ -98,6 +98,8 @@ export function filterLyrics(xml: string, mode: LyricMode, chords = true): Docum
   const doc = new DOMParser().parseFromString(xml, 'application/xml')
   if (doc.getElementsByTagName('parsererror').length) throw new Error('Could not read this hymn file')
   const lyrics = Array.from(doc.getElementsByTagName('lyric'))
+  // a song with no words in the chosen language (a praise song in EN) keeps the words it has
+  if (mode !== 'both' && !lyrics.some(l => lyricLang(l) === mode)) mode = 'both'
   if (mode !== 'both') {
     for (const l of lyrics) if (lyricLang(l) !== mode) l.parentNode?.removeChild(l)
   }

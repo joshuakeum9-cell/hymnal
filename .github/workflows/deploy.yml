@@ -31,6 +31,13 @@ jobs:
       - name: Check the hymn data
         run: python tools/check_data.py
 
+      - name: Open and convert the praise songs
+        run: |
+          python tools/praise_vault.py open
+          if [ -d data/praise ]; then python tools/leadsheet.py all; fi
+        env:
+          PRAISE_KEY: ${{ secrets.PRAISE_KEY }}
+
       - name: Build hymn files and search index
         run: python tools/build_data.py
         env:

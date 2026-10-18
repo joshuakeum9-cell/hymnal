@@ -1,7 +1,7 @@
 import { render } from 'preact'
 import { useEffect, useState } from 'preact/hooks'
 import { useRoute, go } from './route'
-import { SearchView } from './views/SearchView'
+import { PraiseView, SearchView } from './views/SearchView'
 import { HymnView } from './views/HymnView'
 import { SetListView } from './views/SetListView'
 import { AboutView } from './views/AboutView'
@@ -82,6 +82,7 @@ function App() {
     case 'old': view = <OldNumber o={route.o} />; break
     case 'set': view = <SetListView params={route.params} />; break
     case 'about': view = <AboutView />; break
+    case 'praise': view = <PraiseView />; break
     case 'notfound': view = <main class="search-page"><p class="empty">{t('notfound')} <a href="#/">{t('go.search')}</a></p></main>; break
     default: view = <SearchView />
   }

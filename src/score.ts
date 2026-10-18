@@ -108,7 +108,7 @@ export type SystemBox = { top: number; bottom: number; measures: number }
 /** systems are in the SVG's viewBox units; viewWidth is the viewBox width */
 export type RenderResult = { svg: string; ms: number; cached: boolean; systems: SystemBox[]; viewWidth: number }
 
-const ENGINE_VERSION = 'osmd-2.1.3-r38'
+const ENGINE_VERSION = 'osmd-2.1.3-r40'
 const memory = new Map<string, string>()
 const MEMORY_MAX = 30
 const IDB_MAX = 80
@@ -521,19 +521,20 @@ class Renderer {
     r.SystemLeftMargin = 0
     r.LyricsHeight = 2.2
     r.LyricsYOffsetToStaffHeight = 1.0
-    r.BetweenStaffDistance = 3
-    r.MinimumDistanceBetweenSystems = 3.5
+    // compact, so a phone shows more of a hymn per screen (the words keep their size)
+    r.BetweenStaffDistance = 2
+    r.MinimumDistanceBetweenSystems = 2
     r.RenderSingleHorizontalStaffline = false
     r.LyricOverlapAllowedIntoNextMeasure = 0
-    r.HorizontalBetweenLyricsDistance = 0.8
-    r.LyricsXPaddingFactorForLongLyrics = 1.6
+    r.HorizontalBetweenLyricsDistance = 0.4
+    r.LyricsXPaddingFactorForLongLyrics = 1.2
     r.LyricsXPaddingWidthThreshold = 1.1
     r.LyricsAlignmentStandard = m.TextAlignmentEnum.CenterBottom
-    r.VerticalBetweenLyricsDistance = 0.4
+    r.VerticalBetweenLyricsDistance = 0.25
     // room between a barline and the first and last notes, so a word centred under them stays in its measure
-    r.MeasureLeftMargin = 1.8
-    r.MeasureRightMargin = 0.8
-    r.MinSkyBottomDistBetweenSystems = 3
+    r.MeasureLeftMargin = 1.2
+    r.MeasureRightMargin = 0.5
+    r.MinSkyBottomDistBetweenSystems = 1.5
     // like a printed hymnal, the last line runs the full width too (the bars are shared out evenly
     // between the lines first, so it is never one bar stretched across the page)
     r.StretchLastSystemLine = true
@@ -553,6 +554,10 @@ class Renderer {
       r.DefaultColorLyrics = '#000000'
       r.DefaultColorChordSymbol = '#000000'
       r.DefaultColorLabel = '#000000'
+    }
+    // DEV only: try engraving rules from localStorage ('hymnal.rules', a JSON object) without a rebuild
+    if (import.meta.env.DEV) {
+      try { Object.assign(r, JSON.parse(localStorage.getItem('hymnal.rules') || '{}')[this.font === PRINT_FONT ? 'print' : 'screen'] ?? {}) } catch { /* none */ }
     }
     this.textBase = { lyrics: r.LyricsHeight, chords: r.ChordSymbolTextHeight, between: r.VerticalBetweenLyricsDistance }
     this.osmd = osmd
@@ -636,10 +641,10 @@ class Renderer {
       let layout: Map<number, number> | null = null
       let bothStep: { elongation: number; spread: number } | null = null
       let bothMin: Map<number, number> | null = null
-      if (req.mode !== 'both') {
-        // Korean-only and English-only keep the bars exactly where 한/영 puts them, so switching
-        // the words never reflows or restretches the music: lay out 한/영 first, then break the
-        // lines at the same bars
+      if (req.mode === 'en') {
+        // English alone: the engine would widen bars for long English words that 한/영 fits by
+        // nudging words apart, which comes out longer, so English keeps the bars where 한/영 puts
+        // them: lay out 한/영 first, then break the lines at the same bars
         bothStep = await this.drawBalanced(osmd, filterLyrics(req.xml, 'both', req.chords ?? true, req.plain ?? false), req)
         const starts = new Set<number>()
         const bothWidths = barWidths(osmd)
@@ -675,6 +680,8 @@ class Renderer {
           if (separateLyrics(this.host) === 0) { matched = true; break }
         }
       }
+      // 한 lays out its own words: Korean alone is far narrower than 한/영, so it gets more bars to a
+      // line instead of keeping the wider 한/영 line breaks
       if (!matched) await this.drawBalanced(osmd, filterLyrics(req.xml, req.mode, req.chords ?? true, req.plain ?? false), req)
       const ms = Math.round(performance.now() - t0)
       const unit = 10 // OSMD draws 10 viewBox units per internal unit; zoom only changes the SVG's CSS size

@@ -94,7 +94,7 @@ function lyricLang(lyric: Element): string {
 }
 
 /** Parse the MusicXML and keep only the lyric lines for the chosen mode, renumbered 1..n; drop chord letters when chords is false. */
-export function filterLyrics(xml: string, mode: LyricMode, chords = true): Document {
+export function filterLyrics(xml: string, mode: LyricMode, chords = true, plain = false): Document {
   const doc = new DOMParser().parseFromString(xml, 'application/xml')
   if (doc.getElementsByTagName('parsererror').length) throw new Error('Could not read this hymn file')
   const lyrics = Array.from(doc.getElementsByTagName('lyric'))
@@ -113,7 +113,14 @@ export function filterLyrics(xml: string, mode: LyricMode, chords = true): Docum
   const map = new Map(numbers.map((n, i) => [n, String(i + 1).padStart(2, '0')]))
   for (const l of kept) l.setAttribute('number', map.get(Number(l.getAttribute('number') ?? 1)) ?? '1')
   for (const ll of Array.from(doc.getElementsByTagName('lyric-language'))) ll.parentNode?.removeChild(ll)
-  if (!chords) for (const h of Array.from(doc.getElementsByTagName('harmony'))) h.parentNode?.removeChild(h)
+  const harmonies = Array.from(doc.getElementsByTagName('harmony'))
+  // a praise song carries two chord sets: the book's, and fuller ones marked type="alternate"
+  const twoSets = harmonies.some(h => h.getAttribute('type') === 'alternate')
+  for (const h of harmonies) {
+    const alt = h.getAttribute('type') === 'alternate'
+    if (!chords || (twoSets && alt === plain)) h.parentNode?.removeChild(h)
+    else if (alt) h.removeAttribute('type')
+  }
   return doc
 }
 

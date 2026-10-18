@@ -94,6 +94,7 @@ export type RenderRequest = {
   xml: string
   mode: LyricMode
   chords?: boolean
+  plain?: boolean      // praise songs: the book's chords rather than the fuller set
   delta: number        // semitones
   width: number        // CSS px of the score column
   zoom: number
@@ -107,7 +108,7 @@ export type SystemBox = { top: number; bottom: number; measures: number }
 /** systems are in the SVG's viewBox units; viewWidth is the viewBox width */
 export type RenderResult = { svg: string; ms: number; cached: boolean; systems: SystemBox[]; viewWidth: number }
 
-const ENGINE_VERSION = 'osmd-2.1.3-r37'
+const ENGINE_VERSION = 'osmd-2.1.3-r38'
 const memory = new Map<string, string>()
 const MEMORY_MAX = 30
 const IDB_MAX = 80
@@ -629,7 +630,7 @@ class Renderer {
       const osmd = await this.engine()
       this.applyText(osmd, req.text ?? 1)
       this.host.style.width = `${Math.max(280, Math.round(req.width))}px`
-      const doc = filterLyrics(req.xml, req.mode, req.chords ?? true)
+      const doc = filterLyrics(req.xml, req.mode, req.chords ?? true, req.plain ?? false)
       const rules = osmd.EngravingRules
       rules.NewSystemAtXMLNewSystemAttribute = false
       let layout: Map<number, number> | null = null
@@ -639,7 +640,7 @@ class Renderer {
         // Korean-only and English-only keep the bars exactly where 한/영 puts them, so switching
         // the words never reflows or restretches the music: lay out 한/영 first, then break the
         // lines at the same bars
-        bothStep = await this.drawBalanced(osmd, filterLyrics(req.xml, 'both', req.chords ?? true), req)
+        bothStep = await this.drawBalanced(osmd, filterLyrics(req.xml, 'both', req.chords ?? true, req.plain ?? false), req)
         const starts = new Set<number>()
         const bothWidths = barWidths(osmd)
         bothMin = minWidths(osmd)
@@ -674,7 +675,7 @@ class Renderer {
           if (separateLyrics(this.host) === 0) { matched = true; break }
         }
       }
-      if (!matched) await this.drawBalanced(osmd, filterLyrics(req.xml, req.mode, req.chords ?? true), req)
+      if (!matched) await this.drawBalanced(osmd, filterLyrics(req.xml, req.mode, req.chords ?? true, req.plain ?? false), req)
       const ms = Math.round(performance.now() - t0)
       const unit = 10 // OSMD draws 10 viewBox units per internal unit; zoom only changes the SVG's CSS size
       const systems: SystemBox[] = []

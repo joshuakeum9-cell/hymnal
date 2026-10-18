@@ -46,15 +46,15 @@ type Draw = (width: number, zoom: number, mode?: LyricMode, text?: number) => Pr
 
 /** Draws one hymn (or takes it from the cache): the screen view, the one-screen view and the
  *  one-screen prefetch all use this, so a page prefetched is found under the same cache key. */
-function makeDraw(o: { n: number; f: string; xml: string; delta: number; chords: boolean; mode: LyricMode;
+function makeDraw(o: { n: number; f: string; xml: string; delta: number; chords: boolean; plain?: boolean; mode: LyricMode;
   stopped: () => boolean; onDrawing?: () => void }): Draw {
   return async (w, z, m = o.mode, text = 1) => {
-    const cacheKey = `${o.n}|${o.f}|${o.delta}|${m}|${o.chords}|${w}|${z}|screen${text !== 1 ? `|text${text}` : ''}`
+    const cacheKey = `${o.n}|${o.f}|${o.delta}|${m}|${o.chords}${o.plain ? '|plain' : ''}|${w}|${z}|screen${text !== 1 ? `|text${text}` : ''}`
     const hit = await cachedSvg(cacheKey)
     if (o.stopped()) return null
     if (hit) return hit
     o.onDrawing?.()
-    const res = await screenRenderer().render({ cacheKey, xml: o.xml, mode: m, chords: o.chords, delta: o.delta, width: w, zoom: z, text })
+    const res = await screenRenderer().render({ cacheKey, xml: o.xml, mode: m, chords: o.chords, plain: o.plain, delta: o.delta, width: w, zoom: z, text })
     if (!res.cached) console.info(`[hymnal] ${o.n} rendered in ${res.ms} ms (${m}, ${w}px)`)
     return o.stopped() ? null : res.svg
   }
@@ -312,6 +312,7 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
     return () => window.removeEventListener('resize', on)
   }, [])
   const chords = prefs.chords !== false
+  const plain = !!prefs.plainChords
   const fit = !!prefs.fit
   const zoom = Math.round(baseZoom(width, vh > 0 ? vh : 0) * prefs.zoom * 100) / 100
   useEffect(() => {
@@ -319,7 +320,7 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
     const my = ++token.current
     let cancelled = false
     setError(null)
-    const draw = makeDraw({ n, f: row.f, xml: hymn.xml, delta, chords, mode,
+    const draw = makeDraw({ n, f: row.f, xml: hymn.xml, delta, chords, plain, mode,
       stopped: () => cancelled || my !== token.current, onDrawing: () => setBusy(true) })
     ;(async () => {
       try {
@@ -343,7 +344,7 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
       cancelled = true
       setBusy(false)
     }
-  }, [hymn, row?.f, delta, mode, chords, width, zoom, fit, fit ? vw : 0, fit ? vh : 0])
+  }, [hymn, row?.f, delta, mode, chords, plain, width, zoom, fit, fit ? vw : 0, fit ? vh : 0])
 
   // the one-screen view uses the whole screen where the device allows it (not iPhone Safari,
   // where it fills the window instead); Escape leaves it
@@ -404,12 +405,12 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
           const orig = chipFor(originalTonic(r.fi ?? 0, m2), m2)
           const top2 = melodyTop(new DOMParser().parseFromString(h.xml, 'application/xml'))
           const d = semitoneDelta(orig, pg.key || orig, top2, 'auto')
-          await drawOneScreen(makeDraw({ n: pg.n, f: r.f, xml: h.xml, delta: d, chords, mode: pg.mode, stopped: () => stop }), pg.mode, vw, vh)
+          await drawOneScreen(makeDraw({ n: pg.n, f: r.f, xml: h.xml, delta: d, chords, plain, mode: pg.mode, stopped: () => stop }), pg.mode, vw, vh)
         } catch { /* a page that cannot be prefetched is drawn when it is opened */ }
       }
     }, 400)
     return () => { stop = true; window.clearTimeout(t) }
-  }, [fit, svg, busy, n, chords, vw, vh])
+  }, [fit, svg, busy, n, chords, plain, vw, vh])
 
   // arrow keys and page-turn pedals that send arrows
   useEffect(() => {
@@ -485,7 +486,7 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
     if (!hymn || !row) return
     setPrinting(true)
     try {
-      const r = await printHymns([{ row, hymn, delta, mode, chords, keyName: keyLabel(key, minor), origName: keyLabel(origTonic, minor) }], prefs.paper)
+      const r = await printHymns([{ row, hymn, delta, mode, chords, plain, keyName: keyLabel(key, minor), origName: keyLabel(origTonic, minor) }], prefs.paper)
       setPrintReady(r === 'tap')
     } finally {
       setPrinting(false)
@@ -542,6 +543,12 @@ export function HymnView({ n, params }: { n: number; params: URLSearchParams }) 
                 title={chords ? t('chords.hide') : t('chords.show')}>
                 {t('chords')}
               </button>
+              {row?.p && chords ? (
+                <div class="segmented chord-style" role="group" aria-label={t('chords.style')}>
+                  <button class={plain ? 'on' : ''} aria-pressed={plain} title={t('chords.book.title')} onClick={() => setPrefs({ plainChords: true })}>{t('chords.book')}</button>
+                  <button class={plain ? '' : 'on'} aria-pressed={!plain} title={t('chords.rich.title')} onClick={() => setPrefs({ plainChords: false })}>{t('chords.rich')}</button>
+                </div>
+              ) : null}
               <button class="icon-btn" aria-label={t('fit')} title={t('fit')} onClick={() => setFit(true)} disabled={!hymn}><IconExpand /></button>
               <button class="icon-btn" aria-label={t('print')} title={t('print')} onClick={doPrint} disabled={!hymn || printing}><IconPrint /></button>
               <button class="icon-btn" aria-label={prefs.dark ? t('light') : t('dark')} title={prefs.dark ? t('light') : t('dark')} onClick={() => setPrefs({ dark: !prefs.dark })}>

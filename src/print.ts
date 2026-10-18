@@ -5,7 +5,7 @@ import type { LyricMode } from './music'
 import { printRenderer, type SystemBox } from './score'
 import { F, creditText, currentLang, t } from './i18n'
 
-export type PrintItem = { row: Row; hymn: Hymn; delta: number; mode: LyricMode; keyName: string; origName: string; chords?: boolean }
+export type PrintItem = { row: Row; hymn: Hymn; delta: number; mode: LyricMode; keyName: string; origName: string; chords?: boolean; plain?: boolean }
 
 const PAPER = {
   // printable area at 96 CSS px per inch with 0.5 inch margins
@@ -70,8 +70,8 @@ export async function printHymns(items: PrintItem[], paper: 'letter' | 'a4'): Pr
   for (const it of items) {
     const draw = async (zoom: number) => {
       const res = await renderer.render({
-        cacheKey: `print|${it.row.n}|${it.row.f}|${it.delta}|${it.mode}|${it.chords !== false}|${paper}|${zoom}`,
-        xml: it.hymn.xml, mode: it.mode, chords: it.chords !== false, delta: it.delta, width: P.w, zoom, noCache: true,
+        cacheKey: `print|${it.row.n}|${it.row.f}|${it.delta}|${it.mode}|${it.chords !== false}${it.plain ? '|plain' : ''}|${paper}|${zoom}`,
+        xml: it.hymn.xml, mode: it.mode, chords: it.chords !== false, plain: it.plain, delta: it.delta, width: P.w, zoom, noCache: true,
       })
       const tpl = document.createElement('template')
       tpl.innerHTML = res.svg

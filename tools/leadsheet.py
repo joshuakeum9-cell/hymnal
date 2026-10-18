@@ -37,6 +37,7 @@ from lxml import etree
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from harmonize import harmonize  # noqa: E402
+from enrich import enrich  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DIV = 96  # divisions per quarter
@@ -520,9 +521,9 @@ def apply_book_chords(measures, pickup, path, key=(0, "major")) -> list[tuple[in
             continue
         k = re.fullmatch(r"key\s+(\S+)", line)
         if k:
-            book_li, book_pc = tonic_of(*key_fifths(k.group(1)))
-            our_li, our_pc = tonic_of(*key)
-            shift = ((our_li - book_li) % 7, (our_pc - book_pc) % 12)
+            # by key signature, so 'key Em' and 'key G' (the same page) move the chords alike
+            d = key[0] - key_fifths(k.group(1))[0]
+            shift = ((4 * d) % 7, (7 * d) % 12)
             continue
         m = re.fullmatch(r"m(\d+)\s+(n(\d+)|b([\d/.]+))\s+(\S+)", line)
         if not m:
@@ -637,6 +638,7 @@ def build(src: str, number: int) -> tuple[etree._Element, dict]:
             harmonize(measures[a:b + 1], metas[a:b + 1], False)
     given = sum(1 for e in sum(measures, []) if e.chord)
     made = 0 if given else harmonize(measures, metas, pickup)
+    richer = enrich(measures, metas, pickup)  # the fuller 풍성 chords, kept beside the book's
 
     root = etree.Element("score-partwise", version="4.0")
     w = etree.SubElement(root, "work")
@@ -680,6 +682,9 @@ def build(src: str, number: int) -> tuple[etree._Element, dict]:
                 direction(me, mark)
             if ev.chord:
                 me.append(chord_element(ev.chord, meta["fifths"]))
+            if getattr(ev, "rich", None):  # the fuller chord, shown instead when the app asks for it
+                me.append(chord_element(ev.rich, meta["fifths"]))
+                me[-1].set("type", "alternate")
             shown = ev.dur * F(3, 2) if ev.tuplet else ev.dur
             nt = note_type(shown)
             pieces = [ev.dur] if nt else split_parts(ev.dur)
@@ -753,7 +758,7 @@ def build(src: str, number: int) -> tuple[etree._Element, dict]:
                 ly.find("text").text = f"{v}.{ly.find('text').text}"
     info = {"title": head.get("T", ""), "fifths": fifths, "mode": mode, "meter": f"{beats}/{beat_type}",
             "bars": len(measures), "verses": verses, "problems": problems, "notes": notes,
-            "chords": given or made, "made": bool(made), "listing": listing,
+            "chords": given or made, "made": bool(made), "listing": listing, "richer": richer,
             "clashes": clashes(measures, metas, pickup)}
     if not info["chords"]:
         problems.append("no chord letters")

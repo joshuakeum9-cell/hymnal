@@ -108,7 +108,7 @@ export type SystemBox = { top: number; bottom: number; measures: number }
 /** systems are in the SVG's viewBox units; viewWidth is the viewBox width */
 export type RenderResult = { svg: string; ms: number; cached: boolean; systems: SystemBox[]; viewWidth: number }
 
-const ENGINE_VERSION = 'osmd-2.1.3-r40'
+const ENGINE_VERSION = 'osmd-2.1.3-r41'
 const memory = new Map<string, string>()
 const MEMORY_MAX = 30
 const IDB_MAX = 80
@@ -531,6 +531,10 @@ class Renderer {
     r.LyricsXPaddingWidthThreshold = 1.1
     r.LyricsAlignmentStandard = m.TextAlignmentEnum.CenterBottom
     r.VerticalBetweenLyricsDistance = 0.25
+    // a chord letter starts right over the note it starts on, as chord charts set it (OSMD shifts
+    // it a notehead to the left, which on a phone puts it over the note before and reads as early)
+    r.ChordSymbolRelativeXOffset = 0
+    r.ChordSymbolExtraXShiftForShortChordSymbols = 0
     // room between a barline and the first and last notes, so a word centred under them stays in its measure
     r.MeasureLeftMargin = 1.2
     r.MeasureRightMargin = 0.5

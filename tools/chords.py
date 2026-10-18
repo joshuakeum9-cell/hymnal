@@ -490,20 +490,21 @@ def analyse(root):
                     chord = (prev[0], prev[1], bass_pc if bass_pc != prev[0] and bass_pc in prev_tones and held else None)
                 else:
                     chord = prev
-            # the top staff must start a note here, so the letter sits above the melody
-            anchors = [n for n in notes if n.start == t and n.staff == "1"]
+            # the letter goes before a note that starts here: one on the top staff when there is one;
+            # under a held melody note, a lower voice's note (the harmony moves there, and the
+            # letter, marked for staff 1, is still drawn above the melody at this beat)
+            anchors = note_anchors(notes, t)
             if pickup and prev is None and chord[0] != key.tonic:
                 # the first letter a band sees is the key's own chord: a pickup harmonised on
                 # another chord gets no letter, and the chart starts at the first full bar
                 t = w_end
                 continue
             if chord != prev and anchors:
-                anchor = min(anchors, key=lambda n: -n.midi).el
+                anchor = anchors[0].el
                 r, b = spell_chord(chord, window, fifths)
                 out.append((t, m, anchor, r, chord[1], b))
                 prev, prev_raw = chord, raw
-            # with no note starting on the top staff the harmony moves under a held melody note:
-            # the previous letter stays
+            # with no note starting at all (every voice held) the previous letter stays
             t = w_end
     # the last chord a band plays must be named right even when it is struck off the beat (230
     # ends on a D chord struck on the half beat, which the beat-by-beat reading never names)
@@ -528,6 +529,123 @@ def analyse(root):
                 if out[-1][0] == end:
                     out.pop()  # a letter already on this note was the wrong one
                 out.append((end, measures[-1][0] if anchor.el.getparent() is measures[-1][0] else anchor.el.getparent(), anchor.el, rs, kind, bs))
+    return retime(out, notes, measures)
+
+
+def note_anchors(notes, t):
+    """Notes starting at t that a <harmony> can stand before, best first: the top staff's highest
+    note, then the other staff's. A note sounding with the one before it (<chord/>) is skipped, as
+    the reading position there is already past t."""
+    cands = [n for n in notes if n.start == t and n.el.find("chord") is None]
+    return sorted(cands, key=lambda n: (n.staff != "1", -n.midi))
+
+
+def retime(out, notes, measures):
+    """Move a letter one beat to where the harmony really changes. The beat-by-beat reading keeps
+    the old chord on a weak beat when it still nearly fits, so a change the four voices make on beat
+    4 (F to C7 under a passing melody note) can be written a beat late, and a letter can come a beat
+    before the voices move. A letter moves earlier when the beat before already sounds every note of
+    the new chord and clearly not the old one; later when its own beat still clearly sounds the old
+    chord and the next beat sounds the new one. It moves only onto a beat where the melody starts a
+    note, and never past the letters on either side."""
+    grid, where, span = [], {}, {}
+    for m, t0, length, beat, _ in measures:
+        t = t0
+        while t < t0 + length - Fraction(1, 64):
+            grid.append(t)
+            where[t] = m
+            span[t] = min(t + beat, t0 + length)
+            t += beat
+
+    def sounding(t):
+        """What the voices sing through the whole beat from t: each pitch class weighted by how long
+        it sounds in the beat, the lowest voice counted twice (a passing half-beat chord does not
+        make the beat that chord)."""
+        end = span[t]
+        s = [n for n in notes if n.start < end and n.end > t]
+        if len({(n.staff, n.voice) for n in s}) < 2:
+            return None
+        w: dict[int, float] = {}
+        for n in s:
+            w[n.midi % 12] = w.get(n.midi % 12, 0) + float(min(n.end, end) - max(n.start, t))
+        low = min(s, key=lambda n: n.midi)
+        w[low.midi % 12] = w.get(low.midi % 12, 0) + float(min(low.end, end) - max(low.start, t))
+        return w
+
+    def tones(entry):
+        _, _, _, (rs, ra), kind, bass = entry
+        root = (STEP_PC[rs] + ra) % 12
+        out_ = {(root + i) % 12 for i in KIND_TONES[kind]}
+        if bass:
+            out_.add((STEP_PC[bass[0]] + bass[1]) % 12)
+        return out_
+
+    def fit(chord, w):
+        return sum(v for p, v in w.items() if p in chord) / sum(w.values())
+
+    def anchor_at(t):
+        found = note_anchors(notes, t)
+        return found[0].el if found else None
+
+    index = {t: i for i, t in enumerate(grid)}
+    for _ in range(3):  # a letter can move one beat per pass; repeat while any moves
+        moved_any = False
+        for k in range(1, len(out)):
+            t = out[k][0]
+            if t not in index:
+                continue
+            i = index[t]
+            new, old = tones(out[k]), tones(out[k - 1])
+            if new == old:
+                continue
+            before = grid[i - 1] if i > 0 else None
+            if before is not None and before > out[k - 1][0]:
+                pcs = sounding(before)
+                a, at = anchor_at(before), before
+                # after a rest the voices may come in on a pickup inside the beat, already on the new
+                # chord (a C chord on the last eighth before the bar): the letter goes on that pickup
+                onsets = sorted({n.start for n in notes if before < n.start < t})
+                if a is None and onsets and not any(n.start < onsets[0] and n.end > before for n in notes):
+                    a, at = anchor_at(onsets[0]), onsets[0]
+                # or the voices moved between beats and hold through this one: the letter goes where
+                # they moved (G struck on the half beat and held into the next)
+                held = [n for n in notes if n.start <= before < n.end]
+                moved = max((n.start for n in held), default=None)
+                if a is None and moved is not None and out[k - 1][0] < moved < before:
+                    a, at = anchor_at(moved), moved
+                if pcs and len(pcs) > 1 and a is not None and fit(new, pcs) >= 0.9 and fit(new, pcs) - fit(old, pcs) >= 0.34:
+                    if out[k][0] != at:
+                        moved_any = True
+                    out[k] = (at, where[before], a) + out[k][3:]
+                    continue
+            here = sounding(t)
+            if here and len(here) > 1 and fit(old, here) - fit(new, here) >= 0.34:
+                # the letter came before the voices moved: carry it on to the first beat (before the
+                # next letter) that sounds the new chord at least as well and starts a note, over
+                # beats held on the old chord (E-flat over a B-flat pedal for three beats, then B-flat)
+                for j in range(i + 1, len(grid)):
+                    after = grid[j]
+                    if k + 1 < len(out) and after >= out[k + 1][0]:
+                        break
+                    nxt = sounding(after)
+                    if not nxt:
+                        break
+                    if fit(new, nxt) >= fit(old, nxt):
+                        # on the beat, or where the voices move inside it (in 3/2 a change can
+                        # fall on the second quarter of a half-note beat)
+                        at = after
+                        if anchor_at(after) is None:
+                            inside = sorted({n.start for n in notes if after < n.start < span[after]})
+                            at = inside[0] if inside else after
+                        a = anchor_at(at)
+                        if a is not None and (k + 1 == len(out) or at < out[k + 1][0]):
+                            moved_any = True
+                            out[k] = (at, where[after], a) + out[k][3:]
+                        break
+                    if fit(old, nxt) - fit(new, nxt) < 0.34:
+                        break  # neither clearly: leave the letter where it is
+        if not moved_any:
+            break
     return out
 
 
